@@ -376,7 +376,7 @@
                </subst>
                <substJoin/>
                <!--               Numéroter les changements de cette ligne au besoin; substJoin laissé ici pour joindre “la” à “de mes ancêtres”-->
-               <lb n="24"/><del xml:id="f17-r-24-1">ce chevalier estoit de bevrwich</del>
+               <lb n="24"/><del xml:id="f17-r-24-1">ce chevalier estoit de bevrwich</del>. et <del>y aiant faict recerche <add>iay trouvé</add></del>
                <substJoin target="f17-r-20-3, #f17-r-24-1"/>
             </p>
          </div>
