@@ -347,7 +347,7 @@
                <!--               Je ne suis plus sûre du tout de ce substJoin; À FAIRE pour toute cette opération compliquée de modification.-->
                un ancien cheualier escossois <subst>
                   <del>nommé</del>
-                  <add place="inline">de <placeName>bevrwich</placeName></add>
+                  <add place="inline">de <placeName>berruich</placeName></add>
                </subst> Amaneus de Mammes <lb n="21"/><del rend="cancelled">qui</del> dez lan 1200
                veint prendre terre <del rend="cancelled">ferme</del> en <subst xml:id="f17-r-20-3">
                   <del rend="cancelled">Marsan</del>
@@ -375,7 +375,7 @@
                         ancestres</add><lb/>au mont de Marsan.</add>
                </subst>
                <substJoin target="#f17-r-23-1, #f17-r-23-2"/>
-               <lb n="24"/><del xml:id="f17-r-24-1">ce chevalier estoit de bevrwich</del><substJoin
+               <lb n="24"/><del xml:id="f17-r-24-1">ce chevalier estoit de berruich</del><substJoin
                   target="f17-r-20-3, #f17-r-24-1"/>. et <del><del>y aiant faict recerche <del
                         rend="cancelled"><add><choice>
                               <abbr>mad<hi rend="superscript">e</hi></abbr>
@@ -407,13 +407,14 @@
                            </subst>
                         </add>
                      </subst>
-                     <subst><del><del rend="unmarked">et</del><del rend="cancelled">fort p</del><!--                     variante inachevée-->
+                     <subst>
+                        <del><del rend="unmarked">et</del><del rend="cancelled">fort p</del><!--                     variante inachevée-->
                            <lb n="26"/><del rend="cancelled">qu'en</del>
                         </del>
                         <add><del rend="cancelled"><add place="inline">de beaucoup</add>
                               <add place="margin">d'homes</add></del></add>
                         <!--                     Je suis toujours embêtée lorsque des ajouts changent de place en cours de route. Est-il si important de l'encoder?-->
-                      </subst>
+                     </subst>
                   </del>lan 1567 le gouverneur <subst>
                      <del>du pais</del>
                      <add place="inline">de la</add>
@@ -431,7 +432,14 @@
                      <del>les</del>
                      <add place="inline">les</add>
                   </subst> mesmes armes. </del>
-            </p>
+               <lb n="28"/>
+               <choice>
+                  <abbr><g>p</g></abbr>
+                  <expan>par</expan>
+               </choice>eilles <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> celles de noz parens de Berruich </p>
          </div>
       </body>
    </text>
