@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="tei_ms_De_Mesmes-1er-oct-3.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei_ms_De_Mesmes-5novembre.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -24,7 +24,7 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:lang="fr">
+            <msDesc xml:lang="fr" type="composite">
                <msIdentifier>
                   <country>France</country>
                   <settlement>Paris</settlement>
@@ -43,30 +43,166 @@
                <msContents>
                   <summary/>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+
+                        <support>
+                           <p><material/><locus/></p>
+                        </support>
+                        <extent><dimensions>
+                              <height/>
+                              <width/>
+                           </dimensions></extent>
+                        <foliation> </foliation>
+                        <foliation/>
+                        <collation/>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                     </layoutDesc>
+                     <!--                        layoutDesc - provisoire-->
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <!--                     handDesc provisoire-->
+                  <bindingDesc>
+                     <binding>
+                        <condition/>
+                     </binding>
+                  </bindingDesc>
+                  <!--                     bindingDesc provisoire-->
+               </physDesc>
+               <history/>
+               <additional/>
                <msPart>
-                  <msIdentifier/>
-                  <physDesc>
-                     <objectDesc>
-                        <supportDesc>
-
-                           <support>
-                              <p><material/><locus/></p>
-                           </support>
-                           <extent><dimensions>
-                                 <height/>
-                                 <width/>
-                              </dimensions></extent>
-                           <collation/>
-                           <foliation/>
-                           <condition/>
-
-                        </supportDesc>
-                     </objectDesc>
-
-                  </physDesc>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author></author>
+                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <title type="desc">Notes géographiques sur quelques lieux contestés des Commentaires de César avec plan et carte</title>
+                        <incipit></incipit>
+                        <explicit></explicit>
+                        <decoNote></decoNote>
+                        <filiation></filiation>
+                        <note></note>
+                        <textLang></textLang>
+                     </msItemStruct>
+                  </msContents>
                </msPart>
-
-
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author></author>
+                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <title type="main">De l'oraison de Xénophon sur les louanges d'Agésilas</title>
+                        <incipit></incipit>
+                        <explicit></explicit>
+                        <decoNote></decoNote>
+                        <filiation></filiation>
+                        <note></note>
+                        <textLang></textLang>
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author></author>
+                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <title type="desc">Traduction de divers passages de Plutarque sur les éclipses de lune et de soleil</title>
+                        <incipit></incipit>
+                        <explicit></explicit>
+                        <decoNote></decoNote>
+                        <filiation></filiation>
+                        <note></note>
+                        <textLang></textLang>
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. 17-33</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author></author>
+                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <title type="desc">Manuscrit autographe des Mémoires</title>
+                        <incipit></incipit>
+                        <explicit></explicit>
+                        <decoNote></decoNote>
+                        <filiation></filiation>
+                        <note></note>
+                        <textLang></textLang>
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author></author>
+                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <title type="desc">Fragments</title>
+                        <incipit></incipit>
+                        <explicit></explicit>
+                        <decoNote></decoNote>
+                        <filiation></filiation>
+                        <note></note>
+                        <textLang></textLang>
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author></author>
+                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <title type="desc">Discours sur la mort de monsieur le président de Marsan</title>
+                        <incipit></incipit>
+                        <explicit></explicit>
+                        <decoNote></decoNote>
+                        <filiation></filiation>
+                        <note></note>
+                        <textLang></textLang>
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author></author>
+                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <title type="desc">Discours pieux en latin</title>
+                        <incipit></incipit>
+                        <explicit></explicit>
+                        <decoNote></decoNote>
+                        <filiation></filiation>
+                        <note></note>
+                        <textLang></textLang>
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
