@@ -83,152 +83,191 @@
                   </msIdentifier>
                   <msContents>
                      <msItemStruct>
-                        <author></author>
-                        <respStmt><resp></resp><persName></persName></respStmt>
-                        <title type="desc">Notes géographiques sur quelques lieux contestés des Commentaires de César avec plan et carte</title>
-                        <incipit></incipit>
-                        <explicit></explicit>
-                        <decoNote></decoNote>
-                        <listBibl><bibl></bibl></listBibl>
-                        <filiation></filiation>
-                        <note></note>
-                        <textLang></textLang>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Notes géographiques sur quelques lieux contestés des
+                           Commentaires de César avec plan et carte</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
                      </msItemStruct>
                   </msContents>
-                  <physDesc></physDesc>
-                  <history></history>
+                  <physDesc/>
+                  <history/>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
-                     <summary></summary>
+                     <summary/>
                      <msItemStruct>
-                        <author></author>
-                        <respStmt><resp></resp><persName></persName></respStmt>
-                        <title type="main">De l'oraison de Xénophon sur les louanges d'Agésilas</title>
-                        <incipit></incipit>
-                        <explicit></explicit>
-                        <decoNote></decoNote>
-                        <listBibl><bibl></bibl></listBibl>
-                        <filiation></filiation>
-                        <note></note>
-                        <textLang></textLang>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="main">De l'oraison de Xénophon sur les louanges
+                           d'Agésilas</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
                      </msItemStruct>
                   </msContents>
-                  <physDesc></physDesc>
-                  <history></history>
+                  <physDesc/>
+                  <history/>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
-                     <summary></summary>
+                     <summary/>
                      <msItemStruct>
-                        <author></author>
-                        <respStmt><resp></resp><persName></persName></respStmt>
-                        <title type="desc">Traduction de divers passages de Plutarque sur les éclipses de lune et de soleil</title>
-                        <incipit></incipit>
-                        <explicit></explicit>
-                        <decoNote></decoNote>
-                        <listBibl><bibl></bibl></listBibl>
-                        <filiation></filiation>
-                        <note></note>
-                        <textLang></textLang>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Traduction de divers passages de Plutarque sur les
+                           éclipses de lune et de soleil</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
                      </msItemStruct>
                   </msContents>
-                  <physDesc></physDesc>
-                  <history></history>
+                  <physDesc/>
+                  <history/>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. 17r-33r</idno>
                   </msIdentifier>
                   <msContents>
-                     <summary></summary>
+                     <summary/>
                      <msItemStruct>
-                        <author></author>
-                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
                         <title type="desc">Manuscrit autographe des Mémoires</title>
-                        <incipit></incipit>
-                        <explicit></explicit>
-                        <decoNote></decoNote>
-                        <listBibl><bibl></bibl></listBibl>
-                        <filiation></filiation>
-                        <note></note>
-                        <textLang></textLang>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
                      </msItemStruct>
                   </msContents>
-                  <physDesc></physDesc>
-                  <history></history>
+                  <physDesc/>
+                  <history/>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
-                     <summary></summary>
+                     <summary/>
                      <msItemStruct>
-                        <author></author>
-                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
                         <title type="desc">Fragments</title>
-                        <incipit></incipit>
-                        <explicit></explicit>
-                        <decoNote></decoNote>
-                        <listBibl><bibl></bibl></listBibl>
-                        <filiation></filiation>
-                        <note></note>
-                        <textLang></textLang>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
                      </msItemStruct>
                   </msContents>
-                  <physDesc></physDesc>
-                  <history></history>
+                  <physDesc/>
+                  <history/>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
-                     <summary></summary>
+                     <summary/>
                      <msItemStruct>
-                        <author></author>
-                        <respStmt><resp></resp><persName></persName></respStmt>
-                        <title type="desc">Discours sur la mort de monsieur le président de Marsan</title>
-                        <incipit></incipit>
-                        <explicit></explicit>
-                        <decoNote></decoNote>
-                        <listBibl><bibl></bibl></listBibl>
-                        <filiation></filiation>
-                        <note></note>
-                        <textLang></textLang>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Discours sur la mort de monsieur le président de
+                           Marsan</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
                      </msItemStruct>
                   </msContents>
-                  <physDesc></physDesc>
-                  <history></history>
+                  <physDesc/>
+                  <history/>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
-                     <summary></summary>
+                     <summary/>
                      <msItemStruct>
-                        <author></author>
-                        <respStmt><resp></resp><persName></persName></respStmt>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
                         <title type="desc">Discours pieux en latin</title>
-                        <incipit></incipit>
-                        <explicit></explicit>
-                        <decoNote></decoNote>
-                        <listBibl><bibl></bibl></listBibl>
-                        <filiation></filiation>
-                        <note></note>
-                        <textLang></textLang>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
                      </msItemStruct>
                   </msContents>
-                  <physDesc></physDesc>
-                  <history></history>
+                  <physDesc/>
+                  <history/>
                </msPart>
             </msDesc>
          </sourceDesc>
