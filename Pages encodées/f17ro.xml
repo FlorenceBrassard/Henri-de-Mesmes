@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="tei_ms_De_Mesmes-5novembre.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei_ms_De_Mesmes-5novembrebis.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -89,17 +89,21 @@
                         <incipit></incipit>
                         <explicit></explicit>
                         <decoNote></decoNote>
+                        <listBibl><bibl></bibl></listBibl>
                         <filiation></filiation>
                         <note></note>
                         <textLang></textLang>
                      </msItemStruct>
                   </msContents>
+                  <physDesc></physDesc>
+                  <history></history>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
+                     <summary></summary>
                      <msItemStruct>
                         <author></author>
                         <respStmt><resp></resp><persName></persName></respStmt>
@@ -107,17 +111,21 @@
                         <incipit></incipit>
                         <explicit></explicit>
                         <decoNote></decoNote>
+                        <listBibl><bibl></bibl></listBibl>
                         <filiation></filiation>
                         <note></note>
                         <textLang></textLang>
                      </msItemStruct>
                   </msContents>
+                  <physDesc></physDesc>
+                  <history></history>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
+                     <summary></summary>
                      <msItemStruct>
                         <author></author>
                         <respStmt><resp></resp><persName></persName></respStmt>
@@ -125,17 +133,21 @@
                         <incipit></incipit>
                         <explicit></explicit>
                         <decoNote></decoNote>
+                        <listBibl><bibl></bibl></listBibl>
                         <filiation></filiation>
                         <note></note>
                         <textLang></textLang>
                      </msItemStruct>
                   </msContents>
+                  <physDesc></physDesc>
+                  <history></history>
                </msPart>
                <msPart>
                   <msIdentifier>
-                     <idno>729 ff. 17-33</idno>
+                     <idno>729 ff. 17r-33r</idno>
                   </msIdentifier>
                   <msContents>
+                     <summary></summary>
                      <msItemStruct>
                         <author></author>
                         <respStmt><resp></resp><persName></persName></respStmt>
@@ -143,17 +155,21 @@
                         <incipit></incipit>
                         <explicit></explicit>
                         <decoNote></decoNote>
+                        <listBibl><bibl></bibl></listBibl>
                         <filiation></filiation>
                         <note></note>
                         <textLang></textLang>
                      </msItemStruct>
                   </msContents>
+                  <physDesc></physDesc>
+                  <history></history>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
+                     <summary></summary>
                      <msItemStruct>
                         <author></author>
                         <respStmt><resp></resp><persName></persName></respStmt>
@@ -161,17 +177,21 @@
                         <incipit></incipit>
                         <explicit></explicit>
                         <decoNote></decoNote>
+                        <listBibl><bibl></bibl></listBibl>
                         <filiation></filiation>
                         <note></note>
                         <textLang></textLang>
                      </msItemStruct>
                   </msContents>
+                  <physDesc></physDesc>
+                  <history></history>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
+                     <summary></summary>
                      <msItemStruct>
                         <author></author>
                         <respStmt><resp></resp><persName></persName></respStmt>
@@ -179,17 +199,21 @@
                         <incipit></incipit>
                         <explicit></explicit>
                         <decoNote></decoNote>
+                        <listBibl><bibl></bibl></listBibl>
                         <filiation></filiation>
                         <note></note>
                         <textLang></textLang>
                      </msItemStruct>
                   </msContents>
+                  <physDesc></physDesc>
+                  <history></history>
                </msPart>
                <msPart>
                   <msIdentifier>
                      <idno>729 ff. </idno>
                   </msIdentifier>
                   <msContents>
+                     <summary></summary>
                      <msItemStruct>
                         <author></author>
                         <respStmt><resp></resp><persName></persName></respStmt>
@@ -197,11 +221,14 @@
                         <incipit></incipit>
                         <explicit></explicit>
                         <decoNote></decoNote>
+                        <listBibl><bibl></bibl></listBibl>
                         <filiation></filiation>
                         <note></note>
                         <textLang></textLang>
                      </msItemStruct>
                   </msContents>
+                  <physDesc></physDesc>
+                  <history></history>
                </msPart>
             </msDesc>
          </sourceDesc>
