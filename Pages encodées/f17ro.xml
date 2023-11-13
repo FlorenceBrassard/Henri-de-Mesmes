@@ -281,6 +281,10 @@
             points="1873,1140 1858,1178 1736,1198 1750,1253 1866,1223 1906,1298 2220,1256 2220,1173 2150,1148"/>
          <zone xml:id="f17r-11-1" lry="1600" lrx="517" uly="1350" ulx="217"/>
          <zone xml:id="f17r-17-1" lry="2083" lrx="550" uly="1866" ulx="238"/>
+         <zone xml:id="f17r-19-2" points="1246,2126 1242,2189 1510,2150 1476,2103"/>
+         <zone xml:id="f17r-20-1" points="502,2316 732,2298 723,2250 501,2260"/>
+         <zone xml:id="f17r-29-1" points="590,2987 582,3036 497,3062 364,3209 237,3212 243,2962"/>
+         <zone xml:id="f17r30-1" points="537,3084 525,3121 753,3093 744,3054"/>
       </surface>
       <back/>
    </facsimile>
@@ -538,9 +542,9 @@
                <del xml:id="f17-r-19-8" rend="cancelled"><add xml:id="f17-r-19-9" place="below">
                      <redo xml:id="f17-r-19-10" spanTo="#d3" rend="underlined" cert="low"
                         />mais<anchor xml:id="d3"/> extraict</add></del>
-               <lb n="20"/><add xml:id="f17r-20-1"><metamark place="below" function="insertion"
-                     target="#f17r-20-1" rend="circonflexe"/><del rend="cancelled"><add
-                        facs="#f17r-20-1" place="inline"><metamark function="insertion">^</metamark><choice>
+               <lb n="20"/><add><metamark place="below" function="insertion" target="#f17r-20-1"
+                     rend="circonflexe"/><del rend="cancelled"><add facs="#f17r-20-1" place="inline"
+                           ><metamark function="insertion">^</metamark><choice>
                            <abbr><g>p</g></abbr>
                            <expan>par</expan>
                         </choice> le moien </add></del></add><del xml:id="f17r-20-2" rend="deleted"
@@ -634,14 +638,71 @@
                      <del>les</del>
                      <add place="inline">les</add>
                   </subst> mesmes armes. </del>
-               <lb n="28"/>
+               <lb n="28"/><add>armes</add>
+               <lb n="29"/>
                <choice>
                   <abbr><g>p</g></abbr>
                   <expan>par</expan>
                </choice>eilles <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> celles de noz parens de Berruich </p>
+               </choice> celles de noz parens de Berruich<add><metamark place="inline"
+                     function="insertion" target="#f17r-29-1" rend="plus"/></add>
+               <add facs="#f17r-29-1" place="margin"><metamark function="insertion">+</metamark>de <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice><choice>
+                     <abbr>pres</abbr>
+                     <expan>présent</expan>
+                  </choice> limite <lb/><del rend="cancelled"><gap agent="reliure"/></del></add>,<subst>
+                  <del rend="cancelled" seq="1">ou</del>
+                  <del rend="cancelled" seq="3" cert="medium"><add place="inline">dont</add></del>
+                  <del rend="cancelled" seq="2" cert="medium"><add place="above">que</add></del>
+                  <add place="above">ou</add>
+               </subst> le gouverneur du paÿs <lb n="30"/>
+               <del rend="cancelled">les</del><metamark function="insertion" rend="circonflexe"
+                  target="f17r-30-1"/><add facs="f17r-30-1" place="inline"><metamark>^</metamark>et
+                  de la ville</add> portoit <del rend="cancelled">ancore</del><del rend="cancelled"
+                     ><add place="inline"><unclear reason="illegible">armes</unclear></add></del><choice>
+                  <abbr>nre</abbr>
+                  <expan>notre</expan>
+               </choice>nom <subst>
+                  <del rend="cancelled">et n</del>
+                  <add place="inline">et armes en</add>
+               </subst>l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>année que <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>en<subst>
+                  <del>voulu avoir bone inform<choice>
+                        <abbr>ion</abbr>
+                        <expan>ation</expan>
+                     </choice></del>
+                  <add place="inline">fey la recerche</add>
+               </subst><lb n="31"/><del rend="cancelled">qui fut</del>1567. <choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t y avoit lors <subst>
+                  <del rend="cancelled">bon nombre de</del>
+                  <add place="inline">beaucoup de</add>
+               </subst>noblesse de <subst>
+                  <del><subst xml:id="f17r-31-1">
+                        <del>ceste</del>
+                        <add place="inline"><del>ce</del></add>
+                     </subst>
+                     <del>mesme</del>
+                     <subst xml:id="f17r-31-2">
+                        <del><subst>
+                              <del>lig</del>
+                              <add>famille</add>
+                           </subst></del>
+                        <add place="inline">nom et armes</add>
+                     </subst></del>
+                  <add place="below">cete maison</add>
+               </subst>
+               <substJoin target="#f17r-31-1, #f17r-31-2"/>.</p>
          </div>
       </body>
    </text>
