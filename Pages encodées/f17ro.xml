@@ -321,8 +321,8 @@
                </choice>ilz a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oient aimez: <del rend="cancelled">et aucuns ont <lb n="3"/> composé la leur
-                  propre </del> c'estoi<subst>
+               </choice>oient aimez : <del rend="cancelled">et aucuns ont <lb n="3"/> composé la
+                  leur propre <del rend="unmarked">:</del></del> c'estoi<subst>
                   <del xml:id="f17r-3-1" rend="deleted">en</del>
                   <del xml:id="f17-r-3-2" rend="unmarked">t</del>
                   <add xml:id="f17r-3-3" place="inline">ent</add>
@@ -333,7 +333,7 @@
                <lb n="4"/>
                <subst>
                   <del xml:id="f17r-4-1" rend="cancelled">louanges</del>
-                  <add xml:id="f17r-4-2">remarque</add>
+                  <add xml:id="f17r-4-2">remerque</add>
                   <add xml:id="f17r-4-3">s</add>
                </subst>
                <substJoin seq="1" target="#f17r-3-1 #f17r-3-4 #f17r-4-1 #f17r-4-2"/>
@@ -342,13 +342,18 @@
                <subst>
                   <del rend="cancelled">vertueuses</del>
                   <add place="inline">belles</add>
-               </subst> actions: et apres eulx,<lb n="5"/> enseignemens pour bien faire. <choice>
+               </subst> actions : et apres eulx,<lb n="5"/> enseignemens pour bien faire. <choice>
                   <orig>m</orig>
                   <reg>M</reg>
-               </choice>aintenant<add place="inline"><del rend="cancelled"> en <choice>
+               </choice>aintenant <del rend="cancelled"><add place="inline"> en <choice>
                         <orig>f</orig>
                         <reg>F</reg>
-                     </choice>rance</del></add>ce n'est <lb n="6"/> plus la mode,. <!--                  curieuse ponctuation ci-haut: virgule suivie d'un point = point-virgule? -->
+                     </choice>rance</add></del>ce n'est <lb n="6"/> plus la mode,. <!--               Ci-dessous: créer une zone avec les coordonnées -->
+               <del rend="cancelled"><add place="margin"><gap agent="reliure"/>t ceulx qui ont les
+                     <lb/>armes en <choice>
+                        <orig>f</orig>
+                        <reg>F</reg>
+                     </choice>rance, <lb/>n'escrivent guiere</add></del><!--                  curieuse ponctuation ci-haut: virgule suivie d'un point = point-virgule? -->
                <subst>
                   <del rend="cancelled">Aussy ne voy <choice>
                         <orig>i</orig>
@@ -364,20 +369,20 @@
                         <del rend="cancelled">manient</del>
                         <add place="above">ont</add>
                      </subst> les armes, <subst>
-
-                        <del>
-                           <del seq="1" rend="cancelled">mesprisent <addSpan spanTo="#f17r-6-2"
-                                 place="margin"/> presque tous les<lb/> letres <gap reason="deleted"
-                              /></del>
-                           <del seq="2" rend="cancelled"><add>nescrivent <lb/> guieres.</add></del>
-                           <anchor xml:id="f17r-6-2"/></del>
+                        <del rend="cancelled">mesprisent <addSpan spanTo="#f17r-6-2" place="margin"
+                           /> presque touts les<lb/> letres <gap reason="deleted"/> et n<choice>
+                              <orig/>
+                              <reg>'</reg>
+                           </choice>escrivent <lb/> guieres. <anchor xml:id="f17r-6-2"/></del>
                         <!--                       J'ai utilisé <addSpan> dans le passage précédent pour indiquer que l'ajout est désormais
                            dans la marge et non plus “inline”, mais peut-être y aurait-il un meilleur moyen de procéder-->
                         <lb n="7"/>
                         <add seq="1" place="inline"><lb/>n<choice>
+                              <!--                           La numérotation de l'ajout ne me semble finalement pas utile, puisqu'elle n'est pas mise en -->
                               <orig/>
                               <reg>'</reg>
-                           </choice>usent guiere de plumes qu'à leurs chapeaus </add>
+                           </choice>usent guiere de <gap reason="cancelled"/>plumes qu'à leurs
+                           chapeaus </add>
                      </subst>
                      <add place="margin">et<subst>
                            <del rend="cancelled"><choice>
@@ -387,7 +392,10 @@
                               <lb/>longue</del>
                            <!--Variante inachevée?-->
                            <add place="inline"> les <lb/><del rend="cancelled">ceulx de</del> robes
-                              longues, <lb/> nont pas moyen <lb/><del rend="cancelled">de se rec<choice>
+                              longues, <lb/> n<choice>
+                                 <orig/>
+                                 <reg>'</reg>
+                              </choice>ont pas moyen <lb/><del rend="cancelled">de se rec<choice>
                                     <abbr>o<g rend="tilde"/></abbr>
                                     <expan>om</expan>
                                  </choice>mander</del></add>
@@ -402,22 +410,26 @@
                   <del rend="cancelled">recommendables</del>
                   <add place="inline">memorables</add>
                </subst>. <substJoin target="#f17r-8-1 #f17r-8-2"/>
-               <del rend="deleted">mais</del><add place="inline"><gap reason="deleted"/></add><choice>
+               <del rend="deleted">Mais</del><add place="inline"><gap reason="deleted"/></add><choice>
                   <orig>q</orig>
                   <reg>Q</reg>
                </choice>ue <lb n="9"/> scauroit faire de grand <choice>
                   <orig>v</orig>
                   <reg>u</reg>
                </choice>n home seul, <metamark function="insertion" place="above" target="#f17r-9-1"/>
-               <add place="margin" facs="#f17r-9-1"><metamark place="margin"/> ne commendans <add
-                     place="inline">qu'a poine</add>
+               <add place="margin" facs="#f17r-9-1"><metamark place="margin"/> ne
+                     commendan<unclear>t</unclear>
+                  <add place="inline">qu'<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> poine</add>
                   <del rend="cancelled"><add place="above">sens</add></del><del>qu'</del>en sa <del
-                     rend="cancelled" cert="low">petite</del>
+                     rend="cancelled">petite</del>
                   <lb/> famille</add> sens mains synon <lb n="10"/> pour oster son bonet, sens
                langue sy ce n<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>est pour flater? <lb n="11"/>
+               </choice>est pour flater ? <lb n="11"/>
                <add place="inline">Et en fin de compte pour tout <choice>
                      <orig>E</orig>
                      <reg>e</reg>
@@ -436,33 +448,28 @@
                      <reg>'</reg>
                   </choice>estoit un bon serviteur. <metamark function="insertion"
                      target="#f17r-11-1"/>
-                  <add place="margin" facs="#f17r-11-1"><gap agent="reliure"/>tes mieulx <lb/><gap
-                        agent="reliure"/>udroit avoir <lb/><gap agent="reliure"/><del
-                        rend="cancelled">is n</del> esté bien <lb/><gap agent="reliure"/>istre de
-                     soymesmes</add></add>
+                  <add place="margin" facs="#f17r-11-1">certes mieulx <lb/>vaudroit avoir <lb/><del
+                        rend="cancelled" cert="medium">apris <choice>
+                           <orig>a</orig>
+                           <reg>à</reg>
+                        </choice></del> esté bien <lb/>maistre de soymesmes</add></add>
                <lb n="12"/> Je n<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>ay donc pas intention de croniquer mes gestes, <add>
                   <subst>
-                     <del seq="3" rend="cancelled">
+                     <del rend="cancelled">
                         <lb n="13"/><add seq="1" place="inline">ma profession n<choice>
                               <orig/>
                               <reg>'</reg>
                            </choice>a <subst>
-                              <del seq="1">esté</del>
-                              <!--                              Je ne suis plus certaine qu'il s'agit là d'une suppression indépendante de celle de la ligne entière, qu'en pensez-vous? 
-                              La petite ligne sous le « e » de « esté » ne pourrait-elle pas être le début d'un nouvel élan de plume pour continuer la
-                              rature de la ligne entière ? On pourrait alors penser que l'ajout au-dessus d'esté n'est pas destiné à remplacer ce mot,
-                              mais à le modaliser... je ne transforme pas mon encodage pour l'instant, mais je voulais vous soumettre cette hypothèse.
-                              J'ai par ailleurs constaté en me renseignant sur la numérotation de @seq qu'il faut numéroter les ajouts et les suppressions
-                              indépendamment les uns des autres. J'ai noté quelques commentaires à ce sujet dans le manuel et le calepin d'encodage. -->
-                              <add seq="2" place="above"><unclear reason="cancelled">pas
-                                    servi</unclear></add>
-                           </subst> de les rendre <del seq="2" rend="cancelled">memo</del>
-                           grandement mem</add>
+                              <del>esté</del>
+                              <add place="above"><unclear reason="cancelled">pas
+                                 servi</unclear></add>
+                           </subst> de les rendre <del rend="cancelled">memo</del> grandement
+                           mem</add>
                      </del>
-                     <add seq="5" place="margin">ny ma <choice>
+                     <add place="margin">ny ma <choice>
                            <abbr><g>p</g></abbr>
                            <expan>pro</expan>
                         </choice>fession les a <subst>
@@ -475,7 +482,10 @@
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e remis par ordre ces petits memoires, <lb n="14"/> afin qu'en <del
-                  rend="deleted">me</del> ramenteuant le passé <choice>
+                  rend="deleted">me</del> ramente<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ant le passé <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e <subst>
@@ -485,7 +495,7 @@
                         <expan>ese</expan>
                      </choice> nte</add>
                </subst>
-               <lb n="15"/> parfois les graces que dieu m<choice>
+               <lb n="15"/> parfois les graces que <choice><orig>d</orig><reg>D</reg></choice>ieu m<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>a faictes, et <subst>
@@ -538,7 +548,7 @@
                <del xml:id="f17r-19-4" rend="cancelled"><add xml:id="f17-r-19-5" place="margin"
                      >descosse</add></del>
                <del xml:id="f17r-19-6" rend="cancelled"><add xml:id="f17r-19-7" place="inline">issu
-                        <unclear reason="cancelled">tentessois</unclear></add></del>
+                     toutesfsois</add></del>
                <del xml:id="f17-r-19-8" rend="cancelled"><add xml:id="f17-r-19-9" place="below">
                      <redo xml:id="f17-r-19-10" spanTo="#d3" rend="underlined" cert="low"
                         />mais<anchor xml:id="d3"/> extraict</add></del>
