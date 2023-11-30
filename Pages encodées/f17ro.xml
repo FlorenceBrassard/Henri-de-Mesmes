@@ -1079,7 +1079,8 @@
                </choice>ne heure apres ches moy <subst>
                   <del rend="cancelled">vuide de</del>
                   <add>franc des</add>
-               </subst> acoustumez <lb n="2"/>labeurs, franc de passion, contant d<choice>
+               </subst> acoustume<add>z</add>
+               <lb n="2"/>labeurs , franc de passion , contant d<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>avoir mon <choice>
@@ -1091,7 +1092,7 @@
                </choice> la fin de mes <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>ours, synon <lb n="4"/>avec les bones gr<choice>
+               </choice>ours , synon <lb n="4"/>avec les bones gr<choice>
                   <orig>a</orig>
                   <reg>â</reg>
                </choice>ces que <choice>
@@ -1119,10 +1120,13 @@
                </choice> sur <lb n="7"/>noz testes . <choice>
                   <orig>j</orig>
                   <reg>J</reg>
-               </choice>e disois , <said direct="true">Ce qui m<choice>
+               </choice>e disois , <said direct="true"><subst>
+                     <del rend="overwritten">c</del>
+                     <add place="superimposed">C</add>
+                  </subst>e qui m<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>est advenu ad<choice>
+                  </choice>est ad<choice>
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>enu ad<choice>
@@ -1178,8 +1182,8 @@
                   <abbr>tres</abbr>
                   <expan>lettres</expan>
                </choice> et liberales disciplines , auxq<choice>
-                  <orig/>
-                  <reg>ue</reg>
+                  <abbr/>
+                  <ex>ue</ex>
                </choice>lles <lb n="18"/><choice>
                   <orig>i</orig>
                   <reg>j</reg>
@@ -1247,7 +1251,8 @@
                </choice>en<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oia le <persName><roleName>procureur <choice>
+               </choice>oia le <persName ref="https://isni.org/isni/000000035875676X"><roleName>procureur <choice>
+<!--                  Confirmer la référence, ce n'est pas la même année de décès que celle fournie par Chloé Moulin ?-->
                         <abbr>gra<g>l</g></abbr>
                         <expan>général</expan>
                      </choice></roleName>
@@ -1282,7 +1287,7 @@
                </choice>e que <choice>
                   <orig>i</orig>
                   <reg>j'</reg>
-               </choice>oplay avec beaucoup de raison <choice>
+               </choice>optay avec beaucoup de raison <choice>
                   <orig>.</orig>
                   <reg>,</reg>
                </choice> car l<choice>
@@ -1294,9 +1299,9 @@
                   <reg>j'</reg>
                </choice>eusse <lb n="31"/>
                <choice>
-                  <abbr>p<g>o</g></abbr>
+                  <abbr>po<hi rend="superscript">r</hi></abbr>
                   <expan>pour</expan>
-               </choice> revanche gasté ou <subst>
+               </choice> re<choice><orig>u</orig><reg>v</reg></choice>anche gasté ou <subst>
                   <del rend="cancelled">dissipé</del>
                   <add place="inline">perdu</add>
                </subst> les titres de la corone que <choice>
