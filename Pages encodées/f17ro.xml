@@ -281,6 +281,11 @@
             points="1873,1140 1858,1178 1736,1198 1750,1253 1866,1223 1906,1298 2220,1256 2220,1173 2150,1148"/>
          <zone xml:id="f17r-11-1" lry="1600" lrx="517" uly="1350" ulx="217"/>
          <zone xml:id="f17r-17-1" lry="2083" lrx="550" uly="1866" ulx="238"/>
+         <zone xml:id="f17r-19-2" points="1246,2126 1242,2189 1510,2150 1476,2103"/>
+         <zone xml:id="f17r-20-1" points="502,2316 732,2298 723,2250 501,2260"/>
+         <zone xml:id="f17r-29-1" points="590,2987 582,3036 497,3062 364,3209 237,3212 243,2962"/>
+         <zone xml:id="f17r-30-1" points="537,3084 525,3121 753,3093 744,3054"/>
+         <zone xml:id="f17r-6-1" lry="1087" lrx="529" uly="891" ulx="209"/>
       </surface>
       <back/>
    </facsimile>
@@ -299,7 +304,7 @@
                   <reg>U</reg>
                </choice>n temps fut que les <del xml:id="f17r-1-1" rend="cancelled">honestes</del>
                homes <add xml:id="f17r-1-2"><metamark place="below" function="insertion"
-                     target="#f17r-1-3" rend="circonflexe"/>
+                     target="#f17r-1-3" rend="circonflexe">^</metamark>
                   <add facs="#f17r-1-3" place="above"><metamark function="insertion">^</metamark>de
                      valeur</add>
                   <substJoin target="#f17r-1-1 #f17r-1-2 #f17r-1-3"/>
@@ -310,17 +315,17 @@
                <subst>
                   <del rend="cancelled">la</del>
                   <add place="inline">leurs</add>
-               </subst> vies <metamark place="below" function="insertion" rend="circonflexe"/><add
-                  place="inline">ou</add> de ceulx qu<choice>
+               </subst> vies <metamark place="below" function="insertion" rend="circonflexe"
+                  >^</metamark><add place="inline">ou</add> de ceulx qu<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>ilz a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oient aimez: <del rend="cancelled">et aucuns ont <lb n="3"/> composé la leur
-                  propre </del> c'estoi<subst>
+               </choice>oient aimez : <del rend="cancelled">et aucuns ont <lb n="3"/> composé la
+                  leur propre <del rend="unmarked">:</del></del> c'estoi<subst>
                   <del xml:id="f17r-3-1" rend="deleted">en</del>
-                  <del xml:id="f17-r-3-2" rend="unmarked">t</del>
+                  <del xml:id="f17r-3-2" rend="unmarked">t</del>
                   <add xml:id="f17r-3-3" place="inline">ent</add>
                </subst> au moins quelque<subst>
                   <del xml:id="f17r-3-4" rend="deleted">s</del>
@@ -329,22 +334,27 @@
                <lb n="4"/>
                <subst>
                   <del xml:id="f17r-4-1" rend="cancelled">louanges</del>
-                  <add xml:id="f17r-4-2">remarque</add>
+                  <add xml:id="f17r-4-2">remerque</add>
                   <add xml:id="f17r-4-3">s</add>
                </subst>
                <substJoin seq="1" target="#f17r-3-1 #f17r-3-4 #f17r-4-1 #f17r-4-2"/>
-               <substJoin seq="2" target="#f17-r-3-2 #f17r-3-3 #f17r-3-5 #f17r-4-3"/> de<del
+               <substJoin seq="2" target="#f17r-3-2 #f17r-3-3 #f17r-3-5 #f17r-4-3"/> de<del
                   rend="deleted">s</del><add place="inline">s</add>
                <subst>
                   <del rend="cancelled">vertueuses</del>
                   <add place="inline">belles</add>
-               </subst> actions: et apres eulx,<lb n="5"/> enseignemens pour bien faire. <choice>
+               </subst> actions : et apres eulx,<lb n="5"/> enseignemens pour bien faire. <choice>
                   <orig>m</orig>
                   <reg>M</reg>
-               </choice>aintenant<add place="inline"><del rend="cancelled"> en <choice>
-                        <orig>f</orig>
-                        <reg>F</reg>
-                     </choice>rance</del></add>ce n'est <lb n="6"/> plus la mode,. <!--                  curieuse ponctuation ci-haut: virgule suivie d'un point = point-virgule? -->
+               </choice>aintenant <del rend="cancelled"><add place="inline"> en <placeName><choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>rance</placeName></add></del>ce n'est <lb n="6"/> plus la mode,.
+                  <del rend="cancelled"><add facs="#f17r-6-1" place="margin"><gap agent="reliure"/>t
+                     ceulx qui ont les <lb/>armes en <placeName><choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>rance</placeName>, <lb/>n'escrivent guiere</add></del><!--                  curieuse ponctuation ci-haut: virgule suivie d'un point = point-virgule? -->
                <subst>
                   <del rend="cancelled">Aussy ne voy <choice>
                         <orig>i</orig>
@@ -353,27 +363,27 @@
                      robe longue, se puissent <lb n="8"/> guieres eslever</del>
 
                   <lb n="6"/>
-                  <add place="inline">En <choice>
-                        <orig>f</orig>
-                        <reg>F</reg>
-                     </choice>rance ceulx qui <subst>
+                  <add place="inline">En <placeName><choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>rance</placeName> ceulx qui <subst>
                         <del rend="cancelled">manient</del>
                         <add place="above">ont</add>
                      </subst> les armes, <subst>
-
-                        <del>
-                           <del seq="1" rend="cancelled">mesprisent <addSpan spanTo="#f17r-6-2"
-                                 place="margin"/> presque tous les<lb/> letres <gap reason="deleted"
-                              /></del>
-                           <del seq="2" rend="cancelled"><add>nescrivent <lb/> guieres.</add></del>
-                           <anchor xml:id="f17r-6-2"/></del>
+                        <del rend="cancelled">mesprisent <addSpan spanTo="#f17r-6-2" place="margin"
+                           /> presque touts les<lb/> letres <gap reason="deleted"/> et n<choice>
+                              <orig/>
+                              <reg>'</reg>
+                           </choice>escrivent <lb/> guieres. <anchor xml:id="f17r-6-2"/></del>
                         <!--                       J'ai utilisé <addSpan> dans le passage précédent pour indiquer que l'ajout est désormais
                            dans la marge et non plus “inline”, mais peut-être y aurait-il un meilleur moyen de procéder-->
                         <lb n="7"/>
                         <add seq="1" place="inline"><lb/>n<choice>
+                              <!--                           La numérotation de l'ajout ne me semble finalement pas utile, puisqu'elle n'est pas mise en -->
                               <orig/>
                               <reg>'</reg>
-                           </choice>usent guiere de plumes qu'à leurs chapeaus </add>
+                           </choice>usent guiere de <gap reason="cancelled"/>plumes qu'à leurs
+                           chapeaus </add>
                      </subst>
                      <add place="margin">et<subst>
                            <del rend="cancelled"><choice>
@@ -383,7 +393,10 @@
                               <lb/>longue</del>
                            <!--Variante inachevée?-->
                            <add place="inline"> les <lb/><del rend="cancelled">ceulx de</del> robes
-                              longues, <lb/> nont pas moyen <lb/><del rend="cancelled">de se rec<choice>
+                              longues, <lb/> n<choice>
+                                 <orig/>
+                                 <reg>'</reg>
+                              </choice>ont pas moyen <lb/><del rend="cancelled">de se rec<choice>
                                     <abbr>o<g rend="tilde"/></abbr>
                                     <expan>om</expan>
                                  </choice>mander</del></add>
@@ -398,22 +411,26 @@
                   <del rend="cancelled">recommendables</del>
                   <add place="inline">memorables</add>
                </subst>. <substJoin target="#f17r-8-1 #f17r-8-2"/>
-               <del rend="deleted">mais</del><add place="inline"><gap reason="deleted"/></add><choice>
+               <del rend="deleted">Mais</del><add place="inline"><gap reason="deleted"/></add><choice>
                   <orig>q</orig>
                   <reg>Q</reg>
                </choice>ue <lb n="9"/> scauroit faire de grand <choice>
                   <orig>v</orig>
                   <reg>u</reg>
                </choice>n home seul, <metamark function="insertion" place="above" target="#f17r-9-1"/>
-               <add place="margin" facs="#f17r-9-1"><metamark place="margin"/> ne commendans <add
-                     place="inline">qu'a poine</add>
+               <add place="margin" facs="#f17r-9-1"><metamark place="margin"/> ne
+                     commendan<unclear>t</unclear>
+                  <add place="inline">qu'<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> poine</add>
                   <del rend="cancelled"><add place="above">sens</add></del><del>qu'</del>en sa <del
-                     rend="cancelled" cert="low">petite</del>
+                     rend="cancelled">petite</del>
                   <lb/> famille</add> sens mains synon <lb n="10"/> pour oster son bonet, sens
                langue sy ce n<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>est pour flater? <lb n="11"/>
+               </choice>est pour flater ? <lb n="11"/>
                <add place="inline">Et en fin de compte pour tout <choice>
                      <orig>E</orig>
                      <reg>e</reg>
@@ -432,33 +449,28 @@
                      <reg>'</reg>
                   </choice>estoit un bon serviteur. <metamark function="insertion"
                      target="#f17r-11-1"/>
-                  <add place="margin" facs="#f17r-11-1"><gap agent="reliure"/>tes mieulx <lb/><gap
-                        agent="reliure"/>udroit avoir <lb/><gap agent="reliure"/><del
-                        rend="cancelled">is n</del> esté bien <lb/><gap agent="reliure"/>istre de
-                     soymesmes</add></add>
+                  <add place="margin" facs="#f17r-11-1">certes mieulx <lb/>vaudroit avoir <lb/><del
+                        rend="cancelled" cert="medium">apris <choice>
+                           <orig>a</orig>
+                           <reg>à</reg>
+                        </choice></del> esté bien <lb/>maistre de soymesmes</add></add>
                <lb n="12"/> Je n<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>ay donc pas intention de croniquer mes gestes, <add>
                   <subst>
-                     <del seq="3" rend="cancelled">
+                     <del rend="cancelled">
                         <lb n="13"/><add seq="1" place="inline">ma profession n<choice>
                               <orig/>
                               <reg>'</reg>
                            </choice>a <subst>
-                              <del seq="1">esté</del>
-                              <!--                              Je ne suis plus certaine qu'il s'agit là d'une suppression indépendante de celle de la ligne entière, qu'en pensez-vous? 
-                              La petite ligne sous le « e » de « esté » ne pourrait-elle pas être le début d'un nouvel élan de plume pour continuer la
-                              rature de la ligne entière ? On pourrait alors penser que l'ajout au-dessus d'esté n'est pas destiné à remplacer ce mot,
-                              mais à le modaliser... je ne transforme pas mon encodage pour l'instant, mais je voulais vous soumettre cette hypothèse.
-                              J'ai par ailleurs constaté en me renseignant sur la numérotation de @seq qu'il faut numéroter les ajouts et les suppressions
-                              indépendamment les uns des autres. J'ai noté quelques commentaires à ce sujet dans le manuel et le calepin d'encodage. -->
-                              <add seq="2" place="above"><unclear reason="cancelled">pas
-                                    servi</unclear></add>
-                           </subst> de les rendre <del seq="2" rend="cancelled">memo</del>
-                           grandement mem</add>
+                              <del>esté</del>
+                              <add place="above"><unclear reason="cancelled">pas
+                                 servi</unclear></add>
+                           </subst> de les rendre <del rend="cancelled">memo</del> grandement
+                           mem</add>
                      </del>
-                     <add seq="5" place="margin">ny ma <choice>
+                     <add place="margin">ny ma <choice>
                            <abbr><g>p</g></abbr>
                            <expan>pro</expan>
                         </choice>fession les a <subst>
@@ -471,17 +483,24 @@
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e remis par ordre ces petits memoires, <lb n="14"/> afin qu'en <del
-                  rend="deleted">me</del> ramenteuant le passé <choice>
+                  rend="deleted">me</del> ramente<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ant le passé <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e <subst>
                   <del rend="cancelled">gouste ancore</del>
                   <add>me rep<choice>
                         <abbr><g rend="tilde"/></abbr>
-                        <expan>ese</expan>
-                     </choice> nte</add>
+                        <ex>rese</ex>
+                        <!--                     J'ai changé expan pour ex, vu qu'ici, il s'agit simplement d'ajouter les lettres manquantes et non de fournir le mot au complet.-->
+                     </choice>nte</add>
                </subst>
-               <lb n="15"/> parfois les graces que dieu m<choice>
+               <lb n="15"/> parfois les graces que <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>ieu m<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>a faictes, et <subst>
@@ -515,83 +534,133 @@
             <p><lb n="19"/>Mon pere a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oit nom <persName ref="https://isni.org/isni/0000000000812616"><choice>
-                     <orig>I.I.</orig>
-                     <reg>J.J.</reg>
-                  </choice>d.M.</persName><add xml:id="f17r-19-1"><metamark place="below"
-                     function="insertion" target="#f17r-19-2" rend="circonflexe"/>
+               </choice>oit nom <persName ref="https://isni.org/isni/0000000000812616"><forename><choice>
+                        <abbr><choice>
+                              <orig>I.I.</orig>
+                              <reg>J.J.</reg>
+                           </choice></abbr>
+                        <expan>Jean-Jacques</expan>
+                     </choice></forename><nameLink><choice>
+                        <abbr>d.</abbr>
+                        <expan>de</expan>
+                     </choice></nameLink><surname><choice>
+                        <abbr>M.</abbr>
+                        <expan>Mesmes</expan>
+                     </choice></surname></persName><add xml:id="f17r-19-1"><metamark place="below"
+                     function="insertion" target="#f17r-19-2" rend="circonflexe">^</metamark>
                   <add facs="#f17r-19-2" place="inline"><metamark function="insertion"
-                     >^</metamark>issu d<choice>
+                        rend="circonflexe">^</metamark>issu d<choice>
                         <orig/>
                         <reg>'</reg>
-                     </choice><choice>
-                        <orig>es</orig>
-                        <reg>É</reg>
-                     </choice>cosse</add></add> né en <choice>
-                  <orig>g</orig>
-                  <reg>G</reg>
-               </choice>ascoigne, <del xml:id="f17r-19-3" rend="cancelled">extraict</del>
-               <del xml:id="f17r-19-4" rend="cancelled"><add xml:id="f17-r-19-5" place="margin"
-                     >descosse</add></del>
+                     </choice><placeName><choice>
+                           <orig>es</orig>
+                           <reg>É</reg>
+                        </choice>cosse</placeName></add></add> né en <placeName><choice>
+                     <orig>g</orig>
+                     <reg>G</reg>
+                  </choice>ascoigne</placeName>, <del xml:id="f17r-19-3" rend="cancelled"
+                  >extraict</del>
+               <del xml:id="f17r-19-4" rend="cancelled"><add xml:id="f17r-19-5" place="margin">d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice><placeName><choice>
+                           <orig>es</orig>
+                           <reg>É</reg>
+                        </choice>cosse</placeName></add></del>
                <del xml:id="f17r-19-6" rend="cancelled"><add xml:id="f17r-19-7" place="inline">issu
-                        <unclear reason="cancelled">tentessois</unclear></add></del>
-               <del xml:id="f17-r-19-8" rend="cancelled"><add xml:id="f17-r-19-9" place="below">
-                     <redo xml:id="f17-r-19-10" spanTo="#d3" rend="underlined" cert="low"
+                     toutesfois</add></del>
+               <del xml:id="f17r-19-8" rend="cancelled"><add xml:id="f17r-19-9" place="below">
+                     <redo xml:id="f17r-19-10" spanTo="#d3" rend="underlined" cert="low"
                         />mais<anchor xml:id="d3"/> extraict</add></del>
-               <lb n="20"/><add xml:id="f17r-20-1"><metamark place="below" function="insertion"
-                     target="#f17r-20-1" rend="circonflexe"/><del rend="cancelled"><add
-                        facs="#f17r-20-1" place="inline"><metamark function="insertion">^</metamark><choice>
+               <lb n="20"/><add><metamark place="below" function="insertion" target="#f17r-20-1"
+                     rend="circonflexe">^</metamark><del rend="cancelled"><add facs="#f17r-20-1"
+                        place="inline"><metamark function="insertion" rend="circonflexe"
+                           >^</metamark><choice>
                            <abbr><g>p</g></abbr>
                            <expan>par</expan>
                         </choice> le moien </add></del></add><del xml:id="f17r-20-2" rend="deleted"
                   >d</del>
-               <substJoin target="f17-r-19-3, #f17r-20-2"/>
+               <substJoin target="f17r-19-3, #f17r-20-2"/>
                <!--               Je ne suis plus sûre du tout de ce substJoin; À FAIRE pour toute cette opération compliquée de modification.-->
                un ancien cheualier escossois <subst>
                   <del>nommé</del>
-                  <add place="inline">de <placeName>berruich</placeName></add>
-               </subst> Amaneus de Mammes <lb n="21"/><del rend="cancelled">qui</del> dez lan 1200
-               veint prendre terre <del rend="cancelled">ferme</del> en <subst xml:id="f17-r-20-3">
-                  <del rend="cancelled">Marsan</del>
-                  <add place="inline">Guiene</add>
+                  <add place="inline">de <placeName><choice>
+                           <orig>b</orig>
+                           <reg>B</reg>
+                        </choice>erruich</placeName></add>
+               </subst>
+               <persName><forename>Amaneus</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Mammes</surname></persName>
+               <lb n="21"/><del rend="cancelled">qui</del> dez l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>an <date when="1200">1200</date> veint prendre terre <del rend="cancelled"
+                  >ferme</del> en <subst xml:id="f17r-20-3">
+                  <del rend="cancelled"><placeName>Marsan</placeName></del>
+                  <add place="inline"><placeName>Guiene</placeName></add>
                </subst>
                <lb n="22"/><del rend="cancelled"><add place="inline">pas aux</add></del>
-               <del rend="cancelled">pendant les guerres de la Guiene <unclear>et</unclear></del>
-               espousa <add place="inline">en marsan</add> une damoyselle <lb n="23"/>du paÿs <subst>
+               <del rend="cancelled">pendant les guerres de la <placeName>Guiene</placeName>
+                  <!--                  Ajouter les dates de cette guerre? Ça prendrait une meilleure source que Wikipedia, mais au regard des dates de la guerre de Guyenne (1294-1297), ça semble fantaisiste...  -->
+                  <unclear>et</unclear></del> espousa <add place="inline">en <placeName><choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                     </choice>arsan</placeName></add> une damoyselle <lb n="23"/>du paÿs <subst>
                   <del seq="3"><subst>
-                        <del seq="1">dont <del rend="deleted">i</del></del>
-                        <add place="inline"><del seq="2" rend="cancelled">i'en</del></add>
+                        <del seq="1">dont <del rend="deleted"><choice>
+                                 <orig>i</orig>
+                                 <reg>j</reg>
+                              </choice></del></del>
+                        <add place="inline"><del seq="2" rend="cancelled"><choice>
+                                 <orig>i</orig>
+                                 <reg>j</reg>
+                              </choice>'en</del></add>
                      </subst>ay veu le titre, et en ay copie <unclear>dans</unclear> mes
                      papiers.</del>
                   <add place="inline">et <subst>
                         <del>laissa lignée</del>
                         <add place="above">y planta notre race</add>
                      </subst>, <subst>
-                        <del>dont <del rend="deleted">i</del></del>
-                        <add rend="above">ien</add>
+                        <del>dont <del rend="deleted"><choice>
+                                 <orig>i</orig>
+                                 <reg>j</reg>
+                              </choice></del></del>
+                        <add rend="above"><choice>
+                              <orig>i</orig>
+                              <reg>j'</reg>
+                           </choice>en</add>
                      </subst>ay veu les titres, et en sont ancore les armes <lb/>en <subst
-                        xml:id="f17-r-23-1">
+                        xml:id="f17r-23-1">
                         <del>une</del>
                         <add place="inline">la</add>
-                     </subst> chapelle <lb/><add place="inline" xml:id="f17-r-23-2">de mes
-                        ancestres</add><lb/>au mont de Marsan.</add>
+                     </subst> chapelle <lb/><add place="inline" xml:id="f17r-23-2">de mes
+                        ancestres</add><lb/>au <placeName>mont de Marsan</placeName>.</add>
                </subst>
-               <substJoin target="#f17-r-23-1, #f17-r-23-2"/>
-               <lb n="24"/><del xml:id="f17-r-24-1">ce chevalier estoit de berruich</del><substJoin
-                  target="f17-r-20-3, #f17-r-24-1"/>. et <del><del>y aiant faict recerche <del
-                        rend="cancelled"><add><choice>
+               <substJoin target="#f17r-23-1, #f17r-23-2"/>
+               <lb n="24"/><del xml:id="f17r-24-1">ce chevalier estoit de <placeName><choice>
+                        <orig>b</orig>
+                        <reg>B</reg>
+                     </choice>erruich</placeName></del><substJoin target="f17r-20-3, #f17r-24-1"/>.
+               et <del><del>y aiant faict recerche <del rend="cancelled"><add><choice>
                               <abbr>mad<hi rend="superscript">e</hi></abbr>
                               <expan/>
                            </choice>
                            <choice>
                               <abbr>des<hi rend="superscript">te</hi></abbr>
                               <expan/>
-                           </choice> Mesmes Albanie </add></del>
-                     <!--                     Variante inachevée ; à revoir par ailleurs pour les abréviations-->
+                           </choice>
+                           <surname>Mesmes</surname>
+                           <surname>Albanie</surname>
+                        </add></del>
+                     <!--                     Variante inachevée ; à revoir par ailleurs pour les abréviations -->
                      <lb n="25"/>
                      <subst>
                         <del>de la maison iay trouvé quelle y est encore entiere </del>
-                        <add place="margin">iay trouvé</add>
+                        <add place="margin"><choice>
+                              <orig>i</orig>
+                              <reg>j'</reg>
+                           </choice>ay trouvé</add>
                         <lb n="25"/>
                         <add place="inline">que <subst>
                               <del rend="cancelled">la</del>
@@ -617,7 +686,7 @@
                               <add place="margin">d'homes</add></del></add>
                         <!--                     Je suis toujours embêtée lorsque des ajouts changent de place en cours de route. Est-il si important de l'encoder?-->
                      </subst>
-                  </del>lan 1567 le gouverneur <subst>
+                  </del>lan <date when="1567">1567</date> le gouverneur <subst>
                      <del>du pais</del>
                      <add place="inline">de la</add>
                   </subst> ville se nommoit <del>lors</del>
@@ -634,14 +703,619 @@
                      <del>les</del>
                      <add place="inline">les</add>
                   </subst> mesmes armes. </del>
-               <lb n="28"/>
+               <lb n="28"/><add>armes</add>
+               <lb n="29"/>
                <choice>
                   <abbr><g>p</g></abbr>
                   <expan>par</expan>
                </choice>eilles <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> celles de noz parens de Berruich </p>
+               </choice> celles de noz parens de <placeName>Berruich</placeName><add><metamark
+                     place="inline" function="insertion" target="#f17r-29-1" rend="plus"
+                     >+</metamark></add>
+               <add facs="#f17r-29-1" place="margin"><metamark function="insertion" rend="plus"
+                     >+</metamark>de <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice><choice>
+                     <abbr>pres</abbr>
+                     <expan>présent</expan>
+                  </choice> limite <lb/><del rend="cancelled"><gap agent="reliure"/></del></add>,<subst>
+                  <del rend="cancelled" seq="1">ou</del>
+                  <del rend="cancelled" seq="3" cert="medium"><add place="inline">dont</add></del>
+                  <del rend="cancelled" seq="2" cert="medium"><add place="above">que</add></del>
+                  <add place="above">ou</add>
+               </subst> le gouverneur du paÿs <lb n="30"/>
+               <del rend="cancelled">les</del><metamark function="insertion" rend="circonflexe"
+                  target="f17r-30-1"/><add facs="f17r-30-1" place="inline"><metamark>^</metamark>et
+                  de la ville</add> portoit <del rend="cancelled">ancore</del><del rend="cancelled"
+                     ><add place="inline"><unclear reason="illegible">armes</unclear></add></del><choice>
+                  <abbr>nre</abbr>
+                  <expan>notre</expan>
+               </choice>nom <subst>
+                  <del rend="cancelled">et n</del>
+                  <add place="inline">et armes en</add>
+               </subst>l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>année que <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>en<subst>
+                  <del>voulu avoir bone inform<choice>
+                        <abbr>ion</abbr>
+                        <expan>ation</expan>
+                     </choice></del>
+                  <add place="inline">fey la recerche</add>
+               </subst><lb n="31"/><del rend="cancelled">qui fut</del><date when="1567">1567</date>. <choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t y avoit lors <subst>
+                  <del rend="cancelled">bon nombre de</del>
+                  <add place="inline">beaucoup de</add>
+               </subst>noblesse de <subst>
+                  <del><subst xml:id="f17r-31-1">
+                        <del>ceste</del>
+                        <add place="inline"><del>ce</del></add>
+                     </subst>
+                     <del>mesme</del>
+                     <subst xml:id="f17r-31-2">
+                        <del><subst>
+                              <del>lig</del>
+                              <add>famille</add>
+                           </subst></del>
+                        <add place="inline">nom et armes</add>
+                     </subst></del>
+                  <add place="below">cete maison</add>
+               </subst>
+               <substJoin target="#f17r-31-1, #f17r-31-2"/>. <pb facs="#f17v"/><lb n="1"/> Mon père <subst>
+                  <del>ainsy né ,<add place="above">d<choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice>un gentilhome de ceste maison de <surname>Mammes</surname></add> et d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>une damoyselle qui estoit de <lb n="2"/>
+                     <surname>Canna</surname> , <subst>
+                        <del rend="cancelled">maison</del>
+                        <add place="inline">bone famille</add>
+                     </subst> cognue en <placeName><choice>
+                           <orig>g</orig>
+                           <reg>G</reg>
+                        </choice>ascoigne</placeName>, fut neantmoins instruit <lb n="3"/>aux letres
+                     pource qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>il estoit né <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> sept mois et fort <subst>
+                        <del rend="cancelled">delicat</del>
+                        <add place="inline">delié</add>
+                     </subst><lb n="4"/>en<metamark function="insertion" place="below"
+                        rend="circonflexe">^</metamark><add place="inline">sa</add><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>eunesse .</del>
+                  <add place="left"><supplied>à</supplied> sa naissance n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>avoit <lb/>que sept mois.<choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                     </choice>t pource<lb/> qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>il ne prometoit pas <del><subst>
+                           <del rend="cancelled">longue<unclear>vie</unclear></del>
+                           <add place="inline">gra<gap reason="inkblot"/></add>
+                        </subst>il fut</del><lb/>grande force, il <lb/>fut <subst>
+                        <del rend="cancelled"/>
+                        <add place="inline">dedié</add>
+                     </subst> aux <choice>
+                        <abbr>tres</abbr>
+                        <expan>lettres</expan>
+                     </choice><lb/>estant fort delié en sa ieunesse.</add>
+               </subst><choice>
+                  <orig>m</orig>
+                  <reg>M</reg>
+               </choice>ais il en <subst>
+                  <del>fut</del>
+                  <del><add place="inline">deveint</add></del>
+                  <add place="below">fut</add>
+               </subst>tant plus soigneus de se preserver <lb n="5"/> et a survescu <del><subst>
+                     <del rend="cancelled">touts</del>
+                     <add place="inline">huict ou dix</add>
+                  </subst></del>ses <metamark function="insertion" place="below" rend="circonflexe"
+                  >^</metamark><add place="inline">dix</add> freres qui sont presque touts morts <lb
+                  n="6"/>a<subst>
+                  <add>ux</add>
+                  <del rend="deleted">la</del>
+               </subst> guerres. Il <subst seq="2">
+                  <del rend="cancelled">fut</del>
+                  <add place="inline">se rendit</add>
+               </subst><subst seq="1">
+                  <del rend="cancelled">en ses</del>
+                  <add place="inline"><subst>
+                        <add>d<choice>
+                              <orig>e</orig>
+                              <reg>è</reg>
+                           </choice>s</add>
+                        <del rend="cancelled">d<choice>
+                              <orig>e</orig>
+                              <reg>è</reg>
+                           </choice>s</del>
+                     </subst>ses</add>
+               </subst> premiers ans fort celebre <subst>
+                  <del>pour <lb n="7"/> ses</del>
+                  <add place="inline">ez</add>
+               </subst> lectures <subst>
+                  <del rend="cancelled">en</del>
+                  <add place="inline">du</add>
+               </subst>droict civil durant <del xml:id="f17v-7-1"><choice>
+                     <orig>xii</orig>
+                     <reg>XII</reg>
+                  </choice> ou</del>
+               <choice>
+                  <orig>xv</orig>
+                  <reg>XV</reg>
+               </choice>
+               <metamark function="insertion" place="below" rend="circonflexe">^</metamark><add
+                  place="inline" xml:id="f17v-7-2">ou xx</add><substJoin
+                  target="#f17v-7-1, #f17v-7-2"/> ans <subst>
+                  <del rend="cancelled">et</del>
+                  <add place="right">collegue <metamark function="insertion" place="below"
+                        rend="circonflexe" target="f17v-7-3">^</metamark><add facs="f17v-7-3"
+                        place="above"><metamark function="insertion" rend="circonflexe">^</metamark>
+                        et compaignon</add> de <persName
+                        ref="https://isni.org/isni/0000000081661660"><forename>Philipus</forename>
+                        <gap reason="reliure"/></persName><lb/>et d'<persName
+                        ref="https://isni.org/isni/0000000122798373"><forename><choice>
+                              <abbr>Andr.</abbr>
+                              <expan>Andreas</expan>
+                           </choice></forename>
+                        <gap reason="reliure"/></persName><lb/><choice>
+                        <abbr>desqls</abbr>
+                        <expan>desquels</expan>
+                     </choice><choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                     </choice>ay veu <gap reason="reliure"/><lb/>tesmoignage de <lb/>l'honneur qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>ils <lb/>luy <subst>
+                        <del rend="cancelled">rendoient</del>
+                        <add place="inline">faisoient<unclear reason="reliure">.</unclear></add>
+                     </subst></add>
+               </subst>
+               <lb n="8"/><add place="inline"><choice>
+                     <orig>m</orig>
+                     <reg>M</reg>
+                  </choice>ais au lieu d<subst>
+                     <del><choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice><del rend="overwritten">a</del><del rend="cancelled"
+                        >chever</del></del>
+                     <add><add place="superimposed">e</add><add place="above"><choice>
+                              <abbr><g>q</g></abbr>
+                              <expan>con</expan>
+                           </choice>tinuer</add></add>
+                  </subst> cete <choice>
+                     <abbr><g>p</g></abbr>
+                     <expan>pro</expan>
+                  </choice>fession <del>et se perpetuer par ses escrits il</del></add><lb n="9"/>
+               fut requis par la <persName ref="https://isni.org/isni/0000000054625242"><roleName><choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                     </choice>eyne</roleName>
+                  <forename>Caterine</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Navarre</surname></persName> de venir <lb n="10"/>en <placeName><choice>
+                     <orig>f</orig>
+                     <reg>F</reg>
+                  </choice>rance</placeName> pour assister ses <del rend="cancelled">grands</del><choice>
+                  <abbr>af<g>e</g>s</abbr>
+                  <expan>affaires</expan>
+               </choice><subst>
+                  <del rend="cancelled">avec</del>
+                  <add place="inline">et acompaigner</add>
+               </subst> le <persName ref="https://isni.org/isni/0000000122791446"><roleName><choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                     </choice>oy</roleName>
+                  <forename>Henry</forename>
+                  <lb n="11"/>
+                  <nameLink>de</nameLink>
+                  <surname>Navarre</surname></persName> son filz <choice>
+                  <orig> . </orig>
+                  <reg>, </reg>
+               </choice>qui <add place="inline">luy</add> fut <del rend="cancelled">le</del><choice>
+                  <abbr><g>q</g></abbr>
+                  <expan>co</expan>
+               </choice>mancemet d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>une autre <lb n="12"/>forme de vie.<subst xml:id="f17v-12-1">
+                  <del rend="cancelled"><choice>
+                        <orig>o</orig>
+                        <reg>O</reg>
+                     </choice>r aiant</del>
+                  <add place="inline"><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                     </choice>cy il</add>
+               </subst>espous<subst>
+                  <del rend="overwritten">é</del>
+                  <add rend="superimposed" xml:id="f17v-12-2">a</add>
+               </subst>
+               <del rend="cancelled" xml:id="f17v-12-3">icy</del>
+               <substJoin target="#f17v-12-1, #f17v-12-2, #f17v-12-3"/> feu ma mere <del
+                  rend="cancelled">d</del><persName><roleName>dame</roleName>
+                  <lb n="13"/><forename>Nicole</forename>
+                  <surname>Hennequin</surname></persName> fille de
+                     <persName><roleName>messire</roleName>
+                  <forename><choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                     </choice>hristofle</forename>
+                  <surname>Hennequin</surname></persName>
+               <lb n="14"/><metamark function="insertion" place="below" rend="circonflexe"
+                  >^</metamark><add place="inline"><del rend="cancelled">le</del>plus ancien</add>
+               conseiller du <orgName>parlement de <placeName>Paris</placeName></orgName> et
+               president d'<placeName>Alançon</placeName><lb n="15"/><subst>
+                  <del rend="cancelled">duquel</del>
+                  <add place="inline">que</add>
+               </subst>le <persName ref="https://isni.org/isni/0000000121029337"><roleName><choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                     </choice>oy</roleName><forename>Francoys</forename></persName>
+               <subst>
+                  <del rend="cancelled">s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>estoit servy</del>
+                  <add place="inline">avoit tenu <subst>
+                        <del rend="cancelled">longuement</del>
+                        <add place="above">quelque temps son</add>
+                     </subst></add>
+               </subst> ambassadeur en <lb n="16"/>
+               <placeName>Suisse</placeName> et <metamark function="insertion" place="below"
+                  rend="circonflexe">^</metamark><add place="inline">depuys</add> en autres grandes
+               charges <choice>
+                  <orig>.</orig>
+                  <reg/>
+               </choice>et l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>avoit designé <lb n="17"/>premier president de <placeName>Paris</placeName>
+               pource qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il scavoit bien <lb n="18"/>faire et bien dire .<add><subst>
+                     <del rend="cancelled"><choice>
+                           <orig>t</orig>
+                           <reg>T</reg>
+                        </choice>outesfois</del>
+                     <add place="inline"><choice>
+                           <orig>m</orig>
+                           <reg>M</reg>
+                        </choice>ais</add>
+                  </subst> sa mort <subst>
+                     <del rend="cancelled">preveint ce</del>
+                     <add place="above"><subst>
+                           <del rend="cancelled">empescha</del>
+                           <add place="inline">devan<choice>
+                                 <orig>c</orig>
+                                 <reg>ç</reg>
+                              </choice>a</add>
+                        </subst> l<choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice>effect de ce</add>
+                  </subst>
+                  <lb n="19"/> iugement <choice>
+                     <orig>R</orig>
+                     <reg>r</reg>
+                  </choice>oial et mourut l<subst xml:id="f17v-19-1">
+                     <del rend="overwritten">e</del>
+                     <add place="superimposed">a</add>
+                  </subst> propre <subst xml:id="f17v-19-2">
+                     <del><choice>
+                           <orig>i</orig>
+                           <reg>j</reg>
+                        </choice>our</del>
+                     <add place="inline">nuict</add>
+                  </subst>
+                  <substJoin target="#f17v-19-1 #f17v-19-2"/> que <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>e fus <addSpan place="right" spanTo="#f17v-19-3"/>conceu <unclear
+                     reason="reliure">precedente</unclear><lb/> le <date when="1531-05-01"><choice>
+                        <abbr>pr</abbr>
+                        <expan>premier</expan>
+                     </choice><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>our de <choice>
+                        <orig>M</orig>
+                        <reg>m</reg>
+                     </choice><unclear reason="reliure">ay</unclear><lb/>
+                     <subst>
+                        <del rend="cancelled">153<subst>
+                              <del rend="deleted">2</del>
+                              <add>2</add>
+                           </subst></del>
+                        <add>1531</add>
+                     </subst></date><anchor xml:id="f17v-19-3"/></add>
+            </p>
+            <p><lb n="20"/><del rend="cancelled">Je nacquis <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice><placeName> Paris</placeName> le <date when="1531-01-29">mardy
+                        <del>pen</del> XXIX<hi rend="superscript">e</hi>
+                     <choice>
+                        <orig>J</orig>
+                        <reg>j</reg>
+                     </choice>anvier <lb n="21"/>1531</date>
+                  <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> trois heures du matin.</del></p>
+         </div>
+         <div type="6.Retraite">
+            <p>
+               <lb n="1"/><choice>
+                  <orig>m</orig>
+                  <reg>M</reg>
+               </choice>e voil<choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>
+               <choice>
+                  <orig>v</orig>
+                  <reg>u</reg>
+               </choice>ne heure apres ches moy <subst>
+                  <del rend="cancelled">vuide de</del>
+                  <add>franc des</add>
+               </subst> acoustume<add>z</add>
+               <lb n="2"/>labeurs , franc de passion , contant d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>avoir mon <choice>
+                  <abbr>ord<hi rend="superscript">re</hi></abbr>
+                  <expan>ordinaire</expan>
+               </choice> souhait <lb n="3"/> qui estoit d'une vacation et repos <choice>
+                  <abbr>po<hi rend="superscript">r</hi></abbr>
+                  <expan>pour</expan>
+               </choice> la fin de mes <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ours , synon <lb n="4"/>avec les bones gr<choice>
+                  <orig>a</orig>
+                  <reg>â</reg>
+               </choice>ces que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e desirois , au<choice>
+                  <orig/>
+                  <reg> </reg>
+               </choice>moins avec mon innocence <lb n="5"/>certaine , et cognue
+                  <unclear>c</unclear>ome <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>estime par touts les gens de bien .<lb n="6"/><choice>
+                  <orig>i</orig>
+                  <reg>J</reg>
+               </choice>e voiois <subst>
+                  <del rend="cancelled">que</del>
+                  <add place="inline">aprocher</add>
+               </subst> la ruine de ce roiaume , <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e la sentois des<choice>
+                  <orig>ia</orig>
+                  <reg>jà</reg>
+               </choice> sur <lb n="7"/>noz testes . <choice>
+                  <orig>j</orig>
+                  <reg>J</reg>
+               </choice>e disois , <said direct="true"><subst>
+                     <del rend="overwritten">c</del>
+                     <add place="superimposed">C</add>
+                  </subst>e qui m<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>est ad<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>enu ad<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>iendra bientost <lb n="8"/><choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice>
+                  <choice>
+                     <abbr>plrs</abbr>
+                     <expan>plusieurs</expan>
+                  </choice> . <choice>
+                     <orig>m</orig>
+                     <reg>M</reg>
+                  </choice>on desastre <choice>
+                     <abbr>pnt</abbr>
+                     <expan>présent</expan>
+                  </choice> de<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ancera de peu de mois ou pour <lb n="9"/> le plus de peu d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>années le desastre publicq . <choice>
+                     <orig>d</orig>
+                     <reg>D</reg>
+                  </choice>e plus grands <lb n="10"/>maulx se preparent , de plus tristes accidens
+                  nous menassent, <lb n="11"/>nous pressent , nous talonent , nous <choice>
+                     <abbr>q</abbr>
+                     <reg>com</reg>
+                  </choice>mandent ou de <subst>
+                     <del rend="cancelled">finir</del>
+                     <add place="inline">retenir</add>
+                  </subst>noz <lb n="12"/>pleurs , ou de les garder pour eulx .</said> Je me resolus
+               donc <lb n="13"/>apres avoir remercié <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>ieu , adverty ma femme , receu et <lb n="14"/>honoré les <choice>
+                  <abbr>q</abbr>
+                  <reg>com</reg>
+               </choice>plimens , des princes et princesses , et de<del rend="deleted">s</del>
+               <choice>
+                  <abbr>plrs</abbr>
+                  <expan>plusieurs</expan>
+               </choice>
+               <lb n="15"/>mes seigneurs et amys , d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>embrasser <add place="inline">gaiement</add> cete vie privée <lb n="16"
+               />mais non pas oisive , me plonger <del rend="cancelled">dans</del> profondemens dans
+                  <lb n="17"/>les estudes des bones <choice>
+                  <abbr>tres</abbr>
+                  <expan>lettres</expan>
+               </choice> et liberales disciplines , auxq<choice>
+                  <abbr/>
+                  <ex>ue</ex>
+               </choice>lles <lb n="18"/><choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e me sens plus né que norry , m<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>enveloper dans ces belles <lb n="19"/>munitions de l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice><choice>
+                  <orig>a</orig>
+                  <reg>â</reg>
+               </choice>me , couvrir mon esprit des gallons de <lb n="20"/>la raison et <choice>
+                  <abbr><g>q</g></abbr>
+                  <expan>con</expan>
+               </choice>stance, afin que la douleur ne peust <lb n="21"/>entrer dans moy , et ne trou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ast lieu <unclear reason="inkblot">pour</unclear> y penetrer au <lb n="22"
+               />default du harnois . Voil<choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> come <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>ay vescu depuys <lb n="23"/> et come le lendemain le <choice>
+                  <orig>R</orig>
+                  <reg>r</reg>
+               </choice>oy poussé par quelqun <subst>
+                  <del rend="cancelled">m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>envoia demander</del>
+                  <add place="inline">m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>escrivit que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e luy</add>
+               </subst>
+               <lb n="24"/>
+               <metamark facs="insertion" place="below" rend="circonflexe">^</metamark>
+               <add place="inline"><metamark function="insertion" rend="circonflexe"
+                  >^</metamark>renvoiasse</add> les clefs du tresor de ses chartres ,<del><add
+                     place="inline">et quand</add></del>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e les luy ren<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oay promptement <lb n="25"/>avec une <choice>
+                  <abbr>tre</abbr>
+                  <expan>lettre</expan>
+               </choice> qui disoit que vous estiez pourveu de cet office mais <lb n="26"/>qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il estoit le maistre . <choice>
+                  <orig>l</orig>
+                  <reg>L</reg>
+               </choice>ors il m<choice>
+                  <orig> </orig>
+                  <reg>'</reg>
+               </choice>en<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oia le <persName ref="https://isni.org/isni/000000035875676X"><roleName>procureur <choice>
+<!--                  Confirmer la référence, ce n'est pas la même année de décès que celle fournie par Chloé Moulin ?-->
+                        <abbr>gra<g>l</g></abbr>
+                        <expan>général</expan>
+                     </choice></roleName>
+                  <lb n="26"/><surname><choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                     </choice>a <choice>
+                        <orig>g</orig>
+                        <reg>G</reg>
+                     </choice>uesle</surname>, <genName>pere</genName></persName> , pour scavoir sy <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e voulois retenir l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>office ou <lb n="27"/>en rece<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oir le pris . <choice>
+                  <orig>i</orig>
+                  <reg>J</reg>
+               </choice>e luy tendy ma robe come on faict a <lb n="28"/>un retraiant et il m<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>envoia lendemain ii mil e V <!--               ??--> pour le <lb n="29"
+               />pris d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>icelluy . <choice>
+                  <orig>c</orig>
+                  <reg>C</reg>
+               </choice>e que <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>optay avec beaucoup de raison <choice>
+                  <orig>.</orig>
+                  <reg>,</reg>
+               </choice> car l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>envie et <lb n="30"/>mauvaise volonté des meschans luy eust peu persuader
+               que <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>eusse <lb n="31"/>
+               <choice>
+                  <abbr>po<hi rend="superscript">r</hi></abbr>
+                  <expan>pour</expan>
+               </choice> re<choice><orig>u</orig><reg>v</reg></choice>anche gasté ou <subst>
+                  <del rend="cancelled">dissipé</del>
+                  <add place="inline">perdu</add>
+               </subst> les titres de la corone que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e scay estre <lb n="32"/>touts en ruine et sy dissipez qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il n<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>y a presque rien aux laiettes<supplied reason="omitted-in-original"
+                  >.</supplied>
+            </p>
          </div>
       </body>
    </text>
