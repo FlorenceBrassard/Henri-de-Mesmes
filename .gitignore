@@ -1,1 +1,4 @@
 .DS_Store
+
+# fichier de variables, par environnement
+variables.sh

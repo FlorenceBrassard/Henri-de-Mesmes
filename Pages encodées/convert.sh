@@ -8,11 +8,9 @@
 #
 # ... où <mon-fichier> correspond à ex. page123.xml, à renseigner sans l'extension.
 
-# Chemin absolu vers l'exécutable de Saxon, à renseigner
-# ex. /Applications/Saxon/saxon.jar
-SAXON_PATH=""
-# Fichier .xsl, à renseigner
-XSL_PATH=""
+# Ce fichier dépend des variables dans un fichier externe
+# (non suivi par Git)
+source variables.sh
 
 if [[ $# -eq 0 ]] ; then
   echo "Vous devez indiquer un fichier à convertir, sans l'extension .xml"
