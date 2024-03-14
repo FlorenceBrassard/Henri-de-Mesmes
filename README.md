@@ -9,7 +9,7 @@ Il faudra d'abord copier le fichier `variables.exemple.sh` pour en créer un nou
 cp variables.exemple.sh variables.sh
 ```
 
-Ensuite, il faudra compléter les variables avec les bonnes valeurs d'environnement.
+Ensuite, il faudra compléter `variables.sh` avec les bonnes valeurs d'environnement.
 
 Pour lancer la conversion d'un fichier `fichier123.xml` vers `fichier123.html`, on lancera le script ainsi (toujours dans le terminal) :
 
