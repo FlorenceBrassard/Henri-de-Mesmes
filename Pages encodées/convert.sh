@@ -22,9 +22,9 @@ echo ""
 
 java -cp \
   $SAXON_PATH \
-  $1.xml \
+  -s:$1.xml \
   -xsl:$XSL_PATH \
-  -o $1.html
+  -o:$1.html
 
 echo ""
 echo "Fin de la conversion."
