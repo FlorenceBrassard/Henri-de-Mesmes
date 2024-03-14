@@ -22,6 +22,7 @@ echo ""
 
 java -cp \
   $SAXON_PATH \
+  net.sf.saxon.Transform \
   -s:$1.xml \
   -xsl:$XSL_PATH \
   -o:$1.html
