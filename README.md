@@ -2,7 +2,7 @@
 
 ## Conversions
 
-Le fichier de conversions `convert.sh` utilise les variables dans un fichier séparé, à renseigner sur le poste de chacun·e.
+Le fichier de conversion `convert.sh` utilise les variables dans un fichier séparé `variables.sh`, à renseigner sur le poste de chaque utilisateur·trice.
 Il faudra d'abord copier le fichier `variables.exemple.sh` pour en créer un nouveau : `variables.sh`. Dans le terminal :
 
 ```bash
