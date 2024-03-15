@@ -14,7 +14,7 @@ Ensuite, il faudra compléter `variables.sh` avec les bonnes valeurs d'environne
 Pour lancer la conversion d'un fichier `fichier123.xml` vers `fichier123.html`, on lancera le script ainsi (toujours dans le terminal) :
 
 ```bash
-convert.sh fichier123
+bash convert.sh fichier123
 ```
 
 _(Attention à ne pas inclure l'extension du fichier !)_
