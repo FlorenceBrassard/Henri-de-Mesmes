@@ -275,4 +275,10 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <xi:include href="f17rop1.xml"/>
+         <xi:include href="f17rop2.xml"/>
+      </body>
+   </text>
 </TEI>
