@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,12 +18,54 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p><choice>
+               <orig>V</orig>
+               <reg>U</reg>
+            </choice>n temps fut que les <del rend="cancelled" xml:id="f17r-1-1">honestes</del>
+            homes <add xml:id="f17r-1-2"><metamark function="insertion" place="below"
+                  rend="circonflexe" target="#f17r-1-3">^</metamark></add>
+            <add xml:id="f17r-1-3"><metamark function="insertion" place="above" rend="circonflexe"
+                  >^</metamark> de valeur</add>
+            <substJoin target="#f17r-1-1 #f17r-1-2 #f17r-1-3"/> escri<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oient volontiers <subst>
+               <del rend="cancelled">la</del>
+               <add place="above">leurs</add>
+            </subst> vies <add><metamark function="insertion" place="below" rend="circonflexe"
+                  >^</metamark></add>
+            <add place="above">ou</add> de ceulx qu<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>ilz a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oient aimez : <del rend="cancelled">et aucuns ont composé la leur propre</del>
+            <choice>
+               <orig>:</orig>
+               <reg/>
+            </choice> c'estoi<subst>
+               <del rend="deleted1">en</del>
+               <add>en</add>
+            </subst>t au moins quelque<subst>
+               <del rend="deleted1">s</del>
+               <add place="inline">s</add>
+            </subst>
+            <subst>
+               <del rend="cancelled">louanges</del>
+               <add rend="above">remerque</add>
+            </subst><add rend="above">s</add> de<subst>
+               <del rend="deleted1">s</del>
+               <add rend="above">s</add>
+            </subst>
+            <subst>
+               <del rend="cancelled">vertueuses</del>
+               <add rend="above">belles</add>
+            </subst> actions : et apres eulx, enseignemens pour bien faire.</p>
+         <p/>
       </body>
-  </text>
+   </text>
 </TEI>
