@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,12 +18,51 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p><choice>
+               <orig>V</orig>
+               <reg>U</reg>
+            </choice>n temps fut que les <del xml:id="honestes">honestes</del> homes <metamark
+               function="insert" target="#devaleur">^</metamark>
+            <add xml:id="devaleur"><metamark>^</metamark>de valeur</add>
+            <substJoin target="#honestes #devaleur"/> escri<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oient volontiers <subst xml:id="laleurs">
+               <del>la</del>
+               <add>leurs</add>
+            </subst> vies <metamark function="insert" target="#ou">^</metamark><add xml:id="ou"
+               >ou</add> de ceulx qu<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>ilz a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oient aimez : <del xml:id="etpropre">et aucuns ont composé la leur propre
+               </del> <del rend="unmarked" xml:id="deuxpoints">:</del>
+            <substJoin target="#laleurs #ou #etpropre #deuxpoints"/> c'estoi<del xml:id="en"
+               >en</del>
+            <subst xml:id="tent">
+               <del rend="unmarked">t</del>
+               <add>ent</add>
+            </subst> au moins quelque<del xml:id="s">s</del>
+            <add xml:id="s1">s</add>
+            <subst xml:id="louangesremerque">
+               <del>louanges</del>
+               <add>remerque</add>
+            </subst><add xml:id="s2">s</add> de <del xml:id="s3">s</del>
+            <add xml:id="s4">s</add>
+            <subst xml:id="vertueusesbelles">
+               <del>vertueuses</del>
+               <add>belles</add>
+            </subst>
+            <substJoin seq="1" target="#en #s #louangesremerque #s3 #vertueusesbelles"/>
+            <substJoin seq="2" target="#tent #s1 #s2 #s4"/>actions : et apres eulx, enseignemens
+            pour bien faire.</p>
+         <!--         Comment gérer metamark dans le substJoin ligne 37 (laleurs/ou) -->
+         <p/>
       </body>
-  </text>
+   </text>
 </TEI>
