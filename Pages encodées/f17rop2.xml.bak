@@ -58,31 +58,27 @@
             <add place="inline" xml:id="f17r-2-4">n<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>usent guiere de <gap reason="deleted"/> plumes qu'<choice>
+               </choice>usent guiere de <gap reason="deleted"></gap> plumes qu'<choice>
                   <orig>a</orig>
                   <reg>à</reg>
                </choice> leurs chapeaus</add>
             <substJoin target="#f17r-2-1 #f17r-2-2 #f17r-2-3 #f17r-2-4"/>
             <add place="right">et <del rend="cancelled"><choice>
-                     <orig>i</orig>
-                     <reg>j</reg>
-                  </choice>e ne voy pas come</del>
-               <subst>
-                  <del rend="cancelled">les gens de robe longue</del>
-                  <add place="above"><del rend="cancelled">ceulx de</del></add>
-                  <add place="above">les</add>
-                  <add place="above">robe<add place="inline">s</add> longue<add place="inline"
-                        >s</add></add>
-               </subst>
-               <add place="inline">nont pas moien</add>
-               <add place="above"><del rend="cancelled">de se re<choice>
-                        <abbr>o<g rend="tilde"/></abbr>
-                        <expan>om</expan>
-                     </choice>omander</del></add></add>
-            <add place="inline">de se recommander</add> par faicts<subst>
-               <del rend="cancelled">recommandables</del>
-               <add place="above">memorables</add>
-            </subst>.</p>
+               <orig>i</orig>
+               <reg>j</reg> 
+            </choice>e ne voy pas come</del> <subst>
+               <del rend="cancelled">les gens de robe longue</del>
+               <add place="above"><del rend="cancelled">ceulx de</del></add>
+               <add place="above">les</add>
+               <add place="above">robe<add place="inline">s</add> longue<add place="inline">s</add></add>
+            </subst> <add place="inline">nont pas moien</add> <add place="above"><del rend="cancelled">de se re<choice>
+               <abbr>o<g rend="tilde"/></abbr>
+               <expan>om</expan>
+            </choice>omander</del></add></add>
+               <add place="inline">de se recommander</add> par faicts <subst>
+                  <del rend="cancelled">recommandables</del>
+                  <add place="above">memorables</add>
+               </subst>.</p>
          <p/>
       </body>
    </text>

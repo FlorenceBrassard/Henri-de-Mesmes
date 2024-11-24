@@ -35,7 +35,7 @@
             </choice>oient volontiers <subst>
                <del rend="cancelled">la</del>
                <add place="above">leurs</add>
-            </subst> vies <add><metamark function="insertion" place="below" rend="circonflexe"
+            </subst> vie<add place="inline">s</add> <add><metamark function="insertion" place="below" rend="circonflexe"
                   >^</metamark></add>
             <add place="above">ou</add> de ceulx qu<choice>
                <orig/>
@@ -50,8 +50,8 @@
             </choice> c'estoi<subst>
                <del rend="deleted1">en</del>
                <add>en<choice>
-                  <orig>t</orig>
-                  <reg/>
+                     <orig>t</orig>
+                     <reg/>
                   </choice></add>
             </subst>t au moins quelque<subst>
                <del rend="deleted1">s</del>

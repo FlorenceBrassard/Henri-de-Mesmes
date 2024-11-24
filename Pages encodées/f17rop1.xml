@@ -35,8 +35,8 @@
             </choice>oient volontiers <subst>
                <del rend="cancelled">la</del>
                <add place="above">leurs</add>
-            </subst> vie<add place="inline">s</add> <add><metamark function="insertion" place="below" rend="circonflexe"
-                  >^</metamark></add>
+            </subst> vie<add place="inline">s</add>
+            <add><metamark function="insertion" place="below" rend="circonflexe">^</metamark></add>
             <add place="above">ou</add> de ceulx qu<choice>
                <orig/>
                <reg>'</reg>
