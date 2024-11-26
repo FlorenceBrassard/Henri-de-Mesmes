@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,12 +18,50 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p><del><add>en france</add></del> maintenant ce n'est plus la mode ; <del>Aussy ne voy <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e pas que les esprits norrys en un Royaume, mesmement en robe longue, se
+               puissent guiere s'eslever</del><del xml:id="etguiere"><add seq="1">et ceulx qui ont
+                  les armes en France, n'escrivent guiere></add></del><addSpan spanTo="#chapeaus"
+               xml:id="Enchapeaus"/><add seq="2">En france ceulx qui <subst>
+                  <del>manient</del>
+                  <add>ont</add>
+               </subst> les armes, <subst>
+                  <del>mesprisent presque touts les letres, et n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>escrivent guieres.</del>
+                  <add>n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>usent guiere de <g/> plumes qu'<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> leurs chapeaus</add>
+               </subst><anchor xml:id="chapeaus"/><substJoin target="#etguiere #Enchapeaus"/> et <subst>
+                  <del seq="1"><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e ne voy pas come les gens de robe longue</del>
+                  <del seq="2"><add>ceulx de</add></del>
+                  <add xml:id="les">les</add>
+               </subst> robe<add xml:id="s">s</add> longue<add xml:id="s1">s</add>
+               <substJoin target=" #les #s #s1"/> n<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>ont pas moien <subst>
+                  <del>de se recõmander.</del>
+                  <add>de se recommander</add>
+               </subst>
+            </add> par faicts <subst>
+               <del>recommandables</del>
+               <add>memorables</add>
+            </subst>
+         </p>
       </body>
-  </text>
+   </text>
 </TEI>
