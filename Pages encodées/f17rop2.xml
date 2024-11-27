@@ -25,9 +25,9 @@
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e pas que les esprits norrys en un Royaume, mesmement en robe longue, se
-               puissent guiere s'eslever</del><del xml:id="etguiere"><add seq="1">et ceulx qui ont
+               puissent guiere s'eslever</del><del xml:id="et_guiere"><add seq="1">et ceulx qui ont
                   les armes en France, n'escrivent guiere></add></del><addSpan spanTo="#chapeaus"
-               xml:id="Enchapeaus"/><add seq="2">En france ceulx qui <subst>
+               xml:id="En_chapeaus"/><add seq="2">En france ceulx qui <subst>
                   <del>manient</del>
                   <add>ont</add>
                </subst> les armes, <subst>
@@ -42,15 +42,15 @@
                         <orig>a</orig>
                         <reg>à</reg>
                      </choice> leurs chapeaus</add>
-               </subst><anchor xml:id="chapeaus"/><substJoin target="#etguiere #Enchapeaus"/> et <subst>
+               </subst><anchor xml:id="chapeaus"/><substJoin target="#et_guiere #En_chapeaus"/> et <subst>
                   <del seq="1"><choice>
                         <orig>i</orig>
                         <reg>j</reg>
                      </choice>e ne voy pas come les gens de robe longue</del>
                   <del seq="2"><add>ceulx de</add></del>
                   <add xml:id="les">les</add>
-               </subst> robe<add xml:id="s">s</add> longue<add xml:id="s1">s</add>
-               <substJoin target=" #les #s #s1"/> n<choice>
+               </subst> robe<add xml:id="s">s</add> longue<add xml:id="s_1">s</add>
+               <substJoin target=" #les #s #s_1"/> n<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>ont pas moien <subst>
