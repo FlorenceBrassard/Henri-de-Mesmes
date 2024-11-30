@@ -24,45 +24,44 @@
          <p><choice>
                <orig>V</orig>
                <reg>U</reg>
-            </choice>n temps fut que les <del xml:id="honestes">honestes</del> homes 
-            <add><metamark function="insertion" target="devaleur">^</metamark></add>
-            <add xml:id="devaleur"><metamark>^</metamark> de valeur</add>
-            <substJoin target="#honestes #devaleur"/> escri<choice>
+            </choice>n temps fut que les <del xml:id="honestes">honestes</del> homes <metamark
+                  function="insertion" target="de_valeur">^</metamark>
+            <add xml:id="de_valeur"><metamark>^</metamark> de valeur</add>
+            <substJoin target="#honestes #de_valeur"/> escri<choice>
                <orig>u</orig>
                <reg>v</reg>
             </choice>oient volontiers <subst xml:id="laleurs">
                <del>la</del>
                <add>leurs</add>
-            </subst> vie<add xml:id="s1">s</add> <substJoin target="#laleurs #s1"/>
-            <add><metamark function="insertion" target="ou">^</metamark></add>
+            </subst> vie<add xml:id="s_1">s</add>
+            <metamark function="insertion" target="ou">^</metamark>
             <add xml:id="ou">ou</add> de ceulx qu<choice>
                <orig/>
                <reg>'</reg>
             </choice>ilz a<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>oient aimez : <del xml:id="etpropre">et aucuns ont composé la leur propre</del>
-            <del rend="unmarked" xml:id="deuxpoints">:</del> 
-            <substJoin target="#laleurs #ou #etpropre #deuxpoints"/>
-            c'estoi<del xml:id="en">en</del>
-            <subst xml:id="tent">
+            </choice>oient aimez : <del xml:id="et_propre">et aucuns ont composé la leur propre</del>
+            <del rend="unmarked" xml:id="deux_points">:</del>
+            <substJoin target="#la_leurs #s_1 #ou #et_propre #deux_points"/> c'estoi<del xml:id="en"
+               >en</del>
+            <subst xml:id="t_ent">
                <del rend="unmarked">t</del>
                <add>ent</add>
-            </subst> au moins quelque<del xml:id="s2">s</del>
+            </subst> au moins quelque<del xml:id="s_2">s</del>
             <add xml:id="s3">s</add>
-            <subst xml:id="louangesremerque">
+            <subst xml:id="louanges_remerque">
                <del>louanges</del>
                <add>remerque</add>
-            </subst><add xml:id="s4">s</add> de
-            <del xml:id="s5">s</del>
-            <add xml:id="s6">s</add>
-            <subst xml:id="vertueusesbelles">
+            </subst><add xml:id="s_4">s</add> de <del xml:id="s_5">s</del>
+            <add xml:id="s_6">s</add>
+            <subst xml:id="vertueuses_belles">
                <del>vertueuses</del>
                <add>belles</add>
-            </subst> 
-            <substJoin seq="1" target="#en #s2 #s5 #louangesremerque #vertueusesbelles"/>
-            <substJoin seq="2" target="#tent #s3 #s4 #s6"/>
-            actions : et apres eulx, enseignemens pour bien faire.</p>
+            </subst>
+            <substJoin seq="1" target="#en #s_2 #s_5 #louanges_remerque #vertueuses_belles"/>
+            <substJoin seq="2" target="#t_ent #s_3 #s_4 #s_6"/> actions : et apres eulx, enseignemens
+            pour bien faire.</p>
          <p/>
       </body>
    </text>
