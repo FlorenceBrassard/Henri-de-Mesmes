@@ -46,12 +46,8 @@
             <del rend="unmarked" xml:id="deuxpoints">:</del>
             <substJoin target="#laleurs #ou #etpropre #deuxpoints"/> c'estoi<del xml:id="en"
                >en</del>
-            <subst xml:id="tent">
                <del rend="unmarked">t</del>
                <add>ent</add>
-            </subst> au moins quelque<del xml:id="s2">s</del>
-            <add xml:id="s3">s</add>
-            <subst xml:id="louangesremerque">
                <del>louanges</del>
                <add>remerque</add>
             </subst><add xml:id="s4">s</add> de <del xml:id="s5">s</del>
