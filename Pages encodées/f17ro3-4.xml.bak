@@ -40,17 +40,17 @@
             pour oster son bonet, sens langue sy ce n<choice>
                <orig/>
                <reg>'</reg>
-            </choice>est pour flater ? <add xml:id="et_serviteur">Et en fin de compte pour tout <choice>
+            </choice>est pour flater ? <add xml:id="et_serviteur">Et en fin de compte pour tout
+               <choice>
                   <orig>E</orig>
                   <reg>e</reg>
                </choice>loge, <add>c<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>est domage</add><choice>
+               </choice>est domage</add><choice>
                   <orig/>
                   <reg>,</reg>
-               </choice>
-               <choice>
+               </choice> <choice>
                   <orig>C</orig>
                   <reg>c</reg>
                </choice><choice>
@@ -59,11 +59,11 @@
                </choice>estoit un bon serviteur.</add>
             <substJoin target="#et #et_serviteur"/>
             <metamark function="insert" target="#certes_soymesmes" xml:id="metamark_2">+</metamark>
-            <add xml:id="certes_soymesmes"><metamark>+</metamark> Certes mieulx vaudroit avoir
-                  <del>apris <gap/></del> esté bien maistre de soymesmes</add><choice>
-               <orig/>
-               <reg>.</reg>
-            </choice>
+            <add xml:id="certes_soymesmes"><metamark>+</metamark> Certes mieulx vaudroit avoir 
+               <del>apris <gap/></del> esté bien maistre de soymesmes</add><choice>
+                  <orig/>
+                  <reg>.</reg>
+               </choice>
          </p>
       </body>
    </text>
