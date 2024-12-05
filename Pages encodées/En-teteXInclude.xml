@@ -277,9 +277,8 @@
       <profileDesc>
          <creation>
             <listChange>
-               <listChange ordered="true">
-                  <change xml:id="changement1" target="#Et #Et_serviteur #ne_famille"/>
-                  <change xml:id="changement2" target="#certes_soymesmes"/>
+               <listChange>
+                  <change></change>
                </listChange>
             </listChange>
          </creation>
@@ -289,7 +288,7 @@
       <body>
          <xi:include href="f17rop1.xml"/>
          <xi:include href="f17rop2.xml"/>
-         <xi:include href="f17rop3-4%20change.xml"/>
+         <xi:include href="f17rop3-4.xml"/>
       </body>
    </text>
 </TEI>

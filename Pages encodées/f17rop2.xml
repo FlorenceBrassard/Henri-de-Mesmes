@@ -49,8 +49,8 @@
                      </choice>e ne voy pas come les gens de robe longue</del>
                   <del seq="2"><add>ceulx de</add></del>
                   <add xml:id="les">les</add>
-               </subst> robe<add xml:id="s">s</add> longue<add xml:id="s_1">s</add>
-               <substJoin target=" #les #s #s_1"/> n<choice>
+               </subst> robe<add xml:id="s_1">s</add> longue<add xml:id="s_2">s</add>
+               <substJoin target=" #les #s_1 #s_2"/> n<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>ont pas moien <subst>
