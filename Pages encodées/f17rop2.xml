@@ -54,13 +54,13 @@
                   <orig/>
                   <reg>'</reg>
                </choice>ont pas moien <subst>
-                  <del>de se recõmander.</del>
-                  <add>de se recommander</add>
+                  <del>de se recõmander</del>
+                  <add xml:id="de_recommander">de se recommander</add>
                </subst>
-            </add> par faicts <subst>
+               </add> par faicts <subst xml:id="memorables">
                <del>recommandables</del>
                <add>memorables</add>
-            </subst>
+               </subst>.  <substJoin target=" #de_recommander #memorables"/>
          </p>
       </body>
    </text>
