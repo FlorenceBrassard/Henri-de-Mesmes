@@ -40,7 +40,7 @@
                         armes en <choice>
                             <orig>f</orig>
                             <reg>F</reg>
-                        </choice>rance, n'escrivent guiere></add></del><add xml:id="En_guieres">En <choice>
+                        </choice>rance, n'escrivent guiere></add></del><add xml:id="en_guieres">En <choice>
                         <orig>f</orig>
                         <reg>F</reg>
                     </choice>rance ceulx qui <subst>
@@ -54,7 +54,7 @@
                 <add xml:id="nusent_chapeaus">n<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>usent guiere de <g/> plumes qu'<choice>
+                    </choice>usent guiere de <gap n="1" unit="char"/> plumes qu'<choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> leurs chapeaus</add>
