@@ -4,7 +4,7 @@
 <?xml-stylesheet type="text/xsl" href="./xsl/custom.xsl"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   
+
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -274,11 +274,23 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <creation>
+            <listChange>
+               <listChange>
+                  <change></change>
+               </listChange>
+            </listChange>
+         </creation>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
          <xi:include href="f17rop1.xml"/>
          <xi:include href="f17rop2.xml"/>
+         <xi:include href="f17rop3-4.xml"/>
+         <xi:include href="f17rop5.xml"/>
+         <xi:include href="f17rop6.xml"/>
       </body>
    </text>
 </TEI>
