@@ -55,13 +55,13 @@
                <add>remerque</add>
             </subst><add xml:id="s_4">s</add> de <del xml:id="s_5">s</del>
             <add xml:id="s_6">s</add>
-            <subst xml:id="vertueusesbelles">
+            <subst xml:id="vertueuses_belles">
                <del>vertueuses</del>
                <add>belles</add>
             </subst>
-            <substJoin seq="1" target="#en #s_2 #louanges_remerque #s_5 #vertueuses_belles"/>
-            <substJoin seq="2" target="#t_ent #s_3 #s_4 #s_6"/>actions : et apres eulx, enseignemens
-            pour bien faire.</p>
+            <substJoin seq="1" target="#en #s_2 #s_5 #louanges_remerque #vertueuses_belles"/>
+            <substJoin seq="2" target="#t_ent #s_3 #s_4 #s_6"/> actions : et apres eulx,
+            enseignemens pour bien faire.</p>
          <p/>
       </body>
    </text>

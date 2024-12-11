@@ -57,10 +57,10 @@
                     </choice>usent guiere de <gap n="1" unit="char"/> plumes qu'<choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> leurs chapeaus</add>
-                <substJoin seq="1" target="#et_guiere #En_guieres"/>
-                <substJoin seq="2" target="#mesprisent_guieres #nusent_chapeaus"/><addSpan
-                    spanTo="#recõmander"/> et <subst>
+                    </choice>leurs chapeaus</add>
+                <substJoin seq="1" target="#et_guiere #en_guieres"/>
+                <substJoin seq="2" target="#mesprisent_guieres #nusent_chapeaus"/>
+                <addSpan spanTo="#recõmander"/>et <subst>
                     <del><choice>
                             <orig>i</orig>
                             <reg>j</reg>
