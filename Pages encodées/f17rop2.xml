@@ -54,7 +54,7 @@
                 <add xml:id="nusent_chapeaus">n<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>usent guiere de <gap n="1" unit="char"/> plumes qu'<choice>
+                    </choice>usent guiere de <gap quantity="1" unit="char"/> plumes qu'<choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>leurs chapeaus</add>

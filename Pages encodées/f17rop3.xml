@@ -23,12 +23,12 @@
         <body>
             <p><subst>
                     <del>Mais</del>
-                    <add><del xml:id="Et">Et</del></add>
+                    <add><del xml:id="et">Et</del></add>
                 </subst> que scauroit faire de grand <choice>
                     <orig>v</orig>
                     <reg>u</reg>
                 </choice>n home seul <metamark function="insert" target="#ne_famille"
-                    xml:id="metamark__3-4-1">°¯</metamark>
+                    xml:id="metamark_3-1">°¯</metamark>
                 <add xml:id="ne_famille"><metamark>°¯</metamark>ne commendant <subst>
                         <del>qu'</del>
                         <add>qu'<choice>
@@ -36,17 +36,21 @@
                                 <reg>à</reg>
                             </choice> poine</add>
                     </subst>
-                    <add><del>ceans</del></add> en sa <del>petite</del> famille</add>, sens mains
+                    <add><del>ceans</del></add> en sa <del>petite</del> famille</add> sens mains
                 synon pour oster son bonet, sens langue sy ce n<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>est pour flater ? <add seq="1" xml:id="Et_serviteur">Et en fin de compte pour tout <choice>
+                </choice>est pour flater ? <add seq="1" xml:id="et_serviteur">Et en fin de compte
+                    pour tout <choice>
                         <orig>E</orig>
                         <reg>e</reg>
-                    </choice>loge <add>c<choice>
+                    </choice>loge, <add>c<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>est domage</add>,
+                        </choice>est domage</add><choice>
+                        <orig/>
+                        <reg>, </reg>
+                    </choice>
                     <choice>
                         <orig>C</orig>
                         <reg>c</reg>
@@ -54,11 +58,11 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>estoit un bon serviteur.</add>
-               <substJoin target="#Et #Et_serviteur"/>
-               <metamark function="insert" target="#certes_soymesmes" xml:id="metamark_3-4-2"
+                <substJoin target="#et #et_serviteur"/>
+                <metamark function="insert" target="#certes_soymesmes" xml:id="metamark_3-2"
                     >+</metamark>
-               <add seq="2" xml:id="certes_soymesmes"><metamark>+</metamark>Certes mieulx vaudroit avoir
-                  <del>apris<gap quantity="2" unit="char"/></del>esté bien maistre de soymesmes <choice>
+                <add seq="2" xml:id="certes_soymesmes"><metamark>+</metamark> Certes mieulx vaudroit
+                    avoir <del>apris<gap quantity="2" unit="char"/></del> esté bien maistre de soymesmes<choice>
                         <orig/>
                         <reg>.</reg>
                     </choice></add>
