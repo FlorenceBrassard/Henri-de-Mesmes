@@ -59,10 +59,10 @@
                         <reg>'</reg>
                     </choice>estoit un bon serviteur.</add>
                 <substJoin target="#et #et_serviteur"/>
-                <metamark function="insert" target="#certes_soymesmes" xml:id="metamark_3-2"
+                <metamark function="insert" target="#certes_soymesmes" xml:id="metamark_3_2"
                     >+</metamark>
                 <add seq="2" xml:id="certes_soymesmes"><metamark>+</metamark> Certes mieulx vaudroit
-                    avoir <del>apris<gap quantity="2" unit="char"/></del> esté bien maistre de soymesmes<choice>
+                    avoir <del>apris <gap quantity="2" unit="char"/></del> esté bien maistre de soymesmes<choice>
                         <orig/>
                         <reg>.</reg>
                     </choice></add>
