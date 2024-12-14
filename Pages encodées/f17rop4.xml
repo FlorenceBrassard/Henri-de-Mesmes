@@ -6,74 +6,81 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>Je n<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>ay donc pas intention de croniquer mes gestes, <subst>
-               <del>ma profession n<choice>
-                     <orig/>
-                     <reg>'</reg>
-                  </choice>a esté de les rendre <subst>
-                     <del>memo</del>
-                     <add>grandement mem</add>
-                  </subst></del>
-               <add>ny ma <choice>
-                     <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
-                     <expan>pro</expan>
-                  </choice>fession les a <subst>
-                     <del>soufferts</del>
-                     <add>produits</add>
-                  </subst> dignes de grande histoire</add>
-            </subst> seulement ay <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>e remis par ordre ces petits memoires, afin qu'en <del>me</del> ramente<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>ant le passé <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>e <subst>
-               <del>gouste ancore</del>
-               <add>me re<choice>
-                     <abbr><hi rend="overline">pnte</hi></abbr>
-                     <expan>presente</expan>
-                  </choice></add>
-            </subst> parfois les graces que <choice>
-               <orig>d</orig>
-               <reg>D</reg>
-            </choice> m<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>a faictes, et <subst>
-               <del seq="1"><undo spanTo="#sente" seq="3"/>sente<anchor xml:id="sente"/></del>
-               <del seq="2"><add>re<choice>
-                        <orig>c</orig>
-                        <reg>ç</reg>
-               </choice>oive</add></del>
-               <add seq="4">ressente</add>
-            </subst> plaisir des maulx dont il m<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>a preser<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>é.</p>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Je n<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>ay donc pas intention de croniquer mes gestes, <subst>
+                    <del><add>ma profession n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>a <subst>
+                                <del>esté</del>
+                                <add>pas servi</add>
+                            </subst> de les rendre <subst>
+                                <del>memo</del>
+                                <add>grandement mem</add>
+                            </subst></add></del>
+                    <add>ny ma <choice>
+                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                            <expan>pro</expan>
+                        </choice>fession les a <subst>
+                            <del>soufferts</del>
+                            <add>produits</add>
+                        </subst> dignes de grande histoire<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice></add>
+                </subst> seulement ay <choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>e remis par ordre ces petits memoires, afin qu'en <del>me</del> ramente<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>ant le passé <choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>e <subst>
+                    <del>gouste ancore</del>
+                    <add>me re<choice>
+                            <abbr rend="overlined">pnte</abbr>
+                            <expan>présente</expan>
+                        </choice></add>
+                </subst> parfois les graces que <choice>
+                    <orig>d</orig>
+                    <reg>D</reg>
+                </choice> m<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>a faictes, et <subst>
+                    <del seq="1" xml:id="sente"><undo rend="underlined" target="#sente"/><del
+                            rend="unmarked" seq="3">sente</del></del>
+                    <del seq="2"><add>re<choice>
+                                <orig>c</orig>
+                                <reg>ç</reg>
+                            </choice>oive</add></del>
+                    <add>ressente</add>
+                </subst> plaisir des maulx dont il m<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>a preser<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>é.</p>
+        </body>
+    </text>
 </TEI>
