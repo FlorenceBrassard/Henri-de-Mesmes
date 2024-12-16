@@ -12,12 +12,10 @@
             <author><persName ref="https://isni.org/isni/0000000121402971"><nameLink>de</nameLink>
                   <surname>Mesmes</surname>, <forename>Henri</forename>
                </persName>(1532-1596)</author>
-            <editor><persName ref="https://isni.org/isni/0000000504833613"
-                     ><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
+            <editor><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
                      <persName><surname>Brassard</surname>,<forename>Florence</forename></persName></editor>
             <funder/>
-            <principal><persName ref="https://isni.org/isni/0000000504833613"
-                     ><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
+            <principal><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
          </titleStmt>
          <editionStmt>
             <edition/>
@@ -183,7 +181,7 @@
                         </listBibl>
                         <filiation/>
                         <note/>
-                        <textLang/>
+                        <textLang mainLang="frm" otherLangs="la"/>
                      </msItemStruct>
                   </msContents>
                   <physDesc/>
@@ -274,21 +272,30 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <glyph xml:id="pro_glyph"></glyph>
+         </charDecl>
+      </encodingDesc>
       <profileDesc>
          <creation>
             <listChange>
                <listChange>
-                  <change></change>
+                  <change/>
                </listChange>
             </listChange>
          </creation>
+         <langUsage>
+            <language ident="frm"></language>
+            <language ident="la"></language>
+         </langUsage>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
          <xi:include href="f17rop1.xml"/>
          <xi:include href="f17rop2.xml"/>
-         <xi:include href="f17rop3-4.xml"/>
+         <xi:include href="f17rop4.xml"/>
          <xi:include href="f17rop5.xml"/>
          <xi:include href="f17rop6.xml"/>
       </body>
