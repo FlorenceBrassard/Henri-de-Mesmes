@@ -181,7 +181,7 @@
                         </listBibl>
                         <filiation/>
                         <note/>
-                        <textLang/>
+                        <textLang mainLang="frm" otherLangs="la"/>
                      </msItemStruct>
                   </msContents>
                   <physDesc/>
@@ -272,6 +272,11 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <glyph xml:id="pro_glyph"></glyph>
+         </charDecl>
+      </encodingDesc>
       <profileDesc>
          <creation>
             <listChange>
@@ -280,6 +285,10 @@
                </listChange>
             </listChange>
          </creation>
+         <langUsage>
+            <language ident="frm"></language>
+            <language ident="la"></language>
+         </langUsage>
       </profileDesc>
    </teiHeader>
    <text>
