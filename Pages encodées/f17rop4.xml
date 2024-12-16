@@ -31,9 +31,12 @@
                      </choice>a <subst>
                         <del>esté</del>
                         <add>pas servi</add>
-                     </subst> de les rendre <del>memo</del> grandement memo</add></del>
+                     </subst> de les rendre <subst>
+                                <del>memo</del>
+                                <add> grandement mem</add>
+                            </subst></add></del>
                <add>ny ma <choice>
-                     <abbr><g>p</g></abbr>
+                     <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                      <expan>pro</expan>
                   </choice>fession les a <subst>
                      <del>soufferts</del>
@@ -53,10 +56,17 @@
                <reg>j</reg>
             </choice>e <subst>
                <del>gouste ancore</del>
-               <add>me rep<choice>
-                     <abbr rend="ligne_au-dessus">nte</abbr>
-                     <expan>résente</expan>
-                  </choice> parfois les graces que dieu ma faictes, et <subst>
+               <add>me re<choice>
+                     <abbr rend="overlined">pnte</abbr>
+                     <expan>présente</expan>
+                  </choice></add>
+                </subst> parfois les graces que <choice>
+                    <orig>d</orig>
+                    <reg>D</reg>
+                </choice> m<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>a faictes, et <subst>
                      <del seq="1" xml:id="sente"><undo rend="underlined" target="#sente"/><del
                            rend="unmarked" seq="3">sente</del></del>
                      <del seq="2"><add>re<choice>
@@ -64,13 +74,14 @@
                               <reg>ç</reg>
                            </choice>oive</add></del>
                      <add>ressente</add>
-                  </subst></add>
-            </subst>plaisir des maulx dont il m<choice>
+                  </subst>plaisir des maulx dont il m<choice>
                <orig/>
                <reg>'</reg>
-            </choice>a preser<choice><orig>u</orig><reg>v</reg></choice>é.
+            </choice>a preser<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>é.
          </p>
-         <p/>
-      </body>
+         </body>
    </text>
 </TEI>
