@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Mon pere a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oit nom <choice>
+               <abbr>I. I. d. M.</abbr>
+               <expan>Jean-Jacques de Mesmes</expan>
+            </choice>
+            <metamark function="insert" target="#issu_descosse" xml:id="metamark_1">^</metamark><add
+               xml:id="issu_descosse">issu d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice><choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>scosse</add> né en <choice>
+               <orig>g</orig>
+               <reg>G</reg>
+            </choice>ascoigne<choice>
+               <orig>,</orig>
+               <reg>.</reg>
+            </choice>
+            <del xml:id="extraict">extraict</del>
+            <del rend="unmarked" xml:id="mais_extraict2"><del><undo rend="underlined"
+                     target="#mais_extraict1"/><add xml:id="mais_extraict1">mais
+                  extraict</add></del></del>
+            <del xml:id="issu_toutesfois2"><add xml:id="issu_toutefois1">issu toutesfois</add></del>
+            <del xml:id="descosse2"><add xml:id="descosse1">d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice><choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>scosse</add></del>
+            <substJoin seq="1" target="#mais_extraict1 #descosse1"/>
+            <substJoin seq="2" target="#issu_toutefois1 #p_moien"/>
+            <substJoin seq="3" target="#issu_descosse #issu_toutesfois2 #descosse2 #d #qui"/>
+            <del rend="unmarked"><metamark function="insert" target="#p_moien" xml:id="metamark_2"
+                  >^</metamark></del><del><add xml:id="p_moien"><choice>
+                     <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                     <expan>par</expan>
+                  </choice> le moien</add></del>
+            <del xml:id="d">d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice></del><choice>
+               <orig>u</orig>
+               <reg>U</reg>
+            </choice>n ancien che<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>alier escossois <subst>
+               <del>nommé</del>
+               <add>de <choice>
+                     <orig>b</orig>
+                     <reg>B</reg>
+                  </choice>errwich</add>
+            </subst> Amaneus de Mannes <del xml:id="qui">qui</del> dez l<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>an 1200 veint prendre terre <del>ferme</del> en <subst xml:id="Marsan_Guiene">
+               <del>Marsan</del>
+               <add>Guiene</add>
+            </subst><choice>
+               <orig/>
+               <reg>,</reg>
+            </choice>
+            <del>pendant</del>
+            <del><add>par</add></del>
+            <del rend="unmarked"><add xml:id="aux1">aux</add></del>
+            <del xml:id="les1">les</del>
+            <substJoin target="#aux1 #les1"/>
+            <del>guerres de la Guiene</del>
+            <del>et y</del> espousa <add xml:id="en_marsan">en <choice>
+                  <orig>m</orig>
+                  <reg>M</reg>
+               </choice>arsan</add>
+            <substJoin target="#Marsan_Guiene #en_marsan"/>
+            <choice>
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>ne damoyselle du paÿs <choice>
+               <orig><del>,</del>.</orig>
+               <reg/>
+            </choice>
+            <subst>
+               <!--substitution : dont...papiers/et (109)... Marsan -->
+               <del>dont <subst>
+                     <del><choice>
+                           <orig>i</orig>
+                           <reg>j</reg>
+                        </choice></del>
+                     <add><choice>
+                           <orig>i</orig>
+                           <reg>j</reg>
+                        </choice>'en</add>
+                  </subst> ay veu le titre, et en ay copie dens mes papiers</del>
+               <add>et <subst>
+                     <del>laissa lignée</del>
+                     <add>y planta <choice>
+                           <abbr rend="overlined">nre</abbr>
+                           <expan>notre</expan>
+                        </choice> race</add>
+                  </subst><choice>
+                     <orig>,</orig>
+                     <reg>.</reg>
+                  </choice>
+                  <subst>
+                     <del>dont <choice>
+                           <orig>i</orig>
+                           <reg>j'</reg>
+                        </choice></del>
+                     <add><choice>
+                           <orig>i</orig>
+                           <reg>J'</reg>
+                        </choice>en</add>
+                  </subst> veu les titres, et en sont ancore les armes en <subst>
+                     <del>une</del>
+                     <add>la</add>
+                  </subst> chapelle <add>de mes ancestres</add> au mont de Marsan</add>
+            </subst>
+            <del>ce che<choice>
+                  <orig>v</orig>
+                  <reg>u</reg>
+               </choice>alier estoit de <choice>
+                  <orig>b</orig>
+                  <reg>B</reg>
+               </choice>errwich</del> et <del>
+               <!--début du passage entièrement raturé-->
+               <!--substitution "mad...d'homes/i ay...noble"-->
+               <subst>
+                  <del><add><choice>
+                           <abbr>made</abbr>
+                           <reg>mademoiselle</reg>
+                        </choice> de <choice>
+                           <abbr>ste</abbr>
+                           <reg>sainte</reg>
+                        </choice>
+                        <!--ne veut pas de <sup> !--> Mesme Albanie</add> y aiant faict recerche de
+                     sa maison <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                     </choice>ay trouvé quelle y est ancore entiere et <subst>
+                        <del>fort p</del>
+                        <add>de beaucoup</add>
+                     </subst> d'homes </del>
+                  <add><choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                     </choice>ay trouvé que <subst>
+                        <del>la</del>
+                        <del>ceste</del>
+                        <add><choice>
+                              <abbr>nre</abbr>
+                              <expan>notre</expan>
+                           </choice></add>
+                     </subst> famille <del>dont il estoit</del> y <subst>
+                        <del>dure</del>
+                        <add>est</add>
+                     </subst> ancore, bone, et noble </add>
+               </subst> et <subst>
+                  <del>qu'en</del>
+                  <add>que</add>
+               </subst> l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>an 1567 le gouverneur <subst>
+                  <del>du pais</del>
+                  <add>de la</add>
+               </subst> ville se nommoit <del>lors</del>
+               <subst>
+                  <del>du mesme</del>
+                  <add>de <del>mon</del>
+                     <choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>notre</expan>
+                     </choice></add>
+               </subst> nom, et portoit <subst>
+                  <del>les</del>
+                  <add>les</add>
+               </subst> mesmes armes. </del>
+            <!--début de l'ajout en bas de page-->
+            <add><choice>
+                  <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                  <expan>par</expan>
+               </choice>eilles <add>armes</add>
+               <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> celles de noz parens de Berrwich, <metamark function="insert"
+                  target="#a_1567" xml:id="metamark_3">+</metamark><add xml:id="a_1567"><choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> present limite d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>angleterre et d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>escosse <del xml:id="en_1567"><gap/>en fey en l'an 1567<gap/></del></add>
+               <!--ajout marginal à revérifier-->
+               <subst>
+                  <del><choice>
+                        <orig>ou</orig>
+                        <reg>où</reg>
+                     </choice></del>
+                  <del><add>que</add></del>
+                  <del><add>dont</add></del>
+                  <add xml:id="ou"><choice>
+                        <orig>ou</orig>
+                        <reg>où</reg>
+                     </choice></add>
+               </subst>
+               <substJoin target="#a_1567 #ou"/> le gouverneur du paÿs <del xml:id="les2"
+                     ><add>les</add></del>
+               <substJoin target="#en_1567 #les2"/>
+               <metamark function="insert" target="#et_ville" xml:id="metamark_4">^</metamark><add
+                  xml:id="et_ville">et de la ville</add>
+               <del>ancore</del>
+               <add><gap quantity="5" unit="char"/></add>
+               <choice>
+                  <abbr rend="overlined">nre</abbr>
+                  <expan>notre</expan>
+               </choice> nom <subst>
+                  <del>et n<gap quantity="1" unit="char"/></del>
+                  <add>et armes en</add>
+               </subst> l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>année que <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>en <subst>
+                  <del>voulu avoir bone infor<choice>
+                        <abbr rend="overlined">mn</abbr>
+                        <expan>mation</expan>
+                     </choice></del>
+                  <add>fey la recerche</add>
+               </subst>
+               <del>qui fut</del>
+               <choice>
+                  <orig rend="overlined">.1567.</orig>
+                  <reg>(1567)</reg>
+               </choice> et y avoit lors <subst>
+                  <del>bon nombre de</del>
+                  <add>beaucoup de</add>
+               </subst> noblesse de <subst>
+                  <del><subst>
+                        <del>ceste</del>
+                        <add>ce</add>
+                     </subst>mesme <subst>
+                        <del>lig</del>
+                        <del><add>famille</add></del>
+                        <add>nom et armes</add>
+                     </subst></del>
+                  <add>cete maison</add>
+               </subst>.
+               <!--Cette fois (contrairement au traitement de la substitution de la première ligne,
+               j'ai encodée une substitution (avec un "add") entièrement rayée. Pas sûre que ce soit
+               la meilleure solution : cela montre bien la substitution (plus clairement qu'un
+               subsjoint ?) mais cela semble induire une double rature ("del" dans la substition
+               et à l'extérieur).-->
+            </add>
+         </p>
+      </body>
+   </text>
+</TEI>
