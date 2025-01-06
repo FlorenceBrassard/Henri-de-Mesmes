@@ -265,8 +265,7 @@
                         <expan>tion</expan>
                      </choice></del>
                   <add>fey la recerche </add>
-               </subst><del xml:id="qui_fut">qui fut</del><substJoin target="#en_recerche #qui_fut"
-               /> .1567.<add>et y avoit lors <subst>
+               </subst><del>qui fut </del><hi rend="overlined">.1567.</hi><add>et y avoit lors <subst>
                      <del>bon nombre de</del>
                      <add>beaucoup de</add>
                   </subst> noblesse de <subst>
