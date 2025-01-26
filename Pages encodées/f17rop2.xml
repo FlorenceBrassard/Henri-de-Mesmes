@@ -21,7 +21,10 @@
     </teiHeader>
     <text>
         <body>
-            <p><del><add>en france</add></del>
+            <p><del><add>en <placeName><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rance</placeName></add></del>
                 <choice>
                     <orig>m</orig>
                     <reg>M</reg>
@@ -37,13 +40,13 @@
                         <reg>r</reg>
                     </choice>oyaume, mesmement en robe longue, se puissent guiere
                     <add>s'</add>eslever</del><del xml:id="et_guiere"><add>et ceulx qui ont les
-                        armes en <choice>
+                        armes en <placeName><choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>rance</placeName>, n'escrivent guiere></add></del><add xml:id="en_guieres">En <placeName><choice>
                             <orig>f</orig>
                             <reg>F</reg>
-                        </choice>rance, n'escrivent guiere></add></del><add xml:id="en_guieres">En <choice>
-                        <orig>f</orig>
-                        <reg>F</reg>
-                    </choice>rance ceulx qui <subst>
+                        </choice>rance</placeName> ceulx qui <subst>
                         <del>manient</del>
                         <add>ont</add>
                     </subst> les armes, <del xml:id="mesprisent_guieres">mesprisent presque touts

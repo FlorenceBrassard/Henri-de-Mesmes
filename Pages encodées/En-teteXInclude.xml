@@ -12,7 +12,7 @@
             <author><persName ref="https://isni.org/isni/0000000121402971"><nameLink>de</nameLink>
                   <surname>Mesmes</surname>, <forename>Henri</forename>
                </persName>(1532-1596)</author>
-            <editor><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
+            <editor><persName ref="https://isni.org/isni/0000000504833613" xml:id="AV"><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
                      <persName><surname>Brassard</surname>,<forename>Florence</forename></persName></editor>
             <funder/>
             <principal><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
