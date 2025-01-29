@@ -38,7 +38,7 @@
                <add>leurs</add>
             </subst> vie<add xml:id="s_1">s</add>
             <metamark function="insert" target="#ou" xml:id="metamark_2">^</metamark><add
-               xml:id="ou">ou</add> de ceulx qu<choice>
+               xml:id="ou">ou</add> de ceulx<note resp="AV" type="critique">ou celle de ceux</note> qu<choice>
                <orig/>
                <reg>'</reg>
             </choice>ilz a<choice>

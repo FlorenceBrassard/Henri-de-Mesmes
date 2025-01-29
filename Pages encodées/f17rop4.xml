@@ -35,7 +35,7 @@
                                 <del>memo</del>
                                 <add>grandement mem</add>
                             </subst></add></del>
-                    <add>ny ma <choice>
+                    <add xml:id="ny_histoire">ny ma <choice>
                             <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                             <expan>pro</expan>
                         </choice>fession les a <subst>
@@ -59,9 +59,7 @@
                     <add>me re<choice>
                             <abbr rend="overlined">pnte</abbr>
                             <expan>présente</expan>
-                        </choice><note resp="AV" type="génétique">On note le déplacement de la
-                            tournure pronominale : de « me ramentevant » à « me represente » et la
-                            substitution de « gouste » par « represente » [à creuser].</note></add>
+                        </choice></add>
                 </subst> parfois les graces que <choice>
                     <orig>d</orig>
                     <reg>D</reg>
@@ -82,7 +80,7 @@
                 </choice>a preser<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>é. <note type="critique">Le projet est d’abord présenté par la négative :
+                </choice>é. <note resp="AV" type="génétique">Le projet est d’abord présenté par la négative :
                     Henri de Mesmes dit ce qu’il n’a pas l’intention de faire, pour mieux préciser
                     ensuite son projet. Rhétorique de la modestie. Petits mémoires vs grands
                     mémoires comme « chronique » des « gestes », au sens de res gestae, les « choses

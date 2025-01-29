@@ -281,7 +281,10 @@
          <creation>
             <listChange>
                <listChange>
-                  <change/>
+                  <change target="#ny_histoire #certes_soymesmes">L'emplacement de l'ajout à la
+                     phrase 3 (« Certes mieulx vaudroit avoir esté bien maistre de soymesmes »),
+                     dans la marge de gauche, suggère qu'il est ultérieur à l'ajout de la phrase 4
+                     (« ny ma ꝑfession les a produits dignes de grande histoire »).</change>
                </listChange>
             </listChange>
          </creation>
@@ -295,6 +298,7 @@
       <body>
          <xi:include href="f17rop1.xml"/>
          <xi:include href="f17rop2.xml"/>
+         <xi:include href="f17rop3.xml"/>
          <xi:include href="f17rop4.xml"/>
          <xi:include href="f17rop5.xml"/>
          <xi:include href="f17rop6.xml"/>

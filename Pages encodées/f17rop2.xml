@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><del><add>en <placeName><choice>
+            <p><del xml:id="en_france"><add>en <placeName><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName></add></del>
@@ -61,7 +61,7 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>leurs chapeaus</add>
-                <substJoin seq="1" target="#et_guiere #en_guieres"/>
+                <substJoin seq="1" target="#en_france #et_guiere #en_guieres"/>
                 <substJoin seq="2" target="#mesprisent_guieres #nusent_chapeaus"/>
                 <addSpan spanTo="#recõmander"/>et <subst>
                     <del><choice>
