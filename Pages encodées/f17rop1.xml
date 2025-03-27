@@ -47,8 +47,8 @@
          <p><choice>
                <orig>V</orig>
                <reg>U</reg>
-            </choice>n temps fut que les <del facs="#i_honestes" xml:id="honestes">honestes</del> homes <metamark
-               function="insert" target="#de_valeur" xml:id="metamark_1">^</metamark>
+            </choice>n temps fut que les <del facs="#i_honestes" xml:id="honestes">honestes</del>
+            homes <metamark function="insert" target="#de_valeur" xml:id="metamark_1">^</metamark>
             <add facs="#i_de_valeur" xml:id="de_valeur"><metamark>^</metamark>de valeur</add>
             <substJoin target="#honestes #metamark_1 #de_valeur"/> escri<choice>
                <orig>u</orig>
@@ -57,18 +57,18 @@
                <del>la</del>
                <add>leurs</add>
             </subst> vie<add facs="#i_s1" xml:id="s_1">s</add>
-            <metamark function="insert" target="#ou" xml:id="metamark_2">^</metamark><add facs="#i_ou"
-               xml:id="ou">ou</add> de ceulx<note resp="AV" type="critique">ou celle de ceux</note> qu<choice>
+            <metamark function="insert" target="#ou" xml:id="metamark_2">^</metamark><add
+               facs="#i_ou" xml:id="ou">ou</add> de ceulx<note resp="AV" type="critique">ou celle de
+               ceux</note> qu<choice>
                <orig/>
                <reg>'</reg>
             </choice>ilz a<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>oient aimez : <del facs="#i_et_ont #et_propre" xml:id="et_propre">et aucuns ont composé la leur propre
-               </del> <del rend="unmarked" xml:id="deux_points">:</del>
-            <substJoin
-               target="#la_leurs #s_1 #ou #metamark_2 #et_propre #deux_points"/> c'estoi<del facs="#i_en"
-               xml:id="en">en</del>
+            </choice>oient aimez : <del facs="#i_et_ont #et_propre" xml:id="et_propre">et aucuns ont
+               composé la leur propre </del> <del rend="unmarked" xml:id="deux_points">:</del>
+            <substJoin target="#la_leurs #s_1 #ou #metamark_2 #et_propre #deux_points"/> c'estoi<del
+               facs="#i_en" xml:id="en">en</del>
             <subst facs="#i_t_ent" xml:id="t_ent">
                <del rend="unmarked">t</del>
                <add>ent</add>
