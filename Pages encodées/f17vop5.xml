@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><add><subst>
+                  <del>toutesfois</del>
+                  <add>Mais</add>
+               </subst> sa mort <del xml:id="prevint_ce">prevint ce</del>
+               <add xml:id="devanca_ce"><subst>
+                     <del>empescha</del>
+                     <add>devan<choice>
+                           <orig>c</orig>
+                           <reg>ç</reg>
+                        </choice>a</add>
+                  </subst>
+                  <choice>
+                     <orig>l</orig>
+                     <reg>l'</reg>
+                  </choice>effet de ce </add>
+               <substJoin target="#prevint_ce #devanca_ce"/>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ugement <choice>
+                  <orig>R</orig>
+                  <reg>r</reg>
+               </choice>o<choice>
+                  <orig>i</orig>
+                  <reg>y</reg>
+               </choice>al et mourut la <!-- Encoder la surcharge --> propre <subst>
+                  <del><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>our</del>
+                  <add>nuict</add>
+               </subst> que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e fus conceu precedente le <choice>
+                  <abbr>pr</abbr>
+                  <!-- Exposant = hi ? -->
+                  <expan>premier</expan>
+               </choice>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>our de <choice>
+                  <orig>M</orig>
+                  <reg>m</reg>
+               </choice>ay de <subst>
+                  <del>1532/1<add>2</add></del>
+                  <!-- Encoder la surcharge -->
+                  <add>1531</add>
+                  <!-- Trait suscrit au-dessus des deux dates -->
+               </subst>
+            </add>
+            <del>Je nacquis <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> Paris le mardy <del>pen</del> XXIX<hi>e</hi>
+               <choice>
+                  <orig>J</orig>
+                  <reg>j</reg>
+               </choice>anvier 1531 <!-- Trait suscrit au-dessus de la date -->
+               <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> trois heures du matin.</del>
+         </p>
+      </body>
+   </text>
+</TEI>
