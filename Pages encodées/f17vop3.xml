@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,12 +18,87 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p>Il <subst>
+               <del>fut en ses</del>
+               <add>se rendit dez <subst>
+                     <del>les</del>
+                     <add>ses</add>
+                  </subst></add>
+            </subst>premiers ans fort celebre <subst>
+               <del>pour ses</del>
+               <add>ez</add>
+            </subst>lectures <subst>
+               <del>en</del>
+               <add>du</add>
+            </subst> droict civil durant <del xml:id="xii_ou">xii ou</del> XV <metamark
+               function="insertion" rend="circonflexe" xml:id="metamark_1">^</metamark><add
+               xml:id="ou_xx">ou xx</add><substJoin target="#xii_ou #metamark_1 #ou_^xx"/> ans, <subst>
+               <del>et</del>
+               <add>collegue <metamark function="insertion" rend="circonflexe">^</metamark><add>^ et
+                     compaignon</add> de <persName ref="https://isni.org/isni/0000000081661660"
+                        ><forename>Philippus</forename>
+                     <surname>Decius</surname></persName> et d'<persName
+                     ref="https://isni.org/isni/0000000122798373"><forename full="abb"><choice>
+                           <abbr>Andr.</abbr>
+                           <expan>Andreas</expan>
+                        </choice></forename>
+                     <surname full="abb"><choice>
+                           <abbr>Alciatꝯ</abbr>
+                           <expan>Alciatus</expan>
+                        </choice></surname></persName>
+                  <choice>
+                     <abbr>desquls></abbr>
+                     <expan>desquels</expan>
+                  </choice><choice>
+                     <orig>i</orig>
+                     <reg>j'</reg>
+                  </choice>ay veu maint tesmoignage de l'honeur qu<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>ilz luy <subst>
+                     <del>rendoient</del>
+                     <add>faisoient</add>
+                  </subst></add>
+            </subst><add>mais au lieu d<subst xml:id="a_de">
+                  <del><choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>a</del>
+                  <add rend="overwritten">e</add>
+               </subst><subst xml:id="chever_continuer">
+                  <del>chever</del>
+                  <add><choice>
+                        <abbr>ꝯ</abbr>
+                        <expan>con</expan>
+                     </choice>tinuer</add>
+               </subst><substJoin target="#a_de #chever_continuer"/> cette <choice>
+                  <abbr>ꝑ</abbr>
+                  <expan>pro</expan>
+               </choice>fession <del>et se perpetuer par ses escrits il</del></add> fut requis par
+            la <persName ref="https://isni.org/isni/0000000054625242"><roleName>Reyne</roleName>
+               <forename>Caterine</forename>
+               <nameLink>de</nameLink>
+               <surname>Navarre</surname></persName> de venir en <placeName><choice>
+                  <orig>f</orig>
+                  <reg>F</reg>
+               </choice>rance</placeName> pour assister ses <del>grands</del> actes <subst>
+               <add>et acompaigner</add>
+               <del>avec</del>
+            </subst>le <persName ref="https://isni.org/isni/0000000122791446"
+                  ><roleName>Roy</roleName>
+               <forename>Henry</forename>
+               <nameLink>de</nameLink>
+               <surname>Navarre</surname></persName> son filz, qui <add>luy</add> fut <del>le</del>
+            <choice>
+               <abbr>ꝯ</abbr>
+               <expan>com</expan>
+            </choice>mancement d<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>une autre forme de vie. </p>
       </body>
-  </text>
+   </text>
 </TEI>
