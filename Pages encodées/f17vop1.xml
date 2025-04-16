@@ -23,7 +23,8 @@
       <body>
          <p>Mon pere <subst>
                <del>ainsy né, <del xml:id="dun_Mammes2"><add xml:id="dun_Mammes1">dun gentilhome de
-                        ceste maison de <surname>Mammes</surname></add></del> et dune damoyselle qui estoit de <surname>Canna</surname>, <subst>
+                        ceste maison de <surname>Mammes</surname></add></del> et dune damoyselle qui
+                  estoit de <surname>Canna</surname>, <subst>
                      <del xml:id="maison1">maison</del>
                      <del xml:id="bone_famille2"><add xml:id="bone_famille1">bone
                         famille</add></del>
@@ -41,14 +42,15 @@
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>eunesse.</del>
-               <add><gap unit="char" quantity="1"/><supplied>a</supplied> sa naissance n<choice>
+               <add><gap quantity="1" unit="char"/><supplied cert="high">a</supplied> sa naissance n<choice>
                      <orig> </orig>
                      <reg>'</reg>
                   </choice>a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>oit <gap unit="char" quantity="1"/><supplied>q</supplied>ue sept mois, et
-                  pource <gap unit="char" quantity="1"/><supplied>q</supplied>u<choice>
+                  </choice>oit <gap unit="char" quantity="1"/><supplied cert="high">q</supplied>ue
+                  sept mois, et pource <gap unit="char" quantity="1"/><supplied cert="high"
+                     >q</supplied>u<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>il ne prometoit pas <subst>
@@ -65,7 +67,7 @@
                   <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>eunesse. </add>
+                  </choice>eunesse.</add>
             </subst></p>
       </body>
    </text>

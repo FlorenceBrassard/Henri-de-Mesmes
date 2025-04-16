@@ -26,7 +26,7 @@
                <add xml:id="icy_il">icy il</add>
             </subst>espous<subst xml:id="é_a">
                <del>é</del>
-               <add rend="overwritten">a</add>
+               <add rend="surcharge">a</add>
             </subst><del xml:id="icy">icy</del><substJoin target="#aiant_il #é_a"/><substJoin
                target="#icy #icy_il"/>feu ma mere <add><del>d</del> dame</add>
             <persName><forename>Nicole</forename>
@@ -34,8 +34,8 @@
                      <orig>c</orig>
                      <reg>C</reg>
                   </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
-               function="insert" rend="cieconflexe">^</metamark><add><del>le</del> plus ancien</add>
-            conseiller du parlement de <placeName><choice>
+               function="insert">^</metamark><add><del>le</del> plus ancien</add> conseiller du
+            parlement de <placeName><choice>
                   <orig>p</orig>
                   <reg>P</reg>
                </choice>aris</placeName> et president d'<placeName>alançon</placeName>
@@ -61,8 +61,8 @@
             </subst>ambassadeur en <placeName><choice>
                   <orig>s</orig>
                   <reg>S</reg>
-               </choice></placeName> et <metamark function="insert" rend="circonflexe"
-               >^</metamark><add>depuys</add> en autres grandes charges.<choice>
+               </choice></placeName> et <metamark function="insert">^</metamark><add>depuys</add> en
+            autres grandes charges.<choice>
                <orig>e</orig>
                <reg>E</reg>
             </choice>t l<choice>

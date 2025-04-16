@@ -21,24 +21,28 @@
    </teiHeader>
    <text>
       <body>
-         <p>Il <subst>
-               <del>fut en ses</del>
-               <add>se rendit dez <subst>
+         <p>Il <subst seq="2">
+               <del>fut</del>
+               <add>se rendit</add>
+            </subst>
+            <subst seq="1">
+               <del>en ses</del>
+               <add>dez <subst>
                      <del>les</del>
                      <add>ses</add>
                   </subst></add>
-            </subst>premiers ans fort celebre <subst>
+            </subst> premiers ans fort celebre <subst>
                <del>pour ses</del>
                <add>ez</add>
             </subst>lectures <subst>
                <del>en</del>
                <add>du</add>
             </subst> droict civil durant <del xml:id="xii_ou">xii ou</del> XV <metamark
-               function="insertion" rend="circonflexe" xml:id="metamark_1">^</metamark><add
-               xml:id="ou_xx">ou xx</add><substJoin target="#xii_ou #metamark_1 #ou_^xx"/> ans, <subst>
+               function="insertion" xml:id="metamark_1">^</metamark><add xml:id="ou_xx">ou
+               xx</add><substJoin target="#xii_ou #metamark_1 #ou_xx"/> ans, <subst>
                <del>et</del>
-               <add>collegue <metamark function="insertion" rend="circonflexe">^</metamark><add>^ et
-                     compaignon</add> de <persName ref="https://isni.org/isni/0000000081661660"
+               <add>collegue <metamark function="insertion">^</metamark><add>^ et compaignon</add>
+                  de <persName ref="https://isni.org/isni/0000000081661660"
                         ><forename>Philippus</forename>
                      <surname>Decius</surname></persName> et d'<persName
                      ref="https://isni.org/isni/0000000122798373"><forename full="abb"><choice>
@@ -67,7 +71,7 @@
                         <orig/>
                         <reg>'</reg>
                      </choice>a</del>
-                  <add rend="overwritten">e</add>
+                  <add rend="surcharge">e</add>
                </subst><subst xml:id="chever_continuer">
                   <del>chever</del>
                   <add><choice>
