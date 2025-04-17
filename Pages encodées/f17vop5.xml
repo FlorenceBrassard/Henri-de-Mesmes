@@ -46,18 +46,21 @@
                </choice>o<choice>
                   <orig>i</orig>
                   <reg>y</reg>
-               </choice>al et mourut la <!-- Encoder la surcharge --> propre <subst>
+               </choice>al et mourut l<subst xml:id="e_a">
+                  <del>e</del>
+                  <add rend="overwritten">a</add>
+               </subst> propre <subst xml:id="jour_nuict">
                   <del><choice>
                         <orig>i</orig>
                         <reg>j</reg>
                      </choice>our</del>
                   <add>nuict</add>
-               </subst> que <choice>
+               </subst>
+               <substJoin target="#e_a #jour_nuict"/> que <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e fus conceu precedente le <choice>
-                  <abbr>pr</abbr>
-                  <!-- Exposant = hi ? -->
+                  <abbr>p<hi rend="exponent">r</hi></abbr>
                   <expan>premier</expan>
                </choice>
                <choice>
@@ -66,12 +69,14 @@
                </choice>our de <choice>
                   <orig>M</orig>
                   <reg>m</reg>
-               </choice>ay de <subst>
-                  <del>1532/1<add>2</add></del>
-                  <!-- Encoder la surcharge -->
-                  <add>1531</add>
-                  <!-- Trait suscrit au-dessus des deux dates -->
-               </subst>
+               </choice>ay de <del><hi rend="trait_suscrit">153</hi>
+                  <subst xml:id="date2_1">
+                     <del><hi rend="trait_suscrit">2</hi></del>
+                     <add rend="overwritten"><hi rend="trait_suscrit">1</hi></add>
+                  </subst>
+                  <add><hi rend="trait_suscrit">2</hi></add></del>
+               <add xml:id="date1531"><hi rend="trait_suscrit">1531</hi></add>
+               <substJoin target="#date2_1 #date1531"/>
             </add>
             <del>Je nacquis <choice>
                   <orig>a</orig>
@@ -80,7 +85,7 @@
                <choice>
                   <orig>J</orig>
                   <reg>j</reg>
-               </choice>anvier 1531 <!-- Trait suscrit au-dessus de la date -->
+               </choice>anvier <hi rend="trait_suscrit">1531</hi>
                <choice>
                   <orig>a</orig>
                   <reg>à</reg>

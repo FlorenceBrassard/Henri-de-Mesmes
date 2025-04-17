@@ -30,7 +30,6 @@
                <add seq="1" xml:id="dez_les">dez <del>les</del></add>
                <add>ses</add>
             </subst>
-            <!-- Revoir les seq --> 
             ses premiers ans fort celebre <subst>
                <del>pour ses</del>
                <add>ez</add>
@@ -68,8 +67,10 @@
             </add>
             <substJoin target="#et #collegue_faisoient"/>
             <add>mais au lieu <subst>
-                  <del>dachever</del>
-                  <!-- Encoder la surcharge -->
+                  <del>d<subst xml:id="a_e">
+                        <del>a</del>
+                        <add rend="overwritten">e</add>
+                  </subst>chever</del>
                   <add><choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
