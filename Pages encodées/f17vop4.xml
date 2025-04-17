@@ -34,15 +34,18 @@
                      <orig>c</orig>
                      <reg>C</reg>
                   </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
-               function="insert" rend="cieconflexe">^</metamark><add><del>le</del> plus ancien</add>
+               function="insert" rend="circonflexe" target="#le_ancien">^</metamark><add xml:id="le_ancien"><del>le</del> plus ancien</add>
             conseiller du parlement de <placeName><choice>
                   <orig>p</orig>
                   <reg>P</reg>
-               </choice>aris</placeName> et president d'<placeName>alançon</placeName>
+            </choice>aris</placeName> et president d'<placeName><choice>
+                  <orig>a</orig>
+                  <reg>A</reg>
+            </choice>lançon</placeName>
             <subst>
                <del>duquel</del>
                <add>que</add>
-            </subst>le <persName ref="https://isni.org/isni/0000000121029337"
+            </subst> le <persName ref="https://isni.org/isni/0000000121029337"
                   ><roleName>Roy</roleName><forename><choice>
                      <orig>f</orig>
                      <reg>F</reg>
@@ -61,8 +64,8 @@
             </subst>ambassadeur en <placeName><choice>
                   <orig>s</orig>
                   <reg>S</reg>
-               </choice></placeName> et <metamark function="insert" rend="circonflexe"
-               >^</metamark><add>depuys</add> en autres grandes charges.<choice>
+               </choice>uisse</placeName> et <metamark function="insert" target="#depuys" rend="circonflexe"
+               >^</metamark><add xml:id="depuys">depuys</add> en autres grandes charges. <choice>
                <orig>e</orig>
                <reg>E</reg>
             </choice>t l<choice>
