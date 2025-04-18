@@ -22,75 +22,71 @@
    <text>
       <body>
          <p><add><subst>
-                  <del>toutesfois</del>
-                  <add>Mais</add>
-               </subst> sa mort <del xml:id="prevint_ce">prevint ce</del>
-               <add xml:id="devanca_ce"><subst>
+               <del>toutesfois</del>
+               <add>Mais</add>
+            </subst> sa mort <subst>
+               <del>prevint ce</del>
+               <add><subst>
                      <del>empescha</del>
                      <add>devan<choice>
                            <orig>c</orig>
                            <reg>ç</reg>
                         </choice>a</add>
-                  </subst>
-                  <choice>
-                     <orig>l</orig>
-                     <reg>l'</reg>
-                  </choice>effet de ce </add>
-               <substJoin target="#prevint_ce #devanca_ce"/>
-               <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>ugement <choice>
-                  <orig>R</orig>
-                  <reg>r</reg>
-               </choice>o<choice>
+                  </subst>l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>effet de ce</add>
+            </subst><choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>ugement <choice>
+               <orig>R</orig>
+               <reg>r</reg>
+            </choice>o<choice>
                   <orig>i</orig>
                   <reg>y</reg>
                </choice>al et mourut l<subst xml:id="e_a">
-                  <del>e</del>
-                  <add rend="overwritten">a</add>
-               </subst> propre <subst xml:id="jour_nuict">
-                  <del><choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                     </choice>our</del>
-                  <add>nuict</add>
-               </subst>
-               <substJoin target="#e_a #jour_nuict"/> que <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>e fus conceu precedente le <choice>
-                  <abbr>p<hi rend="supercript">r</hi></abbr>
-                  <expan>premier</expan>
-               </choice>
+               <del rend="overwritten">e</del>
+               <add place="superimposed">a</add>
+            </subst> propre <subst xml:id="iour_nuict">
+               <del><choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>our</del>
+               <add>nuict</add>
+            </subst><substJoin target="#e_a #iour_nuict"/> que <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>e fus conceu precedente le <choice>
+               <abbr>p<hi rend="superscript">r</hi></abbr>
+               <expan>premier</expan>
+            </choice>
+            <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>our de 
                <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>our de <choice>
-                  <orig>M</orig>
-                  <reg>m</reg>
-               </choice>ay de <del><hi rend="trait_suscrit">153</hi>
-                  <subst xml:id="date2_1">
-                     <del><hi rend="trait_suscrit">2</hi></del>
-                     <add rend="overwritten"><hi rend="trait_suscrit">1</hi></add>
-                  </subst>
-                  <add><hi rend="trait_suscrit">2</hi></add></del>
-               <add xml:id="date1531"><hi rend="trait_suscrit">1531</hi></add>
-               <substJoin target="#date2_1 #date1531"/>
-            </add>
-            <del>Je nacquis <choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice> Paris le mardy <del>pen</del> XXIX<hi>e</hi>
-               <choice>
+               <orig>M</orig>
+               <reg>m</reg>
+            </choice>ay 
+               <del xml:id="date_15312"><hi rend="trait_suscrit">153
+                        <del rend="overwritten" seq="1">2</del>
+                        <del seq="2"><add place="superimposed" seq="1">1</add></del>
+                        <add seq="2">2</add>
+                     </hi></del>.
+               <add xml:id="date_1531"><hi rend="trait_suscrit">1531</hi></add>
+            <substJoin target="#date_15312 #date_1531"></substJoin>
+         </add><del>Je nacquis <choice>
+            <orig>a</orig>
+            <reg>à</reg>
+         </choice> <placeName>Paris</placeName> le mardy <del>pen</del> xxix<hi
+                  rend="superscript">e</hi><choice>
                   <orig>J</orig>
                   <reg>j</reg>
-               </choice>anvier <hi rend="trait_suscrit">1531</hi>
-               <choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice> trois heures du matin.</del>
-         </p>
+                  </choice>anvier <hi rend="trait_suscrit">1531</hi> <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> trois heures du matin.</del></p>
       </body>
    </text>
 </TEI>
