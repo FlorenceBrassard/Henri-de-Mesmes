@@ -21,12 +21,9 @@
    </teiHeader>
    <text>
       <body>
-         <p><subst>
+         <p><add><subst>
                <del>toutesfois</del>
-               <add><choice>
-                     <orig>m</orig>
-                     <reg>M</reg>
-                  </choice>ais</add>
+               <add>Mais</add>
             </subst> sa mort <subst>
                <del>prevint ce</del>
                <add><subst>
@@ -42,9 +39,12 @@
             </choice>ugement <choice>
                <orig>R</orig>
                <reg>r</reg>
-            </choice>oial et mourut l<subst xml:id="e_a">
-               <del>e</del>
-               <add rend="surcharge">a</add>
+            </choice>o<choice>
+                  <orig>i</orig>
+                  <reg>y</reg>
+               </choice>al et mourut l<subst xml:id="e_a">
+               <del rend="overwritten">e</del>
+               <add place="superimposed">a</add>
             </subst> propre <subst xml:id="iour_nuict">
                <del><choice>
                      <orig>i</orig>
@@ -55,24 +55,35 @@
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fus conceu precedente le <choice>
-               <abbr>p<hi>r</hi></abbr>
+               <abbr>p<hi rend="superscript">r</hi></abbr>
                <expan>premier</expan>
-            </choice>jour de <choice>
+            </choice>
+            <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>our de 
+               <choice>
                <orig>M</orig>
                <reg>m</reg>
             </choice>ay <subst>
                <del><hi rend="traitsuscrit">153<subst>
-                        <del seq="1">2</del>
-                        <del seq="2"><add rend="surcharge" seq="1">1</add></del>
+                        <del rend="overwritten" seq="1">2</del>
+                        <del seq="2"><add place="superimposed" seq="1">1</add></del>
                         <add seq="2">2</add>
                      </subst></hi></del>
-               <add><hi rend="traitsuscrit">1531</hi></add>
+               <add><hi rend="trait_suscrit">1531</hi></add>
             </subst>. <!--            le point est avant l'ajout de la date ; peut-on le traiter comme je l'ai fait ?-->
-            <del>Je nacquis a <placeName>Paris</placeName> le mardy <del>pen</del> xxix<hi
+         </add><del>Je nacquis <choice>
+            <orig>a</orig>
+            <reg>à</reg>
+         </choice> <placeName>Paris</placeName> le mardy <del>pen</del> xxix<hi
                   rend="superscript">e</hi><choice>
                   <orig>J</orig>
                   <reg>j</reg>
-               </choice>anvier <hi rend="traitsuscrit">1531</hi> a trois heures du matin.</del></p>
+                  </choice>anvier <hi rend="trait_suscrit">1531</hi> <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> trois heures du matin.</del></p>
       </body>
    </text>
 </TEI>

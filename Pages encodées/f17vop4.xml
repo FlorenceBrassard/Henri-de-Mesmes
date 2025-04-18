@@ -6,81 +6,84 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p><subst xml:id="aiant_il">
-               <del>or aiant</del>
-               <add xml:id="icy_il">icy il</add>
-            </subst>espous<subst xml:id="é_a">
-               <del>é</del>
-               <add rend="surcharge">a</add>
-            </subst><del xml:id="icy">icy</del><substJoin target="#aiant_il #é_a"/><substJoin
-               target="#icy #icy_il"/>feu ma mere <add><del>d</del> dame</add>
-            <persName><forename>Nicole</forename>
-               <surname>Hennequin</surname></persName><supplied>,</supplied> fille de messire <persName><forename><choice>
-                     <orig>c</orig>
-                     <reg>C</reg>
-                  </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
-               function="insert">^</metamark><add><del>le</del> plus ancien</add> conseiller du
-            parlement de <placeName><choice>
-                  <orig>p</orig>
-                  <reg>P</reg>
-               </choice>aris</placeName> et president d'<placeName>alançon</placeName>
-            <subst>
-               <del>duquel</del>
-               <add>que</add>
-            </subst>le <persName ref="https://isni.org/isni/0000000121029337"
-                  ><roleName>Roy</roleName><forename><choice>
-                     <orig>f</orig>
-                     <reg>F</reg>
-                  </choice>rancoys</forename></persName><subst>
-               <del>s<choice>
-                     <orig/>
-                     <reg>'</reg>
-                  </choice>estoit ser<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>y</del>
-               <add>avoit tenu <subst>
-                     <del>longuement</del>
-                     <add>quelque temps son</add>
-                  </subst></add>
-            </subst>ambassadeur en <placeName><choice>
-                  <orig>s</orig>
-                  <reg>S</reg>
-               </choice></placeName> et <metamark function="insert">^</metamark><add>depuys</add> en
-            autres grandes charges.<choice>
-               <orig>e</orig>
-               <reg>E</reg>
-            </choice>t l<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>a<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>oit designé premier president de <placeName><choice>
-                  <orig>p</orig>
-                  <reg>P</reg>
-               </choice>aris</placeName> pour ce qu<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>il sca<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>oit bien faire et bien dire.</p>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><subst xml:id="aiant_il">
+                    <del>or aiant</del>
+                    <add xml:id="icy_il">icy il</add>
+                </subst>espous<subst xml:id="é_a">
+                    <del rend="overwritten">é</del>
+                    <add place="superimposed">a</add>
+                </subst><del xml:id="icy">icy</del><substJoin target="#aiant_il #é_a"/><substJoin
+                    target="#icy #icy_il"/>feu ma mere <add><del>d</del> dame</add>
+                <persName><forename>Nicole</forename>
+                    <surname>Hennequin</surname></persName><supplied>,</supplied> fille de messire <persName><forename><choice>
+                            <orig>c</orig>
+                            <reg>C</reg>
+                        </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
+                    function="insert" target="#le_ancien">^</metamark><add xml:id="le_ancien"
+                        ><del>le</del> plus ancien</add> conseiller du parlement de <placeName><choice>
+                        <orig>p</orig>
+                        <reg>P</reg>
+                    </choice>aris</placeName> et president d'<placeName><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>lançon</placeName>
+                <subst>
+                    <del>duquel</del>
+                    <add>que</add>
+                </subst>le <persName ref="https://isni.org/isni/0000000121029337"
+                        ><roleName>Roy</roleName><forename><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rancoys</forename></persName><subst>
+                    <del>s<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>estoit ser<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>y</del>
+                    <add>avoit tenu <subst>
+                            <del>longuement</del>
+                            <add>quelque temps son</add>
+                        </subst></add>
+                </subst>ambassadeur en <placeName><choice>
+                        <orig>s</orig>
+                        <reg>S</reg>
+                    </choice></placeName> et <metamark function="insert" target="#depuys"
+                    >^</metamark><add xml:id="depuys">depuys</add> en autres grandes charges.<choice>
+                    <orig>e</orig>
+                    <reg>E</reg>
+                </choice>t l<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>a<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>oit designé premier president de <placeName><choice>
+                        <orig>p</orig>
+                        <reg>P</reg>
+                    </choice>aris</placeName> pour ce qu<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>il sca<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>oit bien faire et bien dire.</p>
+        </body>
+    </text>
 </TEI>
