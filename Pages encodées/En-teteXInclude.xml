@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="./xsl/custom.xsl"?>
-<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/Users/florencebrassard/Documents/GitHub/Henri-de-Mesmes/Pages%20encod%C3%A9es/tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 
    <teiHeader>
@@ -12,7 +12,7 @@
             <author><persName ref="https://isni.org/isni/0000000121402971"><nameLink>de</nameLink>
                   <surname>Mesmes</surname>, <forename>Henri</forename>
                </persName>(1532-1596)</author>
-            <editor><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
+            <editor><persName ref="https://isni.org/isni/0000000504833613" xml:id="AV"><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
                      <persName><surname>Brassard</surname>,<forename>Florence</forename></persName></editor>
             <funder/>
             <principal><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
@@ -281,7 +281,10 @@
          <creation>
             <listChange>
                <listChange>
-                  <change/>
+                  <change target="#ny_histoire #certes_soymesmes">L'emplacement de l'ajout à la
+                     phrase 3 (« Certes mieulx vaudroit avoir esté bien maistre de soymesmes »),
+                     dans la marge de gauche, suggère qu'il est ultérieur à l'ajout de la phrase 4
+                     (« ny ma ꝑfession les a produits dignes de grande histoire »).</change>
                </listChange>
             </listChange>
          </creation>
@@ -295,6 +298,7 @@
       <body>
          <xi:include href="f17rop1.xml"/>
          <xi:include href="f17rop2.xml"/>
+         <xi:include href="f17rop3.xml"/>
          <xi:include href="f17rop4.xml"/>
          <xi:include href="f17rop5.xml"/>
          <xi:include href="f17rop6.xml"/>

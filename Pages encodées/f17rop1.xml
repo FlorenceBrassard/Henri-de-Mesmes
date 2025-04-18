@@ -19,6 +19,9 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface> </surface>
+   </facsimile>
    <text>
       <body>
          <p><choice>
@@ -35,7 +38,7 @@
                <add>leurs</add>
             </subst> vie<add xml:id="s_1">s</add>
             <metamark function="insert" target="#ou" xml:id="metamark_2">^</metamark><add
-               xml:id="ou">ou</add> de ceulx qu<choice>
+               xml:id="ou">ou</add> de ceulx<note resp="AV" type="critique">ou celle de ceux</note> qu<choice>
                <orig/>
                <reg>'</reg>
             </choice>ilz a<choice>
@@ -61,7 +64,27 @@
             </subst>
             <substJoin seq="1" target="#en #s_2 #s_5 #louanges_remerque #vertueuses_belles"/>
             <substJoin seq="2" target="#t_ent #s_3 #s_4 #s_6"/> actions : et apres eulx,
-            enseignemens pour bien faire.</p>
+            enseignemens pour bien faire.<note resp="AV" type="génétique">La V1 dissocie la rédaction d’une
+               biographie (ou d’une vie, au sens ancien du terme) et l’écriture de soi (« la leur
+               propre »). La première pratique est motivée par un lien affectif (« ceux quilz
+               avoient aimez ») plutôt que familial. Elle semble à la fois fréquente, aisée et
+               plaisante (« volontiers »). La seconde paraît plus rare (« aucuns ont… », soit
+               « quelques-uns »). Plus difficile de se célébrer que de vanter les mérites d’un aïeul
+               admiré. Dans les deux cas néanmoins, les scripteurs partagent des qualités morales
+               (« honestes homes ») et une même visée : (auto)célébration et exemplarité. La V2
+               rapproche ces deux pratiques en une formule (« leurs vies ou de ceulx… »), qui sont
+               toutes deux placées sous l’égide de l’adverbe « volontiers ». La pratique d’écriture
+               de soi devient par ailleurs première. Plusieurs modifications de vocabulaire sont
+               opérées : dans la première proposition, « honeste » est remplacé par « de valeur » ;
+               dans la proposition centrale (« c’estoit au moins… »), « louanges » devient
+               « remerque », « vertueuses » devient « belles ». La première substitution déplace la
+               qualité des scripteurs de l’« honnêteté » vers la « valeur », terme plus polysémique
+               mais qui, à propos d’une personne, renvoie spécifiquement au grand mérite et à une
+               condition sociale élevée, parfois aussi à la vaillance [à creuser]. La seconde
+               substitution provoque une forme de neutralisation axiologique des textes envisagés
+               (un constat vs un éloge). La troisième, comme la première, efface la prédominance de
+               la qualité morale (honnêteté, vertu) au profit d’une mise en valeur plus abstraite
+               (« belles » : satisfaisantes, admirables).</note></p>
          <p/>
       </body>
    </text>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/Users/florencebrassard/Documents/GitHub/Henri-de-Mesmes/Pages%20encod%C3%A9es/tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -24,24 +23,28 @@
             <p>Mon pere a<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>oit nom <choice>
-                    <abbr><choice>
-                            <orig>I. I.</orig>
-                            <reg>J. J.</reg>
-                        </choice> d. M.</abbr>
-                    <expan>Jean-Jacques de Mesmes</expan>
-                </choice>
+                </choice>oit nom <persName ref="https://isni.org/isni/0000000000812616"><choice>
+                        <abbr><forename full="init"><choice>
+                                    <orig>I. I.</orig>
+                                    <reg>J. J.</reg>
+                                </choice></forename>
+                            <nameLink full="init">d.</nameLink>
+                            <surname full="init">M.</surname></abbr>
+                        <expan><forename>Jean-Jacques</forename>
+                            <nameLink>de</nameLink>
+                            <surname>Mesmes</surname></expan>
+                    </choice></persName>
                 <metamark function="insert" target="#issu_descosse" xml:id="metamark_1"
                     >^</metamark><add xml:id="issu_descosse"><metamark>^</metamark>issu d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice><choice>
-                        <orig>e</orig>
-                        <reg>E</reg>
-                    </choice>scosse</add> né en <choice>
-                    <orig>g</orig>
-                    <reg>G</reg>
-                </choice>ascoigne<choice>
+                    </choice><placeName><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>scosse</placeName></add> né en <placeName><choice>
+                        <orig>g</orig>
+                        <reg>G</reg>
+                    </choice>ascoigne</placeName><choice>
                     <orig>,</orig>
                     <reg>.</reg>
                 </choice>
@@ -54,10 +57,10 @@
                 <del xml:id="descosse2"><add xml:id="descosse1">d<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice><choice>
-                            <orig>e</orig>
-                            <reg>E</reg>
-                        </choice>scosse</add></del>
+                        </choice><placeName><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>scosse</placeName></add></del>
                 <substJoin seq="1" target="#extraict #mais_extraict1 #descosse1"/>
                 <substJoin seq="2" target="#issu_toutefois1 #p_moien"/>
                 <substJoin seq="3" target="#issu_descosse #issu_toutesfois2 #descosse2 #d #qui"/>
@@ -81,17 +84,21 @@
                     <reg>v</reg>
                 </choice>alier escossois <subst xml:id="nommé_berruich">
                     <del>nommé</del>
-                    <add>de <choice>
-                            <orig>b</orig>
-                            <reg>B</reg>
-                        </choice>erruich</add>
-                </subst> Amaneus de Mammes <del xml:id="qui">qui</del> dez l<choice>
+                    <add>de <placeName><choice>
+                                <orig>b</orig>
+                                <reg>B</reg>
+                            </choice>erruich</placeName></add>
+                </subst>
+                <persName><forename>Amaneus</forename>
+                    <nameLink>de</nameLink>
+                    <surname>Mammes</surname></persName>
+                <del xml:id="qui">qui</del> dez l<choice>
                     <orig/>
                     <reg>'</reg>
                 </choice>an 1200 veint prendre terre <del>ferme</del> en <subst
                     xml:id="Marsan_Guiene">
-                    <del>Marsan</del>
-                    <add>Guiene</add>
+                    <del><placeName>Marsan</placeName></del>
+                    <add><placeName>Guiene</placeName></add>
                 </subst><choice>
                     <orig/>
                     <reg>,</reg>
@@ -102,8 +109,8 @@
                                 <add>par</add>
                             </subst> les</del>
                         <add><del rend="unmarked"><unclear cert="high">aux</unclear></del></add>
-                    </subst><substJoin target="#p_moien #par_aux"/>guerres de la Guiene et</del><del
-                    xml:id="y">y</del> espousa<add xml:id="en_marsan"> en Marsan</add><substJoin
+                    </subst><substJoin target="#p_moien #par_aux"/>guerres de la <placeName>Guiene</placeName> et</del><del
+                    xml:id="y">y</del> espousa<add xml:id="en_marsan"> en <placeName>Marsan</placeName></add><substJoin
                     target="#y #en_marsan #Marsan_Guiene"/>
                 <choice>
                     <orig>v</orig>
@@ -143,8 +150,8 @@
                             <del>une</del>
                             <add>la</add>
                         </subst> chappelle<add xml:id="de_ancestres"> de mes
-                            ancestres</add><substJoin target="#une_la #de_ancestres"/> au mont de
-                        Marsan</add>
+                            ancestres</add><substJoin target="#une_la #de_ancestres"/> au <placeName>mont de
+                        Marsan</placeName></add>
                 </subst>
                 <del xml:id="ce_berruich"><choice>
                         <orig>c</orig>
@@ -152,10 +159,10 @@
                     </choice>e che<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>alier estoit de <choice>
+                    </choice>alier estoit de <placeName><choice>
                         <orig>b</orig>
                         <reg>B</reg>
-                    </choice>erruich.</del><substJoin target="#nommé_berruich #ce_berruich"/>
+                    </choice>erruich</placeName>.</del><substJoin target="#nommé_berruich #ce_berruich"/>
                 <del><choice>
                         <orig> e</orig>
                         <reg> E</reg>
@@ -163,10 +170,10 @@
                         <del><add><choice>
                                     <abbr>mad<hi rend="superscript">e</hi></abbr>
                                     <expan>madame</expan>
-                                </choice> de <choice>
+                                </choice> <persName><nameLink>de</nameLink> <forename><choice>
                                     <abbr>s<hi rend="superscript">te</hi></abbr>
                                     <expan>sainte</expan>
-                                </choice> Mesmes Albanie</add> y a<choice>
+                                </choice> Mesmes Albanie</forename></persName></add> y a<choice>
                                 <orig>i</orig>
                                 <reg>y</reg>
                             </choice>ant faict recerche de sa maison <choice>
@@ -229,7 +236,7 @@
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> celles de noz parens de Berruich, <del xml:id="ou_1">o<choice>
+                    </choice> celles de noz parens de <placeName>Berruich</placeName>, <del xml:id="ou_1">o<choice>
                             <orig>u</orig>
                             <reg>ù</reg>
                         </choice></del><metamark function="insert" target="a_1567"
@@ -240,16 +247,16 @@
                                 </choice> present limite d<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice><choice>
+                                </choice><placeName><choice>
                                     <orig>a</orig>
                                     <reg>A</reg>
-                                </choice>ngleterre et d<choice>
+                                </choice>ngleterre</placeName> et d<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice><choice>
+                                </choice><placeName><choice>
                                     <orig>e</orig>
                                     <reg>E</reg>
-                                </choice>scosse</add>
+                                </choice>scosse</placeName></add>
                             <del xml:id="en_1567_2"><add xml:id="en_1567_1"><gap quantity="9"
                                         unit="char"/>en fey en l'an 1567 <gap quantity="3"
                                         unit="char"/></add></del>
