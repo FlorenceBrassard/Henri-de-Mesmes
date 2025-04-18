@@ -21,16 +21,15 @@
     </teiHeader>
     <text>
         <body>
-            <p>Il <subst seq="2">
+            <p>Il <subst>
                     <del>fut</del>
-                    <add>se rendit</add>
+                    <add seq="2">se rendit</add>
                 </subst>
-                <subst seq="1">
+                <subst>
                     <del>en ses</del>
-                    <add>dez <subst>
-                            <del>les</del>
+                    <add seq="1">dez <del>les</del></add>
                             <add>ses</add>
-                        </subst></add>
+                  
                 </subst> premiers ans fort celebre <subst>
                     <del>pour ses</del>
                     <add>ez</add>

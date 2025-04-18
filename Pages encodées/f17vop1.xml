@@ -54,17 +54,17 @@
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>eunesse.</del>
-               <add><gap unit="char" quantity="1"/><supplied>a</supplied> sa naissance n<choice>
+               <add><gap unit="char" quantity="1"/><supplied cert="high">a</supplied> sa naissance n<choice>
                      <orig> </orig>
                      <reg>'</reg>
                   </choice>a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>oit <gap unit="char" quantity="1"/><supplied>q</supplied>ue sept mois. <choice>
+                  </choice>oit <gap unit="char" quantity="1"/><supplied cert="high">q</supplied>ue sept mois. <choice>
                      <orig>e</orig>
                      <reg>E</reg>
                   </choice>t
-                  pource <gap unit="char" quantity="1"/><supplied>q</supplied>u<choice>
+                  pource <gap unit="char" quantity="1"/><supplied cert="high">q</supplied>u<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>il ne prometoit pas <subst>
