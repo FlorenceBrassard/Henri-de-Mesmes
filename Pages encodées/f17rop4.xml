@@ -35,7 +35,7 @@
                                 <del>memo</del>
                                 <add>grandement mem</add>
                             </subst></add></del>
-                    <add>ny ma <choice>
+                    <add xml:id="ny_histoire">ny ma <choice>
                             <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                             <expan>pro</expan>
                         </choice>fession les a <subst>
@@ -80,7 +80,18 @@
                 </choice>a preser<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>é.</p>
+                </choice>é. <note resp="AV" type="génétique">Le projet est d’abord présenté par la négative :
+                    Henri de Mesmes dit ce qu’il n’a pas l’intention de faire, pour mieux préciser
+                    ensuite son projet. Rhétorique de la modestie. Petits mémoires vs grands
+                    mémoires comme « chronique » des « gestes », au sens de res gestae, les « choses
+                    accomplies », la geste (dimension héroïque). L’ajout « ma profession » vient
+                    fournir une explication au projet repoussé dans la première proposition : si
+                    Henri de Mesmes ne peut pas écrire de « grands » mémoires, c’est du fait de sa
+                    « profession », au sens d’office et de tâches concrètement accomplies au
+                    quotidien. Le terme « mémorable » est deux fois esquissé dans l’ajout, deux fois
+                    raturé. Il est finalement remplacé par la formule « dignes de grande histoire »
+                    [à creuser]. Le tout rejoue l’opposition noblesse de robe/noblesse d’épée
+                    établie plus haut.</note></p>
         </body>
     </text>
 </TEI>
