@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="file:/Users/florencebrassard/Documents/GitHub/Henri-de-Mesmes/Pages%20encod%C3%A9es/tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Mon pere a<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>oit nom <persName ref="https://isni.org/isni/0000000000812616"><choice>
+                        <abbr><forename full="init"><choice>
+                                    <orig>I. I.</orig>
+                                    <reg>J. J.</reg>
+                                </choice></forename>
+                            <nameLink full="init">d.</nameLink>
+                            <surname full="init">M.</surname></abbr>
+                        <expan><forename>Jean-Jacques</forename>
+                            <nameLink>de</nameLink>
+                            <surname>Mesmes</surname></expan>
+                    </choice></persName>
+                <metamark function="insert" target="#issu_descosse" xml:id="metamark_1"
+                    >^</metamark><add xml:id="issu_descosse"><metamark>^</metamark>issu d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice><placeName><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>scosse</placeName></add> né en <placeName><choice>
+                        <orig>g</orig>
+                        <reg>G</reg>
+                    </choice>ascoigne</placeName><choice>
+                    <orig>,</orig>
+                    <reg>.</reg>
+                </choice>
+                <del xml:id="extraict">extraict</del>
+                <del rend="unmarked" xml:id="mais_extraict2"><del><undo rend="underlined"
+                            target="#mais_extraict1"/><add xml:id="mais_extraict1"><hi
+                                rend="underlined">mais e</hi>xtraict</add></del></del>
+                <del xml:id="issu_toutesfois2"><add xml:id="issu_toutefois1">issu
+                    toutesfois</add></del>
+                <del xml:id="descosse2"><add xml:id="descosse1">d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice><placeName><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>scosse</placeName></add></del>
+                <substJoin seq="1" target="#extraict #mais_extraict1 #descosse1"/>
+                <substJoin seq="2" target="#issu_toutefois1 #p_moien"/>
+                <substJoin seq="3" target="#issu_descosse #issu_toutesfois2 #descosse2 #d #qui"/>
+                <delSpan rend="unmarked" spanTo="#metamark_p_moien"/><metamark function="insert"
+                    target="#p_moien" xml:id="metamark_2">^</metamark><del><add xml:id="p_moien"
+                            ><metamark rend="^">^</metamark><anchor xml:id="metamark_p_moien"/><choice>
+                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                            <expan>par</expan>
+                        </choice> le mo<choice>
+                            <orig>i</orig>
+                            <reg>y</reg>
+                        </choice>en</add></del>
+                <del xml:id="d">d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice></del><choice>
+                    <orig>u</orig>
+                    <reg>. U</reg>
+                </choice>n ancien che<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>alier escossois <subst xml:id="nommé_berruich">
+                    <del>nommé</del>
+                    <add>de <placeName><choice>
+                                <orig>b</orig>
+                                <reg>B</reg>
+                            </choice>erruich</placeName></add>
+                </subst>
+                <persName><forename>Amaneus</forename>
+                    <nameLink>de</nameLink>
+                    <surname>Mammes</surname></persName>
+                <del xml:id="qui">qui</del> dez l<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>an 1200 veint prendre terre <del>ferme</del> en <subst
+                    xml:id="Marsan_Guiene">
+                    <del><placeName>Marsan</placeName></del>
+                    <add><placeName>Guiene</placeName></add>
+                </subst><choice>
+                    <orig/>
+                    <reg>,</reg>
+                </choice><del>
+                    <subst xml:id="par_aux">
+                        <del><subst>
+                                <del>pendant</del>
+                                <add>par</add>
+                            </subst> les</del>
+                        <add><del rend="unmarked"><unclear cert="high">aux</unclear></del></add>
+                    </subst><substJoin target="#p_moien #par_aux"/>guerres de la <placeName>Guiene</placeName> et</del><del
+                    xml:id="y">y</del> espousa<add xml:id="en_marsan"> en <placeName>Marsan</placeName></add><substJoin
+                    target="#y #en_marsan #Marsan_Guiene"/>
+                <choice>
+                    <orig>v</orig>
+                    <reg>u</reg>
+                </choice>ne damoyselle du paÿs <subst>
+                    <del><subst>
+                            <del>, dont <choice>
+                                    <orig>i</orig>
+                                    <reg>j'</reg>
+                                </choice></del>
+                            <add>
+                                <choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>'en</add>
+                        </subst> ay veu le titre, et en ay copie dens mes papiers.</del>
+                    <add>. <choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t <subst>
+                            <del>laissa lignée</del>
+                            <add>y planta <choice>
+                                    <abbr rend="overlined">nre</abbr>
+                                    <expan>notre</expan>
+                                </choice> race</add>
+                        </subst>, <subst>
+                            <del>dont <choice>
+                                    <orig>i</orig>
+                                    <reg>j'</reg>
+                                </choice></del>
+                            <add><choice>
+                                    <orig>i</orig>
+                                    <reg>j'</reg>
+                                </choice>en</add>
+                        </subst> ay veu les titres, et en sont ancore les armes en <subst
+                            xml:id="une_la">
+                            <del>une</del>
+                            <add>la</add>
+                        </subst> chappelle<add xml:id="de_ancestres"> de mes
+                            ancestres</add><substJoin target="#une_la #de_ancestres"/> au <placeName>mont de
+                        Marsan</placeName></add>
+                </subst>
+                <del xml:id="ce_berruich"><choice>
+                        <orig>c</orig>
+                        <reg>. C</reg>
+                    </choice>e che<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>alier estoit de <placeName><choice>
+                        <orig>b</orig>
+                        <reg>B</reg>
+                    </choice>erruich</placeName>.</del><substJoin target="#nommé_berruich #ce_berruich"/>
+                <del><choice>
+                        <orig> e</orig>
+                        <reg> E</reg>
+                    </choice>t <subst>
+                        <del><add><choice>
+                                    <abbr>mad<hi rend="superscript">e</hi></abbr>
+                                    <expan>madame</expan>
+                                </choice> <persName><nameLink>de</nameLink> <forename><choice>
+                                    <abbr>s<hi rend="superscript">te</hi></abbr>
+                                    <expan>sainte</expan>
+                                </choice> Mesmes Albanie</forename></persName></add> y a<choice>
+                                <orig>i</orig>
+                                <reg>y</reg>
+                            </choice>ant faict recerche de sa maison <choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>ay trouvé qu<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>elle y est ancore entiere</del>
+                        <add><choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>ay trouvé que <subst>
+                                <del><subst>
+                                        <del>la</del>
+                                        <add>ceste</add>
+                                    </subst></del>
+                                <add><choice>
+                                        <abbr>nre</abbr>
+                                        <expan>notre</expan>
+                                    </choice></add>
+                            </subst> famille <del>dont il estoit</del> y <subst>
+                                <del>dure</del>
+                                <add>est</add>
+                            </subst> ancore, bone, et noble </add>
+                    </subst>
+                    <del rend="unmarked" xml:id="et_1">et </del>
+                    <del><subst>
+                            <del>fort p</del>
+                            <add>de beaucoup d'homes</add>
+                        </subst></del><add xml:id="et_2">et </add>
+                    <subst>
+                        <del>qu'en</del>
+                        <add>que</add>
+                    </subst><substJoin target="#et_1 #et_2"/> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>an 1567 le gouverneur <subst>
+                        <del>du pais</del>
+                        <add>de la ville</add>
+                    </subst> se nommoit <del xml:id="lors">lors</del><undo rend="underlined"
+                        target="#lors"/><redo rend="striked" target="#lors"/>
+                    <subst>
+                        <del>du mesme</del>
+                        <add>de <subst>
+                                <del> mon</del>
+                                <add><choice>
+                                        <abbr rend="overlined">nre</abbr>
+                                        <expan>notre</expan>
+                                    </choice></add>
+                            </subst></add>
+                    </subst> nom<add cert="medium">,</add> et portoit <subst>
+                        <del>les</del>
+                        <add>les</add>
+                    </subst> mesmes armes. </del>
+                <add><choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>eilles <add>armes</add>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> celles de noz parens de <placeName>Berruich</placeName>, <del xml:id="ou_1">o<choice>
+                            <orig>u</orig>
+                            <reg>ù</reg>
+                        </choice></del><metamark function="insert" target="a_1567"
+                        xml:id="metamark_3">+</metamark><add xml:id="a_1567"><metamark>+</metamark><subst>
+                            <add xml:id="a_escosse"><choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                                </choice> present limite d<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice><placeName><choice>
+                                    <orig>a</orig>
+                                    <reg>A</reg>
+                                </choice>ngleterre</placeName> et d<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice><placeName><choice>
+                                    <orig>e</orig>
+                                    <reg>E</reg>
+                                </choice>scosse</placeName></add>
+                            <del xml:id="en_1567_2"><add xml:id="en_1567_1"><gap quantity="9"
+                                        unit="char"/>en fey en l'an 1567 <gap quantity="3"
+                                        unit="char"/></add></del>
+                        </subst></add><subst>
+                        <del xml:id="que_2"><add xml:id="que_1">que</add></del>
+                        <del><add xml:id="dont_1">dont</add></del>
+                        <add xml:id="ou_2">o<choice>
+                                <orig>u</orig>
+                                <reg>ù</reg>
+                            </choice></add>
+                    </subst>
+                    <substJoin seq="1" target="#ou_1 #metamark_3 #en_1567_1 #que_1"/>
+                    <substJoin seq="2"
+                        target="#a_escosse #en_1567_2 #dont_1 #que_2 #les_1 #et_armes"/> le
+                    gouverneur du paÿs <del xml:id="les_2"><add xml:id="les_1">les</add>
+                        <substJoin target="#ou_2 #les_2 #et_ville"/><metamark function="insert"
+                            target="#et_ville" xml:id="metamark_4">^</metamark><add
+                            xml:id="et_ville">et de la ville</add></del> portoit <subst>
+                        <del>ancore</del>
+                        <add><del><gap quantity="5" unit="char"/></del></add>
+                    </subst>
+                    <choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>notre</expan>
+                    </choice> nom <del xml:id="et_3">et <gap quantity="2" unit="char"/></del>
+                    <add xml:id="et_armes">et armes</add>
+                    <add xml:id="en_1">en</add><substJoin target="#et_3 #en_1"/> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>année que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>en <subst>
+                        <del>voulu avoir bone infor<choice>
+                                <abbr rend="overlined">mn</abbr>
+                                <expan>mation</expan>
+                            </choice></del>
+                        <add>fey la recerche</add>
+                    </subst><del>qui fut</del><choice>
+                        <orig rend="overlined">.1567.</orig>
+                        <reg>(1567)</reg>
+                    </choice> et y avoit lors <subst>
+                        <del>bon nombre de</del>
+                        <add>beaucoup de</add>
+                    </subst> noblesse de <subst>
+                        <del><subst>
+                                <del>ceste</del>
+                                <add xml:id="ce_1">ce</add>
+                            </subst>mesme <subst>
+                                <del>lig</del>
+                                <del><add>famille</add></del>
+                                <add xml:id="nom_armes">nom et armes</add>
+                            </subst></del>
+                        <add>cete maison</add>
+                    </subst><substJoin target="#ce_1 #nom_armes"/>. </add>
+            </p>
+        </body>
+    </text>
+</TEI>
