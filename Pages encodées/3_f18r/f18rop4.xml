@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,12 +18,106 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p><subst>
+               <del>et</del>
+               <del>Mais</del>
+               <add>Puys</add>
+            </subst>
+            <del>aussy tost que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e sceu lire et escrire <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e fu</del>
+            <subst>
+               <del>mis</del>
+               <add><del>don</del></add>
+            </subst> mon pere <subst>
+               <del>meut</del>
+               <add>me</add>
+            </subst>
+            <del>auec</del> dona pour precepteur <del><choice>
+                  <abbr>m<hi>e</hi></abbr>
+                  <reg>maître</reg>
+               </choice></del>
+            <choice>
+               <abbr>J.</abbr>
+               <reg>Jean</reg>
+            </choice> Mal<subst>
+               <del rend="unmarked">elent</del>
+               <add>udan</add>
+            </subst> Limosin, <del><choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>eune home,</del> disciple de <del><choice>
+                  <abbr>m<hi>e</hi></abbr>
+                  <reg>maître</reg>
+               </choice></del>
+            <choice>
+               <orig>d</orig>
+               <reg>D</reg>
+            </choice>orat, <add>home</add>
+            <add>scavant</add> choisy <add>pour sa vie innocente et</add> d'eage con<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>enable <subst>
+               <del>pour diriger</del>
+               <add>a <choice>
+                     <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                     <expan>con</expan>
+                  </choice>duire</add>
+            </subst> ma <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>eunesse <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>usques <del xml:id="aux_lois">aux lois</del>
+            <add xml:id="au_mesme"><subst>
+                  <del>au temps de me sca<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                  </choice>oir</del>
+                  <add>a tant que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e me sceusse</add>
+            </subst> gou<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>erner moi<choice>
+                  <abbr>mes<hi>e</hi></abbr>
+                  <expan>mesmes</expan>
+               </choice></add>, <substJoin target="#aux_lois #au_mesme"/> comme il feit, car il
+            a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>anca tellement ses estudes par veilles et tra<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>aulx incroiables qu<choice>
+               <orig/>
+               <expan>'</expan>
+            </choice> alla tous<choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>ours <subst>
+               <del>de<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+               </choice>ant moy autant qu</del>
+               <add>aussy a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+               </choice>ant deuant moy come</add>
+            </subst> il estoit requis pour m<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>enseigner.</p>
       </body>
-  </text>
+   </text>
 </TEI>

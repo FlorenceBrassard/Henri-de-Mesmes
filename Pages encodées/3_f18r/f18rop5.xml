@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,12 +18,25 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p>et ne <del xml:id="me">me</del>
+            <del>l d</del> sorti<subst xml:id="a_de">
+               <del rend="overwritten">t</del>
+               <add place="superimposed">s</add>
+            </subst> <substJoin target="#me #a_de"/>
+            de sa charge <subst>
+               <del>que</del>
+               <add>synon</add>
+            </subst> lors que <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>
+            <choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>entray en office.</p>
       </body>
-  </text>
+   </text>
 </TEI>

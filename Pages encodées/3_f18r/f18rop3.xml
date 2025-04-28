@@ -21,9 +21,14 @@
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere
+            <del>dame Nicole Hennequin</del> <add>l'une</add>
+            des meilleures femmes et des meilleures 
+            <subst>
+               <del>meres du monde.</del>
+               <add>meres de son temps.</add>
+            </subst>
+         </p>
       </body>
   </text>
 </TEI>
