@@ -45,7 +45,7 @@
                   <abbr><forename full="init">J.</forename></abbr>
                   <expan><forename>Jean</forename></expan>
                </choice><surname>Mal<subst>
-                     <del>edent</del>
+                     <del rend="unmarked">edent</del>
                      <add>udan</add>
                   </subst></surname></persName>
             <choice>
@@ -61,7 +61,10 @@
                      <orig>d</orig>
                      <reg>D</reg>
                   </choice>orat</surname></persName>,<add seq="2">home </add><add seq="1"
-               >scavant</add> choisy <add seq="2">pour sa vie innocente et</add> d'eage convenable <subst>
+                     >scavant</add> choisy <add seq="2">pour sa vie innocente et</add> d'eage con<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>enable <subst>
                <del>pour diriger</del>
                <add><choice>
                      <orig>a</orig>
@@ -85,7 +88,10 @@
                            <orig>i</orig>
                            <reg>j</reg>
                         </choice>e me sceusse</add>
-                  </subst> gouverner moymes<hi rend="superscript">e</hi></add>
+               </subst> gouverner moy<choice>
+                  <abbr>mes<hi>e</hi></abbr>
+                  <expan>mesmes</expan>
+               </choice></add>
             </subst>, come il feit, car il a<choice>
                <orig>u</orig>
                <reg>v</reg>

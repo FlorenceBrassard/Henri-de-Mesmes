@@ -24,30 +24,31 @@
          <p>A<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ec luy et mon frere puisné <persName><choice>
-                  <abbr><forename full="init"><choice>
+            </choice>ec luy et mon frere puisné <persName><forename full="init"><choice>
+                     <abbr><choice>
                            <orig>I. I.</orig>
                            <reg>J. J.</reg>
-                        </choice></forename></abbr>
-                  <expan><forename>Jean-Jacques</forename></expan>
-               </choice>
-               <add>
-                  <surname>de Mesmes</surname></add></persName>
+                        </choice></abbr>
+               <expan>Jean-Jacques</expan>
+                  </choice></forename>
+                  <add><surname>de Mesmes</surname></add></persName>
+<!--            Il me semble voir J.J. (comme ce que tu as écrit dans ton encodage) et ça me semble confirmé par I.I. au folio 17 recto, mais je laisse ceci pour qu'on confirme ensemble (comme il est écrit I.I. dans la transcription)-->
             <choice>
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu mis au college de <placeName><choice>
                   <orig>b</orig>
                   <reg>B</reg>
-               </choice>ourgoigne <subst>
+            </choice>ourgoigne</placeName> <subst>
                   <del>en</del>
                   <add>dez></add>
-               </subst>l<choice>
+               </subst>
+            <del>le</del>l<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>an <hi rend="trait_suscrit">1542</hi></placeName>
-            <del>et</del> escolier> en la 3<hi rend="exposant">e</hi> classe.</p>
-         <p/>
+               </choice>an <hi rend="trait_suscrit">1542</hi>
+            <del>et</del>
+            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</p>
       </body>
    </text>
 </TEI>
