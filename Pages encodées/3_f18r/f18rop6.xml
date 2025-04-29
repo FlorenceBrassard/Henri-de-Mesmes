@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ec luy et mon frere puisné <persName><choice>
+                  <abbr><forename full="init"><choice>
+                           <orig>I. I.</orig>
+                           <reg>J. J.</reg>
+                        </choice></forename></abbr>
+                  <expan><forename>Jean-Jacques</forename></expan>
+               </choice>
+               <add>
+                  <surname>de Mesmes</surname></add></persName>
+            <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>e fu mis au college de <placeName><choice>
+                  <orig>b</orig>
+                  <reg>B</reg>
+               </choice>ourgoigne <subst>
+                  <del>en</del>
+                  <add>dez></add>
+               </subst>l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>an <hi rend="trait_suscrit">1542</hi></placeName>
+            <del>et</del> escolier> en la 3<hi rend="exposant">e</hi> classe.</p>
+         <p/>
+      </body>
+   </text>
+</TEI>
