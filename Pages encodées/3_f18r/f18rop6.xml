@@ -32,8 +32,7 @@
                <expan>Jean-Jacques</expan>
                   </choice></forename>
                   <add><surname>de Mesmes</surname></add></persName>
-<!--            Il me semble voir J.J. (comme ce que tu as écrit dans ton encodage) et ça me semble confirmé par I.I. au folio 17 recto, mais je laisse ceci pour qu'on confirme ensemble (comme il est écrit I.I. dans la transcription)-->
-            <choice>
+<choice>
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu mis au college de <placeName><choice>
@@ -41,7 +40,7 @@
                   <reg>B</reg>
             </choice>ourgoigne</placeName> <subst>
                   <del>en</del>
-                  <add>dez></add>
+                  <add>dez</add>
                </subst>
             <del>le</del>l<choice>
                   <orig/>

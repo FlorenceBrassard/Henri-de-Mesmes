@@ -6,115 +6,128 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p><subst>
-               <del seq="1">et</del>
-               <del seq="2"><add seq="1">mais</add></del>
-               <add seq="2">puis</add>
-            </subst><del>aussy tost que <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>e sceu lire et escrire <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>e fu <del>mis</del> don</del> mon pere <subst>
-               <del>meut a<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>ec</del>
-               <add>me</add>
-            </subst> dona pour precepteur <del><choice>
-                  <abbr>m<hi>e</hi></abbr>
-                  <expan>maître</expan>
-               </choice></del>
-            <persName><choice>
-                  <abbr><forename full="init">J.</forename></abbr>
-                  <expan><forename>Jean</forename></expan>
-               </choice><surname>Mal<subst>
-                     <del rend="unmarked">edent</del>
-                     <add>udan</add>
-                  </subst></surname></persName>
-            <choice>
-               <orig>L</orig>
-               <reg>l</reg>
-            </choice>imosin, <del><choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>eune home</del><del rend="unmarked">,</del> disciple de <del><choice>
-                  <abbr>m<hi>e</hi></abbr>
-                  <expan>maître</expan>
-               </choice></del><persName ref="https://isni.org/isni/0000000120991209"><surname><choice>
-                     <orig>d</orig>
-                     <reg>D</reg>
-                  </choice>orat</surname></persName>,<add seq="2">home </add><add seq="1"
-                     >scavant</add> choisy <add seq="2">pour sa vie innocente et</add> d'eage con<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                     </choice>enable <subst>
-               <del>pour diriger</del>
-               <add><choice>
-                     <orig>a</orig>
-                     <reg>à</reg>
-                  </choice>
-                  <choice>
-                     <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                     <expan>con</expan>
-                  </choice>duire</add>
-            </subst> ma <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>eunesse <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>usques <subst>
-               <del>aux lois</del>
-               <add><subst>
-                     <del>au temps de me scavoir</del>
-                     <add>a tant que <choice>
-                           <orig>i</orig>
-                           <reg>j</reg>
-                        </choice>e me sceusse</add>
-               </subst> gouverner moy<choice>
-                  <abbr>mes<hi>e</hi></abbr>
-                  <expan>mesmes</expan>
-               </choice></add>
-            </subst>, come il feit, car il a<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>anca tellement ses estudes par veilles et tra<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>aulx incroiables qu<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>il alla tous<choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>ours <subst>
-               <del>devant moy autant qu</del>
-               <add>aussy a<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>ant de<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>ant moy come</add>
-            </subst> il estoit requis pour m<choice><orig/><reg>'</reg></choice>enseigner.</p>
-         <p/>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><subst>
+                    <del seq="1">et</del>
+                    <del seq="2"><add seq="1">Mais</add></del>
+                    <add seq="2">Puys</add>
+                </subst><del>aussy tost que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e sceu lire et escrire <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e fu <del>mis</del> don</del> mon pere <subst>
+                    <del>meut</del>
+                    <del>a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec</del>
+                    <add>me</add>
+                </subst> dona pour precepteur <del><choice>
+                        <abbr>m<hi>e</hi></abbr>
+                        <expan>maître</expan>
+                    </choice></del>
+                <persName><choice>
+                        <abbr><forename full="init">J.</forename></abbr>
+                        <expan><forename>Jean</forename></expan>
+                    </choice><surname>Mal<subst>
+                            <del rend="unmarked">edent</del>
+                            <add>udan</add>
+                        </subst></surname></persName>
+                <choice>
+                    <orig>L</orig>
+                    <reg>l</reg>
+                </choice>imosin, <del><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eune home</del><del rend="unmarked">,</del> disciple de <del><choice>
+                        <abbr>m<hi>e</hi></abbr>
+                        <expan>maître</expan>
+                    </choice></del><persName ref="https://isni.org/isni/0000000120991209"><surname><choice>
+                            <orig>d</orig>
+                            <reg>D</reg>
+                        </choice>orat</surname></persName>,<add seq="2">home </add><add seq="1"
+                    >scavant</add> choisy <add>pour sa vie innocente et</add> d'eage con<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>enable <subst>
+                    <del>pour diriger</del>
+                    <add><choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>
+                        <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>duire</add>
+                </subst> ma <choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>eunesse <choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>usques <subst>
+                    <del>aux lois</del>
+                    <add><subst>
+                            <del>au temps de me sca<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir</del>
+                            <add>a tant que <choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>e me sceusse</add>
+                    </subst> go<choice>
+                       <orig>u</orig>
+                       <reg>v</reg>
+                    </choice>erner moy<choice>
+                            <abbr>mes<hi>e</hi></abbr>
+                            <expan>mesmes</expan>
+                        </choice></add>
+                </subst>, come il feit, car il a<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>anca tellement ses estudes par veilles et tra<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>aulx incroiables qu<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>il alla tous<choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>ours <subst>
+                   <del>de<choice>
+                      <orig>u</orig>
+                      <reg>v</reg>
+                   </choice>ant moy autant qu</del>
+                    <add>aussy a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant de<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant moy come</add>
+                </subst> il estoit requis pour m<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>enseigner.</p>
+            <p/>
+        </body>
+    </text>
 </TEI>
