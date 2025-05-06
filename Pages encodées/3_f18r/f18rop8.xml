@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><del>et</del>
+            <choice>
+               <orig>m</orig>
+               <reg>M</reg>
+            </choice>on p<choice>
+               <orig>e</orig>
+               <reg>è</reg>
+            </choice>re disoit <subst>
+               <del>que n<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>estimant beaucoup la vie du college</del>
+               <add>qu<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>en ceste <del>vie</del>norriture du coll<choice>
+                     <orig>e</orig>
+                     <reg>è</reg>
+                  </choice>ge</add>
+            </subst> il a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oit <del>neantmoins</del>
+            <add>eu</add> deux regards, l'un <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> la conversation <del>et <choice>
+                  <abbr><g ref="#com-glyph">Ꝯ</g></abbr>
+                  <expan>com</expan>
+               </choice>mancemet de frequent<choice>
+                  <abbr><hi rend="trait_suscrit">aon</hi></abbr>
+                  <expan>ation</expan>
+               </choice></del> de la <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>eunesse <subst seq="2">
+               <del>bien norrie</del>
+               <add>gaie et innoce<surplus>n</surplus><add>nte</add></add>
+            </subst><del><subst seq="1">
+                  <del>; car en la tourbe il s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                  </choice>y en trou<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                     </choice>oit</del>
+               <add>dont il <del>s<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>y</del> y a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oit lors la</add>
+               </subst>quelque petit nombre</del>.
+         </p>
+      </body>
+   </text>
+</TEI>

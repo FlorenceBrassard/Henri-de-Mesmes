@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><choice>
+               <orig>l'</orig>
+               <reg>L'</reg>
+            </choice>autre <del xml:id="en_la">en la</del>
+            <subst>
+               <del rend="unmarked">se<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>erité</del>
+               <add seq="1"><del>police</del></add>
+               <add seq="2" xml:id="au_regle"><del xml:id="au_regle2">au r<choice>
+                        <orig>e</orig>
+                        <reg>è</reg>
+                     </choice>gle</del></add>
+            </subst><substJoin target="#au_regle #en_la"/>
+            <del xml:id="de_vie">de la vie</del><add xml:id="a_discipline"><choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>la discipline</add><substJoin target="#au_regle2 #de_vie #a_discipline"/> scolasti<choice>
+               <abbr><g ref="que_glyph">ꝙ</g></abbr>
+               <expan>que</expan>
+            </choice> pour nous fe<hi rend="superscript">r</hi> en <choice>
+               <abbr><g ref="par_glyph">ꝓ</g></abbr>
+               <expan>par</expan>
+            </choice>tie oublier <subst>
+               <del>les douceurs</del>
+               <add>les mignardises</add>
+            </subst> de la <subst>
+               <del>m<choice>
+                     <orig>e</orig>
+                     <reg>è</reg>
+                  </choice>re</del>
+               <add>maison</add>
+            </subst> et come nous desgorger en <del>l</del>eau courante.</p>
+      </body>
+   </text>
+</TEI>

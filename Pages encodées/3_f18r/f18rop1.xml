@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><choice>
+               <orig>I</orig>
+               <reg>J</reg>
+            </choice>e nacquis <del>donc</del>
+            <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice><placeName><choice>
+                  <orig>p</orig>
+                  <reg>P</reg>
+               </choice>aris</placeName> le mardy <del>penu</del> XXX<hi rend="superscript">e</hi>
+            <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>our de <choice>
+               <orig>J</orig>
+               <reg>j</reg>
+            </choice>an<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ier <hi rend="trait_suscrit">153<subst>
+                  <add seq="3"><hi rend="superscipt">1</hi></add>
+                  <del rend="overwritten">2</del>
+                  <add place="superimposed" seq="2">1</add>
+               </subst></hi>
+            <del><add seq="1">qui est 33 selon la reduction qu<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>on tient maintenant</add></del>
+            <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> trois heures du matin<supplied>.</supplied><metamark function="insert"
+               target="#qui_prst"/><add xml:id="qui_prst"><metamark/><subst xml:id="qui_c">
+                  <del>qui</del>
+                  <add>c'</add>
+               </subst>estoit <add xml:id="le">le</add><substJoin target="#qui_c #le"/> c<choice>
+                  <abbr>õ</abbr>
+                  <expan>om</expan>
+               </choice>mancement de l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>année <hi rend="trait_suscrit">1532</hi>
+               <subst xml:id="mode_compte">
+                  <del><choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> la mode</del>
+                  <add>au compte</add>
+               </subst>
+               <choice>
+                  <orig>R</orig>
+                  <reg>r</reg>
+               </choice>omain<del xml:id="e_la">e la</del>que<del xml:id="lle">lle</del> nous tenons
+                  <hi rend="trait_suscrit"><choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice>
+                  <choice>
+                     <abbr>prst</abbr>
+                     <expan>présent</expan>
+                  </choice></hi>.<substJoin target="#mode_compte #e_la #lle"/></add>
+         </p>
+      </body>
+   </text>
+</TEI>
