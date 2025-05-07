@@ -47,23 +47,10 @@
     </facsimile>
     <text>
         <body>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-            <p><del xml:id="en_france"><add>en <placeName><choice>
-                            <orig>f</orig>
-                            <reg>F</reg>
-                        </choice>rance</placeName></add></del>
-=======
->>>>>>> Stashed changes
             <p><del facs="#i_en_france" xml:id="en_france"><add>en <placeName><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rance</placeName></add></del>
-<<<<<<< Updated upstream
-=======
->>>>>>> Florence
->>>>>>> Stashed changes
                 <choice>
                     <orig>m</orig>
                     <reg>M</reg>
@@ -78,29 +65,12 @@
                         <orig>R</orig>
                         <reg>r</reg>
                     </choice>oyaume, mesmement en robe longue, se puissent guiere
-<<<<<<< Updated upstream
                     <add>s'</add>eslever</del><del facs="#i_et_guiere" xml:id="et_guiere"><add>et
                         ceulx qui ont les armes en <placeName><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rance</placeName>, n'escrivent guiere></add></del><add
                     facs="#i_en_guieres" xml:id="en_guieres">En <placeName><choice>
-=======
-<<<<<<< HEAD
-                    <add>s'</add>eslever</del><del xml:id="et_guiere"><add>et ceulx qui ont les
-                        armes en <placeName><choice>
-                                <orig>f</orig>
-                                <reg>F</reg>
-                            </choice>rance</placeName>, n'escrivent guiere></add></del><add xml:id="en_guieres">En <placeName><choice>
-=======
-                    <add>s'</add>eslever</del><del facs="#i_et_guiere" xml:id="et_guiere"><add>et
-                        ceulx qui ont les armes en <placeName><choice>
-                                <orig>f</orig>
-                                <reg>F</reg>
-                            </choice>rance</placeName>, n'escrivent guiere></add></del><add
-                    facs="#i_en_guieres" xml:id="en_guieres">En <placeName><choice>
->>>>>>> Florence
->>>>>>> Stashed changes
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName> ceulx qui <subst>

@@ -19,11 +19,6 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
     <facsimile>
         <surface>
             <graphic url="f17ro.jpg"/>
@@ -37,10 +32,6 @@
                 points="382,1212 372,1286 834,1246 1598,1222 1616,1184 884,1196 634,1196"/>
         </surface>
     </facsimile>
-<<<<<<< Updated upstream
-=======
->>>>>>> Florence
->>>>>>> Stashed changes
     <text>
         <body>
             <p>Je n<choice>
@@ -57,15 +48,7 @@
                                 <del>memo</del>
                                 <add>grandement mem</add>
                             </subst></add></del>
-<<<<<<< Updated upstream
                     <add facs="#i_ny_histoire" xml:id="ny_histoire">ny ma <choice>
-=======
-<<<<<<< HEAD
-                    <add xml:id="ny_histoire">ny ma <choice>
-=======
-                    <add facs="#i_ny_histoire" xml:id="ny_histoire">ny ma <choice>
->>>>>>> Florence
->>>>>>> Stashed changes
                             <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                             <expan>pro</expan>
                         </choice>fession les a <subst>
@@ -111,9 +94,6 @@
                 </choice>a preser<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
                 </choice>é. <note resp="AV" type="génétique">Le projet est d’abord présenté par la négative :
                     Henri de Mesmes dit ce qu’il n’a pas l’intention de faire, pour mieux préciser
                     ensuite son projet. Rhétorique de la modestie. Petits mémoires vs grands
@@ -122,20 +102,6 @@
                     fournir une explication au projet repoussé dans la première proposition : si
                     Henri de Mesmes ne peut pas écrire de « grands » mémoires, c’est du fait de sa
                     « profession », au sens d’office et de tâches concrètement accomplies au
-=======
->>>>>>> Stashed changes
-                </choice>é. <note resp="AV" type="génétique">Le projet est d’abord présenté par la
-                    négative : Henri de Mesmes dit ce qu’il n’a pas l’intention de faire, pour mieux
-                    préciser ensuite son projet. Rhétorique de la modestie. Petits mémoires vs
-                    grands mémoires comme « chronique » des « gestes », au sens de res gestae, les
-                    « choses accomplies », la geste (dimension héroïque). L’ajout « ma profession »
-                    vient fournir une explication au projet repoussé dans la première proposition :
-                    si Henri de Mesmes ne peut pas écrire de « grands » mémoires, c’est du fait de
-                    sa « profession », au sens d’office et de tâches concrètement accomplies au
-<<<<<<< Updated upstream
-=======
->>>>>>> Florence
->>>>>>> Stashed changes
                     quotidien. Le terme « mémorable » est deux fois esquissé dans l’ajout, deux fois
                     raturé. Il est finalement remplacé par la formule « dignes de grande histoire »
                     [à creuser]. Le tout rejoue l’opposition noblesse de robe/noblesse d’épée
