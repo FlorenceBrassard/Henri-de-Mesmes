@@ -28,12 +28,12 @@
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu <subst>
-               <add seq="1"><metamark function="insert" target="#moins_dun">^</metamark><add
+               <add seq="1"><del seq="2"><metamark function="insert" target="#moins_dun">^</metamark><add
                      xml:id="moins_dun"><metamark>^</metamark>moins d<choice>
                         <orig/>
                         <reg>'</reg>
-                     </choice>un</add></add>
-               <del>un</del>
+                     </choice>un</add></del></add>
+               <del seq="1">un</del>
                <add seq="2" xml:id="un">un</add>
             </subst> an <metamark function="insert">+</metamark><add seq="2" xml:id="ou_moins"
                   ><metamark>+</metamark>ou peu moins</add> de la premi<choice>

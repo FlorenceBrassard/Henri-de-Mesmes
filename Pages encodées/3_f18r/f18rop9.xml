@@ -42,7 +42,10 @@
                </choice>la discipline</add><substJoin target="#au_regle2 #de_vie #a_discipline"/> scolasti<choice>
                <abbr><g ref="que_glyph">ꝙ</g></abbr>
                <expan>que</expan>
-            </choice> pour nous fe<hi rend="superscript">r</hi> en <choice>
+            </choice> pour nous <choice>
+               <abbr>fe<hi rend="superscript">r</hi></abbr>
+               <expan>faire</expan>
+            </choice> en <choice>
                <abbr><g ref="par_glyph">ꝓ</g></abbr>
                <expan>par</expan>
             </choice>tie oublier <subst>
