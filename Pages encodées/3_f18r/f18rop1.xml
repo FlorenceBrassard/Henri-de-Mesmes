@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><choice>
+               <orig>I</orig>
+               <reg>J</reg>
+            </choice>e nacquis <del>donc</del>
+            <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice>
+            <placeName><choice>
+                  <orig>p</orig>
+                  <reg>P</reg>
+            </choice>aris</placeName> le mardy <del>penu</del> xxx<hi rend="superscript">e</hi>
+            <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>our de <choice>
+               <orig>J</orig>
+               <reg>j</reg>
+            </choice>anvier <hi rend="trait_suscrit">15<subst seq="2">
+               <del rend="overwritten">2</del>
+               <add place="superimposed">1</add></subst>
+               </hi>
+            <del seq="2"><add seq="1">qui est 33 selon la reduction qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+            </choice>on tient maintenant</add></del>
+            <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> trois heures du matin<supplied>.</supplied>
+            <metamark function="insert" target="qui_prst">+</metamark>
+            <add seq="2" xml:id="qui_prst">
+               <subst>
+                  <del>qui </del>
+                  <add><choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                  </choice>'</add>
+               </subst>estoit <add>le</add> c<choice>
+                  <abbr>õ</abbr>
+                  <reg>om</reg>
+               </choice>mancement de <choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>année <hi rend="trait_suscrit">1532</hi> <subst seq="3">
+                  <del><choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                  </choice> la mode</del>
+                  <add>au compte</add>
+               </subst> <choice>
+                  <orig>R</orig>
+                  <reg>r</reg>
+               </choice>omain<del seq="3">e</del>
+               <del seq="3">la</del>que<del seq="3">lle</del> nous tenons
+               <hi rend="trait_suscrit"><choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+               </choice> <choice>
+                  <abbr>prst</abbr>
+                  <reg>present</reg>
+               </choice></hi>.</add>
+         </p>
+      </body>
+   </text>
+</TEI>
