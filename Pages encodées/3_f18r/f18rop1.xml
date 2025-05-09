@@ -31,7 +31,7 @@
             </choice><placeName><choice>
                   <orig>p</orig>
                   <reg>P</reg>
-               </choice>aris</placeName> le mardy <del>penu</del> XXX<hi rend="superscript">e</hi>
+               </choice>aris</placeName> le mardy <del>penu</del> xxx<hi rend="superscript">e</hi>
             <choice>
                <orig>i</orig>
                <reg>j</reg>
@@ -54,9 +54,12 @@
                <orig>a</orig>
                <reg>à</reg>
             </choice> trois heures du matin<supplied>.</supplied><metamark function="insert"
-               target="#qui_prst"/><add xml:id="qui_prst"><metamark/><subst xml:id="qui_c">
+               target="#qui_prst">+</metamark><add xml:id="qui_prst"><metamark>+</metamark><subst xml:id="qui_c">
                   <del>qui</del>
-                  <add>c'</add>
+                  <add><choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                  </choice>'</add>
                </subst>estoit <add xml:id="le">le</add><substJoin target="#qui_c #le"/> c<choice>
                   <abbr>õ</abbr>
                   <expan>om</expan>

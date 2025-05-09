@@ -36,10 +36,7 @@
                <del seq="1">un</del>
                <add seq="2" xml:id="un">un</add>
             </subst> an <metamark function="insert">+</metamark><add seq="2" xml:id="ou_moins"
-                  ><metamark>+</metamark>ou peu moins</add> de la premi<choice>
-               <orig>e</orig>
-               <reg>è</reg>
-            </choice>re.<substJoin target="#un #ou_moins"></substJoin></p>
+                  ><metamark>+</metamark>ou peu moins</add> de la premiere.<substJoin target="#un #ou_moins"></substJoin></p>
       </body>
    </text>
 </TEI>

@@ -25,10 +25,7 @@
             <choice>
                <orig>m</orig>
                <reg>M</reg>
-            </choice>on p<choice>
-               <orig>e</orig>
-               <reg>è</reg>
-            </choice>re disoit <subst>
+            </choice>on pere disoit <subst xml:id="que_college">
                <del>que n<choice>
                      <orig/>
                      <reg>'</reg>
@@ -36,23 +33,24 @@
                <add>qu<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>en ceste <del>vie</del>norriture du coll<choice>
-                     <orig>e</orig>
-                     <reg>è</reg>
-                  </choice>ge</add>
+                  </choice>en ceste <del>vie</del> norriture du college</add>
             </subst> il a<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>oit <del>neantmoins</del>
+            </choice>oit <del xml:id="neantmoins">neantmoins</del>
+            <substJoin target="#que_college #neantmoins"/>
             <add>eu</add> deux regards, l'un <choice>
                <orig>a</orig>
                <reg>à</reg>
-            </choice> la conversation <del>et <choice>
+            </choice> la con<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ersation <del>et <choice>
                   <abbr><g ref="#com-glyph">Ꝯ</g></abbr>
                   <expan>com</expan>
-               </choice>mancemet de frequent<choice>
-                  <abbr><hi rend="trait_suscrit">aon</hi></abbr>
-                  <expan>ation</expan>
+               </choice>mancemet de frequenta<choice>
+                  <abbr><hi rend="trait_suscrit">on</hi></abbr>
+                  <expan>tion</expan>
                </choice></del> de la <choice>
                <orig>i</orig>
                <reg>j</reg>
