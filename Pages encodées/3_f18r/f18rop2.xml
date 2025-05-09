@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><del xml:id="estant">estant</del> lors mon pere <add xml:id="estoit"
+               >estoit</add><substJoin target="#estant #estoit #par_gré"/><choice>
+               <abbr>lieut<hi>t</hi></abbr>
+               <expan>lieutenant</expan>
+            </choice> ci<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>il de <placeName><choice>
+                  <orig>p</orig>
+                  <reg>P</reg>
+               </choice>aris</placeName><add xml:id="par_gré">, par l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>lection du <persName ref="https://isni.org/isni/0000000121029337"><roleName><choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                     </choice>oy</roleName><forename><choice>
+                        <orig>f</orig>
+                        <reg>F</reg>
+                     </choice>ran<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                     </choice>oys</forename></persName> qui pour son sca<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oir et preudhomie l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oit <choice>
+                  <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                  <expan>con</expan>
+               </choice>traint d'accepter ceste charge contre son gré. </add>
+         </p>
+      </body>
+   </text>
+</TEI>
