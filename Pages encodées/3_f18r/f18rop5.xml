@@ -21,22 +21,18 @@
    </teiHeader>
    <text>
       <body>
-         <p>et ne <del xml:id="me">me</del>
-            <del>l d</del> sorti<subst xml:id="a_de">
+         <p><choice>
+               <orig>e</orig>
+               <reg>E</reg>
+            </choice>t ne <del xml:id="me">me</del>
+            <del>l d</del> sorti<subst xml:id="t_s">
                <del rend="overwritten">t</del>
                <add place="superimposed">s</add>
-            </subst> <substJoin target="#me #a_de"/>
-            de sa charge <subst>
-               <del>que</del>
-               <add>synon</add>
-            </subst> lors que <choice>
+            </subst><substJoin target="#me #t_s"/> de sa charge <del>que</del> synon lors que <choice>
                <orig>i</orig>
                <reg>j</reg>
-            </choice>
-            <choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>entray en office.</p>
+            </choice>'entray en office.</p>
+         <p/>
       </body>
    </text>
 </TEI>

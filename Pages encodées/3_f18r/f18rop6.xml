@@ -24,28 +24,30 @@
          <p>A<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ec luy et mon frere puisné <persName><choice>
-                  <abbr>J.J.</abbr>
-                  <reg>Jean-Jacques</reg>
-               </choice>
-               <add>de Mesmes</add></persName>
-            <choice>
+            </choice>ec luy et mon frere puisné <persName><forename full="init"><choice>
+                     <abbr><choice>
+                           <orig>I. I.</orig>
+                           <reg>J. J.</reg>
+                        </choice></abbr>
+               <expan>Jean-Jacques</expan>
+                  </choice></forename>
+                  <add><surname>de Mesmes</surname></add></persName>
+<choice>
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu mis au college de <placeName><choice>
                   <orig>b</orig>
                   <reg>B</reg>
-               </choice>ourgoigne</placeName>
-            <subst>
-               <del>en</del>
-               <add>dez</add>
-            </subst>
-            <del>le</del> l<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>an <hi rend="trait_suscrit">1542</hi>
+            </choice>ourgoigne</placeName> <subst>
+                  <del>en</del>
+                  <add>dez</add>
+               </subst>
+            <del>le</del>l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>an <hi rend="trait_suscrit">1542</hi>
             <del>et</del>
-            <add>escolier</add> en la 3<hi rend="superscript">3</hi> classe. </p>
+            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</p>
       </body>
    </text>
 </TEI>

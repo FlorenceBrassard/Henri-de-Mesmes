@@ -24,20 +24,21 @@
          <p><choice>
                <orig>l</orig>
                <reg>L'</reg>
-            </choice>autre <del seq="4">en la</del>
-            <del rend="unmarked" seq="4"><del rend="unmarked" seq="1" xml:id="seuerité"><undo
-                     rend="underlined" seq="2" target="#seuerité"/>se<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>erité</del></del>
-            <del seq="2" xml:id="police"><undo rend="underlined" seq="3" target="#police"/><add
-                  seq="1">police</add></del>
-            <del seq="5"><add seq="4">au regle</add></del>
-            <add seq="5"><choice>
+            </choice>autre <del xml:id="en_la">en la</del>
+            <subst>
+               <del rend="unmarked" seq="1" xml:id="severité"><undo rend="underlined"
+                        seq="1" target="#severite"/><del rend="unmarked" seq="3"><choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>erité</del></del>
+               <add seq="1"><del seq="2" xml:id="police"><undo rend="underlined" seq="2"
+                        target="#police"/><del seq="4">police</del></del></add>
+               <add seq="2" xml:id="au_regle"><del seq="5" xml:id="au_regle2">au regle</del></add>
+            </subst><substJoin target="#au_regle #en_la"/>
+            <del seq="5" xml:id="de_vie">de la vie</del><add seq="3" xml:id="a_discipline"><choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> la discipline</add>
-            <del seq="5">de la vie</del> scolasti<choice>
+               </choice>la discipline</add><substJoin target="#au_regle2 #de_vie #a_discipline"/> scolasti<choice>
                <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                <expan>que</expan>
             </choice> pour nous f<choice>
@@ -55,8 +56,7 @@
             </subst> et come nous desgorger en <del>l<choice>
                   <orig/>
                   <reg>'</reg>
-            </choice></del>eau courante.
-         </p>
+            </choice></del>eau courante.</p>
       </body>
    </text>
 </TEI>

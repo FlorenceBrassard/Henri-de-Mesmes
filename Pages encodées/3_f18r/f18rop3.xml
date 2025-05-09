@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,17 +18,17 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere
-            <del>dame Nicole Hennequin</del> <add>l'une</add>
-            des meilleures femmes et des meilleures 
-            <subst>
+         <p>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere <del>dame Nicole
+               Hennequin</del>
+            <add>l'une</add> des meilleures femmes et des meilleures <subst>
                <del>meres du monde.</del>
-               <add>meres de son temps.</add>
-            </subst>
-         </p>
+               <add seq="1">meres<del rend="unmarked">.</del></add>
+               <add seq="2">de son temps.</add>
+            </subst></p>
+         <p/>
       </body>
-  </text>
+   </text>
 </TEI>
