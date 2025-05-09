@@ -64,7 +64,7 @@
                 </subst>ambassadeur en <placeName><choice>
                         <orig>s</orig>
                         <reg>S</reg>
-                    </choice>uisse</placeName> et <metamark function="insert" target="#depuys" rend="circonflexe"
+                    </choice>uisse</placeName> et <metamark function="insert" target="#depuys"
                >^</metamark><add xml:id="depuys">depuys</add> en autres grandes charges.<choice>
                     <orig>e</orig>
                     <reg>E</reg>

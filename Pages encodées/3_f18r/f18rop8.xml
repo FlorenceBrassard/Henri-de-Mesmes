@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><del>et</del>
+                <choice>
+                    <orig>m</orig>
+                    <reg>M</reg>
+                </choice>on pere disoit <subst xml:id="que_college">
+                    <del>que n<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>estimant beaucoup la vie du college</del>
+                    <add>qu<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>en ceste <del>vie</del> norriture du college</add>
+                </subst> il a<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>oit <del xml:id="neantmoins">neantmoins</del>
+                <substJoin target="#que_college #neantmoins"/>
+                <add>eu</add> deux regards, l'un <choice>
+                    <orig>a</orig>
+                    <reg>à</reg>
+                </choice> la con<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>ersation <del>et <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>manceme<choice>
+                        <abbr><g ref="#nt-glyph">Ƭ</g></abbr>
+                        <expan>nt</expan>
+                    </choice> de frequenta<choice>
+                        <abbr><hi rend="overlined">on</hi></abbr>
+                        <expan>tion</expan>
+                    </choice></del> de la <choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>eunesse <subst seq="2">
+                    <del>bien norrie</del>
+                   <add>gaie et innocen<add><surplus>n</surplus>te</add></add>
+                </subst><subst seq="1">
+                        <del>, car en la tourbe il s<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>y en trou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit</del>
+                        <add><del>dont il <del>s<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>y</del> y a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                                </choice>oit <del>lors</del> l<choice>
+                                   <orig>a</orig>
+                                   <reg>à</reg>
+                                </choice></del></add>
+                </subst><del>quelque petit nombre</del>. </p>
+        </body>
+    </text>
+</TEI>
