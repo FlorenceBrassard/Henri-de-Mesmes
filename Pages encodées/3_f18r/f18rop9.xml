@@ -26,7 +26,7 @@
                <reg>L'</reg>
             </choice>autre <del xml:id="en_la">en la</del>
             <subst>
-               <del rend="unmarked" seq="1" xml:id="severité"><undo
+               <del rend="unmarked" seq="1" xml:id="severité"><undo rend="underlined"
                         seq="1" target="#severite"/><del rend="unmarked" seq="3"><choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -35,7 +35,7 @@
                         target="#police"/><del seq="4">police</del></del></add>
                <add seq="2" xml:id="au_regle"><del seq="5" xml:id="au_regle2">au regle</del></add>
             </subst><substJoin target="#au_regle #en_la"/>
-            <del seq="6" xml:id="de_vie">de la vie</del><add seq="3" xml:id="a_discipline"><choice>
+            <del seq="5" xml:id="de_vie">de la vie</del><add seq="3" xml:id="a_discipline"><choice>
                   <orig>a</orig>
                   <reg>à</reg>
                </choice>la discipline</add><substJoin target="#au_regle2 #de_vie #a_discipline"/> scolasti<choice>

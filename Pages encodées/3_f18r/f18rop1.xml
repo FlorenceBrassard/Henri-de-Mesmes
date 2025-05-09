@@ -41,12 +41,12 @@
             </choice>an<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ier <hi rend="trait_suscrit">153<subst>
-                  <add seq="3"><hi rend="superscipt">1</hi></add>
+            </choice>ier <hi rend="overlined">153<subst xml:id="1531">
+                  <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
                   <del rend="overwritten">2</del>
                   <add place="superimposed" seq="2">1</add>
                </subst></hi>
-            <del><add seq="1">qui est 33 selon la reduction qu<choice>
+            <del xml:id="qui_maintenant"><add seq="1">qui est 33 selon la reduction qu<substJoin target="#1531 #qui_maintenant"/><choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>on tient maintenant</add></del>
@@ -66,7 +66,7 @@
                </choice>mancement de l<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>année <hi rend="trait_suscrit">1532</hi>
+               </choice>année <hi rend="overlined">1532</hi>
                <subst xml:id="mode_compte">
                   <del><choice>
                         <orig>a</orig>
@@ -78,13 +78,13 @@
                   <orig>R</orig>
                   <reg>r</reg>
                </choice>omain<del xml:id="e_la">e la</del>que<del xml:id="lle">lle</del> nous tenons
-                  <hi rend="trait_suscrit"><choice>
+                  <hi rend="overlined"><choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
                   <choice>
                      <abbr>prst</abbr>
-                     <expan>présent</expan>
+                     <expan>present</expan>
                   </choice></hi>.<substJoin target="#mode_compte #e_la #lle"/></add>
          </p>
       </body>
