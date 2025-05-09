@@ -19,38 +19,12 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <facsimile>
-        <surface>
-            <graphic url="f17ro.jpg"/>
-            <zone xml:id="i_en_france" lry="644" lrx="1304" uly="580" ulx="1072"/>
-            <zone xml:id="i_et_guiere" lry="930" lrx="366" uly="738" ulx="90"/>
-            <zone xml:id="i_en_guieres"
-                points="680,694 680,754 730,740 1560,708 1550,796 1738,804 1730,770 1774,768 1788,748 1892,762 1884,646"/>
-            <zone xml:id="i_mesprisent_guieres"
-                points="1380,666 1360,714 1548,712 1554,800 1730,796 1732,768 1774,770 1792,752 1892,766 1886,640"/>
-            <zone xml:id="i_nusent_chapeaus" points="405,792 387,847 1427,797 1420,745"/>
-            <zone xml:id="i_ceux" points="1572,800 1574,828 1702,830 1708,798"/>
-            <zone xml:id="i_les1" points="1782,750 1776,786 1830,774 1832,750"/>
-            <zone xml:id="i_s1" points="1778,800 1760,840 1792,844"/>
-            <zone xml:id="i_s2" points="1858,800 1852,844 1886,848 1886,808"/>
-            <zone xml:id="i_de_recomander" points="1548,905 1550,928 1898,931 1888,905"/>
-            <zone xml:id="i_de_recommander" points="458,876 452,932 800,912 812,858"/>
-            <zone xml:id="i_memorables" points="938,848 936,906 1198,882 1192,838"/>
-            <zone xml:id="i_je_ne" points="1787,771 1785,815 1870,812 1870,771"/>
-            <zone xml:id="i_voy_come" points="1550,820 1551,855 1551,858 1848,858 1845,832"/>
-            <zone xml:id="i_les_robe" points="1545,874 1545,907 1860,904 1854,880"/>
-            <zone xml:id="i_longue" points="1555,916 1546,956 1546,958 1651,981 1716,953 1713,925"/>
-            <zone xml:id="i_et_1" points="1741,770 1741,810 1775,800 1775,765"/>
-            <zone xml:id="i_robes_longues" points="1715,801 1716,828 1885,838 1885,801"/>
-            <zone xml:id="i_nont_moyen" points="1615,856 1610,885 1868,880 1868,856"/>
-        </surface>
-    </facsimile>
     <text>
         <body>
-            <p><del facs="#i_en_france" xml:id="en_france"><add>en <placeName><choice>
-                                <orig>f</orig>
-                                <reg>F</reg>
-                            </choice>rance</placeName></add></del>
+            <p><del xml:id="en_france"><add>en <placeName><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rance</placeName></add></del>
                 <choice>
                     <orig>m</orig>
                     <reg>M</reg>
@@ -65,23 +39,22 @@
                         <orig>R</orig>
                         <reg>r</reg>
                     </choice>oyaume, mesmement en robe longue, se puissent guiere
-                    <add>s'</add>eslever</del><del facs="#i_et_guiere" xml:id="et_guiere"><add>et
-                        ceulx qui ont les armes en <placeName><choice>
+                    <add>s'</add>eslever</del><del xml:id="et_guiere"><add>et ceulx qui ont les
+                        armes en <placeName><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
-                            </choice>rance</placeName>, n'escrivent guiere></add></del><add
-                    facs="#i_en_guieres" xml:id="en_guieres">En <placeName><choice>
+                            </choice>rance</placeName>, n'escrivent guiere></add></del><add xml:id="en_guieres">En <placeName><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName> ceulx qui <subst>
                         <del>manient</del>
                         <add>ont</add>
-                    </subst> les armes, <del facs="#i_mesprisent_guieres"
-                        xml:id="mesprisent_guieres">mesprisent presque touts les letres, et n<choice>
+                    </subst> les armes, <del xml:id="mesprisent_guieres">mesprisent presque touts
+                        les letres, et n<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>escrivent guieres.</del></add>
-                <add facs="#i_nusent_chapeaus" xml:id="nusent_chapeaus">n<choice>
+                <add xml:id="nusent_chapeaus">n<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>usent guiere de <gap quantity="1" unit="char"/> plumes qu'<choice>
@@ -90,29 +63,27 @@
                     </choice>leurs chapeaus</add>
                 <substJoin seq="1" target="#en_france #et_guiere #en_guieres"/>
                 <substJoin seq="2" target="#mesprisent_guieres #nusent_chapeaus"/>
-                <addSpan facs="#i_robes_longues #i_nont_moyen #i_de_recomander" spanTo="#recõmander"
-                />et <subst>
-                    <del facs="#i_je_ne #i_voy_come #i_les_robe"><choice>
+                <addSpan spanTo="#recõmander"/>et <subst>
+                    <del><choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>e ne voy pas come les gens de robe longue</del>
                     <add>
                         <subst xml:id="ceulx_les">
-                            <del facs="#i_ceux">ceulx de</del>
-                            <add facs="#i_les1">les</add>
-                        </subst> robe<add facs="#i_s1" xml:id="s_1">s</add> longue<add facs="#i_s2"
-                            xml:id="s_2">s</add></add>
+                            <del>ceulx de</del>
+                            <add>les</add>
+                        </subst> robe<add xml:id="s_1">s</add> longue<add xml:id="s_2">s</add></add>
                 </subst>
                 <substJoin target="#ceulx_les #s_1 #s_2"/> n<choice>
                     <orig/>
                     <reg>'</reg>
                 </choice>ont pas moien <subst xml:id="recomander_recommander">
-                    <del facs="#i_de_recomander">de se recõmander</del>
+                    <del>de se recõmander</del>
                     <anchor xml:id="recõmander"/>
-                    <add facs="#i_de_recommander">de se recommander</add>
+                    <add>de se recommander</add>
                 </subst> par faicts <subst xml:id="memorables">
                     <del>recommandables</del>
-                    <add facs="#i_memorables">memorables</add>
+                    <add>memorables</add>
                 </subst>. <substJoin target=" #recomander_recommander #memorables"/>
             </p>
         </body>

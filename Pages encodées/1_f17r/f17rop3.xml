@@ -19,31 +19,17 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <facsimile>
-        <surface>
-            <graphic url="f17ro.jpg"/>
-            <zone xml:id="i_et_3-1" points="1335,845 1332,898 1448,878 1448,851"/>
-            <zone xml:id="i_metamark_3_1" points="1165,937 1165,975 1264,968 1267,928"/>
-            <zone xml:id="i_ne_famille"
-                points="1560,1007 1475,995 1445,1022 1450,1054 1532,1041 1560,1031 1592,1038 1567,1097 1765,1090 1768,1055 1867,1058 1867,968 1544,951"/>
-            <zone xml:id="i_et_serviteur"
-                points="380,1148 378,1210 407,1180 834,1160 1052,1160 1494,1135 1481,1115 1334,1097 1010,1102 637,1130"/>
-            <zone xml:id="i_certes_soymesmes"
-                points="63,1151 65,1370 368,1341 368,1314 392,1307 353,1136"/>
-            <zone xml:id="i_metamark_3_2" points="1465,1087 1460,1134 1504,1119 1507,1092"/>
-        </surface>
-    </facsimile>
     <text>
         <body>
             <p><subst>
                     <del>Mais</del>
-                    <add><del facs="#i_et_3-1" xml:id="et">Et</del></add>
+                    <add><del xml:id="et">Et</del></add>
                 </subst> que scauroit faire de grand <choice>
                     <orig>v</orig>
                     <reg>u</reg>
-                </choice>n home seul <metamark facs="#i_metamark_3_1" function="insert"
-                    target="#ne_famille" xml:id="metamark_3-1">°¯</metamark>
-                <add facs="#i_ne_famille" xml:id="ne_famille"><metamark>°¯</metamark>ne commendant <subst>
+                </choice>n home seul <metamark function="insert" target="#ne_famille"
+                    xml:id="metamark_3-1">°¯</metamark>
+                <add xml:id="ne_famille"><metamark>°¯</metamark>ne commendant <subst>
                         <del>qu'</del>
                         <add>qu'<choice>
                                 <orig>a</orig>
@@ -54,8 +40,8 @@
                 synon pour oster son bonet, sens langue sy ce n<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>est pour flater ? <add facs="#i_et_serviteur" seq="1" xml:id="et_serviteur"
-                    >Et en fin de compte pour tout <choice>
+                </choice>est pour flater ? <add seq="1" xml:id="et_serviteur">Et en fin de compte
+                    pour tout <choice>
                         <orig>E</orig>
                         <reg>e</reg>
                     </choice>loge, <add>c<choice>
@@ -73,11 +59,10 @@
                         <reg>'</reg>
                     </choice>estoit un bon serviteur.</add>
                 <substJoin target="#et #et_serviteur"/>
-                <metamark facs="#i_metamark_3_2" function="insert" target="#certes_soymesmes"
-                    xml:id="metamark_3_2">+</metamark>
-                <add facs="#i_certes_soymesmes" seq="2" xml:id="certes_soymesmes"
-                        ><metamark>+</metamark> Certes mieulx vaudroit avoir <del>apris <gap
-                            quantity="2" unit="char"/></del> esté bien maistre de soymesmes<choice>
+                <metamark function="insert" target="#certes_soymesmes" xml:id="metamark_3_2"
+                    >+</metamark>
+                <add seq="2" xml:id="certes_soymesmes"><metamark>+</metamark> Certes mieulx vaudroit
+                    avoir <del>apris <gap quantity="2" unit="char"/></del> esté bien maistre de soymesmes<choice>
                         <orig/>
                         <reg>.</reg>
                     </choice></add><note resp="FB" type="génétique">L'emplacement de ce dernier
