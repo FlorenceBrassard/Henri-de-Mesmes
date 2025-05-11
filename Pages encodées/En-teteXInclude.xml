@@ -12,12 +12,7 @@
             <author><persName ref="https://isni.org/isni/0000000121402971"><nameLink>de</nameLink>
                   <surname>Mesmes</surname>, <forename>Henri</forename>
                </persName>(1532-1596)</author>
-<<<<<<< HEAD
             <editor><persName ref="https://isni.org/isni/0000000504833613" xml:id="AV"><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
-=======
-            <editor><persName ref="https://isni.org/isni/0000000504833613" xml:id="AV"
-                     ><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
->>>>>>> 78056da2484e4194e62a4d69353f40a8c258255b
                      <persName><surname>Brassard</surname>,<forename>Florence</forename></persName></editor>
             <funder/>
             <principal><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
@@ -301,12 +296,27 @@
    </teiHeader>
    <text>
       <body>
-         <xi:include href="f17rop1.xml"/>
-         <xi:include href="f17rop2.xml"/>
-         <xi:include href="f17rop3.xml"/>
-         <xi:include href="f17rop4.xml"/>
-         <xi:include href="f17rop5.xml"/>
-         <xi:include href="f17rop6.xml"/>
+         <xi:include href="1_f17r/f17rop1.xml"/>
+         <xi:include href="1_f17r/f17rop2.xml"/>
+         <xi:include href="1_f17r/f17rop3.xml"/>
+         <xi:include href="1_f17r/f17rop4.xml"/>
+         <xi:include href="1_f17r/f17rop5.xml"/>
+         <xi:include href="1_f17r/f17rop6.xml"/>
+         <xi:include href="2_f17v/f17vop1.xml"/>
+         <xi:include href="2_f17v/f17vop1.xml"/>
+         <xi:include href="2_f17v/f17vop2.xml"/>
+         <xi:include href="2_f17v/f17vop3.xml"/>
+         <xi:include href="2_f17v/f17vop4.xml"/>
+         <xi:include href="2_f17v/f17vop5.xml"/>
+         <xi:include href="3_f18r/f18rop1.xml"/>
+         <xi:include href="3_f18r/f18rop2.xml"/>
+         <xi:include href="3_f18r/f18rop3.xml"/>
+         <xi:include href="3_f18r/f18rop4.xml"/>
+         <xi:include href="3_f18r/f18rop5.xml"/>
+         <xi:include href="3_f18r/f18rop6.xml"/>
+         <xi:include href="3_f18r/f18rop7.xml"/>
+         <xi:include href="3_f18r/f18rop8.xml"/>
+         <xi:include href="3_f18r/f18rop9.xml"/>
       </body>
    </text>
 </TEI>
