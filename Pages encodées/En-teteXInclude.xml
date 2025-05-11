@@ -275,6 +275,10 @@
       <encodingDesc>
          <charDecl>
             <glyph xml:id="pro_glyph"></glyph>
+            <glyph xml:id="con_glyph"></glyph>
+            <glyph xml:id="par_glyph"></glyph>
+            <glyph xml:id="nt_glyph"></glyph>
+            <glyph xml:id="que_glyph"></glyph>
          </charDecl>
       </encodingDesc>
       <profileDesc>
@@ -307,7 +311,7 @@
          <xi:include href="2_f17v/f17vop2.xml"/>
          <xi:include href="2_f17v/f17vop3.xml"/>
          <xi:include href="2_f17v/f17vop4.xml"/>
-         <xi:include href="2_f17v/f17vop5.xml"/>
+         <xi:include href="2_f17v/f17vop5.xml"/>e
          <xi:include href="3_f18r/f18rop1.xml"/>
          <xi:include href="3_f18r/f18rop2.xml"/>
          <xi:include href="3_f18r/f18rop3.xml"/>
