@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><choice>
+               <orig>l</orig>
+               <reg>L'</reg>
+            </choice>an mil c<hi rend="exponent">c</hi> xlv au mois de septembre <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice> fu en<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oié <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice>
+            <placeName>
+               <abbr>Thle</abbr>
+               <expan>Toulouse</expan>
+            </placeName> pour estudier en lois, a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ec mon precepteur et mon frere <choice>
+               <orig>.</orig>
+               <reg>,</reg>
+            </choice>
+            <del>nous estions bien <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>eune. et fumes mis en</del>
+            <metamark function="insert" target="#soubs" xml:id="f18vop4_metamark_1">^</metamark>
+            <add xml:id="soubs"><metamark function="insert" xml:id="f18vop4_metamark_2">.</metamark>soubs</add>
+            la conduite d<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>un vieil gentilhome tout blanc
+            qui a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oit <subst>
+               <del>toute sa vie</del>
+               <add>longuement</add>
+            </subst> voiagé par <subst>
+               <del>tous les endroits du</del>
+               <add>le</add>
+            </subst> monde <choice>
+               <orig><add xml:id="f18vop4_point">.</add></orig> 
+               <reg>,</reg>
+               </choice>
+            <subst xml:id="f18vop4_nommé_cestoit">
+               <del>nommé</del>
+               <add>cestoit</add>
+            </subst> 
+            <substJoin target="#f18vop4_point #f18vop4_nommé_cestoit"/>
+            <persName>monsieur de Gude</persName> l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>un des freres puisn<choice>
+                  <orig>e</orig>
+                  <reg>é</reg>
+               </choice>s de mon pere.
+         </p>
+      </body>
+   </text>
+</TEI>
