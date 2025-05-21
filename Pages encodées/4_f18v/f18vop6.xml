@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,12 +18,92 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p><choice>
+               <orig>a</orig>
+               <reg>À</reg>
+            </choice>
+            <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst>
+               <del>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>vec</del>
+               <add>en</add>
+            </subst>
+            <del>le</del> plus <add>estroite vie et</add> plus penibles estudes que <subst>
+               <del>d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>autres</del>
+               <add xml:id="f18vop6_ceulx_maintenant">ceulx de mainten<choice>
+                     <abbr rend="overlined">ã</abbr>
+                     <expan>an</expan>
+                  </choice>t</add>
+            </subst> ne voudroient <subst>
+               <del>f<choice>
+                     <abbr>e<hi rend="exponent">r</hi></abbr>
+                     <expan>aire</expan>
+                  </choice></del>
+               <del>practiquer</del>
+               <add>suporter</add>
+            </subst>
+            <del xml:id="f18vop6_auiourduy">au<choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ourduy</del>. <substJoin
+               target="#f18vop6_ceulx_maintenant #f18vop6_auiourduy"/>
+            <choice>
+               <orig>n</orig>
+               <reg>N</reg>
+            </choice>ous estions debout <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> iiii heures, et <metamark function="insert" target="#f18vop6_aians_dieu"
+               xml:id="f18vop6_metamark_1">^</metamark>
+            <add xml:id="f18vop6_aians_dieu"><metamark function="insert" xml:id="f18vop6_metamark_2"
+                  >.</metamark> aians prié <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>ieu</add> alions <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> cinq <metamark function="insert" target="#f18vop6_heures"
+               xml:id="f18vop6_metamark_3">^</metamark>
+            <add xml:id="f18vop6_heures"><metamark function="insert" xml:id="f18vop6_metamark_4"
+                  >.</metamark> heures</add> aux estudes, <del>portant</del> noz gros li<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>res <del>de papier</del> soubs les bras <subst xml:id="F18vop6_et_les">
+               <del>et</del>
+               <add>les</add>
+            </subst> escritoires <metamark function="insert" target="#f18vop6_et_chandeliers"
+               xml:id="f18vop6_metamark_5">.</metamark>
+            <add xml:id="f18vop6_et_chandeliers"><metamark function="insert" xml:id="f18vop6_metamark_6"
+               >.</metamark>et noz chandeliers</add>
+            <substJoin target="#F18vop6_et_les #f18vop6_et_chandeliers"/>
+            <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> la main. <choice>
+               <orig>n</orig>
+               <reg>N</reg>
+            </choice>ous oions toutes les lectures <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>us<choice>
+               <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+               <expan>que</expan>
+            </choice>s <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> x heures <add>sonées sens intermission</add>.
+            <choice>
+            <orig>p</orig>
+            <reg>P</reg>
+            </choice>uys <del>nous</del> venions.
+         </p>
       </body>
-  </text>
+   </text>
 </TEI>

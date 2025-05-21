@@ -119,7 +119,10 @@
                         <orig>u</orig>
                         <reg>v</reg>
                      </choice>ent</del>
-                  <add><g ref="#que-glyph">ꝙ</g>lque fois</add>
+                  <add><choice>
+                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                        <expan>que</expan>
+                     </choice>lque fois</add>
                </subst>
                <subst>
                   <del>qui estoient</del>
