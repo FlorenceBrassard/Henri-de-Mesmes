@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><choice>
+               <orig>a</orig>
+               <reg>À</reg>
+            </choice>
+            <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst xml:id="avec_en">
+               <del>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ec la</del>
+               <add>en</add>
+            </subst> plus <add xml:id="estroite_et">estroite vie et</add> penible<add xml:id="s1"
+               >s</add> estude<add xml:id="s2">s</add> que <subst>
+               <del>d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>autres</del>
+               <add xml:id="ceulx_maintenant">ceulx de maintenãt</add>
+            </subst> ne voudroient <subst>
+               <del seq="1"><choice>
+                     <abbr>fe<hi>r</hi></abbr>
+                     <expan>faire</expan>
+                  </choice></del>
+               <del seq="2"><add seq="1">practiquer</add></del>
+               <add seq="2">suporter</add>
+            </subst><del xml:id="aujourduy">au<choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ourduy</del>. <substJoin target="#avec_en #estroite_et #s1 #s2"/>
+            <substJoin target="#ceulx_maintenant #aujourduy"/>
+            <choice>
+               <orig>n</orig>
+               <reg>N</reg>
+            </choice>ous estions debout a iiii heures, et <metamark function="insertion"
+               target="#aians_dieu">^</metamark><add xml:id="aians_dieu"><metamark>^</metamark>aians
+               prié dieu</add> alions <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> cinq <metamark function="insertion">^</metamark><add xml:id="heures"
+                  ><metamark>^</metamark>heures</add> aux estudes<subst><add xml:id="virgule">,</add>
+            <del>portant</del></subst> noz gros li<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>res <del>de papier</del> soubs les bras <subst xml:id="et_les">
+               <del>et</del>
+               <add><supplied>,</supplied>les</add>
+               <del rend="unmarked">l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice></del>
+            </subst>escritoire<add xml:id="s3">s</add><metamark function="insertion" target="#et_chandeliers">^</metamark><add
+               xml:id="et_chandeliers"><metamark>^</metamark>et noz chandeliers</add>
+            <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> la main. <substJoin target="#et_les #s3 #et_chandeliers"></substJoin> <choice>
+               <orig>n</orig>
+               <reg>N</reg>
+            </choice>ous oions toutes les lectures <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>us<choice>
+               <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+               <expan>que</expan>
+            </choice>s <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> x heures <add>sonées sens intermission</add>. <choice>
+               <orig>p</orig>
+               <reg>P</reg>
+            </choice>uys <del>nous</del> venions </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><choice>
+               <orig>t</orig>
+               <reg>T</reg>
+            </choice>ellement que <subst>
+               <del seq="1">quand <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>e party</del>
+               <del seq="2"><add seq="1">partant</add></del>
+               <add seq="2">sortant</add>
+            </subst> de la <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>e <subst>
+               <del>fey ouyr</del>
+               <add>recitay en public</add>
+            </subst> quelques oraisons latines et grecques, <add>de ma <choice>
+                  <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                  <expan>com</expan>
+               </choice>position, presentay</add> plusieurs vers latins, et deux mil vers grecs <subst>
+               <del>de ma facon</del>
+               <add>faicts</add>
+            </subst> selon l<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>eage<subst>
+               <del rend="overwritten">.</del>
+               <add rend="superimposed">, <metamark function="insertion"
+                     target="#qui_danesius #et_lautre">≠</metamark></add>
+            </subst>
+            <add seq="2" xml:id="et_lautre"><metamark xml:id="metamark_2">≠</metamark> et recitay
+                  <persName>Homere</persName> par cueur d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>un bout <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>autre.</add>
+            <add seq="1" xml:id="qui_danesius"><del xml:id="metamark_1"><metamark>≠</metamark></del>
+               <choice><orig>q</orig><reg>Q</reg></choice>ui fut cause que <subst>
+                  <del>depuys <unclear>ce</unclear></del>
+                  <del><add>des lors</add></del>
+                  <add>depuys cela <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>estois</add>
+               </subst>
+               <del>me m</del><subst>
+                  <del seq="1"><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e fus fort pri<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>é des</del>
+                  <del seq="2"><add seq="1">sou<choice>
+                           <orig>u</orig>
+                           <reg>v</reg>
+                        </choice>ant appellé et <choice>
+                           <orig>i</orig>
+                           <reg>j'</reg>
+                        </choice>eu acces et pri<choice>
+                           <orig>u</orig>
+                           <reg>v</reg>
+                        </choice>ée amitié se</add></del>
+                  <add seq="2">bien veu parm<subst>
+                        <del rend="overwritten">y</del>
+                        <add rend="superimposed">i</add>
+                     </subst> les premiers homes <subst xml:id="de_du">
+                        <del>de ce</del>
+                        <add>du</add>
+                     </subst> temps <subst xml:id="la_et">
+                        <del>la ou</del>
+                        <add>et</add>
+                     </subst></add>
+               </subst> mon precepteur me menoit <subst>
+                  <del>so<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>ent</del>
+                  <add><choice>
+                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                        <expan>que</expan>
+                     </choice>lque fois</add>
+               </subst>
+               <subst>
+                  <del seq="1">qui estoient</del>
+                  <del seq="2"><add seq="1"><gap quantity="3" unit="char"/><unclear>aussy</unclear>
+                        comme</add></del>
+                  <add seq="2">chez</add>
+               </subst>
+               <persName><forename>Lazarius</forename>
+                  <surname>Baysius</surname></persName>, <persName><forename>Tussanus</forename>
+                  <surname>Strazalius</surname></persName>
+               <gap quantity="2" unit="char"/><persName>Castellanus</persName> et
+                  <persName>Danesius</persName>. <subst>
+                  <del><gap quantity="2" unit="char"/><gap quantity="2" unit="char"/> nous
+                     estions</del>
+                  <add>avec honneur, et progrez e<subst>
+                        <del rend="overwritten">n</del>
+                        <add rend="superimposed">z</add>
+                     </subst><choice>
+                        <abbr><hi rend="overlined">ltres</hi></abbr>
+                        <expan>lettres</expan>
+                     </choice></add>
+               </subst><supplied>.</supplied>
+            </add>
+            <substJoin target="#de_du #la_et"/>
+            <substJoin target="#metamark_1 #et_lautre"/>
+         </p>
+      </body>
+   </text>
+</TEI>
