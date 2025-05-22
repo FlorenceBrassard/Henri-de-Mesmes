@@ -40,7 +40,7 @@
                 </choice>escu <subst xml:id="touts_huict_dix">
                     <del>touts</del>
                     <add><del>huict ou dix</del></add>
-                </subst>ses <metamark function="insertion" target="#dix" xml:id="metamark_1"
+                </subst>ses <metamark function="insert" target="#dix" xml:id="metamark_1"
                     >^</metamark><add xml:id="dix">dix></add><substJoin
                     target=" #touts_huict_dix #metamark_1 #dix"/> freres qui sont presque touts
                 morts a<subst xml:id="a_la_aux">

@@ -27,16 +27,17 @@
             </choice>e que <subst xml:id="f18vop1_les_ces">
                <del>les</del>
                <add>ces</add>
-            </subst> xviii <del xml:id="f18vop1_ou_xx">ou xx</del> mois du college me f<subst xml:id="f18vop1_i_u">
+            </subst> xviii <del xml:id="f18vop1_ou_xx">ou xx</del> mois du college me f<subst xml:id="f18vop1_u_i">
                <del rend="overwritten">u</del>
-               <add rend="superimposed">i</add>
+               <add place="superimposed">i</add>
             </subst>rent <subst xml:id="f18vop1_a_bien">
                <del><choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice> propos</del>
                <add>assez de bien</add>
-            </subst>.<substJoin target="#f18vop1_les_ces #f18vop1_ou_xx"/><substJoin target="#f18vop1_i_u #f18vop1_a_bien"/></p>
+            </subst>.<substJoin target="#f18vop1_les_ces #f18vop1_ou_xx"/>
+            <substJoin target="#f18vop1_u_i #f18 vop1_a_bien"/></p>
       </body>
    </text>
 </TEI>

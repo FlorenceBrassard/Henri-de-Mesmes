@@ -49,7 +49,7 @@
                   </choice> sept mois et fort <subst>
                      <del>delicat</del>
                      <add>delié</add>
-                  </subst> en <metamark function="insertion" target="sa">^</metamark><add xml:id="sa">sa</add>
+                  </subst> en <metamark function="insert" target="sa">^</metamark><add xml:id="sa">sa</add>
                   <choice>
                      <orig>i</orig>
                      <reg>j</reg>
