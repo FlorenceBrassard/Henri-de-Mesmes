@@ -25,19 +25,19 @@
                <orig>a</orig>
                <reg>À</reg>
             </choice>
-            <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst xml:id="avec_en">
+            <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst xml:id="f18vop6_avec_en">
                <del>a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>ec la</del>
                <add>en</add>
-            </subst> plus <add xml:id="estroite_et">estroite vie et</add> penible<add xml:id="s1"
-               >s</add> estude<add xml:id="s2">s</add> que <subst>
+            </subst> plus <add xml:id="f18vop6_estroite_et">estroite vie et</add> penible<add xml:id="f18vop6_s1"
+               >s</add> estude<add xml:id="f18vop6_s2">s</add> que <subst>
                <del>d<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>autres</del>
-               <add xml:id="ceulx_maintenant">ceulx de maintenãt</add>
+                  <add xml:id="f18vop6_ceulx_maintenant">ceulx de maintenãt</add>
             </subst> ne voudroient <subst>
                <del seq="1"><choice>
                      <abbr>fe<hi>r</hi></abbr>
@@ -45,37 +45,37 @@
                   </choice></del>
                <del seq="2"><add seq="1">practiquer</add></del>
                <add seq="2">suporter</add>
-            </subst><del xml:id="aujourduy">au<choice>
+            </subst><del xml:id="f18vop6_aujourduy">au<choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>ourduy</del>. <substJoin target="#avec_en #estroite_et #s1 #s2"/>
-            <substJoin target="#ceulx_maintenant #aujourduy"/>
+            </choice>ourduy</del>. <substJoin target="#f18vop6_avec_en #f18vop6_estroite_et #f18vop6_s1 #f18vop6_s2"/>
+            <substJoin target="#f18vop6_ceulx_maintenant #f18vop6_aujourduy"/>
             <choice>
                <orig>n</orig>
                <reg>N</reg>
             </choice>ous estions debout a iiii heures, et <metamark function="insertion"
-               target="#aians_dieu">^</metamark><add xml:id="aians_dieu"><metamark>^</metamark>aians
+               target="#f18vop6_aians_dieu">^</metamark><add xml:id="f18vop6_aians_dieu"><metamark>^</metamark>aians
                prié dieu</add> alions <choice>
                <orig>a</orig>
                <reg>à</reg>
-            </choice> cinq <metamark function="insertion">^</metamark><add xml:id="heures"
-                  ><metamark>^</metamark>heures</add> aux estudes<subst><add xml:id="virgule">,</add>
+               </choice> cinq <metamark function="insertion">^</metamark><add xml:id="f18vop6_heures"
+                  ><metamark>^</metamark>heures</add> aux estudes<subst><add>,</add>
             <del>portant</del></subst> noz gros li<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>res <del>de papier</del> soubs les bras <subst xml:id="et_les">
+            </choice>res <del>de papier</del> soubs les bras <subst xml:id="f18vop6_et_les">
                <del>et</del>
                <add><supplied>,</supplied>les</add>
                <del rend="unmarked">l<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice></del>
-            </subst>escritoire<add xml:id="s3">s</add><metamark function="insertion" target="#et_chandeliers">^</metamark><add
-               xml:id="et_chandeliers"><metamark>^</metamark>et noz chandeliers</add>
+            </subst>escritoire<add xml:id="f18vop6_s3">s</add><metamark function="insertion" target="#f18vop6_et_chandeliers">^</metamark><add
+               xml:id="f18vop6_et_chandeliers"><metamark>^</metamark>et noz chandeliers</add>
             <choice>
                <orig>a</orig>
                <reg>à</reg>
-            </choice> la main. <substJoin target="#et_les #s3 #et_chandeliers"></substJoin> <choice>
+            </choice> la main. <substJoin target="#f18vop6_et_les #f18vop6_s3 #f18vop6_et_chandeliers"></substJoin> <choice>
                <orig>n</orig>
                <reg>N</reg>
             </choice>ous oions toutes les lectures <choice>

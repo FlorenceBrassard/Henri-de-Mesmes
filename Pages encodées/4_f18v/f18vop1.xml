@@ -24,19 +24,19 @@
          <p>Je trou<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>e que <subst xml:id="les_ces">
+            </choice>e que <subst xml:id="f18vop1_les_ces">
                <del>les</del>
                <add>ces</add>
-            </subst> xviii <del xml:id="ou_xx">ou xx</del> mois du college me f<subst xml:id="i_u">
+            </subst> xviii <del xml:id="f18vop1_ou_xx">ou xx</del> mois du college me f<subst xml:id="f18vop1_i_u">
                <del rend="overwritten">u</del>
                <add rend="superimposed">i</add>
-            </subst>rent <subst xml:id="a_bien">
+            </subst>rent <subst xml:id="f18vop1_a_bien">
                <del><choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice> propos</del>
                <add>assez de bien</add>
-            </subst>.<substJoin target="#les_ces #ou_xx"/><substJoin target="#i_u #a_bien"/></p>
+            </subst>.<substJoin target="#f18vop1_les_ces #f18vop1_ou_xx"/><substJoin target="#f18vop1_i_u #f18vop1_a_bien"/></p>
       </body>
    </text>
 </TEI>

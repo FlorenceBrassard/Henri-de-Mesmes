@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><del>car <metamark function="insertion">+</metamark><add xml:id="ne_toutesfois"
+         <p><del>car <metamark function="insertion" target="#f18vop2_ne_toutesfois">+</metamark><add xml:id="f18vop2_ne_toutesfois"
                      ><metamark>+</metamark>ne pouvant gaster mes meurs pour l<choice>
                      <orig/>
                      <reg>'</reg>

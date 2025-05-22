@@ -49,9 +49,9 @@
             </choice>eage<subst>
                <del rend="overwritten">.</del>
                <add rend="superimposed">, <metamark function="insertion"
-                     target="#qui_danesius #et_lautre">≠</metamark></add>
+                  target="#f18vop3_qui_danesius #f18vop3_et_lautre">≠</metamark></add>
             </subst>
-            <add seq="2" xml:id="et_lautre"><metamark xml:id="metamark_2">≠</metamark> et recitay
+            <add seq="2" xml:id="f18vop3_et_lautre"><metamark xml:id="f18vop3_metamark_2">≠</metamark> et recitay
                   <persName>Homere</persName> par cueur d<choice>
                   <orig/>
                   <reg>'</reg>
@@ -62,7 +62,7 @@
                   <orig/>
                   <reg>'</reg>
                </choice>autre.</add>
-            <add seq="1" xml:id="qui_danesius"><del xml:id="metamark_1"><metamark>≠</metamark></del>
+            <add seq="1" xml:id="f18vop3_qui_danesius"><del xml:id="f18vop3_metamark_1"><metamark>≠</metamark></del>
                <choice><orig>q</orig><reg>Q</reg></choice>ui fut cause que <subst>
                   <del>depuys <unclear>ce</unclear></del>
                   <del><add>des lors</add></del>
@@ -92,10 +92,10 @@
                   <add seq="2">bien veu parm<subst>
                         <del rend="overwritten">y</del>
                         <add rend="superimposed">i</add>
-                     </subst> les premiers homes <subst xml:id="de_du">
+                     </subst> les premiers homes <subst xml:id="f18vop3_de_du">
                         <del>de ce</del>
                         <add>du</add>
-                     </subst> temps <subst xml:id="la_et">
+                     </subst> temps <subst xml:id="f18vop3_la_et">
                         <del>la ou</del>
                         <add>et</add>
                      </subst></add>
@@ -131,8 +131,8 @@
                      </choice></add>
                </subst><supplied>.</supplied>
             </add>
-            <substJoin target="#de_du #la_et"/>
-            <substJoin target="#metamark_1 #et_lautre"/>
+            <substJoin target="#f18vop3_de_du #f18vop3_la_et"/>
+            <substJoin target="#f18vop3_metamark_1 #f18vop3_et_lautre"/>
          </p>
       </body>
    </text>

@@ -54,7 +54,7 @@
             </choice>e luy eusse moienné quel<choice>
                <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                <expan>que</expan>
-            </choice><del xml:id="s1">s</del> bien<del xml:id="s2">s</del>. <substJoin target="#s1 #s2"></substJoin></p>
+            </choice><del xml:id="f18vop5_s1">s</del> bien<del xml:id="f18vop5_s2">s</del>. <substJoin target="#f18vop5_s1 #f18vop5_s2"></substJoin></p>
       </body>
    </text>
 </TEI>
