@@ -52,7 +52,7 @@
                   target="#f18vop3_qui_danesius #f18vop3_et_lautre">≠</metamark></add>
             </subst>
             <add seq="2" xml:id="f18vop3_et_lautre"><metamark xml:id="f18vop3_metamark_2">≠</metamark> et recitay
-                  <persName>Homere</persName> par cueur d<choice>
+               <persName ref="https://isni.org/isni/000000036354151X">Homere</persName> par cueur d<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>un bout <choice>
@@ -115,11 +115,11 @@
                         comme</add></del>
                   <add seq="2">chez</add>
                </subst>
-               <persName><forename>Lazarius</forename>
-                  <surname>Baysius</surname></persName>, <persName><forename>Tussanus</forename>
-                  <surname>Strazalius</surname></persName>
-               <gap quantity="2" unit="char"/><persName>Castellanus</persName> et
-                  <persName>Danesius</persName>. <subst>
+               <persName ref="https://isni.org/isni/000000012099141X"><forename>Lazarius</forename>
+                  <surname>Baysius</surname></persName>, <persName ref="https://isni.org/isni/0000000361526324"><surname>Tussanus</surname>
+                  </persName><persName ref="https://isni.org/isni/0000000358280028"><surname>Strazelius</surname></persName>
+               <gap quantity="2" unit="char"/><persName ref="https://isni.org/isni/000000012364005X">Castellanus</persName> et
+               <persName ref="https://isni.org/isni/0000000121201969">Danesius</persName>. <subst>
                   <del><gap quantity="2" unit="char"/><gap quantity="2" unit="char"/> nous
                      estions</del>
                   <add>avec honneur, et progrez e<subst>
