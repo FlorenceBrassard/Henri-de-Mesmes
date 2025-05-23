@@ -25,16 +25,15 @@
                     <orig>a</orig>
                     <reg>À</reg>
                 </choice>
-                <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst
-                    xml:id="f18vop6_avec_en">
+                <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst>
                     <del>a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ec la</del>
+                        </choice>ec</del>
                     <add>en</add>
-                </subst> plus <add xml:id="f18vop6_estroite_et">estroite vie et</add> penible<add
+                </subst> <del xml:id="f18vop6_la">la</del> plus <add>estroite vie et</add> penible<add
                     xml:id="f18vop6_s1">s</add> estude<add xml:id="f18vop6_s2">s</add>
-                <substJoin target="#f18vop6_avec_en #f18vop6_estroite_et #f18vop6_s1 #f18vop6_s2"/>
+                <substJoin target="#f18vop6_la #f18vop6_s1 #f18vop6_s2"/>
                 que <subst>
                     <del>d<choice>
                             <orig/>
@@ -56,61 +55,7 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ourduy</del>. <substJoin
-                    target="#f18vop6_ceulx_maintenant #f18vop6_aujourduy"/></s><s>
-                <choice>
-                    <orig>n</orig>
-                    <reg>N</reg>
-                </choice>ous estions debout <choice>
-                    <orig>a</orig>
-                    <reg>à</reg>
-                </choice> iiii heures, et <metamark function="insert" target="#f18vop6_aians_dieu"
-                    >^</metamark><add xml:id="f18vop6_aians_dieu"><metamark>^</metamark>aians prié <choice>
-                        <orig>d</orig>
-                        <reg>D</reg>
-                    </choice>ieu</add> alions <choice>
-                    <orig>a</orig>
-                    <reg>à</reg>
-                </choice> cinq <metamark function="insert" target="#f18vop6_heures">^</metamark><add
-                    xml:id="f18vop6_heures"><metamark>^</metamark>heures</add> aux estudes<subst>
-                    <add>,</add>
-                    <del>portant</del>
-                </subst> noz gros li<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>res <del>de papier</del> soubs les bras <subst xml:id="f18vop6_et_les">
-                    <del>et</del>
-                    <add><choice>
-                            <orig/>
-                            <reg>,</reg>
-                        </choice>les</add>
-                    <del rend="unmarked">l<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice></del>
-                </subst>escritoire<add xml:id="f18vop6_s3">s</add><metamark function="insert"
-                    target="#f18vop6_et_chandeliers">^</metamark><add
-                    xml:id="f18vop6_et_chandeliers"><metamark>^</metamark>et noz
-                    chandeliers</add><substJoin
-                    target="#f18vop6_et_les #f18vop6_s3 #f18vop6_et_chandeliers"/>
-                <choice>
-                    <orig>a</orig>
-                    <reg>à</reg>
-                </choice> la main.</s> <s><choice>
-                    <orig>n</orig>
-                    <reg>N</reg>
-                </choice>ous oions toutes les lectures <choice>
-                    <orig>i</orig>
-                    <reg>j</reg>
-                </choice>us<choice>
-                    <abbr><g ref="#que-glyph">ꝙ</g></abbr>
-                    <expan>que</expan>
-                </choice>s <choice>
-                    <orig>a</orig>
-                    <reg>à</reg>
-                </choice> x heures <add>sonées sens intermission</add>.</s> <choice>
-                    <orig>p</orig>
-                    <reg>P</reg>
-                </choice>uys <del>nous</del> venions </p>
+                    target="#f18vop6_ceulx_maintenant #f18vop6_aujourduy"/></s></p>
         </body>
     </text>
 </TEI>

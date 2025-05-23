@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><s>
+            <choice>
+               <orig>n</orig>
+               <reg>N</reg>
+            </choice>ous estions debout <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> iiii heures, et <metamark function="insert" target="#f18vop6_aians_dieu"
+               >^</metamark><add xml:id="f18vop6_aians_dieu"><metamark>^</metamark>aians prié <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>ieu</add> alions <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> cinq <metamark function="insert" target="#f18vop6_heures">^</metamark><add
+                  xml:id="f18vop6_heures"><metamark>^</metamark>heures</add> aux estudes<subst>
+                     <add>,</add>
+                     <del>portant</del>
+                  </subst> noz gros li<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>res <del>de papier</del> soubs les bras <subst xml:id="f18vop6_et_les">
+                     <del>et</del>
+                     <add><choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>les</add>
+                     <del rend="unmarked">l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice></del>
+                  </subst>escritoire<add xml:id="f18vop6_s3">s</add><metamark function="insert"
+                     target="#f18vop6_et_chandeliers">^</metamark><add
+                        xml:id="f18vop6_et_chandeliers"><metamark>^</metamark>et noz
+                        chandeliers</add><substJoin
+                           target="#f18vop6_et_les #f18vop6_s3 #f18vop6_et_chandeliers"/>
+            <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> la main.</s></p>
+      </body>
+  </text>
+</TEI>

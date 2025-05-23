@@ -68,9 +68,10 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>autre.</add>
-                <substJoin target="#f18vop3_point_virgule #f18vop3_metamark_1 #f18vop3_et_lautre"/></s>
-                <s><add seq="1" xml:id="f18vop3_qui_lres"><del xml:id="f18vop3_metamark_3"
-                            ><metamark>≠</metamark></del>
+                <substJoin target="#f18vop3_point_virgule #f18vop3_metamark_1 #f18vop3_qui_lres"/>
+                <substJoin target="#f18vop3_metamark_3_del #f18vop3_metamark_2 #f18vop3_et_lautre"/></s>
+                <s><add seq="1" xml:id="f18vop3_qui_lres"><del xml:id="f18vop3_metamark_3_del"
+                            ><metamark xml:id="f18rop3_metamark_3">≠</metamark></del>
                     <choice>
                         <orig>q</orig>
                         <reg>Q</reg>
@@ -166,7 +167,7 @@
                     </subst><supplied>.</supplied>
                 </add>
                 <substJoin target="#f18vop3_de_du #f18vop3_la_et"/>
-                <substJoin target="#f18vop3_metamark_3 #f18vop3_et_lautre"/></s>
+                </s>
             </p>
         </body>
     </text>

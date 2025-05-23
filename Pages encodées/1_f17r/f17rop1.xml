@@ -65,7 +65,7 @@
             </choice>ilz a<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>oient aimez : <del facs="#i_et_ont #et_propre" xml:id="et_propre">et aucuns ont
+            </choice>oient aimez : <del facs="#i_et_ont #i_composé_propre" xml:id="et_propre">et aucuns ont
                composé la leur propre </del> <del rend="unmarked" xml:id="deux_points">:</del>
             <substJoin target="#la_leurs #s_1 #ou #metamark_2 #et_propre #deux_points"/> c'estoi<del
                facs="#i_en" xml:id="en">en</del>
