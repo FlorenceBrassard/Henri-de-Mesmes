@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><choice>
+            <p><s><choice>
                     <orig>t</orig>
                     <reg>T</reg>
                 </choice>ellement que <subst>
@@ -68,8 +68,8 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>autre.</add>
-                <substJoin target="#f18vop3_point_virgule #f18vop3_metamark_1 #f18vop3_et_lautre"/>
-                <add seq="1" xml:id="f18vop3_qui_lres"><del xml:id="f18vop3_metamark_3"
+                <substJoin target="#f18vop3_point_virgule #f18vop3_metamark_1 #f18vop3_et_lautre"/></s>
+                <s><add seq="1" xml:id="f18vop3_qui_lres"><del xml:id="f18vop3_metamark_3"
                             ><metamark>≠</metamark></del>
                     <choice>
                         <orig>q</orig>
@@ -166,7 +166,7 @@
                     </subst><supplied>.</supplied>
                 </add>
                 <substJoin target="#f18vop3_de_du #f18vop3_la_et"/>
-                <substJoin target="#f18vop3_metamark_3 #f18vop3_et_lautre"/>
+                <substJoin target="#f18vop3_metamark_3 #f18vop3_et_lautre"/></s>
             </p>
         </body>
     </text>

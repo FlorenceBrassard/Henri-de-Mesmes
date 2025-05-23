@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><choice>
+            <p><s><choice>
                     <orig>a</orig>
                     <reg>À</reg>
                 </choice>
@@ -56,7 +56,7 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ourduy</del>. <substJoin
-                    target="#f18vop6_ceulx_maintenant #f18vop6_aujourduy"/>
+                    target="#f18vop6_ceulx_maintenant #f18vop6_aujourduy"/></s><s>
                 <choice>
                     <orig>n</orig>
                     <reg>N</reg>
@@ -95,7 +95,7 @@
                 <choice>
                     <orig>a</orig>
                     <reg>à</reg>
-                </choice> la main. <choice>
+                </choice> la main.</s> <s><choice>
                     <orig>n</orig>
                     <reg>N</reg>
                 </choice>ous oions toutes les lectures <choice>
@@ -107,7 +107,7 @@
                 </choice>s <choice>
                     <orig>a</orig>
                     <reg>à</reg>
-                </choice> x heures <add>sonées sens intermission</add>. <choice>
+                </choice> x heures <add>sonées sens intermission</add>.</s> <choice>
                     <orig>p</orig>
                     <reg>P</reg>
                 </choice>uys <del>nous</del> venions </p>

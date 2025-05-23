@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><del>car <metamark function="insert" target="#f18vop2_ne_toutesfois"
+            <p><s><del>car <metamark function="insert" target="#f18vop2_ne_toutesfois"
                         >+</metamark><add xml:id="f18vop2_ne_toutesfois"><metamark>+</metamark>ne
                         pouvant gaster mes meurs pour l<choice>
                             <orig/>
@@ -55,7 +55,7 @@
                 </subst>, <del rend="overwritten">et</del> apris la vie frugale de la scolarité, et <choice>
                     <orig>a</orig>
                     <reg>à</reg>
-                </choice>regler mes heures. </p>
+                </choice>regler mes heures. </s></p>
         </body>
     </text>
 </TEI>

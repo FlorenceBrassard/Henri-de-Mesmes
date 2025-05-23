@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>Je trou<choice>
+         <p><s>Je trou<choice>
                <orig>u</orig>
                <reg>v</reg>
             </choice>e que <subst xml:id="f18vop1_les_ces">
@@ -37,7 +37,7 @@
                   </choice> propos</del>
                <add>assez de bien</add>
             </subst>.<substJoin target="#f18vop1_les_ces #f18vop1_ou_xx"/>
-            <substJoin target="#f18vop1_u_i #f18 vop1_a_bien"/></p>
+            <substJoin target="#f18vop1_u_i #f18 vop1_a_bien"/></s></p>
       </body>
    </text>
 </TEI>

@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><choice>
+            <p><s><choice>
                     <orig>l</orig>
                     <reg>L'</reg>
                 </choice>an mil v<hi rend="superscript">c</hi> xlv au mois de septembre <choice>
@@ -76,7 +76,7 @@
                         <persName><nameLink>de</nameLink><surname>Gude</surname></persName> l<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>un des freres puisnes de mon pere. </p>
+                </choice>un des freres puisnes de mon pere. </s></p>
         </body>
     </text>
 </TEI>
