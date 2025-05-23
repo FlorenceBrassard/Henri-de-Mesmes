@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><del>car <metamark function="insert" target="#f18vop2_ne_toutesfois"
+                        >+</metamark><add xml:id="f18vop2_ne_toutesfois"><metamark>+</metamark>ne
+                        pouvant gaster mes meurs pour l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>assistance <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>tinuelle du maistre <unclear cert="medium" reason="reliure"
+                            >toutesfois</unclear></add></del>
+                <choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>'apris <choice>
+                    <orig>a</orig>
+                    <reg>à</reg>
+                </choice>repeter, <del><add>et</add></del> disputer et haranguer en public, pris
+                cognoissance d
+                    <del rend="overwritten">e</del>
+                    <choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>honestes enfans dont aucuns vi<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>ent <subst>
+                    <del>ancore</del>
+                    <add>au<choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>ourduy</add>
+                </subst>, <del rend="overwritten">et</del> apris la vie frugale de la scolarité, et <choice>
+                    <orig>a</orig>
+                    <reg>à</reg>
+                </choice>regler mes heures. </s></p>
+        </body>
+    </text>
+</TEI>

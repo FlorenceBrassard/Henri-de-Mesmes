@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                    <orig>t</orig>
+                    <reg>T</reg>
+                </choice>ellement que <subst>
+                    <del seq="1">quand <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e party</del>
+                    <del seq="2"><add seq="1">partant</add></del>
+                    <add seq="2">sortant</add>
+                </subst> de l<choice>
+                    <orig>a</orig>
+                    <reg>à</reg>
+                </choice>
+                <choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>e <subst>
+                    <del>fey ouyr</del>
+                    <add>recitay en public</add>
+                </subst> quelques oraisons latines et grecques, <add>de ma <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>position, presentay</add> plusieurs vers latins, et deux mil vers grecs <subst>
+                    <del>de ma facon</del>
+                    <add>faicts</add>
+                </subst> selon l<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>eage<subst xml:id="f18vop3_point_virgule">
+                    <del rend="overwritten">.</del>
+                    <add place="superimposed">,</add>
+                </subst>
+                <metamark function="insert" target="#f18vop3_et_lautre #f18vop3_qui_lres"
+                    xml:id="f18vop3_metamark_1">≠</metamark>
+                <add seq="2" xml:id="f18vop3_et_lautre"><metamark xml:id="f18vop3_metamark_2"
+                        >≠</metamark> et recitay <persName
+                        ref="https://isni.org/isni/000000036354151X">Homere</persName> par cueur d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un bout <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>autre.</add>
+                <substJoin target="#f18vop3_point_virgule #f18vop3_metamark_1 #f18vop3_qui_lres"/>
+                <substJoin target="#f18vop3_metamark_3_del #f18vop3_metamark_2 #f18vop3_et_lautre"/></s>
+                <s><add seq="1" xml:id="f18vop3_qui_lres"><del xml:id="f18vop3_metamark_3_del"
+                            ><metamark xml:id="f18rop3_metamark_3">≠</metamark></del>
+                    <choice>
+                        <orig>q</orig>
+                        <reg>Q</reg>
+                    </choice>ui fut cause que <subst>
+                        <del>depuys <unclear cert="low" reason="deleted">ce</unclear></del>
+                        <del><add>d<choice>
+                                    <orig>e</orig>
+                                    <reg>è</reg>
+                                </choice>s lors</add></del>
+                        <add>depuys cela <choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>estois</add>
+                    </subst>
+                    <del>me m</del><subst>
+                        <del seq="1"><choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e fus fort pri<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>é des</del>
+                        <del seq="2"><add seq="1">sou<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ant appellé et <choice>
+                                    <orig>i</orig>
+                                    <reg>j'</reg>
+                                </choice>eu acces et pri<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ée amitié se</add></del>
+                        <add seq="2">bien veu parm<subst>
+                                <del rend="overwritten">i</del>
+                                <add place="superimposed">y</add>
+                            </subst> les premiers homes <subst xml:id="f18vop3_de_du">
+                                <del>de ce</del>
+                                <add>du</add>
+                            </subst> temps <subst xml:id="f18vop3_la_et">
+                                <del>l<choice>
+                                        <orig>a</orig>
+                                        <reg>à</reg>
+                                    </choice> o<choice>
+                                        <orig>u</orig>
+                                        <reg>ù</reg>
+                                    </choice></del>
+                                <add>et</add>
+                            </subst></add>
+                    </subst> mon precepteur me menoit <subst>
+                        <del>sou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ent</del>
+                        <add><choice>
+                                <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                                <expan>que</expan>
+                            </choice>lque fois</add>
+                    </subst>
+                    <subst>
+                        <del seq="1">qui estoient</del>
+                        <del seq="2"><add seq="1"><gap quantity="3" unit="char"
+                                    /><unclear>aussy</unclear> comme</add></del>
+                        <add seq="2">chez</add>
+                    </subst>
+                    <persName ref="https://isni.org/isni/000000012099141X"
+                            ><forename>Lazarius</forename>
+                        <surname>Baysius</surname></persName>, <persName
+                        ref="https://isni.org/isni/0000000361526324"><surname>Tussanus</surname>
+                    </persName><supplied>,</supplied><persName
+                        ref="https://isni.org/isni/0000000358280028"
+                        ><surname>Strazelius</surname></persName>
+                    <del><unclear cert="low" reason="deleted">et</unclear></del>
+                    <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice><persName
+                        ref="https://isni.org/isni/000000012364005X">Castellanus</persName> et
+                        <persName ref="https://isni.org/isni/0000000121201969"
+                            ><surname>Danesius</surname></persName><choice>
+                        <orig>.</orig>
+                        <reg>,</reg>
+                    </choice>
+                    <subst>
+                        <del><del><gap quantity="2" reason="deleted" unit="word"/></del> nous
+                            estions</del>
+                        <add>avec honneur, et progrez e<subst>
+                                <del rend="overwritten">n</del>
+                                <add place="superimposed">z</add>
+                            </subst><choice>
+                                <abbr><hi rend="overlined">lres</hi></abbr>
+                                <expan>lettres</expan>
+                            </choice></add>
+                    </subst><supplied>.</supplied>
+                </add>
+                <substJoin target="#f18vop3_de_du #f18vop3_la_et"/>
+                </s>
+            </p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                    <orig>a</orig>
+                    <reg>À</reg>
+                </choice>
+                <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst>
+                    <del>a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec</del>
+                    <add>en</add>
+                </subst> <del xml:id="f18vop6_la">la</del> plus <add>estroite vie et</add> penible<add
+                    xml:id="f18vop6_s1">s</add> estude<add xml:id="f18vop6_s2">s</add>
+                <substJoin target="#f18vop6_la #f18vop6_s1 #f18vop6_s2"/>
+                que <subst>
+                    <del>d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>autres</del>
+                    <add xml:id="f18vop6_ceulx_maintenant">ceulx de mainten<choice>
+                            <abbr rend="overlined">ã</abbr>
+                            <expan>an</expan>
+                        </choice>t</add>
+                </subst> ne voudroient <subst>
+                    <del seq="1">f<choice>
+                            <abbr>e<hi rend="superscript">r</hi></abbr>
+                            <expan>aire</expan>
+                        </choice>
+                    </del>
+                    <del seq="2"><add seq="1">practiquer</add></del>
+                    <add seq="2">suporter</add>
+                </subst><del xml:id="f18vop6_auiourduy">au<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ourduy</del>. <substJoin
+                    target="#f18vop6_ceulx_maintenant #f18vop6_aujourduy"/></s></p>
+        </body>
+    </text>
+</TEI>

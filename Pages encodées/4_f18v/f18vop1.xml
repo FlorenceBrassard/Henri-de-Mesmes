@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s>Je trou<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>e que <subst>
+               <del>les</del>
+               <add>ces</add>
+            </subst> xviii <del>ou xx</del> mois du college me f<subst xml:id="f18vop1_u_i">
+               <del rend="overwritten">u</del>
+               <add place="superimposed">i</add>
+            </subst>rent <subst xml:id="f18vop1_a_bien">
+               <del><choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> propos</del>
+               <add>assez de bien</add>
+            </subst>.
+            <substJoin target="#f18vop1_u_i #f18vop1_a_bien"/></s></p>
+      </body>
+   </text>
+</TEI>
