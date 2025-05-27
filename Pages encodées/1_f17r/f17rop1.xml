@@ -24,7 +24,7 @@
    </facsimile>
    <text>
       <body>
-         <p><choice>
+         <p><s><choice>
                <orig>V</orig>
                <reg>U</reg>
             </choice>n temps fut que les <del xml:id="honestes">honestes</del> homes <metamark
@@ -84,8 +84,7 @@
                substitution provoque une forme de neutralisation axiologique des textes envisagés
                (un constat vs un éloge). La troisième, comme la première, efface la prédominance de
                la qualité morale (honnêteté, vertu) au profit d’une mise en valeur plus abstraite
-               (« belles » : satisfaisantes, admirables).</note></p>
-         <p/>
+               (« belles » : satisfaisantes, admirables).</note></s></p>
       </body>
    </text>
 </TEI>
