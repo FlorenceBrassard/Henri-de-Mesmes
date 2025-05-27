@@ -26,12 +26,12 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit nom <persName ref="https://isni.org/isni/0000000000812616"><choice>
-                            <abbr><forename full="init"><choice>
+                            <abbr><forename><choice>
                                         <orig>I. I.</orig>
                                         <reg>J. J.</reg>
                                     </choice></forename>
-                                <nameLink full="init">d.</nameLink>
-                                <surname full="init">M.</surname></abbr>
+                                <nameLink>d.</nameLink>
+                                <surname>M.</surname></abbr>
                             <expan><forename>Jean-Jacques</forename>
                                 <nameLink>de</nameLink>
                                 <surname>Mesmes</surname></expan>

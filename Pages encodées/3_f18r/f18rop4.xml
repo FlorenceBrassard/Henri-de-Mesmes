@@ -42,10 +42,11 @@
                         <abbr>m<hi>e</hi></abbr>
                         <expan>maître</expan>
                     </choice></del>
-                <persName><choice>
-                        <abbr><forename full="init">J.</forename></abbr>
-                        <expan><forename>Jean</forename></expan>
-                    </choice><surname>Mal<subst>
+                    <persName><forename><choice>
+                        <abbr>J.</abbr>
+                        <expan>Jean</expan>
+                        </choice></forename>
+                        <surname>Mal<subst>
                             <del rend="unmarked">edent</del>
                             <add>udan</add>
                         </subst></surname></persName>

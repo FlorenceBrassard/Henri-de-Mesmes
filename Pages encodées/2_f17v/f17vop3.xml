@@ -47,11 +47,11 @@
                                 ref="https://isni.org/isni/0000000081661660"
                                     ><forename>Philippus</forename>
                                 <surname>Decius</surname></persName> et d'<persName
-                                ref="https://isni.org/isni/0000000122798373"><forename full="abb"><choice>
+                                ref="https://isni.org/isni/0000000122798373"><forename><choice>
                                         <abbr>Andr.</abbr>
                                         <expan>Andreas</expan>
                                     </choice></forename>
-                                <surname full="abb">Alciat<choice>
+                                <surname>Alciat<choice>
                                         <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
                                         <expan>us</expan>
                                     </choice></surname></persName>

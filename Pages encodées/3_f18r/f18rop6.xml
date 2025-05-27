@@ -24,7 +24,7 @@
          <p><s>A<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ec luy et mon frere puisné <persName><forename full="init"><choice>
+            </choice>ec luy et mon frere puisné <persName><forename><choice>
                      <abbr><choice>
                            <orig>I. I.</orig>
                            <reg>J. J.</reg>
@@ -32,7 +32,7 @@
                <expan>Jean-Jacques</expan>
                   </choice></forename>
                   <add><surname>de Mesmes</surname></add></persName>
-<choice>
+             <choice>
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu mis au college de <placeName><choice>
