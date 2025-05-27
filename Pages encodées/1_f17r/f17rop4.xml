@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p>Je n<choice>
+            <p><s>Je n<choice>
                     <orig/>
                     <reg>'</reg>
                 </choice>ay donc pas intention de croniquer mes gestes, <subst>
@@ -91,7 +91,7 @@
                     quotidien. Le terme « mémorable » est deux fois esquissé dans l’ajout, deux fois
                     raturé. Il est finalement remplacé par la formule « dignes de grande histoire »
                     [à creuser]. Le tout rejoue l’opposition noblesse de robe/noblesse d’épée
-                    établie plus haut.</note></p>
+                    établie plus haut.</note></s></p>
         </body>
     </text>
 </TEI>
