@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><subst>
+            <p><s><subst>
                     <del seq="1">et</del>
                     <del seq="2"><add seq="1">Mais</add></del>
                     <add seq="2">Puys</add>
@@ -126,7 +126,7 @@
                 </subst> il estoit requis pour m<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>enseigner.</p>
+                </choice>enseigner.</s></p>
             <p/>
         </body>
     </text>

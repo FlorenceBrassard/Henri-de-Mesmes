@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>A<choice>
+         <p><s>A<choice>
                <orig>u</orig>
                <reg>v</reg>
             </choice>ec luy et mon frere puisné <persName><forename full="init"><choice>
@@ -47,7 +47,7 @@
                   <reg>'</reg>
                </choice>an <hi rend="overlined">1542</hi>
             <del>et</del>
-            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</p>
+            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</s></p>
       </body>
    </text>
 </TEI>

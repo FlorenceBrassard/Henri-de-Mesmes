@@ -21,94 +21,94 @@
     </teiHeader>
     <text>
         <body>
-            <p>Il <subst>
-                    <del>fut</del>
-                    <add seq="2">se rendit</add>
-                </subst>
-                <subst>
-                    <del>en ses</del>
-                    <add seq="1">dez <del>les</del></add>
-                            <add>ses</add>
-                  
-                </subst> premiers ans fort celebre <subst>
-                    <del>pour ses</del>
-                    <add>ez</add>
-                </subst>lectures <subst>
-                    <del>en</del>
-                    <add>du</add>
-                </subst> droict civil durant <del xml:id="xii_ou">xii ou</del> xv <metamark
-                    function="insert" target="#ou_xx" xml:id="metamark_3_1">^</metamark><add
-                    xml:id="ou_xx">ou xx</add><substJoin target="#xii_ou #metamark_3_1 #ou_xx"/>
-                ans, <subst>
-                    <del>et</del>
-                    <add>collegue <metamark function="insert" target="et_compaignon"
-                            xml:id="metamark_3_2">^</metamark><add xml:id="et_compaignon"
-                                ><metamark>^</metamark>et compaignon</add> de <persName
-                            ref="https://isni.org/isni/0000000081661660"
-                                ><forename>Philippus</forename>
-                            <surname>Decius</surname></persName> et d'<persName
-                            ref="https://isni.org/isni/0000000122798373"><forename full="abb"><choice>
-                                    <abbr>Andr.</abbr>
-                                    <expan>Andreas</expan>
-                                </choice></forename>
-                            <surname full="abb">Alciat<choice>
-                                    <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
-                                    <expan>us</expan>
-                                </choice></surname></persName>
-                        <choice>
-                            <abbr>desquls></abbr>
-                            <expan>desquels</expan>
-                        </choice><choice>
-                            <orig>i</orig>
-                            <reg>j'</reg>
-                        </choice>ay veu maint tesmoignage de l'honeur qu<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>ilz luy <subst>
-                            <del>rendoient</del>
-                            <add>faisoient</add>
-                        </subst></add>
-                </subst><add>mais au lieu d<subst xml:id="a_de">
-                        <del rend="overwritten"><choice>
+            <p><s>Il <subst>
+                        <del>fut</del>
+                        <add seq="2">se rendit</add>
+                    </subst>
+                    <subst>
+                        <del>en ses</del>
+                        <add seq="1">dez <del>les</del></add>
+                        <add>ses</add>
+
+                    </subst> premiers ans fort celebre <subst>
+                        <del>pour ses</del>
+                        <add>ez</add>
+                    </subst>lectures <subst>
+                        <del>en</del>
+                        <add>du</add>
+                    </subst> droict civil durant <del xml:id="xii_ou">xii ou</del> xv <metamark
+                        function="insert" target="#ou_xx" xml:id="metamark_3_1">^</metamark><add
+                        xml:id="ou_xx">ou xx</add><substJoin target="#xii_ou #metamark_3_1 #ou_xx"/>
+                    ans, <subst>
+                        <del>et</del>
+                        <add>collegue <metamark function="insert" target="et_compaignon"
+                                xml:id="metamark_3_2">^</metamark><add xml:id="et_compaignon"
+                                    ><metamark>^</metamark>et compaignon</add> de <persName
+                                ref="https://isni.org/isni/0000000081661660"
+                                    ><forename>Philippus</forename>
+                                <surname>Decius</surname></persName> et d'<persName
+                                ref="https://isni.org/isni/0000000122798373"><forename full="abb"><choice>
+                                        <abbr>Andr.</abbr>
+                                        <expan>Andreas</expan>
+                                    </choice></forename>
+                                <surname full="abb">Alciat<choice>
+                                        <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
+                                        <expan>us</expan>
+                                    </choice></surname></persName>
+                            <choice>
+                                <abbr>desquls></abbr>
+                                <expan>desquels</expan>
+                            </choice><choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>ay veu maint tesmoignage de l'honeur qu<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>a</del>
-                        <add place="superimposed">e</add>
-                    </subst><subst xml:id="chever_continuer">
-                        <del>chever</del>
-                        <add><choice>
-                                <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                                <expan>con</expan>
-                            </choice>tinuer</add>
-                    </subst><substJoin target="#a_de #chever_continuer"/> ceste <choice>
-                        <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
-                        <expan>pro</expan>
-                    </choice>fession <del>et se perpetuer par ses escrits il</del></add> fut requis
-                par la <persName ref="https://isni.org/isni/0000000054625242"
-                        ><roleName>Reyne</roleName>
-                    <forename>Caterine</forename>
-                    <nameLink>de</nameLink>
-                    <surname>Navarre</surname></persName> de venir en <placeName><choice>
-                        <orig>f</orig>
-                        <reg>F</reg>
-                    </choice>rance</placeName> pour assister ses <del>grands</del> actes <subst>
-                    <add>et acompaigner</add>
-                    <del>avec</del>
-                </subst>le <persName ref="https://isni.org/isni/0000000122791446"
-                        ><roleName>Roy</roleName>
-                    <forename>Henry</forename>
-                    <nameLink>de</nameLink>
-                    <surname>Navarre</surname></persName> son filz. <choice>
-                    <orig>q</orig>
-                    <reg>Q</reg>
-                </choice>ui <add>luy</add> fut <del>le</del>
-                <choice>
-                    <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                    <expan>com</expan>
-                </choice>mancement d<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>une autre forme de vie. </p>
+                            </choice>ilz luy <subst>
+                                <del>rendoient</del>
+                                <add>faisoient</add>
+                            </subst></add>
+                    </subst><add>mais au lieu d<subst xml:id="a_de">
+                            <del rend="overwritten"><choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>a</del>
+                            <add place="superimposed">e</add>
+                        </subst><subst xml:id="chever_continuer">
+                            <del>chever</del>
+                            <add><choice>
+                                    <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                                    <expan>con</expan>
+                                </choice>tinuer</add>
+                        </subst><substJoin target="#a_de #chever_continuer"/> ceste <choice>
+                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                            <expan>pro</expan>
+                        </choice>fession <del>et se perpetuer par ses escrits il</del></add> fut
+                    requis par la <persName ref="https://isni.org/isni/0000000054625242"
+                            ><roleName>Reyne</roleName>
+                        <forename>Caterine</forename>
+                        <nameLink>de</nameLink>
+                        <surname>Navarre</surname></persName> de venir en <placeName><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rance</placeName> pour assister ses <del>grands</del> actes <subst>
+                        <add>et acompaigner</add>
+                        <del>avec</del>
+                    </subst>le <persName ref="https://isni.org/isni/0000000122791446"
+                            ><roleName>Roy</roleName>
+                        <forename>Henry</forename>
+                        <nameLink>de</nameLink>
+                        <surname>Navarre</surname></persName> son filz. <choice>
+                        <orig>q</orig>
+                        <reg>Q</reg>
+                    </choice>ui <add>luy</add> fut <del>le</del>
+                    <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>mancement d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>une autre forme de vie.</s></p>
         </body>
     </text>
 </TEI>

@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><subst xml:id="aiant_il">
+            <p><s><subst xml:id="aiant_il">
                     <del>or aiant</del>
                     <add xml:id="icy_il">icy il</add>
                 </subst>espous<subst xml:id="é_a">
@@ -83,7 +83,7 @@
                 </choice>il sca<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>oit bien faire et bien dire.</p>
+                </choice>oit bien faire et bien dire.</s></p>
         </body>
     </text>
 </TEI>

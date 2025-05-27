@@ -58,8 +58,7 @@
                     <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                     <expan>que</expan>
                 </choice><del xml:id="f18vop5_s_1">s</del> bien<del xml:id="f18vop5_s_2">s</del>.
-                    <substJoin target="#f18vop5_s_1 #f18vop5_s_2"/></s>
-            </p>
+                    <substJoin target="#f18vop5_s_1 #f18vop5_s_2"/></s></p>
         </body>
     </text>
 </TEI>

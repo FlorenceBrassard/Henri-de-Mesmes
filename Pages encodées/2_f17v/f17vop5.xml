@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><add><subst>
+         <p><s><add><subst>
                <del>toutesfois</del>
                <add>Mais</add>
             </subst> sa mort <subst>
@@ -86,7 +86,7 @@
                   </choice>anvier <hi rend="trait_suscrit">1531</hi> <choice>
                      <orig>a</orig>
                      <reg>à</reg>
-                  </choice> trois heures du matin.</del></p>
+                  </choice> trois heures du matin.</del></s></p>
       </body>
    </text>
 </TEI>

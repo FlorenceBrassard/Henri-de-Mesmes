@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><del>et</del>
+            <p><s><del>et</del>
                 <choice>
                     <orig>m</orig>
                     <reg>M</reg>
@@ -78,7 +78,7 @@
                                    <orig>a</orig>
                                    <reg>à</reg>
                                 </choice></del></add>
-                </subst><del>quelque petit nombre</del>. </p>
+                </subst><del>quelque petit nombre</del>.</s></p>
         </body>
     </text>
 </TEI>

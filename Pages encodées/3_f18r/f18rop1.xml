@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><choice>
+         <p><s><choice>
                <orig>I</orig>
                <reg>J</reg>
             </choice>e nacquis <del>donc</del>
@@ -41,12 +41,12 @@
             </choice>an<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ier <hi rend="overlined">153<subst xml:id="1531">
+            </choice>ier <hi rend="overlined">153<subst xml:id="date_1531">
                   <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
                   <del rend="overwritten">2</del>
                   <add place="superimposed" seq="2">1</add>
                </subst></hi>
-            <del xml:id="qui_maintenant"><add seq="1">qui est 33 selon la reduction qu<substJoin target="#1531 #qui_maintenant"/><choice>
+            <del xml:id="qui_maintenant"><add seq="1">qui est 33 selon la reduction qu<substJoin target="#date_1531 #qui_maintenant"/><choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>on tient maintenant</add></del>
@@ -86,7 +86,7 @@
                      <abbr>prst</abbr>
                      <expan>present</expan>
                   </choice></hi>.<substJoin target="#mode_compte #e_la #lle"/></add>
-         </p>
+               </s></p>
       </body>
    </text>
 </TEI>
