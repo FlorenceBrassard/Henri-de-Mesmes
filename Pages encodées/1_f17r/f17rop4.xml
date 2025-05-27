@@ -35,7 +35,7 @@
                                 <del>memo</del>
                                 <add>grandement mem</add>
                             </subst></add></del>
-                    <add xml:id="ny_histoire">ny ma <choice>
+                    <add xml:id="f17rop4_ny_histoire">ny ma <choice>
                             <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                             <expan>pro</expan>
                         </choice>fession les a <subst>
@@ -67,7 +67,7 @@
                     <orig/>
                     <reg>'</reg>
                 </choice>a faictes, et <subst>
-                    <del seq="1" xml:id="sente"><undo rend="underlined" target="#sente"/><del
+                    <del seq="1" xml:id="f17rop4_sente"><undo rend="underlined" target="#f17rop4_sente"/><del
                             rend="unmarked" seq="3">sente</del></del>
                     <del seq="2"><add>re<choice>
                                 <orig>c</orig>

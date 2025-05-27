@@ -27,44 +27,44 @@
          <p><s><choice>
                   <orig>V</orig>
                   <reg>U</reg>
-               </choice>n temps fut que les <del xml:id="honestes">honestes</del> homes <metamark
-                  function="insert" target="#de_valeur" xml:id="metamark_1">^</metamark>
-               <add xml:id="de_valeur"><metamark>^</metamark>de valeur</add>
-               <substJoin target="#honestes #metamark_1 #de_valeur"/> escri<choice>
+               </choice>n temps fut que les <del xml:id="f17rop1_honestes">honestes</del> homes <metamark
+                  function="insert" target="#f17rop1_de_valeur" xml:id="f17rop1_metamark_1">^</metamark>
+               <add xml:id="f17rop1_de_valeur"><metamark>^</metamark>de valeur</add>
+               <substJoin target="#f17rop1_honestes #f17rop1_metamark_1 #f17rop1_de_valeur"/> escri<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oient volontiers <subst xml:id="la_leurs">
+               </choice>oient volontiers <subst xml:id="f17rop1_la_leurs">
                   <del>la</del>
                   <add>leurs</add>
-               </subst> vie<add xml:id="s_1">s</add>
-               <metamark function="insert" target="#ou" xml:id="metamark_2">^</metamark><add
-                  xml:id="ou">ou</add> de ceulx<note resp="AV" type="critique">ou celle de
+               </subst> vie<add xml:id="f17rop1_s_1">s</add>
+               <metamark function="insert" target="#f17rop1_ou" xml:id="f17rop1_metamark_2">^</metamark><add
+                  xml:id="f17rop1_ou">ou</add> de ceulx<note resp="AV" type="critique">ou celle de
                   ceux</note> qu<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>ilz a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oient aimez : <del xml:id="et_propre">et aucuns ont composé la leur propre
-                  </del> <del rend="unmarked" xml:id="deux_points">:</del>
-               <substJoin target="#la_leurs #s_1 #ou #metamark_2 #et_propre #deux_points"/>
-                  c'estoi<del xml:id="en">en</del>
-               <subst xml:id="t_ent">
+               </choice>oient aimez : <del xml:id="f17rop1_et_propre">et aucuns ont composé la leur propre
+               </del> <del rend="unmarked" xml:id="f17rop1_deux_points">:</del>
+               <substJoin target="#f17rop1_la_leurs #f17rop1_s_1 #f17rop1_ou #f17rop1_metamark_2 #f17rop1_et_propre #f17rop1_deux_points"/>
+               c'estoi<del xml:id="f17rop1_en">en</del>
+               <subst xml:id="f17rop1_t_ent">
                   <del rend="unmarked">t</del>
                   <add>ent</add>
-               </subst> au moins quelque<del xml:id="s_2">s</del>
-               <add xml:id="s_3">s</add>
+               </subst> au moins quelque<del xml:id="f17rop1_s_2">s</del>
+               <add xml:id="f17rop1_s_3">s</add>
                <subst xml:id="louanges_remerque">
                   <del>louanges</del>
                   <add>remerque</add>
-               </subst><add xml:id="s_4">s</add> de <del xml:id="s_5">s</del>
-               <add xml:id="s_6">s</add>
-               <subst xml:id="vertueuses_belles">
+               </subst><add xml:id="f17rop1_s_4">s</add> de <del xml:id="f17rop1_s_5">s</del>
+               <add xml:id="f17rop1_s_6">s</add>
+               <subst xml:id="f17rop1_vertueuses_belles">
                   <del>vertueuses</del>
                   <add>belles</add>
                </subst>
-               <substJoin seq="1" target="#en #s_2 #s_5 #louanges_remerque #vertueuses_belles"/>
-               <substJoin seq="2" target="#t_ent #s_3 #s_4 #s_6"/> actions : et apres eulx,
+               <substJoin seq="1" target="#f17rop1_en #f17rop1_s_2 #f17rop1_s_5 #f17rop1_louanges_remerque #f17rop1_vertueuses_belles"/>
+               <substJoin seq="2" target="#f17rop1_t_ent #f17rop1_s_3 #f17rop1_s_4 #f17rop1_s_6"/> actions : et apres eulx,
                enseignemens pour bien faire.<note resp="AV" type="génétique">La V1 dissocie la
                   rédaction d’une biographie (ou d’une vie, au sens ancien du terme) et l’écriture
                   de soi (« la leur propre »). La première pratique est motivée par un lien affectif

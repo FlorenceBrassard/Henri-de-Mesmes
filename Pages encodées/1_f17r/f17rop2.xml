@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><del xml:id="en_france"><add>en <placeName><choice>
+            <p><s><del xml:id="f17rop2_en_france"><add>en <placeName><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>rance</placeName></add></del>
@@ -39,54 +39,54 @@
                             <orig>R</orig>
                             <reg>r</reg>
                         </choice>oyaume, mesmement en robe longue, se puissent guiere
-                        <add>s'</add>eslever</del><del xml:id="et_guiere"><add>et ceulx qui ont les
+                        <add>s'</add>eslever</del><del xml:id="f17rop2_et_guiere"><add>et ceulx qui ont les
                             armes en <placeName><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>rance</placeName>, n'escrivent guiere></add></del><add
-                        xml:id="en_guieres">En <placeName><choice>
+                                    xml:id="f17rop2_en_guieres">En <placeName><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rance</placeName> ceulx qui <subst>
                             <del>manient</del>
                             <add>ont</add>
-                        </subst> les armes, <del xml:id="mesprisent_guieres">mesprisent presque
+                            </subst> les armes, <del xml:id="f17rop2_mesprisent_guieres">mesprisent presque
                             touts les letres, et n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>escrivent guieres.</del></add>
-                    <add xml:id="nusent_chapeaus">n<choice>
+                    <add xml:id="f17rop2_nusent_chapeaus">n<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>usent guiere de <gap quantity="1" unit="char"/> plumes qu'<choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice>leurs chapeaus</add>
-                    <substJoin seq="1" target="#en_france #et_guiere #en_guieres"/>
-                    <substJoin seq="2" target="#mesprisent_guieres #nusent_chapeaus"/>
-                    <addSpan spanTo="#recõmander"/>et <subst>
+                    <substJoin seq="1" target="#f17rop2_en_france #f17rop2_et_guiere #f17rop2_en_guieres"/>
+                    <substJoin seq="2" target="#f17rop2_mesprisent_guieres #f17rop2_nusent_chapeaus"/>
+                    <addSpan spanTo="#f17rop2_recõmander"/>et <subst>
                         <del><choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e ne voy pas come les gens de robe longue</del>
                         <add>
-                            <subst xml:id="ceulx_les">
+                            <subst xml:id="f17rop2_ceulx_les">
                                 <del>ceulx de</del>
                                 <add>les</add>
-                            </subst> robe<add xml:id="s_1">s</add> longue<add xml:id="s_2"
+                            </subst> robe<add xml:id="f17rop2_s_1">s</add> longue<add xml:id="f17rop2_s_2"
                             >s</add></add>
                     </subst>
-                    <substJoin target="#ceulx_les #s_1 #s_2"/> n<choice>
+                    <substJoin target="#f17rop2_ceulx_les #f17rop2_s_1 #f17rop2_s_2"/> n<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>ont pas moien <subst xml:id="recomander_recommander">
+                    </choice>ont pas moien <subst xml:id="f17rop2_recomander_recommander">
                         <del>de se recõmander</del>
-                        <anchor xml:id="recõmander"/>
+                        <anchor xml:id="f17rop2_recõmander"/>
                         <add>de se recommander</add>
-                    </subst> par faicts <subst xml:id="memorables">
+                    </subst> par faicts <subst xml:id="f17rop2_memorables">
                         <del>recommandables</del>
                         <add>memorables</add>
-                    </subst>. <substJoin target=" #recomander_recommander #memorables"/></s></p>
+                    </subst>. <substJoin target=" #f17rop2_recomander_recommander #f17rop2_memorables"/></s></p>
         </body>
     </text>
 </TEI>

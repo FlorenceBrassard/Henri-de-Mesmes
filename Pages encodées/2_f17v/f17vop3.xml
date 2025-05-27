@@ -36,13 +36,13 @@
                     </subst>lectures <subst>
                         <del>en</del>
                         <add>du</add>
-                    </subst> droict civil durant <del xml:id="xii_ou">xii ou</del> xv <metamark
-                        function="insert" target="#ou_xx" xml:id="metamark_3_1">^</metamark><add
-                        xml:id="ou_xx">ou xx</add><substJoin target="#xii_ou #metamark_3_1 #ou_xx"/>
+                    </subst> droict civil durant <del xml:id="f17vop3_xii_ou">xii ou</del> xv <metamark
+                        function="insert" target="#f17vop3_ou_xx" xml:id="f17vop3_metamark_3_1">^</metamark><add
+                            xml:id="f17vop3_ou_xx">ou xx</add><substJoin target="#f17vop3_xii_ou #f17vop3_metamark_3_1 #f17vop3_ou_xx"/>
                     ans, <subst>
                         <del>et</del>
-                        <add>collegue <metamark function="insert" target="et_compaignon"
-                                xml:id="metamark_3_2">^</metamark><add xml:id="et_compaignon"
+                        <add>collegue <metamark function="insert" target="f17vop3_et_compaignon"
+                                xml:id="f17vop3_metamark_3_2">^</metamark><add xml:id="f17vop3_et_compaignon"
                                     ><metamark>^</metamark>et compaignon</add> de <persName
                                 ref="https://isni.org/isni/0000000081661660"
                                     ><forename>Philippus</forename>
@@ -68,19 +68,19 @@
                                 <del>rendoient</del>
                                 <add>faisoient</add>
                             </subst></add>
-                    </subst><add>mais au lieu d<subst xml:id="a_de">
+                    </subst><add>mais au lieu d<subst xml:id="f17vop3_a_de">
                             <del rend="overwritten"><choice>
                                     <orig/>
                                     <reg>'</reg>
                                 </choice>a</del>
                             <add place="superimposed">e</add>
-                        </subst><subst xml:id="chever_continuer">
+                    </subst><subst xml:id="f17vop3_chever_continuer">
                             <del>chever</del>
                             <add><choice>
                                     <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                                     <expan>con</expan>
                                 </choice>tinuer</add>
-                        </subst><substJoin target="#a_de #chever_continuer"/> ceste <choice>
+                    </subst><substJoin target="#f17vop3_a_de #f17vop3_chever_continuer"/> ceste <choice>
                             <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                             <expan>pro</expan>
                         </choice>fession <del>et se perpetuer par ses escrits il</del></add> fut

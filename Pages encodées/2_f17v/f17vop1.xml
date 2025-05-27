@@ -22,7 +22,7 @@
    <text>
       <body>
          <p><s>Mon pere <subst>
-                  <del>ainsy né, <del xml:id="dun_Mammes2"><add xml:id="dun_Mammes1">d<choice>
+                  <del>ainsy né, <del xml:id="f17vop1_dun_Mammes_2"><add xml:id="f17vop1_dun_Mammes_1">d<choice>
                               <orig/>
                               <reg>'</reg>
                            </choice>un gentilhome de ceste maison de
@@ -30,12 +30,12 @@
                         <orig/>
                         <reg>'</reg>
                      </choice>une damoyselle qui estoit de <surname>Canna</surname>, <subst>
-                        <del xml:id="maison1">maison</del>
-                        <del xml:id="bone_famille2"><add xml:id="bone_famille1">bone
+                        <del xml:id="f17vop1_maison_1">maison</del>
+                        <del xml:id="f17vop1_bone_famille_2"><add xml:id="f17vop1_bone_famille1">bone
                            famille</add></del>
-                        <add xml:id="maison2">maison</add>
-                     </subst><substJoin seq="1" target=" #dun_Mammes1 #maison1 #bone_famille1"
-                        /><substJoin seq="2" target=" #dun_Mammes2 #bone_famille2 #maison2"/> cognue
+                        <add xml:id="f17vop1_maison_2">maison</add>
+                     </subst><substJoin seq="1" target=" #f17vop1_dun_Mammes_1 #f17vop1_maison_1 #f17vop1_bone_famille_1"
+                     /><substJoin seq="2" target=" #f17vop1_dun_Mammes_2 #f17vop1_bone_famille_2 #f17vop1_maison_2"/> cognue
                      en <placeName><choice>
                            <orig>g</orig>
                            <reg>G</reg>
@@ -48,8 +48,8 @@
                      </choice> sept mois et fort <subst>
                         <del>delicat</del>
                         <add>delié</add>
-                     </subst> en <metamark function="insertion" target="sa">^</metamark><add
-                        xml:id="sa">sa</add>
+                     </subst> en <metamark function="insertion" target="f17vop1_sa">^</metamark><add
+                        xml:id="f17vop1_sa">sa</add>
                      <choice>
                         <orig>i</orig>
                         <reg>j</reg>
