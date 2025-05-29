@@ -20,47 +20,47 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="f17ro.jpg"/>
-            <zone xml:id="i_metamark_6_1" points="994,1886 992,1920 1028,1922 1026,1886"/>
-            <zone xml:id="i_issu_descosse" points="1006,1828 988,1870 1224,1850 1218,1808"/>
-            <zone xml:id="i_extraict" points="1348,1868 1344,1900 1518,1892 1512,1854"/>
-            <zone xml:id="i_mais_extraict" points="1332,1900 1326,1930 1572,1928 1568,1898"/>
-            <zone xml:id="i_descosse" points="1510,1856 1516,1904 1666,1902 1670,1840"/>
-            <zone xml:id="i_issu_toutefois" points="1310,1822 1308,1876 1564,1856 1586,1818"/>
-            <zone xml:id="i_metamark_6_2" points="350,1998 340,2054 384,2050 380,2004"/>
-            <zone xml:id="i_p_moien" points="362,1946 360,1994 568,1972 568,1934"/>
-            <zone xml:id="i_d_6_1" points="378,2034 414,2036 426,1968 390,1964"/>
-            <zone xml:id="i_nomme_berruich"
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/259,3640,3530,2070/full/0/default.jpg"/>
+            <zone xml:id="f17rop6_i_metamark_6_1" points="994,1886 992,1920 1028,1922 1026,1886"/>
+            <zone xml:id="f17rop6_i_issu_descosse" points="1006,1828 988,1870 1224,1850 1218,1808"/>
+            <zone xml:id="f17rop6_i_extraict" points="1348,1868 1344,1900 1518,1892 1512,1854"/>
+            <zone xml:id="f17rop6_i_mais_extraict" points="1332,1900 1326,1930 1572,1928 1568,1898"/>
+            <zone xml:id="f17rop6_i_descosse" points="1510,1856 1516,1904 1666,1902 1670,1840"/>
+            <zone xml:id="f17rop6_i_issu_toutefois" points="1310,1822 1308,1876 1564,1856 1586,1818"/>
+            <zone xml:id="f17rop6_i_metamark_6_2" points="350,1998 340,2054 384,2050 380,2004"/>
+            <zone xml:id="f17rop6_i_p_moien" points="362,1946 360,1994 568,1972 568,1934"/>
+            <zone xml:id="f17rop6_i_d_6_1" points="378,2034 414,2036 426,1968 390,1964"/>
+            <zone xml:id="f17rop6_i_nomme_berruich"
                 points="952,1912 964,2012 1112,2018 1118,1954 1164,1952 1162,1916"/>
-            <zone xml:id="i_qui_6_1" points="368,2064 364,2160 452,2114 466,2058"/>
-            <zone xml:id="i_Marsan_Guiene" points="1330,1980 1320,2074 1504,2070 1508,1984"/>
-            <zone xml:id="i_par_aux"
+            <zone xml:id="f17rop6_i_qui_6_1" points="368,2064 364,2160 452,2114 466,2058"/>
+            <zone xml:id="f17rop6_i_Marsan_Guiene" points="1330,1980 1320,2074 1504,2070 1508,1984"/>
+            <zone xml:id="f17rop6_i_par_aux"
                 points="446,2118 360,2170 348,2224 568,2208 592,2140 606,2114 610,2100"/>
-            <zone xml:id="i_y_6_1" points="1058,2116 1110,2102 1084,2174 1026,2152"/>
-            <zone xml:id="i_en_marsan" points="1214,2068 1192,2120 1440,2118 1434,2054"/>
-            <zone xml:id="i_une_la"
+            <zone xml:id="f17rop6_i_y_6_1" points="1058,2116 1110,2102 1084,2174 1026,2152"/>
+            <zone xml:id="f17rop6_i_en_marsan" points="1214,2068 1192,2120 1440,2118 1434,2054"/>
+            <zone xml:id="f17rop6_i_une_la"
                 points="1666,2180 1628,2188 1656,2216 1732,2214 1732,2180 1706,2172"/>
-            <zone xml:id="i_de_ancestres" points="1586,2208 1584,2230 1880,2244 1878,2214"/>
-            <zone xml:id="i_ce_berruich" points="386,2300 372,2356 982,2334 978,2282"/>
-            <zone xml:id="i_et_6_1" points="1408,2358 1404,2418 1458,2416 1462,2352"/>
-            <zone xml:id="i_et_6_2" lry="2528" lrx="382" uly="2478" ulx="332"/>
-            <zone xml:id="i_lors_6_1" lry="2490" lrx="1576" uly="2428" ulx="1472"/>
-            <zone xml:id="i_ou_6_1" points="1254,2596 1252,2638 1336,2612 1333,2590"/>
-            <zone xml:id="i_metamark_6_3" points="1212,2558 1210,2589 1261,2587 1254,2556"/>
-            <zone xml:id="i_a_escosse" points="135,2571 420,2596 420,2631 123,2665"/>
-            <zone xml:id="i_a_1567" points="128,2555 105,2798 290,2763 348,2651 423,2635 421,2593"/>
-            <zone xml:id="i_en_1567" points="130,2646 127,2776 309,2760 347,2638"/>
-            <zone xml:id="i_que_6_1" points="1262,2568 1243,2590 1340,2580 1336,2563"/>
-            <zone xml:id="i_dont_6_1" points="1278,2581 1278,2601 1339,2601 1338,2578"/>
-            <zone xml:id="i_ou_6_2" points="1273,2542 1329,2542 1324,2575 1275,2573"/>
-            <zone xml:id="i_les_6_1" points="322,2685 322,2747 355,2726 377,2718 377,2685"/>
-            <zone xml:id="i_metamark_6_4" points="359,2713 347,2749 370,2749 385,2711"/>
-            <zone xml:id="i_et_ville" points="385,2665 375,2701 568,2695 568,2647"/>
-            <zone xml:id="i_et_6_3" points="852,2672 852,2731 981,2711 983,2665"/>
-            <zone xml:id="i_et_armes" points="826,2642 813,2686 940,2675 940,2647"/>
-            <zone xml:id="i_en_6_1" points="947,2634 950,2675 1001,2672 1000,2637"/>
-            <zone xml:id="i_ce_6_1" points="1442,2663 1440,2713 1518,2700 1516,2663"/>
-            <zone xml:id="i_nom_armes" points="1640,2662 1622,2698 1868,2704 1868,2660"/>
+            <zone xml:id="f17rop6_i_de_ancestres" points="1586,2208 1584,2230 1880,2244 1878,2214"/>
+            <zone xml:id="f17rop6_i_ce_berruich" points="386,2300 372,2356 982,2334 978,2282"/>
+            <zone xml:id="f17rop6_i_et_6_1" points="1408,2358 1404,2418 1458,2416 1462,2352"/>
+            <zone xml:id="f17rop6_i_et_6_2" lry="2528" lrx="382" uly="2478" ulx="332"/>
+            <zone xml:id="f17rop6_i_lors_6_1" lry="2490" lrx="1576" uly="2428" ulx="1472"/>
+            <zone xml:id="f17rop6_i_ou_6_1" points="1254,2596 1252,2638 1336,2612 1333,2590"/>
+            <zone xml:id="f17rop6_i_metamark_6_3" points="1212,2558 1210,2589 1261,2587 1254,2556"/>
+            <zone xml:id="f17rop6_i_a_escosse" points="135,2571 420,2596 420,2631 123,2665"/>
+            <zone xml:id="f17rop6_i_a_1567" points="128,2555 105,2798 290,2763 348,2651 423,2635 421,2593"/>
+            <zone xml:id="f17rop6_i_en_1567" points="130,2646 127,2776 309,2760 347,2638"/>
+            <zone xml:id="f17rop6_i_que_6_1" points="1262,2568 1243,2590 1340,2580 1336,2563"/>
+            <zone xml:id="f17rop6_i_dont_6_1" points="1278,2581 1278,2601 1339,2601 1338,2578"/>
+            <zone xml:id="f17rop6_i_ou_6_2" points="1273,2542 1329,2542 1324,2575 1275,2573"/>
+            <zone xml:id="f17rop6_i_les_6_1" points="322,2685 322,2747 355,2726 377,2718 377,2685"/>
+            <zone xml:id="f17rop6_i_metamark_6_4" points="359,2713 347,2749 370,2749 385,2711"/>
+            <zone xml:id="f17rop6_i_et_ville" points="385,2665 375,2701 568,2695 568,2647"/>
+            <zone xml:id="f17rop6_i_et_6_3" points="852,2672 852,2731 981,2711 983,2665"/>
+            <zone xml:id="f17rop6_i_et_armes" points="826,2642 813,2686 940,2675 940,2647"/>
+            <zone xml:id="f17rop6_i_en_6_1" points="947,2634 950,2675 1001,2672 1000,2637"/>
+            <zone xml:id="f17rop6_i_ce_6_1" points="1442,2663 1440,2713 1518,2700 1516,2663"/>
+            <zone xml:id="f17rop6_i_nom_armes" points="1640,2662 1622,2698 1868,2704 1868,2660"/>
         </surface>
     </facsimile>
     <text>
@@ -73,15 +73,15 @@
                                     <orig>I. I.</orig>
                                     <reg>J. J.</reg>
                                 </choice></forename>
-                            <nameLink full="init">d.</nameLink>
+                            <nameLink>d.</nameLink>
                             <surname full="init">M.</surname></abbr>
                         <expan><forename>Jean-Jacques</forename>
                             <nameLink>de</nameLink>
                             <surname>Mesmes</surname></expan>
                     </choice></persName>
-                <metamark facs="#i_metamark_6_1" function="insert" target="#issu_descosse"
-                    xml:id="metamark_1">^</metamark><add facs="#i_issu_descosse"
-                    xml:id="issu_descosse"><metamark>^</metamark>issu d<choice>
+                <metamark facs="#f17rop6_i_metamark_6_1" function="insert" target="#f17rop6_issu_descosse"
+                    xml:id="f17rop6_metamark_1">^</metamark><add facs="#f17rop6_i_issu_descosse"
+                    xml:id="f17rop6_issu_descosse"><metamark>^</metamark>issu d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice><placeName><choice>
@@ -94,33 +94,33 @@
                     <orig>,</orig>
                     <reg>.</reg>
                 </choice>
-                <del facs="#i_extraict" xml:id="extraict">extraict</del>
-                <del facs="#i_mais_extraict" rend="unmarked" xml:id="mais_extraict2"><del><undo
-                            rend="underlined" target="#mais_extraict1"/><add xml:id="mais_extraict1"
+                <del facs="#f17rop6_i_extraict" xml:id="f17rop6_extraict">extraict</del>
+                <del facs="#f17rop6_i_mais_extraict" rend="unmarked" xml:id="f17rop6_mais_extraict2"><del><undo
+                            rend="underlined" target="#f17rop6_mais_extraict1"/><add xml:id="f17rop6_mais_extraict1"
                                 ><hi rend="underlined">mais e</hi>xtraict</add></del></del>
-                <del facs="#i_issu_toutefois" xml:id="issu_toutesfois2"><add
-                        xml:id="issu_toutefois1">issu toutesfois</add></del>
-                <del facs="#i_descosse" xml:id="descosse2"><add xml:id="descosse1">d<choice>
+                <del facs="#f17rop6_i_issu_toutefois" xml:id="f17rop6_issu_toutesfois2"><add
+                        xml:id="f17rop6_issu_toutefois1">issu toutesfois</add></del>
+                <del facs="#f17rop6_i_descosse" xml:id="f17rop6_descosse2"><add xml:id="f17rop6_descosse1">d<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice><placeName><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
                             </choice>scosse</placeName></add></del>
-                <substJoin seq="1" target="#extraict #mais_extraict1 #descosse1"/>
-                <substJoin seq="2" target="#issu_toutefois1 #p_moien"/>
-                <substJoin seq="3" target="#issu_descosse #issu_toutesfois2 #descosse2 #d #qui"/>
-                <delSpan rend="unmarked" spanTo="#metamark_p_moien"/><metamark
-                    facs="#i_metamark_6_2" function="insert" target="#p_moien" xml:id="metamark_2"
-                    >^</metamark><del><add facs="#i_p_moien" xml:id="p_moien"><metamark rend="^"
-                            >^</metamark><anchor xml:id="metamark_p_moien"/><choice>
-                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                <substJoin seq="1" target="#f17rop6_extraict #f17rop6_mais_extraict1 #f17rop6_descosse1"/>
+                <substJoin seq="2" target="#f17rop6_issu_toutefois1 #f17rop6_p_moien"/>
+                <substJoin seq="3" target="#f17rop6_issu_descosse #f17rop6_issu_toutesfois2 #f17rop6_descosse2 #f17rop6_d #f17rop6_qui"/>
+                <delSpan rend="unmarked" spanTo="#f17rop6_metamark_p_moien"/><metamark
+                    facs="#f17rop6_i_metamark_6_2" function="insert" target="#f17rop6_p_moien" xml:id="f17rop6_metamark_2"
+                    >^</metamark><del><add facs="#f17rop6_i_p_moien" xml:id="f17rop6_p_moien"><metamark rend="^"
+                            >^</metamark><anchor xml:id="f17rop6_metamark_p_moien"/><choice>
+                            <abbr><g ref="#f17rop6_par-glyph">ꝑ</g></abbr>
                             <expan>par</expan>
                         </choice> le mo<choice>
                             <orig>i</orig>
                             <reg>y</reg>
                         </choice>en</add></del>
-                <del facs="#i_d_6_1" xml:id="d">d<choice>
+                <del facs="#f17rop6_i_d_6_1" xml:id="f17rop6_d">d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice></del><choice>
@@ -129,7 +129,7 @@
                 </choice>n ancien che<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>alier escossois <subst facs="#i_nomme_berruich" xml:id="nommé_berruich">
+                </choice>alier escossois <subst facs="#f17rop6_i_nomme_berruich" xml:id="f17rop6_nommé_berruich">
                     <del>nommé</del>
                     <add>de <placeName><choice>
                                 <orig>b</orig>
@@ -139,28 +139,28 @@
                 <persName><forename>Amaneus</forename>
                     <nameLink>de</nameLink>
                     <surname>Mammes</surname></persName>
-                <del facs="#i_qui_6_1" xml:id="qui">qui</del> dez l<choice>
+                <del facs="#f17rop6_i_qui_6_1" xml:id="f17rop6_qui">qui</del> dez l<choice>
                     <orig/>
                     <reg>'</reg>
                 </choice>an 1200 veint prendre terre <del>ferme</del> en <subst
-                    facs="#i_Marsan_Guiene" xml:id="Marsan_Guiene">
+                    facs="#f17rop6_i_Marsan_Guiene" xml:id="f17rop6_Marsan_Guiene">
                     <del><placeName>Marsan</placeName></del>
                     <add><placeName>Guiene</placeName></add>
                 </subst><choice>
                     <orig/>
                     <reg>,</reg>
                 </choice><del>
-                    <subst facs="#i_par_aux" xml:id="par_aux">
+                    <subst facs="#f17rop6_i_par_aux" xml:id="f17rop6_par_aux">
                         <del><subst>
                                 <del>pendant</del>
                                 <add>par</add>
                             </subst> les</del>
                         <add><del rend="unmarked"><unclear cert="high">aux</unclear></del></add>
-                    </subst><substJoin target="#p_moien #par_aux"/>guerres de la
-                        <placeName>Guiene</placeName> et</del><del facs="#i_y_6_1" xml:id="y"
-                    >y</del> espousa<add facs="#i_en_marsan" xml:id="en_marsan"> en
+                    </subst><substJoin target="#f17rop6_p_moien #f17rop6_par_aux"/>guerres de la
+                        <placeName>Guiene</placeName> et</del><del facs="#f17rop6_i_y_6_1" xml:id="f17rop6_y"
+                    >y</del> espousa<add facs="#f17rop6_i_en_marsan" xml:id="f17rop6_en_marsan"> en
                         <placeName>Marsan</placeName></add><substJoin
-                    target="#y #en_marsan #Marsan_Guiene"/>
+                    target="#f17rop6_y #f17rop6_en_marsan #f17rop6_Marsan_Guiene"/>
                 <choice>
                     <orig>v</orig>
                     <reg>u</reg>
@@ -195,14 +195,14 @@
                                     <reg>j'</reg>
                                 </choice>en</add>
                         </subst> ay veu les titres, et en sont ancore les armes en <subst
-                            facs="#i_une_la" xml:id="une_la">
+                            facs="#f17rop6_i_une_la" xml:id="f17rop6_une_la">
                             <del>une</del>
                             <add>la</add>
-                        </subst> chappelle<add facs="#i_de_ancestres" xml:id="de_ancestres"> de mes
-                            ancestres</add><substJoin target="#une_la #de_ancestres"/> au
+                        </subst> chappelle<add facs="#f17rop6_i_de_ancestres" xml:id="f17rop6_de_ancestres"> de mes
+                            ancestres</add><substJoin target="#f17rop6_une_la #f17rop6_de_ancestres"/> au
                             <placeName>mont de Marsan</placeName></add>
                 </subst>
-                <del facs="#i_ce_berruich" xml:id="ce_berruich"><choice>
+                <del facs="#f17rop6_i_ce_berruich" xml:id="f17rop6_ce_berruich"><choice>
                         <orig>c</orig>
                         <reg>. C</reg>
                     </choice>e che<choice>
@@ -212,7 +212,7 @@
                             <orig>b</orig>
                             <reg>B</reg>
                         </choice>erruich</placeName>.</del><substJoin
-                    target="#nommé_berruich #ce_berruich"/>
+                    target="#f17rop6_nommé_berruich #f17rop6_ce_berruich"/>
                 <del><choice>
                         <orig> e</orig>
                         <reg> E</reg>
@@ -252,22 +252,22 @@
                                 <add>est</add>
                             </subst> ancore, bone, et noble </add>
                     </subst>
-                    <del facs="#i_et_6_1" rend="unmarked" xml:id="et_1">et </del>
+                    <del facs="#f17rop6_i_et_6_1" rend="unmarked" xml:id="f17rop6_et_1">et </del>
                     <del><subst>
                             <del>fort p</del>
                             <add>de beaucoup d'homes</add>
-                        </subst></del><add facs="#i_et_6_2" xml:id="et_2">et </add>
+                        </subst></del><add facs="#f17rop6_i_et_6_2" xml:id="f17rop6_et_2">et </add>
                     <subst>
                         <del>qu'en</del>
                         <add>que</add>
-                    </subst><substJoin target="#et_1 #et_2"/> l<choice>
+                    </subst><substJoin target="#f17rop6_et_1 #f17rop6_et_2"/> l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>an 1567 le gouverneur <subst>
                         <del>du pais</del>
                         <add>de la ville</add>
-                    </subst> se nommoit <del facs="#i_lors_6_1" xml:id="lors">lors</del><undo
-                        rend="underlined" target="#lors"/><redo rend="striked" target="#lors"/>
+                    </subst> se nommoit <del facs="#f17rop6_i_lors_6_1" xml:id="f17rop6_lors">lors</del><undo
+                        rend="underlined" target="#f17rop6_lors"/><redo rend="striked" target="#f17rop6_lors"/>
                     <subst>
                         <del>du mesme</del>
                         <add>de <subst>
@@ -282,20 +282,20 @@
                         <add>les</add>
                     </subst> mesmes armes. </del>
                 <add><choice>
-                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <abbr><g ref="#f17rop6_par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>eilles <add>armes</add>
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> celles de noz parens de <placeName>Berruich</placeName>, <del
-                        facs="#i_ou_6_1" xml:id="ou_1">o<choice>
+                        facs="#f17rop6_i_ou_6_1" xml:id="f17rop6_ou_1">o<choice>
                             <orig>u</orig>
                             <reg>ù</reg>
-                        </choice></del><metamark facs="#i_metamark_6_3" function="insert"
-                        target="a_1567" xml:id="metamark_3">+</metamark><add facs="#i_a_1567"
-                        xml:id="a_1567"><metamark>+</metamark><subst>
-                            <add facs="#i_a_escosse" xml:id="a_escosse"><choice>
+                        </choice></del><metamark facs="#f17rop6_i_metamark_6_3" function="insert"
+                        target="a_1567" xml:id="f17rop6_metamark_3">+</metamark><add facs="#f17rop6_i_a_1567"
+                        xml:id="f17rop6_a_1567"><metamark>+</metamark><subst>
+                            <add facs="#f17rop6_i_a_escosse" xml:id="f17rop6_a_escosse"><choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
                                 </choice> present limite d<choice>
@@ -311,34 +311,34 @@
                                         <orig>e</orig>
                                         <reg>E</reg>
                                     </choice>scosse</placeName></add>
-                            <del facs="#i_en_1567" xml:id="en_1567_2"><add xml:id="en_1567_1"><gap
+                            <del facs="#f17rop6_i_en_1567" xml:id="f17rop6_en_1567_2"><add xml:id="f17rop6_en_1567_1"><gap
                                         quantity="9" unit="char"/>en fey en l'an 1567 <gap
                                         quantity="3" unit="char"/></add></del>
                         </subst></add><subst>
-                        <del facs=" #i_que_6_1" xml:id="que_2"><add xml:id="que_1">que</add></del>
-                        <del><add facs="#i_dont_6_1" xml:id="dont_1">dont</add></del>
-                        <add facs="#i_ou_6_2" xml:id="ou_2">o<choice>
+                        <del facs=" #f17rop6_i_que_6_1" xml:id="f17rop6_que_2"><add xml:id="f17rop6_que_1">que</add></del>
+                        <del><add facs="#f17rop6_i_dont_6_1" xml:id="f17rop6_dont_1">dont</add></del>
+                        <add facs="#f17rop6_i_ou_6_2" xml:id="f17rop6_ou_2">o<choice>
                                 <orig>u</orig>
                                 <reg>ù</reg>
                             </choice></add>
                     </subst>
-                    <substJoin seq="1" target="#ou_1 #metamark_3 #en_1567_1 #que_1"/>
+                    <substJoin seq="1" target="#f17rop6_ou_1 #f17rop6_metamark_3 #f17rop6_en_1567_1 #f17rop6_que_1"/>
                     <substJoin seq="2"
-                        target="#a_escosse #en_1567_2 #dont_1 #que_2 #les_1 #et_armes"/> le
-                    gouverneur du paÿs <del xml:id="les_2"><add xml:id="les_1">les</add>
-                        <substJoin target="#ou_2 #les_2 #et_ville"/><metamark function="insert"
-                            target="#et_ville" xml:id="metamark_4">^</metamark><add
-                            facs="#i_et_ville" xml:id="et_ville">et de la ville</add></del> portoit <subst>
+                        target="#f17rop6_a_escosse #f17rop6_en_1567_2 #f17rop6_dont_1 #f17rop6_que_2 #f17rop6_les_1 #f17rop6_et_armes"/> le
+                    gouverneur du paÿs <del xml:id="f17rop6_les_2"><add xml:id="f17rop6_les_1">les</add>
+                        <substJoin target="#f17rop6_ou_2 #f17rop6_les_2 #f17rop6_et_ville"/><metamark function="insert"
+                            target="#f17rop6_et_ville" xml:id="f17rop6_metamark_4">^</metamark><add
+                            facs="#f17rop6_i_et_ville" xml:id="f17rop6_et_ville">et de la ville</add></del> portoit <subst>
                         <del>ancore</del>
                         <add><del><gap quantity="5" unit="char"/></del></add>
                     </subst>
                     <choice>
                         <abbr rend="overlined">nre</abbr>
                         <expan>notre</expan>
-                    </choice> nom <del facs="#i_et_6_3" xml:id="et_3">et <gap quantity="2"
+                    </choice> nom <del facs="#f17rop6_i_et_6_3" xml:id="f17rop6_et_3">et <gap quantity="2"
                             unit="char"/></del>
-                    <add facs="#i_et_armes" xml:id="et_armes">et armes</add>
-                    <add facs="#i_en_6_1" xml:id="en_1">en</add><substJoin target="#et_3 #en_1"/> l<choice>
+                    <add facs="#f17rop6_i_et_armes" xml:id="f17rop6_et_armes">et armes</add>
+                    <add facs="#f17rop6_i_en_6_1" xml:id="f17rop6_en_1">en</add><substJoin target="#f17rop6_et_3 #f17rop6_en_1"/> l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>année que <choice>
@@ -359,14 +359,14 @@
                     </subst> noblesse de <subst>
                         <del><subst>
                                 <del>ceste</del>
-                                <add facs="#i_ce_6_1" xml:id="ce_1">ce</add>
+                                <add facs="#f17rop6_i_ce_6_1" xml:id="f17rop6_ce_1">ce</add>
                             </subst>mesme <subst>
                                 <del>lig</del>
                                 <del><add>famille</add></del>
-                                <add facs="#i_nom_armes" xml:id="nom_armes">nom et armes</add>
+                                <add facs="#f17rop6_i_nom_armes" xml:id="f17rop6_nom_armes">nom et armes</add>
                             </subst></del>
                         <add>cete maison</add>
-                    </subst><substJoin target="#ce_1 #nom_armes"/>. </add>
+                    </subst><substJoin target="#f17rop6_ce_1 #f17rop6_nom_armes"/>. </add>
             </p>
         </body>
     </text>

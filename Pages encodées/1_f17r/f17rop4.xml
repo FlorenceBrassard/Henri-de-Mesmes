@@ -21,14 +21,14 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="f17ro.jpg"/>
-            <zone xml:id="i_ny_histoire"
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/199,2173,3558,995/full/0/default.jpg"/>
+            <zone xml:id="f17rop4_i_ny_histoire"
                 points="1450,1132 1430,1185 1622,1180 1602,1230 1517,1227 1512,1300 1827,1315 1877,1200 1885,1065 1732,1080 1725,1117"/>
-            <zone xml:id="i_sente" points="1274,1400 1263,1430 1401,1411 1392,1397"/>
-            <zone xml:id="i_recoive" points="1292,1347 1285,1375 1428,1371 1442,1345"/>
-            <zone xml:id="i_ressente" points="1283,1378 1283,1401 1423,1393 1423,1373"/>
-            <zone xml:id="i_soulignement" points="1273,1450 1261,1435 1380,1415 1385,1440"/>
-            <zone xml:id="i_ma_mem"
+            <zone xml:id="f17rop4_i_sente" points="1274,1400 1263,1430 1401,1411 1392,1397"/>
+            <zone xml:id="f17rop4_i_recoive" points="1292,1347 1285,1375 1428,1371 1442,1345"/>
+            <zone xml:id="f17rop4_i_ressente" points="1283,1378 1283,1401 1423,1393 1423,1373"/>
+            <zone xml:id="f17rop4_i_soulignement" points="1273,1450 1261,1435 1380,1415 1385,1440"/>
+            <zone xml:id="f17rop4_i_ma_mem"
                 points="382,1212 372,1286 834,1246 1598,1222 1616,1184 884,1196 634,1196"/>
         </surface>
     </facsimile>
@@ -38,7 +38,7 @@
                     <orig/>
                     <reg>'</reg>
                 </choice>ay donc pas intention de croniquer mes gestes, <subst>
-                    <del facs="#i_ma_mem"><add>ma profession n<choice>
+                    <del facs="#f17rop4_f17rop4_i_ma_mem"><add>ma profession n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>a <subst>
@@ -48,8 +48,8 @@
                                 <del>memo</del>
                                 <add>grandement mem</add>
                             </subst></add></del>
-                    <add facs="#i_ny_histoire" xml:id="ny_histoire">ny ma <choice>
-                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                    <add facs="#f17rop4_f17rop4_i_ny_histoire" xml:id="f17rop4_ny_histoire">ny ma <choice>
+                            <abbr><g ref="#f17rop4_f17rop4_pro-glyph">ꝑ</g></abbr>
                             <expan>pro</expan>
                         </choice>fession les a <subst>
                             <del>soufferts</del>
@@ -80,14 +80,14 @@
                     <orig/>
                     <reg>'</reg>
                 </choice>a faictes, et <subst>
-                    <del facs="#i_sente" seq="1" xml:id="sente"><undo facs="#i_soulignement"
-                            rend="underlined" target="#sente"/><del rend="unmarked" seq="3"
+                    <del facs="#f17rop4_f17rop4_i_sente" seq="1" xml:id="f17rop4_sente"><undo facs="#f17rop4_f17rop4_i_soulignement"
+                            rend="underlined" target="#f17rop4_f17rop4_sente"/><del rend="unmarked" seq="3"
                             >sente</del></del>
-                    <del facs="#i_recoive" seq="2"><add>re<choice>
+                    <del facs="#f17rop4_f17rop4_i_recoive" seq="2"><add>re<choice>
                                 <orig>c</orig>
                                 <reg>ç</reg>
                             </choice>oive</add></del>
-                    <add facs="#i_ressente">ressente</add>
+                    <add facs="#f17rop4_f17rop4_i_ressente">ressente</add>
                 </subst> plaisir des maulx dont il m<choice>
                     <orig/>
                     <reg>'</reg>

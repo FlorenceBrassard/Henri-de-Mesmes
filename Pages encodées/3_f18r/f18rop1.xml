@@ -41,12 +41,12 @@
             </choice>an<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ier <hi rend="overlined">153<subst xml:id="1531">
+            </choice>ier <hi rend="overlined">153<subst xml:id="f18rop1_1531">
                   <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
                   <del rend="overwritten">2</del>
                   <add place="superimposed" seq="2">1</add>
                </subst></hi>
-            <del xml:id="qui_maintenant"><add seq="1">qui est 33 selon la reduction qu<substJoin target="#1531 #qui_maintenant"/><choice>
+            <del xml:id="f18rop1_qui_maintenant"><add seq="1">qui est 33 selon la reduction qu<substJoin target="#f18rop1_1531 #f18rop1_qui_maintenant"/><choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>on tient maintenant</add></del>
@@ -54,20 +54,20 @@
                <orig>a</orig>
                <reg>à</reg>
             </choice> trois heures du matin<supplied>.</supplied><metamark function="insert"
-               target="#qui_prst">+</metamark><add xml:id="qui_prst"><metamark>+</metamark><subst xml:id="qui_c">
+               target="#f18rop1_qui_prst">+</metamark><add xml:id="f18rop1_qui_prst"><metamark>+</metamark><subst xml:id="f18rop1_qui_c">
                   <del>qui</del>
                   <add><choice>
                         <orig>c</orig>
                         <reg>C</reg>
                   </choice>'</add>
-               </subst>estoit <add xml:id="le">le</add><substJoin target="#qui_c #le"/> c<choice>
+               </subst>estoit <add xml:id="f18rop1_le">le</add><substJoin target="#f18rop1_qui_c #f18rop1_le"/> c<choice>
                   <abbr>õ</abbr>
                   <expan>om</expan>
                </choice>mancement de l<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>année <hi rend="overlined">1532</hi>
-               <subst xml:id="mode_compte">
+               <subst xml:id="f18rop1_mode_compte">
                   <del><choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -77,7 +77,7 @@
                <choice>
                   <orig>R</orig>
                   <reg>r</reg>
-               </choice>omain<del xml:id="e_la">e la</del>que<del xml:id="lle">lle</del> nous tenons
+               </choice>omain<del xml:id="f18rop1_e_la">e la</del>que<del xml:id="f18rop1_lle">lle</del> nous tenons
                   <hi rend="overlined"><choice>
                      <orig>a</orig>
                      <reg>à</reg>
@@ -85,7 +85,7 @@
                   <choice>
                      <abbr>prst</abbr>
                      <expan>present</expan>
-                  </choice></hi>.<substJoin target="#mode_compte #e_la #lle"/></add>
+                  </choice></hi>.<substJoin target="#f18rop1_mode_compte #f18rop1_e_la #f18rop1_lle"/></add>
          </p>
       </body>
    </text>

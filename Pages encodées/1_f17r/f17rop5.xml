@@ -21,8 +21,8 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="f17ro.jpg"/>
-            <zone xml:id="i_e_laborem" points="93,1565 420,1568 341,1768 110,1813"/>
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/181,2955,3550,795/full/0/default.jpg"/>
+            <zone xml:id="f17rop5_i_e_laborem" points="93,1565 420,1568 341,1768 110,1813"/>
         </surface>
     </facsimile>
     <text>
@@ -34,7 +34,7 @@
                     <del>ambrasser</del>
                     <add>suyvre</add>
                 </subst>la vertu, <del>prevoir les accidens,</del> et mespriser la fortune. <del
-                    facs="#i_e_laborem"><q rend="unmarked" xml:lang="la">E terra magnum alterius
+                    facs="#f17rop5_i_e_laborem"><q rend="unmarked" xml:lang="la">E terra magnum alterius
                         spectare laborem.</q></del></p>
         </body>
     </text>
