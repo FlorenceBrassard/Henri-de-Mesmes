@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+               <orig>l</orig>
+               <reg>L</reg>
+            </choice>es festes <metamark function="insert" rend="unclear" target="#f19rop4_a_iour">
+               /</metamark>
+            <add xml:id="f19rop4_a_iour"><metamark>^</metamark>
+               <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> la grand messe et vespres <supplied>,</supplied> au reste du <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>our</add>
+            <del xml:id="f19rop4_nous_lres">nous aprenions du lut lisions des bones <abbr>
+                  <orig><hi rend="overlined">lres</hi></orig>
+                  <reg>lettres</reg>
+            </abbr></del>
+            <add>un peu de musique et de promenoir</add> <supplied>.</supplied>
+            <del xml:id="f19rop4_et">et</del> quelquefois <add xml:id="f19rop4_nous">nous</add>
+            <substJoin target="#f19rop4_nous_lres #f19rop4_et #f19rop4_nous"/>
+            alions disner chez <subst seq="2">
+               <del>les premiers homes <subst seq="1">
+                     <del>qui</del>
+                     <add>de l<choice>
+                           <orig>a</orig>
+                           <reg>à</reg>
+                     </choice>,</add>
+               </subst> amys paternels</del>
+               <add>noz amis paternels</add>
+            </subst> qui nous in<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>itoient plus sou<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>ent qu<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>on ne nous y <subst>
+               <del>laissoit aller</del>
+               <add>vouloit mener</add>
+            </subst>. <metamark function="insert" target="#f19rop4_le_faber">+</metamark>
+               <add xml:id="f19rop4_le_faber"><choice>
+                     <orig>l</orig>
+                     <reg>L</reg>
+               </choice>e reste du <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+               </choice>our aux li<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>res. <choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ions ordinaires a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ec nous Hadrianus Turnubus<supplied>,</supplied>
+                  Dionysius Lambinus<supplied>,</supplied>
+                  Honorat<abbr>
+                     <orig></orig>
+                     <reg>us</reg>
+                  </abbr>
+                  
+                  
+               </add>
+         </s></p>
+      </body>
+   </text>
+</TEI>
