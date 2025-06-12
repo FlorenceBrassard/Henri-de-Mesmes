@@ -6,110 +6,119 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p><s><choice>
-               <orig>a</orig>
-               <reg>A</reg>
-            </choice>pres disner <del>ou no</del>
-            <!--         En faisant l'encodage et en regardant le manuscrit, j'ai pensé que peut-être Henri voulait d'abord
-         écrire une alternative : apres disner, ou no[us faisions X, ou nous faisions Y] ?-->
-            nous lisions <subst>
-               <del seq="1">demie heure de</del>
-               <del seq="2"><add seq="1">de</add></del>
-               <add seq="2">par forme de <choice>
-                     <orig>i</orig>
-                     <reg>j</reg>
-                  </choice>eu</add>
-            </subst>
-            <persName ref="https://isni.org/isni/0000000122836085"><choice>
-               <orig>s</orig>
-               <reg>S</reg>
-            </choice>ophocle<add>s</add></persName> ou <persName ref="https://isni.org/isni/000000012123391X"><choice>
-               <orig>a</orig>
-               <reg>A</reg>
-            </choice>ristophanes</persName> ou <persName ref="https://isni.org/isni/0000000121382034">Euripide<add>s</add></persName> et <subst>
-               <del>depuys</del>
-               <add>quelquefois</add>
-            </subst> de <persName ref="https://isni.org/isni/0000000383074074"><choice>
-               <orig>d</orig>
-               <reg>D</reg>
-            </choice>emosthene<add>s</add></persName>
-            <del><add>ou de</add></del>
-            <persName ref="https://isni.org/isni/0000000139322910"><choice>
-               <orig>c</orig>
-               <reg>C</reg>
-            </choice>icero</persName>, <del>et <persName ref="https://isni.org/isni/0000000120967858">Plato</persName>. </del>
-            <add><persName ref="https://isni.org/isni/0000000430695667"><choice>
-                  <orig>v</orig>
-                  <reg>V</reg>
-                  <!--               J'avais noté minuscule mais V majuscule dans le manuscrit il me semble ? -->
-               </choice>irgili<choice>
-                  <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
-                  <expan>us</expan>
-               </choice></persName> ou <persName ref="https://isni.org/isni/0000000121452178"><choice>
-                  <orig>h</orig>
-                  <reg>H</reg>
-               </choice>oratius</persName><supplied>.</supplied></add></s><s>
-            <del>le soir <choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice> cinq heur</del>
-            <choice>
-               <orig>a</orig>
-               <reg>À</reg>
-            </choice> une heure aux estudes<choice>
-               <orig/>
-               <reg>,</reg>
-            </choice>
-            <choice>
-               <orig>a</orig>
-               <reg>à</reg>
-            </choice> cinq au logis <metamark function="insertion" target="#f19rop2_a1">^</metamark>
-            <add xml:id="f19rop2_a1"><choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice></add> repeter et voir <metamark function="insertion" target="#f19rop2_dens">^</metamark><add
-               xml:id="f19rop2_dens_noz"><metamark>^</metamark> dens noz li<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>res</add> les lieus allegues <del xml:id="f19rop2_dens_les">dens les li<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>res</del>
-            <substJoin target="#f19rop2_dens_les #f19rop2_dens_noz"/>
-            <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>us<choice>
-               <abbr><g ref="#que-glyph">ꝙ</g></abbr>
-               <expan>que</expan>
-            </choice>s <subst>
-               <del><choice>
-                     <orig>a</orig>
-                     <reg>à</reg>
-                  </choice>
-                  <metamark function="insertion" target="#f19ro_p2_pres_de">^</metamark><add xml:id="f19ro_p2_pres_de">pres de</add> sept</del>
-               <add>apres six</add>
-            </subst>. </s></p>
-         <note>On fait l’hypothèse que l'ajout « virgiliꝮ ou horatius » a été fait avant la
-            suppression de « et Plato », parce que ces noms sont ajoutés au-dessus de la rature à la
-            ligne suivante, et non au-dessus de la rature de « et Plato » : il semble qu’ils
-            devaient initialement s’ajouter à la liste, et non pas en remplacer le dernier
-            élément.</note>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>pres disner <del>ou <unclear reason="deleted">no</unclear></del> nous
+                    lisions <subst>
+                        <del seq="1">demie heure de</del>
+                        <del seq="2" xml:id="f19rop2_de_1"><add seq="1">de</add></del>
+                        <add seq="2" xml:id="f19rop2_par_ieu">par forme de <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>eu</add>
+                    </subst>
+                    <persName ref="https://isni.org/isni/0000000122836085"><choice>
+                            <orig>s</orig>
+                            <reg>S</reg>
+                        </choice>ophocle<add>s</add></persName> ou <persName
+                        ref="https://isni.org/isni/000000012123391X"><choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>ristophanes</persName> ou <persName
+                        ref="https://isni.org/isni/0000000121382034">Euripide<add>s</add></persName>
+                    et <subst>
+                        <del>depuys</del>
+                        <add>quelquefois</add>
+                    </subst>
+                    <del cert="medium" rend="unmarked" xml:id="f19rop2_de_2">de</del>
+                    <persName ref="https://isni.org/isni/0000000383074074"><choice>
+                            <orig>d</orig>
+                            <reg>D</reg>
+                        </choice>emosthene<add>s</add></persName>
+                    <del xml:id="f19rop2_ou_de_2"><add xml:id="f19rop2_ou_de_1"><unclear
+                                reason="deleted">ou</unclear> de</add></del>
+                    <supplied>,</supplied>
+                    <persName ref="https://isni.org/isni/0000000139322910"><choice>
+                            <orig>c</orig>
+                            <reg>C</reg>
+                        </choice>icero</persName>, <del xml:id="f19rop2_et_plato">et <persName
+                            ref="https://isni.org/isni/0000000120967858">Plato</persName>. </del>
+                    <add xml:id="f19rop2_virgilius_horatius"><persName
+                            ref="https://isni.org/isni/0000000430695667">Virgili<choice>
+                                <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
+                                <expan>us</expan>
+                            </choice></persName> ou <persName
+                            ref="https://isni.org/isni/0000000121452178"><choice>
+                                <orig>h</orig>
+                                <reg>H</reg>
+                            </choice>oratius</persName></add>
+                    <supplied>.</supplied></s><substJoin target="#f19rop2_ou_de_1 #f19rop2_et_plato"
+                    /><substJoin target="#f19rop2_de_1 #f19rop2_par_ieu #f19rop2_de_2 #f19rop2_ou_de_2 #f19rop2_virgilius_horatius"/>
+                <s>
+                    <del><choice>
+                            <orig>l</orig>
+                            <reg>L</reg>
+                        </choice>e soir <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> cinq heur</del>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>À</reg>
+                    </choice> une heure aux estudes<supplied>,</supplied>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> cinq au logis <metamark function="insert" target="#f19rop2_a"
+                        >^</metamark>
+                    <add xml:id="f19rop2_a"><choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice></add> repeter et voir <metamark function="insert"
+                        target="#f19rop2_dens_noz_livres">^</metamark><add xml:id="f19rop2_dens_noz_livres"
+                            ><metamark>^</metamark> dens noz li<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                            </choice>res</add> les lieus allegu<choice>
+                                <orig>e</orig>
+                                <reg>é</reg>
+                            </choice>s <del xml:id="f19rop2_dens_les_livres"
+                        >dens les li<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>res</del>
+                    <substJoin target="#f19rop2_dens_les_livres #f19rop2_dens_noz_livres"/>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>us<choice>
+                        <abbr><g ref="que-glyph">ꝙ</g></abbr>
+                        <expan>que</expan>
+                    </choice>s <subst>
+                        <del><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>
+                            <metamark function="insert" target="#f19rop2_pres_de"
+                                >^</metamark><add xml:id="f19rop2_pres_de">pres de</add> sept</del>
+                        <add>apres six.</add>
+                    </subst><del rend="unmarked">.</del></s></p>
+        </body>
+    </text>
 </TEI>

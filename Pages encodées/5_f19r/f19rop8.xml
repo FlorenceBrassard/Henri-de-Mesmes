@@ -21,19 +21,26 @@
    </teiHeader>
    <text>
       <body>
-         <p><s>en fin des six ans <del>ap</del> nous teimes <choice>
+         <p><s><choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>n fin des six ans <del>ap</del> nous teismes <choice>
                   <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                   <expan>con</expan>
-               </choice>clusions publiques par deux fois la premiere, <choice>
+               </choice>clusions publiques par deux fois <supplied>:</supplied> la premiere, <choice>
                   <abbr rend="overlined">etions</abbr>
                   <expan>estions</expan>
                </choice> une apres disnée a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>ec catedran la ii<hi rend="superscript">e</hi> iii <choice>
+               </choice>ec catedran<supplied>,</supplied> la ii<hi rend="superscript">e</hi> iii <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>ours entiers sens catedran a<choice>
+               </choice>ours entiers <subst>
+                  <del>sens catedran</del>
+                  <add>et seuls</add>
+               </subst>
+               <supplied>,</supplied> a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
                </choice>ec grande celebrité ancore que mon age me deffendist d<choice>
@@ -48,12 +55,14 @@
                </subst> que de <subst xml:id="f19rop8_cueur_confidance">
                   <del>cueur</del>
                   <add>confidance</add>
-               </subst><substJoin target="#f19rop8_force_suffisance #f19rop8_cueur_confidance"/>.
-               </s><metamark function="insertion" target="#f19rop8_en_france">++</metamark><add
-               xml:id="f19rop8_en_france"><metamark>++</metamark><s><choice>
+               </subst><substJoin target="#f19rop8_force_suffisance #f19rop8_cueur_confidance"/>. </s><metamark 
+                  function="insert" target="#f19rop8_en_france">++</metamark>
+            <add xml:id="f19rop8_en_france"><metamark>++</metamark><s>
+               <choice>
                      <orig>e</orig>
                      <reg>E</reg>
-                  </choice>n ce mesme temps <supplied cert="high">li</supplied>soient <choice>
+               </choice>n ce mesme temps <unclear agent="reliure" reason="illegible"
+                  >li</unclear>soient <choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
@@ -65,8 +74,8 @@
                      <abbr>m<hi rend="superscript">es</hi></abbr>
                      <expan>maistres</expan>
                   </choice>
-                  <persName ref="https://isni.org/isni/0000000121007699"><surname><supplied
-                           cert="high">C</supplied>orras</surname></persName> et <persName
+               <persName ref="https://isni.org/isni/0000000121007699"><surname><unclear
+                  agent="reliure" reason="illegible">C</unclear>orras</surname></persName> et <persName
                      ref="https://isni.org/isni/0000000119390270"><nameLink><choice>
                            <orig>D</orig>
                            <reg>u</reg>
@@ -114,16 +123,17 @@
                   </choice>oit ouy a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>ec le <choice>
+                  </choice>ec le <roleName><choice>
                      <abbr>m<hi rend="superscript">al</hi></abbr>
                      <expan>maréchal</expan>
-                  </choice><persName ref="https://isni.org/isni/0000000000927798"><nameLink><choice>
+                  </choice></roleName><persName ref="https://isni.org/isni/0000000000927798"><nameLink><choice>
                            <orig>d</orig>
                            <reg>D</reg>
                         </choice>e</nameLink><surname><choice>
                            <orig>I</orig>
                            <reg>J</reg>
-                        </choice>oyeuse</surname></persName> lors <supplied cert="high">e</supplied><choice>
+                        </choice>oieuse</surname></persName> lors <unclear agent="reliure"
+                           reason="illegible">e</unclear><choice>
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>esque d<choice>
@@ -133,15 +143,18 @@
                      <orig>a</orig>
                      <reg>A</reg>
                   </choice>let</placeName>, prit mon heure et leut <del>en</del> quel<choice>
-                     <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                     <abbr><g ref="que-glyph">ꝙ</g></abbr>
                      <expan>que</expan>
-                  </choice> temps. </s><add><s> et voila les premieres compagnées d<choice>
+                  </choice> temps. </s><s><add><choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>t voila les premieres compagnées d<choice>
                         <orig/>
                         <reg>'</reg>
                      </choice>estudes entre <persName ref="https://isni.org/isni/0000000061298200"><surname><choice>
                               <orig>f</orig>
                               <reg>F</reg>
-                           </choice>ois</surname></persName>
+                           </choice>ois</surname></persName><supplied>,</supplied>
                      <del>et</del>
                      <persName ref="https://isni.org/isni/0000000080770195"><surname><choice>
                               <orig>p</orig>
@@ -149,13 +162,11 @@
                            </choice>ibrac</surname></persName> et moy, come elles ont depuys <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
-                     </choice>tinué aux estats et <metamark function="insertion"
-                        target="#f19rop8_aux">^</metamark><add xml:id="f19rop8_aux">aux</add>
-                     afaires de la <placeName><choice>
-                           <orig>f</orig>
-                           <reg>F</reg>
-                        </choice>rance</placeName><supplied>.</supplied>
-                  </s></add></add></p>
+                     </choice>tinué aux estats et <metamark function="insert" target="#f19rop8_aux">^</metamark><add xml:id="f19rop8_aux">aux</add>
+                     afaires <add xml:id="f19rop8_de_france">de la <choice>
+                        <orig>f</orig>
+                        <reg>F</reg>
+                     </choice>rance</add> <substJoin target="#f19rop8_aux #f19rop8_de_france"/><supplied>.</supplied></add></s></add></p>
       </body>
    </text>
 </TEI>

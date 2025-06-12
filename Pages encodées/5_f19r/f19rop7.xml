@@ -25,7 +25,7 @@
                   <orig>p</orig>
                   <reg>P</reg>
                </choice>endant lesquels nous fre<choice>
-                  <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                  <abbr><g ref="que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
                </choice>ntions aux festes les disputes publiques, et <choice>
                   <orig>i</orig>
@@ -39,7 +39,7 @@
                </subst> passer sens quelque essai <add>de mes <subst>
                      <del>estudes</del>
                      <add>debiles forces</add>
-                  </subst>.</add></s></p>
+                  </subst></add>.</s></p>
       </body>
    </text>
 </TEI>
