@@ -22,20 +22,18 @@
    <text>
       <body>
          <p><s><choice>
-                  <orig>p</orig>
-                  <reg>P</reg>
-         </choice>uys <del>nous</del> venions</s>
-            <s>disner apres a<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
+               <orig>p</orig>
+            <reg>P</reg>
+            </choice>uys <del>nous</del> venions <pb/>disner apres a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
             </choice>oir en haste conferé demie heure ce qu<choice>
                <orig/>
                <reg>'</reg>
             </choice>a<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ions escrit des lectures.</s>
-         </p>
+            </choice>ions escrit des lectures. </s></p>
       </body>
    </text>
 </TEI>

@@ -21,10 +21,10 @@
    </teiHeader>
    <text>
       <body>
-         <p><choice>
-               <orig>l</orig>
-               <reg>L</reg>
-            </choice>ors nous soupions, puys <del>nous</del> lisions en grec ou en latin.</p>
+         <p><s><choice>
+                  <orig>l</orig>
+                  <reg>L</reg>
+               </choice>ors nous soupions, puys <del>nous</del> lisions en grec ou en latin.</s></p>
       </body>
    </text>
 </TEI>
