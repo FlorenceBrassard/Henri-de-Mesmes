@@ -30,7 +30,9 @@
             </subst><del xml:id="f17vop4_icy">icy</del><substJoin target="#f17vop4_aiant_il #f17vop4_é_a"/><substJoin
                 target="#f17vop4_icy #f17vop4_icy_il"/>feu ma mere <add><del>d</del> dame</add>
                 <persName><forename>Nicole</forename>
-                    <surname>Hennequin</surname></persName><supplied>,</supplied> fille de messire <persName><forename><choice>
+                    <surname>Hennequin</surname></persName><choice>
+                        <orig/>
+                        <reg>,</reg></choice> fille de messire <persName><forename><choice>
                             <orig>c</orig>
                             <reg>C</reg>
                         </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark

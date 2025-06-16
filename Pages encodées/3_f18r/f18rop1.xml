@@ -55,7 +55,10 @@
                <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> trois heures du matin<supplied>.</supplied><metamark function="insert"
+               </choice> trois heures du matin<choice>
+                  <orig/>
+                  <reg>.</reg>
+               </choice><metamark function="insert"
                   target="#f18rop1_qui_prst">+</metamark><add xml:id="f18rop1_qui_prst"
                      ><metamark>+</metamark><subst xml:id="f18rop1_qui_c">
                      <del>qui</del>
