@@ -29,7 +29,10 @@
                             ><metamark>^</metamark><choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice> la grand messe et vespres au reste du<choice>
+                        </choice> la grand messe et vespres<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> au reste du<choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>our</add>
@@ -100,15 +103,15 @@
                             <surname><choice>
                                     <orig>c</orig>
                                     <reg>C</reg>
-                                </choice>astellanus</surname></persName> depuys medecin du
-                            <roleName>Roy</roleName> et <persName><forename>Simon</forename>
+                                </choice>astellanus</surname></persName> depuys medecin du Roy et
+                                <persName><forename>Simon</forename>
                             <surname>Tomas</surname></persName>. <add>lors tresca<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ant medecin</add>. <choice>
-                               <orig>a</orig>
-                               <reg>A</reg>
-                            </choice>ussy nous voions sou<choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>ussy nous voions sou<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ent <persName ref="https://isni.org/isni/0000000061271999"><forename><choice>
