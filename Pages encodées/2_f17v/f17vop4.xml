@@ -21,20 +21,22 @@
     </teiHeader>
     <text>
         <body>
-            <p><subst xml:id="aiant_il">
+            <p><s><subst xml:id="f17vop4_aiant_il">
                     <del>or aiant</del>
-                    <add xml:id="icy_il">icy il</add>
-                </subst>espous<subst xml:id="é_a">
+                        <add xml:id="f17vop4_icy_il">icy il</add>
+            </subst>espous<subst xml:id="f17vop4_é_a">
                     <del rend="overwritten">é</del>
                     <add place="superimposed">a</add>
-                </subst><del xml:id="icy">icy</del><substJoin target="#aiant_il #é_a"/><substJoin
-                    target="#icy #icy_il"/>feu ma mere <add><del>d</del> dame</add>
+            </subst><del xml:id="f17vop4_icy">icy</del><substJoin target="#f17vop4_aiant_il #f17vop4_é_a"/><substJoin
+                target="#f17vop4_icy #f17vop4_icy_il"/>feu ma mere <add><del>d</del> dame</add>
                 <persName><forename>Nicole</forename>
-                    <surname>Hennequin</surname></persName><supplied>,</supplied> fille de messire <persName><forename><choice>
+                    <surname>Hennequin</surname></persName><choice>
+                        <orig/>
+                        <reg>,</reg></choice> fille de messire <persName><forename><choice>
                             <orig>c</orig>
                             <reg>C</reg>
                         </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
-                    function="insert" target="#le_ancien">^</metamark><add xml:id="le_ancien"
+                            function="insert" target="#f17vop4_le_ancien">^</metamark><add xml:id="f17vop4_le_ancien"
                         ><del>le</del> plus ancien</add> conseiller du parlement de <placeName><choice>
                         <orig>p</orig>
                         <reg>P</reg>
@@ -64,8 +66,8 @@
                 </subst>ambassadeur en <placeName><choice>
                         <orig>s</orig>
                         <reg>S</reg>
-                    </choice>uisse</placeName> et <metamark function="insert" target="#depuys"
-               >^</metamark><add xml:id="depuys">depuys</add> en autres grandes charges.<choice>
+                </choice>uisse</placeName> et <metamark function="insert" target="#f17vop4_depuys"
+                    >^</metamark><add xml:id="f17vop4_depuys">depuys</add> en autres grandes charges.<choice>
                     <orig>e</orig>
                     <reg>E</reg>
                 </choice>t l<choice>
@@ -83,7 +85,7 @@
                 </choice>il sca<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>oit bien faire et bien dire.</p>
+                </choice>oit bien faire et bien dire.</s></p>
         </body>
     </text>
 </TEI>

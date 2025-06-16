@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>es festes <metamark function="insert" rend="unclear"
+                        target="#f19rop4_a_iour">/</metamark><add xml:id="f19rop4_a_iour"
+                            ><metamark>^</metamark><choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> la grand messe et vespres<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> au reste du<choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>our</add>
+                    <subst>
+                        <del seq="2" xml:id="f19rop4_nous_lres">nous aprenions du lut lisions des
+                            bones <choice>
+                                <abbr rend="overlined">lres</abbr>
+                                <expan>lettres</expan>
+                            </choice>,</del>
+                        <add>un peu de musique et de promenoir</add>
+                    </subst><del seq="1"> et</del> quelquefois <add xml:id="f19rop4_nous"
+                        >nous</add><substJoin target="#f19rop4_nous_lres #f19rop4_nous"/> alions
+                    disner chez <subst seq="2">
+                        <del>les premiers <choice>
+                                <abbr rend="overlined">hoes</abbr>
+                                <expan>hommes</expan>
+                            </choice>
+                            <subst seq="1">
+                                <del>qui</del>
+                                <add> de l<choice>
+                                        <orig>a</orig>
+                                        <reg>à</reg>
+                                    </choice>,</add>
+                            </subst> amys paternels</del>
+                        <add>noz amis paternels</add>
+                    </subst> qui nous in<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>itoient plus sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>on ne nous y <subst>
+                        <del>laissoit aller</del>
+                        <add>vouloit mener</add>
+                    </subst><choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice><metamark function="insert"
+                        target="#f19rop4_le_faber">+</metamark><add xml:id="f19rop4_le_faber"
+                            ><metamark>+</metamark><choice>
+                            <orig>l</orig>
+                            <reg>L</reg>
+                        </choice>e reste du <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>our aux li<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>res. <choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ions ordinaires a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec nous <persName ref="https://isni.org/isni/000000011036923X"
+                                ><forename>Hadrianus</forename>
+                            <surname>Turnebus</surname></persName><choice>
+                                <orig/>
+                                <reg>,</reg>
+                            </choice>
+                        <persName ref="https://isni.org/isni/0000000442462721"
+                                ><forename>Dionysius</forename>
+                            <surname>Lambinus</surname></persName>, <persName
+                            ref="https://isni.org/isni/0000000122574134"><forename>Honorat<choice>
+                                    <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
+                                    <expan>us</expan>
+                                </choice></forename>
+                            <surname><choice>
+                                    <orig>c</orig>
+                                    <reg>C</reg>
+                                </choice>astellanus</surname></persName> depuys medecin du Roy et
+                                <persName><forename>Simon</forename>
+                            <surname>Tomas</surname></persName>. <add>lors tresca<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ant medecin</add>. <choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>ussy nous voions sou<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ent <persName ref="https://isni.org/isni/0000000061271999"><forename><choice>
+                                    <orig>p</orig>
+                                    <reg>P</reg>
+                                </choice>etrus</forename>
+                            <surname>Bunellus</surname></persName> et son <persName
+                            ref="https://isni.org/isni/0000000080770195"><forename><choice>
+                                    <orig>v</orig>
+                                    <reg>V</reg>
+                                </choice>idus</forename>
+                            <surname><choice>
+                                    <orig>f</orig>
+                                    <reg>F</reg>
+                                </choice>aber</surname></persName>.</add></s></p>
+        </body>
+    </text>
+</TEI>

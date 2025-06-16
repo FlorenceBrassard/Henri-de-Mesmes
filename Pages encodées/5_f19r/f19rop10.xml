@@ -21,25 +21,16 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><choice>
-                  <orig>p</orig>
-                  <reg>P</reg>
-               </choice>endant lesquels nous fre<choice>
-                  <abbr><g ref="que-glyph">ꝙ</g></abbr>
-                  <expan>que</expan>
-               </choice>ntions aux festes les disputes publiques, et <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>e n<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>en laissois <subst>
-                  <del>point</del>
-                  <add>guiere</add>
-               </subst> passer sens quelque essai <add>de mes <subst>
-                     <del>estudes</del>
-                     <add>debiles forces</add>
-                  </subst></add>.</s></p>
+         <p><s><del>nous partismes donc</del><choice>
+                  <orig>a</orig>
+                  <reg>A</reg>
+               </choice>pres cela et noz degrez <add>pris</add> de docteurs en droict ci<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>il et canon, nous primes le chemin pour retourner <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> la maison. </s></p>
       </body>
    </text>
 </TEI>
