@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>pres disner <del>ou <unclear reason="deleted">no</unclear></del> nous
+                    lisions <subst>
+                        <del seq="1">demie heure de</del>
+                        <del seq="2" xml:id="f19rop2_de_1"><add seq="1">de</add></del>
+                        <add seq="2" xml:id="f19rop2_par_ieu">par forme de <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>eu</add>
+                    </subst>
+                    <persName ref="https://isni.org/isni/0000000122836085"><choice>
+                            <orig>s</orig>
+                            <reg>S</reg>
+                        </choice>ophocle<add>s</add></persName> ou <persName
+                        ref="https://isni.org/isni/000000012123391X"><choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>ristophanes</persName> ou <persName
+                        ref="https://isni.org/isni/0000000121382034">Euripide<add>s</add></persName>
+                    et <subst>
+                        <del>depuys</del>
+                        <add>quelquefois</add>
+                    </subst>
+                    <del cert="medium" rend="unmarked" xml:id="f19rop2_de_2">de</del>
+                    <persName ref="https://isni.org/isni/0000000383074074"><choice>
+                            <orig>d</orig>
+                            <reg>D</reg>
+                        </choice>emosthene<add>s</add></persName>
+                    <del xml:id="f19rop2_ou_de_2"><add xml:id="f19rop2_ou_de_1"><unclear
+                                reason="deleted">ou</unclear> de</add></del>
+                    <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <persName ref="https://isni.org/isni/0000000139322910"><choice>
+                            <orig>c</orig>
+                            <reg>C</reg>
+                        </choice>icero</persName>, <del xml:id="f19rop2_et_plato">et <persName
+                            ref="https://isni.org/isni/0000000120967858">Plato</persName>. </del>
+                    <add xml:id="f19rop2_virgilius_horatius"><persName
+                            ref="https://isni.org/isni/0000000430695667">Virgili<choice>
+                                <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
+                                <expan>us</expan>
+                            </choice></persName> ou <persName
+                            ref="https://isni.org/isni/0000000121452178"><choice>
+                                <orig>h</orig>
+                                <reg>H</reg>
+                            </choice>oratius</persName></add>
+                    <choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice></s><substJoin target="#f19rop2_ou_de_1 #f19rop2_et_plato"/><substJoin
+                    target="#f19rop2_de_1 #f19rop2_par_ieu #f19rop2_de_2 #f19rop2_ou_de_2 #f19rop2_virgilius_horatius"
+                /></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>a</orig>
+                  <reg>A</reg>
+               </choice>u bout des deux ans et demy nous leumes en public 
+               <add xml:id="f19rop5-6_demy_an"
+                  >demy an</add>
+               <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>escole des institutes. </s><s><subst>
+                  <del xml:id="f19rop5-6_mais">mais</del>
+                  <add xml:id="f19rop5-6_et_an_add"><del xml:id="f19rop5-6_et_an_del">et demy
+                        an</del></add>
+               </subst>
+               <del><del rend="unmarked" xml:id="f19rop5-6_apres">apres</del>
+               <del xml:id="f19rop5-6_trois_mois">trois mois</del></del>
+                  <substJoin seq="1" target="#f19rop5-6_mais #f19rop5-6_trois_mois #f19rop5-6_et_an_add"/>
+                  <substJoin seq="2" target="#f19rop5-6_et_an_del #f19rop5-6_demy_an"/>
+               <substJoin seq="3" target="#f19rop5-6_apres #f19rop5-6_puys"/>
+               <add xml:id="f19rop5-6_puys"><choice>
+                     <orig>p</orig>
+                     <reg>P</reg>
+                  </choice>uys</add> nous <subst>
+                  <del>primes</del>
+                  <add>eumes noz</add>
+               </subst> heures pour lire aux grandes escoles, et leumes les autres trois ans entiers.
+            </s></p>
+      </body>
+   </text>
+</TEI>
