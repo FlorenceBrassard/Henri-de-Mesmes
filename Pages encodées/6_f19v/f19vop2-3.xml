@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><add><choice>
+                     <orig>n</orig>
+                     <reg>N</reg>
+                  </choice>le saluasmes le soir a l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>arri<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ée.</add></s><s><subst>
+                  <add><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                     </choice>t il luy sembla bon </add>
+                  <del>il voulut</del>
+               </subst> que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e leusse en s<subst xml:id="f19v2-3_a_on">
+                  <del rend="overwritten">a</del>
+                  <add place="superimposed">on</add>
+               </subst>
+               <subst xml:id="f19v2-3_place_lieu">
+                  <del>place</del>
+                  <add>lieu</add>
+               </subst>
+               <substJoin target="#f19v2-3_a_on #f19v2-3_place_lieu"/> lendemain <subst>
+                  <del>de <choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>notre</expan>
+                     </choice>arri<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>ée</del>
+                  <add>matin <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>our de <choice>
+                        <abbr>s<hi rend="superscript">t</hi></abbr>
+                        <expan>saint</expan>
+                     </choice>
+                     <choice>
+                        <orig>f</orig>
+                        <reg>F</reg>
+                     </choice>rancoys</add>
+               </subst>.</s></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>l</orig>
+                  <reg>L</reg>
+               </choice>e mesme fut en passant <del xml:id="f19vop6_a_et_del"><metamark
+                     function="insertion" target="#f19vop6_a_et">^</metamark>
+                  <add xml:id="f19vop6_a_et"><choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice>
+                     <placeName><choice>
+                           <orig>p</orig>
+                           <reg>P</reg>
+                        </choice>oitiers et</placeName></add></del>
+               <placeName><choice>
+                     <abbr>orls</abbr>
+                     <expan>Orléans</expan>
+                  </choice></placeName><add> et le tout en <subst>
+                     <del>auditoire</del>
+                     <add>l'assistance</add>
+                  </subst> de touts les docteurs <del>et</del> de <subst>
+                     <del>l<choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice>escole</del>
+                     <add>l<choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice>auditoire</add>
+                  </subst> entiere</add><add xml:id="f19vop6_car_vaquoit"> car <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice><placeName><choice>
+                        <orig>p</orig>
+                        <reg>P</reg>
+                     </choice>oitiers</placeName> nous trou<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>äsmes que l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>esc<supplied reason="overbinding">ole</supplied> vaqu<supplied
+                     reason="overbinding">oit</supplied></add><substJoin
+                  target="#f19vop6_a_et_del #f19vop6_car_vaquoit"/>.</s></p>
+         <p/>
+      </body>
+   </text>
+</TEI>
