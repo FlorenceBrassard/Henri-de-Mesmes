@@ -24,7 +24,10 @@
          <p><s><undo target="#f19vop12_home_de"/><del xml:id="f19vop12_home_de"><choice>
                      <orig>h</orig>
                      <reg>H</reg>
-                  </choice>ome de singuliere probité<del>; et de</del></del></s></p>
+         </choice>ome de singuliere probité<del>; et de</del><choice>
+            <orig/>
+            <reg>.</reg>
+         </choice></del></s></p>
       </body>
    </text>
 </TEI>
