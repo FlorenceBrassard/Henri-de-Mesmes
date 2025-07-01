@@ -24,10 +24,13 @@
          <p><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
-               </choice>t que je fey <del>et</del><add xml:id="f19vop4_prenant"
-                  >prenant</add><del>leu ce qu'il</del>
+               </choice>t que je fey <del xml:id="f19vop4_et">et</del><add xml:id="f19vop4_prenant"
+                  >prenant</add><del>leu ce qu<choice>
+               <orig/>
+               <reg>'</reg>
+               </choice>il</del>
                <del xml:id="f19vop4_pris">pris</del>
-               <substJoin target="#f19vop4_pris #f19vop4_prenant"/> la loy o<choice>
+               <substJoin target="#f19vop4_et #f19vop4_pris #f19vop4_prenant"/> la loy o<choice>
                   <orig>u</orig>
                   <reg>ù</reg>
                </choice> il estoit demouré le <choice>

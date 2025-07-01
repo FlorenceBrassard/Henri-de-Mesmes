@@ -21,11 +21,10 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><del><choice>
+         <p><s><undo target="#f19vop12_home_de"/><del xml:id="f19vop12_home_de"><choice>
                      <orig>h</orig>
                      <reg>H</reg>
                   </choice>ome de singuliere probité<del>; et de</del></del></s></p>
-         <!--         undo?-->
       </body>
    </text>
 </TEI>
