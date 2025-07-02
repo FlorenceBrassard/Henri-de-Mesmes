@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                    <orig>p</orig>
+                    <reg>P</reg>
+                </choice>assasmes en <placeName><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice><choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ignon</placeName> pour voir <persName
+                    ref="https://isni.org/isni/0000000115620980"><forename><choice>
+                            <orig>æ</orig>
+                            <reg>Æ</reg>
+                        </choice>milius</forename>
+                    <surname><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>erretus</surname></persName> qui lors lisoit a<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>ec plus d<subst>
+                    <del rend="overwritten">e</del>
+                    <add place="superimposed"><choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>a</add>
+                </subst>pparat <del seq="1" xml:id="f19vop1_et1">et</del>
+                <add seq="3" xml:id="f19vop1_et_celebrité">et de <subst>
+                        <del>celebrité</del>
+                        <add>reputation</add>
+                    </subst></add>
+                <del seq="3" xml:id="f19vop1_et_frequence"><add seq="2" xml:id="f19vop1_et2"
+                        >et</add></del><del seq="1" xml:id="f19vop1_de1">de</del>
+                <del>frequence</del>
+                <del seq="2" xml:id="f19vop1_et3">et</del>
+                <del seq="1" xml:id="f19vop1_de2"><add seq="1">de</add></del>
+                <del seq="2" xml:id="f19vop1_maiesté">ma<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>esté</del> que lecteur de son <subst>
+                    <del seq="1">temps</del>
+                    <del seq="2"><add seq="1">siecle</add></del>
+                    <add seq="2">temps</add>
+                    </subst>.</s></p>
+            <substJoin seq="1" target="#f19vop1_et1 #f19vop1_de1 #f19vop1_de2"/>
+            <substJoin seq="2" target=" #f19vop1_et2 #f19vop1_et3 #f19vop1_maiesté"/>
+            <substJoin seq="3" target="#f19vop1_et_celebrité #f19vop1_et_frequence"/>
+            <p/>
+        </body>
+    </text>
+</TEI>

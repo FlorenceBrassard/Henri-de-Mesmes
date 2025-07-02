@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><undo target="#f19vop10_la_plus"/><del xml:id="f19vop10_la_plus"><choice>
+                            <orig>la</orig>
+                            <reg>Là</reg>
+                        </choice>
+                        <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e fu examiné et <subst>
+                            <del>receu le</del>
+                            <add seq="1"><choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>ugé capable</add>
+                            <add seq="2"> le</add>
+                        </subst>
+                        <date>17<hi rend="superscript">e</hi>fe<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>rier <hi rend="overlined">1551</hi></date><add>agé de xx ans ou
+                            peu plus</add>.</del>
+                </s></p>
+        </body>
+    </text>
+</TEI>

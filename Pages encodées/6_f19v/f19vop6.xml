@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>e mesme fut en passant <del xml:id="f19vop6_a_et_2"><metamark
+                            function="insertion" target="#f19vop6_a_et_1">^</metamark>
+                        <add xml:id="f19vop6_a_et_1"><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>
+                            <placeName><choice>
+                                    <orig>p</orig>
+                                    <reg>P</reg>
+                                </choice>oitiers</placeName> et</add></del>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice><placeName><choice>
+                            <abbr rend="overlined">orls</abbr>
+                            <expan>Orléans</expan>
+                        </choice></placeName><add><del>et</del> le tout en <subst>
+                            <del>auditoire</del>
+                            <add>l'assistance</add>
+                        </subst> de touts les docteurs <del>et</del> de <subst
+                            xml:id="f19vop6_lescole_lauditoire">
+                            <del>l<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>escole</del>
+                            <add>l<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>auditoire</add>
+                        </subst> entier<del xml:id="f19vop6_e">e</del></add>
+                    <substJoin target="#f19vop6_lescole_lauditoire #f19vop6_e"/>
+                    <add
+                        xml:id="f19vop6_car_vaquoit"> car <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice><placeName><choice>
+                                <orig>p</orig>
+                                <reg>P</reg>
+                            </choice>oitiers</placeName> nous trou<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>äsmes que l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>esc<gap agent="reliure" unit="char" quantity="3"/>
+                        <supplied cert="high">ole</supplied> vaquo<gap agent="reliure" unit="char"
+                            quantity="2"/>
+                        <supplied cert="high">it</supplied></add><substJoin
+                        target="#f19vop6_a_et_2 #f19vop6_car_vaquoit"/><unclear cert="medium"
+                        reason="faded">.</unclear></s></p>
+        </body>
+    </text>
+</TEI>

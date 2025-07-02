@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><subst>
+                        <del xml:id="f19vop9_mais" seq="1"><choice>
+                                <orig>m</orig>
+                                <reg>M</reg>
+                            </choice>ais <metamark function="insertion" target="#f19vop9_il_a"
+                                >^</metamark></del>
+                        <del seq="2"><add seq="1" xml:id="f19vop9_lors"><choice>
+                                    <orig>l</orig>
+                                    <reg>L</reg>
+                                </choice>ors</add></del>
+                        <add seq="2"><choice>
+                                <orig>a</orig>
+                                <reg>A</reg>
+                            </choice>pres cela</add>
+                    </subst><add xml:id="f19vop9_il_a"><del xml:id="f19vop9_metamark_2"
+                                ><metamark>^</metamark></del> il sembla bon <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice></add><substJoin
+                        target="#f19vop9_metamark_2 #f19vop9_mais #f19vop9_lors"/>
+                    <roleName ref="https://isni.org/isni/0000000000812616">mon pere</roleName>
+                    <add xml:id="f19vop9_de1">de</add> m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oi<subst xml:id="f19vop9_a_er">
+                        <del rend="overwritten">a</del>
+                        <add place="superimposed">er</add>
+                    </subst>
+                    <substJoin target="#f19vop9_il_a #f19vop9_de1 #f19vop9_a_er"/> a la cour a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec le garde des seaus <subst>
+                        <del><persName ref="https://isni.org/isni/0000000112609540"><surname><choice>
+                                        <abbr><g ref="#ber-glyph">ƀ</g></abbr>
+                                        <expan>Ber</expan>
+                                    </choice>trandy</surname></persName></del>
+                        <add><del><unclear reason="deleted">et <choice>
+                                        <abbr><g ref="#qui-glyph">ꝙ</g></abbr>
+                                        <expan>qui</expan>
+                                    </choice></unclear></del> depuys <del>fut</del><choice>
+                                <abbr>card<hi rend="superscript">al</hi></abbr>
+                                <expan>cardinal</expan>
+                            </choice>
+                            <persName ref="https://isni.org/isni/0000000112609540"><surname><subst>
+                                        <del rend="overwritten"><unclear cert="low"
+                                                reason="overwritten">f</unclear></del>
+                                        <add place="superimposed"><choice>
+                                                <abbr><g ref="#ber-glyph-majuscule">B</g></abbr>
+                                                <expan>Ber</expan>
+                                            </choice></add>
+                                    </subst>trandy</surname></persName></add>
+                    </subst>
+                    <subst>
+                        <del>pour a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir sur<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>i<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ance de son office de <choice>
+                                <abbr>m<hi rend="superscript">e</hi></abbr>
+                                <expan>maistre</expan>
+                            </choice> des <choice>
+                                <abbr>req<hi rend="superscript">es</hi></abbr>
+                                <expan>requestes</expan>
+                            </choice>, que <choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>eu</del>
+                        <add>pour me <choice>
+                                <abbr>f<hi rend="superscript">er</hi></abbr>
+                                <expan>faire</expan>
+                            </choice> cognoistre au <roleName
+                                ref="https://isni.org/isni/0000000395001884">Roy</roleName> et <subst>
+                                <del>aspirer</del>
+                                <add>tendre</add>
+                            </subst>
+                            <choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> la succession de son office de <choice>
+                                <abbr>m<hi rend="superscript">e</hi></abbr>
+                                <expan>maistre</expan>
+                            </choice> des <choice>
+                                <abbr>Req<hi rend="superscript">es</hi></abbr>
+                                <expan>Requestes</expan>
+                            </choice></add>
+                    </subst><subst>
+                        <del>, puys</del>
+                        <add><choice>
+                                <orig/>
+                                <reg>;</reg>
+                            </choice>au retour</add>
+                    </subst> il me feit prendre un office de conseiller <del>et <choice>
+                            <abbr rend="overlined">gral</abbr>
+                            <expan>general</expan>
+                        </choice></del> en la cour des aides pource que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>estois sy <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eune qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>on ne m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>eust pas admis alieurs <del><add>aussy <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>y entray que ii matinées et la iii<hi rend="superscript"
+                            >e</hi></add></del>. </s></p>
+        </body>
+    </text>
+</TEI>

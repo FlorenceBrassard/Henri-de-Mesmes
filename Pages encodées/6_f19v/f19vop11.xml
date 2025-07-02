@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><undo target="#f19vop11_et_comptes"/>
+                    <del xml:id="f19vop11_et_comptes"><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t le <date>V<hi rend="superscript">e</hi>
+                        <choice>
+                            <orig>m</orig>
+                            <reg>M</reg>
+                        </choice>ars</date> ensuy<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant mes articles de mariage furent accordez puys le lundy <date>13 <choice>
+                                <orig>J</orig>
+                                <reg>j</reg>
+                            </choice>uin</date> aussy ensuy<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant qu<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>on disoit <date rend="overlined">1552</date>
+                        <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e fu <del><add>me</add></del> marié et espousay ma femme damoyselle <persName>
+                            <forename><choice>
+                                    <abbr>I.</abbr>
+                                    <expan><choice>
+                                            <orig>I</orig>
+                                            <reg>J</reg>
+                                        </choice>eanne</expan>
+                                </choice></forename><surname><choice>
+                                    <abbr>H.</abbr>
+                                    <expan>Hennequin</expan>
+                                </choice></surname></persName> fille de <choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice>
+                        <persName ref="https://isni.org/isni/0000000000926541"><forename><choice>
+                                    <orig>o</orig>
+                                    <reg>O</reg>
+                                </choice>udart</forename>
+                            <surname>Hennequin</surname></persName>
+                        <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>seiller et <choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice> des <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>ptes.</del>
+                <metamark function="undo" target="f19vop10.xml f19vop11.xml f19vop12.xml"
+                    >bon</metamark></s></p>
+        </body>
+    </text>
+</TEI>

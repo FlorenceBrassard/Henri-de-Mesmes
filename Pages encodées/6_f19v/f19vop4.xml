@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t que je fey <del xml:id="f19vop4_et">et</del><add xml:id="f19vop4_prenant"
+                  >prenant</add><del>leu ce qu<choice>
+               <orig/>
+               <reg>'</reg>
+               </choice>il</del>
+               <del xml:id="f19vop4_pris">pris</del>
+               <substJoin target="#f19vop4_et #f19vop4_pris #f19vop4_prenant"/> la loy o<choice>
+                  <orig>u</orig>
+                  <reg>ù</reg>
+               </choice> il estoit demouré le <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>our precedent. </s></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><subst>
+                        <del><choice>
+                                <orig>i</orig>
+                                <reg>I</reg>
+                            </choice>l voulut y</del>
+                        <add><del xml:id="f19vop5_a_quoy"><choice>
+                                    <orig>a</orig>
+                                    <reg>À</reg>
+                                </choice> quoy</del> il <del xml:id="f19vop5_daigna">daigna
+                                </del><add xml:id="f19vop5_y">y</add></add>
+                    </subst> assist<subst xml:id="f19vop5_er_a">
+                        <del rend="overwritten">er</del>
+                        <add place="superimposed">a</add>
+                    </subst><substJoin
+                        target="#f19vop5_a_quoy #f19vop5_daigna #f19vop5_y #f19vop5_er_a"
+                        /><add>luymesme <subst>
+                            <del>et</del>
+                            <add>a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ec</add>
+                        </subst> toute l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>escole</add> et <add xml:id="f19vop5_tesmoigna_pere">tesmoigna <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> mon pere</add> par <choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <expan>lettres</expan>
+                    </choice>latines <add xml:id="f19vop5_de_main">de sa main</add>
+                    <del xml:id="f19vop5_il_pere">il tesmoigna <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> mon pere</del><substJoin
+                           target="#f19vop5_tesmoigna_pere #f19vop5_de_main #f19vop5_il_pere"/> qu<choice>
+                              <orig/>
+                              <reg>'</reg>
+                           </choice>il n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>y a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit pas pris desplaisir.</s></p>
+        </body>
+    </text>
+</TEI>
