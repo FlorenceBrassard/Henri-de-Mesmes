@@ -69,7 +69,7 @@
                             </choice>
                             <persName ref="https://isni.org/isni/0000000112609540"><surname><subst>
                                         <del rend="overwritten"><unclear cert="low"
-                                                reason="overwritten">s</unclear></del>
+                                                reason="overwritten">f</unclear></del>
                                         <add place="superimposed"><choice>
                                                 <abbr><g ref="#ber-glyph-majuscule">B</g></abbr>
                                                 <expan>Ber</expan>
@@ -88,10 +88,10 @@
                                 <reg>v</reg>
                             </choice>ance de son office de <choice>
                                 <abbr>m<hi rend="superscript">e</hi></abbr>
-                                <expan>maître</expan>
+                                <expan>maistre</expan>
                             </choice> des <choice>
                                 <abbr>req<hi rend="superscript">es</hi></abbr>
-                                <expan>requêtes</expan>
+                                <expan>requestes</expan>
                             </choice>, que <choice>
                                 <orig>i</orig>
                                 <reg>j'</reg>
@@ -109,10 +109,10 @@
                                 <reg>à</reg>
                             </choice> la succession de son office de <choice>
                                 <abbr>m<hi rend="superscript">e</hi></abbr>
-                                <expan>maître</expan>
+                                <expan>maistre</expan>
                             </choice> des <choice>
                                 <abbr>Req<hi rend="superscript">es</hi></abbr>
-                                <expan>requêtes</expan>
+                                <expan>Requestes</expan>
                             </choice></add>
                     </subst><subst>
                         <del>, puys</del>
@@ -122,7 +122,7 @@
                             </choice>au retour</add>
                     </subst> il me feit prendre un office de conseiller <del>et <choice>
                             <abbr rend="overlined">gral</abbr>
-                            <expan>général</expan>
+                            <expan>general</expan>
                         </choice></del> en la cour des aides pource que <choice>
                         <orig>i</orig>
                         <reg>j'</reg>

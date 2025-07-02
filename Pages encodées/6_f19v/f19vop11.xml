@@ -25,11 +25,11 @@
                     <del xml:id="f19vop11_et_comptes"><choice>
                             <orig>e</orig>
                             <reg>E</reg>
-                        </choice>t le <date>V<hi rend="superscript">e</hi></date>
+                        </choice>t le <date>V<hi rend="superscript">e</hi>
                         <choice>
                             <orig>m</orig>
                             <reg>M</reg>
-                        </choice>ars ensuy<choice>
+                        </choice>ars</date> ensuy<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant mes articles de mariage furent accordez puys le lundy <date>13 <choice>
@@ -57,7 +57,7 @@
                                     <expan>Hennequin</expan>
                                 </choice></surname></persName> fille de <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
-                            <expan>maître</expan>
+                            <expan>maistre</expan>
                         </choice>
                         <persName ref="https://isni.org/isni/0000000000926541"><forename><choice>
                                     <orig>o</orig>
@@ -69,13 +69,13 @@
                             <expan>con</expan>
                         </choice>seiller et <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
-                            <expan>maître</expan>
+                            <expan>maistre</expan>
                         </choice> des <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>com</expan>
-                        </choice>ptes.</del></s>
+                        </choice>ptes.</del>
                 <metamark function="undo" target="f19vop10.xml f19vop11.xml f19vop12.xml"
-                    >bon</metamark></p>
+                    >bon</metamark></s></p>
         </body>
     </text>
 </TEI>

@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><choice>
+            <p><s><choice>
                     <orig>p</orig>
                     <reg>P</reg>
                 </choice>assasmes en <placeName><choice>
@@ -64,7 +64,7 @@
                     <del seq="1">temps</del>
                     <del seq="2"><add seq="1">siecle</add></del>
                     <add seq="2">temps</add>
-                </subst>.</p>
+                    </subst>.</s></p>
             <substJoin seq="1" target="#f19vop1_et1 #f19vop1_de1 #f19vop1_de2"/>
             <substJoin seq="2" target=" #f19vop1_et2 #f19vop1_et3 #f19vop1_maiesté"/>
             <substJoin seq="3" target="#f19vop1_et_celebrité #f19vop1_et_frequence"/>
