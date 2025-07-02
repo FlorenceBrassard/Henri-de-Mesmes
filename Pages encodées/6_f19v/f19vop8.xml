@@ -23,13 +23,12 @@
       <body>
          <p><s><subst>
                   <del><choice>
-                        <orig>la</orig>
-                        <reg>Là</reg>
-                     </choice>
-                     <del>l</del>arri<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                     </choice>ée</del>
+            <orig>la</orig>
+            <reg>Là</reg>
+         </choice> <del>l</del>arri<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ée </del>
                   <add><choice>
                         <orig>l</orig>
                         <reg>L</reg>
@@ -39,33 +38,30 @@
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e disputay <metamark function="insertion" target="#f19vop8_publiquement"
-                  >^</metamark>
-               <add xml:id="f19vop8_publiquement">publiquement</add> e<subst>
+                  >^</metamark><add xml:id="f19vop8_publiquement">publiquement</add> e<subst>
                   <del rend="overwritten">n</del>
-                  <add rend="superimposed">z</add>
-               </subst> escoles de decrets <metamark function="insertion"
-                  target="#f19vop8_en_compaignée">+</metamark>
-               <add xml:id="f19vop8_en_compaignée">
-                  <metamark>+</metamark> en grande <subst>
+                  <add place="superimposed">z</add>
+               </subst> escoles de decret <metamark function="insertion"
+                  target="#f19vop8_en_parlement">+</metamark><add xml:id="f19vop8_en_parlement"
+                     ><metamark>+</metamark>en grande <subst>
                      <del>assemblée</del>
                      <add><choice>
-                           <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                            <expan>com</expan>
                         </choice>paignée</add>
-                  </subst>
-                  <del>pour estre cogneu de la plus</del>
+                  </subst><del>pour estre cogneu de la plus</del>
                   <add><del>du</del> presque de tout le parlement</add>
                </add>
                <del>po</del> et <metamark function="insertion" target="#f19vop8_trois_ie"
-                  >^</metamark>
-               <add xml:id="f19vop8_trois_ie"><metamark>^</metamark> trois <choice>
+                  >^</metamark><add xml:id="f19vop8_trois_ie"><metamark>^</metamark>trois <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>ours apres <choice>
-                     <orig>i</orig>
-                     <reg>j</reg>
-                  </choice>e</add> prys les points pour debatre <choice>
-                  <orig>V</orig>
+                  </choice>ours
+                     apres <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e</add> prys les points pour debatre <choice>
+                  <orig>v</orig>
                   <reg>u</reg>
                </choice>ne regence en droict canon, et <subst>
                   <del>disputay</del>
@@ -73,7 +69,8 @@
                </subst> ou leus publicquement un an <del>et p</del> ou en<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>iron.</s></p>
+               </choice>iron.
+            </s></p>
       </body>
    </text>
 </TEI>
