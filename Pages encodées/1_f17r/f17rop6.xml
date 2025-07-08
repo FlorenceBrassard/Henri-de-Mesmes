@@ -215,10 +215,10 @@
                         <subst>
                             <del>qu'en</del>
                             <add>que</add>
-                        </subst><substJoin target="#f17rop6_et_1 #f17rop6_et_2"/> l<choice>
+                        </subst><substJoin target="#f17rop6_et_1 #f17rop6_et_2"/> <date>l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>an 1567 le gouverneur <subst>
+                        </choice>an 1567</date> le gouverneur <subst>
                             <del>du pais</del>
                             <add>de la ville</add>
                         </subst> se nommoit <del xml:id="f17rop6_lors">lors</del><undo rend="underlined"
