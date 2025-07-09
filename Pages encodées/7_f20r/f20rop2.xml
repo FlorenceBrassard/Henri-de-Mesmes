@@ -331,7 +331,8 @@
                      <reg>v</reg>
                   </choice>oit voulu m'examiner.</add>
                </del>
-               <substJoin target="#f20rop2_auec_destre #f20rop2_examiné_examiner"/>
+               <substJoin target="#f20rop2_auec_destre #f20rop2_examiné_examiner
+                  f20rop3_ma_1552"/>
                <metamark function="insert" target="f20rop2_auec_eage">+</metamark>
                <add xml:id="f20rop2_auec_eage"><metamark>+</metamark> a<choice>
                      <orig>u</orig>
