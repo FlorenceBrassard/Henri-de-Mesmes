@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del xml:id="f20rop3_ma_1552"><choice>
+                     <orig>m</orig>
+                     <reg>M</reg>
+                  </choice>a reception est du <date>XVI<hi rend="superscript">e</hi>
+                     <del>Jan<choice>
+                           <orig>u</orig>
+                           <reg>v</reg>
+                        </choice>ier <add><hi rend="overlined">1552</hi></add></del></date>
+                  <!--         Si on encode bel et bien cette suppression pour tenir compte de la rature particulière de Janvier 1552,
+            inclure une note présentant l'hypothèse selon laquelle elle serait concomitante du trait vertical indiquant la
+            suppression d’une bonne partie de la page? ou alors utiliser une balise indiquant une simultanéité.-->
+                  <add xml:id="f20rop3_point">.</add><subst xml:id="f20rop3_e_E">
+                     <del rend="overwritten">e</del>
+                     <add place="superimposed">E</add>
+                  </subst>t</del><substJoin seq="1" target="#f20rop3_point #f20rop3_e_E"/>
+               <subst xml:id="f20rop3_l_L">
+                  <del rend="overwritten">l</del>
+                  <add place="superimposed">L</add>
+               </subst>e <substJoin seq="2" target="#f20rop3_ma_1552 #f20rop3_l_L"/>
+               <date>27<hi rend="superscript">e</hi> aoust <subst>
+                     <del>ensuyvant</del>
+                     <add>1553</add>
+                  </subst></date>, <subst xml:id="f20rop3_je_lres">
+                  <del><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e fu expedié</del>
+                  <add><choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                     </choice>eu <choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <expan>lettres</expan>
+                     </choice></add>
+               </subst> de la sur<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>i<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ance <pb/><metamark function="insertion" target="#f20rop3_de_requestes"
+                  >^</metamark><add xml:id="f20rop3_de_requestes"><metamark>^</metamark>de <choice>
+                     <abbr>m<hi rend="superscript">e</hi></abbr>
+                     <expan>maistre</expan>
+                  </choice> des <choice>
+                     <abbr>req.<hi rend="superscript">tes</hi></abbr>
+                     <expan>requestes</expan>
+                  </choice></add> et <add xml:id="f20rop3_fus">fus</add><substJoin target="#f20rop3_je_lres #f20rop3_fus"></substJoin> receu au <choice>
+                  <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                  <expan>par</expan>
+               </choice>lement <metamark function="insertion">^</metamark><add
+                  xml:id="f20rop3_aussy_examen"><metamark>^</metamark>aussy sens examen</add> le
+                  <date>28 Septembre</date> en la mesme année qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>on <choice>
+                  <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                  <expan>com</expan>
+               </choice>ptoit <date rend="overlined">1553</date>
+               <add seq="1">n<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>aiant pas ancore xxii ans</add><add seq="2" xml:id="f20rop3_mais_estudes"
+                  >mais le <persName ref="https://isni.org/isni/0000000395001884"
+                        ><roleName>Roy</roleName><forename>Henry</forename></persName> mon bon <choice>
+                     <abbr>m<hi rend="superscript">e</hi></abbr>
+                     <expan>maistre</expan>
+                  </choice> le voulust <add>ainsy</add> et dit qu<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>il a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit suffisant raport de mes estudes</add><subst xml:id="f20rop3_mais_or">
+                  <del>mais</del>
+                  <add>or</add>
+               </subst><substJoin target="#f20rop3_mais_estudes #f20rop3_mais_or"/>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e ne laissay pour cela le service <subst>
+                  <del>du</del>
+                  <add>au</add>
+               </subst> grand conseil car mon pere reteint l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice> d<subst xml:id="f20rop3_u_e">
+                  <del rend="overwritten">u</del>
+                  <add place="superimposed">e</add>
+               </subst><subst xml:id="f20rop3_sien_estat">
+                  <del>sien</del>
+                  <add>son estat</add>
+               </subst><substJoin target="#f20rop3_u_e #f20rop3_sien_estat"/> et come <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e fu bien tost emploié en plusieurs charges, la mesme année <date
+                  rend="overlined">1553</date> estant en limosin o<choice>
+                  <orig>u</orig>
+                  <reg>ù</reg>
+               </choice>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e faisois par <subst>
+                  <del><choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g>and<hi rend="superscript">t</hi></abbr>
+                        <expan>comandement</expan>
+                     </choice>
+                     <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                     </choice>ticulier</del>
+                  <add><choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>com</expan>
+                     </choice>mission</add>
+               </subst> du <roleName ref="https://isni.org/isni/0000000395001884">Roy</roleName> le
+               proces criminel au gouvernemens <subst>
+                  <add>d</add>
+                  <del rend="overwritten">ez</del>
+                  <add place="superimposed">u</add>
+                  <add>pays</add>
+                  <del>Limosin</del>
+               </subst>, ma mere alla <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>
+               <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>ieu le dymanche <date>xiiii<hi rend="superscript">e</hi> Jan<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ier <del>155</del>
+                  <hi rend="overlined">1553</hi></date> aiant esté 23 ans et 2 mois en mariage du<choice>
+                  <abbr><g ref="que-glyph">ꝙ</g></abbr>
+                  <expan>que</expan>
+               </choice>l elle a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oit eu VI enfans masles et V filles dont les V masles et 3 femelles vi<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oient <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> son trespas.</s></p>
+      </body>
+   </text>
+</TEI>
