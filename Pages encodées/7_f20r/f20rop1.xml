@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><del><choice>
+         <p><s><del seq="2" xml:id="f20rop1_or_examines"><choice>
                <orig>o</orig>
                <reg>O</reg>
             </choice>r <choice>
@@ -34,18 +34,18 @@
                <orig>u</orig>
                <reg>v</reg>
             </choice>eau et faleut que touts <subst>
-               <del>fussions></del>
+               <del seq="1">fussions</del>
                <add>fussent</add>
             </subst> ouys et examin<choice>
                <orig>e</orig>
                <reg>é</reg>
-            </choice>s <add>pour <choice>
+            </choice>s<surplus>.</surplus> <add>pour <choice>
                   <abbr>f<hi rend="superscript">er</hi></abbr>
-                  <reg>former</reg>
+                  <expan>former</expan>
             </choice> la seconde chambre <choice>
                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                <expan>com</expan>
-            </choice>plete<surplus>.</surplus></add>.</del></s></p>
+            </choice>plete.</add></del></s></p>
       </body>
    </text>
 </TEI>
