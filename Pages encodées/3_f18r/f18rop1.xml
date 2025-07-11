@@ -42,12 +42,12 @@
                </choice>an<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>ier <hi rend="overlined">153<subst xml:id="f18rop1_date_1531">
+               </choice>ier <date><hi rend="overlined">153<subst xml:id="f18rop1_date_1531">
                      <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
                      <del rend="overwritten">2</del>
                      <add place="superimposed" seq="2">1</add>
-                  </subst></hi>
-               <del xml:id="f18rop1_qui_maintenant"><add seq="1">qui est 33 selon la reduction
+               </subst></hi></date>
+               <del xml:id="f18rop1_qui_maintenant"><add seq="1">qui est <date>33</date> selon la reduction
                         qu<substJoin target="#f18rop1_date_1531 #f18rop1_qui_maintenant"/><choice>
                         <orig/>
                         <reg>'</reg>
@@ -70,10 +70,10 @@
                      target="#f18rop1_qui_c #f18rop1_le"/> c<choice>
                      <abbr>õ</abbr>
                      <expan>om</expan>
-                  </choice>mancement de l<choice>
+                  </choice>mancement de <date>l<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>année <hi rend="overlined">1532</hi>
+                  </choice>année <hi rend="overlined">1532</hi></date>
                   <subst xml:id="f18rop1_mode_compte">
                      <del><choice>
                            <orig>a</orig>

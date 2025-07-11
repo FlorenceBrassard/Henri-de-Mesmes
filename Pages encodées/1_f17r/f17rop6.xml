@@ -267,7 +267,7 @@
                                             <reg>E</reg>
                                         </choice>scosse</placeName></add>
                                     <del xml:id="f17rop6_en_1567_2"><add xml:id="f17rop6_en_1567_1"><gap quantity="9"
-                                            unit="char"/>en fey en l'an 1567 <gap quantity="3"
+                                                unit="char"/>en fey en <date>l'an 1567</date> <gap quantity="3"
                                             unit="char"/></add></del>
                             </subst></add><subst>
                                 <del xml:id="f17rop6_que_2"><add xml:id="f17rop6_que_1">que</add></del>
@@ -304,10 +304,10 @@
                                     <expan>mation</expan>
                                 </choice></del>
                             <add>fey la recerche</add>
-                        </subst><del>qui fut</del><choice>
+                        </subst><del>qui fut</del><date><choice>
                             <orig rend="overlined">.1567.</orig>
                             <reg>(1567)</reg>
-                        </choice> et y avoit lors <subst>
+                        </choice></date> et y avoit lors <subst>
                             <del>bon nombre de</del>
                             <add>beaucoup de</add>
                         </subst> noblesse de <subst>
