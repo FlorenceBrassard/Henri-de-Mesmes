@@ -63,7 +63,9 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ance <pb/><metamark function="insert" target="#f20rop3_de_reqtes"
-                        >^</metamark><add xml:id="f20rop3_de_reqtes"><metamark>^</metamark>de <choice>
+                        >^</metamark>
+                    <add xml:id="f20rop3_de_reqtes">
+                        <metamark>^</metamark>de <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
                             <expan>maistre</expan>
                         </choice> des <choice>
@@ -75,19 +77,18 @@
                         <expan>par</expan>
                     </choice>lement <metamark function="insert">^</metamark><add
                         xml:id="f20rop3_aussy_examen"><metamark>^</metamark>aussy sens examen</add>
-                    le <date>28 Septembre</date> en la mesme année qu<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>on <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                        <expan>com</expan>
-                    </choice>ptoit <date rend="overlined">1553</date>
-                    <add seq="1">n<choice>
+                    le <date>28 Septembre en la mesme année qu<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>aiant pas ancore xxii ans</add><add seq="2"
-                        xml:id="f20rop3_mais_estudes">mais le <persName
-                            ref="https://isni.org/isni/0000000395001884"
+                        </choice>on <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>ptoit <hi rend="overlined">1553</hi></date>
+                    <add>n<choice>
+                            <orig> </orig>
+                            <reg>'</reg>
+                        </choice>aiant pas ancore xxii ans</add><add xml:id="f20rop3_mais_estudes"
+                        >mais le <persName ref="https://isni.org/isni/0000000395001884"
                                 ><roleName>Roy</roleName><forename>Henry</forename></persName> mon
                         bon <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
@@ -150,12 +151,18 @@
                                 <expan>com</expan>
                             </choice>mission</add>
                     </subst> du <roleName ref="https://isni.org/isni/0000000395001884"
-                        >Roy</roleName> le proces criminel au gouvernemens <subst>
+                        >Roy</roleName> le proces criminel au gouverneur <subst
+                            xml:id="f20rop3_ez_du">
                         <add>d</add>
                         <del rend="overwritten">ez</del>
                         <add place="superimposed">u</add>
+                    </subst>
+                    <subst xml:id="f20rop3_limousin_pais">
                         <add>pais</add>
-                        <del><placeName>Limosin</placeName></del>
+                        <del><placeName><choice>
+                            <orig>l</orig>
+                            <reg>L</reg>
+                        </choice>imosin</placeName></del>
                     </subst>, ma mere alla <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -163,7 +170,7 @@
                     <choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ieu le <date>dymanche xiiii<hi rend="superscript">e</hi> Jan<choice>
+                    </choice>ieu le <date>dymanche xiiij<hi rend="superscript">e</hi> Jan<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ier <del>155</del>

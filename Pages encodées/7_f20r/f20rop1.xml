@@ -39,7 +39,7 @@
             </subst> ouys et examin<choice>
                <orig>e</orig>
                <reg>é</reg>
-            </choice>s<surplus>.</surplus> <add>pour <choice>
+            </choice>s<del rend="unmarked">.</del> <add>pour <choice>
                   <abbr>f<hi rend="superscript">er</hi></abbr>
                   <expan>former</expan>
             </choice> la seconde chambre <choice>
