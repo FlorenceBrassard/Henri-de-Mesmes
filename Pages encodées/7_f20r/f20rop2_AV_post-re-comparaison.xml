@@ -40,7 +40,7 @@
                         </choice>paignons le <date>XX<hi rend="superscript">e</hi> decembre <hi
                                 rend="overlined">1552</hi></date>
                         <metamark function="insert" target="#f20rop2_mais_conseil 
-                            #f20rop2_ce_par">+</metamark></del>
+                     #f20rop2_ce_par">+</metamark></del>
                     <add xml:id="f20rop2_mais_conseil">
                         <metamark><del rend="unmarked">+</del></metamark> mais y estant entr<choice>
                             <orig>e</orig>
@@ -67,7 +67,7 @@
                         </choice>entrer au grand <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>con</expan>
-                        </choice>seil</add>. <subst>
+                        </choice>seil </add>. <subst>
                         <del xml:id="f20rop2_et_par"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
@@ -141,7 +141,7 @@
                             <substJoin
                                 target="#f20rop2_afin_fut #f20rop2_plus_honeur #f20rop2_plus_honorables"/>
                             <subst>
-                                <del xml:id="f20rop2_et_qui"> et a<choice>
+                                <del xml:id="f20rop2_et_qui">et a<choice>
                                         <orig>u</orig>
                                         <reg>v</reg>
                                     </choice>ois <subst>
@@ -171,7 +171,7 @@
                                         <expan>monsieur</expan>
                                     </choice>
                                     <persName ref="https://isni.org/isni/0000000119390270">
-                                        <nameLink> du </nameLink>
+                                        <nameLink>du</nameLink>
                                         <surname><choice>
                                                 <orig>f</orig>
                                                 <reg>F</reg>
@@ -180,7 +180,7 @@
                                         >^</metamark><add xml:id="f20rop2_corras"
                                             ><metamark>^</metamark><choice>
                                             <orig> </orig>
-                                            <reg>, </reg>
+                                            <reg>,</reg>
                                         </choice>
                                         <persName ref="https://isni.org/isni/0000000121007699">
                                             <surname><choice>
@@ -212,20 +212,19 @@
                                                 </choice>ibrac</surname></persName>. <choice>
                                             <orig>c</orig>
                                             <reg>C</reg>
-                                        </choice>ela</add>
+                                        </choice>ela </add>
                                 </add>
                             </subst> me feit <del xml:id="f20rop2_desdaigner_me">desdaigner d<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice>en voir <del xml:id="f20rop2_soir"><add>soir</add></del>
-                                six <metamark function="insert" target="#f20rop2_nouueaus"
-                                    >^</metamark>
-                                <del xml:id="f20rop2_nouueaus_2"><add xml:id="f20rop2_nouueaus"
-                                            ><metamark>^</metamark> des nou<choice>
-                                            <orig>u</orig>
-                                            <reg>v</reg>
-                                        </choice>eaus</add></del><substJoin
-                                    target="#f20rop2_soir #f20rop2_nouueaus_2"/> de<choice>
+                                </choice>en voir six <metamark function="insert"
+                                    target="#f20rop2_soit_nouueaus">^</metamark>
+                                <add xml:id="f20rop2_soit_nouueaus">soi<unclear cert="medium"
+                                        reason="cancelled">t</unclear>
+                                    <metamark>^</metamark> des nou<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>eaus</add> de<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ant moy tellement que <choice>
@@ -273,7 +272,7 @@
                                     </choice>our <choice>
                                         <orig>v</orig>
                                         <reg>u</reg>
-                                    </choice>n </add>
+                                    </choice>n</add>
                             </subst>
                             <del>office de conseiller au grand <choice>
                                     <abbr><g ref="#con-glyph">ꝯ</g></abbr>
@@ -321,7 +320,7 @@
                                     <orig/>
                                     <reg>'</reg>
                                 </choice>estre</del>
-                            <del> examiné sur le champ qui ne fut acceptée et me receurent sens
+                            <del>examiné sur le champ qui ne fut acceptée et me receurent sens
                                 examen sur <choice>
                                     <abbr><g ref="#que-glyph">ꝙ</g>l<g ref="#que-glyph">ꝙ</g></abbr>
                                     <expan>quelque</expan>
@@ -334,7 +333,7 @@
                                 </subst>
                                 <metamark function="insert" target="#f20rop2_ancore_fust"
                                     >^</metamark>
-                                <add xml:id="f20rop2_ancore_fust"><metamark>^</metamark>ancore que
+                                <add xml:id="f20rop2_ancore_fust"><metamark>^</metamark> ancore que
                                     ce fust</add> sens merite <del>toutesfois</del> et mirent sur le <choice>
                                     <abbr>re<hi rend="overlined">gre</hi></abbr>
                                     <expan>registre</expan>
@@ -356,7 +355,7 @@
                             </del></del>
                         <add seq="2"><metamark function="insert" target="f20rop2_auec_eage"
                                 >+</metamark></add>
-                        <add seq="2" xml:id="f20rop2_auec_eage"><metamark>+</metamark>a<choice>
+                        <add seq="2" xml:id="f20rop2_auec_eage"><metamark>+</metamark> a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ec dispense d'eage</add>
