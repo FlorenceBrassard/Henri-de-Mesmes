@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>f</orig>
+                  <reg>F</reg>
+               </choice>emme certes de <subst>
+                  <del>singuliere</del>
+                  <add>rare</add>
+               </subst> vertu, et <subst>
+                  <del>integrité,</del>
+                  <add>pudeur</add>
+               </subst> et <subst>
+                  <del>et a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>ec cela treseloquente</del>
+                  <add>qui <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>pro</expan>
+                  </choice>loit aussy proprement en sa langue 
+                     <del>que la mere de</del> qu'autre 
+                     que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                     </choice>aie <subst>
+                        <del>veu</del>
+                        <add>veue</add>
+                     </subst>
+                  </add>
+               </subst>.</s></p>
+      </body>
+   </text>
+</TEI>
