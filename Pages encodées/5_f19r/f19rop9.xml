@@ -39,7 +39,13 @@
                </choice>ec catedran<choice>
                   <orig/>
                   <reg>,</reg>
-               </choice> la ii<hi rend="superscript">e</hi> iii <choice>
+               </choice> la i<choice>
+                  <orig>j</orig>
+                  <reg>i</reg>
+               </choice><hi rend="superscript">e</hi> ii<choice>
+                  <orig>j</orig>
+                  <reg>i</reg>
+               </choice> <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>ours entiers <subst>

@@ -141,7 +141,13 @@
                             </choice>e n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>y entray que ii matinées et la iii<hi rend="superscript"
+                            </choice>y entray que i<choice>
+                                <orig>j</orig>
+                                <reg>i</reg>
+                            </choice> matinées et la ii<choice>
+                                <orig>j</orig>
+                                <reg>i</reg>
+                            </choice><hi rend="superscript"
                             >e</hi></add></del>. </s></p>
         </body>
     </text>
