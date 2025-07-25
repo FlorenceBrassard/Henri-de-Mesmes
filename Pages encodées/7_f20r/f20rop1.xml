@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del seq="2" xml:id="f20rop1_or_examines"><choice>
+               <orig>o</orig>
+               <reg>O</reg>
+            </choice>r <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>e ne fus pas sy tost receu aux aides car nous estions huict qui venions par <choice>
+               <orig>v</orig>
+               <reg>u</reg>
+            </choice>n edict nou<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>eau et faleut que touts <subst>
+               <del seq="1">fussions</del>
+               <add>fussent</add>
+            </subst> ouys et examin<choice>
+               <orig>e</orig>
+               <reg>é</reg>
+            </choice>s<del rend="unmarked">.</del> <add>pour <choice>
+                  <abbr>f<hi rend="superscript">er</hi></abbr>
+                  <expan>former</expan>
+            </choice> la seconde chambre <choice>
+               <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+               <expan>com</expan>
+            </choice>plete.</add></del></s></p>
+      </body>
+   </text>
+</TEI>

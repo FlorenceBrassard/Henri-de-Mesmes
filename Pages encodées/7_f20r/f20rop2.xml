@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><substJoin target="#f20rop1_or_examines #f20rop2_parquoy_1552 #f20rop2_et_par"/>
+                    <del xml:id="f20rop2_parquoy_1552">
+                        <choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>arquoy ma reception <metamark function="insert"
+                            target="#f20rop2_et_installation">^</metamark>
+                        <add xml:id="f20rop2_et_installation">
+                            <metamark>^</metamark> et installation</add>
+                        <del rend="overwritten">et</del>
+                        <add place="superimposed">fut</add> a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec touts mes <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>paignons le <date>XX<hi rend="superscript">e</hi> decembre <hi
+                                rend="overlined">1552</hi></date>
+                        <metamark function="insert" target="#f20rop2_mais_conseil 
+                            #f20rop2_ce_par">+</metamark></del>
+                    <add xml:id="f20rop2_mais_conseil">
+                        <metamark><del rend="unmarked">+</del></metamark> mais y estant entr<choice>
+                            <orig>e</orig>
+                            <reg>é</reg>
+                        </choice>
+                        <subst>
+                            <del>ii <unclear cert="medium" reason="canceled">fois</unclear></del>
+                            <add>aux aides deux</add>
+                        </subst> matinées <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e me resolu <metamark function="insert" target="#f20rop2_le_iour"
+                            >^</metamark>
+                        <add xml:id="f20rop2_le_iour">le iii<hi rend="superscript">e</hi>
+                            <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>our</add> puys que mon eage estoit cou<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ert d<choice>
+                            <orig> </orig>
+                            <reg>'</reg>
+                        </choice>entrer au grand <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>seil</add>. <subst>
+                        <del xml:id="f20rop2_et_par"><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>t me desplut <subst>
+                                <del>que</del>
+                                <add>quand</add>
+                            </subst> par arrest ilz ordonerent que nostre <subst>
+                                <del>ranc</del>
+                                <add xml:id="f20rop2_seance">seance</add>
+                            </subst> seroit reglé<add xml:id="f20rop2_e">e</add>
+                            <substJoin target="#f20rop2_seance #f20rop2_e"/> sur <subst>
+                                <del>les</del>
+                                <add>noz</add>
+                            </subst>
+                            <choice>
+                                <abbr rend="overlined">lres</abbr>
+                                <expan>lettres</expan>
+                            </choice> de licence car <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e<del>n</del> n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>en a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ois pas pris la seconde année come <subst>
+                                <del>les</del>
+                                <add>d'</add>
+                            </subst>autres, ains <choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> la mode de <placeName><choice>
+                                    <abbr rend="overlined">Thle</abbr>
+                                    <expan>Tholose</expan>
+                                </choice></placeName>
+                            <choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ois attendu les VI ans <metamark function="insert"
+                                target="#f20rop2_a_prendre">^</metamark><add
+                                xml:id="f20rop2_a_prendre"><metamark>^</metamark><choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                                </choice> les prendre</add>
+                            <choice>
+                                <abbr>po<hi rend="superscript">r</hi></abbr>
+                                <expan>pour</expan>
+                            </choice> lire trois ans sens degré a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ec heures <add xml:id="f20rop2_plus_honorables">plus
+                                honorables</add> et en <choice>
+                                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                                <expan>con</expan>
+                            </choice>curran<unclear cert="high">c</unclear>e mesme des docteurs
+                            regens <subst>
+                                <del>pour</del>
+                                <add><del xml:id="f20rop2_afin_fut">afin que ce fut</del></add>
+                            </subst>
+                            <subst>
+                                <del xml:id="f20rop2_plus_honeur"> plus d'honeur</del>
+                                <add> qui lors estoient tresca<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>ans.</add>
+                            </subst>
+                            <substJoin
+                                target="#f20rop2_afin_fut #f20rop2_plus_honeur #f20rop2_plus_honorables"/>
+                            <subst>
+                                <del xml:id="f20rop2_et_qui"> et a<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>ois <subst>
+                                        <del>telle</del>
+                                        <add>quel<choice>
+                                                <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                                                <expan>que</expan>
+                                            </choice></add>
+                                    </subst>
+                                    <choice>
+                                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                                        <expan>con</expan>
+                                    </choice>fiance de mes estudes qui</del>
+                                <add xml:id="f20rop2_et_cela"><choice>
+                                        <orig>e</orig>
+                                        <reg>E</reg>
+                                    </choice>t a<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>ec lesquels lisoient aussy de mesme temps que nous <del><choice>
+                                            <abbr>m<hi rend="superscript">r</hi></abbr>
+                                            <expan>monsieur</expan>
+                                        </choice>
+                                        <nameLink> du</nameLink></del>
+                                    <choice>
+                                        <abbr>m<hi rend="superscript">r</hi></abbr>
+                                        <expan>monsieur</expan>
+                                    </choice>
+                                    <persName ref="https://isni.org/isni/0000000119390270">
+                                        <nameLink> du </nameLink>
+                                        <surname><choice>
+                                                <orig>f</orig>
+                                                <reg>F</reg>
+                                            </choice>errier</surname></persName>
+                                    <metamark function="insert" target="#f20rop2_corras"
+                                        >^</metamark><add xml:id="f20rop2_corras"
+                                            ><metamark>^</metamark><choice>
+                                            <orig> </orig>
+                                            <reg>, </reg>
+                                        </choice>
+                                        <persName ref="https://isni.org/isni/0000000121007699">
+                                            <surname><choice>
+                                                  <orig>c</orig>
+                                                  <reg>C</reg>
+                                                </choice>orras</surname></persName></add>, <persName
+                                        ref="https://isni.org/isni/0000000013211908"><nameLink>du </nameLink>
+                                        <surname><choice>
+                                                <orig>b</orig>
+                                                <reg>B</reg>
+                                            </choice>ourg</surname></persName><choice>
+                                        <orig> </orig>
+                                        <reg>, </reg>
+                                    </choice>
+                                    <del><persName ref="https://isni.org/isni/0000000080770195">
+                                            <surname><choice>
+                                                  <orig>p</orig>
+                                                  <reg>P</reg>
+                                                </choice>ibrac</surname></persName> et </del>
+                                    <persName ref="https://isni.org/isni/0000000121312191"><surname>Cu<choice>
+                                                <orig>i</orig>
+                                                <reg>j</reg>
+                                            </choice>as</surname></persName><del rend="unmarked"
+                                        >.</del>
+                                    <add> et <persName ref="https://isni.org/isni/0000000080770195">
+                                            <surname><choice>
+                                                  <orig>p</orig>
+                                                  <reg>P</reg>
+                                                </choice>ibrac</surname></persName>. <choice>
+                                            <orig>c</orig>
+                                            <reg>C</reg>
+                                        </choice>ela</add>
+                                </add>
+                            </subst> me feit <del xml:id="f20rop2_desdaigner_me">desdaigner d<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>en voir <del xml:id="f20rop2_soir"><add>soir</add></del>
+                                six <metamark function="insert" target="#f20rop2_nouueaus"
+                                    >^</metamark>
+                                <del xml:id="f20rop2_nouueaus_2"><add xml:id="f20rop2_nouueaus"
+                                            ><metamark>^</metamark> des nou<choice>
+                                            <orig>u</orig>
+                                            <reg>v</reg>
+                                        </choice>eaus</add></del><substJoin
+                                    target="#f20rop2_soir #f20rop2_nouueaus_2"/> de<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ant moy tellement que <choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>e me</del> reso<del rend="unmarked" xml:id="f20rop2_l1"
+                                >l</del>u<add xml:id="f20rop2_dre">dre</add>
+                            <substJoin
+                                target="#f20rop2_et_cela #f20rop2_desdaigner_me #f20rop2_l1 #f20rop2_dre"
+                            /> de <del>les</del> quiter <subst>
+                                <del>et n<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>y</del>
+                                <add>cest office o<choice>
+                                        <orig>u</orig>
+                                        <reg>ù</reg>
+                                    </choice><choice>
+                                        <orig>i</orig>
+                                        <reg>j</reg>
+                                    </choice>e n'</add>
+                            </subst>estois entr<choice>
+                                <orig>e</orig>
+                                <reg>é</reg>
+                            </choice> que deux ou trois matinées. <subst>
+                                <del><choice>
+                                        <orig>q</orig>
+                                        <reg>Q</reg>
+                                    </choice>uand <choice>
+                                        <orig>i</orig>
+                                        <reg>j</reg>
+                                    </choice>e fus pour<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>eu d<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>un</del>
+                                <add>Et en pris <del><choice>
+                                            <orig>v</orig>
+                                            <reg>u</reg>
+                                        </choice>n</del> le mesme <choice>
+                                        <orig>i</orig>
+                                        <reg>j</reg>
+                                    </choice>our <choice>
+                                        <orig>v</orig>
+                                        <reg>u</reg>
+                                    </choice>n </add>
+                            </subst>
+                            <del>office de conseiller au grand <choice>
+                                    <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                                    <expan>con</expan>
+                                </choice>seil par</del>
+                        </del>
+                        <add xml:id="f20rop2_ce_par">ce qui me fut <subst>
+                                <del>accord<choice>
+                                        <orig>e</orig>
+                                        <reg>é</reg>
+                                    </choice></del>
+                                <add>expedi<choice>
+                                        <orig>e</orig>
+                                        <reg>é</reg>
+                                    </choice></add>
+                            </subst> ce <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>our mesme par</add>
+                    </subst> la diligente entremise et moien<add>s</add> de mon beau pere<choice>
+                        <orig>,</orig>
+                        <reg>.</reg>
+                    </choice>
+                    <subst>
+                        <del>o<choice>
+                                <orig>u</orig>
+                                <reg>ù</reg>
+                            </choice></del>
+                        <add xml:id="f20rop2_lendemain_1"><choice>
+                                <orig>l</orig>
+                                <reg>L</reg>
+                            </choice>endemain</add>
+                    </subst> mon pere me feit rece<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir <subst>
+                        <del xml:id="f20rop2_lendemain_2">lendemain</del>
+                        <add>dez le</add>
+                    </subst> matin <substJoin target="#f20rop2_lendemain_1 #f20rop2_lendemain_2"/>
+                    <subst>
+                        <del xml:id="f20rop2_auec_examiner"><del>a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ec offre d<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>estre</del>
+                            <del> examiné sur le champ qui ne fut acceptée et me receurent sens
+                                examen sur <choice>
+                                    <abbr><g ref="#que-glyph">ꝙ</g>l<g ref="#que-glyph">ꝙ</g></abbr>
+                                    <expan>quelque</expan>
+                                </choice> opinion qu<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>il leur sembla prendre de <subst>
+                                    <del>moy</del>
+                                    <add>mes estudes</add>
+                                </subst>
+                                <metamark function="insert" target="#f20rop2_ancore_fust"
+                                    >^</metamark>
+                                <add xml:id="f20rop2_ancore_fust"><metamark>^</metamark>ancore que
+                                    ce fust</add> sens merite <del>toutesfois</del> et mirent sur le <choice>
+                                    <abbr>re<hi rend="overlined">gre</hi></abbr>
+                                    <expan>registre</expan>
+                                </choice> que ce n<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>estoit point pour le <subst>
+                                    <del>regard</del>
+                                    <add>respect</add>
+                                </subst> de la cour des aides<del rend="unmarked">.</del>
+                                <add>qu<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>on n'a<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>oit voulu m'examiner.</add>
+                                <substJoin target="#f20rop2_auec_examiner #f20rop3_ma_1552"/>
+                            </del></del>
+                        <add seq="2"><metamark function="insert" target="f20rop2_auec_eage"
+                                >+</metamark></add>
+                        <add seq="2" xml:id="f20rop2_auec_eage"><metamark>+</metamark>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ec dispense d'eage</add>
+                        <add seq="1">et sens examen</add>
+                        <add seq="2"><metamark function="insert" target="#f20rop2_apres_rencontres"
+                                >⊸</metamark></add>
+                        <add seq="2" xml:id="f20rop2_apres_rencontres"><metamark>⊸</metamark> apres
+                            qu'aucuns du conseil eurent tesmoign<choice>
+                                <orig>e</orig>
+                                <reg>é</reg>
+                            </choice> de mes disputes et lectures <add><choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                                </choice><placeName><choice>
+                                        <abbr rend="overlined">Thle</abbr>
+                                        <expan>Tholose</expan>
+                                    </choice></placeName></add>, o<choice>
+                                <orig>u</orig>
+                                <reg>ù</reg>
+                            </choice> ilz a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oient assisté <choice>
+                                <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                                <expan>par</expan>
+                            </choice><add xml:id="f20rop2_diuers">di<choice>
+                                    <orig>u</orig>
+                                    <reg>ù</reg>
+                                </choice>ers</add> rencontre<add xml:id="f20rop2_s">s</add>.
+                                <substJoin target="#f20rop2_diuers #f20rop2_s"/></add>
+                    </subst>
+                </s>
+            </p>
+        </body>
+    </text>
+</TEI>
