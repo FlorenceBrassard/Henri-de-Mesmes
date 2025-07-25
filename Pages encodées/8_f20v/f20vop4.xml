@@ -6,213 +6,234 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p><s><del>En</del>
-               <del><choice>
-                     <orig>l</orig>
-                     <reg>L</reg>
-                  </choice>or</del>
-               <choice>
-                  <orig>e</orig>
-                  <reg>E</reg>
-               </choice>n ce temps la le <persName ref="https://isni.org/isni/0000000395001884"
-                     ><roleName>Roy</roleName><forename>Henry</forename></persName> qui me faisoit
-               cest honeur de <subst>
-                  <del seq="1">m<choice>
-                        <orig/>
-                        <reg>'</reg>
-                     </choice>aimer, et</del>
-                  <add seq="2" xml:id="f20vop4_me">me</add>
-                  <add seq="1">gouster <del seq="2" xml:id="f20vop4_quelque_estudes">quelque essay
-                        de mes ieu<unclear>nes</unclear> estudes</del></add>
-                  <add seq="2" xml:id="f20vop4_et_auancement">et fa<choice>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><del>En</del>
+                    <del><choice>
+                            <orig>l</orig>
+                            <reg>L</reg>
+                        </choice>or</del>
+                    <choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>n ce temps l<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> le <persName ref="https://isni.org/isni/0000000395001884"
+                            ><roleName>Roy</roleName><forename>Henry</forename></persName> qui me
+                    faisoit cest honeur de <subst>
+                        <del seq="1">m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>aimer, et</del>
+                        <add seq="2" xml:id="f20vop4_me">me</add>
+                        <add seq="1">gouster <del seq="2" xml:id="f20vop4_quelque_estudes">quelque
+                                essay de mes <choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>eu<unclear cert="medium" reason="canceled">nes</unclear>
+                                estudes</del></add>
+                        <add seq="2" xml:id="f20vop4_et_auancement">et fa<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oriser mon a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ancement,</add>
+                    </subst><substJoin
+                        target="#f20vop4_me #f20vop4_quelque_estudes #f20vop4_et_auancement"/> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                     </choice>oriser mon a<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                     </choice>ancement,</add>
-               </subst><substJoin
-                  target="#f20vop4_me #f20vop4_quelque_estudes #f20vop4_et_auancement"/> a<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>oit <choice>
-                  <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                  <expan>com</expan>
-               </choice>mandé que <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>e le ser<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>isse <add>pres sa persone</add> en l<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>estat de <choice>
-                  <abbr>m<hi rend="superscript">e</hi></abbr>
-                  <expan>maistre</expan>
-               </choice> des Requestes <add>come <choice>
-                     <orig>i</orig>
-                     <reg>j</reg>
-                  </choice>e faisois</add><pb/> dont <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>'ay la depesche signée <persName><surname><choice>
-                        <orig>b</orig>
-                        <reg>B</reg>
-                     </choice>ourdin</surname></persName><del>du <space/></del><subst>
-                  <del><del>a<choice>
-                           <orig>u</orig>
-                           <reg>v</reg>
-                        </choice>oit</del></del>
-                  <add><choice>
+                    </choice>oit <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>mandé que <choice>
                         <orig>i</orig>
-                        <reg>I</reg>
-                     </choice>l -- eut</add>
-               </subst> volonté de rendre les <del>vaillys</del>
-               <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>uges des pro<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>inces annaulx et les <choice>
-                  <abbr>f<hi rend="superscript">er</hi></abbr>
-                  <expan>faire</expan>
-               </choice> sindiquer apres l<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>an <choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice> la mode d<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice><choice>
-                  <orig>i</orig>
-                  <reg>I</reg>
-               </choice>talie, <subst>
-                  <del>deliberer d<choice>
-                        <orig/>
-                        <reg>'</reg>
-                     </choice>en <choice>
-                        <abbr>f<hi rend="superscript">er</hi></abbr>
-                        <expan>faire</expan>
-                     </choice> l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                     </choice>essay</del>
-                  <add>Pour en <choice>
-                        <abbr>f<hi rend="superscript">er</hi></abbr>
-                        <expan>faire</expan>
-                     </choice> un essay il delibera de m<choice>
-                        <orig> </orig>
-                        <reg>'</reg>
-                     </choice>en<choice>
+                        <reg>j</reg>
+                    </choice>e le ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                     </choice>oier</add>
-               </subst><subst>
-                  <del>au pays</del>
-                  <add>vers les</add>
-               </subst>
-               <choice>
-                  <orig>s</orig>
-                  <reg>S</reg>
-               </choice>ienois <del>o<choice>
-                     <orig>u</orig>
-                     <reg>ù</reg>
-                  </choice> il me <choice>
-                     <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                     <expan>com</expan>
-                  </choice>man</del>. qui lors estoi<subst>
-                  <del rend="overwritten">t</del>
-                  <add place="superimposed">ent</add>
-               </subst> en sa protection <metamark function="insert" target="#f20vop4_et_iustice"
-                  >+</metamark><add xml:id="f20vop4_et_iustice">et luy demandoient <choice>
-                     <orig>v</orig>
-                     <reg>u</reg>
-                  </choice>n chef de <choice>
-                     <orig>i</orig>
-                     <reg>j</reg>
-                  </choice>ustice </add><subst>
-                  <del>et s<choice>
+                    </choice>isse <add>pres sa persone</add> en l<choice>
                         <orig/>
                         <reg>'</reg>
-                     </choice>en</del>
-                  <add>ce qu<choice>
+                    </choice>estat de <choice>
+                        <abbr>m<hi rend="superscript">e</hi></abbr>
+                        <expan>maistre</expan>
+                    </choice> des Requestes <add>come <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e faisois</add><pb/> dont <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>'ay la depesche signée <persName><surname><choice>
+                                <orig>b</orig>
+                                <reg>B</reg>
+                            </choice>ourdin</surname></persName><del>du <space/></del><choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice><subst>
+                        <del>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit</del>
+                        <add><choice>
+                                <orig>i</orig>
+                                <reg>I</reg>
+                            </choice>l -- eut</add>
+                    </subst> volonté de rendre les <del>baillys</del>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>uges des pro<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>inces anuaulx et les <choice>
+                        <abbr>f<hi rend="superscript">er</hi></abbr>
+                        <expan>faire</expan>
+                    </choice> sindiquer apres l<choice>
                         <orig/>
                         <reg>'</reg>
-                     </choice>il</add>
-               </subst> descou<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>rit <del><metamark function="insert" target=" #f20vop4_bientost"
-                     >^</metamark></del><add seq="1" xml:id="f20vop4_bientost"
-                  ><del>bientost</del></add><add seq="2"><choice>
-                     <orig>v</orig>
-                     <reg>u</reg>
-                  </choice>n <choice>
-                     <orig>i</orig>
-                     <reg>j</reg>
-                  </choice>our</add>
-               <choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice> mon pere l<subst>
-                  <del rend="overwritten">e</del>
-                  <add place="superimposed">u</add>
-               </subst>y declarant qu<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>il s<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>en vouloit <del><unclear reason="inkblot"
-                  >fier</unclear></del><add>fier</add> en moy sens rece<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>oir l<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>excuse de ma jeunesse et <del><metamark function="insert"
-                     >^</metamark><add>de mon </add></del> peu d<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>experiance pour<add><del>o</del></add> gou<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>erner <choice>
-                  <orig>v</orig>
-                  <reg>u</reg>
-               </choice>ne pro<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>ince sy libre sy mou<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>ante et sy esle<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>ée que ceste l<choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice>.
-            </s></p>
-      </body>
-   </text>
+                    </choice>an <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> la mode d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice><placeName><choice>
+                            <orig>i</orig>
+                            <reg>I</reg>
+                        </choice>talie</placeName>, <subst>
+                        <del>deliberer d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>en <choice>
+                                <abbr>f<hi rend="superscript">er</hi></abbr>
+                                <expan>faire</expan>
+                            </choice> l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>essay</del>
+                        <add>Pour en <choice>
+                                <abbr>f<hi rend="superscript">er</hi></abbr>
+                                <expan>faire</expan>
+                            </choice> un essay il delibera de m<choice>
+                                <orig> </orig>
+                                <reg>'</reg>
+                            </choice>en<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oier</add>
+                    </subst><subst>
+                        <del>au pays</del>
+                        <add xml:id="f20vop4_vers_les">vers les</add>
+                    </subst>
+                    <choice>
+                        <orig>s</orig>
+                        <reg>S</reg>
+                    </choice>ienois <del>o<choice>
+                            <orig>u</orig>
+                            <reg>ù</reg>
+                        </choice> il me <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>man</del>.</s><s><choice>
+                        <orig>q</orig>
+                        <reg>Q</reg>
+                    </choice>ui lors estoi<subst xml:id="f20vop4_t_ent">
+                        <del rend="overwritten">t</del>
+                        <add place="superimposed">ent</add>
+                    </subst><substJoin target="#f20vop4_vers_les 
+                           #f20vop4_t_ent"/> en sa protection <metamark
+                        function="insert" target="#f20vop4_et_iustice">+</metamark><add
+                        xml:id="f20vop4_et_iustice">et luy demandoient <choice>
+                            <orig>v</orig>
+                            <reg>u</reg>
+                        </choice>n chef de <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>ustice </add><subst>
+                        <del>et s<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>en</del>
+                        <add>ce qu<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>il</add>
+                    </subst> descou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>rit <del xml:id="f20vop4_metamark_1_del"><metamark function="insert"
+                            target=" #f20vop4_bientost">^</metamark></del><subst>
+                        <del xml:id="f20vop4_bientost_del"><add seq="1" xml:id="f20vop4_bientost"
+                                >bientost</add></del>
+                        <add seq="2"><choice>
+                                <orig>v</orig>
+                                <reg>u</reg>
+                            </choice>n <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>our</add>
+                    </subst>
+                    <substJoin target="#f20vop4_bientost_del #f20vop4_metamark_1_del"/>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> mon <roleName ref="https://isni.org/isni/0000000000812616"
+                        >pere</roleName> l<subst>
+                        <del rend="overwritten">e</del>
+                        <add place="superimposed">u</add>
+                    </subst>y declarant qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en vouloit <subst>
+                        <del><damage agent="stain">fier</damage></del>
+                        <add>fier</add>
+                    </subst> en moy sens rece<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>excuse de ma jeunesse et <del><metamark function="insert"
+                       target="#f20vop4_de_mon">^</metamark><add xml:id="f20vop4_de_mon">de mon </add></del> peu d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>experiance pour<del><add>o</add></del> gou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>erner <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>ne pro<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ince sy libre sy mou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ante et sy esle<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ée que ceste l<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>. </s></p>
+        </body>
+    </text>
 </TEI>
