@@ -69,13 +69,15 @@
                <orig>M</orig>
                <reg>m</reg>
             </choice>ay 
-                  <date><del xml:id="f17vop5_date_15312"><date><hi rend="overlined">153
-                        <del rend="overwritten" seq="1">2</del>
+                  
+                  <date><del xml:id="f17vop5_date_15312"><hi rend="overlined">153
+                        <subst><del rend="overwritten" seq="1">2</del>
                         <del seq="2"><add place="superimposed" seq="1">1</add></del>
-                        <add seq="2">2</add>
-                  </hi></date></del></date>.
+                           <add seq="2">2</add></subst>
+                  </hi></del></date>.
                   <add xml:id="f17vop5_date_1531"><date><hi rend="trait_suscrit">1531</hi></date></add>
                   <substJoin target="#f17vop5_date_15312 #f17vop5_date_1531"></substJoin>
+                  
          </add><del>Je nacquis <choice>
             <orig>a</orig>
             <reg>à</reg>
