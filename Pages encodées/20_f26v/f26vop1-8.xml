@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><del seq="1"><s>Je ne diray pas icy tout ce qui me semble de ce prince.</s><s><choice>
+                     <orig>c</orig>
+                     <reg>C'</reg>
+                  </choice>est besoigne de plus longue alene.</s><s><choice>
+                     <orig>i</orig>
+                     <reg>I</reg>
+                  </choice>l me suffira pour ceste heure de dire q</s></del><subst>
+               <del seq="2"><s>De vous dire icy le fons de ceste matiere, ce n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>est possible pas le lieu <subst>
+                        <del>ny</del>
+                        <add>et aussy peu</add>
+                     </subst> le temps. <subst>
+                        <del>et il y <subst>
+                              <del>a</del>
+                              <add>a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                 </choice>oit</add>
+                           </subst> peut estre plus d<choice>
+                              <orig/>
+                              <reg>'</reg>
+                           </choice>un argument <choice>
+                              <orig>a</orig>
+                              <reg>à</reg>
+                           </choice> deduire. bien</del>
+                        <add>et <choice>
+                              <orig>d</orig>
+                              <reg>D</reg>
+                           </choice>ieu veuille que <choice>
+                              <orig>i</orig>
+                              <reg>e</reg>
+                           </choice>e n<choice>
+                              <orig/>
+                              <reg>'</reg>
+                           </choice>en die <choice>
+                              <orig>i</orig>
+                              <reg>j</reg>
+                           </choice>amais da<choice>
+                              <orig>u</orig>
+                              <reg>v</reg>
+                           </choice>antage<choice>
+                              <orig/>
+                              <reg>.</reg>
+                           </choice></add>
+                     </subst></s><s><choice>
+                        <orig>b</orig>
+                        <reg>B</reg>
+                     </choice>ien diray <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e <subst>
+                        <del>sens</del>
+                        <add>a<choice>
+                              <orig>u</orig>
+                              <reg>v</reg>
+                           </choice>ec aussy peu de</add>
+                     </subst> crainte de mentir <del>qu<choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice>il</del></s></del>
+               <add seq="1"><s><choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                     </choice>ertes <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>en sceu <subst>
+                        <del>pas pour</del>
+                        <add>pas</add>
+                     </subst> lors da<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>antage, ancore qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>il sembla <add>me</add> vouloir laisser croire que la <roleName
+                        ref=" http://isni.org/isni/0000000120957473"><choice>
+                           <abbr>R<hi rend="superscript">e</hi></abbr>
+                           <expan>Reine</expan>
+                        </choice></roleName> sa mere <del rend="unmarked">l</del><del>au</del> le <subst>
+                        <del>vouloit</del>
+                        <add>desiroit</add>
+                     </subst>ainsy.</s>
+                  <s><choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                     </choice>ar entre autres traits il me dit sy ce n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>estoit que ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>iteurs <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e ne me mou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>erois pas.</s><s><choice>
+                        <orig>j</orig>
+                        <reg>J</reg>
+                     </choice>e dy soudain, c<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>est donc la <roleName ref=" http://isni.org/isni/0000000120957473"><choice>
+                           <abbr>R<hi rend="superscript">e</hi></abbr>
+                           <expan>Reine</expan>
+                        </choice></roleName>
+                     <choice>
+                        <abbr>v.m.</abbr>
+                        <expan>vostre mere</expan>
+                     </choice> il repliqua.</s><s><choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                     </choice>e<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>ines <subst>
+                        <del>sy</del>
+                        <add>ce que</add>
+                     </subst> vous luy a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>ez peu dire.</s><s><choice>
+                        <orig>i</orig>
+                        <reg>J</reg>
+                     </choice>e luy dy soudain un <choice>
+                        <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                        <expan>pro</expan>
+                     </choice>pos entre elle et moy tout bon et tout <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>antage d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>eux deux.</s><s><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                     </choice>l respondit n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>y a il que cela ? <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e dy non sur ma vie.</s><s><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                     </choice>lors <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e le luy diray de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>ant vous, et le maintiendray.</s><s><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                     </choice>l me dit en partant jamais home n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>a eu de moy tant de <del><metamark target="f26vop10.xml"
+                        >#</metamark></del> pri<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>auté que vous, et <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>amais n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>aura.</s><s><choice>
+                        <orig>j</orig>
+                        <reg>J</reg>
+                     </choice>e n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>en ay dy <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                     </choice>e pas abusé et vous ay gardé fidelité.</s>
+               </add>
+            </subst><s><add seq="2"><del>je vous <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>ure que</del> pour lors <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e n<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>en sceu pas da<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>antage, et m<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>en croies</add><choice>
+               <orig/>
+               <reg>–</reg>
+            </choice><del>come</del> il n<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>y a icy persone pour me <choice>
+               <abbr>f<hi rend="superscript">er</hi></abbr>
+               <expan>faire</expan>
+            </choice>
+            <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>urer<choice>
+               <orig/>
+               <reg>–</reg>
+            </choice><metamark facs="insertion" target=" #f26vop1-8_tant_a">^</metamark><add seq="3" xml:id="f26vop1-8_tant_a"
+               ><metamark>^</metamark> tant y a</add> qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>en tout cela il ne peut a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oir rien du mien.</s>
+         </p>
+      </body>
+   </text>
+</TEI>
