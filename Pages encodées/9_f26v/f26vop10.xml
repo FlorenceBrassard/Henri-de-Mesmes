@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del><choice>
+                     <orig>i</orig>
+                     <reg>J</reg>
+                  </choice>e prie <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice>
+                  <choice>
+                     <orig>d</orig>
+                     <reg>D</reg>
+                  </choice>ieu quil me soit aussy</del> mais <choice>
+                  <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                  <expan>quan</expan>
+               </choice>d on a faict ce que doit il fault atendre <del xml:id="f26vop10_de">de</del>
+               <subst>
+                  <del>s plus forts</del>
+                  <add seq="1"><del xml:id="f26vop10_fortune"> la fortune</del></add>
+                  <add seq="2">d<subst xml:id="f26vop10_u_es">
+                        <del rend="overwritten">u</del>
+                        <add place="superimposed">es</add>
+                     </subst> Roy<add xml:id="f26vop10_s">s</add></add>
+               </subst> ce qui <subst xml:id="f26vop10_leur_luy">
+                  <del>leur</del>
+                  <add seq="1">l<subst xml:id="f26vop10_uy_eur">
+                        <del rend="overwritten">uy</del>
+                        <add place="superimposed" seq="2">eur</add>
+                     </subst></add>
+               </subst> plaist. <substJoin
+                  target="#f26vop10_de #f26vop10_fortune #f26vop10_leur_luy"/>
+               <substJoin target="#f26vop10_u_es #f26vop10_s #f26vop10_uy_eur"/>
+               <del><metamark function="insert">#</metamark></del>
+            </s></p>
+      </body>
+   </text>
+</TEI>
