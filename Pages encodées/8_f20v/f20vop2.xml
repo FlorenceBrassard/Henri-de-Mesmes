@@ -47,8 +47,8 @@
                   <orig/>
                   <reg>'</reg>
                </choice>il <subst>
-                  <del>estoit <unclear reason="faded">c</unclear></del>
-                  <add><del>de</del></add>
+                  <del seq="1">estoit <unclear reason="faded">c</unclear></del>
+                  <add><del seq="2">de</del></add>
                </subst> cognoissoit chaste mais ce fut tout.</s></p>
       </body>
    </text>
