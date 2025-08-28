@@ -34,7 +34,7 @@
                </choice>e pris congé de la <roleName ref="https://isni.org/isni/0000000108941786"><choice>
                      <abbr>R<hi rend="superscript">e</hi></abbr>
                      <expan>Reine</expan>
-                  </choice></roleName>, <metamark function="insertion" target="#f26vop11_sa_femme"
+                  </choice></roleName>, <metamark function="insert" target="#f26vop11_sa_femme"
                   >^</metamark><add xml:id="f26vop11_sa_femme"><metamark>^</metamark> sa femme</add>
                   qu<subst xml:id="f26vop11_i_e">
                   <del rend="overwritten">i</del>
@@ -43,7 +43,7 @@
                   target="#f26vop11_i_e #f26vop11_me_semb"/><choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>e laissay come il me sembla, assez triste.</s></p>
+               </choice>e laissay come il me sembla, asses triste. </s></p>
       </body>
    </text>
 </TEI>

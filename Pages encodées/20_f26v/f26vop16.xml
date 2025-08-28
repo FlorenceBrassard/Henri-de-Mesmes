@@ -33,10 +33,7 @@
          </choice>amertume sy m<choice>
             <orig/>
             <reg>'</reg>
-         </choice>est<choice>
-            <orig/>
-            <reg>-</reg>
-         </choice>ce certaine recognoissance de ce grand oeil qui tout void, que l<choice>
+         </choice>est ce certaine recognoissance de ce grand oeil qui tout void, que l<choice>
             <orig/>
             <reg>'</reg>
          </choice>an re<choice>
@@ -45,7 +42,10 @@
          </choice>olu et au mesme <choice>
             <orig>i</orig>
             <reg>j</reg>
-         </choice>our heur<supplied>e</supplied> et moment de ma brie<choice>
+         </choice>our<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> heur<supplied cert="high">e</supplied> et moment de ma brie<choice>
             <orig>u</orig>
             <reg>v</reg>
          </choice>e sentence plus puissans que moy furent eux mesmes <choice>
@@ -54,7 +54,10 @@
          </choice>damnez <add>et punys</add> <choice>
             <orig>a</orig>
             <reg>à</reg>
-         </choice> leur tour sans estre ouys en leurs deffenses couvrans d<choice>
+         </choice> leur tour sens estre ouys en leurs deffenses cou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>rans d<choice>
             <orig/>
             <reg>'</reg>
          </choice>une longue et publique ruine les masures entrouvertes de ma petite cohuete.</s></p>

@@ -21,10 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><s>Ja ne me tiens<choice>
-                  <orig/>
-                  <reg>-</reg>
-               </choice><choice>
+         <p><s>Ja ne me tiens <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e pour tel que mes plaies soient pour saigner <choice>
@@ -41,7 +38,7 @@
                   <reg>v</reg>
                </choice>ent regler leurs retours sur les accidens de mes influances,<choice>
                   <orig>i</orig>
-                  <reg>j'</reg>
+                  <reg>j</reg>
                </choice>açoit qu<choice>
                   <orig/>
                   <reg>'</reg>
@@ -53,7 +50,6 @@
                   <reg>D</reg>
                </choice>ieu.
             </s></p>
-         <p/>
-      </body>
+         </body>
    </text>
 </TEI>
