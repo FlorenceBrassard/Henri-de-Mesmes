@@ -29,7 +29,8 @@
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l me suffira pour ceste heure de dire q</s></del><subst>
-                            <del seq="2" xml:id="f26vop1-8_De_quil"><s>De vous dire icy le fons de ceste matiere, ce n<choice>
+                    <del seq="2" xml:id="f26vop1-8_De_quil"><s>De vous dire icy le fons de ceste
+                            matiere, ce n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>est possible pas le lieu <subst>
@@ -199,8 +200,8 @@
                                 <reg>"J</reg>
                             </choice>e dy non sur ma vie.</s><s><choice>
                                 <orig>a</orig>
-                                <reg>"A</reg>
-                            </choice>lors <choice>
+                                <reg>A</reg>
+                            </choice>lons <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e le luy diray de<choice>
@@ -218,8 +219,8 @@
                             </choice>amais home n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>a eu de moy tant de <del><metamark function="insert"
-                                    target="f26vop10.xml">#</metamark></del> pri<choice>
+                            </choice>a eu de moy tant de <del><metamark xml:id="f26vop1-8_metamark"
+                                    >#</metamark></del> pri<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>auté que vous, et <choice>
@@ -248,7 +249,7 @@
                                 <reg>"</reg>
                             </choice></s>
                     </add>
-                        </subst><s><add seq="1" xml:id="f26vop1-8_je_croies"><del>je vous <choice>
+                </subst><s><add seq="1" xml:id="f26vop1-8_je_croies"><del>je vous <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>ure que</del>
@@ -271,8 +272,8 @@
                             <orig>s</orig>
                             <reg>z</reg>
                         </choice></add>
-                            <substJoin target="#f26vop1-8_De_quil #f26vop1-8_je_croies"/>
-                            <del>come</del><choice>
+                    <substJoin target="#f26vop1-8_De_quil #f26vop1-8_je_croies"/>
+                    <del>come</del><choice>
                         <orig/>
                         <reg>–</reg>
                     </choice> il n<choice>
