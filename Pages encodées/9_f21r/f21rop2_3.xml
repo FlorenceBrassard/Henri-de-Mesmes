@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><s><choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+         </choice>l m<choice>
+            <orig/>
+            <reg>'</reg>
+         </choice>en<choice>
+            <reg>u</reg>
+            <orig>v</orig>
+         </choice>oia querir <choice>
+            <orig>a</orig>
+            <reg>à</reg>
+         </choice> <placeName>Tonerre</placeName>
+               o<choice>
+                  <orig>u</orig>
+                  <reg>ù</reg>
+               </choice> <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>estois lors <del>pour</del> par son
+               <choice>
+                  <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                  <expan>com</expan>
+               </choice>mandement 
+                  <del xml:id="f21rop2-3_pour_ville">pour <subst>
+                        <del>le</del>
+                        <add>cognoistre du</add>
+                  </subst> qui y a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit esté mis et a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit bruslé <choice>
+                     <orig><g ref="#par-glyph">ꝑ</g></orig>
+                     <reg>par</reg>
+                  </choice>tie de la ville.
+                  </del>
+                  <metamark function="insert" target="#f21rop2-3_pour_feu">+</metamark>
+                  <add xml:id="f21rop2-3_pour_feu"><metamark>+</metamark> pour doner ordre
+                     <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> ceste ville <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> demy consomée du feu</add><choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice>
+                     <substJoin target="#f21rop2-3_pour_ville #f21rop2-3_pour_feu"/>
+               <subst>
+                  <del>et il m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                  </choice>en remerqua <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                  </choice></del>
+                  <add><choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                     </choice>t me <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>com</expan>
+                  </choice>manda de</add>
+               </subst> me disposer <subst>
+                  <del>au</del>
+                  <add><choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                  </choice> ce</add>   
+               </subst> voiage me donant la charge sur la <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ustice <add>de l<choice>
+                     <orig/>
+                     <reg>'</reg>
+               </choice>armée et <subst xml:id="f21rop2-3_et_seance">
+                  <del>et place hau<unclear reason="cancelled">t</unclear></del>
+                  <add>seance</add>
+               </subst></add>
+               <subst xml:id="f21rop2-3_et_et">
+               <del>et aux <choice>
+                     <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                     <expan>con</expan>
+               </choice>se<choice>
+                  <abbr>ł</abbr>
+                  <expan>il</expan>
+               </choice>s d<choice>
+                  <orig>e</orig>
+                  <reg>'E</reg>
+               </choice>estat et</del>
+                  <add>au</add>
+               </subst> <choice>
+                  <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                  <expan>con</expan>
+               </choice>seil estroit <add xml:id="f21rop2-3_de_lestat">de l<choice>
+                     <orig>e</orig>
+                     <reg>'E</reg>
+               </choice>stat</add>
+               <substJoin target="#f21rop2-3_et_seance #f21rop2-3_et_et #f21rop2-3_de_lestat"/>
+               en ce voiage <add>pour <del>a<unclear reason="cancelled">u</unclear></del> estant l<choice>
+                     <orig/>
+                     <reg>'</reg>
+               </choice>armée <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> <placeName>Rome</placeName> me rendre incontin<choice>
+                  <abbr>ã</abbr>
+                  <expan>an</expan>
+               </choice>t a<add xml:id="f21rop2-3_u">u</add> <subst xml:id="f21rop2-3_montalcin_sienois">
+                  <del><placeName>montalcin</placeName></del>
+                  <add><placeName>sienois</placeName></add>
+               </subst> <substJoin target="#f21rop2-3_u #f21rop2-3_montalcin_sienois"/> <subst>
+                  <del>en ma et y f<choice>
+                        <abbr>e<hi rend="superscript">e</hi></abbr>
+                        <expan>aire</expan>
+                  </choice> la <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>ustice</del> 
+                  <add>ou il m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                  </choice>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit au<choice>
+                        <orig>ꝑ</orig>
+                        <reg>p</reg>
+                  </choice>ara<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ant destiné.</add>
+               </subst>
+               </add> <choice>
+                  <orig>n</orig>
+                  <reg>N</reg>
+               </choice>ous partismes <subst>
+                  <del>au mois</del>
+                  <add>en fin</add>
+               </subst> de <date>No<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+               </choice>embre 155<subst>
+                  <del rend="overwritten">5</del>
+                  <add place="superimposed">6</add>
+               </subst></date> et y laissa ma femme <del xml:id="f21rop2-3_qui_destre">qui se doubtoit d<choice>
+                     <orig/>
+                     <reg>'</reg>
+               </choice>estre</del> grosse <add xml:id="f21rop2-3_denuiron_mois">d'en<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+               </choice>iron deux mois</add> <substJoin target="#f21rop2-3_qui_destre #f21rop2-3_denuiron_mois"/>.
+         </s></p>
+      </body>
+  </text>
+</TEI>
