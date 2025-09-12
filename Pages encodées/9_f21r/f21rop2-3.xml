@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice>l m<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>envoia querir <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> Tonerre o<choice>
+                  <orig>u</orig>
+                  <reg>ù</reg>
+               </choice>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>estois lors <del>pour</del> par son <choice>
+                  <abbr><g ref="con-glyph">ꝯ</g></abbr>
+                  <expan>com</expan>
+               </choice>mandement <metamark function="insert" target="#f21rop2-3_pour_feu"
+                  >+</metamark><add xml:id="f21rop2-3_pour_feu"><metamark>+</metamark> pour doner
+                  ordre <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> ceste ville <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> demy consomée du feu</add><del xml:id="f21rop2-3_pour_ville">pour <subst>
+                     <del>le</del>
+                     <add>cognoistre du</add>
+                  </subst> feu qui y a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit esté mis et a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit bruslé <del><choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                     </choice>tie de la ville.</del><substJoin
+                     target="#f21rop2-3_pour_ville #f21rop2-3_pour_feu"/></del>
+               <subst>
+                  <del><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                     </choice>t <add>il</add> m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>en remerqua <choice>
+                        <abbr>po<hi>r</hi></abbr>
+                        <reg>pour</reg>
+                     </choice>
+                  </del>
+                  <add>et me <choice>
+                        <abbr><g ref="con-glyph">ꝯ</g></abbr>
+                        <expan>com</expan>
+                     </choice>manda de</add>
+               </subst> me disposer <subst>
+                  <del>au</del>
+                  <add><choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> ce</add>
+               </subst> voiage me donant la charge sur la iustice <subst>
+                  <add>de l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>armée et <subst>
+                        <del>place hau<unclear>t</unclear></del>
+                        <add>seance</add>
+                     </subst></add>
+                  <del>et aux <choice>
+                        <abbr>af<hi>er</hi>s</abbr>
+                        <expan>affaires</expan>
+                     </choice> d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>estat et</del>
+                  <add>au</add>
+               </subst>
+               <choice>
+                  <abbr><g ref="con-glyph">ꝯ</g></abbr>
+                  <expan>con</expan>
+               </choice>seil estroit <metamark function="insert">^</metamark><add
+                  xml:id="f21rop2-3_de_lestat"><metamark>^</metamark>de l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>estat</add> en ce voiage </s></p>
+         <p/>
+      </body>
+   </text>
+</TEI>

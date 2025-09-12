@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del>mais ce fut en vain.</del></s><s><del>sept ans</del><add>Tellement
+                  qu'aiant</add> peu apres <subst>
+                  <del>resolu au</del>
+                  <add>conclud <add>de</add> doner</add>
+               </subst> secours <subst>
+                  <del>des</del>
+                  <add>au<del xml:id="f21rop1_x">x</del>
+                     <add xml:id="f21rop1-2_pape_les"><choice>
+                           <orig>P</orig>
+                           <reg>p</reg>
+                        </choice>ape contre les</add></add>
+               </subst><substJoin target="#f21rop1_x #f21rop1_pape_les"/><choice>
+                  <orig>c</orig>
+                  <reg>C</reg>
+               </choice>olonois et <metamark function="insert" target="#f21rop1_acorder_la"
+                  >^</metamark><add xml:id="f21rop1_acorder_la"><metamark>^</metamark>acorder
+                  la</add>
+               <choice>
+                  <orig>l</orig>
+                  <reg>L</reg>
+               </choice>igue <add>saincte qui luy fut aportée</add><del rend="unmarked">.</del> ditalie<choice>
+                  <orig/>
+                  <reg>.</reg>
+               </choice></s></p>
+         <p/>
+      </body>
+   </text>
+</TEI>
