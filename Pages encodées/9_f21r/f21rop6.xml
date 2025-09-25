@@ -21,15 +21,15 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><choice><orig>m</orig><reg>M</reg></choice><choice>
+         <p><s><choice><orig>m</orig><reg>M</reg></choice>ais <choice>
                   <orig>i</orig>
                   <reg>j'</reg>
                </choice>estois filz de famille et ne fus <choice>
                   <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                   <expan>con</expan>
-               </choice>seillé me charger de le<choice>
-                  <abbr rend="overlined">gon</abbr>
-                  <expan>gation</expan>
+               </choice>seillé me charger de <choice>
+                  <abbr>leg<hi rend="overlined">on</hi></abbr>
+                  <expan>legation</expan>
                </choice> de sy grosse despense.</s></p>
       </body>
    </text>

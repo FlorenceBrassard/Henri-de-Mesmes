@@ -26,7 +26,10 @@
                         <orig>e</orig>
                         <reg>E</reg>
                      </choice>t me fut faicte</del>
-                  <add>des lors on me feit</add>
+            <add><choice>
+               <orig>de</orig>
+               <reg>Dè</reg>
+               </choice>s lors on me feit</add>
                </subst> instance d<subst xml:id="f21rop5_y_e">
                   <del>y</del>
                   <add>e</add>
@@ -35,11 +38,14 @@
                   <orig>a</orig>
                   <reg>à</reg>
                </choice>
-               <placeName>Rome</placeName></add><substJoin
-               target="#f21rop5_y_e #f21rop5_a_Rome #f21rop5_qui_estoit #f21rop5_la"/> successeur de <choice>
+                  <placeName>Rome</placeName></add><choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice><substJoin
+               target="#f21rop5_y_e #f21rop5_a_Rome"/> successeur de <choice>
                <abbr>m<hi rend="superscript">r</hi></abbr>
                <expan>monsieur</expan>
-            </choice><persName><nameLink>de</nameLink>
+               </choice><persName ref="https://isni.org/isni/0000000061748267"><nameLink>de</nameLink>
                <surname>Sel<choice>
                      <orig>u</orig>
                      <reg>v</reg>
@@ -51,9 +57,14 @@
             <add xml:id="f21rop5_la">l<choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice></add><subst>
-                  <del>du <roleName>Roy</roleName></del><add> <subst><add>qui</add><del>et</del></subst> retournoit vers le <roleName>Roy</roleName></add>
-               </subst>.</s>
+            </choice></add><substJoin target="#f21rop5_qui_estoit #f21rop5_la"/><subst>
+                  <del>du <roleName ref="https://isni.org/isni/0000000395001884"
+                     >Roy</roleName></del><add> <subst><add>qui</add><del>et</del></subst> retournoit vers le <roleName
+                        ref="https://isni.org/isni/0000000395001884">Roy</roleName></add>
+            </subst><choice>
+               <orig><del>.</del></orig>
+               <reg>.</reg>
+            </choice></s>
          </p>
       </body>
    </text>
