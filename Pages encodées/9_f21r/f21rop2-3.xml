@@ -108,7 +108,78 @@
                   xml:id="f21rop2-3_de_lestat"><metamark>^</metamark>de l<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>estat</add> en ce voiage </s></p>
+                  </choice>estat</add> en ce voiage pour <del>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice></del>
+               <choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> estant l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>armée <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>
+               <placeName>Rome</placeName><choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> me rendre incontin<choice>
+                  <abbr>ã</abbr>
+                  <expan>an</expan>
+               </choice>t <choice>
+                  <orig>a</orig>
+                  <reg><del xml:id="f21rop2-3_à">à</del></reg>
+               </choice><add xml:id="f21rop2-3_u">u</add>
+               <subst>
+                  <del xml:id="f21rop2-3_montalcin_sienois"><placeName><choice>
+                           <orig>m</orig>
+                           <reg>M</reg>
+                        </choice>ontalcin</placeName></del>
+                  <add><placeName><choice>
+                           <orig>s</orig>
+                           <reg>S</reg>
+                        </choice>ienois</placeName></add>
+               </subst><substJoin target="#f21rop2-3_à #f21rop2-3_u #f21rop2-3_montalcin_sienois"/>
+               <del>en ma</del><del> et y <choice>
+                     <abbr>fe<hi rend="superscript">r</hi></abbr>
+                     <expan>faire</expan>
+                  </choice> la <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>usti</del><add>o<choice>
+                     <orig>u</orig>
+                     <reg>ù</reg>
+                  </choice> il m<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit au<choice>
+                     <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                     <expan>par</expan>
+                  </choice>avant destiné.</add>
+            </s><s><choice>
+                  <orig>n</orig>
+                  <reg>N</reg>
+               </choice>ous partismes <subst>
+                  <del>au mois</del>
+                  <add>en fin</add>
+               </subst> de <date>No<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>embre 155<subst>
+                  <del rend="overwritten">5</del>
+                  <add place="superimposed">6</add>
+               </subst></date> et laissay ma femme <del>qui se doubtoit d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>estre</del> grosse <add>d'en<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>iron deux mois</add>. </s></p>
          <p/>
       </body>
    </text>
