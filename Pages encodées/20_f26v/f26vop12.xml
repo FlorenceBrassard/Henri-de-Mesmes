@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois esté <del>toute</del> les <del>trois</del> deux<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours precedens a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec elle <del>les apresdisnées</del> bien longuement presens <choice>
+                        <abbr>m<hi rend="superscript">r</hi></abbr>
+                        <expan>Monsieur</expan>
+                    </choice> le <persName><roleName>conte</roleName>
+                        <nameLink>de</nameLink>
+                        <surname><choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>iesque</surname></persName> et <choice>
+                        <abbr>m<hi rend="superscript">e</hi></abbr>
+                        <expan>Madame</expan>
+                    </choice>
+                    <persName><surname><choice>
+                                <orig>d</orig>
+                                <reg>D</reg>
+                            </choice>ampierre</surname></persName> o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                    </choice> nous a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ions faict son estat, <subst>
+                        <del>et en cela</del>
+                        <add>en quoy</add>
+                    </subst> elle <del>a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice></del> voulut user principalement de mon <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>seil et <subst>
+                        <del>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit <choice>
+                                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                                <expan>com</expan>
+                            </choice>mandé</del>
+                        <add>commanda</add>
+                    </subst>qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>on <del>y</del> meist ma femme <subst>
+                        <del>pour l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>une de ses dames</del>
+                       <add><del>e<gap quantity="1" unit="char"/></del> au <choice>
+                                <abbr>ch<hi rend="overlined">apre</hi></abbr>
+                                <expan>chapitre</expan>
+                            </choice> de ses dames <choice>
+                                <abbr>po<hi rend="superscript">r</hi></abbr>
+                                <expan>pour</expan>
+                            </choice> l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>une d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>icelles</add>
+                    </subst>. </s><del rend="faded"><add>parturient</add></del></p>
+        </body>
+    </text>
+</TEI>

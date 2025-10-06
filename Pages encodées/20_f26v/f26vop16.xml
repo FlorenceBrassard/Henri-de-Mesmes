@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+         </choice>t bien que le ren<choice>
+            <orig>u</orig>
+            <reg>v</reg>
+         </choice>y sur mon mal ne soit que rengregement d<choice>
+            <orig/>
+            <reg>'</reg>
+         </choice>amertume sy m<choice>
+            <orig/>
+            <reg>'</reg>
+         </choice>est ce certaine recognoissance de ce grand oeil qui tout void, que l<choice>
+            <orig/>
+            <reg>'</reg>
+         </choice>an re<choice>
+            <orig>u</orig>
+            <reg>v</reg>
+         </choice>olu et au mesme <choice>
+            <orig>i</orig>
+            <reg>j</reg>
+         </choice>our<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> heur<supplied cert="high">e</supplied> et moment de ma brie<choice>
+            <orig>u</orig>
+            <reg>v</reg>
+         </choice>e sentence plus puissans que moy furent eux mesmes <choice>
+            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+            <expan>con</expan>
+         </choice>damnez <add>et punys</add> <choice>
+            <orig>a</orig>
+            <reg>à</reg>
+         </choice> leur tour sens estre ouys en leurs deffenses cou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>rans d<choice>
+            <orig/>
+            <reg>'</reg>
+         </choice>une longue et publique ruine les masures entrouvertes de ma petite cohuete.</s></p>
+      </body>
+   </text>
+</TEI>

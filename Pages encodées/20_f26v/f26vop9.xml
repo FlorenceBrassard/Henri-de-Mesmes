@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice>l n<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>est pas tous<choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ours au pou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oir des gens de bien de plaire <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> ceulx pour qui bien sou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ent ilz desplaisent <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>
+               <subst>
+                  <del>leurs semblables</del>
+                  <add>beaucoup</add>
+               </subst>, et quel<choice>
+                  <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                  <expan>que</expan>
+               </choice>fois <choice>
+            <orig>a</orig>
+            <reg>à</reg>
+            </choice> eulx mesmes.</s></p>
+      </body>
+   </text>
+</TEI>

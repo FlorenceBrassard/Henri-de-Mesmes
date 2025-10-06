@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s>Ja ne me tiens <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e pour tel que mes plaies soient pour saigner <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>us<choice>
+                  <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                  <expan>que</expan>
+               </choice>s au bout de l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>an, ny que les aspects des astres doi<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ent regler leurs retours sur les accidens de mes influances,<choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>açoit qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>on ait quel<choice>
+                  <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                  <expan>que</expan>
+               </choice>fois veu ramener aux homes dens semblables termes les effets de la main de <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>ieu.
+            </s></p>
+         </body>
+   </text>
+</TEI>

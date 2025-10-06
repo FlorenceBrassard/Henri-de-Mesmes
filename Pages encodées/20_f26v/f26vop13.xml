@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del>Aussy tost que <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>e fu ches moy</del> Le Jugement du <roleName ref="https://isni.org/isni/0000000123197721"
+                  >Roy</roleName> que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e viens de dire fut ainsy doné sur moy sens m<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>ouyr le <date>xvi<choice>
+                  <orig>j</orig>
+                  <reg>i</reg>
+               </choice><hi
+                  rend="superscript">e</hi> <choice>
+                     <orig>J</orig>
+                     <reg>j</reg>
+                  </choice>an<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ier 1582</date>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>our depuys vraiement fatal et fortun<choice>
+                  <orig>e</orig>
+                  <reg>é</reg>
+               </choice>
+               <choice>
+                  <abbr>po<hi rend="superscript">r</hi></abbr>
+                  <expan>pour</expan>
+               </choice> la <placeName><choice>
+                  <orig>f</orig>
+                  <reg>F</reg>
+               </choice>rance</placeName> <metamark function="insert" target="#f26rop13_come_parut"
+                  >^</metamark><add xml:id="f26rop13_come_parut"><metamark>^</metamark> come il
+                  parut</add> en <placeName>Anvers</placeName> au periode de son an courant.</s></p>
+      </body>
+   </text>
+</TEI>
