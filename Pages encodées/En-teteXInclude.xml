@@ -402,12 +402,12 @@
    </facsimile>
    <text>
       <body>
-         <xi:include href="f17rop1.xml"/>
-         <xi:include href="f17rop2.xml"/>
-         <xi:include href="f17rop3.xml"/>
-         <xi:include href="f17rop4.xml"/>
-         <xi:include href="f17rop5.xml"/>
-         <xi:include href="f17rop6.xml"/>
+         <xi:include href="1_f17r/f17rop1.xml"/>
+         <xi:include href="1_f17r/f17rop2.xml"/>
+         <xi:include href="1_f17r/f17rop3.xml"/>
+         <xi:include href="1_f17r/f17rop4.xml"/>
+         <xi:include href="1_f17r/f17rop5.xml"/>
+         <xi:include href="1_f17r/f17rop6.xml"/>
       </body>
    </text>
 </TEI>

@@ -21,29 +21,31 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/93,1693,3702,1051/full/0/default.jpg"/>
-            <zone xml:id="f17rop3_i_et_3-1" points="1335,845 1332,898 1448,878 1448,851"/>
-            <zone xml:id="f17rop3_i_metamark_3_1" points="1165,937 1165,975 1264,968 1267,928"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/93,1693,3702,1051/full/0/default.jpg"/>
+            <zone xml:id="f17rop3_i_et" points="2595,0 2569,88 2750,75 2800,0"/>
+            <zone xml:id="f17rop3_i_metamark_1" points="2253,185 2254,258 2414,238 2436,182"/>
             <zone xml:id="f17rop3_i_ne_famille"
-                points="1560,1007 1475,995 1445,1022 1450,1054 1532,1041 1560,1031 1592,1038 1567,1097 1765,1090 1768,1055 1867,1058 1867,968 1544,951"/>
+                points="3020,310 2888,300 2782,348 2786,416 2982,388 3036,366 3072,380 3060,504 3366,512 3394,432 3662,380 3668,258 3020,233"/>
             <zone xml:id="f17rop3_i_et_serviteur"
-                points="380,1148 378,1210 407,1180 834,1160 1052,1160 1494,1135 1481,1115 1334,1097 1010,1102 637,1130"/>
+                points="660,598 670,690 720,687 1126,657 1430,647 2823,600 2840,494 1660,510 1290,552 917,580"/>
             <zone xml:id="f17rop3_i_certes_soymesmes"
-                points="63,1151 65,1370 368,1341 368,1314 392,1307 353,1136"/>
-            <zone xml:id="f17rop3_i_metamark_3_2" points="1465,1087 1460,1134 1504,1119 1507,1092"/>
+                points="114,588 131,1015 650,1014 640,750 597,568 404,573"/>
+            <zone xml:id="f17rop3_i_metamark_2" points="2833,477 2833,544 2920,550 2927,492"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <p><subst>
                     <del>Mais</del>
-                    <add><del facs="#f17rop3_i_et_3-1" xml:id="f17rop3_et">Et</del></add>
+                    <add><del facs="#f17rop3_i_et" xml:id="f17rop3_et">Et</del></add>
                 </subst> que scauroit faire de grand <choice>
                     <orig>v</orig>
                     <reg>u</reg>
-                </choice>n home seul <metamark facs="#f17rop3_i_metamark_3_1" function="insert"
+                </choice>n home seul <metamark facs="#f17rop3_i_metamark_1" function="insert"
                     target="#f17rop3_ne_famille" xml:id="f17rop3_metamark_3-1">°¯</metamark>
-                <add facs="#f17rop3_i_ne_famille" xml:id="f17rop3_ne_famille"><metamark>°¯</metamark>ne commendant <subst>
+                <add facs="#f17rop3_i_ne_famille" xml:id="f17rop3_ne_famille"
+                        ><metamark>°¯</metamark>ne commendant <subst>
                         <del>qu'</del>
                         <add>qu'<choice>
                                 <orig>a</orig>
@@ -54,8 +56,8 @@
                 synon pour oster son bonet, sens langue sy ce n<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>est pour flater ? <add facs="#f17rop3_i_et_serviteur" seq="1" xml:id="f17rop3_et_serviteur"
-                    >Et en fin de compte pour tout <choice>
+                </choice>est pour flater ? <add facs="#f17rop3_i_et_serviteur" seq="1"
+                    xml:id="f17rop3_et_serviteur">Et en fin de compte pour tout <choice>
                         <orig>E</orig>
                         <reg>e</reg>
                     </choice>loge, <add>c<choice>
@@ -73,8 +75,8 @@
                         <reg>'</reg>
                     </choice>estoit un bon serviteur.</add>
                 <substJoin target="#f17rop3_et #f17rop3_et_serviteur"/>
-                <metamark facs="#f17rop3_i_metamark_3_2" function="insert" target="#f17rop3_certes_soymesmes"
-                    xml:id="f17rop3_metamark_3_2">+</metamark>
+                <metamark facs="#f17rop3_i_metamark_2" function="insert"
+                    target="#f17rop3_certes_soymesmes" xml:id="f17rop3_metamark_3_2">+</metamark>
                 <add facs="#f17rop3_i_certes_soymesmes" seq="2" xml:id="f17rop3_certes_soymesmes"
                         ><metamark>+</metamark> Certes mieulx vaudroit avoir <del>apris <gap
                             quantity="2" unit="char"/></del> esté bien maistre de soymesmes<choice>

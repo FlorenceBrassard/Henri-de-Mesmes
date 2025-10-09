@@ -25,23 +25,24 @@
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/199,369,3562,1115/full/0/default.jpg"/>
          <zone xml:id="f17rop1_i_honestes" points="1519,205 1529,325 1922,300 1906,150"/>
          <zone xml:id="f17rop1_i_de_valeur"
-            points="2125,155 2138,228 2197,200 2173,273 2242,276 2204,200 2539,217 2366,114"/>
-         <zone xml:id="f17rop1_i__la_leurs" points="365,324 341,472 455,458 441,393 507,375 507,334"/>
+            points="2070,140 2065,240 2197,200 2135,350 2212,352 2204,200 2539,217 2366,114"/>
+         <zone xml:id="f17rop1_i__la_leurs" points="573,320 547,514 699,500 675,426 768,423 769,321"/>
          <zone xml:id="f17rop1_i__ou"
-            points="508,445 536,445 541,418 545,390 550,373 518,368 515,388 530,400"/>
+            points="817,507 853,515 887,428 893,404 906,374 841,380 826,414 850,430"/>
          <zone xml:id="f17rop1_i_et_ont" points="1171,368 1158,435 1505,428 1546,386"/>
-         <zone xml:id="f17rop1_i_composé_propre" points="378,473 371,543 480,550 880,518 861,455"/>
-         <zone xml:id="f17rop1_i_en" points="1072,470 1054,528 1108,526 1120,458 1122,464"/>
-         <zone xml:id="f17rop1_i_s2" points="1464,536 1488,540 1516,420 1500,436"/>
-         <zone xml:id="f17rop1_i_louanges_remerque" points="405,535 341,640 591,636 596,522"/>
-         <zone xml:id="f17rop1_i_s5" points="644,576 640,643 674,642 678,568"/>
-         <zone xml:id="f17rop1_i_vertueuses_belles" points="700,523 700,621 946,616 930,516"/>
-         <zone xml:id="f17rop1_i_s1" points="511,395 531,400 511,445 488,447"/>
-         <zone xml:id="f17rop1_i_s3" points="1502,510 1546,516 1546,454 1510,452"/>
-         <zone xml:id="f17rop1_i_s4" points="590,578 628,576 622,522 596,522"/>
-         <zone xml:id="f17rop1_i_s6" points="640,522 686,522 678,582 640,582"/>
+         <zone xml:id="f17rop1_i_composé_propre" points="538,621 531,691 640,698 1582,672 1557,550"/>
+         <zone xml:id="f17rop1_i_en" points="1945,557 1905,685 2022,687 2050,555 2007,560"/>
+         <zone xml:id="f17rop1_i_s2" points="2712,702 2772,717 2837,502 2802,520"/>
+         <zone xml:id="f17rop1_i_louanges_remerque" points="548,750 508,910 955,907 1100,680"/>
+         <zone xml:id="f17rop1_i_s6" points="1097,760 1087,880 1145,865 1143,766"/>
+         <zone xml:id="f17rop1_i_vertueuses_belles" points="1162,677 1175,862 1680,852 1692,657"/>
+         <zone xml:id="f17rop1_i_s1" points="845,415 872,425 825,527 772,515"/>
+         <zone xml:id="f17rop1_i_s3" points="2803,652 2870,657 2865,557 2808,545"/>
+         <zone xml:id="f17rop1_i_s4" points="900,882 992,887 980,770 926,759"/>
+         <zone xml:id="f17rop1_i_s7" points="1095,695 1141,695 1147,770 1082,752"/>
          <zone xml:id="f17rop1_i_t_ent"
-            points="1063,427 1060,468 1124,467 1109,511 1144,511 1152,424"/>
+            points="1940,514 1937,555 2055,552 2015,647 2080,655 2127,482"/>
+         <zone xml:id="f17rop1_i_s5" points="1007,692 972,775 1010,830 1070,702"/>
       </surface>
    </facsimile>
    <text>
@@ -81,18 +82,18 @@
             </subst> au moins quelque<del facs="#f17rop1_i_s2" xml:id="f17rop1_s_2">s</del>
             <add facs="#f17rop1_i_s3" xml:id="f17rop1_s_3">s</add>
             <subst facs="#f17rop1_i_louanges_remerque" xml:id="f17rop1_louanges_remerque">
-               <del>louanges</del>
+               <del>louange<add facs="#f17rop1_i_s4" xml:id="f17rop1_s_4">s</add></del>
                <add>remerque</add>
-            </subst><add facs="#f17rop1_i_s4" xml:id="f17rop1_s_4">s</add> de <del
-               facs="#f17rop1_i_s5" xml:id="f17rop1_s_5">s</del>
-            <add xml:id="f17rop1_s_6">s</add>
+            </subst><add facs="#f17rop1_i_s5" xml:id="f17rop1_s_5">s</add> de <del
+               facs="#f17rop1_i_s6" xml:id="f17rop1_s_6">s</del>
+            <add xml:id="f17rop1_s_7">s</add>
             <subst facs="#f17rop1_i_vertueuses_belles" xml:id="f17rop1_vertueuses_belles">
                <del>vertueuses</del>
                <add>belles</add>
             </subst>
             <substJoin seq="1"
-               target="#f17rop1_en #f17rop1_s_2 #s_5 #f17rop1_louanges_remerque #f17rop1_vertueuses_belles"/>
-            <substJoin seq="2" target="#f17rop1_t_ent #f17rop1_s_3 #f17rop1_s_4 #f17rop1_s_6"/>
+               target="#f17rop1_en #f17rop1_s_2 #s_6 #f17rop1_louanges_remerque #f17rop1_vertueuses_belles"/>
+            <substJoin seq="2" target="#f17rop1_t_ent #f17rop1_s_3 #f17rop1_s_5 #f17rop1_s_7"/>
             actions : et apres eulx, enseignemens pour bien faire.<note resp="AV" type="génétique"
                >La V1 dissocie la rédaction d’une biographie (ou d’une vie, au sens ancien du terme)
                et l’écriture de soi (« la leur propre »). La première pratique est motivée par un

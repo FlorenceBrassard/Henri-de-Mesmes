@@ -21,28 +21,30 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/89,1127,3702,1067/full/0/default.jpg"/>
-            <zone xml:id="f17rop2_i_en_france" lry="644" lrx="1304" uly="580" ulx="1072"/>
-            <zone xml:id="f17rop2_i_et_guiere" lry="930" lrx="366" uly="738" ulx="90"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/89,1127,3702,1067/full/0/default.jpg"/>
+            <zone xml:id="f17rop2_i_en_france" lry="164" lrx="2528" uly="40" ulx="2048"/>
+            <zone xml:id="f17rop2_i_et_guiere" lry="678" lrx="644" uly="366" ulx="110"/>
             <zone xml:id="f17rop2_i_en_guieres"
-                points="680,694 680,754 730,740 1560,708 1550,796 1738,804 1730,770 1774,768 1788,748 1892,762 1884,646"/>
+                points="1310,264 1280,346 1354,360 2188,310 2584,306 3000,306 2922,464 3356,496 3458,374 3712,412 3658,176"/>
             <zone xml:id="f17rop2_i_mesprisent_guieres"
-                points="1380,666 1360,714 1548,712 1554,800 1730,796 1732,768 1774,770 1792,752 1892,766 1886,640"/>
-            <zone xml:id="f17rop2_i_nusent_chapeaus" points="405,792 387,847 1427,797 1420,745"/>
-            <zone xml:id="f17rop2_i_ceux" points="1572,800 1574,828 1702,830 1708,798"/>
-            <zone xml:id="f17rop2_i_les1" points="1782,750 1776,786 1830,774 1832,750"/>
-            <zone xml:id="f17rop2_i_s1" points="1778,800 1760,840 1792,844"/>
-            <zone xml:id="f17rop2_i_s2" points="1858,800 1852,844 1886,848 1886,808"/>
-            <zone xml:id="f17rop2_i_de_recomander" points="1548,905 1550,928 1898,931 1888,905"/>
-            <zone xml:id="f17rop2_i_de_recommander" points="458,876 452,932 800,912 812,858"/>
-            <zone xml:id="f17rop2_i_memorables" points="938,848 936,906 1198,882 1192,838"/>
-            <zone xml:id="f17rop2_i_je_ne" points="1787,771 1785,815 1870,812 1870,771"/>
-            <zone xml:id="f17rop2_i_voy_come" points="1550,820 1551,855 1551,858 1848,858 1845,832"/>
-            <zone xml:id="f17rop2_i_les_robe" points="1545,874 1545,907 1860,904 1854,880"/>
-            <zone xml:id="f17rop2_i_longue" points="1555,916 1546,956 1546,958 1651,981 1716,953 1713,925"/>
-            <zone xml:id="f17rop2_i_et_1" points="1741,770 1741,810 1775,800 1775,765"/>
-            <zone xml:id="f17rop2_i_robes_longues" points="1715,801 1716,828 1885,838 1885,801"/>
-            <zone xml:id="f17rop2_i_nont_moyen" points="1615,856 1610,885 1868,880 1868,856"/>
+                points="2652,240 2632,288 2820,286 3018,290 2986,386 2942,480 3364,482 3420,364 3710,398 3686,192"/>
+            <zone xml:id="f17rop2_i_nusent_chapeaus" points="732,464 688,582 2766,446 2746,358"/>
+            <zone xml:id="f17rop2_i_ceux" points="3052,480 3056,520 3332,526 3324,480"/>
+            <zone xml:id="f17rop2_i_les1" points="3482,362 3470,432 3564,432 3576,370"/>
+            <zone xml:id="f17rop2_i_s1" points="3470,474 3438,552 3484,540"/>
+            <zone xml:id="f17rop2_i_s2" points="3636,496 3656,558 3676,550 3710,482"/>
+            <zone xml:id="f17rop2_i_de_recomander" points="3034,675 3034,724 3700,762 3694,670"/>
+            <zone xml:id="f17rop2_i_de_recommander" points="824,624 832,726 1526,692 1528,602"/>
+            <zone xml:id="f17rop2_i_memorables" points="1816,584 1806,662 2262,650 2278,550"/>
+            <zone xml:id="f17rop2_i_je_ne" points="3485,421 3466,472 3652,490 3648,424"/>
+            <zone xml:id="f17rop2_i_voy_come" points="3012,518 3000,558 3030,584 3660,568 3666,532"/>
+            <zone xml:id="f17rop2_i_les_robe" points="3004,612 3012,674 3628,670 3576,624"/>
+            <zone xml:id="f17rop2_i_longue"
+                points="3004,716 3006,738 3012,788 3128,830 3352,778 3360,744"/>
+            <zone xml:id="f17rop2_i_et_1" points="3392,408 3388,466 3452,478 3472,402"/>
+            <zone xml:id="f17rop2_i_robes_longues" points="3331,463 3326,534 3684,548 3722,466"/>
+            <zone xml:id="f17rop2_i_nont_moyen" points="3117,586 3112,615 3640,628 3650,570"/>
         </surface>
     </facsimile>
     <text>
@@ -65,8 +67,8 @@
                         <orig>R</orig>
                         <reg>r</reg>
                     </choice>oyaume, mesmement en robe longue, se puissent guiere
-                    <add>s'</add>eslever</del><del facs="#f17rop2_i_et_guiere" xml:id="f17rop2_et_guiere"><add>et
-                        ceulx qui ont les armes en <placeName><choice>
+                    <add>s'</add>eslever</del><del facs="#f17rop2_i_et_guiere"
+                    xml:id="f17rop2_et_guiere"><add>et ceulx qui ont les armes en <placeName><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rance</placeName>, n'escrivent guiere></add></del><add
@@ -88,10 +90,12 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>leurs chapeaus</add>
-                <substJoin seq="1" target="#f17rop2_en_france #f17rop2_et_guiere #f17rop2_en_guieres"/>
+                <substJoin seq="1"
+                    target="#f17rop2_en_france #f17rop2_et_guiere #f17rop2_en_guieres"/>
                 <substJoin seq="2" target="#f17rop2_mesprisent_guieres #f17rop2_nusent_chapeaus"/>
-                <addSpan facs="#f17rop2_i_robes_longues #f17rop2_i_nont_moyen #f17rop2_i_de_recomander" spanTo="#f17rop2_recõmander"
-                />et <subst>
+                <addSpan
+                    facs="#f17rop2_i_robes_longues #f17rop2_i_nont_moyen #f17rop2_i_de_recomander"
+                    spanTo="#f17rop2_recõmander"/>et <subst>
                     <del facs="#f17rop2_i_je_ne #f17rop2_i_voy_come #f17rop2_i_les_robe"><choice>
                             <orig>i</orig>
                             <reg>j</reg>
@@ -100,8 +104,8 @@
                         <subst xml:id="f17rop2_ceulx_les">
                             <del facs="#f17rop2_i_ceux">ceulx de</del>
                             <add facs="#f17rop2_i_les1">les</add>
-                        </subst> robe<add facs="#f17rop2_i_s1" xml:id="f17rop2_s_1">s</add> longue<add facs="#f17rop2_i_s2"
-                            xml:id="f17rop2_s_2">s</add></add>
+                        </subst> robe<add facs="#f17rop2_i_s1" xml:id="f17rop2_s_1">s</add>
+                            longue<add facs="#f17rop2_i_s2" xml:id="f17rop2_s_2">s</add></add>
                 </subst>
                 <substJoin target="#f17rop2_ceulx_les #f17rop2_s_1 #f17rop2_s_2"/> n<choice>
                     <orig/>

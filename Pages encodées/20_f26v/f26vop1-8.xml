@@ -56,7 +56,10 @@
                                         <orig>b</orig>
                                         <reg>B</reg>
                                     </choice>ien</del>
-                                <add>et <choice>
+                                <add><choice>
+                                        <orig>e</orig>
+                                        <reg>E</reg>
+                                    </choice>t <choice>
                                         <orig>d</orig>
                                         <reg>D</reg>
                                     </choice>ieu veuille que <choice>
@@ -113,8 +116,10 @@
                                 ref=" http://isni.org/isni/0000000120957473"><choice>
                                     <abbr>R<hi rend="superscript">e</hi></abbr>
                                     <expan>Reine</expan>
-                                </choice></roleName> sa mere <del rend="unmarked"
-                                >l</del><del>au</del> le <subst>
+                                </choice></roleName> sa mere <del rend="unmarked">l</del><del>a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice></del> le <subst>
                                 <del>vouloit</del>
                                 <add>desiroit</add>
                             </subst>ainsy.</s>
@@ -123,7 +128,7 @@
                                 <reg>C</reg>
                             </choice>ar entre autres traits il me dit<choice>
                                 <orig>s</orig>
-                                <reg>: "S</reg>
+                                <reg>: « S</reg>
                             </choice>y ce n<choice>
                                 <orig/>
                                 <reg>'</reg>
@@ -138,24 +143,24 @@
                                 <reg>v</reg>
                             </choice>erois pas<choice>
                                 <orig/>
-                                <reg>"</reg>
+                                <reg> »</reg>
                             </choice>.</s><s><choice>
                                 <orig>j</orig>
                                 <reg>J</reg>
                             </choice>e dy soudain<choice>
                                 <orig>, c</orig>
-                                <reg>: "C'</reg>
+                                <reg>: « C'</reg>
                             </choice>est donc la <roleName
                                 ref=" http://isni.org/isni/0000000120957473"><choice>
                                     <abbr>R<hi rend="superscript">e</hi></abbr>
                                     <expan>Reine</expan>
                                 </choice></roleName>
                             <choice>
-                                <abbr>v.m.</abbr>
-                                <expan>vostre mere</expan>
+                                <abbr>v. m.</abbr>
+                                <expan>vostre mere<choice><orig/><reg> »</reg></choice></expan>
                             </choice> il repliqua</s><s><choice>
                                 <orig>. d</orig>
-                                <reg>: "D</reg>
+                                <reg>: « D</reg>
                             </choice>e<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -171,7 +176,10 @@
                             </choice>ez p<choice>
                                 <orig>eu</orig>
                                 <reg>u</reg>
-                            </choice> dire.</s><s><choice>
+                            </choice> dire.<choice>
+                                <orig/>
+                                <reg> »</reg>
+                            </choice></s><s><choice>
                                 <orig>i</orig>
                                 <reg>J</reg>
                             </choice>e luy dy soudain un <choice>
@@ -194,11 +202,18 @@
                                 <reg>I</reg>
                             </choice>l respondit <choice>
                                 <orig>n</orig>
-                                <reg>: "N'</reg>
-                            </choice>y a il que cela ? <choice>
+                                <reg>: « N'</reg>
+                            </choice>y a il que cela ?<choice>
+                                <orig/>
+                                <reg> »</reg>
+                            </choice>
+                            <choice>
                                 <orig>i</orig>
-                                <reg>"J</reg>
-                            </choice>e dy non sur ma vie.</s><s><choice>
+                                <reg>J</reg>
+                            </choice>e dy<choice>
+                                <orig> n</orig>
+                                <reg> : « N</reg>
+                            </choice>on sur ma vie.</s><s><choice>
                                 <orig>a</orig>
                                 <reg>A</reg>
                             </choice>lons <choice>
@@ -209,13 +224,13 @@
                                 <reg>v</reg>
                             </choice>ant vous, et le maintiendray.<choice>
                                 <orig/>
-                                <reg>"</reg>
+                                <reg> »</reg>
                             </choice></s><s><choice>
                                 <orig>i</orig>
                                 <reg>I</reg>
                             </choice>l me dit en partant <choice>
                                 <orig>i</orig>
-                                <reg>: "J</reg>
+                                <reg>: « J</reg>
                             </choice>amais home n<choice>
                                 <orig/>
                                 <reg>'</reg>
@@ -229,9 +244,12 @@
                             </choice>amais n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>aura.</s><s><choice>
+                            </choice>aura.<choice>
+                                <orig/>
+                                <reg> »</reg>
+                            </choice></s><s><choice>
                                 <orig>j</orig>
-                                <reg>– J</reg>
+                                <reg>« J</reg>
                             </choice>e n<choice>
                                 <orig/>
                                 <reg>'</reg>
@@ -246,7 +264,7 @@
                                 <reg>,</reg>
                             </choice> pas abusé et vous ay gardé fidelité.<choice>
                                 <orig/>
-                                <reg>"</reg>
+                                <reg> »</reg>
                             </choice></s>
                     </add>
                 </subst><s><add seq="1" xml:id="f26vop1-8_je_croies"><del>je vous <choice>
