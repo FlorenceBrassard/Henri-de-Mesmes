@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del><choice>
+                     <orig>m</orig>
+                     <reg>M</reg>
+                  </choice>ais ce fut en vain.</del></s><s>
+               <del><choice>
+                     <orig>s</orig>
+                     <reg>S</reg>
+                  </choice>ept ans</del><add xml:id="f21rop1-2_Tellement_quaiant">Tellement
+                     qu'aiant</add> peu apres <subst>
+                        <del>resolu au</del>
+                        <add xml:id="f21rop1-2_conclud_doner">conclud <add xml:id="f21rop1-2_de">de</add> doner</add>
+                     </subst><substJoin target="#f21rop1-2_Tellement_quaiant #f21rop1-2_de #f21rop1-2_point #f21rop1-2_saincte_aportée"></substJoin> secours <subst>
+                        <del>des</del>
+                        <add>au<del xml:id="f21rop1_x">x</del>
+                           <add xml:id="f21rop1-2_pape_les"><roleName
+                              ref="https://isni.org/isni/0000000448838048">Pape</roleName>
+                              contre les</add></add>
+                     </subst><substJoin target="#f21rop1-2_conclud_doner #f21rop1_x #f21rop1_pape_les"/><choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                     </choice>olonois et <metamark function="insert" target="#f21rop1_acorder_la"
+                        >^</metamark><add xml:id="f21rop1_acorder_la"><metamark>^</metamark>acorder
+                           la</add>
+                     <choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                     </choice>igue <add xml:id="f21rop1-2_saincte_aportée">saincte qui luy fut aportée</add><add xml:id="f21rop1-2_point"><del rend="unmarked">.</del></add> d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice><placeName><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                     </choice>talie</placeName><choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice></s><s><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                     </choice>l m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>en<choice>
+                        <reg>u</reg>
+                        <orig>v</orig>
+                     </choice>oia querir <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice>
+                        <placeName>Tonerre</placeName> o<choice>
+                           <orig>u</orig>
+                           <reg>ù</reg>
+                        </choice>
+                        <choice>
+                           <orig>i</orig>
+                           <reg>j'</reg>
+                        </choice>estois lors <del>pour</del> par son <choice>
+                           <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                           <expan>com</expan>
+                        </choice>mandement <metamark function="insert" target="#f21rop1-2_pour_feu"
+                           >+</metamark><subst>
+                              <del>pour <subst>
+                                 <del>le</del>
+                                 <add>cognoistre du</add>
+                              </subst> feu qui y a<choice>
+                                 <orig>u</orig>
+                                 <reg>v</reg>
+                              </choice>oit esté mis et a<choice>
+                                 <orig>u</orig>
+                                 <reg>v</reg>
+                              </choice>oit bruslé <choice>
+                                 <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                                 <expan>par</expan>
+                              </choice>tie de la ville.</del>
+                              <add xml:id="f21rop1-2_pour_feu"><metamark>+</metamark> pour doner ordre <choice>
+                                 <orig>a</orig>
+                                 <reg>à</reg>
+                              </choice> ceste ville <choice>
+                                 <orig>a</orig>
+                                 <reg>à</reg>
+                              </choice> demy consomée du feu</add>
+                           </subst><choice>
+                              <orig/>
+                              <reg>.</reg>
+                           </choice></s></p>
+      </body>
+   </text>
+</TEI>
