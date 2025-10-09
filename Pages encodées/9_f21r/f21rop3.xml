@@ -48,7 +48,7 @@
          </subst> voiage me donant la charge sur la <choice>
             <orig>i</orig>
             <reg>j</reg>
-         </choice>ustice <subst seq="1">
+         </choice>ustice <subst>
             <add>de l<choice>
                <orig/>
                <reg>'</reg>
@@ -58,9 +58,9 @@
             </subst></add>
             <del>et</del>
          </subst>
-            <subst seq="2" xml:id="f21rop3_aux_au">
+            <subst xml:id="f21rop3_aux_au">
                <del>aux <choice>
-                  <abbr>af<hi rend="superscript">er</hi>s</abbr>
+                  <abbr>afe<hi rend="superscript">r</hi>s</abbr>
                   <expan>affaires</expan>
                </choice> d<choice>
                   <orig>e</orig>
@@ -110,7 +110,8 @@
                   <orig>s</orig>
                   <reg>S</reg>
                </choice>ienois</placeName></add>
-            </subst><substJoin
+            </subst>
+            <substJoin
                target="#f21rop3_à #f21rop3_u #f21rop3_montalcin_sienois"/>
             <subst>
                <del>en ma</del>
@@ -158,7 +159,7 @@
                <orig>u</orig>
                <reg>v</reg>
             </choice>iron deux mois</add><substJoin
-               target="#f21rop3_qui_destre #f21rop2-3_denuiron_mois"/>.</s></p>
+               target="#f21rop3_qui_destre #f21rop3_denuiron_mois"/>.</s></p>
       </body>
    </text>
 </TEI>
