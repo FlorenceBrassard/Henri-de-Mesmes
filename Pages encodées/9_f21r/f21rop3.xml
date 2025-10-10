@@ -61,7 +61,7 @@
             <subst xml:id="f21rop3_aux_au">
                <del>aux <choice>
                   <abbr>afe<hi rend="superscript">r</hi>s</abbr>
-                  <expan>affaires</expan>
+                  <expan>afaires</expan>
                </choice> d<choice>
                   <orig>e</orig>
                   <reg>'E</reg>
@@ -97,10 +97,9 @@
             </choice> me rendre incontin<choice>
                <abbr>ã</abbr>
                <expan>an</expan>
-            </choice>t <choice>
-               <orig>a</orig>
-               <reg><del xml:id="f21rop3_à">à</del></reg>
-            </choice><add xml:id="f21rop3_u">u</add>
+            </choice>t
+               a
+            <add xml:id="f21rop3_u">u</add>
             <subst xml:id="f21rop3_montalcin_sienois">
                <del><placeName><choice>
                   <orig>m</orig>
@@ -112,7 +111,7 @@
                </choice>ienois</placeName></add>
             </subst>
             <substJoin
-               target="#f21rop3_à #f21rop3_u #f21rop3_montalcin_sienois"/>
+               target="#f21rop3_u #f21rop3_montalcin_sienois"/>
             <subst>
                <del>en ma</del>
                <del> et y <choice>

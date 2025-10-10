@@ -30,9 +30,9 @@
                         <del>resolu au</del>
                         <add xml:id="f21rop1-2_conclud_doner">conclud <add xml:id="f21rop1-2_de"
                                 >de</add> doner</add>
-                    </subst><substJoin
-                        target="#f21rop1-2_Tellement_quaiant #f21rop1-2_conclud_doner #f21rop1-2_de #f21rop1_des_aux #f21rop1-2_point #f21rop1-2_saincte_aportée"
-                    /> secours <subst xml:id="f21rop1_des_aux">
+                    </subst><substJoin seq="1"
+                        target="#f21rop1-2_Tellement_quaiant #f21rop1-2_conclud_doner #f21rop1_des_aux #f21rop1-2_acorder_la #f21rop1-2_point_add"
+                    />secours <subst xml:id="f21rop1_des_aux">
                         <del>des</del>
                         <add><del><metamark function="insert">+</metamark></del> au<del
                                 xml:id="f21rop1-2_x">x</del></add>
@@ -45,10 +45,12 @@
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>olonois</surname></persName> et <metamark function="insert"
-                        target="#f21rop1_acorder_la">^</metamark><add xml:id="f21rop1_acorder_la"
+                        target="#f21rop1-2_acorder_la">^</metamark><add xml:id="f21rop1-2_acorder_la"
                             ><metamark>^</metamark>acorder la</add> ligue <add
                         xml:id="f21rop1-2_saincte_aportée">saincte qui luy fut aportée</add><add
-                        xml:id="f21rop1-2_point"><del rend="unmarked">.</del></add> d<choice>
+                            xml:id="f21rop1-2_point_add"><del rend="unmarked" xml:id="f21rop1-2_point_del">.</del>
+                        </add><substJoin seq="2"
+                            target="#f21rop1-2_saincte_aportée #f21rop1-2_point_del"/> d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice><placeName><choice>

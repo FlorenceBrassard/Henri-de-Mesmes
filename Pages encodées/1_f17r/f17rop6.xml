@@ -341,18 +341,21 @@
                     /> le gouverneur du paÿs <del xml:id="f17rop6_les_2"><add
                             facs="#f17rop6_i_les_6_1" xml:id="f17rop6_les_1">les</add>
                         <substJoin target="#f17rop6_ou_2 #f17rop6_les_2 #f17rop6_et_ville"
-                            /><metamark facs="#f17rop6_i_metamark_6_4" function="insert" target="#f17rop6_et_ville"
-                            xml:id="f17rop6_metamark_4">^</metamark><add facs="#f17rop6_i_et_ville"
-                            xml:id="f17rop6_et_ville">et de la ville</add></del> portoit <subst>
+                            /><metamark facs="#f17rop6_i_metamark_6_4" function="insert"
+                            target="#f17rop6_et_ville" xml:id="f17rop6_metamark_4">^</metamark><add
+                            facs="#f17rop6_i_et_ville" xml:id="f17rop6_et_ville">et de la
+                            ville</add></del> portoit <subst>
                         <del>ancore</del>
                         <add><del><gap quantity="5" unit="char"/></del></add>
                     </subst>
                     <choice>
                         <abbr rend="overlined">nre</abbr>
-                        <expan>notre</expan>
-                    </choice> nom <del facs="#f17rop6_i_et_6_3" xml:id="f17rop6_et_3">et <gap
-                            quantity="2" unit="char"/></del>
-<!--                    nre (notre) ?-->
+                        <expan>nostre</expan>
+                    </choice> nom <del facs="#f17rop6_i_et_6_3" xml:id="f17rop6_et_3">et <unclear
+                            reason="deleted"><choice>
+                                <orig>nr</orig>
+                                <reg>nostre</reg>
+                            </choice></unclear></del>
                     <add facs="#f17rop6_i_et_armes" xml:id="f17rop6_et_armes">et armes</add>
                     <add facs="#f17rop6_i_en_6_1" xml:id="f17rop6_en_1">en</add><substJoin
                         target="#f17rop6_et_3 #f17rop6_en_1"/> l<choice>
