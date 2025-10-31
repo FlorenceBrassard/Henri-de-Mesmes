@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>Pendant que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>estois l<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <del><choice>
+                            <abbr>m<hi rend="superscript">r</hi></abbr>
+                            <expan>monsieur</expan>
+                        </choice> d</del>
+                    <add><choice>
+                            <abbr>m<hi rend="superscript">r</hi></abbr>
+                            <expan>monsieur</expan>
+                        </choice>
+                        <persName ref="Q28495"
+                            ><nameLink>de</nameLink><surname>Guyse</surname></persName> a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec</add>
+                    <choice>
+                        <abbr>n<hi rend="overlined">re</hi></abbr>
+                        <expan>nostre</expan>
+                    </choice> armée <metamark function="insert" target="#f21vop6_venue"
+                        >^</metamark><add xml:id="f21vop6_venue"
+                            ><metamark>^</metamark><del>venue</del></add>
+                    <subst>
+                        <del>de <placeName><choice>
+                                    <orig>f</orig>
+                                    <reg>F</reg>
+                                </choice>rance</placeName></del>
+                        <add>de la ligue <choice>
+                                <abbr>s<hi rend="superscript">te</hi></abbr>
+                                <expan>saincte</expan>
+                            </choice></add>
+                    </subst> assiegea <placeName>Ci<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>itella</placeName>. </s></p>
+        </body>
+    </text>
+</TEI>
