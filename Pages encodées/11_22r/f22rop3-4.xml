@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>m</orig>
+                  <reg>M</reg>
+               </choice>ais <metamark function="insertion" target="#f22rop3-4_le_viceroy"
+                  >^</metamark><add xml:id="f22rop3-4_le_viceroy"><metamark>^</metamark> le
+                     <roleName>Roy</roleName> fut de mon costé, y en<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oia le <choice>
+                     <abbr>s<hi rend="superscript">r</hi></abbr>
+                     <expan>seigneur</expan>
+                  </choice> don <persName><forename><choice>
+                           <abbr>fr<hi rend="superscript">co</hi></abbr>
+                           <expan>Francesco</expan>
+                        </choice></forename>
+                     <nameLink>da</nameLink>
+                     <surname><choice>
+                           <orig>e</orig>
+                           <reg>E</reg>
+                        </choice>sté</surname>
+                  </persName> pour viceroy <metamark function="insert"
+                     target="#f22rop_3-4_et_iustice">#</metamark></add><addSpan
+                  spanTo="#f22rop3-4_iustice" xml:id="f22rop3-4_et_iustice"/><metamark>#</metamark>
+               et me mainteint a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ec beaucoup de tesmoignages de <choice>
+                  <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                  <expan>con</expan>
+               </choice>tantement dont <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>ay les <choice>
+                  <abbr rend="overlined">lres</abbr>
+                  <expan>lettres</expan>
+               </choice> en bon nombre.</s><s><choice>
+                  <orig>q</orig>
+                  <reg>Q</reg>
+               </choice>uant <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> la <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ustice <anchor xml:id="f22rop3-4_iustice"/><choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e m<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>exposay apres xiiij mois de ser<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ice au sindicat acoustumé selon les statuts de <placeName><choice>
+                     <orig>s</orig>
+                     <reg>S</reg>
+                  </choice>iene</placeName> et apres l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>examen de toutes mes actions <choice>
+                  <orig>i</orig>
+                  <reg>, j</reg>
+               </choice>ugemens et procedures fut donnée <choice>
+                  <abbr><g ref="par-glyph">ꝑ</g></abbr>
+                  <expan>par</expan>
+               </choice> les <choice>
+                  <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                  <expan>com</expan>
+               </choice>issaires sentences d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice><choice>
+                  <abbr>absolu<hi rend="overlined">on</hi></abbr>
+                  <expan>absolution</expan>
+               </choice>
+               <subst>
+                  <del>par <gap reason="deleted" unit="char" quantity="2"/> les vois de</del>
+                  <add>de l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>advis de</add>
+               </subst> touts <add><subst>
+                     <del>selon leurs<choice>
+                           <abbr><g ref="dict-glyph">ɠ</g></abbr>
+                           <expan>dicts</expan>
+                        </choice> statuts</del>
+                     <add>selon la forme de leurs statuts</add>
+                  </subst></add>, et depuys tesmoignage de bien ser<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>y par toute la Republique<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> dont <del><choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>au</del>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e raportay en <placeName><choice>
+                     <orig>f</orig>
+                     <reg>F</reg>
+                  </choice>rance</placeName> les <choice>
+                  <abbr rend="overlined">lres</abbr>
+                  <expan>lettres</expan>
+               </choice> au <persName><roleName>Roy</roleName><forename>Henry</forename></persName>
+               mon bon maistre afin qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il cogneust que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e n'a <choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ois pas failly en ma charge <del>et qu<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>il</del> ny luy en son election.</s></p>
+      </body>
+   </text>
+</TEI>

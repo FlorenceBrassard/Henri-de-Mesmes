@@ -121,7 +121,7 @@
                     xml:id="f17rop6_metamark_2">^</metamark><del><add facs="#f17rop6_i_p_moien"
                         xml:id="f17rop6_p_moien"><metamark rend="^">^</metamark><anchor
                             xml:id="f17rop6_metamark_p_moien"/><choice>
-                            <abbr><g ref="#f17rop6_par-glyph">ꝑ</g></abbr>
+                            <abbr><g ref="par-glyph">ꝑ</g></abbr>
                             <expan>par</expan>
                         </choice> le mo<choice>
                             <orig>i</orig>
