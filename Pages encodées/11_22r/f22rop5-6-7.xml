@@ -167,7 +167,40 @@
                                     <reg>j</reg>
                                 </choice>our de sa mort fut</add>
                         </subst> le <date>12. Mars 1557.</date></add>
-                </s></p>
+            </s><s><subst xml:id="f22rop5-6-7_et_Quant">
+                <del><choice>
+                    <orig>e</orig>
+                    <reg>E</reg>
+                </choice>t</del>
+                <add>Quant</add>
+            </subst><substJoin target="#f22rop5_6_aussy_1557 #f22rop5-6-7_et_Quant"></substJoin> au public le <roleName ref="Q132545">Roy</roleName> a<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>oit remis sus de grosses forces et sembloit <subst>
+                <del>un peu</del>
+                <add>presque</add>
+            </subst> rele<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>é de la <del>g<gap quantity="3" unit="char"/></del> perte faiste <choice>
+                <orig>a</orig>
+                <reg>à</reg>
+            </choice> la <date><choice>
+                <abbr>s<hi rend="superscript">t</hi> </abbr>
+                <expan>Sainct</expan>
+            </choice><choice>
+                <orig>l</orig>
+                <reg>L</reg>
+            </choice>aurens</date> 
+                pres <placeName><choice>
+                    <abbr>s<hi rend="superscript">t</hi> </abbr>
+                    <expan>Sainct</expan>
+                </choice>
+                    Quentin</placeName> en l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>année precedente. 
+            </s></p>
         </body>
     </text>
 </TEI>

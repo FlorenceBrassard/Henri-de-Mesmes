@@ -27,19 +27,21 @@
                </choice>r <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>e le su<subst>
+               </choice>e le su<subst xml:id="f22rop8-9_s_yvy">
                   <del rend="overwritten">s</del>
                   <add place="superimposed">yvy</add>
-                  <del><choice>
+               </subst>
+            <del xml:id="f22rop8-9_por_suyvy"><choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>
-                     </choice> le suyvy</del>
-               </subst> en <placeName>Champaigne</placeName>
+            </choice> le suyvy</del>
+            <substJoin target="#f22rop8-9_s_yvy #f22rop8-9_por_suyvy"/>
+                en <placeName>Champaigne</placeName>
                <add> et <placeName><choice>
                         <orig>p</orig>
                         <reg>P</reg>
                      </choice>icardie</placeName></add>
-               <del>en <unclear reason="illegible">L</unclear></del> en ceste grosse armée d<choice>
+               <del>en L</del> en ceste grosse armée d<choice>
                   <orig/>
                   <reg>'</reg>
                </choice><placeName><choice>
@@ -48,14 +50,13 @@
                   </choice>mi<subst>
                      <del rend="overwritten">e</del>
                      <add place="superimposed">a</add>
-                  </subst>ns</placeName> et <add>ne</add> <metamark function="insertion" target="#f22rop7_le"
-                  >^</metamark><add xml:id="f22rop7_le"><metamark>^</metamark>le</add> laissay
+                  </subst>ns</placeName> et <add>ne</add> <metamark function="insert" target="#f22rop8-9_le"
+                  >^</metamark><add xml:id="f22rop8-9_le"><metamark>^</metamark> le </add> laissay
                guiere durant la guerre ny en la res<choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>ouissance de la pais <metamark function="insertion"
-                  target="#f22rop7_depuys_acordée">^</metamark><add xml:id="f22rop7_depuys_acordée"
-                     ><metamark>^</metamark> depuys acordée</add> o<choice>
+               </choice>ouissance de la pais <metamark function="insert"
+                  target="#f22rop8-9_depuys_acordée">^</metamark><add xml:id="f22rop8-9_depuys_acordée"><metamark>^</metamark> depuys acordée</add> o<choice>
                   <orig>u i</orig>
                   <reg>ù j</reg>
                </choice>e le vy fraper <choice>
@@ -63,9 +64,12 @@
                   <reg>à</reg>
                </choice>
                <placeName>Paris</placeName> du coup dont il mourrut <add seq="2"><metamark
-                     function="insertion" target="#f22rop8-9_Et_luy">^</metamark></add><add seq="1"
-                     ><del>et la p</del></add><add seq="2" xml:id="f22rop8-9_Et_luy"
-                     ><metamark>^</metamark> Et le <subst>
+                     function="insert" target="#f22rop8-9_Et_luy">^</metamark></add><add seq="1"
+                     ><del>et la p</del></add><add seq="2" xml:id="f22rop8-9_et_luy"
+                        ><metamark>^</metamark> <choice>
+                        <orig>E</orig>
+                        <reg>e</reg>
+                        </choice>t le <subst>
                      <del>bien</del>
                      <add>repos</add>
                   </subst> de la <placeName><choice>

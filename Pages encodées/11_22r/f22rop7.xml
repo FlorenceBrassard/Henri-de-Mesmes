@@ -21,13 +21,13 @@
    </teiHeader>
    <text>
       <body>
-         <p><subst>
+         <p><s><subst>
                <del><choice>
                      <orig>e</orig>
                      <reg>E</reg>
                   </choice>t</del>
                <add>Quant</add>
-            </subst> au public le <roleName>Roy</roleName> a<choice>
+         </subst> au public le <roleName ref="Q132545">Roy</roleName> a<choice>
                <orig>u</orig>
                <reg>v</reg>
             </choice>oit remis sus de grosses forces et sembloit <subst>
@@ -36,19 +36,25 @@
             </subst> rele<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>é de la <del>g<gap reason="deleted" unit="char"/></del> perte faiste <choice>
+            </choice>é de la <del>g<gap quantity="3" unit="char"/></del> perte faiste <choice>
                <orig>a</orig>
                <reg>à</reg>
-            </choice> la <date>s<hi rend="superscript">t</hi>
-               <choice>
+            </choice> la <date><choice>
+               <abbr>s<hi rend="superscript">t</hi> </abbr>
+               <expan>Sainct</expan>
+            </choice><choice>
                   <orig>l</orig>
                   <reg>L</reg>
-               </choice>aurens</date> pres <placeName>s<hi rend="superscritp">t</hi>
+               </choice>aurens</date> 
+            pres <placeName><choice>
+               <abbr>s<hi rend="superscript">t</hi> </abbr>
+               <expan>Sainct</expan>
+            </choice>
                Quentin</placeName> en l<choice>
                <orig/>
                <reg>'</reg>
-            </choice>année precedente. </p>
-         <p/>
-      </body>
+               </choice>année precedente. 
+         </s></p>
+         </body>
    </text>
 </TEI>
