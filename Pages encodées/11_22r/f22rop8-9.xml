@@ -78,7 +78,10 @@
                      </choice>rance</placeName> a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>ec luy</add> en <date>fin de Juillet 1559.</date></s></p>
+                     </choice>ec luy</add> en <date>fin de <choice>
+                        <orig>J</orig>
+                        <reg>j</reg>
+                     </choice>uillet 1559.</date></s></p>
       </body>
    </text>
 </TEI>

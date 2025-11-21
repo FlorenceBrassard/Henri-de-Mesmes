@@ -162,7 +162,7 @@
                                 <add place="superimposed">z</add>
                             </subst><choice>
                                 <abbr><hi rend="overlined">lres</hi></abbr>
-                                <expan>lettres</expan>
+                                <expan>letres</expan>
                             </choice></add>
                     </subst><supplied>.</supplied>
                 </add>

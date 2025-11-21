@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><add xml:id="f22rop5-6_et_fu"><del><choice>
+            <p><addSpan xml:id="f22rop5-6-7_et_fu" spanTo="#f22rop5-6-7_fu"/><s><del><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
                             </choice>t</del>
@@ -37,10 +37,10 @@
                         </choice>estre gardées pour la dignité d<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>icelles. <choice>
+                        </choice>icelles.</s><s><choice>
                             <orig>i</orig>
                             <reg>J</reg>
-                        </choice>e fu</add><del xml:id="f22rop5-6_ie_fu"><choice>
+                        </choice>e fu<anchor xml:id="f22rop5-6-7_fu"/><del xml:id="f22rop5-6-7_ie_fu"><choice>
                             <orig>i</orig>
                             <reg>J</reg>
                         </choice>e fu</del> de retour <choice>
@@ -55,36 +55,36 @@
                             <add>8</add>
                         </subst></date>
                     <subst>
-                        <del rend="overwritten" xml:id="f22rop5-6_point">.</del>
-                        <add place="superimposed">o<choice xml:id="f22rop5-6_u">
+                        <del rend="overwritten" xml:id="f22rop5-6-7_point">.</del>
+                        <add place="superimposed">o<choice xml:id="f22rop5-6-7_u">
                                 <orig>u</orig>
                                 <reg>ù</reg>
                             </choice>
-                            <del xml:id="f22rop5-6_15">15</del></add>
-                    </subst><substJoin seq="1" target="#f22rop5-6_ie_fu #f22rop5-6_point"
-                        /><substJoin seq="2" target="#f22rop5-6_et_fu #f22rop5-6_15 #f22rop5-6_u"/>
+                            <del xml:id="f22rop5-6-7_15">15</del></add>
+                    </subst><substJoin seq="1" target="#f22rop5-6-7_ie_fu #f22rop5-6-7_point"
+                    /><substJoin seq="2" target="#f22rop5-6-7_et_fu #f22rop5-6-7_15 #f22rop5-6-7_u"/>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e trou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ay <del xml:id="f22rop5-6_pour_particulier">pour mon <choice>
+                    </choice>ay <del xml:id="f22rop5-6-7_pour_particulier">pour mon <choice>
                             <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                             <expan>par</expan>
-                        </choice>ticulier <metamark function="insert" target="#f22rop5-6_vne_dont"
+                    </choice>ticulier <metamark function="insert" target="#f22rop5-6-7_vne_dont"
                             >^</metamark></del><subst>
-                        <add xml:id="f22rop5-6_vne_dont"><add xml:id="f22rop5-6_ma_d">ma famille
-                                accreue d'</add><del xml:id="f22rop5-6_metamark_1"
+                                <add xml:id="f22rop5-6-7_vne_dont"><add xml:id="f22rop5-6-7_ma_d">ma famille
+                                    accreue d'</add><del xml:id="f22rop5-6-7_metamark_1"
                                     ><metamark>^</metamark></del><choice>
                                 <orig>v</orig>
                                 <reg>u</reg>
                             </choice>ne fille dont</add>
                         <del>que</del>
                     </subst><substJoin
-                        target="#f22rop5-6_pour_particulier #f22rop5-6_ma_d #f22rop5-6_metamark_1"/>
-                    ma femme <metamark function="insert" target="#f22rop5-6_estoit_absent_add"
-                        >^</metamark><add xml:id="f22rop5-6_estoit_absent_add"><metamark>^</metamark> estoit acouchée moy absent</add> sept mois apres
+                        target="#f22rop5-6-7_pour_particulier #f22rop5-6-7_ma_d #f22rop5-6-7_metamark_1"/>
+                ma femme <metamark function="insert" target="#f22rop5-6-7_estoit_absent_add"
+                    >^</metamark><add xml:id="f22rop5-6-7_estoit_absent_add"><metamark>^</metamark> estoit acouchée moy absent</add> sept mois apres
                     mon <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
@@ -95,8 +95,8 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-               <metamark function="insert" target="#f22rop5-6_cest_soir">+</metamark>
-               <add xml:id="f22rop5-6_cest_soir"><metamark>+</metamark> c<choice>
+                <metamark function="insert" target="#f22rop5-6-7_cest_soir">+</metamark>
+                <add xml:id="f22rop5-6-7_cest_soir"><metamark>+</metamark> c<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>est <choice>
@@ -114,10 +114,10 @@
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> xx heures et 1 quart du soir </add>
-                    <del xml:id="f22rop5-6_estoit_absent_del">estoit acouchée moy
+                <del xml:id="f22rop5-6-7_estoit_absent_del">estoit acouchée moy
                         absent</del><substJoin
-                           target="#f22rop5-6_estoit_absent_add #f22rop5-6_estoit_absent_del"/> et <del
-                        xml:id="f22rop5-6_l">l<choice>
+                            target="#f22rop5-6-7_estoit_absent_add #f22rop5-6-7_estoit_absent_del"/> et <del
+                                xml:id="f22rop5-6-7_l">l<choice>
                         <orig/>
                         <reg>'</reg>
                         </choice></del>a<choice>
@@ -125,15 +125,15 @@
                         <reg>v</reg>
                     </choice>oit <subst>
                         <del seq="1">nommée</del>
-                       <del seq="2" xml:id="f22rop5-6_faict_nomer"><add seq="1">faict nomer</add></del>
-                        <add seq="2" xml:id="f22rop5-6_nom">nom</add>
-                    </subst><substJoin target="#f22rop5-6_l #f22rop5-6_faict_nomer #f22rop5-6_nom"/> Renée, mon premier
-                    enfant <subst rend="unmarked">
+                        <del seq="2" xml:id="f22rop5-6-7_faict_nomer"><add seq="1">faict nomer</add></del>
+                        <add seq="2" xml:id="f22rop5-6-7_nom">nom</add>
+                    </subst><substJoin target="#f22rop5-6-7_l #f22rop5-6-7_faict_nomer #f22rop5-6-7_nom"/> Renée, mon premier
+                    enfant <subst rend="unmarked" xml:id="f22rop5-6-7_virgule_point">
                         <del>,</del>
                         <add>.</add>
-                    </subst>
-                    <metamark function="insert" target="#f22rop5_6_aussy_1557">π</metamark><add
-                        xml:id="f22rop5_6_aussy_1557"><metamark>π</metamark>
+                    </subst></s>
+                    <metamark function="insert" target="#f22rop5-6-7_aussy_1557">π</metamark><addSpan spanTo="#f22rop5-6-7_1557"
+                        xml:id="f22rop5-6-7_aussy_1557"/><s><metamark>π</metamark>
                        <subst>
                             <del><choice>
                                     <orig>a</orig>
@@ -154,7 +154,7 @@
                         </choice> femme certes toute de <choice>
                             <orig>d</orig>
                             <reg>D</reg>
-                        </choice>ieu et tres chaste. <subst>
+                        </choice>ieu et tres chaste.</s><s><subst>
                            <del><choice>
                               <orig>e</orig>
                               <reg>E</reg>
@@ -166,14 +166,14 @@
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>our de sa mort fut</add>
-                        </subst> le <date>12. Mars 1557.</date></add>
+                        </subst> le <date>12. Mars 1557.</date><anchor xml:id="f22rop5-6-7_1557"/> 
             </s><s><subst xml:id="f22rop5-6-7_et_Quant">
                 <del><choice>
                     <orig>e</orig>
                     <reg>E</reg>
                 </choice>t</del>
                 <add>Quant</add>
-            </subst><substJoin target="#f22rop5_6_aussy_1557 #f22rop5-6-7_et_Quant"></substJoin> au public le <roleName ref="Q132545">Roy</roleName> a<choice>
+            </subst><substJoin target="#f22rop5-6-7_aussy_1557 #f22rop5-6-7_et_Quant #f22rop5-6-7_virgule_point"></substJoin> au public le <roleName ref="Q132545">Roy</roleName> a<choice>
                 <orig>u</orig>
                 <reg>v</reg>
             </choice>oit remis sus de grosses forces et sembloit <subst>

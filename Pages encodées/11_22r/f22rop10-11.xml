@@ -116,8 +116,8 @@
                         <reg>'</reg>
                     </choice><placeName>Italie</placeName>, <metamark function="insert"
                         target="#f22rop10-11_enuiron_nacquites">+</metamark><del>et a mes
-                        estudes</del>.<add xml:id="f22rop10-11_enuiron_nacquites"
-                            ><metamark>+</metamark>en<choice>
+                        estudes</del>.</s><s><addSpan spanTo="#f22rop10-11_nacquites" xml:id="f22rop10-11_enuiron_nacquites"
+                            /><metamark>+</metamark>en<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>iron ce temps <add>et le <date><choice>
@@ -132,10 +132,10 @@
                         <supplied cert="high">a</supplied>d<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>eint aussy la mort de mon beau pere <del rend="unmarked"><choice>
-                                <abbr>m<hi rend="superscript">r</hi>.</abbr>
-                                <expan>monsieur</expan>
-                            </choice></del><del>H</del>
+                        </choice>eint aussy la mort de mon beau pere<choice>
+                            <abbr>m<hi rend="superscript">r</hi>.</abbr>
+                            <expan>monsieur</expan>
+                        </choice><del>H</del>
                         <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
                             <expan>maistre</expan>
@@ -180,7 +180,7 @@
                             >em</unclear>p</del><add xml:id="f22rop10-11_charite_et">charite
                             et</add> rondeur <del xml:id="f22rop10-11_et_charite">et
                             charité</del><substJoin
-                            target="#f22rop10-11_charite_et #f22rop10-11_et_charite"/>. <choice>
+                                target="#f22rop10-11_charite_et #f22rop10-11_et_charite"/>.</s><s><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l estoit l<choice>
@@ -221,11 +221,16 @@
                                 </choice>court</surname></persName><choice>
                             <orig/>
                             <reg>,</reg>
-                        </choice> touts deux etans en <subst xml:id="f22rop10-11_son_leurs">
+                        </choice> touts deux <subst>
+                            <del>etans <choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                            </choice></del><add>en</add>
+                        </subst><subst xml:id="f22rop10-11_son_leurs">
                             <del>son</del>
-                            <add><del><hi rend="superscript">a</hi></del> leurs</add>
+                            <add>leurs</add>
                         </subst> sexe<add xml:id="f22rop10-11_s1">s</add><substJoin
-                            target="#f22rop10-11_son_leurs #f22rop10-11_s1"/> honorez de tou<subst>
+                            target="#f22rop10-11_son_leurs #f22rop10-11_s1 #f22rop10-11_z"/> honore<add xml:id="f22rop10-11_z">z</add> de tou<subst>
                             <del rend="overwritten">s</del>
                             <add place="superimposed">te</add>
                         </subst> vertu, et laissa apres luy son <add><del rend="unmarked"
@@ -260,7 +265,7 @@
                         </choice>entendement que de<subst xml:id="f22rop10-11_s_ceulx">
                             <del>s yeulx</del>
                             <add>ceulx</add>
-                        </subst> de son corps. <substJoin
+                        </subst> de son corps.</s><s> <substJoin
                             target="#f22rop10-11_s_de #f22rop10-11_s_ceulx"/>
                         <choice>
                             <orig>a</orig>
@@ -312,10 +317,14 @@
                         </subst> qui estes vous <add xml:id="f22rop10-11_mon_filz"><roleName
                                 ref="Q94908007">mon filz</roleName></add>, substJoin
                         target="#f22rop10-11_filz_enfant #f22rop10-11_mon_filz"/> qui
-                        nacquites</add> le <date>XXV<choice>
+                        nacquites<anchor xml:id="f22rop10-11_nacquites"/> le <date>XXV<choice>
                             <orig>ij</orig>
                             <reg>II</reg>
-                        </choice><hi rend="superscript">e</hi> Juillet V<hi rend="superscript"
+                        </choice><hi rend="superscript">e</hi>
+                        <choice>
+                            <orig>J</orig>
+                            <reg>j</reg>
+                        </choice>uillet V<hi rend="superscript"
                             >c</hi><choice>
                             <orig>lx</orig>
                             <reg>LX</reg>
@@ -341,13 +350,14 @@
                     <choice>
                         <abbr rend="overlined">vre</abbr>
                         <expan>vostre</expan>
-                    </choice> aieul <del xml:id="f22rop10-11_mon_pere_del"><roleName ref="Q107207194">mon pere</roleName></del><add
+                    </choice> aieul <del xml:id="f22rop10-11_mon_pere_del"><roleName
+                            ref="Q107207194">mon pere</roleName></del><add
                         xml:id="f22rop10-11_nommé">nommé</add><substJoin
                         target="#f22rop10-11_et_nommé  #f22rop10-11_mon_pere_del #f22rop10-11_nommé"
-                        /> de son nom <persNameref="Q107207194"><forename>Jean<choice>
-                           <orig> </orig>
-                           <reg>-</reg>
-                           </choice>Jacques</forename></persName>. </s></p>
+                    /> de son nom <persName ref="Q107207194"><forename>Jean<choice>
+                                <orig> </orig>
+                                <reg>-</reg>
+                    </choice>Jacques</forename></persName>.</s></p>
         </body>
     </text>
 </TEI>

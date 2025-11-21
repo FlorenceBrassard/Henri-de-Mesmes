@@ -32,7 +32,7 @@
                             <reg>'</reg>
                         </choice>est resté que moy et le<choice>
                             <abbr><g ref="dict-glyph">ɠ</g></abbr>
-                            <reg>dict</reg>
+                            <expan>dict</expan>
                         </choice><add><choice>
                                 <abbr>s<hi rend="superscript">r</hi></abbr>
                                 <expan>seigneur</expan>

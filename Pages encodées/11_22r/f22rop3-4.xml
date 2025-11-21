@@ -60,7 +60,7 @@
                         <reg>j'</reg>
                     </choice>ay les <choice>
                         <abbr rend="overlined">lres</abbr>
-                        <expan>lettres</expan>
+                        <expan>letres</expan>
                     </choice> en bon nombre.</s><s><choice>
                         <orig>q</orig>
                         <reg>Q</reg>
@@ -98,7 +98,7 @@
                     </choice> les <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>com</expan>
-                    </choice>issaires sentences d<choice>
+                    </choice>missaires sentences d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>absolu<choice>
@@ -138,7 +138,7 @@
                             <reg>F</reg>
                         </choice>rance</placeName> les <choice>
                         <abbr rend="overlined">lres</abbr>
-                        <expan>lettres</expan>
+                        <expan>letres</expan>
                     </choice> au <persName ref="Q132545"
                             ><roleName>Roy</roleName><forename>Henry</forename></persName> mon bon
                     maistre afin qu<choice>
