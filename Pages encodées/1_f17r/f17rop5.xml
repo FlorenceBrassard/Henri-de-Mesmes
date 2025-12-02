@@ -19,18 +19,24 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/181,2955,3550,795/full/0/default.jpg"/>
+            <zone xml:id="f17rop5_i_e_laborem" points="49,190 600,207 563,569 50,625"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <p><s>Puys apres moy, que vous <choice>
-                        <abbr>m. f.</abbr>
-                        <expan>mon fils</expan>
-                    </choice> par la lecture de ma vie aies un exemple domestique pour craindre
-                    Dieu, <subst>
-                        <del>ambrasser</del>
-                        <add>suyvre</add>
-                    </subst>la vertu, <del>prevoir les accidens,</del> et mespriser la fortune.
-                            <del><q rend="unmarked" xml:lang="la">E terra magnum alterius spectare
-                            laborem.</q></del></s></p>
+            <p>Puys apres moy, que vous <choice>
+                    <abbr>m. f.</abbr>
+                    <expan>mon fils</expan>
+                </choice> par la lecture de ma vie aies un exemple domestique pour craindre Dieu, <subst>
+                    <del>ambrasser</del>
+                    <add>suyvre</add>
+                </subst>la vertu, <del>prevoir les accidens,</del> et mespriser la fortune. <del
+                    facs="#f17rop5_i_e_laborem"><q rend="unmarked" xml:lang="la">E terra magnum
+                        alterius spectare laborem.</q></del></p>
         </body>
     </text>
 </TEI>

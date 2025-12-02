@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                    </choice>e marriage fut celebré <add>le</add>
+                    <date><choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>eudy xi<choice>
+                            <orig>j</orig>
+                            <reg>i</reg>
+                        </choice><hi rend="superscript">e</hi>
+                        <choice>
+                            <abbr>7<hi rend="superscript">bre</hi></abbr>
+                            <expan>Septembre</expan>
+                        </choice>
+                        <hi rend="overlined">1555</hi></date>.</s></p>
+        </body>
+    </text>
+</TEI>

@@ -19,13 +19,27 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/199,2173,3558,995/full/0/default.jpg"/>
+            <zone xml:id="f17rop4_i_ny_histoire"
+                points="2690,117 2703,220 3066,168 3016,290 2853,296 2848,421 3146,416 3550,407 3550,7 3248,1 2928,86"/>
+            <zone xml:id="f17rop4_i_sente" points="2359,620 2335,683 2585,660 2591,610"/>
+            <zone xml:id="f17rop4_i_recoive" points="2383,533 2361,586 2668,578 2666,520"/>
+            <zone xml:id="f17rop4_i_ressente" points="2372,583 2368,631 2646,621 2641,573"/>
+            <zone xml:id="f17rop4_i_soulignement" points="2338,720 2339,690 2565,663 2566,690"/>
+            <zone xml:id="f17rop4_i_ma_mem"
+                points="577,302 567,376 1029,336 3016,281 3045,191 1398,213 829,286"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s>Je n<choice>
                     <orig/>
                     <reg>'</reg>
                 </choice>ay donc pas intention de croniquer mes gestes, <subst>
-                    <del><add>ma profession n<choice>
+                    <del facs="#f17rop4_f17rop4_i_ma_mem"><add>ma profession n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>a <subst>
@@ -35,7 +49,7 @@
                                 <del>memo</del>
                                 <add>grandement mem</add>
                             </subst></add></del>
-                    <add xml:id="f17rop4_ny_histoire">ny ma <choice>
+                    <add facs="#f17rop4_f17rop4_i_ny_histoire" xml:id="f17rop4_ny_histoire">ny ma <choice>
                             <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                             <expan>pro</expan>
                         </choice>fession les a <subst>
@@ -67,27 +81,29 @@
                     <orig/>
                     <reg>'</reg>
                 </choice>a faictes, et <subst>
-                    <del seq="1" xml:id="f17rop4_sente"><undo rend="underlined" target="#f17rop4_sente"/><del
-                            rend="unmarked" seq="3">sente</del></del>
-                    <del seq="2"><add>re<choice>
+                    <del facs="#f17rop4_f17rop4_i_sente" seq="1" xml:id="f17rop4_sente"><undo
+                            facs="#f17rop4_f17rop4_i_soulignement" rend="underlined"
+                            target="#f17rop4_f17rop4_sente"/><del rend="unmarked" seq="3"
+                            >sente</del></del>
+                    <del facs="#f17rop4_f17rop4_i_recoive" seq="2"><add>re<choice>
                                 <orig>c</orig>
                                 <reg>ç</reg>
                             </choice>oive</add></del>
-                    <add>ressente</add>
+                    <add facs="#f17rop4_f17rop4_i_ressente">ressente</add>
                 </subst> plaisir des maulx dont il m<choice>
                     <orig/>
                     <reg>'</reg>
                 </choice>a preser<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>é. <note resp="AV" type="génétique">Le projet est d’abord présenté par la négative :
-                    Henri de Mesmes dit ce qu’il n’a pas l’intention de faire, pour mieux préciser
-                    ensuite son projet. Rhétorique de la modestie. Petits mémoires vs grands
-                    mémoires comme « chronique » des « gestes », au sens de res gestae, les « choses
-                    accomplies », la geste (dimension héroïque). L’ajout « ma profession » vient
-                    fournir une explication au projet repoussé dans la première proposition : si
-                    Henri de Mesmes ne peut pas écrire de « grands » mémoires, c’est du fait de sa
-                    « profession », au sens d’office et de tâches concrètement accomplies au
+                </choice>é. <note resp="AV" type="génétique">Le projet est d’abord présenté par la
+                    négative : Henri de Mesmes dit ce qu’il n’a pas l’intention de faire, pour mieux
+                    préciser ensuite son projet. Rhétorique de la modestie. Petits mémoires vs
+                    grands mémoires comme « chronique » des « gestes », au sens de res gestae, les
+                    « choses accomplies », la geste (dimension héroïque). L’ajout « ma profession »
+                    vient fournir une explication au projet repoussé dans la première proposition :
+                    si Henri de Mesmes ne peut pas écrire de « grands » mémoires, c’est du fait de
+                    sa « profession », au sens d’office et de tâches concrètement accomplies au
                     quotidien. Le terme « mémorable » est deux fois esquissé dans l’ajout, deux fois
                     raturé. Il est finalement remplacé par la formule « dignes de grande histoire »
                     [à creuser]. Le tout rejoue l’opposition noblesse de robe/noblesse d’épée

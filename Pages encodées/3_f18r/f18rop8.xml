@@ -21,11 +21,11 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><del>et</del>
+            <p><del>et</del>
                 <choice>
                     <orig>m</orig>
                     <reg>M</reg>
-                </choice>on pere disoit <subst xml:id="f18rop8_que_college">
+                </choice>on pere disoit <subst xml:id="que_college">
                     <del>que n<choice>
                             <orig/>
                             <reg>'</reg>
@@ -37,8 +37,8 @@
                 </subst> il a<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>oit <del xml:id="f18rop8_neantmoins">neantmoins</del>
-                    <substJoin target="#f18rop8_que_college #f18rop8_neantmoins"/>
+                </choice>oit <del xml:id="neantmoins">neantmoins</del>
+                <substJoin target="#que_college #neantmoins"/>
                 <add>eu</add> deux regards, l'un <choice>
                     <orig>a</orig>
                     <reg>à</reg>
@@ -78,7 +78,7 @@
                                    <orig>a</orig>
                                    <reg>à</reg>
                                 </choice></del></add>
-                </subst><del>quelque petit nombre</del>.</s></p>
+                </subst><del>quelque petit nombre</del>. </p>
         </body>
     </text>
 </TEI>

@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><subst>
+            <p><subst>
                     <del seq="1">et</del>
                     <del seq="2"><add seq="1">Mais</add></del>
                     <add seq="2">Puys</add>
@@ -42,11 +42,10 @@
                         <abbr>m<hi>e</hi></abbr>
                         <expan>maître</expan>
                     </choice></del>
-                    <persName><forename><choice>
-                        <abbr>J.</abbr>
-                        <expan>Jean</expan>
-                        </choice></forename>
-                        <surname>Mal<subst>
+                <persName><choice>
+                        <abbr><forename full="init">J.</forename></abbr>
+                        <expan><forename>Jean</forename></expan>
+                    </choice><surname>Mal<subst>
                             <del rend="unmarked">edent</del>
                             <add>udan</add>
                         </subst></surname></persName>
@@ -127,7 +126,7 @@
                 </subst> il estoit requis pour m<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>enseigner.</s></p>
+                </choice>enseigner.</p>
             <p/>
         </body>
     </text>

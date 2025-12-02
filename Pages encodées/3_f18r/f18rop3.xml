@@ -21,13 +21,14 @@
    </teiHeader>
    <text>
       <body>
-         <p><s>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere <del>dame Nicole
+         <p>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere <del>dame Nicole
                Hennequin</del>
             <add>l'une</add> des meilleures femmes et des meilleures <subst>
                <del>meres du monde.</del>
                <add seq="1">meres<del rend="unmarked">.</del></add>
                <add seq="2">de son temps.</add>
-            </subst></s></p>
+            </subst></p>
+         <p/>
       </body>
    </text>
 </TEI>

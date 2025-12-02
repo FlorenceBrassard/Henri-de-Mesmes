@@ -84,7 +84,7 @@
                             </subst>
                             <choice>
                                 <abbr rend="overlined">lres</abbr>
-                                <expan>lettres</expan>
+                                <expan>letres</expan>
                             </choice> de licence car <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
@@ -217,7 +217,8 @@
                             </subst> me feit <del xml:id="f20rop2_desdaigner_me">desdaigner d<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice>en voir <del xml:id="f20rop2_soir"><add>soir</add></del>
+                            </choice>en voir <del xml:id="f20rop2_soir"><add>soi<unclear cert="medium"
+                                reason="cancelled">r</unclear></add></del>
                                 six <metamark function="insert" target="#f20rop2_nouueaus"
                                     >^</metamark>
                                 <del xml:id="f20rop2_nouueaus_2"><add xml:id="f20rop2_nouueaus"

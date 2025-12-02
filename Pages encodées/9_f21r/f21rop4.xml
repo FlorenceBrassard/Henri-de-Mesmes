@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del><choice>
+                     <orig>a</orig>
+                     <reg>À</reg>
+                  </choice>
+                  <placeName><choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                     </choice>yon</placeName> et</del>
+               <choice>
+                  <orig>a</orig>
+                  <reg>A</reg>
+               </choice>u passage <del>de <placeName><choice>
+                        <orig>f</orig>
+                        <reg>F</reg>
+                     </choice>errare</placeName></del>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>eu charge d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>aller visiter aucuns princes <metamark function="insert"
+                  target="#f21rop4_ditalie">^</metamark><add xml:id="f21rop4_ditalie"
+                     ><metamark>^</metamark>d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice><placeName><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                     </choice>talie</placeName></add> come aussy <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>
+               <placeName>Rome</placeName>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e saluay <add><choice>
+                     <orig>v</orig>
+                     <reg>u</reg>
+                  </choice>n <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice><choice>
+                     <orig>v</orig>
+                     <reg>u</reg>
+                  </choice>n</add> touts les <choice>
+                  <abbr>card<hi rend="superscript">aulx</hi>
+                  </abbr>
+                  <expan>cardinaulx</expan>
+               </choice> de <subst>
+                  <del>la <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g>t</abbr>
+                        <expan>part</expan>
+                     </choice> du</del>
+                  <add>par le</add>
+               </subst>
+               <roleName ref="https://isni.org/isni/0000000395001884">Roy</roleName>.</s><s> <add><choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>t assistay <subst>
+                     <del>a touts les</del>
+                     <add>aux</add>
+                  </subst> conseils d<choice>
+                     <orig>e</orig>
+                     <reg>'E</reg>
+                  </choice>stat a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ec monsieur <persName ref="https://isni.org/isni/0000000081513262"
+                        ><nameLink>de</nameLink>
+                     <surname>Guyse</surname></persName><choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+                  <add>le <persName ref="https://isni.org/isni/0000000066328886"
+                           ><roleName><choice>
+                              <abbr>mar<hi rend="superscript">al</hi></abbr>
+                              <expan>mareschal</expan>
+                           </choice></roleName>
+                        <surname>Strozzi</surname></persName></add><choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice> messieurs
+                        <persName><nameLink>de</nameLink>
+                     <surname>Viene</surname></persName> et <persName ref="https://isni.org/isni/0000000061748267"><nameLink>de</nameLink>
+                     <surname>Sel<choice>
+                           <orig>u</orig>
+                           <reg>v</reg>
+                        </choice>e</surname></persName>, <del>et <choice>
+                        <abbr>m<hi rend="superscript">rs</hi></abbr>
+                        <expan>messieurs</expan>
+                        </choice></del>
+                     <persName><surname>Vialart</surname></persName> et <persName><surname><choice>
+                              <orig>l</orig>
+                              <reg>L</reg>
+                           </choice>a <choice>
+                              <orig>m</orig>
+                              <reg>M</reg>
+                           </choice>arsiliere</surname></persName> que <choice>
+                              <orig>d</orig>
+                              <reg>D</reg>
+                           </choice>ieu a touts pris depuys.</add>
+            </s></p>
+      </body>
+   </text>
+</TEI>

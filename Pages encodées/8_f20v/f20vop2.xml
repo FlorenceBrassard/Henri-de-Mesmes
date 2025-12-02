@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>m</orig>
+                  <reg>M</reg>
+               </choice>on pere qui a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oit acoustumé le marriage 
+               et l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>estude, voulut quelque temps apres essaier s<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il trou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>eroit pareil repos et semblable conduite de sa maison en <choice>
+                  <orig>v</orig>
+                  <reg>u</reg>
+               </choice>ne autre femme et en prit <choice>
+                  <orig>v</orig>
+                  <reg>u</reg>
+               </choice>ne qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il <subst>
+                  <del seq="1">estoit <unclear reason="faded">c</unclear></del>
+                  <add><del seq="2">de</del></add>
+               </subst> cognoissoit chaste mais ce fut tout.</s></p>
+      </body>
+   </text>
+</TEI>

@@ -37,11 +37,11 @@
                <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>e disputay <metamark function="insertion" target="#f19vop8_publiquement"
+               </choice>e disputay <metamark function="insert" target="#f19vop8_publiquement"
                   >^</metamark><add xml:id="f19vop8_publiquement">publiquement</add> e<subst>
                   <del rend="overwritten">n</del>
                   <add place="superimposed">z</add>
-               </subst> escoles de decret <metamark function="insertion"
+               </subst> escoles de decret <metamark function="insert"
                   target="#f19vop8_en_parlement">+</metamark><add xml:id="f19vop8_en_parlement"
                      ><metamark>+</metamark>en grande <subst>
                      <del>assemblée</del>
@@ -52,7 +52,7 @@
                   </subst><del>pour estre cogneu de la plus</del>
                   <add><del>du</del> presque de tout le parlement</add>
                </add>
-               <del>po</del> et <metamark function="insertion" target="#f19vop8_trois_ie"
+               <del>po</del> et <metamark function="insert" target="#f19vop8_trois_ie"
                   >^</metamark><add xml:id="f19vop8_trois_ie"><metamark>^</metamark>trois <choice>
                      <orig>i</orig>
                      <reg>j</reg>

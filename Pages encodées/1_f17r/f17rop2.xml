@@ -19,74 +19,106 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/89,1127,3702,1067/full/0/default.jpg"/>
+            <zone xml:id="f17rop2_i_en_france" lry="164" lrx="2528" uly="40" ulx="2048"/>
+            <zone xml:id="f17rop2_i_et_guiere" lry="678" lrx="644" uly="366" ulx="110"/>
+            <zone xml:id="f17rop2_i_en_guieres"
+                points="1310,264 1280,346 1354,360 2188,310 2584,306 3000,306 2922,464 3356,496 3458,374 3712,412 3658,176"/>
+            <zone xml:id="f17rop2_i_mesprisent_guieres"
+                points="2652,240 2632,288 2820,286 3018,290 2986,386 2942,480 3364,482 3420,364 3710,398 3686,192"/>
+            <zone xml:id="f17rop2_i_nusent_chapeaus" points="732,464 688,582 2766,446 2746,358"/>
+            <zone xml:id="f17rop2_i_ceux" points="3052,480 3056,520 3332,526 3324,480"/>
+            <zone xml:id="f17rop2_i_les1" points="3482,362 3470,432 3564,432 3576,370"/>
+            <zone xml:id="f17rop2_i_s1" points="3470,474 3438,552 3484,540"/>
+            <zone xml:id="f17rop2_i_s2" points="3636,496 3656,558 3676,550 3710,482"/>
+            <zone xml:id="f17rop2_i_de_recomander" points="3034,675 3034,724 3700,762 3694,670"/>
+            <zone xml:id="f17rop2_i_de_recommander" points="824,624 832,726 1526,692 1528,602"/>
+            <zone xml:id="f17rop2_i_memorables" points="1816,584 1806,662 2262,650 2278,550"/>
+            <zone xml:id="f17rop2_i_je_ne" points="3485,421 3466,472 3652,490 3648,424"/>
+            <zone xml:id="f17rop2_i_voy_come" points="3012,518 3000,558 3030,584 3660,568 3666,532"/>
+            <zone xml:id="f17rop2_i_les_robe" points="3004,612 3012,674 3628,670 3576,624"/>
+            <zone xml:id="f17rop2_i_longue"
+                points="3004,716 3006,738 3012,788 3128,830 3352,778 3360,744"/>
+            <zone xml:id="f17rop2_i_et_1" points="3392,408 3388,466 3452,478 3472,402"/>
+            <zone xml:id="f17rop2_i_robes_longues" points="3331,463 3326,534 3684,548 3722,466"/>
+            <zone xml:id="f17rop2_i_nont_moyen" points="3117,586 3112,615 3640,628 3650,570"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <p><s><del xml:id="f17rop2_en_france"><add>en <placeName><choice>
-                                    <orig>f</orig>
-                                    <reg>F</reg>
-                                </choice>rance</placeName></add></del>
-                    <choice>
-                        <orig>m</orig>
-                        <reg>M</reg>
-                    </choice>aintenant ce n'est plus la mode <choice>
-                        <orig>,.</orig>
-                        <reg>;</reg>
-                    </choice>
-                    <del>Aussy ne voy <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e pas que les esprits norrys en un <choice>
-                            <orig>R</orig>
-                            <reg>r</reg>
-                        </choice>oyaume, mesmement en robe longue, se puissent guiere
-                        <add>s'</add>eslever</del><del xml:id="f17rop2_et_guiere"><add>et ceulx qui ont les
-                            armes en <placeName><choice>
-                                    <orig>f</orig>
-                                    <reg>F</reg>
-                                </choice>rance</placeName>, n'escrivent guiere></add></del><add
-                                    xml:id="f17rop2_en_guieres">En <placeName><choice>
+            <p><del facs="#f17rop2_i_en_france" xml:id="f17rop2_en_france"><add>en <placeName><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
-                            </choice>rance</placeName> ceulx qui <subst>
-                            <del>manient</del>
-                            <add>ont</add>
-                            </subst> les armes, <del xml:id="f17rop2_mesprisent_guieres">mesprisent presque
-                            touts les letres, et n<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>escrivent guieres.</del></add>
-                    <add xml:id="f17rop2_nusent_chapeaus">n<choice>
+                            </choice>rance</placeName></add></del>
+                <choice>
+                    <orig>m</orig>
+                    <reg>M</reg>
+                </choice>aintenant ce n'est plus la mode <choice>
+                    <orig>,.</orig>
+                    <reg>;</reg>
+                </choice>
+                <del>Aussy ne voy <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e pas que les esprits norrys en un <choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                    </choice>oyaume, mesmement en robe longue, se puissent guiere
+                    <add>s'</add>eslever</del><del facs="#f17rop2_i_et_guiere"
+                    xml:id="f17rop2_et_guiere"><add>et ceulx qui ont les armes en <placeName><choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>rance</placeName>, n'escrivent guiere></add></del><add
+                    facs="#f17rop2_i_en_guieres" xml:id="f17rop2_en_guieres">En <placeName><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rance</placeName> ceulx qui <subst>
+                        <del>manient</del>
+                        <add>ont</add>
+                    </subst> les armes, <del facs="#f17rop2_i_mesprisent_guieres"
+                        xml:id="f17rop2_mesprisent_guieres">mesprisent presque touts les letres, et n<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>usent guiere de <gap quantity="1" unit="char"/> plumes qu'<choice>
-                            <orig>a</orig>
-                            <reg>à</reg>
-                        </choice>leurs chapeaus</add>
-                    <substJoin seq="1" target="#f17rop2_en_france #f17rop2_et_guiere #f17rop2_en_guieres"/>
-                    <substJoin seq="2" target="#f17rop2_mesprisent_guieres #f17rop2_nusent_chapeaus"/>
-                    <addSpan spanTo="#f17rop2_recõmander"/>et <subst>
-                        <del><choice>
-                                <orig>i</orig>
-                                <reg>j</reg>
-                            </choice>e ne voy pas come les gens de robe longue</del>
-                        <add>
-                            <subst xml:id="f17rop2_ceulx_les">
-                                <del>ceulx de</del>
-                                <add>les</add>
-                            </subst> robe<add xml:id="f17rop2_s_1">s</add> longue<add xml:id="f17rop2_s_2"
-                            >s</add></add>
-                    </subst>
-                    <substJoin target="#f17rop2_ceulx_les #f17rop2_s_1 #f17rop2_s_2"/> n<choice>
+                        </choice>escrivent guieres.</del></add>
+                <add facs="#f17rop2_i_nusent_chapeaus" xml:id="f17rop2_nusent_chapeaus">n<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>ont pas moien <subst xml:id="f17rop2_recomander_recommander">
-                        <del>de se recõmander</del>
-                        <anchor xml:id="f17rop2_recõmander"/>
-                        <add>de se recommander</add>
-                    </subst> par faicts <subst xml:id="f17rop2_memorables">
-                        <del>recommandables</del>
-                        <add>memorables</add>
-                    </subst>. <substJoin target=" #f17rop2_recomander_recommander #f17rop2_memorables"/></s></p>
+                    </choice>usent guiere de <gap quantity="1" unit="char"/> plumes qu'<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>leurs chapeaus</add>
+                <substJoin seq="1"
+                    target="#f17rop2_en_france #f17rop2_et_guiere #f17rop2_en_guieres"/>
+                <substJoin seq="2" target="#f17rop2_mesprisent_guieres #f17rop2_nusent_chapeaus"/>
+                <addSpan
+                    facs="#f17rop2_i_robes_longues #f17rop2_i_nont_moyen #f17rop2_i_de_recomander"
+                    spanTo="#f17rop2_recõmander"/>et <subst>
+                    <del facs="#f17rop2_i_je_ne #f17rop2_i_voy_come #f17rop2_i_les_robe"><choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e ne voy pas come les gens de robe longue</del>
+                    <add>
+                        <subst xml:id="f17rop2_ceulx_les">
+                            <del facs="#f17rop2_i_ceux">ceulx de</del>
+                            <add facs="#f17rop2_i_les1">les</add>
+                        </subst> robe<add facs="#f17rop2_i_s1" xml:id="f17rop2_s_1">s</add>
+                            longue<add facs="#f17rop2_i_s2" xml:id="f17rop2_s_2">s</add></add>
+                </subst>
+                <substJoin target="#f17rop2_ceulx_les #f17rop2_s_1 #f17rop2_s_2"/> n<choice>
+                    <orig/>
+                    <reg>'</reg>
+                </choice>ont pas moien <subst xml:id="f17rop2_recomander_recommander">
+                    <del facs="#f17rop2_i_de_recomander">de se recõmander</del>
+                    <anchor xml:id="f17rop2_recõmander"/>
+                    <add facs="#f17rop2_i_de_recommander">de se recommander</add>
+                </subst> par faicts <subst xml:id="f17rop2_memorables">
+                    <del>recommandables</del>
+                    <add facs="#f17rop2_i_memorables">memorables</add>
+                </subst>. <substJoin target=" #f17rop2_recomander_recommander #f17rop2_memorables"/>
+            </p>
         </body>
     </text>
 </TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>o</orig>
+                  <reg>O</reg>
+               </choice>r <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e le su<subst xml:id="f22rop8-9_s_yvy">
+                  <del rend="overwritten">s</del>
+                  <add place="superimposed">yvy</add>
+               </subst>
+            <del xml:id="f22rop8-9_por_suyvy"><choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+            </choice> le suyvy</del>
+            <substJoin target="#f22rop8-9_s_yvy #f22rop8-9_por_suyvy"/>
+                en <placeName>Champaigne</placeName>
+               <add> et <placeName><choice>
+                        <orig>p</orig>
+                        <reg>P</reg>
+                     </choice>icardie</placeName></add>
+               <del>en L</del> en ceste grosse armée d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice><placeName><choice>
+                     <orig>a</orig>
+                     <reg>A</reg>
+                  </choice>mi<subst>
+                     <del rend="overwritten">e</del>
+                     <add place="superimposed">a</add>
+                  </subst>ns</placeName> et <add>ne</add> <metamark function="insert" target="#f22rop8-9_le"
+                  >^</metamark><add xml:id="f22rop8-9_le"><metamark>^</metamark> le </add> laissay
+               guiere durant la guerre ny en la res<choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ouissance de la pais <metamark function="insert"
+                  target="#f22rop8-9_depuys_acordée">^</metamark><add xml:id="f22rop8-9_depuys_acordée"><metamark>^</metamark> depuys acordée</add> o<choice>
+                  <orig>u i</orig>
+                  <reg>ù j</reg>
+               </choice>e le vy fraper <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>
+               <placeName>Paris</placeName> du coup dont il mourrut <add seq="2"><metamark
+                     function="insert" target="#f22rop8-9_Et_luy">^</metamark></add><add seq="1"
+                     ><del>et la p</del></add><add seq="2" xml:id="f22rop8-9_et_luy"
+                        ><metamark>^</metamark> <choice>
+                        <orig>E</orig>
+                        <reg>e</reg>
+                        </choice>t le <subst>
+                     <del>bien</del>
+                     <add>repos</add>
+                  </subst> de la <placeName><choice>
+                        <orig>f</orig>
+                        <reg>F</reg>
+                     </choice>rance</placeName> a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                     </choice>ec luy</add> en <date>fin de <choice>
+                        <orig>J</orig>
+                        <reg>j</reg>
+                     </choice>uillet 1559.</date></s></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><addSpan xml:id="f22rop5-6-7_et_fu" spanTo="#f22rop5-6-7_fu"/><s><del><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>t</del>
+                        <choice>
+                            <orig>c</orig>
+                            <reg>C</reg>
+                        </choice>es <choice>
+                            <abbr rend="overlined">lres</abbr>
+                            <expan>letres</expan>
+                        </choice> sont ceans qui valent bien d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>estre gardées pour la dignité d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>icelles.</s><s><choice>
+                            <orig>i</orig>
+                            <reg>J</reg>
+                        </choice>e fu<anchor xml:id="f22rop5-6-7_fu"/><del xml:id="f22rop5-6-7_ie_fu"><choice>
+                            <orig>i</orig>
+                            <reg>J</reg>
+                        </choice>e fu</del> de retour <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>aris</placeName> le <date>18 juillet 155<subst>
+                            <del rend="overwritten">7</del>
+                            <add>8</add>
+                        </subst></date>
+                    <subst>
+                        <del rend="overwritten" xml:id="f22rop5-6-7_point">.</del>
+                        <add place="superimposed">o<choice xml:id="f22rop5-6-7_u">
+                                <orig>u</orig>
+                                <reg>ù</reg>
+                            </choice>
+                            <del xml:id="f22rop5-6-7_15">15</del></add>
+                    </subst><substJoin seq="1" target="#f22rop5-6-7_ie_fu #f22rop5-6-7_point"
+                    /><substJoin seq="2" target="#f22rop5-6-7_et_fu #f22rop5-6-7_15 #f22rop5-6-7_u"/>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e trou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ay <del xml:id="f22rop5-6-7_pour_particulier">pour mon <choice>
+                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                            <expan>par</expan>
+                    </choice>ticulier <metamark function="insert" target="#f22rop5-6-7_vne_dont"
+                            >^</metamark></del><subst>
+                                <add xml:id="f22rop5-6-7_vne_dont"><add xml:id="f22rop5-6-7_ma_d">ma famille
+                                    accreue d'</add><del xml:id="f22rop5-6-7_metamark_1"
+                                    ><metamark>^</metamark></del><choice>
+                                <orig>v</orig>
+                                <reg>u</reg>
+                            </choice>ne fille dont</add>
+                        <del>que</del>
+                    </subst><substJoin
+                        target="#f22rop5-6-7_pour_particulier #f22rop5-6-7_ma_d #f22rop5-6-7_metamark_1"/>
+                ma femme <metamark function="insert" target="#f22rop5-6-7_estoit_absent_add"
+                    >^</metamark><add xml:id="f22rop5-6-7_estoit_absent_add"><metamark>^</metamark> estoit acouchée moy absent</add> sept mois apres
+                    mon <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>tement de <placeName><choice>
+                       <orig>f</orig>
+                       <reg>F</reg>
+                    </choice>rance</placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                <metamark function="insert" target="#f22rop5-6-7_cest_soir">+</metamark>
+                <add xml:id="f22rop5-6-7_cest_soir"><metamark>+</metamark> c<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>est <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> dire qui fut le <date><choice>
+                                <abbr rend="overlined">dr</abbr>
+                                <expan>dernier</expan>
+                            </choice>
+                            <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>our de juin 1557</date>
+                        <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> xx heures et 1 quart du soir </add>
+                <del xml:id="f22rop5-6-7_estoit_absent_del">estoit acouchée moy
+                        absent</del><substJoin
+                            target="#f22rop5-6-7_estoit_absent_add #f22rop5-6-7_estoit_absent_del"/> et <del
+                                xml:id="f22rop5-6-7_l">l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                        </choice></del>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit <subst>
+                        <del seq="1">nommée</del>
+                        <del seq="2" xml:id="f22rop5-6-7_faict_nomer"><add seq="1">faict nomer</add></del>
+                        <add seq="2" xml:id="f22rop5-6-7_nom">nom</add>
+                    </subst><substJoin target="#f22rop5-6-7_l #f22rop5-6-7_faict_nomer #f22rop5-6-7_nom"/> Renée, mon premier
+                    enfant <subst rend="unmarked" xml:id="f22rop5-6-7_virgule_point">
+                        <del>,</del>
+                        <add>.</add>
+                    </subst></s>
+                    <metamark function="insert" target="#f22rop5-6-7_aussy_1557">π</metamark><addSpan spanTo="#f22rop5-6-7_1557"
+                        xml:id="f22rop5-6-7_aussy_1557"/><s><metamark>π</metamark>
+                       <subst>
+                            <del><choice>
+                                    <orig>a</orig>
+                                    <reg>A</reg>
+                                </choice>ussy <choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>e trou<choice>
+                                   <orig>u</orig>
+                                   <reg>v</reg>
+                                </choice>ay que</del>
+                            <add>Mais son aieule</add>
+                        </subst> ma belle mere estoit morte durant ce voiage, qui se nommoit
+                        damoyselle <persName><forename full="init">I.</forename>
+                            <surname>Michon</surname></persName><choice>
+                            <orig>.</orig>
+                            <reg>,</reg>
+                        </choice> femme certes toute de <choice>
+                            <orig>d</orig>
+                            <reg>D</reg>
+                        </choice>ieu et tres chaste.</s><s><subst>
+                           <del><choice>
+                              <orig>e</orig>
+                              <reg>E</reg>
+                           </choice>lle estoit morte</del>
+                           <add><choice>
+                              <orig>l</orig>
+                              <reg>L</reg>
+                           </choice>e <choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>our de sa mort fut</add>
+                        </subst> le <date>12. Mars 1557.</date><anchor xml:id="f22rop5-6-7_1557"/> 
+            </s><s><subst xml:id="f22rop5-6-7_et_Quant">
+                <del><choice>
+                    <orig>e</orig>
+                    <reg>E</reg>
+                </choice>t</del>
+                <add>Quant</add>
+            </subst><substJoin target="#f22rop5-6-7_aussy_1557 #f22rop5-6-7_et_Quant #f22rop5-6-7_virgule_point"></substJoin> au public le <roleName ref="Q132545">Roy</roleName> a<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>oit remis sus de grosses forces et sembloit <subst>
+                <del>un peu</del>
+                <add>presque</add>
+            </subst> rele<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>é de la <del>g<gap quantity="3" unit="char"/></del> perte faiste <choice>
+                <orig>a</orig>
+                <reg>à</reg>
+            </choice> la <date><choice>
+                <abbr>s<hi rend="superscript">t</hi> </abbr>
+                <expan>Sainct</expan>
+            </choice><choice>
+                <orig>l</orig>
+                <reg>L</reg>
+            </choice>aurens</date> 
+                pres <placeName><choice>
+                    <abbr>s<hi rend="superscript">t</hi> </abbr>
+                    <expan>Sainct</expan>
+                </choice>
+                    Quentin</placeName> en l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>année precedente. 
+            </s></p>
+        </body>
+    </text>
+</TEI>

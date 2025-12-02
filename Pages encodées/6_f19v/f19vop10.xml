@@ -39,9 +39,25 @@
                         <date>17<hi rend="superscript">e</hi>fe<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>rier <hi rend="overlined">1551</hi></date><add>agé de xx ans ou
-                            peu plus</add>.</del>
-                </s></p>
+                            </choice>eint</add></del>
+                    <add seq="2">fut</add>
+                </subst> tant plus soigneus de se preser<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>er et a sur<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>escu <subst xml:id="f17vop2_touts_huict_dix">
+                    <del>touts</del>
+                    <add><del>huict ou dix</del></add>
+                </subst>ses <metamark function="insert" target="#f17vop2_dix" xml:id="f17vop2_metamark_1"
+                    >^</metamark><add xml:id="f17vop2_dix">dix></add><substJoin
+                    target=" #f17vop2_touts_huict_dix #f17vop2_metamark_1 #f17vop2_dix"/> freres qui sont presque touts
+                morts a<subst xml:id="f17vop2_a_la_aux">
+                    <add>ux</add>
+                    <del>la</del>
+                </subst> guerre<add xml:id="f17vop2_s1">s</add>
+                <substJoin target=" #f17vop2_a_la_aux #f17vop2_s1"/>.</p>
         </body>
     </text>
 </TEI>

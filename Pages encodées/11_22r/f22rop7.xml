@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><subst>
+               <del><choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>t</del>
+               <add>Quant</add>
+         </subst> au public le <roleName ref="Q132545">Roy</roleName> a<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>oit remis sus de grosses forces et sembloit <subst>
+               <del>un peu</del>
+               <add>presque</add>
+            </subst> rele<choice>
+               <orig>u</orig>
+               <reg>v</reg>
+            </choice>é de la <del>g<gap quantity="3" unit="char"/></del> perte faiste <choice>
+               <orig>a</orig>
+               <reg>à</reg>
+            </choice> la <date><choice>
+               <abbr>s<hi rend="superscript">t</hi> </abbr>
+               <expan>Sainct</expan>
+            </choice><choice>
+                  <orig>l</orig>
+                  <reg>L</reg>
+               </choice>aurens</date> 
+            pres <placeName><choice>
+               <abbr>s<hi rend="superscript">t</hi> </abbr>
+               <expan>Sainct</expan>
+            </choice>
+               Quentin</placeName> en l<choice>
+               <orig/>
+               <reg>'</reg>
+               </choice>année precedente. 
+         </s></p>
+         </body>
+   </text>
+</TEI>

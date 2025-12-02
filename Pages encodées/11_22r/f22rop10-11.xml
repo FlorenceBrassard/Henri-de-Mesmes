@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><subst>
+                        <del><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>t</del>
+                        <add><choice>
+                                <orig>l</orig>
+                                <reg>L</reg>
+                            </choice>ors</add>
+                    </subst> pource que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois faict grand fondement de mes services en ce bon <roleName
+                        ref="Q132545">Roy</roleName> et que le changement du <choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                    </choice>egne ne me <choice>
+                        <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                        <expan>pro</expan>
+                    </choice>metoit que nou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eaus mou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>emens, <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e me disposay apres sa mort <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> moins voiager<metamark function="insert"
+                        target="#f22rop10_11_et_courtiser">^</metamark><add
+                        xml:id="f22rop10_11_et_courtiser"><metamark>^</metamark><add
+                            xml:id="f22rop10-11_et">et</add> moins courtiser</add>
+                    <del xml:id="f22rop10-11_et_ciuile">et ne me pas <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>eter aux troubles pource que <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e n<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>ai<supplied cert="high">may</supplied>
+                        <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>amais la <subst>
+                            <del xml:id="f22rop10-11_violance"><undo rend="underlined"
+                                    target=" #f22rop10-11_violance"/>violance</del>
+                            <add><del>guerre ci<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>ile</del></add>
+                        </subst><substJoin target="#f22rop10-11_et f22rop10-11_et_ciuile"/></del> et trou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il valoit mieulx me tenir <metamark function="insert"
+                        target=" #f22rop10-11_a_et">^</metamark><add xml:id="f22rop10-11_a_et"><choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> mes li<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>res et</add>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> mon office que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois ordinairement depuys que mon pere m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en eut quité l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>exercisse <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> mon retour d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice><placeName>Italie</placeName>, <metamark function="insert"
+                        target="#f22rop10-11_enuiron_nacquites">+</metamark><del>et a mes
+                        estudes</del>.</s><s><addSpan spanTo="#f22rop10-11_nacquites" xml:id="f22rop10-11_enuiron_nacquites"
+                            /><metamark>+</metamark>en<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>iron ce temps <add>et le <date><choice>
+                                    <abbr>io<hi rend="superscript">r</hi></abbr>
+                                    <expan>jour</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>s<hi rend="superscript">t</hi></abbr>
+                                    <expan>Sainct</expan>
+                                </choice> Merry 29<hi rend="superscript">e</hi> Aoust <hi
+                                    rend="overlined">1559</hi></date></add>
+                        <supplied cert="high">a</supplied>d<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>eint aussy la mort de mon beau pere<choice>
+                            <abbr>m<hi rend="superscript">r</hi>.</abbr>
+                            <expan>monsieur</expan>
+                        </choice><del>H</del>
+                        <choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice>
+                        <persName><forename><choice>
+                                    <orig>o</orig>
+                                    <reg>O</reg>
+                                </choice>udard</forename>
+                            <surname>Hennequin</surname></persName><choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice><choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice>
+                        <choice>
+                            <abbr>ord<hi rend="superscript">re</hi></abbr>
+                            <expan>ordinaire</expan>
+                        </choice> en la chambre des <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>ptes <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>
+                        <placeName><choice>
+                                <orig>p</orig>
+                                <reg>P</reg>
+                            </choice>aris</placeName><choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> que <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e puys dire <choice>
+                            <orig>v</orig>
+                            <reg>u</reg>
+                        </choice>n miroir et vray exemple de modestie <choice>
+                            <orig>C</orig>
+                            <reg>c</reg>
+                        </choice>hrestiene et de toute <del>s<unclear reason="deleted"
+                            >em</unclear>p</del><add xml:id="f22rop10-11_charite_et">charite
+                            et</add> rondeur <del xml:id="f22rop10-11_et_charite">et
+                            charité</del><substJoin
+                                target="#f22rop10-11_charite_et #f22rop10-11_et_charite"/>.</s><s><choice>
+                            <orig>i</orig>
+                            <reg>I</reg>
+                        </choice>l estoit l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>aisné des <persName><surname>Hennequins</surname></persName> de sa
+                        branche et a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oit veu mourir a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant luy son frere <choice>
+                            <abbr>m<hi rend="superscript">r</hi></abbr>
+                            <expan>monsieur</expan>
+                        </choice><persName><surname><choice>
+                                    <orig>d</orig>
+                                    <reg>D</reg>
+                                </choice>acy</surname></persName>
+                        <choice>
+                            <abbr>p<hi rend="superscript">r</hi> p<hi rend="superscript"
+                                >t</hi></abbr>
+                            <expan>premier president</expan>
+                        </choice> en la chambre des <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>ptes et sa seur la <choice>
+                            <abbr>presi.<hi rend="superscript">te</hi></abbr>
+                            <expan>presidente</expan>
+                        </choice>
+                        <persName><nameLink>de</nameLink>
+                            <surname><choice>
+                                    <orig>b</orig>
+                                    <reg>B</reg>
+                                </choice>oul<choice>
+                                    <orig><hi rend="overlined">a</hi></orig>
+                                    <reg>an</reg>
+                                </choice>court</surname></persName><choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> touts deux <subst>
+                            <del>etans <choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                            </choice></del><add>en</add>
+                        </subst><subst xml:id="f22rop10-11_son_leurs">
+                            <del>son</del>
+                            <add>leurs</add>
+                        </subst> sexe<add xml:id="f22rop10-11_s1">s</add><substJoin
+                            target="#f22rop10-11_son_leurs #f22rop10-11_s1 #f22rop10-11_z"/> honore<add xml:id="f22rop10-11_z">z</add> de tou<subst>
+                            <del rend="overwritten">s</del>
+                            <add place="superimposed">te</add>
+                        </subst> vertu, et laissa apres luy son <add><del rend="unmarked"
+                            >s</del></add> autre <subst>
+                            <del>puisné</del>
+                            <add>frere</add>
+                        </subst> feu <choice>
+                            <abbr>m<hi rend="superscript">r</hi></abbr>
+                            <expan>monsieur</expan>
+                        </choice><persName><nameLink>de</nameLink>
+                            <surname>Cuny</surname></persName><choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> president aux <choice>
+                            <abbr>enq.<hi rend="superscript">tes</hi></abbr>
+                            <expan>enquestes</expan>
+                        </choice><choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> home sca<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant et tresbon <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>usticier plus clair<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oiant de<add xml:id="f22rop10-11_s_de">s yeulx de</add> l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>entendement que de<subst xml:id="f22rop10-11_s_ceulx">
+                            <del>s yeulx</del>
+                            <add>ceulx</add>
+                        </subst> de son corps.</s><s> <substJoin
+                            target="#f22rop10-11_s_de #f22rop10-11_s_ceulx"/>
+                        <choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>insy mon beau père ne vesquit que en<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>iron <choice>
+                            <orig>v</orig>
+                            <reg>n</reg>
+                        </choice> mois apres mon <choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice> qui estoit <choice>
+                            <abbr rend="overlined">n<hi rend="superscript">re</hi></abbr>
+                            <expan>nostre</expan>
+                        </choice>
+                        <roleName ref="Q132545">Roy</roleName> et <add>il</add> pleut <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>
+                        <choice>
+                            <orig>d</orig>
+                            <reg>D</reg>
+                        </choice>ieu pour alleger tant de douleurs que <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e rece<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ois <subst>
+                            <del>ensemble</del>
+                            <add>coup <choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                                </choice> coup</add>
+                        </subst> me doner <subst>
+                            <del>bientost apres ma fille audit</del>
+                            <add>dens l<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>an <choice>
+                                    <orig>v</orig>
+                                    <reg>u</reg>
+                                </choice>n <subst xml:id="f22rop10-11_filz_enfant">
+                                    <del>filz</del>
+                                    <add>second enfant</add>
+                                </subst></add>
+                        </subst> qui estes vous <add xml:id="f22rop10-11_mon_filz"><roleName
+                                ref="Q94908007">mon filz</roleName></add>, substJoin
+                        target="#f22rop10-11_filz_enfant #f22rop10-11_mon_filz"/> qui
+                        nacquites<anchor xml:id="f22rop10-11_nacquites"/> le <date>XXV<choice>
+                            <orig>ij</orig>
+                            <reg>II</reg>
+                        </choice><hi rend="superscript">e</hi>
+                        <choice>
+                            <orig>J</orig>
+                            <reg>j</reg>
+                        </choice>uillet V<hi rend="superscript"
+                            >c</hi><choice>
+                            <orig>lx</orig>
+                            <reg>LX</reg>
+                        </choice>
+                    </date> entre cinq et six heures du soir, et beaucoup plus pres de six que de
+                    cinq <del xml:id="f22rop10-11_vous_nacquites">vous <roleName ref="Q94908007">mon
+                            filz</roleName>, nacquites</del><substJoin
+                        target="#f22rop10-11_vous_nacquites #f22rop10-11_enuiron_nacquites"/> futes
+                    baptisé <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <date><choice>
+                            <abbr>S<hi rend="superscript">t</hi></abbr>
+                            <expan>ainct</expan>
+                        </choice> Merry</date>
+                    <subst xml:id="f22rop10-11_et_nommé">
+                        <del rend="unmarked">et </del>
+                        <del>nommé</del>
+                        <add>et</add>
+                    </subst> par <add xml:id="f22rop10-11_mon_pere_add"><roleName ref="Q107207194"
+                            >mon pere</roleName></add>
+                    <choice>
+                        <abbr rend="overlined">vre</abbr>
+                        <expan>vostre</expan>
+                    </choice> aieul <del xml:id="f22rop10-11_mon_pere_del"><roleName
+                            ref="Q107207194">mon pere</roleName></del><add
+                        xml:id="f22rop10-11_nommé">nommé</add><substJoin
+                        target="#f22rop10-11_et_nommé  #f22rop10-11_mon_pere_del #f22rop10-11_nommé"
+                    /> de son nom <persName ref="Q107207194"><forename>Jean<choice>
+                                <orig> </orig>
+                                <reg>-</reg>
+                    </choice>Jacques</forename></persName>.</s></p>
+        </body>
+    </text>
+</TEI>

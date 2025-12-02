@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>ntre autres <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n chateau de <placeName><choice>
+                            <orig>g</orig>
+                            <reg>G</reg>
+                        </choice>li <choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>ltezzi</placeName> qui nous incommodoit grandement <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName>Montalcino</placeName> et <del>nous</del> empeschoit tout secours de vi<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>res<choice>
+                        <orig/>
+                        <reg>, </reg>
+                    </choice>
+                    <subst>
+                        <del>et</del>
+                        <add>de</add>
+                    </subst> munitions et d'homes estant <add>ce chateau sis</add> entre nous et la
+                    ville de <placeName>Siene</placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <del xml:id="f21vop9_et"><add>et</add></del> que le <roleName ref="Q32500">Roy d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>
+                        <placeName><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>spaigne</placeName></roleName> tenoit lors<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <add xml:id="f21vop9_et_Montalcino">et distant seulement de deux mile de
+                            <placeName>Montalcino</placeName><substJoin
+                            target="#f21vop9_et #f21vop9_et_Montalcino"/></add><choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice>
+                    <del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t</del>
+                    <choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                    </choice>eulx qui m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>accompaignerent en ce<subst>
+                        <del rend="overwritten">s</del>
+                        <add place="superimposed">s</add>
+                    </subst><del rend="unmarked">t</del> expeditions militaires furent le <del
+                        xml:id="f21vop9_sr"><choice>
+                            <abbr>s<hi rend="superscript">r</hi></abbr>
+                            <expan>seigneur</expan>
+                        </choice></del><metamark function="insert" target="#f21vop9_baron"
+                        >^</metamark><add xml:id="f21vop9_baron"
+                        ><metamark>^</metamark>baron</add><substJoin
+                        target="#f21vop9_sr #f21vop9_baron"/>
+                    <persName ref="Q597422"><nameLink>de</nameLink>
+                        <surname>Serres</surname></persName>
+                    <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> la ca<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>alerie<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <persName><surname>Bassompierre </surname></persName><subst>
+                        <del><choice>
+                                <abbr>po<hi rend="superscript">r</hi></abbr>
+                                <expan>pour</expan>
+                            </choice></del>
+                        <add>en</add>
+                    </subst> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>artillerie, et<subst>
+                        <del>pour les</del>
+                        <add>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ec</add>
+                    </subst> gens de pied les <del>comperio</del>
+                    <subst>
+                        <del><choice>
+                                <abbr>cap.<hi rend="superscript">nes</hi></abbr>
+                                <expan>capitaines</expan>
+                            </choice></del>
+                        <add>colonels</add>
+                    </subst>
+                    <persName><surname><choice>
+                                <orig>c</orig>
+                                <reg>C</reg>
+                            </choice>hiaramonte</surname></persName>
+                    <add>et</add>
+                    <persName><surname>Moretto Calabrese</surname></persName>
+                    <del>et autres</del> a<choice>
+                        <orig>u</orig>
+                        <reg>e</reg>
+                    </choice>c leurs regimens, et de <choice>
+                        <orig>f</orig>
+                        <reg>F</reg>
+                    </choice>ran<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                    </choice>oys a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec <choice>
+                        <abbr>le<hi rend="superscript">rs</hi></abbr>
+                        <expan>leurs</expan>
+                    </choice>
+                    <add xml:id="f21vop9_vieilles_add">vieilles</add>
+                    <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>paignées fran<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                    </choice>oyses <del xml:id="f21vop9_vieilles_del"
+                        >vieilles</del><substJoin
+                        target="#f21vop9_vieilles_del #f21vop9_vieilles_add"/>, les capitaines <persName><surname><choice>
+                                <orig>l</orig>
+                                <reg>L</reg>
+                            </choice>ussan</surname></persName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice><metamark function="insert" target="#f21vop9_blacons">^</metamark><add
+                        xml:id="f21vop9_blacons"><metamark>^</metamark><persName><surname><choice>
+                                    <orig>b</orig>
+                                    <reg>B</reg>
+                                </choice>lacons</surname></persName><choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice></add>
+                    <persName><surname><choice>
+                                <orig>au</orig>
+                                <reg>Av</reg>
+                            </choice>anson</surname></persName>,<persName><surname><choice>
+                                <orig>a</orig>
+                                <reg>A</reg>
+                            </choice>ntrecasteaus</surname></persName>,
+               <persName><surname><add xml:id="f21vop9_C">C</add><undo rend="underlined"
+                                target="#f21vop9_aussans" xml:id="f21rop9_aussans_undo"/><del
+                                xml:id="f21vop9_aussans"
+                        >aussans</del></surname></persName><substJoin
+                        target="#f21vop9_C #f21vop9_ussans_undo"/>, et autres<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> demourant <del>en</del> le <choice>
+                        <abbr>Cap<hi rend="superscript">nes</hi></abbr>
+                        <expan>capitaine</expan>
+                    </choice>
+                    <persName><surname>Charry</surname></persName> dens la ville pour le garde d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>icelle come gou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>erneur <add>et le <choice>
+                            <abbr>s<hi rend="superscript">r</hi></abbr>
+                            <expan>seigneur</expan>
+                        </choice><persName ref="Q1924885"><add><nameLink>de
+                        </nameLink></add><surname><add>la</add> Mole</surname></persName>
+                       <del>per <gap quantity="1" unit="char"/></del> <choice>
+                          <orig>a</orig>
+                          <reg>à</reg>
+                       </choice>
+                       <placeName><choice>
+                          <orig>g</orig>
+                          <reg>G</reg>
+                       </choice>rossetto</placeName>placeName> <choice>
+                            <abbr>po<hi rend="superscript">r</hi></abbr>
+                            <expan>pour</expan>
+                        </choice> le Mart<unclear cert="medium" reason="illegible">ine</unclear>
+                    </add>.<del><choice>
+                            <orig>q</orig>
+                            <reg>Q</reg>
+                        </choice>ui est celuy qui</del>
+                </s></p>
+        </body>
+    </text>
+</TEI>

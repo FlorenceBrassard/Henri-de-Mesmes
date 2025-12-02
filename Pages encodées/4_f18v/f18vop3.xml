@@ -140,10 +140,7 @@
                             ><forename>Lazarius</forename>
                         <surname>Baysius</surname></persName>, <persName
                         ref="https://isni.org/isni/0000000361526324"><surname>Tussanus</surname>
-                        </persName><choice>
-                            <orig/>
-                            <reg>,</reg>
-                        </choice><persName
+                    </persName><supplied>,</supplied><persName
                         ref="https://isni.org/isni/0000000358280028"
                         ><surname>Strazelius</surname></persName>
                     <del><unclear cert="low" reason="deleted">et</unclear></del>
@@ -165,15 +162,13 @@
                                 <add place="superimposed">z</add>
                             </subst><choice>
                                 <abbr><hi rend="overlined">lres</hi></abbr>
-                                <expan>lettres</expan>
+                                <expan>letres</expan>
                             </choice></add>
-                    </subst><choice>
-                        <orig/>
-                        <reg>.</reg>
-                    </choice>
+                    </subst><supplied>.</supplied>
                 </add>
                 <substJoin target="#f18vop3_de_du #f18vop3_la_et"/>
-                </s></p>
+                </s>
+            </p>
         </body>
     </text>
 </TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><subst>
+                  <del><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                     </choice>t me fut faicte</del>
+            <add><choice>
+               <orig>de</orig>
+               <reg>Dè</reg>
+               </choice>s lors on me feit</add>
+               </subst> instance d<subst xml:id="f21rop5_y_e">
+                  <del>y</del>
+                  <add>e</add>
+               </subst> demourer <metamark function="insert" target="#f21rop5_a_Rome"
+               >^</metamark><add xml:id="f21rop5_a_Rome"><metamark>^</metamark><choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>
+                  <placeName>Rome</placeName></add><choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice><substJoin
+               target="#f21rop5_y_e #f21rop5_a_Rome"/> successeur de <choice>
+               <abbr>m<hi rend="superscript">r</hi></abbr>
+               <expan>monsieur</expan>
+               </choice><persName ref="https://isni.org/isni/0000000061748267"><nameLink>de</nameLink>
+               <surname>Sel<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>e</surname></persName>
+            <del xml:id="f21rop5_qui_estoit">qui lors y estoit</del> Ambassad<choice>
+               <abbr>u<hi rend="superscript">r</hi></abbr>
+               <expan>eur</expan>
+            </choice>
+            <add xml:id="f21rop5_la">l<choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+            </choice></add><substJoin target="#f21rop5_qui_estoit #f21rop5_la"/><subst>
+                  <del>du <roleName ref="https://isni.org/isni/0000000395001884"
+                     >Roy</roleName></del><add> <subst><add>qui</add><del>et</del></subst> retournoit vers le <roleName
+                        ref="https://isni.org/isni/0000000395001884">Roy</roleName></add>
+            </subst><choice>
+               <orig><del>.</del></orig>
+               <reg>.</reg>
+            </choice></s>
+         </p>
+      </body>
+   </text>
+</TEI>
