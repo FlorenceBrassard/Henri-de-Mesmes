@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>i</orig>
+                        <reg>J'</reg>
+                    </choice>estois <roleName><choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice> des <choice>
+                            <abbr>Req<hi rend="superscript">tes</hi></abbr>
+                            <expan>Requestes</expan>
+                        </choice></roleName> et mon de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir <subst>
+                        <del>portoit</del>
+                        <add>m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>obligeoit</add>
+                    </subst><subst seq="2">
+                        <del><subst seq="1">
+                                <del>d<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice></del>
+                                <add><choice>
+                                        <orig>a </orig>
+                                        <reg>à </reg>
+                                    </choice></add>
+                            </subst> estre sou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ent </del>
+                        <add><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> me tenir</add>
+                    </subst> pres de luy <del>pour ma charge.</del><choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice></s></p>
+        </body>
+    </text>
+</TEI>

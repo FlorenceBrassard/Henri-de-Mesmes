@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,12 +18,31 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
-<!--         Commencer la phrase 1 à la ligne 24 ; utiliser l'option “formater et indenter” d'oXygen dans l'espoir qu'on ait les mêmes sauts de ligne aux mêmes endroits -->
-         <p></p>
+         <p><s>Ainsy elle n<choice>
+               <orig/>
+               <reg>'</reg>
+            </choice>a vescu que <choice>
+               <orig>iiij</orig>
+               <reg>iv</reg>
+            </choice> ans<choice>
+               <orig/>
+               <reg>,</reg>
+            </choice> neuf mois<choice>
+               <orig/>
+               <reg>,</reg>
+            </choice> deux <choice>
+               <orig>i</orig>
+               <reg>j</reg>
+            </choice>ours<choice>
+               <orig/>
+               <reg>,</reg>
+            </choice> xxi<choice>
+               <orig>j</orig>
+               <reg>i</reg>
+            </choice> heures et demie.</s></p>
       </body>
-  </text>
+   </text>
 </TEI>
