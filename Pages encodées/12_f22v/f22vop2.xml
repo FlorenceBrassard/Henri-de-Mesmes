@@ -6,45 +6,45 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p><s>Or vous ne futes pas long temps puisné car
-            <persName><forename>Renée</forename></persName> ma fille alla <choice>
-               <orig>a</orig>
-               <reg>à</reg>
-            </choice><choice>
-                  <orig>d</orig>
-                  <reg>D</reg>
-               </choice>ieu deux ans apres, qui fut le <date>ii<choice>
-                     <orig>j</orig>
-                     <reg>i</reg>
-                  </choice><hi rend="superscript">e</hi>
-                  <choice>
-                     <orig>i</orig>
-                     <reg>j</reg>
-                  </choice>our d<choice>
-                     <orig/>
-                     <reg>'</reg>
-                  </choice>a<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>ril mil V<hi rend="superscript">c</hi>lxi<choice>
-                     <orig>j</orig>
-                     <reg>i</reg>
-                  </choice></date>.</s></p>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>Or vous ne futes pas long temps puisné car
+                        <persName><forename>Renée</forename></persName> ma fille alla <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice><choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                    </choice>ieu deux ans apres, qui fut le <date>ii<choice>
+                            <orig>j</orig>
+                            <reg>i</reg>
+                        </choice><hi rend="superscript">e</hi>
+                        <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>our d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ril mil V<hi rend="superscript">c</hi>lxi<choice>
+                            <orig>j</orig>
+                            <reg>i</reg>
+                        </choice></date>.</s></p>
+        </body>
+    </text>
 </TEI>
