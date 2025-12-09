@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s>Il adueint<choice>
+                  <orig/>
+                  <reg>,</reg>
+         </choice> pource que mon eage et ma grande charge ne pou <choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oient estre sens en<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ie<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> que l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>on m<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>en feit aussy bone <choice>
+                  <abbr><g ref="#par-glyph">ꝑ</g><hi rend="superscript">t</hi></abbr>
+                  <expan>part</expan>
+               </choice> que d’honeur et de pou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oir.</s></p>
+      </body>
+   </text>
+</TEI>

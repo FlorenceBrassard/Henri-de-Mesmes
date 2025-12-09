@@ -6,63 +6,64 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Information about the source</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p><s><choice>
-                        <orig>e</orig>
-                        <reg>E</reg>
-                    </choice>t sou<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>ent <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e prie <choice>
-                        <orig>d</orig>
-                        <reg>D</reg>
-                    </choice>ieu qu<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>il me done <subst xml:id="f22vop6_en_de">
-                        <del>en mon eage la pieté</del>
-                        <add><choice>
-                                <orig>a</orig>
-                                <reg>à</reg>
-                            </choice> ma fin autant de</add>
-                    </subst> de<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>otion, et <add xml:id="f22vop6_de">de</add><substJoin
-                        target="#f22vop6_en_de #f22vop6_de"/><subst xml:id="f22vop6_dont_innocente">
-                        <del>dont <choice>
-                                <orig>i</orig>
-                                <reg>j</reg>
-                            </choice>e l<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>ay veue mourir</del>
-                        <add>selon mon sexe et <choice>
-                                <abbr>m<hi rend="overlined">o</hi></abbr>
-                                <expan>mon</expan>
-                            </choice> eage come <choice>
-                                <orig>i</orig>
-                                <reg>j'</reg>
-                            </choice>en vey en la tendre enfance de ceste pauvre innocente.</add>
-                    </subst><substJoin target="#f22vop6_en_de #f22vop6_dont_innocente"/><del
-                        rend="unmarked">.</del></s></p>
-        </body>
-    </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t sou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ent <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e prie <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>ieu qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il me done <subst xml:id="f22vop6_en_de">
+                  <del>en mon eage</del>
+                  <add><choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> ma fin autant de</add>
+               </subst>
+               <del xml:id="f22vop6_la_pieté">la pieté,</del> de<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>otion, et <add xml:id="f22vop6_de">de</add> 
+               <substJoin target="#f22vop6_en_de #f22vop6_la_pieté #f22vop6_de"/>
+               constance <subst>
+               <del>dont <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>ay veue mourir.</del>
+                  <add>selon mon sexe et <choice>
+                        <abbr>m<hi rend="overlined">o</hi></abbr>
+                        <expan>mon</expan>
+                  </choice> eage come i<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>en vey en la tendre enfance de ceste pauvre innocente.</add>
+               </subst> </s></p>
+      </body>
+   </text>
 </TEI>

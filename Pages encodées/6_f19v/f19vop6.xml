@@ -25,7 +25,7 @@
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>e mesme fut en passant <del xml:id="f19vop6_a_et_2"><metamark
-                            function="insert" target="#f19vop6_a_et_1">^</metamark>
+                            function="insertion" target="#f19vop6_a_et_1">^</metamark>
                         <add xml:id="f19vop6_a_et_1"><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>

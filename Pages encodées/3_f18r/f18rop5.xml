@@ -21,17 +21,18 @@
    </teiHeader>
    <text>
       <body>
-         <p><choice>
-               <orig>e</orig>
-               <reg>E</reg>
-            </choice>t ne <del xml:id="me">me</del>
-            <del>l d</del> sorti<subst xml:id="t_s">
-               <del rend="overwritten">t</del>
-               <add place="superimposed">s</add>
-            </subst><substJoin target="#me #t_s"/> de sa charge <del>que</del> synon lors que <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>'entray en office.</p>
+         <p><s><choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t ne <del xml:id="f18rop5_me">me</del>
+               <del>l d</del> sorti<subst xml:id="f18rop5_t_s">
+                  <del rend="overwritten">t</del>
+                  <add place="superimposed">s</add>
+               </subst><substJoin target="#f18rop5_me #f18rop5_t_s"/> de sa charge <del>que</del>
+               synon lors que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>'entray en office.</s></p>
          <p/>
       </body>
    </text>

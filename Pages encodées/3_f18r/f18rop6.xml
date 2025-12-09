@@ -21,10 +21,10 @@
    </teiHeader>
    <text>
       <body>
-         <p>A<choice>
+         <p><s>A<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ec luy et mon frere puisné <persName><forename full="init"><choice>
+            </choice>ec luy et mon frere puisné <persName><forename><choice>
                      <abbr><choice>
                            <orig>I. I.</orig>
                            <reg>J. J.</reg>
@@ -32,7 +32,7 @@
                <expan>Jean-Jacques</expan>
                   </choice></forename>
                   <add><surname>de Mesmes</surname></add></persName>
-<choice>
+             <choice>
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu mis au college de <placeName><choice>
@@ -45,9 +45,9 @@
             <del>le</del>l<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>an <hi rend="trait_suscrit">1542</hi>
+            </choice>an <date><hi rend="overlined">1542</hi></date>
             <del>et</del>
-            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</p>
+            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</s></p>
       </body>
    </text>
 </TEI>

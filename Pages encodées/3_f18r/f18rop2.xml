@@ -21,8 +21,8 @@
    </teiHeader>
    <text>
       <body>
-         <p><del xml:id="estant">estant</del> lors mon pere <add xml:id="estoit"
-               >estoit</add><substJoin target="#estant #estoit #par_gré"/><choice>
+         <p><s><del xml:id="f18rop2_estant">estant</del> lors mon pere <add xml:id="f18rop2_estoit"
+                  >estoit</add><substJoin target="#f18rop2_estant #f18rop2_estoit #f18rop2_par_gré"/><choice>
                <abbr>lieut<hi>t</hi></abbr>
                <expan>lieutenant</expan>
             </choice> ci<choice>
@@ -31,7 +31,7 @@
             </choice>il de <placeName><choice>
                   <orig>p</orig>
                   <reg>P</reg>
-               </choice>aris</placeName><add xml:id="par_gré">, par l<choice>
+            </choice>aris</placeName><add xml:id="f18rop2_par_gré">, par l<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>lection du <persName ref="https://isni.org/isni/0000000121029337"><roleName><choice>
@@ -55,8 +55,8 @@
                </choice>oit <choice>
                   <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                   <expan>con</expan>
-               </choice>traint d'accepter ceste charge contre son gré. </add>
-         </p>
+               </choice>traint d'accepter ceste charge contre son gré.</add>
+         </s></p>
       </body>
    </text>
 </TEI>

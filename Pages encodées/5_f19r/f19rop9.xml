@@ -21,16 +21,174 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><del>nous partismes donc</del><choice>
-                  <orig>a</orig>
-                  <reg>A</reg>
-               </choice>pres cela et noz degrez <add>pris</add> de docteurs en droict ci<choice>
+         <p><s><choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>n fin des six ans <del>ap</del> nous teismes <choice>
+                  <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                  <expan>con</expan>
+               </choice>clusions publiques par deux fois <choice>
+                  <orig/>
+                  <reg>:xf</reg>
+               </choice> la premiere, <choice>
+                  <abbr rend="overlined">etions</abbr>
+                  <expan>estions</expan>
+               </choice> une apres disnée a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>il et canon, nous primes le chemin pour retourner <choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice> la maison. </s></p>
+               </choice>ec catedran<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> la i<choice>
+                  <orig>j</orig>
+                  <reg>i</reg>
+               </choice><hi rend="superscript">e</hi> ii<choice>
+                  <orig>j</orig>
+                  <reg>i</reg>
+               </choice> <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ours entiers <subst>
+                  <del>sens catedran</del>
+                  <add>et seuls</add>
+               </subst>
+               <choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ec grande celebrité ancore que mon age me deffendist d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>y <subst>
+                  <del>rendre</del>
+                  <add>aporter</add>
+               </subst> autant de <subst xml:id="f19rop8_force_suffisance">
+                  <del>force</del>
+                  <add>suffisance</add>
+               </subst> que de <subst xml:id="f19rop8_cueur_confidance">
+                  <del>cueur</del>
+                  <add>confidance</add>
+               </subst><substJoin target="#f19rop8_force_suffisance #f19rop8_cueur_confidance"/>.
+               </s><metamark function="insert" target="#f19rop8_en_france">++</metamark>
+            <add xml:id="f19rop8_en_france"><metamark>++</metamark><s>
+                  <choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>n ce mesme temps <gap agent="reliure" reason="illegible" unit="char"
+                     quantity="2"/><supplied cert="high">li</supplied>soient <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice>
+                  <placeName><choice>
+                        <abbr rend="overlined">Thle</abbr>
+                        <expan>Tholose</expan>
+                     </choice></placeName>
+                  <choice>
+                     <abbr>m<hi rend="superscript">es</hi></abbr>
+                     <expan>maistres</expan>
+                  </choice>
+                  <persName ref="https://isni.org/isni/0000000121007699"><surname>
+                        <gap agent="reliure" reason="illegible" unit="char" quantity="1"/><supplied
+                           cert="high"><choice>
+                              <orig>c</orig>
+                              <reg>C</reg>
+                           </choice></supplied>orras</surname></persName> et <persName
+                     ref="https://isni.org/isni/0000000119390270"><nameLink>du</nameLink>
+                     <surname><choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>errier</surname></persName>, aussy <persName><surname><choice>
+                           <orig>p</orig>
+                           <reg>P</reg>
+                        </choice>ereri</surname></persName> et <persName
+                     ref="https://isni.org/isni/0000000026315095"><surname><choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>ernandi</surname></persName> et des <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>eunes <persName ref="https://isni.org/isni/0000000013211908"
+                        ><nameLink>du</nameLink><surname><choice>
+                           <orig>b</orig>
+                           <reg>B</reg>
+                        </choice>ourg</surname></persName> et <persName
+                     ref="https://isni.org/isni/0000000080770195"><surname><choice>
+                           <orig>p</orig>
+                           <reg>P</reg>
+                        </choice>ibrac</surname></persName>.</s><s><choice>
+                     <orig>a</orig>
+                     <reg>A</reg>
+                  </choice>pres moy <choice>
+                     <abbr>m<hi rend="superscript">r</hi></abbr>
+                     <expan>monsieur</expan>
+                  </choice>
+                  <persName ref="https://isni.org/isni/0000000061298200"><nameLink>de</nameLink>
+                     <surname><choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>ois</surname></persName> qui m<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit ouy a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ec le <roleName><choice>
+                        <abbr>m<hi rend="superscript">al</hi></abbr>
+                        <expan>marechal</expan>
+                     </choice></roleName><persName ref="https://isni.org/isni/0000000000927798"><nameLink><choice>
+                           <orig>d</orig>
+                           <reg>D</reg>
+                        </choice>e</nameLink><surname><choice>
+                           <orig>I</orig>
+                           <reg>J</reg>
+                        </choice>oieuse</surname></persName> lors <gap agent="reliure"
+                     reason="illegible" unit="char" quantity="1"/><supplied cert="high">e</supplied><choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>esque d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice><placeName><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                     </choice>let</placeName>, prit mon heure et leut <del>en</del> quel<choice>
+                     <abbr><g ref="que-glyph">ꝙ</g></abbr>
+                     <expan>que</expan>
+                  </choice> temps. </s><s><add><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                     </choice>t voila les premieres compaignées d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>estude entre <persName ref="https://isni.org/isni/0000000061298200"><surname><choice>
+                              <orig>f</orig>
+                              <reg>F</reg>
+                           </choice>ois</surname></persName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice>
+                     <del>et</del>
+                     <persName ref="https://isni.org/isni/0000000080770195"><surname><choice>
+                              <orig>p</orig>
+                              <reg>P</reg>
+                           </choice>ibrac</surname></persName> et moy, come elles ont depuys <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                     </choice>tinué aux estats et <metamark function="insert" target="#f19rop8_aux"
+                        >^</metamark><add xml:id="f19rop8_aux">aux</add> afaires <add
+                        xml:id="f19rop8_de_france">de la <choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>rance</add>
+                     <substJoin target="#f19rop8_aux #f19rop8_de_france"/><choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice></add></s></add></p>
       </body>
    </text>
 </TEI>

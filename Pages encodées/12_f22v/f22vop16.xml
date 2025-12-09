@@ -6,50 +6,44 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Information about the source</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p><s><del><choice>
-                            <orig>c</orig>
-                            <reg>C</reg>
-                        </choice>ar</del>
-                    <metamark function="transposition" rend="line" target=" #f22vop16_il_souuent"
-                        /><seg xml:id="f22vop16_il_souuent"><seg xml:id="f22vop16_il_faisoit">il me
-                            faisoit</seg><seg xml:id="f22vop16_souuent"><choice>
-                                <orig>s</orig>
-                                <reg>S</reg>
-                            </choice>ou<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>ent</seg></seg><listTranspose>
-                        <transpose>
-                            <ptr target="#f22vop16_souuent"/>
-                            <ptr target="#f22vop16_il_faisoit"/>
-                        </transpose>
-                    </listTranspose> tenir la chancellerie, <del>pour</del> en son lieu dedens sa
-                    sale, et seler en plein seau, <subst>
-                        <del>ce qui est peu acoustumé</del>
-                        <add>quand il perdoit son sang et ne pou<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>oit seoir.</add>
-                    </subst></s><s><del>J<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>estois</del></s>
-            </p>
-        </body>
-    </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del><choice>
+                     <orig>C</orig>
+                     <reg>c</reg>
+                  </choice>ar</del>
+               <seg xml:id="f22vop16_il_faisoit">il me faisoit</seg>
+               <seg xml:id="f22vop16_souuent"><choice>
+                     <orig>s</orig>
+                     <reg>S</reg>
+                  </choice>ou<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ent</seg>
+               <span target="#f22vop16_souuent #f22vop16_il_faisoit" type="inversion"/> tenir la
+               chancellerie, <del>pour</del> en son lieu dedens sa sale, et seler en plein seau, <subst>
+                  <del>ce qui est peu acoustumé</del>
+                  <add>quand il perdoit son sang et ne pou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>oit seoir.</add>
+               </subst></s><s><del>J<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>estois</del></s></p>
+      </body>
+   </text>
 </TEI>

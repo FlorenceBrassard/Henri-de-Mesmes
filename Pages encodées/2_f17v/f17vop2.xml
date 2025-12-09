@@ -21,33 +21,33 @@
     </teiHeader>
     <text>
         <body>
-            <p><choice>
-                    <orig>m</orig>
-                    <reg>M</reg>
-                </choice>ais il en <subst>
-                    <del seq="1">fut</del>
-                    <del seq="2"><add seq="1">de<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>eint</add></del>
-                    <add seq="2">fut</add>
-                </subst> tant plus soigneus de se preser<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>er et a sur<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>escu <subst xml:id="f17vop2_touts_huict_dix">
-                    <del>touts</del>
-                    <add><del>huict ou dix</del></add>
-                </subst>ses <metamark function="insert" target="#f17vop2_dix" xml:id="f17vop2_metamark_1"
-                    >^</metamark><add xml:id="f17vop2_dix">dix></add><substJoin
-                    target=" #f17vop2_touts_huict_dix #f17vop2_metamark_1 #f17vop2_dix"/> freres qui sont presque touts
-                morts a<subst xml:id="f17vop2_a_la_aux">
-                    <add>ux</add>
-                    <del>la</del>
-                </subst> guerre<add xml:id="f17vop2_s1">s</add>
-                <substJoin target=" #f17vop2_a_la_aux #f17vop2_s1"/>.</p>
+            <p><s><choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                    </choice>ais il en <subst>
+                        <del seq="1">fut</del>
+                        <del seq="2"><add seq="1">de<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>eint</add></del>
+                        <add seq="2">fut</add>
+                    </subst> tant plus soigneus de se preser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>er et a sur<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>escu <subst xml:id="f17vop2_touts_huict_dix">
+                        <del>touts</del>
+                        <add><del>huict ou dix</del></add>
+                    </subst>ses <metamark function="insertion" target="#f17vop2_dix" xml:id="f17vop2_metamark_1"
+                        >^</metamark><add xml:id="f17vop2_dix">dix></add><substJoin
+                            target=" #f17vop2_touts_huict_dix #f17vop2_metamark_1 #f17vop2_dix"/> freres qui sont presque touts
+                    morts a<subst xml:id="f17vop2_a_la_aux">
+                        <add>ux</add>
+                        <del>la</del>
+                    </subst> guerre<add xml:id="f17vop2_s_1">s</add>
+                    <substJoin target=" #f17vop2_a_la_aux #f17vop2_s_1"/>.</s></p>
         </body>
     </text>
 </TEI>

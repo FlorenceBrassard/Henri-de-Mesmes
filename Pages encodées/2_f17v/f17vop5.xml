@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><add><subst>
+         <p><s><add><subst>
                <del>toutesfois</del>
                <add>Mais</add>
             </subst> sa mort <subst>
@@ -45,16 +45,16 @@
             </choice>o<choice>
                   <orig>i</orig>
                   <reg>y</reg>
-               </choice>al et mourut l<subst xml:id="e_a">
+            </choice>al et mourut l<subst xml:id="f17vop5_e_a">
                <del rend="overwritten">e</del>
                <add place="superimposed">a</add>
-            </subst> propre <subst xml:id="iour_nuict">
+            </subst> propre <subst xml:id="f17vop5_iour_nuict">
                <del><choice>
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>our</del>
                <add>nuict</add>
-            </subst><substJoin target="#e_a #iour_nuict"/> que <choice>
+            </subst><substJoin target="#f17vop5_e_a #f17vop5_iour_nuict"/> que <choice>
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fus conceu precedente le <choice>
@@ -69,24 +69,26 @@
                <orig>M</orig>
                <reg>m</reg>
             </choice>ay 
-               <del xml:id="date_15312"><hi rend="trait_suscrit">153
-                        <del rend="overwritten" seq="1">2</del>
+                  
+                  <date><del xml:id="f17vop5_date_15312"><hi rend="overlined">153
+                        <subst><del rend="overwritten" seq="1">2</del>
                         <del seq="2"><add place="superimposed" seq="1">1</add></del>
-                        <add seq="2">2</add>
-                     </hi></del>.
-               <add xml:id="date_1531"><hi rend="trait_suscrit">1531</hi></add>
-            <substJoin target="#date_15312 #date_1531"></substJoin>
+                           <add seq="2">2</add></subst>
+                  </hi></del></date>.
+                  <add xml:id="f17vop5_date_1531"><date><hi rend="trait_suscrit">1531</hi></date></add>
+                  <substJoin target="#f17vop5_date_15312 #f17vop5_date_1531"></substJoin>
+                  
          </add><del>Je nacquis <choice>
             <orig>a</orig>
             <reg>à</reg>
-         </choice> <placeName>Paris</placeName> le mardy <del>pen</del> xxix<hi
+         </choice> <placeName>Paris</placeName> <date>le mardy <del>pen</del> xxix<hi
                   rend="superscript">e</hi><choice>
                   <orig>J</orig>
                   <reg>j</reg>
                   </choice>anvier <hi rend="trait_suscrit">1531</hi> <choice>
                      <orig>a</orig>
                      <reg>à</reg>
-                  </choice> trois heures du matin.</del></p>
+                  </choice> trois heures du matin</date>.</del></s></p>
       </body>
    </text>
 </TEI>

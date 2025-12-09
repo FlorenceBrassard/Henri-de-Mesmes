@@ -6,29 +6,29 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Information about the source</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p><s><del><roleName>Mon beau pere</roleName> mourut apres et ce fut le que <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e puys dire <choice>
-                            <orig>v</orig>
-                            <reg>u</reg>
-                        </choice>n miroir et vray exemple de simplicité chrestiene et de modestie et
-                        charité.</del></s></p>
-        </body>
-    </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del><roleName>Mon beau pere</roleName> mourut apres et ce fut le que <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+         </choice>e puys dire <choice>
+            <orig>v</orig>
+            <reg>u</reg>
+         </choice>n miroir et vray
+                  exemple de simplicité chrestiene et de modestie et charité.</del></s></p>
+      </body>
+   </text>
 </TEI>

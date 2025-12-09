@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s>
+               <del><add><choice>
+                        <orig>a</orig>
+                        <reg>À</reg>
+                     </choice></add></del>
+               <choice>
+                  <orig>a</orig>
+                  <reg>À</reg>
+               </choice>
+               <choice>
+                  <orig>p</orig>
+                  <reg>P</reg>
+               </choice>asques <metamark function="insert" target="#f21rop1_1557">^</metamark>
+               <add xml:id="f21rop1_1557"><metamark>^</metamark>
+                  <date>1557</date></add>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e <subst>
+                  <del>fu envoié</del>
+                  <add>m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>en allay</add>
+               </subst>
+                  <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice>
+               <placeName>Montalcino</placeName> o<choice>
+                  <orig>u</orig>
+                  <reg>ù</reg>
+               </choice> estoit lors la republique <choice>
+                  <orig>S</orig>
+                  <reg>s</reg>
+               </choice>ienoise.
+            </s></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t pris la charge de <abbr>
+                  <abbr>cap<hi rend="superscript">ne</hi></abbr>
+                  <expan>capitaine</expan>
+               </abbr> de la <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ustice <choice>
+                  <orig>,</orig>
+                  <reg>.</reg>
+               </choice>
+               <subst xml:id="f21rop2_qui_et">
+                  <del>qui est</del>
+                  <add>C<choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>est le premier et</add>
+               </subst> sou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>erain <add xml:id="f21rop2_iuge"><choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>uge</add>
+               <substJoin target="#f21rop2_qui_et #f21rop2_iuge"/> ez matieres criminelles. <choice>
+                  <orig>m</orig>
+                  <reg>M</reg>
+               </choice>ais come a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ant moy <del>il a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit</del> a<abbr>
+                  <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                  <expan>par</expan>
+                  </abbr>tenoient <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> cest <gap quantity="3" unit="char"/> office les poines et <choice>
+                  <abbr><g ref="#con-glyph">ꝯ</g>fisc<hi rend="overlined">ons</hi></abbr>
+                  <expan>confiscations</expan>
+               </choice> qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ugeoit, <subst>
+                  <del>tellement</del>
+                  <add>de maniere</add>
+               </subst> que pour ce regard on appelloit de luy, ores que le criminel fust sens
+               appel, <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e feis en quitant ce<del>st</del>
+               <del xml:id="f21rop2_vil_grand">vil <metamark function="insert"
+                     target="#f21rop2_ores_grand">^</metamark>
+                  <add xml:id="f21rop2_ores_grand"><metamark>^</metamark> ores que bien
+                  grand</add></del> profit, <subst xml:id="f21rop2_mais_vil">
+                  <del>mais gros <add>toutesfois</add> et fort casuel</del>
+                  <add>bien grand et bien vil</add>
+               </subst>, <substJoin target="#f21rop2_vil_grand #f21rop2_mais_vil"/> que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e demouray sou<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>erain en tout.</s></p>
+      </body>
+   </text>
+</TEI>

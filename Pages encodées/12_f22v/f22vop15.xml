@@ -6,47 +6,43 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Information about the source</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p><s><del seq="2"><del seq="1"><choice>
-                                <orig>e</orig>
-                                <reg>E</reg>
-                            </choice>t</del>
-                        <choice>
-                            <orig>i</orig>
-                            <reg>I</reg>
-                        </choice>l <add>me</add> monstroit tant d<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>amour et de respect en mon éage bien <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>eune au pris du sien, que c<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>estoit <choice>
-                            <orig>v</orig>
-                            <reg>u</reg>
-                        </choice>n des plus grands contantemens que <choice>
-                            <orig>i</orig>
-                            <reg>j'</reg>
-                        </choice>eusse lors <subst>
-                            <del>pour le regard du public</del>
-                            <add>en mon estat</add>
-                        </subst>.</del></s></p>
-        </body>
-    </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del seq="2"><del seq="1"><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+         </choice>t</del> <choice>
+            <orig>i</orig>
+            <reg>I</reg>
+         </choice>l <add>me</add> monstroit tant d<choice>
+            <orig/>
+            <reg>'</reg>
+         </choice>amour et de respect en mon éage bien <choice>
+            <orig>i</orig>
+            <reg>j</reg>
+         </choice>eune au pris du sien, que c<choice>
+            <orig/>
+            <reg>'</reg>
+         </choice>estoit vn des plus grands contantemens que <choice>
+            <orig>i</orig>
+            <reg>j'</reg>
+         </choice>eusse lors <subst>
+            <del>pour le regard du public</del>
+            <add>en mon estat</add>
+         </subst>.</del></s></p>
+      </body>
+   </text>
 </TEI>

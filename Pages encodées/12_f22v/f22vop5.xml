@@ -22,27 +22,27 @@
    <text>
       <body>
          <p><s>Ainsy elle n<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>a vescu que <choice>
-               <orig>iiij</orig>
-               <reg>IV</reg>
-            </choice> ans<choice>
-               <orig/>
-               <reg>,</reg>
-            </choice> neuf mois<choice>
-               <orig/>
-               <reg>,</reg>
-            </choice> deux <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>ours<choice>
-               <orig/>
-               <reg>,</reg>
-            </choice> xxi<choice>
-               <orig>j</orig>
-               <reg>i</reg>
-            </choice> heures et demie.</s></p>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>a vescu que iii<choice>
+                  <orig>j</orig>
+                  <reg>i</reg>
+               </choice> ans<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> neuf mois<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> deux <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ours<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> xxi<choice>
+                  <orig>j</orig>
+                  <reg>i</reg>
+               </choice> heures et demie.</s></p>
       </body>
    </text>
 </TEI>

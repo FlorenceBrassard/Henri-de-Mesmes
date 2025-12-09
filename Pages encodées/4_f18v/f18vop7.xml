@@ -28,7 +28,10 @@
             </choice>ous estions debout <choice>
                <orig>a</orig>
                <reg>à</reg>
-            </choice> iiii heures, et <metamark function="insert" target="#f18vop6_aians_dieu"
+            </choice> <choice>
+               <orig>iiij</orig>
+               <reg>iv</reg>
+            </choice> heures, et <metamark function="insert" target="#f18vop6_aians_dieu"
                >^</metamark><add xml:id="f18vop6_aians_dieu"><metamark>^</metamark>aians prié <choice>
                   <orig>d</orig>
                   <reg>D</reg>

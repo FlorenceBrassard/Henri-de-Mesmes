@@ -6,104 +6,98 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Information about the source</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p><s><choice>
-                        <orig>i</orig>
-                        <reg>I</reg>
-                    </choice>l disoit que <subst>
-                        <del><roleName>son pere</roleName> mon aieul</del>
-                        <add><roleName>mon grand pere</roleName></add>
-                    </subst> s<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>estant apres les guerres et longues fatigues de ce monde voué <choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice>
-                    <persName ref="Q43999"><choice>
-                            <abbr>s<hi rend="superscript">t</hi></abbr>
-                            <expan>sainct</expan>
-                        </choice>
-                        <forename><choice>
-                                <orig>j</orig>
-                                <reg>J</reg>
-                            </choice>acques</forename></persName> en <placeName>Galice</placeName>
-                    <add>et laissant <add xml:id="f22vop1_grosse_add">grosse</add> sa femme <del
-                            xml:id="f22vop1_grosse_del">grosse</del></add>
-                    <substJoin target="#f22vop1_grosse_add #f22vop1_grosse_del"/><add>qui estoit
-                        plus <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>eune, nomée <persName><nameLink>de</nameLink>
-                            <surname>Cauna</surname></persName><choice>
-                            <orig/>
-                            <reg>,</reg>
-                        </choice>
-                        <del>qui est <choice>
-                                <orig>v</orig>
-                                <reg>u</reg>
-                            </choice>ne</del> noble et anciene maison en <placeName><choice>
-                                <orig>g</orig>
-                                <reg>G</reg>
-                            </choice>uiene</placeName></add><choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> il <subst>
-                        <del>a <choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>oit ordoné</del>
-                        <add>ordona</add>
-                    </subst> que l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>enfant qui naistroit en son absence eust le nom de <choice>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice>l disoit que <subst>
+                  <del><roleName>son pere</roleName> mon aieul</del>
+                  <add><roleName>mon grand pere</roleName></add>
+               </subst> s<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>estant apres les guerres et longues fatigues de ce monde voué <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice>
+               <persName ref="Q43999"><choice>
+                     <abbr>s<hi>t</hi></abbr>
+                     <expan>saint</expan>
+                  </choice>
+                  <forename><choice>
                         <orig>j</orig>
                         <reg>J</reg>
-                    </choice>acques a<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>ec celuy de son <roleName>parrein</roleName><choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice>
-                    <add>dont est venu qu<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>en <choice>
-                            <abbr rend="overlined">nre</abbr>
-                            <expan>nostre</expan>
-                        </choice> maison touts ont en <choice>
-                            <orig>ij</orig>
-                            <reg>ii</reg>
-                        </choice> noms<choice>
-                            <orig/>
-                            <reg>,</reg>
-                        </choice> fors que moy pource que mon <roleName ref="Q132545">parr<supplied
-                                cert="high" reason="margin">ein</supplied></roleName> estoit
-                            <roleName
-                        ref="Q132545">Roy</roleName> et son nom ne se de<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>oit acompaigné de celuy d'un autre moindre<choice>
-                            <orig/>
-                            <reg>.</reg>
-                        </choice>
-                    </add></s></p>
-        </body>
-    </text>
+                     </choice>acques</forename></persName> en <placeName>Galice</placeName>
+               <add>et laissant <add xml:id="f22vop1_grosse_add">grosse</add> sa femme <del
+                     xml:id="f22vop1_grosse_del">grosse</del></add>
+               <substJoin target="#f22vop1_grosse_add #f22vop1_grosse_del"/>
+               <add>qui estoit plus <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>eune, nomée <persName><nameLink>de</nameLink>
+                     <surname>Cauna</surname></persName><choice>
+                     <orig/>
+                     <reg>,</reg>
+                  </choice>
+                  <del>qui est <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                     </choice>ne</del> noble et anciene maison en <placeName><choice>
+                        <orig>g</orig>
+                        <reg>G</reg>
+                     </choice>uiene</placeName></add><choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> il <subst>
+                  <del>a<choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                     </choice>oit ordoné</del>
+                  <add>ordona</add>
+               </subst> que l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>enfant qui naistroit en son absence eut le nom de <forename><choice>
+                     <orig>j</orig>
+                     <reg>J</reg>
+                  </choice>acques</forename> auec celuy de son <roleName>parrein</roleName><choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> dont est venu qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>en <choice>
+                  <abbr rend="hi">nre</abbr>
+                  <expan>nostre</expan>
+               </choice> maison touts ont en <choice>
+                  <orig>ij</orig>
+                  <reg>ii</reg>
+               </choice> noms<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> fors que moy pource que mon <roleName ref="Q132545">parr<supplied
+                     cert="high" reason="margin">ein</supplied></roleName> estoit <roleName
+                  ref="Q132545">Roy</roleName> et son nom ne se de<choice>
+                  <orig>v</orig>
+                  <reg>u</reg>
+               </choice>oit acompaigné de celuy d’un autre moindre<choice>
+                  <orig/>
+                  <reg>.</reg>
+               </choice></s></p>
+      </body>
+   </text>
 </TEI>

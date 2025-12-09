@@ -6,33 +6,34 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Title</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Information about the source</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p><s><del><choice>
-                            <orig>m</orig>
-                            <reg>M</reg>
-                        </choice>ais son autre puisné <choice>
-                            <abbr>m<hi rend="superscript">r</hi></abbr>
-                            <expan>monsieur</expan>
-                        </choice> le <persName><roleName>president</roleName>
-                            <nameLink>de</nameLink>
-                            <surname>Cuny</surname></persName> le sur<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>esquit, et est mort apres luy.</del></s></p>
-        </body>
-    </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del><choice>
+                     <orig>m</orig>
+                     <reg>M</reg>
+                  </choice>ais son autre puisné <choice>
+                     <orig>m<hi rend="superscript">r</hi></orig>
+                     <reg>monsieur</reg>
+                  </choice> le <roleName>president</roleName>
+                  <persName><nameLink>de</nameLink>
+                     <surname>Cuny</surname></persName> le sur<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>esquit, et est mort <del>apres luy.</del>
+               </del></s></p>
+      </body>
+   </text>
 </TEI>

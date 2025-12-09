@@ -25,7 +25,7 @@
                         <del xml:id="f19vop9_mais" seq="1"><choice>
                                 <orig>m</orig>
                                 <reg>M</reg>
-                            </choice>ais <metamark function="insert" target="#f19vop9_il_a"
+                            </choice>ais <metamark function="insertion" target="#f19vop9_il_a"
                                 >^</metamark></del>
                         <del seq="2"><add seq="1" xml:id="f19vop9_lors"><choice>
                                     <orig>l</orig>
@@ -141,7 +141,13 @@
                             </choice>e n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>y entray que ii matinées et la iii<hi rend="superscript"
+                            </choice>y entray que i<choice>
+                                <orig>j</orig>
+                                <reg>i</reg>
+                            </choice> matinées et la ii<choice>
+                                <orig>j</orig>
+                                <reg>i</reg>
+                            </choice><hi rend="superscript"
                             >e</hi></add></del>. </s></p>
         </body>
     </text>

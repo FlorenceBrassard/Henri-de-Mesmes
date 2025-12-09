@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del><choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>t</del>
+               <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>urant ce siege <subst>
+                  <del>o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                     </choice> le viceroy de la</del>
+                  <add>Monluc lieut<choice>
+                        <abbr><hi rend="superscript">t</hi></abbr>
+                        <expan>enant</expan>
+                     </choice> du <roleName ref="Q132545">Roy</roleName> en </add>
+               </subst>
+               <placeName>Toscane</placeName> ala vers <persName ref="Q28495"><choice>
+                     <abbr>m<hi rend="superscript">r</hi></abbr>
+                     <expan>Monsieur</expan>
+                  </choice>
+                  <nameLink>de</nameLink>
+                  <surname>Guyse</surname></persName> 
+               <metamark function="insert" target="#f21rop8_et">^</metamark>
+               <add xml:id="f21rop8_et">et</add> <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e demourray <subst xml:id="f21rop8_chef_sur">
+                  <del>chef sur</del>
+                  <add>au <placeName>Sienois</placeName> a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                  </choice>ec toute autorité absolue, mesme sur</add>
+               </subst> les armes <del xml:id="f21rop8_mesme">mesme</del> 
+               <del><unclear cert="high">e</unclear>n</del> 
+               <del xml:id="f21rop8_au_et">au Sienois et</del>
+               <substJoin target="#f21rop8_chef_sur #f21rop8_mesme #f21rop8_au_et"/>
+               <choice>
+                  <orig>a</orig>
+                  <reg>. A</reg>
+               </choice>d<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ient sy <subst>
+                  <del>bien</del>
+                  <add>heureusement</add>
+               </subst> <choice>
+                  <abbr>po<hi rend="superscript">r</hi></abbr>
+                  <expan>pour</expan>
+               </choice> moy que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e fey <choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>n petit camp <subst>
+                  <del>o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                  </choice> <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>e</del>
+                  <add>sorty en campaigne et</add>
+               </subst> repris bon nombre de villes et <choice>
+                  <abbr><hi rend="overlined">chantx</hi></abbr>
+                  <expan>chateaux</expan>
+               </choice> des <choice>
+                  <abbr><hi rend="overlined">nres</hi></abbr>
+                  <expan>nostres</expan>
+               </choice> <add xml:id="f21rop8_que_auoient">que les <choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+               </choice>spaignols a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oient</add> surpris aupara<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ant ma venue <del xml:id="f21rop8_par_espaignols">par les <choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+               </choice>spaignols</del>
+               <substJoin target="#f21rop8_que_auoient #f21rop8_par_espaignols"/>.
+            </s></p>
+      </body>
+   </text>
+</TEI>
