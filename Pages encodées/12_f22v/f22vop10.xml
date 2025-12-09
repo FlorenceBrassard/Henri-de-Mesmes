@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><s><del>Il estoit l<choice>
+                  <orig/>
+                  <reg>'</reg>
+         </choice>aisné des <persName><surname>Hennequins</surname></persName> de sa branche et a<choice>
+            <orig>u</orig>
+            <reg>v</reg>
+         </choice>oit veu mourir a<choice>
+            <orig>u</orig>
+            <reg>v</reg>
+         </choice>ant luy <subst><del>ses deux freres, qui estoient</del><add>son frere <choice>
+            <abbr>m<hi rend="superscript">r</hi></abbr>
+            <expan>monsieur</expan>
+         </choice> <persName><surname>Dacy</surname></persName> <roleName><choice>
+            <abbr>p<hi rend="superscript">r</hi></abbr>
+            <expan>premier</expan>
+         </choice> president</roleName> en</add>
+         </subst> la chambre des <choice>
+            <abbr><g ref="#con-glyph">ꝯ</g>ptes</abbr>
+            <expan>comptes</expan>
+         </choice> et sa seur
+            <choice>
+            <abbr>mad<hi rend="superscript">elle</hi></abbr>
+            <expan>mademoiselle</expan>
+            </choice> la <roleName><choice>
+               <abbr>p.<hi rend="superscript">te</hi></abbr>
+               <expan>presidente</expan>
+            </choice></roleName> <persName><nameLink>de</nameLink> <surname><choice>
+               <orig>b</orig>
+               <reg>B</reg>
+            </choice>oulancourt</surname></persName>.</del></s></p>
+      </body>
+   </text>
+</TEI>
