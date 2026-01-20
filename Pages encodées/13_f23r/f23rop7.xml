@@ -26,10 +26,13 @@
                         <reg>'</reg>
                     </choice> an <date>mil V<hi rend="superscript">c</hi>
                         <subst>
-                            <del>lvix</del>
-                            <add>lvii<choice>
-                                    <orig>j</orig>
-                                    <reg>i</reg>
+                            <del><choice>
+                                    <orig>lvix</orig>
+                                    <reg>LVIX</reg>
+                                </choice></del>
+                            <add><choice>
+                                    <orig>lviij</orig>
+                                    <reg>LVIII</reg>
                                 </choice></add>
                         </subst>
                     </date> apres la reprise des armes et renou<choice>
