@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+            </choice> ont <persName ref="Q3085482"><surname>Oli<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ier</surname></persName> et luy, <subst xml:id="f23rop6_qui_deux">
+                        <del>qui estoient</del>
+                        <add>touts deux</add>
+                    </subst> les <del xml:id="f23rop6_deux">deux</del>
+                    <substJoin target="#f23rop6_qui_deux #f23rop6_deux"/> plus capables qu’on ait <subst>
+                        <del>iamais</del>
+                        <add>ancore</add>
+                    </subst> veu en <subst>
+                        <del>cest</del>
+                        <add>tel</add>
+                    </subst> estat, esté ostez pour <choice>
+                        <abbr>fe<hi rend="superscript">r</hi></abbr>
+                        <expan>faire</expan>
+                    </choice> place <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> d’autres qui ne leur ont pas succedé en tout.</s></p>
+        </body>
+    </text>
+</TEI>
