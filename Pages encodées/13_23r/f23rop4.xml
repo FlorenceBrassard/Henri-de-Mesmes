@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t <del xml:id="f23rop4_iay_1"><choice>
+                            <orig>i</orig>
+                            <reg>j'</reg>
+                        </choice>ay</del> entr<del rend="overwritten">e</del><add
+                        place="superimposed">e</add><del>s</del> mes papiers parmy les <choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <expan>letres</expan>
+                    </choice> des <subst xml:id="f23rop4_premiers_grands">
+                        <del>premiers</del>
+                        <add>grands</add>
+                    </subst> homes de <choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>nostre</expan>
+                    </choice> siec<choice>
+                        <orig/>
+                        <reg>l</reg>
+                    </choice>e <subst>
+                        <del>qui sont en grosses liasses</del>
+                        <add>dont <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e garde <subst xml:id="f23rop4_grande_bone">
+                                <del>grande</del>
+                                <add>bone</add>
+                            </subst> quantité</add>
+                        <del xml:id="f23rop4_iay_2_del"><add xml:id="f23rop4_iay_2_add"><choice>
+                                    <orig>i</orig>
+                                    <reg>j'</reg>
+                                </choice>ay</add></del>
+                        <add xml:id="f23rop4_iay_3"><choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>ay</add>
+                    </subst> quelque nombre d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>espitres latines qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il <subst>
+                        <del>m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>escri<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit</del>
+                        <add>m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>en<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oioit</add>
+                    </subst><subst>
+                        <del xml:id="f23rop4_lesquelles_d">, lesquelles tesmoignent qu<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>il estoit aussy elegant or d'</del>
+                        <add>asses <metamark function="insert"
+                                target="#f23rop4_cognoissables_nom_add">//</metamark><subst>
+                                <add xml:id="f23rop4_cognoissables_nom_add"><del
+                                        xml:id="f23rop4_cognoissables_nom_del"
+                                            ><metamark>//</metamark>cognoissables sens son nom
+                                        </del><substJoin
+                                        target="#f23rop4_cognoissables_nom_del #f23rop4_iay_2_del"
+                                    /></add>
+                                <del xml:id="f23rop4_dignes_bien">dignes d<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>un qui n<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>a<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>oit faict autre mestier que bien</del>
+                            </subst></add>
+                    </subst> <del xml:id="f23rop4_escrire">escrire</del><substJoin target="#f23rop4_dignes_bien #f23rop4_escrire"></substJoin> <del xml:id="f23rop4_que_executer">que resolu <del><add><choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                    </choice> bien ca</add></del> <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> executer</del><substJoin target="#f23rop4_lesquelles_d #f23rop4_que_executer"></substJoin>.
+                </s></p>
+        </body>
+    </text>
+</TEI>

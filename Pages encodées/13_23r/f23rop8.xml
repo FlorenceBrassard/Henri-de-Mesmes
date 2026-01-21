@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>ou</orig>
+                        <reg>Où</reg>
+                    </choice> elle me <subst>
+                        <del>blasma</del>
+                        <add>tansa de</add>
+                    </subst> mon trop excessif <subst>
+                        <del>loisir</del>
+                        <add>repos</add>
+                    </subst> et continuelle <subst>
+                        <del><choice>
+                                <abbr>occu<hi rend="overlined">pon</hi></abbr>
+                                <expan>occupation</expan>
+                            </choice> aux</del>
+                        <add>vacation d'<choice>
+                                <abbr>afe<hi rend="superscript">r</hi>s po<hi rend="superscript"
+                                        >r</hi></abbr>
+                                <expan>afaires pour</expan>
+                            </choice> l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>estude des</add>
+                    </subst><choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <expan>letres</expan>
+                    </choice>, qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il estoit temps de secourir sa patrie, et qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il ne seioit pas bien<metamark function="insert"
+                        target="#f23rop8_a_citoien">^</metamark><add xml:id="f23rop8_a_citoien"
+                            ><metamark>^</metamark><choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>
+                        <choice>
+                            <orig>v</orig>
+                            <reg>u</reg>
+                        </choice>n bon citoien</add> d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estre sy <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice><subst xml:id="f23rop8_mon_son">
+                        <del>mon</del>
+                        <add>son</add>
+                    </subst><substJoin target="#f23rop8_a_citoien #f23rop8_mon_son"/> aise <metamark
+                        function="insert" target="#f23rop8_enfermé_tempeste">^</metamark><add
+                        xml:id="f23rop8_enfermé_tempeste"><metamark>^</metamark> enfermé dens <choice>
+                            <orig>v</orig>
+                            <reg>u</reg>
+                        </choice>n <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>ardin et <choice>
+                            <orig>v</orig>
+                            <reg>u</reg>
+                        </choice>n estude pendant la tempeste</add><subst xml:id="f28rop8_en_d">
+                        <del>en</del>
+                        <add>d'</add>
+                    </subst><substJoin target="#f23rop8_enfermé_tempeste #f28rop8_en_d"/><choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n orage public.</s></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>La <choice>
+                        <abbr>p<hi rend="superscript">re</hi> propo<hi rend="overlined"
+                            >sion</hi></abbr>
+                        <expan>premiere proposition</expan>
+                    </choice> fut <choice>
+                        <abbr>po <hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice>
+                    <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n<subst>
+                        <del>e diete</del>
+                        <add>voiage</add>
+                    </subst> vers l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice><roleName>em<choice>
+                            <abbr><g ref="par-glyph">ꝑ</g></abbr>
+                            <expan>per</expan>
+                        </choice>eur</roleName> et les <roleName>princes d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice><placeName><choice>
+                                <orig>a</orig>
+                                <reg>A</reg>
+                            </choice>lemaigne</placeName></roleName>, <add
+                        xml:id="f23rop11_ou_employ">o<choice>
+                            <orig>u</orig>
+                            <reg>ù</reg>
+                        </choice> il faloit <choice>
+                            <abbr><g ref="par-glyph">ꝑ</g></abbr>
+                            <expan>par</expan>
+                        </choice>ler latin et de trois nommez <choice>
+                            <orig>i</orig>
+                            <reg>j'</reg>
+                        </choice>a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ois esté choisy et mes <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>paignons <persName><surname><choice>
+                                    <orig>f</orig>
+                                    <reg>F</reg>
+                                </choice>ois</surname></persName> et <persName><surname><choice>
+                                    <orig>p</orig>
+                                    <reg>P</reg>
+                                </choice>ibrac</surname></persName> remis <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> autre employ.</add></s><s><del xml:id="f23rop11_mais"
+                        >mais</del><substJoin target="#f23rop11_ou_employ #f23rop11_mais"/>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>J</reg>
+                    </choice>e me deffendy sy bien qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>on se <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tanta des harangues et instructions que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e dressay et dy en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oier <subst xml:id="f23rop11_les_ceulx">
+                        <del>les deux</del>
+                        <add>ceulx</add>
+                    </subst> que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e nomay <subst xml:id="f23rop11_a_cela">
+                        <del>a la <roleName>Reyne</roleName></del>
+                        <add>pour cela</add>
+                    </subst><substJoin target="#f23rop11_les_ceulx #f23rop11_a_cela"/>.</s></p>
+        </body>
+    </text>
+</TEI>
