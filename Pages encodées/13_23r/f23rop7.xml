@@ -25,30 +25,37 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>an <date>mil V<hi rend="superscript">c</hi><subst>
-                            <del>lvix</del>
-                            <add>lvii<choice>
-                                    <orig>j</orig>
-                                    <reg>i</reg>
+                            <del><choice>
+                                    <orig>lvix</orig>
+                                    <reg>LVIX</reg>
+                                </choice></del>
+                            <add><choice>
+                                    <orig>lviij</orig>
+                                    <reg>LVIII</reg>
                                 </choice></add>
                         </subst></date> apres la reprise des armes et renou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ellement des troubles, la <persName><roleName>Reyne mere du
-                            Roy</roleName></persName> prit la poine de me venir <subst>
+                    </choice>ellement des troubles, la <roleName ref="Q131552">Reyne</roleName> mere
+                    du <roleName ref="Q53448">Roy</roleName> prit la poine de me venir <subst>
                         <del>prendre</del>
                         <add>voir</add>
-                    </subst> en ma maison a <placeName><choice>
+                    </subst> en ma maison <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName>
-                    <placeName>rue de Jouy</placeName>, accompaignée du <persName><roleName><choice>
+                    <placeName>rue de Jouy</placeName>, accompaignée du <persName ref="Q712264"><roleName><choice>
                                 <abbr>Card<hi rend="superscript">al</hi></abbr>
-                                <expan>Cardinal</expan>
+                                <expan><choice>
+                                        <orig>c</orig>
+                                        <reg>C</reg>
+                                    </choice>ardinal</expan>
                             </choice></roleName><nameLink>de</nameLink><surname><choice>
-                                <abbr><choice>
-                                        <orig>l</orig>
-                                        <reg>L</reg>
-                                    </choice>or<hi rend="superscript">ne</hi>.</abbr>
+                                <abbr>lor<hi rend="superscript">ne</hi>.</abbr>
                                 <expan><choice>
                                         <orig>l</orig>
                                         <reg>L</reg>
@@ -58,10 +65,12 @@
                             ><metamark>^</metamark> a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                            </choice>ec elle</add> <choice>
-                                <orig>a</orig>
-                                <reg>à</reg>
-                            </choice> <placeName>sainct Mor</placeName>.</s></p>
+                        </choice>ec elle</add>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q193313">sainct Mor</placeName>.</s></p>
         </body>
     </text>
 </TEI>

@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><del>O</del>
+            <p><s><del><unclear cert="high" reason="illegible">O</unclear></del>
                     <choice>
                         <orig>t</orig>
                         <reg>T</reg>
@@ -31,7 +31,8 @@
                     </choice>e fu en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oié vers le<persName><roleName>prince</roleName><nameLink>de</nameLink><surname><choice>
+                    </choice>oié vers le<persName ref="Q316913"
+                            ><roleName>prince</roleName><nameLink>de</nameLink><surname><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>ondé</surname></persName> qui a<choice>
@@ -40,7 +41,7 @@
                     </choice>oit grosse armée en <placeName><choice>
                             <orig>l</orig>
                             <reg>L</reg>
-                        </choice>imoisin</placeName>
+                        </choice>imosin</placeName>
                     <choice>
                         <orig>,</orig>
                         <reg>.</reg>
@@ -51,15 +52,24 @@
                         <orig>d</orig>
                         <reg>D</reg>
                     </choice>urant ce voiage nacquit ma fille
-                        <persName><forename>Judit</forename></persName> le <date><choice>
+                        <persName><forename>Judit</forename></persName>
+                    <date>le <choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>our st Denys ix<hi rend="superscript">e</hi>
+                        </choice>our <persName ref="Q244380">st Denys</persName>
+                        <choice>
+                            <orig>ix</orig>
+                            <reg>IX</reg>
+                        </choice><hi rend="superscript">e</hi>
                         <choice>
                             <abbr>8<hi rend="superscript">bre</hi></abbr>
                             <expan>octobre</expan>
-                        </choice> 1568</date>.</s><s> Je fus<anchor xml:id="f23rop12_fus"/><add
-                        seq="1"><del>et</del> quelques mois apres</add> despeché pour <choice>
+                        </choice> 1568</date>.</s>
+                <s> Je fus<anchor xml:id="f23rop12_fus"/><subst>
+                        <del>puys</del>
+                        <add><del><unclear cert="high" reason="illegible">et</unclear></del>
+                            quelques mois apres</add>
+                    </subst> despeché pour <choice>
                         <orig>v</orig>
                         <reg>u</reg>
                     </choice>ne diete im<choice>
@@ -73,17 +83,21 @@
                         <expan>afaires</expan>
                     </choice>, et <subst>
                         <del>estions</del>
-                        <add>fumes un temps</add>
-                    </subst> debout messieurs <persName><nameLink>de</nameLink>
+                        <add>fumes <choice>
+                                <orig>v</orig>
+                                <reg>u</reg>
+                            </choice>n temps</add>
+                    </subst> debout messieurs <persName ref="Q3340885"><nameLink>de</nameLink>
                         <surname>Rambouillet</surname>
                         <roleName>l<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>aisné,</roleName></persName>
-                    <persName><roleName>l<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>evesque</roleName> de <placeName>Renes</placeName>
+                            </choice>aisné,</roleName>l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice></persName>
+                    <persName ref="Q2898877"><roleName>evesque</roleName> de
+                            <placeName>Renes</placeName>
                         <surname><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>

@@ -22,18 +22,18 @@
     <text>
         <body>
             <p><s><choice>
-                <orig>i</orig>
-                <reg>J</reg>
-            </choice>e me deffendy come <choice>
-                <orig>i</orig>
-                <reg>j</reg>
-            </choice>e peu au despour<choice>
-                <orig>u</orig>
-                <reg>v</reg>
-            </choice>eu et sens a<choice>
-                <orig>u</orig>
-                <reg>v</reg>
-            </choice>oir premedité deste venue. </s></p>
+                        <orig>i</orig>
+                        <reg>J</reg>
+                    </choice>e me deffendy come <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e peu au despour<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eu et sens a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir premedité deste venue. </s></p>
         </body>
     </text>
 </TEI>

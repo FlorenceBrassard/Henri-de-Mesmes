@@ -33,32 +33,34 @@
                     </subst> qui me sembloi<subst xml:id="f23rop1_t_ent">
                         <del rend="overwritten">t</del>
                         <add place="superimposed">ent</add>
-                    </subst> digne<add xml:id="f23rop1_s">s</add><subst xml:id="f23rop1_destre_de">
-                        <del>d<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>estre <choice>
-                                <orig>i</orig>
-                                <reg>j</reg>
-                            </choice>ugé par</del>
+                    </subst> digne<add xml:id="f23rop1_s">s</add>
+                    <substJoin
+                        target="#f23rop1_ce_difficultez #f23rop1_t_ent #f23rop1_s #f23rop1_destre_iugé"/>
+                    <del xml:id="f23rop1_destre_iugé">d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>estre <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>ugé</del>
+                    <subst>
+                        <del>par</del>
                         <add>de</add>
-                    </subst><substJoin
-                        target="#f23rop1_ce_difficultez #f23rop1_t_ent #f23rop1_s #f23rop1_destre_de"
-                    /> luy <del>seul</del>, et attendois pour ce <choice>
+                    </subst> luy <del>seul</del>, et attendois pour ce <choice>
                         <abbr>fe<hi rend="superscript">r</hi></abbr>
                         <expan>faire</expan>
                     </choice> l'heure qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il sentoit <metamark function="insert" target="#f23rop1_quelque"
-                        >^</metamark><add xml:id="f23rop1_quelque">quelque</add> allegement <del
-                        seq="2" xml:id="f23rop1_en_sang">en son mal <subst>
-                            <del seq="1">et<add>qu<choice>
+                        >^</metamark>
+                    <add xml:id="f23rop1_quelque">quelque</add> allegement <del>en son mal <subst>
+                            <del>et<add seq="1">qu<choice>
                                         <orig/>
-                                        <reg>il</reg>
-                                    </choice></add></del>
-                            <add><del seq="2" xml:id="f23rop1_quand_il">quand il</del></add>
-                        </subst> ne perdoit plus de sang</del>.<substJoin target="#f23rop1_en_sang #f23rop1_quand_il"></substJoin></s></p>
+                                        <reg>'</reg>
+                                    </choice>il</add></del>
+                            <add seq="2">quand il</add>
+                        </subst> ne perdoit plus de sang</del>.</s></p>
         </body>
     </text>
 </TEI>

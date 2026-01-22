@@ -49,18 +49,20 @@
                                 <del>grande</del>
                                 <add>bone</add>
                             </subst> quantité</add>
-                        <del xml:id="f23rop4_iay_2_del"><add xml:id="f23rop4_iay_2_add"><choice>
+                    </subst>
+                    <subst>
+                        <del xml:id="f23rop4_iay_2_del"><add xml:id="f23rop4_iay_2"><choice>
                                     <orig>i</orig>
                                     <reg>j'</reg>
                                 </choice>ay</add></del>
-                        <add xml:id="f23rop4_iay_3"><choice>
+                        <add><choice>
                                 <orig>i</orig>
                                 <reg>j'</reg>
                             </choice>ay</add>
-                    </subst> quelque nombre d<choice>
+                    </subst><substJoin target="#f23rop4_iay_1 #f23rop4_iay_2"/> quelque nombre d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>espitres latines qu<choice>
+                    </choice>espistres latines qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il <subst>
@@ -79,37 +81,41 @@
                                 <reg>v</reg>
                             </choice>oioit</add>
                     </subst><subst>
-                        <del xml:id="f23rop4_lesquelles_d">, lesquelles tesmoignent qu<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>il estoit aussy elegant or d'</del>
-                        <add>asses <metamark function="insert"
-                                target="#f23rop4_cognoissables_nom_add">//</metamark><subst>
-                                <add xml:id="f23rop4_cognoissables_nom_add"><del
-                                        xml:id="f23rop4_cognoissables_nom_del"
-                                            ><metamark>//</metamark>cognoissables sens son nom
-                                        </del><substJoin
-                                        target="#f23rop4_cognoissables_nom_del #f23rop4_iay_2_del"
-                                    /></add>
-                                <del xml:id="f23rop4_dignes_bien">dignes d<choice>
-                                        <orig/>
-                                        <reg>'</reg>
-                                    </choice>un qui n<choice>
-                                        <orig/>
-                                        <reg>'</reg>
-                                    </choice>a<choice>
-                                        <orig>u</orig>
-                                        <reg>v</reg>
-                                    </choice>oit faict autre mestier que bien</del>
-                            </subst></add>
-                    </subst> <del xml:id="f23rop4_escrire">escrire</del><substJoin target="#f23rop4_dignes_bien #f23rop4_escrire"></substJoin> <del xml:id="f23rop4_que_executer">que resolu <del><add><choice>
-                            <orig>a</orig>
-                            <reg>à</reg>
-                    </choice> bien ca</add></del> <choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice> executer</del><substJoin target="#f23rop4_lesquelles_d #f23rop4_que_executer"></substJoin>.
-                </s></p>
+                            <del>, lesquelles tesmoignent qu<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>il estoit aussy elegant or d'</del>
+                        <add xml:id="f23rop4_asses_bien"><delSpan spanTo="#f23rop4_nom" xml:id="f23rop4_asses_nom"/>asses <metamark function="insert"
+                                    target="#f23rop4_cognoissables_nom">//</metamark>
+                                <subst>
+                                    <add xml:id="f23rop4_cognoissables_nom"
+                                        ><metamark>//</metamark>cognoissables <unclear cert="high"
+                                            reason="margin">s</unclear>ens son nom <substJoin
+                                            target="#f23rop4_asses_nom #f23rop4_iay_2_del"/><anchor xml:id="f23rop4_nom"/></add>
+                                    <del xml:id="f23rop4_dignes_bien">dignes d<choice>
+                                            <orig/>
+                                            <reg>'</reg>
+                                        </choice>un qui n<choice>
+                                            <orig/>
+                                            <reg>'</reg>
+                                        </choice>a<choice>
+                                            <orig>u</orig>
+                                            <reg>v</reg>
+                                        </choice>oit faict autre mestier que bien</del>
+                                </subst></add>
+                        </subst>
+                        <del xml:id="f23rop4_escrire">escrire</del>
+                        <del xml:id="f23rop4_que_executer">que resolu <del><substJoin seq="1"
+                            target="#f23rop4_asses_bien #f23rop4_que_executer"/><substJoin seq="2"
+                                target="#f23rop4_dignes_bien #f23rop4_escrire"/><add><choice>
+                                        <orig>a</orig>
+                                        <reg>à</reg>
+                                    </choice> bien <unclear cert="medium" reason="illegible"
+                                        >ca</unclear></add></del>
+                            <choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> executer</del>. </s></p>
         </body>
     </text>
 </TEI>

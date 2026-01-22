@@ -84,10 +84,11 @@
                         </choice>n estude pendant la tempeste</add><subst xml:id="f28rop8_en_d">
                         <del>en</del>
                         <add>d'</add>
-                    </subst><substJoin target="#f23rop8_enfermé_tempeste #f28rop8_en_d"/><choice>
+                    </subst><choice>
                         <orig>v</orig>
                         <reg>u</reg>
-                    </choice>n orage public.</s></p>
+                    </choice>n orage public.<substJoin
+                        target="#f23rop8_enfermé_tempeste #f28rop8_en_d"/></s></p>
         </body>
     </text>
 </TEI>

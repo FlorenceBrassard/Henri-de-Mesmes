@@ -47,26 +47,29 @@
                         <del>la</del>
                         <add>autant de</add>
                     </subst>
-                    <del xml:id="f22vop6_piete">pieté</del>, de<choice>
+                    <del xml:id="f22vop6_pieté">pieté,</del> de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>otion, et <add xml:id="f22vop6_de">de</add><substJoin seq="2"
-                        target="#f22vop6_piete #f22vop6_de"/> constance <subst xml:id="f22vop6_dont_innocente">
+                        target="#f22vop6_pieté #f22vop6_de"/> constance <subst
+                        xml:id="f22vop6_dont_innocente">
                         <del>dont <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e l<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>ay veue mourir.</del>
+                            </choice>ay veue mourir</del>
                         <add> selon mon sexe et <choice>
-                                <abbr>mõ</abbr>
+                                <abbr>m<hi rend="overlined">o</hi></abbr>
                                 <expan>mon</expan>
                             </choice>eage come <choice>
                                 <orig>i</orig>
-                                <reg>j</reg>
+                                <reg>j'</reg>
                             </choice>en vey en la tendre enfance de ceste pauvre innocente.</add>
-                    </subst><substJoin seq="3" target="#f22vop6_en_fin #f22vop6_dont_innocente"/></s></p>
+                    </subst>
+                <substJoin cert="high" seq="3" target="#f22vop6_en_fin #f22vop6_dont_innocente"/><del
+                        rend="unmarked">.</del></s></p>
         </body>
     </text>
 </TEI>

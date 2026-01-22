@@ -65,17 +65,17 @@
                     </choice>stat, a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec tant de sagesse et de eloquence <choice>
-                        <orig>N</orig>
-                        <reg>n</reg>
-                    </choice>estoriene (car <choice>
+                    </choice>ec tant de sagesse et de eloquence <persName ref="Q193267"><choice>
+                            <orig>N</orig>
+                            <reg>n</reg>
+                        </choice>estoriene</persName> (car <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>appellois ainsy<choice>
-                        <orig/>
+                        <orig>,)</orig>
                         <reg>),</reg>
                     </choice> que <choice>
                         <orig>i</orig>
@@ -83,7 +83,7 @@
                     </choice>e <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
-                    </choice>fesse y a<choice>
+                    </choice>fesse <del>y</del> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir <subst xml:id="f23rop3_plus_autant">
@@ -93,8 +93,7 @@
                         target="#f23rop3_apres_pere">^</metamark><add xml:id="f23rop3_apres_pere"
                             ><metamark>^</metamark>apres celle de mon pere</add><substJoin
                         target="#f23rop3_plus_autant #f23rop3_apres_pere"/> qu'en <del>autre</del>
-                    <add>autre</add>
-                    <del>de et t</del> o<choice>
+                    autre <del>de et <unclear cert="low" reason="illegible">t</unclear></del> o<choice>
                         <orig>u i</orig>
                         <reg>ù j'</reg>
                     </choice>aie esté de mes <choice>

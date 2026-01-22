@@ -27,11 +27,19 @@
                     </choice>ors il me resol<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit en peu de temps sur tout ce qu<del rend="overwritten">i</del><add
-                        place="superimposed">e</add><choice>
+                    </choice>oit en peu de temps sur tout ce qu<subst>
+                        <del rend="overwritten">i</del>
+                        <add place="superimposed">e</add>
+                    </subst><choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice><del rend="overwritten">e</del><add place="superimposed"/>a<choice>
+                    </choice><subst>
+                        <del rend="overwritten">e</del>
+                        <add place="superimposed"><choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>a</add>
+                    </subst><choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ois remis <choice>
