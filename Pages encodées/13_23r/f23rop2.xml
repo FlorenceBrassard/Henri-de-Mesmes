@@ -45,10 +45,12 @@
                     </choice>ois remis <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> luy<del rend="unmarked">,</del><del> et n'estions guiere de differens a<choice>
+                    </choice> luy<del rend="unmarked" xml:id="f23rop2_virgule">,</del><del
+                        xml:id="f23rop2_et_auis"> et n'estions guiere de differens a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>is</del>. </s></p>
+                        </choice>is</del><substJoin target="#f23rop2_virgule #f23rop2_et_auis"/>.
+                </s></p>
         </body>
     </text>
 </TEI>

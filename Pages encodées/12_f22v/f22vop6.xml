@@ -68,8 +68,8 @@
                                 <reg>j'</reg>
                             </choice>en vey en la tendre enfance de ceste pauvre innocente.</add>
                     </subst>
-                <substJoin cert="high" seq="3" target="#f22vop6_en_fin #f22vop6_dont_innocente"/><del
-                        rend="unmarked">.</del></s></p>
+                    <substJoin cert="high" seq="3" target="#f22vop6_en_fin #f22vop6_dont_innocente"
+                        /><del rend="unmarked">.</del></s></p>
         </body>
     </text>
 </TEI>

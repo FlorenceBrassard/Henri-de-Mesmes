@@ -40,9 +40,9 @@
                     </choice> nuict close qu<subst xml:id="f23rop10_apostrophe_e">
                         <del rend="overwritten">'</del>
                         <add place="superimposed">e</add>
-                    </subst><metamark function="insert">^</metamark><add xml:id="f28rop10_le_soir"
+                    </subst><metamark function="insert">^</metamark><add xml:id="f23rop10_le_soir"
                             ><metamark>^</metamark> le soir</add><substJoin
-                        target="#f23rop10_apostrophe_e #f28rop10_le_soir"/> au retour <choice>
+                        target="#f23rop10_apostrophe_e #f23rop10_le_soir"/> au retour <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>

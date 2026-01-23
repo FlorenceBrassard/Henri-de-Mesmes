@@ -22,9 +22,11 @@
     <text>
         <body>
             <p><s>La <choice>
-                        <abbr>p<hi rend="superscript">re</hi> propo<hi rend="overlined"
-                            >sion</hi></abbr>
-                        <expan>premiere proposition</expan>
+                        <abbr>p<hi rend="superscript">re</hi></abbr>
+                        <expan>premiere</expan>
+                    </choice><choice>
+                        <abbr>propo<hi rend="overlined">sion</hi></abbr>
+                        <expan> proposition</expan>
                     </choice> fut <choice>
                         <abbr>po <hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>
@@ -44,8 +46,7 @@
                         </choice><placeName><choice>
                                 <orig>a</orig>
                                 <reg>A</reg>
-                            </choice>lemaigne</placeName></roleName>, <add
-                        xml:id="f23rop11_ou_employ">o<choice>
+                            </choice>lemaigne</placeName></roleName>, <add>o<choice>
                             <orig>u</orig>
                             <reg>ù</reg>
                         </choice> il faloit <choice>
@@ -69,8 +70,7 @@
                                 </choice>ibrac</surname></persName> remis <choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice> autre employ.</add></s><s><del xml:id="f23rop11_mais"
-                        >mais</del><substJoin target="#f23rop11_ou_employ #f23rop11_mais"/>
+                        </choice> autre employ.</add></s><s><del>mais</del>
                     <choice>
                         <orig>i</orig>
                         <reg>J</reg>
@@ -89,16 +89,19 @@
                     </choice>y en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oier <subst xml:id="f23rop11_les_ceulx">
+                    </choice>oier <subst>
                         <del>les deux</del>
                         <add>ceulx</add>
                     </subst> que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e nomay <subst xml:id="f23rop11_a_cela">
-                        <del>a la <roleName ref="Q131552">Reyne</roleName></del>
+                    </choice>e nomay <subst>
+                        <del><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> la <roleName ref="Q131552">Reyne</roleName></del>
                         <add>pour cela</add>
-                    </subst><substJoin target="#f23rop11_les_ceulx #f23rop11_a_cela"/>.</s></p>
+                    </subst>.</s></p>
         </body>
     </text>
 </TEI>

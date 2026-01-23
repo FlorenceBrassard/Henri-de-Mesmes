@@ -86,13 +86,12 @@
                     </choice>fesse <del>y</del> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir <subst xml:id="f23rop3_plus_autant">
+                    </choice>oir <subst>
                         <del>plus</del>
                         <add>autant</add>
                     </subst> apris en son escole <metamark function="insert"
                         target="#f23rop3_apres_pere">^</metamark><add xml:id="f23rop3_apres_pere"
-                            ><metamark>^</metamark>apres celle de mon pere</add><substJoin
-                        target="#f23rop3_plus_autant #f23rop3_apres_pere"/> qu'en <del>autre</del>
+                            ><metamark>^</metamark>apres celle de mon pere</add> qu'en <del>autre</del>
                     autre <del>de et <unclear cert="low" reason="illegible">t</unclear></del> o<choice>
                         <orig>u i</orig>
                         <reg>ù j'</reg>

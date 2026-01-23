@@ -36,9 +36,11 @@
                                 <expan>occupation</expan>
                             </choice> aux</del>
                         <add>vacation d'<choice>
-                                <abbr>afe<hi rend="superscript">r</hi>s po<hi rend="superscript"
-                                        >r</hi></abbr>
-                                <expan>afaires pour</expan>
+                                <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                                <expan>afaires</expan>
+                            </choice><choice>
+                                <abbr>po<hi rend="superscript">r</hi></abbr>
+                                <expan>pour</expan>
                             </choice> l<choice>
                                 <orig/>
                                 <reg>'</reg>
@@ -67,12 +69,12 @@
                     </choice>estre sy <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice><subst xml:id="f23rop8_mon_son">
+                    </choice><subst>
                         <del>mon</del>
                         <add>son</add>
-                    </subst><substJoin target="#f23rop8_a_citoien #f23rop8_mon_son"/> aise <metamark
-                        function="insert" target="#f23rop8_enfermé_tempeste">^</metamark><add
-                        xml:id="f23rop8_enfermé_tempeste"><metamark>^</metamark> enfermé dens <choice>
+                    </subst> aise <metamark function="insert" target="#f23rop8_enfermé_tempeste"
+                        >^</metamark><add xml:id="f23rop8_enfermé_tempeste"><metamark>^</metamark>
+                        enfermé dens <choice>
                             <orig>v</orig>
                             <reg>u</reg>
                         </choice>n <choice>
