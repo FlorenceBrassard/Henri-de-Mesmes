@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><subst>
+                        <del>Or</del>
+                        <add>Mais</add>
+                    </subst> il alloit alieurs et <addSpan spanTo="#f23vop3_parquoy"/>luy faloit <choice>
+                        <abbr>fe<hi rend="superscript">r</hi></abbr>
+                        <expan>faire</expan>
+                    </choice> autre voiage.</s><s> parquoy<anchor xml:id="f23vop3_parquoy"/> m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estant <metamark function="transposition" rend="line"
+                        target="#f23vop3_rendu_soudain"/><seg xml:id="f23vop3_rendu_soudain"><seg
+                            xml:id="f23vop3_rendu">rendu</seg>
+                        <seg xml:id="f23vop3_soudain">soudain</seg></seg><listTranspose>
+                        <transpose>
+                            <ptr target="#f23vop3_soudain"/>
+                            <ptr target="#f23vop3_rendu"/>
+                        </transpose>
+                        <transpose>
+                            <ptr/>
+                            <ptr/>
+                        </transpose>
+                    </listTranspose> pres de luy il <del>me <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g>manda</abbr>
+                            <expan>commanda</expan>
+                        </choice></del> declara mourrir <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g>tant</abbr>
+                        <expan>contant</expan>
+                    </choice> puys qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il m'a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> sa fin, m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ordona sa <choice>
+                        <abbr>d<hi rend="superscript">re</hi></abbr>
+                        <expan>derniere</expan>
+                    </choice> volonté et <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> moy seul, <subst>
+                        <del>laquelle <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e mis <choice>
+                                <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                                <expan>par</expan>
+                            </choice> escrit et fut entierement suy<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ie ores que <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e le trou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ay <del>sens</del> presque passé quand <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>apportay <choice>
+                                <abbr>p<hi rend="superscript">r</hi></abbr>
+                                <expan>pour</expan>
+                            </choice> la luy lire</del><add>de touts les siens</add>.
+                </subst></s></p>
+        </body>
+    </text>
+</TEI>

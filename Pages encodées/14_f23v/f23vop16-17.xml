@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><subst>
+                        <del><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>t</del>
+                        <add><choice>
+                                <orig>d</orig>
+                                <reg>D</reg>
+                            </choice>e sorte que</add>
+                    </subst> iii <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours apres l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ocat <persName><surname>Rusé</surname></persName> se veint metre a
+                    genous de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant mon pere en son estude l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>appellant son pere et son sau<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eur apres <choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                    </choice>ieu.</s><s><choice>
+                        <orig>J</orig>
+                        <reg>« J</reg>
+                    </choice>e n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ay<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> dict il<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> rien faict pour vous<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> ne m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en remercies point<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> car <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>ay ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>y <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> ma <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g>sciance</abbr>
+                        <expan>consciance</expan>
+                    </choice> et non <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <choice>
+                        <abbr rend="overlined">vre</abbr>
+                        <reg>vostre</reg>
+                    </choice> satisfaction. <choice>
+                        <orig/>
+                        <reg> »</reg>
+                    </choice></s></p>
+        </body>
+    </text>
+</TEI>

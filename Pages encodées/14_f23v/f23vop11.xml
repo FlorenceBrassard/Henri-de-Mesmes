@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>equel <add xml:id="f23vop11_aussy">aussy</add><metamark
+                        function="transposition" rend="line" target="#f23vop11_rudement_seuerement"
+                        /><seg xml:id="f23vop11_rudement_seuerement"><seg xml:id="f23vop11_rudement"
+                            >rudement</seg>
+                        <subst xml:id="f23vop11_et_que">
+                            <del>et</del>
+                            <add>que</add>
+                        </subst>
+                        <seg xml:id="f23vop11_seuerement">se<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>erement</seg>
+                    </seg><listTranspose>
+                        <transpose>
+                            <ptr target="#f23vop11_seuerement"/>
+                            <ptr target="#f23vop11_rudement"/>
+                        </transpose>
+                    </listTranspose><substJoin target="#f23vop11_aussy #f23vop11_et_que"/> luy
+                    contesta qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il ne faisoit pas bien de <del xml:id="f23vop11_le">le</del>
+                    despouiller <add xml:id="f23vop11_son_officier">son officier</add><substJoin
+                        target="#f23vop11_le #f23vop11_son_officier"/> sens crime, et que l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>office ne pou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit <metamark function="insert" target="#f23vop11_luy_viuant"
+                        >^</metamark><add xml:id="f23vop11_luy_viuant"><metamark>^</metamark> luy vi<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant</add> autrement vacquer.</s></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>Je diray pour un sommaire <subst>
+                        <del>de sa vie</del>
+                        <add>du cours de ses ans</add>
+                    </subst>qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il n'a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>amais <add xml:id="f23vop5_acheté_ny">acheté ny</add> demandé <del
+                        xml:id="f23vop4_ny_ac">ny ac</del><substJoin
+                        target="#f23vop4_ny_ac #f23vop5_acheté_ny"/> office.</s></p>
+        </body>
+    </text>
+</TEI>
