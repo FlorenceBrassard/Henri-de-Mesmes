@@ -35,10 +35,10 @@
                         <orig/>
                         <reg> !</reg>
                     </choice>
-                <del><choice>
-                    <orig>i</orig>
-                    <reg>I</reg>
-                </choice>l</del>
+                    <del><choice>
+                            <orig>i</orig>
+                            <reg>I</reg>
+                        </choice>l</del>
                     <choice>
                         <orig>c</orig>
                         <reg>C</reg>

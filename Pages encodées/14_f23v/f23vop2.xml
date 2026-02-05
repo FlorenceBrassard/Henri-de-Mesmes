@@ -24,11 +24,10 @@
             <p><s>La <roleName ref="Q131552"><choice>
                             <abbr>R<hi rend="superscript">ne</hi></abbr>
                             <expan>Reine</expan>
-                        </choice>
-                        <add xml:id="f23vop2_sa">sa</add> mere</roleName>
-                    <del xml:id="f23vop2_du_Roy">du <roleName ref="Q53448"
-                        >Roy</roleName></del><substJoin target="#f23vop2_sa #f23vop2_du_Roy"/>
-                    pleura <add>de</add> ceste nou<choice>
+                        </choice></roleName>
+                    <add xml:id="f23vop2_sa">sa</add> mere <del xml:id="f23vop2_du_Roy">du <roleName
+                            ref="Q53448">Roy</roleName></del><substJoin
+                        target="#f23vop2_sa #f23vop2_du_Roy"/> pleura <add>de</add> ceste nou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>elle <del>qu</del> et dit <subst>
@@ -69,7 +68,8 @@
                         <del rend="overwritten">u</del>
                         <add place="superimposed">ir</add>
                     </subst>
-                    <substJoin target="#f23vop2_faict #f23vop2_u_ir"/> chancelier de <placeName><choice>
+                    <substJoin target="#f23vop2_faict #f23vop2_u_ir"/> chancelier de <placeName
+                        ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName>. </s></p>

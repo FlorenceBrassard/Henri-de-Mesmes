@@ -33,7 +33,7 @@
                     </choice>e ce mot, que s<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>estant le <persName><roleName ref="Q129857">Roy</roleName><forename><choice>
+                    </choice>estant le <persName ref="Q129857"><roleName>Roy</roleName><forename><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>ran<choice>
@@ -59,18 +59,20 @@
                         </choice>aris</placeName><choice>
                         <orig/>
                         <reg>,</reg>
-                        </choice> il manda mon <roleName ref="Q107207194">pere</roleName> <add>lors freschement venu <choice>
+                    </choice> il manda mon <roleName ref="Q107207194">pere</roleName>
+                    <add>lors freschement venu <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice>
-                            <placeName ref="Q90"><choice>
+                        <placeName ref="Q90"><choice>
                                 <orig>p</orig>
                                 <reg>P</reg>
                             </choice>aris</placeName></add> pour <del>le</del> luy doner <subst>
                         <del>son</del>
                         <add>cest</add>
                     </subst>
-                    <del><unclear cert="medium" reason="illegible">l</unclear></del> office. </s></p>
+                    <del><unclear cert="medium" reason="illegible">l</unclear></del> office.
+                </s></p>
         </body>
     </text>
 </TEI>

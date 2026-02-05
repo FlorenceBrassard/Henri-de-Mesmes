@@ -38,9 +38,9 @@
                         <reg>v</reg>
                     </choice>il <del xml:id="f23vop6_que_mal">que mal</del><substJoin
                         target="#f23vop6_que_mal #f23vop6_il_gre"/> et sur une <choice>
-                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
-                            <expan>pro</expan>
-                        </choice>messe d<subst xml:id="f23vop6_e_un">
+                        <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                        <expan>pro</expan>
+                    </choice>messe d<subst xml:id="f23vop6_e_un">
                         <del rend="overwritten">e</del>
                         <add place="superimposed"><choice>
                                 <orig/>
