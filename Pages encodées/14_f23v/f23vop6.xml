@@ -27,14 +27,20 @@
                         </choice>l a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>oit rendu de son gre</add> celuy de <choice>
+                        </choice>oit rendu de son gr<choice>
+                            <orig>e</orig>
+                            <reg>é</reg>
+                        </choice></add> celuy de <choice>
                         <abbr>lieut<hi rend="superscript">t</hi></abbr>
                         <expan>lieutenant</expan>
-                    </choice> civil <del xml:id="f23vop6_que_mal">que mal</del><substJoin
+                    </choice> ci<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>il <del xml:id="f23vop6_que_mal">que mal</del><substJoin
                         target="#f23vop6_que_mal #f23vop6_il_gre"/> et sur une <choice>
-                        <abbr><g ref="#pro-glyph">ꝑ</g>messe</abbr>
-                        <expan>promesse</expan>
-                    </choice> d<subst xml:id="f23vop6_e_un">
+                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                            <expan>pro</expan>
+                        </choice>messe d<subst xml:id="f23vop6_e_un">
                         <del rend="overwritten">e</del>
                         <add place="superimposed"><choice>
                                 <orig/>
@@ -55,7 +61,7 @@
                         <expan>maistre</expan>
                     </choice> des <choice>
                         <abbr>req<hi rend="superscript">tes</hi></abbr>
-                        <expan>resquestes</expan>
+                        <expan>requestes</expan>
                     </choice>.</s></p>
         </body>
     </text>

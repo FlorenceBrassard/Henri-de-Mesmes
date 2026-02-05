@@ -27,28 +27,30 @@
                     </subst> il alloit alieurs et <addSpan spanTo="#f23vop3_parquoy"/>luy faloit <choice>
                         <abbr>fe<hi rend="superscript">r</hi></abbr>
                         <expan>faire</expan>
-                    </choice> autre voiage.</s><s> parquoy<anchor xml:id="f23vop3_parquoy"/> m<choice>
+                    </choice> autre voiage.</s><s>
+                    <choice>
+                        <orig>p</orig>
+                        <reg>P</reg>
+                    </choice>arquoy<anchor xml:id="f23vop3_parquoy"/> m<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>estant <metamark function="transposition" rend="line"
-                        target="#f23vop3_rendu_soudain"/><seg xml:id="f23vop3_rendu_soudain"><seg
-                            xml:id="f23vop3_rendu">rendu</seg>
-                        <seg xml:id="f23vop3_soudain">soudain</seg></seg><listTranspose>
+                        target="#f23vop3_rendu_soudain"/>
+                    <seg xml:id="f23vop3_rendu_soudain">
+                        <seg xml:id="f23vop3_rendu">rendu</seg>
+                        <seg xml:id="f23vop3_soudain">soudain</seg></seg>
+                    <listTranspose>
                         <transpose>
                             <ptr target="#f23vop3_soudain"/>
                             <ptr target="#f23vop3_rendu"/>
                         </transpose>
-                        <transpose>
-                            <ptr/>
-                            <ptr/>
-                        </transpose>
                     </listTranspose> pres de luy il <del>me <choice>
-                            <abbr><g ref="#con-glyph">ꝯ</g>manda</abbr>
-                            <expan>commanda</expan>
-                        </choice></del> declara mourrir <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g>tant</abbr>
-                        <expan>contant</expan>
-                    </choice> puys qu<choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>manda</del> declara mourrir <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tant puys qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il m'a<choice>
@@ -61,7 +63,7 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>ordona sa <choice>
-                        <abbr>d<hi rend="superscript">re</hi></abbr>
+                        <abbr rend="overlined">dre</abbr>
                         <expan>derniere</expan>
                     </choice> volonté et <choice>
                         <orig>a</orig>

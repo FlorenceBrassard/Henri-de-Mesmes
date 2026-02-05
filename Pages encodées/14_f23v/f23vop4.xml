@@ -40,14 +40,16 @@
                     </choice>ec tesmoignage public de <subst>
                         <del>sa</del>
                         <add>tres</add>
-                    </subst> bone renomée.</s><s><metamark function="insert">+</metamark><add
-                        xml:id="f23vop4_il_ans"><choice>
+                    </subst> bone renomée.</s><s><metamark function="insert"
+                        target="#f23vop4_il_ans">+</metamark><add xml:id="f23vop4_il_ans"
+                            ><metamark>+</metamark>
+                        <choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l estoit né l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice><date>an <hi rend="overlined">1410</hi></date> et entroit en l<choice>
+                        </choice>an <date rend="overlined">1410</date> et entroit en l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>eage de 80 ans.</add></s></p>

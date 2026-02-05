@@ -30,11 +30,15 @@
                     </choice>est mon ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ocat<choice>
+                    </choice>oca<unclear cert="high" reason="margin">t</unclear>
+                    <choice>
                         <orig/>
                         <reg> !</reg>
                     </choice>
-                    <del>il</del>
+                <del><choice>
+                    <orig>i</orig>
+                    <reg>I</reg>
+                </choice>l</del>
                     <choice>
                         <orig>c</orig>
                         <reg>C</reg>

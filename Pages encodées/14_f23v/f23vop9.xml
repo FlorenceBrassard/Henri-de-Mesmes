@@ -24,8 +24,9 @@
             <p><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
-                    </choice>l a <del>m</del> laissé en ses <subst>
-                        <del>cofres</del>
+                    </choice>l a <del rend="overwritten"><unclear cert="high" reason="illegible"
+                            >m</unclear></del> laissé en ses <subst>
+                        <del>coffres</del>
                         <add>papiers</add>
                     </subst> les <choice>
                         <abbr rend="overlined">lres</abbr>
@@ -37,11 +38,19 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName>
-                        <abbr rend="overlined">Thle</abbr>
-                        <expan>Tholose</expan>
-                    </placeName>
-                    <placeName>Bourdeaux</placeName> et <placeName>Rouen</placeName> qu<choice>
+                    <placeName ref="Q7880"><choice>
+                            <abbr rend="overlined">Thle</abbr>
+                            <expan>Tholose</expan>
+                        </choice>
+                    </placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <placeName ref="Q1479">Bourdeaux</placeName> et <placeName ref="Q30974"
+                        >Rouen</placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il refusa l<choice>
@@ -50,11 +59,9 @@
                     </choice>un apres l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>autres <subst>
-                        <del>en <choice>
-                                <abbr>plr</abbr>
-                                <expan>plusieurs</expan>
-                            </choice> tems</del>
+                    </choice>autre <subst>
+                        <del><add>en p<unclear cert="low" reason="illegible">l</unclear>r <unclear
+                                    cert="low" reason="illegible">tem</unclear>s</add></del>
                         <add><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
@@ -69,10 +76,9 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>estat du <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g>seil</abbr>
-                        <expan>conseil</expan>
-                    </choice>
-                    <add>pri<choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>seil <add>pri<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>é</add> qui n<choice>
@@ -84,8 +90,8 @@
                     </choice>ais sur ce qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il remonstroit sa vieillesse et impuissance le
-                            <persName><roleName>Roy</roleName><forename><choice>
+                    </choice>il remonstroit sa vieillesse et impuissance le <persName ref="Q134309"
+                            ><roleName>Roy</roleName><forename><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>harles</forename></persName> replicqua<choice>
@@ -98,12 +104,12 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>iter le <subst>
-                        <del>deshoneur</del>
+                        <del>deshoneu<unclear cert="high" reason="margin">r</unclear></del>
                         <add>blasme</add>
                     </subst> que ce me seroit sy vous mourries sens <subst>
                         <del>ceste merque</del>
                         <add>en estre</add>
-                    </subst>.<choice>
+                    </subst><unclear cert="high" reason="margin">.</unclear><choice>
                         <orig/>
                         <reg> »</reg>
                     </choice>
@@ -113,19 +119,21 @@
                         </choice>l <del>a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>oit</del> estoit né <date>l<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>an <choice>
-                                <orig>mil iiij<hi rend="superscript">c</hi> x</orig>
-                                <reg>1410</reg>
-                            </choice></date> et entroit en l<choice>
+                            </choice>oit</del> estoit né l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>an <date>mil <choice>
+                                <orig>iiij<hi rend="superscript">c</hi> x</orig>
+                                <reg>IV<hi rend="superscript">c</hi>X</reg>
+                            </choice>
+                        </date> et entroit en l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>eage de <choice>
                             <orig>iiij xx</orig>
-                            <reg>80</reg>
-                        </choice> ans. </s></del></p>
+                            <reg>IV XX</reg>
+                        </choice> ans<del rend="unmarked">.</del>
+                    </s></del></p>
         </body>
     </text>
 </TEI>

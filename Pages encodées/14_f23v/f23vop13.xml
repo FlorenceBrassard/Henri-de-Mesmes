@@ -21,7 +21,10 @@
     </teiHeader>
     <text>
         <body>
-            <p><s>C<choice>
+            <p><s><choice>
+                        <orig/>
+                        <reg>« </reg>
+                    </choice>C<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>est<choice>
@@ -39,7 +42,7 @@
                     </choice>ocat du Roy et de la corone<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> non sugjiect <choice>
+                    </choice> non subiect <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> voz passions mais <choice>

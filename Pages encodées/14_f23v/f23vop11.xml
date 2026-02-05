@@ -24,10 +24,11 @@
             <p><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
-                    </choice>equel <add xml:id="f23vop11_aussy">aussy</add><metamark
-                        function="transposition" rend="line" target="#f23vop11_rudement_seuerement"
-                        /><seg xml:id="f23vop11_rudement_seuerement"><seg xml:id="f23vop11_rudement"
-                            >rudement</seg>
+                    </choice>equel <add xml:id="f23vop11_aussy">aussy</add>
+                    <metamark function="transposition" rend="line"
+                        target="#f23vop11_rudement_seuerement" xml:id="f23vop11_line"/>
+                    <seg xml:id="f23vop11_rudement_seuerement">
+                        <seg xml:id="f23vop11_rudement">rudement</seg>
                         <subst xml:id="f23vop11_et_que">
                             <del>et</del>
                             <add>que</add>
@@ -41,8 +42,8 @@
                             <ptr target="#f23vop11_seuerement"/>
                             <ptr target="#f23vop11_rudement"/>
                         </transpose>
-                    </listTranspose><substJoin target="#f23vop11_aussy #f23vop11_et_que"/> luy
-                    contesta qu<choice>
+                    </listTranspose><substJoin
+                        target="#f23vop11_aussy #f23vop11_et_que #f23vop11_line"/> luy contesta qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il ne faisoit pas bien de <del xml:id="f23vop11_le">le</del>
@@ -54,7 +55,8 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit <metamark function="insert" target="#f23vop11_luy_viuant"
-                        >^</metamark><add xml:id="f23vop11_luy_viuant"><metamark>^</metamark> luy vi<choice>
+                        >^</metamark>
+                <add xml:id="f23vop11_luy_viuant"><metamark>^</metamark> luy vi<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant</add> autrement vacquer.</s></p>

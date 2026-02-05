@@ -29,8 +29,11 @@
                         <add><choice>
                                 <orig>d</orig>
                                 <reg>D</reg>
-                            </choice>e sorte que</add>
-                    </subst> iii <choice>
+                            </choice>e sorte que </add>
+                    </subst><choice>
+                        <orig>iii</orig>
+                        <reg>III</reg>
+                    </choice><choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ours apres l<choice>
@@ -39,11 +42,13 @@
                     </choice>ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ocat <persName><surname>Rusé</surname></persName> se veint metre a
-                    genous de<choice>
+                    </choice>ocat <persName><surname>Rusé</surname></persName> se veint metre <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> genous de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ant mon pere en son estude l<choice>
+                    </choice>ant mon <roleName ref="Q107207194">pere</roleName> en son estude l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>appellant son pere et son sau<choice>
@@ -52,10 +57,10 @@
                     </choice>eur apres <choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ieu.</s><s><choice>
-                        <orig>J</orig>
-                        <reg>« J</reg>
-                    </choice>e n<choice>
+                    </choice>ieu<unclear cert="high" reason="margin">.</unclear></s><s><choice>
+                        <orig/>
+                        <reg>« </reg>
+                    </choice>Je n<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>ay<choice>
@@ -83,19 +88,19 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> ma <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g>sciance</abbr>
-                        <expan>consciance</expan>
-                    </choice> et non <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>sciance et non <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
                     <choice>
                         <abbr rend="overlined">vre</abbr>
-                        <reg>vostre</reg>
-                    </choice> satisfaction. <choice>
+                        <expan>vostre</expan>
+                    </choice> satisfaction.<choice>
                         <orig/>
                         <reg> »</reg>
-                    </choice></s></p>
+                    </choice> </s></p>
         </body>
     </text>
 </TEI>

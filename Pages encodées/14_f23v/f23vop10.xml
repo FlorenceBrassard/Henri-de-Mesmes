@@ -30,7 +30,10 @@
                     </choice>ousteray <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e ce mot, que sestant le <persName><roleName>Roy</roleName><forename><choice>
+                    </choice>e ce mot, que s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estant le <persName><roleName ref="Q129857">Roy</roleName><forename><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>ran<choice>
@@ -45,28 +48,29 @@
                         xml:id="f23vop10_son">son</add> ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ocat <del xml:id="f23vop10_du_Roy">du Roy</del><substJoin
-                        target="#f23vop10_son #f23vop10_du_Roy"/> au <choice>
-                        <abbr><g ref="#par-glyph">ꝑ</g>lement</abbr>
-                        <expan>parlement</expan>
-                    </choice> de <placeName><choice>
+                    </choice>ocat <del xml:id="f23vop10_du_Roy">du <roleName ref="Q129857"
+                            >Roy</roleName></del><substJoin target="#f23vop10_son #f23vop10_du_Roy"
+                    /> au <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>lement de <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> il manda mon pere <add>lors freschement venu <choice>
+                        </choice> il manda mon <roleName ref="Q107207194">pere</roleName> <add>lors freschement venu <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice>
-                        <placeName><choice>
+                            <placeName ref="Q90"><choice>
                                 <orig>p</orig>
                                 <reg>P</reg>
                             </choice>aris</placeName></add> pour <del>le</del> luy doner <subst>
                         <del>son</del>
                         <add>cest</add>
                     </subst>
-                    <del>l</del> office. </s></p>
+                    <del><unclear cert="medium" reason="illegible">l</unclear></del> office. </s></p>
         </body>
     </text>
 </TEI>
