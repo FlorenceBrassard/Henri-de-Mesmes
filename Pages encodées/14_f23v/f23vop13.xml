@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig/>
+                        <reg>« </reg>
+                    </choice>C<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>est<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> dict il<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ocat du Roy et de la corone<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> non subiect <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> voz passions mais <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> son de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir.</s></p>
+        </body>
+    </text>
+</TEI>

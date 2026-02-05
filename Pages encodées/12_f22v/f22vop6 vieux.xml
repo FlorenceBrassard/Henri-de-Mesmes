@@ -36,23 +36,17 @@
                     </choice>ieu qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il me done <subst xml:id="f22vop6_en_fin">
-                        <del>en mon eage</del>
+                    </choice>il me done <subst xml:id="f22vop6_en_de">
+                        <del>en mon eage la pieté</del>
                         <add><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
-                            </choice> ma fin</add>
-                    </subst>
-                    <subst seq="1">
-                        <del>la</del>
-                        <add>autant de</add>
-                    </subst>
-                    <del xml:id="f22vop6_pieté">pieté,</del> de<choice>
+                            </choice> ma fin autant de</add>
+                    </subst> de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>otion, et <add xml:id="f22vop6_de">de</add><substJoin seq="2"
-                        target="#f22vop6_pieté #f22vop6_de"/> constance <subst
-                        xml:id="f22vop6_dont_innocente">
+                    </choice>otion, et <add xml:id="f22vop6_de">de</add><substJoin
+                        target="#f22vop6_en_de #f22vop6_de"/><subst xml:id="f22vop6_dont_innocente">
                         <del>dont <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
@@ -60,16 +54,15 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>ay veue mourir</del>
-                        <add> selon mon sexe et <choice>
+                        <add>selon mon sexe et <choice>
                                 <abbr>m<hi rend="overlined">o</hi></abbr>
                                 <expan>mon</expan>
-                            </choice>eage come <choice>
+                            </choice> eage come <choice>
                                 <orig>i</orig>
                                 <reg>j'</reg>
                             </choice>en vey en la tendre enfance de ceste pauvre innocente.</add>
-                    </subst>
-                    <substJoin cert="high" seq="3" target="#f22vop6_en_fin #f22vop6_dont_innocente"
-                        /><del rend="unmarked">.</del></s></p>
+                    </subst><substJoin target="#f22vop6_en_de #f22vop6_dont_innocente"/><del
+                        rend="unmarked">.</del></s></p>
         </body>
     </text>
 </TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><add xml:id="f23vop6_il_gre"><choice>
+                            <orig>i</orig>
+                            <reg>I</reg>
+                        </choice>l a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oit rendu de son gr<choice>
+                            <orig>e</orig>
+                            <reg>é</reg>
+                        </choice></add> celuy de <choice>
+                        <abbr>lieut<hi rend="superscript">t</hi></abbr>
+                        <expan>lieutenant</expan>
+                    </choice> ci<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>il <del xml:id="f23vop6_que_mal">que mal</del><substJoin
+                        target="#f23vop6_que_mal #f23vop6_il_gre"/> et sur une <choice>
+                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                            <expan>pro</expan>
+                        </choice>messe d<subst xml:id="f23vop6_e_un">
+                        <del rend="overwritten">e</del>
+                        <add place="superimposed"><choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>un</add>
+                    </subst> plus <add xml:id="f23vop6_grand">grand</add><substJoin
+                        target="#f23vop6_e_un #f23vop6_grand"/> il s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estoit contanté <subst>
+                        <del>d'atendre ainsi l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>office</del>
+                        <add>cependant de celuy</add>
+                    </subst> de <choice>
+                        <abbr>m<hi rend="superscript">e</hi></abbr>
+                        <expan>maistre</expan>
+                    </choice> des <choice>
+                        <abbr>req<hi rend="superscript">tes</hi></abbr>
+                        <expan>requestes</expan>
+                    </choice>.</s></p>
+        </body>
+    </text>
+</TEI>

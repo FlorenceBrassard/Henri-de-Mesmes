@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t <del xml:id="f23rop4_iay_1"><choice>
+                            <orig>i</orig>
+                            <reg>j'</reg>
+                        </choice>ay</del> entr<subst>
+                        <del rend="overwritten">e</del>
+                        <add place="superimposed" xml:id="f23rop4_e">e</add>
+                    </subst>
+                <del xml:id="f23rop4_s">s</del><substJoin target="#f23rop4_e #f23rop4_s"/> mes papiers parmy les <choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <expan>letres</expan>
+                    </choice> des <subst>
+                        <del>premiers</del>
+                        <add>grands</add>
+                    </subst> homes de <choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>nostre</expan>
+                    </choice> siec<choice>
+                        <orig/>
+                        <reg>l</reg>
+                    </choice>e <subst>
+                        <del>qui sont en grosses liasses</del>
+                        <add>dont <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e garde <subst>
+                                <del>grande</del>
+                                <add>bone</add>
+                            </subst> quantité</add>
+                    </subst>
+                    <subst>
+                        <del xml:id="f23rop4_iay_2_del"><add xml:id="f23rop4_iay_2"><choice>
+                                    <orig>i</orig>
+                                    <reg>j'</reg>
+                                </choice>ay</add></del>
+                        <add><choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>ay</add>
+                    </subst><substJoin target="#f23rop4_iay_1 #f23rop4_iay_2"/> quelque nombre d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>espistres latines qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il <subst>
+                        <del>m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>escri<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit</del>
+                        <add>m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>en<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oioit</add>
+                    </subst><subst>
+                        <del>, lesquelles tesmoignent qu<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>il estoit aussy elegant or d'</del>
+                        <add xml:id="f23rop4_asses_bien"><delSpan spanTo="#f23rop4_nom"
+                                xml:id="f23rop4_asses_nom"/>asses <metamark function="insert"
+                                target="#f23rop4_cognoissables_nom">//</metamark>
+                            <subst>
+                                <add xml:id="f23rop4_cognoissables_nom"
+                                    ><metamark>//</metamark>cognoissables <unclear cert="high"
+                                        reason="margin">s</unclear>ens son nom <substJoin
+                                        target="#f23rop4_asses_nom #f23rop4_iay_2_del"/><anchor
+                                        xml:id="f23rop4_nom"/></add>
+                                <del xml:id="f23rop4_dignes_bien">dignes d<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>un qui n<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>a<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>oit faict autre mestier que bien</del>
+                            </subst></add>
+                    </subst>
+                    <del xml:id="f23rop4_escrire">escrire</del>
+                    <del xml:id="f23rop4_que_executer">que resolu <del><substJoin seq="1"
+                                target="#f23rop4_asses_bien #f23rop4_que_executer"/><substJoin
+                                seq="2" target="#f23rop4_dignes_bien #f23rop4_escrire"/><add><choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                                </choice> bien <unclear cert="medium" reason="illegible"
+                                    >ca</unclear></add></del>
+                        <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> executer</del>. </s></p>
+        </body>
+    </text>
+</TEI>

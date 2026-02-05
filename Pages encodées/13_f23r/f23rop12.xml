@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><del><unclear cert="high" reason="illegible">O</unclear></del>
+                    <choice>
+                        <orig>t</orig>
+                        <reg>T</reg>
+                    </choice>ost apres <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e fu en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oié vers le<persName ref="Q316913"
+                            ><roleName>prince</roleName><nameLink>de</nameLink><surname><choice>
+                                <orig>c</orig>
+                                <reg>C</reg>
+                            </choice>ondé</surname></persName> qui a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit grosse armée en <placeName><choice>
+                            <orig>l</orig>
+                            <reg>L</reg>
+                        </choice>imosin</placeName>
+                    <choice>
+                        <orig>,</orig>
+                        <reg>.</reg>
+                    </choice><metamark function="insert" target="#f23rop12_durant_fus"
+                        >҂</metamark><addSpan seq="2" spanTo="#f23rop12_fus"
+                        xml:id="f23rop12_durant_fus"/><metamark>҂</metamark>
+                    <choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                    </choice>urant ce voiage nacquit ma fille
+                        <persName><forename>Judit</forename></persName>
+                    <date>le <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>our <persName ref="Q244380">st Denys</persName>
+                        <choice>
+                            <orig>ix</orig>
+                            <reg>IX</reg>
+                        </choice><hi rend="superscript">e</hi>
+                        <choice>
+                            <abbr>8<hi rend="superscript">bre</hi></abbr>
+                            <expan>octobre</expan>
+                        </choice> 1568</date>.</s>
+                <s> Je fus<anchor xml:id="f23rop12_fus"/><subst>
+                        <del>puys</del>
+                        <add><del><unclear cert="high" reason="illegible">et</unclear></del>
+                            quelques mois apres</add>
+                    </subst> despeché pour <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>ne diete im<choice>
+                        <abbr><g ref="par-glyph">ꝑ</g></abbr>
+                        <expan>per</expan>
+                    </choice>iale, et finalement retenu au conseil du matin o<choice>
+                        <orig>u i</orig>
+                        <reg>ù j'</reg>
+                    </choice>entrois quand on traictoit des <choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice>, et <subst>
+                        <del>estions</del>
+                        <add>fumes <choice>
+                                <orig>v</orig>
+                                <reg>u</reg>
+                            </choice>n temps</add>
+                    </subst> debout messieurs <persName ref="Q3340885"><nameLink>de</nameLink>
+                        <surname>Rambouillet</surname>
+                        <roleName>l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>aisné,</roleName>l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice></persName>
+                    <persName ref="Q2898877"><roleName>evesque</roleName> de
+                            <placeName>Renes</placeName>
+                        <surname><choice>
+                                <orig>b</orig>
+                                <reg>B</reg>
+                            </choice>ouchetel</surname></persName> et moy.</s>
+            </p>
+        </body>
+    </text>
+</TEI>

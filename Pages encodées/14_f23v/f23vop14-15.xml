@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>i</orig>
+                        <reg> J'</reg>
+                    </choice>aimerois mieulx grater la terre aux dens que d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>accepter l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>office d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un <add>home</add> vi<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant<unclear cert="high" reason="margin">.</unclear><choice>
+                        <orig/>
+                        <reg> »</reg>
+                    </choice></s>
+                <s><choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice> e <roleName ref="Q129857">Roy</roleName> excusa ceste liberté <add>de <choice>
+                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                            <expan>par</expan>
+                        </choice>ler</add> et la loua, et changea de <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>seil.</s></p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>Au commancement de l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>an <date>mil V<hi rend="superscript">c</hi><subst>
+                            <del><choice>
+                                    <orig>lvix</orig>
+                                    <reg>LVIX</reg>
+                                </choice></del>
+                            <add><choice>
+                                    <orig>lviij</orig>
+                                    <reg>LVIII</reg>
+                                </choice></add>
+                        </subst></date> apres la reprise des armes et renou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ellement des troubles, la <roleName ref="Q131552">Reyne</roleName> mere
+                    du <roleName ref="Q53448">Roy</roleName> prit la poine de me venir <subst>
+                        <del>prendre</del>
+                        <add>voir</add>
+                    </subst> en ma maison <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q90"><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>aris</placeName>
+                    <placeName>rue de Jouy</placeName>, accompaignée du <persName ref="Q712264"><roleName><choice>
+                                <abbr>Card<hi rend="superscript">al</hi></abbr>
+                                <expan><choice>
+                                        <orig>C</orig>
+                                        <reg>c</reg>
+                                    </choice>ardinal</expan>
+                            </choice></roleName><nameLink>de</nameLink><surname><choice>
+                                <abbr>lor<hi rend="superscript">ne</hi>.</abbr>
+                                <expan><choice>
+                                        <orig>l</orig>
+                                        <reg>L</reg>
+                                    </choice>orraine</expan>
+                            </choice></surname></persName> et m'emmena <metamark function="insert"
+                        target="#f23rop7_auec_elle">^</metamark><add xml:id="f23rop7_auec_elle"
+                            ><metamark>^</metamark> a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec elle</add>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q193313">sainct Mor</placeName>.</s></p>
+        </body>
+    </text>
+</TEI>

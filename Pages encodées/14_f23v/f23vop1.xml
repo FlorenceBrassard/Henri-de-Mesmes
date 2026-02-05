@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                    </choice>ais <metamark function="insert" target="#f23vop1_come_douleurs"
+                        >+</metamark>
+                    <add xml:id="f23vop1_come_douleurs"><metamark>+</metamark> come <choice>
+                            <orig>d</orig>
+                            <reg>D</reg>
+                        </choice>ieu entremesle les honeurs et les douleurs</add><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> au <date>mois de <choice>
+                            <orig>S</orig>
+                            <reg>s</reg>
+                        </choice>eptembre</date>
+                    <subst>
+                        <del xml:id="f23vop1_ieu_lres_del"><choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>eu <choice>
+                                <abbr rend="overlined">lres</abbr>
+                                <expan>letres</expan>
+                            </choice></del>
+                        <add>estant<metamark function="insert" target="#f23vop1_auec"
+                                >^</metamark><add xml:id="f23vop1_auec">a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ec</add> la <subst xml:id="f23vop1_cour_mere">
+                                <del>cour</del>
+                                <add><roleName ref="Q131552"><choice>
+                                            <abbr>R<hi rend="superscript">e</hi></abbr>
+                                            <expan>Reine</expan>
+                                        </choice> mere</roleName></add>
+                            </subst></add>
+                    </subst>
+                    <substJoin target="#f23vop1_auec #f23vop1_cour_mere"/> au <placeName
+                        ref="Q638089"><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>lessis lez <choice>
+                            <orig>t</orig>
+                            <reg>T</reg>
+                        </choice>ours</placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <add xml:id="f23vop1_ieu_lres_add"><choice>
+                            <orig>i</orig>
+                            <reg>j'</reg>
+                        </choice>eu <choice>
+                            <abbr rend="overlined">lres</abbr>
+                            <expan>letres</expan>
+                        </choice></add><substJoin
+                        target="#f23vop1_ieu_lres_del #f23vop1_ieu_lres_add"/> de l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>extreme maladie de feu mon <roleName ref="Q107207194">pere</roleName>
+                    qui estoit lors <choice>
+                        <orig>C</orig>
+                        <reg>c</reg>
+                    </choice>onseiller du Conseil du <roleName ref="Q53448">Roy</roleName> et l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un de ceulx qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit laissez pres de <choice>
+                        <abbr>m<hi rend="superscript">r</hi></abbr>
+                        <expan>monsieur</expan>
+                    </choice><persName ref="Q318380"><nameLink>d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice></nameLink><surname><choice>
+                                <orig>a</orig>
+                                <reg>A</reg>
+                            </choice>lan<choice>
+                                <orig>c</orig>
+                                <reg>ç</reg>
+                            </choice>on</surname></persName>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q90"><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>aris</placeName> pour les <choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice> du <choice>
+                        <abbr>R<hi rend="superscript">me</hi></abbr>
+                        <expan><choice>
+                                <orig>R</orig>
+                                <reg>r</reg>
+                            </choice>oyaume</expan>
+                    </choice>. </s></p>
+        </body>
+    </text>
+</TEI>

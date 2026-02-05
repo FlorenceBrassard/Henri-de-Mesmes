@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                    </choice>l a <del rend="overwritten"><unclear cert="high" reason="illegible"
+                            >m</unclear></del> laissé en ses <subst>
+                        <del>coffres</del>
+                        <add>papiers</add>
+                    </subst> les <choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <expan>letres</expan>
+                    </choice> de trois offices de <choice>
+                        <abbr>p<hi rend="superscript">r</hi></abbr>
+                        <expan>premier</expan>
+                    </choice> president, <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q7880"><choice>
+                            <abbr rend="overlined">Thle</abbr>
+                            <expan>Tholose</expan>
+                        </choice>
+                    </placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <placeName ref="Q1479">Bourdeaux</placeName> et <placeName ref="Q30974"
+                        >Rouen</placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il refusa l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un apres l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>autre <subst>
+                        <del><add>en p<unclear cert="low" reason="illegible">l</unclear>r <unclear
+                                    cert="low" reason="illegible">tem</unclear>s</add></del>
+                        <add><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> diverses fois</add>
+                    </subst> et ne <subst>
+                        <del>prist</del>
+                        <add>receut</add>
+                    </subst> qu<choice>
+                        <orig>a</orig>
+                        <reg>'à</reg>
+                    </choice> force l'honeur <del>du</del> de l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estat du <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>seil <add>pri<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>é</add> qui n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estoit pas vulgaire lors<choice>
+                        <orig>, m</orig>
+                        <reg>. M</reg>
+                    </choice>ais sur ce qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il remonstroit sa vieillesse et impuissance le <persName ref="Q134309"
+                            ><roleName>Roy</roleName><forename><choice>
+                                <orig>c</orig>
+                                <reg>C</reg>
+                            </choice>harles</forename></persName> replicqua<choice>
+                        <orig>, c</orig>
+                        <reg> : « C'</reg>
+                    </choice> est ce qui me faict vous prier d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en estre pour e<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>iter le <subst>
+                        <del>deshoneu<unclear cert="high" reason="margin">r</unclear></del>
+                        <add>blasme</add>
+                    </subst> que ce me seroit sy vous mourries sens <subst>
+                        <del>ceste merque</del>
+                        <add>en estre</add>
+                    </subst><unclear cert="high" reason="margin">.</unclear><choice>
+                        <orig/>
+                        <reg> »</reg>
+                    </choice>
+                </s><del><s><choice>
+                            <orig>i</orig>
+                            <reg>I</reg>
+                        </choice>l <del>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit</del> estoit né l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>an <date>mil <choice>
+                                <orig>iiij<hi rend="superscript">c</hi> x</orig>
+                                <reg>IV<hi rend="superscript">c</hi>X</reg>
+                            </choice>
+                        </date> et entroit en l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>eage de <choice>
+                            <orig>iiij xx</orig>
+                            <reg>IV XX</reg>
+                        </choice> ans<del rend="unmarked">.</del>
+                    </s></del></p>
+        </body>
+    </text>
+</TEI>

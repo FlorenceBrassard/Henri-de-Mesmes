@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>ncore ad<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ousteray <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e ce mot, que s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estant le <persName><roleName ref="Q129857">Roy</roleName><forename><choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>ran<choice>
+                                <orig>c</orig>
+                                <reg>ç</reg>
+                            </choice>oys</forename><choice>
+                            <abbr>p<hi rend="superscript">r</hi></abbr>
+                            <expan>premier</expan>
+                        </choice></persName> lassé de feu
+                        <persName><surname>Rusé</surname></persName>
+                    <metamark function="insert" target="#f23vop10_son">^</metamark><add
+                        xml:id="f23vop10_son">son</add> ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ocat <del xml:id="f23vop10_du_Roy">du <roleName ref="Q129857"
+                            >Roy</roleName></del><substJoin target="#f23vop10_son #f23vop10_du_Roy"
+                    /> au <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>lement de <placeName ref="Q90"><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>aris</placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                        </choice> il manda mon <roleName ref="Q107207194">pere</roleName> <add>lors freschement venu <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>
+                            <placeName ref="Q90"><choice>
+                                <orig>p</orig>
+                                <reg>P</reg>
+                            </choice>aris</placeName></add> pour <del>le</del> luy doner <subst>
+                        <del>son</del>
+                        <add>cest</add>
+                    </subst>
+                    <del><unclear cert="medium" reason="illegible">l</unclear></del> office. </s></p>
+        </body>
+    </text>
+</TEI>

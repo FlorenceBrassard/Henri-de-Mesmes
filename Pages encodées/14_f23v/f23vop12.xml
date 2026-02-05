@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>m</orig>
+                        <reg>« M</reg>
+                    </choice>ais c<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>est mon ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oca<unclear cert="high" reason="margin">t</unclear>
+                    <choice>
+                        <orig/>
+                        <reg> !</reg>
+                    </choice>
+                <del><choice>
+                    <orig>i</orig>
+                    <reg>I</reg>
+                </choice>l</del>
+                    <choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                    </choice>hacun prend celuy qui luy plaist, seray <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e de pire <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g>dion</abbr>
+                        <expan>condition</expan>
+                    </choice> que les <subst>
+                        <del>autres</del>
+                        <add>moindres</add>
+                    </subst> ?<choice>
+                        <orig/>
+                        <reg> »</reg>
+                    </choice></s></p>
+        </body>
+    </text>
+</TEI>

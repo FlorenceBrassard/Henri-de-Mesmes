@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><del><metamark function="insert" target="#f23rop3_Certes_censeur">+</metamark><add
+                        xml:id="f23rop3_Certes_censeur"><metamark>+</metamark><s>Certes <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>'estimois beaucoup cest honeur qui venoit de <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>ugement et non pas de la fortune.</s><s><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>t mesme du <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>ugement d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>un tel censeur.</s></add></del><s><subst>
+                        <del><choice>
+                                <orig>p</orig>
+                                <reg>P</reg>
+                            </choice>army cela</del>
+                        <add><choice>
+                                <orig>b</orig>
+                                <reg>B</reg>
+                            </choice>ien sou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ent</add>
+                    </subst> il entroit <metamark function="insert" target="#f23rop3_auec_moy"
+                        >^</metamark><add xml:id="f23rop3_auec_moy"><metamark>^</metamark>a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec moy</add> en discours des <choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <expan>letres</expan>
+                    </choice>, et plus sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent de l<choice>
+                        <orig>e</orig>
+                        <reg>'E</reg>
+                    </choice>stat, a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec tant de sagesse et de eloquence <persName ref="Q193267"><choice>
+                            <orig>N</orig>
+                            <reg>n</reg>
+                        </choice>estoriene</persName> (car <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>appellois ainsy<choice>
+                        <orig>,)</orig>
+                        <reg>),</reg>
+                    </choice> que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>fesse <del>y</del> a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir <subst>
+                        <del>plus</del>
+                        <add>autant</add>
+                    </subst> apris en son escole <metamark function="insert"
+                        target="#f23rop3_apres_pere">^</metamark><add xml:id="f23rop3_apres_pere"
+                            ><metamark>^</metamark>apres celle de mon pere</add> qu'en <del>autre</del>
+                    autre <del>de et <unclear cert="low" reason="illegible">t</unclear></del> o<choice>
+                        <orig>u i</orig>
+                        <reg>ù j'</reg>
+                    </choice>aie esté de mes <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours. </s></p>
+        </body>
+    </text>
+</TEI>

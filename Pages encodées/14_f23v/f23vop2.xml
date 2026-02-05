@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>La <roleName ref="Q131552"><choice>
+                            <abbr>R<hi rend="superscript">ne</hi></abbr>
+                            <expan>Reine</expan>
+                        </choice>
+                        <add xml:id="f23vop2_sa">sa</add> mere</roleName>
+                    <del xml:id="f23vop2_du_Roy">du <roleName ref="Q53448"
+                        >Roy</roleName></del><substJoin target="#f23vop2_sa #f23vop2_du_Roy"/>
+                    pleura <add>de</add> ceste nou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>elle <del>qu</del> et dit <subst>
+                        <del><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>
+                            <choice>
+                                <abbr>m<hi rend="superscript">r</hi></abbr>
+                                <expan>monsieur</expan>
+                            </choice>
+                            <persName ref="Q25390815"><nameLink>de</nameLink>
+                                <surname><choice>
+                                        <orig>l</orig>
+                                        <reg>L</reg>
+                                    </choice>ansac</surname></persName></del>
+                        <add><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> autre qu'<choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> moy</add>
+                    </subst> que depuys quel<choice>
+                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                        <expan>que</expan>
+                    </choice>s <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours elle l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit nomé et <add xml:id="f23vop2_faict">faict</add> reten<subst
+                        xml:id="f23vop2_u_ir">
+                        <del rend="overwritten">u</del>
+                        <add place="superimposed">ir</add>
+                    </subst>
+                    <substJoin target="#f23vop2_faict #f23vop2_u_ir"/> chancelier de <placeName><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rance</placeName>. </s></p>
+        </body>
+    </text>
+</TEI>
