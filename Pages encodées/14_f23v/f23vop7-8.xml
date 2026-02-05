@@ -27,15 +27,14 @@
                     </choice>l a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit <add xml:id="f23vop7-8_a"><choice>
+                    </choice>oit <add><choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice></add> trois <metamark function="insert"
                         target="#f23vop7-8_diuerses">^</metamark><add xml:id="f23vop7-8_diuerses">di<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>erses</add><substJoin target="#f23vop7-8_a #f23vop7-8_diuerses"/>
-                    fois en sa vie gardé les seaus de <placeName><choice>
+                        </choice>erses</add> fois en sa vie gardé les seaus de <placeName ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName>
@@ -52,10 +51,6 @@
                             <orig/>
                             <reg>'</reg>
                         </choice>office.</add></s><s><subst>
-                        <del>dont <choice>
-                                <orig>i</orig>
-                                <reg>j'</reg>
-                            </choice></del>
                         <add><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
@@ -63,6 +58,10 @@
                                 <orig>i</orig>
                                 <reg>j'</reg>
                             </choice>en</add>
+                        <del>dont <choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice></del>
                     </subst> ay encore les cofres <add>des seaulx</add> pour merque de cest honeur.
                 </s></p>
         </body>

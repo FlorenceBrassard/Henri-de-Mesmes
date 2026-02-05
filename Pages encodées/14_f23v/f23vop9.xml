@@ -24,8 +24,11 @@
             <p><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
-                    </choice>l a <del rend="overwritten"><unclear cert="high" reason="illegible"
-                            >m</unclear></del> laissé en ses <subst>
+                    </choice>l a <subst>
+                        <del rend="overwritten"><unclear cert="high" reason="illegible"
+                            >m</unclear></del>
+                        <add place="superimposed">la</add>
+                    </subst>issé en ses <subst>
                         <del>coffres</del>
                         <add>papiers</add>
                     </subst> les <choice>
@@ -65,7 +68,10 @@
                         <add><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
-                            </choice> diverses fois</add>
+                            </choice> di<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>erses fois</add>
                     </subst> et ne <subst>
                         <del>prist</del>
                         <add>receut</add>
@@ -122,16 +128,16 @@
                             </choice>oit</del> estoit né l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>an <date>mil <choice>
-                                <orig>iiij<hi rend="superscript">c</hi> x</orig>
-                                <reg>IV<hi rend="superscript">c</hi>X</reg>
+                        </choice>an <date><choice>
+                                <orig>mil iiij<hi rend="superscript">c</hi> x</orig>
+                                <reg>1410</reg>
                             </choice>
                         </date> et entroit en l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>eage de <choice>
                             <orig>iiij xx</orig>
-                            <reg>IV XX</reg>
+                            <reg>80</reg>
                         </choice> ans<del rend="unmarked">.</del>
                     </s></del></p>
         </body>
