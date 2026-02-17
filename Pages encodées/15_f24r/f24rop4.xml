@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>i</orig>
+                        <reg>J</reg>
+                    </choice>e fu <del>retenu</del> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un de ces six, et les autres estoient <persName><surname>Mor<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>iller</surname></persName>, <persName><surname><choice>
+                                <orig>l</orig>
+                                <reg>L</reg>
+                            </choice>ansac</surname></persName>,
+                            <del>B</del><persName><surname>Pelue</surname></persName>,
+                            <persName><surname>Limoges</surname></persName> et
+                            <persName><surname>Birague</surname></persName>.</s></p>
+        </body>
+    </text>
+</TEI>

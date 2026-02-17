@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>Aiant porté en terre le corps de mon père et rendu les <metamark
+                        function="insertion" target="#f24rop2_derniers">^</metamark><add
+                        xml:id="f24rop2_derniers">derniers</add> offices que mon de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir et ma religion et pieté me commandoient<choice>
+                        <orig> i</orig>
+                        <reg>, j'</reg>
+                    </choice>allay trou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>er le <roleName>Roy</roleName>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName>Angers</placeName>, qui <del>me rete</del> lendemain me feit <choice>
+                        <abbr>fe<hi rend="superscript">r</hi></abbr>
+                        <expan>faire</expan>
+                    </choice> le serment de Conseiller en son pri<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>é <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>seil et fus assis <subst>
+                        <del>aupres de <choice>
+                                <abbr>mrs</abbr>
+                                <expan>messieurs</expan>
+                            </choice>
+                            <persName><nameLink>de</nameLink><surname>Mor<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>iller</surname></persName> et
+                                    <persName><nameLink>de</nameLink>
+                                <surname><choice>
+                                        <orig>l</orig>
+                                        <reg>L</reg>
+                                    </choice>imoges</surname></persName>. <choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>t</del>
+                        <add><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>instant</add>
+                    </subst><choice>
+                        <orig> l</orig>
+                        <reg>. L</reg>
+                    </choice>a mesme semaine fut faict reglement du Conseil pource qu'<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> cause des guerres il y estoit entré nombre de che<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>aliers et grands seigneurs, et <subst>
+                        <del>aussy</del>
+                        <add><del xml:id="f24rop3_puys_auparauant_del">puys peu de <choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>ours au<choice>
+                                    <abbr>ꝑ</abbr>
+                                    <expan>par</expan>
+                                </choice>a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ant</del></add>
+                    </subst>
+                    <del>trois</del> quatre ou cinq homes de robe longue <subst>
+                        <del>qui rendoient le nombre des<choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>a grand</del>
+                        <add xml:id="f24ropr_puys_auparauant_add">peu de <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>ours au<choice>
+                                <abbr>ꝑ</abbr>
+                                <expan>par</expan>
+                            </choice>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ant</add>
+                    </subst><substJoin
+                        target="#f24rop3_puys_auparauant_del #f24ropr_puys_auparauant_add"/> en fut
+                    ordoné six seulement pour le <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>seil <choice>
+                        <abbr>ord<hi rend="superscript">re</hi></abbr>
+                        <expan>ordinaire</expan>
+                    </choice> des <choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice> du <roleName>Roy</roleName> et de ses finances, et pour entrer <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> son le<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>er le matin aux <choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice> d<choice>
+                        <orig>e</orig>
+                        <reg>'E</reg>
+                    </choice>tat.</s></p>
+        </body>
+    </text>
+</TEI>
