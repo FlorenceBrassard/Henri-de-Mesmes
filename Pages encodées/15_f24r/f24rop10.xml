@@ -24,23 +24,29 @@
             <p><s><choice>
                         <orig>i</orig>
                         <reg>J</reg>
-                    </choice>e party de <placeName>Chateaubriant</placeName><add>en <date>May <hi
-                                rend="overlined">1570</hi></date></add>, <del>et</del> alasmes <choice>
+                    </choice>e party de <placeName ref="Q211187">Chateaubriant</placeName><add>en <date><choice>
+                                <orig>M</orig>
+                                <reg>m</reg>
+                            </choice>ay <hi rend="overlined">1570</hi></date></add>, <del>et</del>
+                    alasmes <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName><choice>
+                    <placeName ref="Q82185"><choice>
                             <orig>l</orig>
                             <reg>L</reg>
                         </choice>a <choice>
                             <orig>r</orig>
                             <reg>R</reg>
-                        </choice>ochelle</placeName> vers la <roleName><choice>
+                        </choice>ochelle</placeName> vers la <roleName ref="Q229286"><choice>
                             <abbr>R<hi rend="superscript">e</hi></abbr>
-                            <expan>Reyne</expan>
-                        </choice> de <placeName><choice>
+                            <expan><choice>
+                                    <orig>R</orig>
+                                    <reg>r</reg>
+                                </choice>eyne</expan>
+                        </choice> de <placeName ref="Q63021609"><choice>
                                 <abbr>N<hi rend="superscript">re</hi></abbr>
-                                <expan>Navare</expan>
+                                <expan>Navarre</expan>
                             </choice></placeName></roleName>, <del>et</del> de l<choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -48,45 +54,56 @@
                     <add>fumes</add> trou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>er les <roleName>princes</roleName> en <placeName><choice>
+                    </choice>er les <roleName>princes</roleName> en <placeName ref="Q1152"><choice>
                             <orig>a</orig>
                             <reg>A</reg>
-                        </choice>uvergne</placeName> puys <metamark function="insertion"
+                        </choice>u<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ergne</placeName> puys <metamark function="insert"
                         target="#f24rop10_retournames_vers">^</metamark><add
-                        xml:id="f24rop10_retournames_vers"> retournames vers</add> le
-                        <roleName>Roy</roleName>
+                        xml:id="f24rop10_retournames_vers"> retournames vers</add> le <roleName
+                        ref="Q134309">Roy</roleName>
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName>Gaillon</placeName>, qui s<choice>
+                    <placeName ref="Q627220">Gaillon</placeName>, qui s<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>en re<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>eint <del>s<unclear reason="deleted">ou</unclear></del> peu apres <choice>
+                    </choice>eint <del>sou</del> peu apres <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName><choice>
-                            <abbr><choice>
+                    <placeName ref="Q1520841"><choice>
+                            <abbr>s<hi rend="superscript">t</hi></abbr>
+                            <expan><choice>
                                     <orig>s</orig>
                                     <reg>S</reg>
-                                </choice><hi rend="superscript">t</hi></abbr>
-                            <expan>sainct</expan>
-                        </choice> Germain en <choice>
+                                </choice>ainct</expan>
+                        </choice><choice>
+                            <orig/>
+                            <reg>-</reg>
+                        </choice> Germain <choice>
+                            <orig/>
+                            <reg>-</reg>
+                        </choice>en<choice>
                             <orig>l</orig>
-                            <reg>L</reg>
+                            <reg>-L</reg>
                         </choice>aie</placeName> o<choice>
                         <orig>u</orig>
                         <reg>ù</reg>
                     </choice>
-                    <metamark function="insertion" target="#f24rop10_nous_et">^</metamark><add
+                    <metamark function="insert" target="#f24rop10_nous_et">^</metamark><add
                         xml:id="f24rop10_nous_et"><metamark>^</metamark> nous luy menasme les <roleName>deput<choice>
                                 <orig>e</orig>
                                 <reg>é</reg>
-                            </choice>s des princes</roleName> et </add> la pais <add>y</add> fut conclu<subst>
+                            </choice>s des princes</roleName> et </add> la paix <add
+                        xml:id="f24rop10_y">y</add><substJoin target="#f24rop10_nous_et #f24rop10_y"
+                    /> fut conclu<subst>
                         <del rend="overwritten">s</del>
                         <add place="superimposed">e</add>
                         <del>e</del>

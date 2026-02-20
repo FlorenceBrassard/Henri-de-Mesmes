@@ -35,34 +35,37 @@
                         <reg>à</reg>
                     </choice>
                     <choice>
-                        <abbr><g ref="par-glyph">ꝑ</g></abbr>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>t escrite de sa main <del>de <choice>
                             <abbr rend="overlined">lre</abbr>
                             <expan>letre</expan>
-                    </choice></del> <pb/> a<choice>
+                        </choice></del>
+                    <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice><pb/> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec sy bon mesnage que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e n<choice>
-                        <orig></orig>
+                        <orig/>
                         <reg>'</reg>
                     </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ois pas ancore tout acordé ce qu<choice>
-                        <orig></orig>
+                        <orig/>
                         <reg>'</reg>
                     </choice>il m<choice>
-                        <orig></orig>
+                        <orig/>
                         <reg>'</reg>
                     </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit permis.
-                </s></p>
+                    </choice>oit permis. </s></p>
         </body>
     </text>
 </TEI>

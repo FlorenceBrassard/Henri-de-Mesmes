@@ -30,8 +30,8 @@
                     </choice>y a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit autre intendant que
-                        <persName><surname>Marillac</surname></persName>.</s></p>
+                    </choice>oit autre intendant que <persName ref="Q2960638"
+                            ><surname>Marillac</surname></persName>.</s></p>
         </body>
     </text>
 </TEI>

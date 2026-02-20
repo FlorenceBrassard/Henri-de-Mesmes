@@ -30,9 +30,9 @@
                     </choice>on que pour ce temps l<choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> le conseil des <choice>
-                        <abbr>finan<g>°°</g></abbr>
-                        <expan>finances</expan>
+                    </choice> le conseil des finan<choice>
+                        <abbr><g ref="#ces-glyph">°°</g></abbr>
+                        <expan>ces</expan>
                     </choice> estoit <choice>
                         <abbr>seul<hi rend="superscript">t</hi></abbr>
                         <expan>seulement</expan>
@@ -42,15 +42,15 @@
                     </choice>
                     <choice>
                         <abbr>s<hi rend="superscript">rs</hi></abbr>
-                        <expan>sieurs</expan>
-                    </choice>
-                    <persName><nameLink>de</nameLink><surname>Mor<choice>
+                        <expan>seigneurs</expan>
+                    </choice> de <persName ref="Q3175603"><surname>Mor<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>illers</surname></persName><choice>
+                            </choice>iller</surname></persName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> et <persName>
+                    </choice>
+                    <persName ref="Q2379398">
                         <surname><choice>
                                 <orig>l</orig>
                                 <reg>L</reg>

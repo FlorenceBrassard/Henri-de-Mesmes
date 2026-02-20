@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><s>Le <roleName>Roy</roleName> y voulut entendre et me choisit <subst>
+            <p><s>Le <roleName ref="Q134309">Roy</roleName> y voulut entendre et me choisit <subst>
                         <del>pour aller traicter a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -35,9 +35,10 @@
                             </choice>
                             <choice>
                                 <abbr>S<hi rend="superscript">r</hi></abbr>
-                                <expan>Sieur</expan>
+                                <expan>seigneur</expan>
                             </choice>
-                            <persName><nameLink>de</nameLink><surname>Biron</surname></persName> les
+                            <persName ref="Q678012"
+                                ><nameLink>de</nameLink><surname>Biron</surname></persName> les
                             aller trou<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>

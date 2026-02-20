@@ -33,48 +33,56 @@
                     </choice>autre ne feit <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice>la mode de<del cert="medium">c . e</del> ce temps <del><choice>
+                    </choice>la mode de<subst>
+                        <del><unclear cert="medium" reason="illegible">c <gap quantity="1"
+                                    unit="char"/> c</unclear></del>
+                        <add>ce</add>
+                    </subst> temps <undo rend="underlined" target="f24rop2_prs"/><del
+                        xml:id="f24rop2_prs"><choice>
                             <abbr rend="overlined">prs</abbr>
                             <expan>present</expan>
-                        </choice></del>.</s><s><addSpan spanTo="#f24rop2_touts"/><choice>
-                        <orig>e</orig>
-                        <reg>E</reg>
-                    </choice>t <choice>
-                        <abbr rend="overlined">chun</abbr>
-                        <expan>chacun</expan>
-                    </choice>d<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>eux feuit <subst>
-                        <del>ce <choice>
-                                <abbr><g>ꝗ</g></abbr>
-                                <expan/>
-                            </choice> on ne faict pas au<choice>
-                                <orig>i</orig>
-                                <reg>j</reg>
-                            </choice>ourduy</del>
-                        <add>nay<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>ement en home de bien</add>
-                    </subst>
-                    <metamark function="insertion" target="#f24rop2_pleust_touts">҂</metamark><add
-                        xml:id="f24rop2_pleust_touts"><metamark>҂</metamark>pleust <choice>
-                            <orig>a d</orig>
-                            <reg>à D</reg>
-                        </choice>ieu que ce bon <subst>
-                            <del>precepte</del>
-                            <add>exemple</add>
-                        </subst> est esté gardé depuys <subst>
-                            <del><choice>
-                                    <orig>a</orig>
-                                    <reg>à</reg>
-                                </choice></del>
-                            <add><choice>
-                                    <orig>a</orig>
-                                    <reg>à</reg>
-                                </choice></add>
-                        </subst> touts.</add><anchor xml:id="f24rop2_touts"/></s></p>
+                        </choice>.</del></s><s><add><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t <choice>
+                            <abbr rend="overlined">chun</abbr>
+                            <expan>chacun</expan>
+                        </choice>d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>eux feit <subst>
+                            <del>ce <choice>
+                                    <abbr><g ref="#que-glyph">ꝗ </g></abbr>
+                                    <expan>qu'</expan>
+                                </choice>on ne faict pas au<choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>ourduy</del>
+                            <add>nays<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ement en home de bien</add>
+                        </subst><choice>
+                            <orig/>
+                            <reg>.</reg>
+                        </choice>
+                        <metamark function="insert" target="#f24rop2_pleust_touts">҂</metamark><add
+                            xml:id="f24rop2_pleust_touts"><metamark>҂</metamark>pleust <choice>
+                                <orig>a d</orig>
+                                <reg>à D</reg>
+                            </choice>ieu que ce bon <subst>
+                                <del>precepte</del>
+                                <add>exemple</add>
+                            </subst> eust esté gardé depuys <subst>
+                                <del><choice>
+                                        <orig>a</orig>
+                                        <reg>à</reg>
+                                    </choice></del>
+                                <add><choice>
+                                        <orig>a</orig>
+                                        <reg>à</reg>
+                                    </choice></add>
+                            </subst> touts.</add></add></s></p>
         </body>
     </text>
 </TEI>

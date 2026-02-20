@@ -22,18 +22,19 @@
     <text>
         <body>
             <p><s><choice>
-                <orig>s</orig>
-                <reg>S</reg>
-            </choice>y diray <choice>
-                <orig>i</orig>
-                <reg>j</reg>
-            </choice>e pour mon regard que <choice>
-                <orig>i</orig>
-                <reg>j</reg>
-            </choice>e raportay au <roleName>Roy</roleName> deux choses eut <choice>
-                <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                <expan>con</expan>
-            </choice>tantement.</s></p>
+                        <orig>s</orig>
+                        <reg>S</reg>
+                    </choice>y diray <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e pour mon regard que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e raportay au <roleName ref="Q134309">Roy</roleName> deux choses dont
+                    il eut <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tantement.</s></p>
         </body>
     </text>
 </TEI>

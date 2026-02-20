@@ -22,15 +22,18 @@
     <text>
         <body>
             <p><s><choice>
-                <orig>e</orig>
-                <reg>E</reg>
-            </choice>t <choice>
-                <orig>i</orig>
-                <reg>j</reg>
-            </choice>e n<choice>
-                <orig></orig>
-                <reg>'</reg>
-            </choice>en ay point veu depuys xxv ans qui ait guiere duré.</s></p>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en ay point veu depuys <choice>
+                        <orig>xxv</orig>
+                        <reg>25</reg>
+                    </choice> ans qui ait guiere duré.</s></p>
         </body>
     </text>
 </TEI>

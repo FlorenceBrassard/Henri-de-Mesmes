@@ -27,16 +27,26 @@
                     </choice>e fu <del>retenu</del> l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>un de ces six, et les autres estoient <persName><surname>Mor<choice>
+                    </choice>un de ces six, et les autres estoient <persName ref="Q3175603"><surname>Mor<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>iller</surname></persName>, <persName><surname><choice>
+                            </choice>illier</surname></persName>, <persName ref="Q25390815"><surname><choice>
                                 <orig>l</orig>
                                 <reg>L</reg>
-                            </choice>ansac</surname></persName>,
-                            <del>B</del><persName><surname>Pelue</surname></persName>,
-                            <persName><surname>Limoges</surname></persName> et
-                            <persName><surname>Birague</surname></persName>.</s></p>
+                            </choice>ansac</surname></persName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <del><unclear cert="medium" reason="illegible">B</unclear></del><persName
+                        ref="Q590316"><surname>Pel<choice>
+                                <orig>ue</orig>
+                                <reg>vé</reg>
+                            </choice></surname></persName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <persName ref="Q2379398"><surname>Limoges</surname></persName> et <persName
+                        ref="Q921075"><surname>Birague</surname></persName>.</s></p>
         </body>
     </text>
 </TEI>

@@ -31,14 +31,17 @@
                     </choice>mena a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec luy <persName><surname><choice>
+                    </choice>ec luy <persName ref="Q2077151"><surname><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>
                             </choice>eau<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>ais</surname></persName> et
-                            <persName><surname>Teligny</surname></persName> qui parloient de pais.</s></p>
+                            </choice>ais</surname></persName> et <persName ref="Q1868249"
+                            ><surname>Teligny</surname></persName> qui parloient de pai<choice>
+                        <orig>s</orig>
+                        <reg>x</reg>
+                    </choice>.</s></p>
         </body>
     </text>
 </TEI>
