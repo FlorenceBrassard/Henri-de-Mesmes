@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice></del><choice>
+                        <orig>n</orig>
+                        <reg>N</reg>
+                    </choice>y luy ny l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>autre ne feit <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>la mode de<subst>
+                        <del><unclear cert="medium" reason="illegible">c <gap quantity="1"
+                                    unit="char"/> c</unclear></del>
+                        <add>ce</add>
+                    </subst> temps <undo rend="underlined" target="f24rop2_prs"/><del
+                        xml:id="f24rop2_prs"><choice>
+                            <abbr rend="overlined">prs</abbr>
+                            <expan>present</expan>
+                        </choice>.</del></s><s><add><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t <choice>
+                            <abbr rend="overlined">chun</abbr>
+                            <expan>chacun</expan>
+                        </choice>d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>eux feit <subst>
+                            <del>ce <choice>
+                                    <abbr><g ref="#que-glyph">ꝗ </g></abbr>
+                                    <expan>qu'</expan>
+                                </choice>on ne faict pas au<choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>ourduy</del>
+                            <add>nays<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ement en home de bien</add>
+                        </subst><choice>
+                            <orig/>
+                            <reg>.</reg>
+                        </choice>
+                        <metamark function="insert" target="#f24rop2_pleust_touts">҂</metamark><add
+                            xml:id="f24rop2_pleust_touts"><metamark>҂</metamark>pleust <choice>
+                                <orig>a d</orig>
+                                <reg>à D</reg>
+                            </choice>ieu que ce bon <subst>
+                                <del>precepte</del>
+                                <add>exemple</add>
+                            </subst> eust esté gardé depuys <subst>
+                                <del><choice>
+                                        <orig>a</orig>
+                                        <reg>à</reg>
+                                    </choice></del>
+                                <add><choice>
+                                        <orig>a</orig>
+                                        <reg>à</reg>
+                                    </choice></add>
+                            </subst> touts.</add></add></s></p>
+        </body>
+    </text>
+</TEI>

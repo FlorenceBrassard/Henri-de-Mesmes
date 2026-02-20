@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>i</orig>
+                        <reg>J</reg>
+                    </choice>e party de <placeName ref="Q211187">Chateaubriant</placeName><add>en <date><choice>
+                                <orig>M</orig>
+                                <reg>m</reg>
+                            </choice>ay <hi rend="overlined">1570</hi></date></add>, <del>et</del>
+                    alasmes <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q82185"><choice>
+                            <orig>l</orig>
+                            <reg>L</reg>
+                        </choice>a <choice>
+                            <orig>r</orig>
+                            <reg>R</reg>
+                        </choice>ochelle</placeName> vers la <roleName ref="Q229286"><choice>
+                            <abbr>R<hi rend="superscript">e</hi></abbr>
+                            <expan><choice>
+                                    <orig>R</orig>
+                                    <reg>r</reg>
+                                </choice>eyne</expan>
+                        </choice> de <placeName ref="Q63021609"><choice>
+                                <abbr>N<hi rend="superscript">re</hi></abbr>
+                                <expan>Navarre</expan>
+                            </choice></placeName></roleName>, <del>et</del> de l<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <add>fumes</add> trou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>er les <roleName>princes</roleName> en <placeName ref="Q1152"><choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>u<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ergne</placeName> puys <metamark function="insert"
+                        target="#f24rop10_retournames_vers">^</metamark><add
+                        xml:id="f24rop10_retournames_vers"> retournames vers</add> le <roleName
+                        ref="Q134309">Roy</roleName>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q627220">Gaillon</placeName>, qui s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en re<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eint <del>sou</del> peu apres <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q1520841"><choice>
+                            <abbr>s<hi rend="superscript">t</hi></abbr>
+                            <expan><choice>
+                                    <orig>s</orig>
+                                    <reg>S</reg>
+                                </choice>ainct</expan>
+                        </choice><choice>
+                            <orig/>
+                            <reg>-</reg>
+                        </choice> Germain <choice>
+                            <orig/>
+                            <reg>-</reg>
+                        </choice>en<choice>
+                            <orig>l</orig>
+                            <reg>-L</reg>
+                        </choice>aie</placeName> o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                    </choice>
+                    <metamark function="insert" target="#f24rop10_nous_et">^</metamark><add
+                        xml:id="f24rop10_nous_et"><metamark>^</metamark> nous luy menasme les <roleName>deput<choice>
+                                <orig>e</orig>
+                                <reg>é</reg>
+                            </choice>s des princes</roleName> et </add> la paix <add
+                        xml:id="f24rop10_y">y</add><substJoin target="#f24rop10_nous_et #f24rop10_y"
+                    /> fut conclu<subst>
+                        <del rend="overwritten">s</del>
+                        <add place="superimposed">e</add>
+                        <del>e</del>
+                    </subst> et selée. </s></p>
+        </body>
+    </text>
+</TEI>

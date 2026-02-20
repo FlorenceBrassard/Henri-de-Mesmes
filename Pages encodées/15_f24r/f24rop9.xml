@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>Le <roleName ref="Q134309">Roy</roleName> y voulut entendre et me choisit <subst>
+                        <del>pour aller traicter a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ec eulx</del>
+                        <add>pour a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ec le<choice>
+                                <abbr><g ref="#dict-glyph">ɠ</g></abbr>
+                                <expan>dict</expan>
+                            </choice>
+                            <choice>
+                                <abbr>S<hi rend="superscript">r</hi></abbr>
+                                <expan>seigneur</expan>
+                            </choice>
+                            <persName ref="Q678012"
+                                ><nameLink>de</nameLink><surname>Biron</surname></persName> les
+                            aller trou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>er et traicter</add>
+                    </subst>.</s></p>
+        </body>
+    </text>
+</TEI>
