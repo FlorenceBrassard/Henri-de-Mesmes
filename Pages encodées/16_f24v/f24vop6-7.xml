@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>Apres la <choice>
+                        <abbr>s<hi rend="superscript">t</hi></abbr>
+                        <expan>sainct</expan>
+                    </choice> B<choice>
+                        <abbr><g ref="#art-glyph">C</g></abbr>
+                        <expan>art</expan>
+                    </choice>elemy<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> qui fut le <date>24 <choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>oust <hi rend="overlined">1572</hi></date><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> le <roleName ref="Q134309">Roy</roleName> me forsa de prendre la
+                    charge du <roleName ref="Q936976">Roy <nameLink>de</nameLink>
+                        <placeName ref="Q111628725"><choice>
+                                <abbr>N<hi rend="superscript">re</hi></abbr>
+                                <expan>Na<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>arre</expan>
+                            </choice></placeName></roleName> et de ses <choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice> et de la <roleName ref="Q220845">Reyne <nameLink>de</nameLink>
+                        <placeName ref="Q111628725">Na<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>arre</placeName></roleName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> ainsy que le contient le <choice>
+                        <abbr><g ref="#bre-glyph">ƀ</g></abbr>
+                        <expan>bre</expan>
+                    </choice>vet du forcé <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g>mand<hi rend="superscript">t</hi></abbr>
+                        <expan>commandement</expan>
+                    </choice> qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en feit<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <metamark function="insert" target="#f24vop6-7_qui_Roy">^</metamark><add
+                        xml:id="f24vop6-7_qui_Roy"><metamark>^</metamark>qui <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>tient mes longs refus et <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>testations et le <roleName ref="Q134309">Roy</roleName><metamark
+                            function="insert" target="#f24vop6-7_desclara_cestoit"
+                        >=</metamark></add>
+                    <addSpan spanTo="#f24vop6-7_cestoit" xml:id="f24vop6-7_desclara_cestoit"
+                        /><metamark>=</metamark>desclara qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il le vouloit et le me <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>manda absoluement.</s><s>
+                    <choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t que c<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estoit <anchor xml:id="f24vop6-7_cestoit"/><del
+                        xml:id="f24vop6-7_et_fut">et ce fut</del>
+                    <substJoin target="#f24vop6-7_desclara_cestoit #f24vop6-7_et_fut"/>
+                    <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> metre poine de les retenir tous<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours en son obeissance.</s></p>
+        </body>
+    </text>
+</TEI>

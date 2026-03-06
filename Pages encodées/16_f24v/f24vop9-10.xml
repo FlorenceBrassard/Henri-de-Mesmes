@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e ne pou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <metamark function="insert" target="#f24vop9-10_et_lors">°-</metamark>
+                    <addSpan spanTo="#f24vop9-10_lors" xml:id="f24vop9-10_et_lors"
+                        /><metamark>°-</metamark> et <del>ad</del> ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oue que <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>me <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ugeois d<choice>
+                        <orig>e</orig>
+                        <reg>è</reg>
+                    </choice>s lors<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> ce me fut <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n rec<del>o</del>ulement et esloignement des <choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice> de <placeName ref="Q142"><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rance</placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                    </choice> ceulx qui estoient apres moy prirent pied cependant.</s>
+                <s><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>ncore que le <persName ref="Q134309"><roleName>Roy</roleName>
+                        <forename><choice>
+                                <orig>c</orig>
+                                <reg>C</reg>
+                            </choice>harles</forename></persName> mon autre bon maistre<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> qui mourut en l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>an <date rend="overlined">1574</date><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit retenu peu de <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant sa mort pour ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ir pres de luy en toutes ses <choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> car il se deffaisoit de ceulx qui les tenoient lors<anchor
+                        xml:id="f24vop9-10_lors"/>.</s></p>
+        </body>
+    </text>
+</TEI>

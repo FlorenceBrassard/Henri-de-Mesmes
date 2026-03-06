@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s>Pour le moins <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e ne <subst xml:id="f24vop11-12_teins_sorty">
+                        <del>te<unclear cert="medium" reason="illegible">in</unclear>s</del>
+                        <add>sorty</add>
+                    </subst><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>amais <del xml:id="f24vop11-12_que_synon">que synon</del>
+                    <substJoin target="#f24vop11-12_teins_sorty #f24vop11-12_que_synon"/> des <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g>mand.<hi rend="superscript">ts</hi></abbr>
+                        <expan>commandements</expan>
+                    </choice> du <roleName ref="Q134309">Roy</roleName>
+                    <add>en ceste charge pres le <roleName ref="Q936976">Roy</roleName> et la
+                            <roleName ref="Q220845"><choice>
+                                <abbr>R<hi rend="superscript">e</hi></abbr>
+                                <expan>reyne</expan>
+                            </choice>
+                            <nameLink>de</nameLink>
+                            <placeName ref="Q111628725"><choice>
+                                    <abbr>N<hi rend="superscript">re</hi></abbr>
+                                    <expan>Na<choice>
+                                            <orig>u</orig>
+                                            <reg>v</reg>
+                                        </choice>arre</expan>
+                                </choice></placeName></roleName></add><choice>
+                        <orig> e</orig>
+                        <reg>. E</reg>
+                    </choice>t apres sa mort <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e les accompaignay <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q456">Lyon</placeName> au de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant du <persName ref="Q53448"><roleName>Roy</roleName>
+                        <forename>Henry</forename></persName> re<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>enant de <placeName ref="Q171348">Poloigne</placeName>
+                    <choice>
+                        <orig/>
+                        <reg>en</reg>
+                    </choice>
+                    <date rend="overlined">1574</date><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <del><add>apres</add></del> o<choice>
+                        <orig>u i</orig>
+                        <reg>ù j</reg>
+                    </choice>e dy en conseil de <subst>
+                        <del>grosse</del>
+                        <add>grande</add>
+                    </subst> compaignée au <roleName ref="Q936976">Roy <nameLink>de</nameLink>
+                        <placeName ref="Q111628725"><choice>
+                                <abbr>N<hi rend="superscript">re</hi></abbr>
+                                <expan>Na<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>arre</expan>
+                            </choice></placeName></roleName> la <roleName ref="Q220845"><choice>
+                            <abbr>R<hi rend="superscript">e</hi></abbr>
+                            <expan><choice>
+                                    <orig>R</orig>
+                                    <reg>r</reg>
+                                </choice>eyne</expan>
+                        </choice> sa femme</roleName>
+                    <choice>
+                        <abbr rend="overlined">prste</abbr>
+                        <expan>presente</expan>
+                    </choice><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e trou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois sa maison sy chargée et engagée qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>y a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit pas plus de <choice>
+                        <orig>Vii <hi rend="supercript">xx</hi> mil <hi rend="supercript"><g
+                                    ref="#livre-glyph">Ł</g>s</hi></orig>
+                        <reg>cent quarante mille livres</reg>
+                    </choice> de re<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>enu charges deduites<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> que sa despense montoit bien deux fois autant et qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estoit en puissance d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>home né d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>y pou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir tenir pied sens malcontantem<unclear cert="high" reason="margin"
+                        >ent</unclear> de touts<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> et peut estre de luy mesme.</s><s>
+                    <choice>
+                        <orig>q</orig>
+                        <reg>Q</reg>
+                    </choice>ue <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois pris sur moy gros deniers <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q90"><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>aris</placeName>
+                    <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> le mener <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>us<choice>
+                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                        <expan>qu</expan>
+                    </choice>es l<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>, pour lesquels on <choice>
+                        <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                        <expan>pro</expan>
+                    </choice>cedoit <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>
+                    <choice>
+                        <abbr>execu<hi rend="overlined">ion</hi></abbr>
+                        <expan>execution</expan>
+                    </choice> sur mes biens <add>car c<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>estoit pres de <choice>
+                            <orig>XL mil <hi rend="supercript"><g ref="#livre-glyph"
+                                >Ł</g>s</hi></orig>
+                            <reg>quarante mille livres</reg>
+                        </choice></add>, et que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e voulois y aller doner ordre.</s></p>
+        </body>
+    </text>
+</TEI>

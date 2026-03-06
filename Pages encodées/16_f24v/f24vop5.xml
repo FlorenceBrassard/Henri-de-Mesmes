@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>q</orig>
+                        <reg>Q</reg>
+                    </choice>uoy que soit <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e puys bien <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>urer y a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir procedé sincerement et dire que <subst>
+                        <del><choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>ai</del>
+                        <add><choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e</add>
+                    </subst> deli<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ray pour ma <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>t <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> ceste fois la <placeName ref="Q142"><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rance</placeName> d<choice>
+                        <orig> </orig>
+                        <reg>'</reg>
+                    </choice>une tres<choice>
+                        <orig/>
+                        <reg> </reg>
+                    </choice>sanglante et tres<choice>
+                        <orig/>
+                        <reg> </reg>
+                    </choice>perilleuse guerre<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> dont <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>espere que les gens de bien me scauront tous<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours gré.</s></p>
+        </body>
+    </text>
+</TEI>
