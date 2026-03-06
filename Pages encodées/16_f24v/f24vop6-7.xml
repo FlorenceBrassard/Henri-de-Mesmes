@@ -96,7 +96,7 @@
                         <reg>'</reg>
                     </choice>estoit <anchor xml:id="f24vop6-7_cestoit"/><del
                         xml:id="f24vop6-7_et_fut">et ce fut</del>
-                    <substJoin target="#f24vop6-7_desclara_cestoit #f24vop6-7_et_fut"/>
+                    <substJoin cert="medium" target="#f24vop6-7_desclara_cestoit #f24vop6-7_et_fut"/>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>

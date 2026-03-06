@@ -57,12 +57,18 @@
                         </choice>rance</placeName> d<choice>
                         <orig> </orig>
                         <reg>'</reg>
-                    </choice>une tres<choice>
+                        </choice>une tr<choice>
+                            <orig>e</orig>
+                            <reg>è</reg>
+                        </choice>s<choice>
                         <orig/>
-                        <reg> </reg>
-                    </choice>sanglante et tres<choice>
+                        <reg>-</reg>
+                        </choice>sanglante et tr<choice>
+                            <orig>e</orig>
+                            <reg>è</reg>
+                        </choice>s<choice>
                         <orig/>
-                        <reg> </reg>
+                        <reg>-</reg>
                     </choice>perilleuse guerre<choice>
                         <orig/>
                         <reg>,</reg>

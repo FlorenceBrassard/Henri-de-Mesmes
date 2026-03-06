@@ -47,11 +47,9 @@
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName> par congé du <roleName ref="Q53448"
-                    >Roy</roleName>, <subst>
-                        <del><unclear cert="low" reason="illegible">en</unclear> a<unclear
-                                cert="low" reason="illegible">u</unclear>s</del>
-                        <add seq="1">ores que ce fust</add>
-                    </subst> a<choice>
+                    >Roy</roleName>, <del><unclear cert="low" reason="illegible">en</unclear>
+                            a<unclear cert="low" reason="illegible">u</unclear>s</del>
+                    <add seq="1">ores que ce fust</add> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec <metamark function="insert" target="#f24vop13_apparent"
@@ -74,7 +72,7 @@
                             </choice></placeName></roleName> qui ne me peurent retenir da<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>antage<supplied reason="margin">.</supplied></s></p>
+                    </choice>antage<supplied cert="high" reason="margin">.</supplied></s></p>
         </body>
     </text>
 </TEI>
