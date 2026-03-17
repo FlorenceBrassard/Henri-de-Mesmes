@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>ussy tost qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>on en pensera a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir descou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ert quelque chose, <del>on</del> sy on ne peut <subst>
+                        <del>rompre voz desseins</del>
+                        <add>sopposer a voz volontez<choice>
+                                <orig/>
+                                <reg>,</reg>
+                        </choice> pour le moins</add>
+                    </subst> on ne m’espargnera pas, et peut estre ne seres vous aussy <del>fort</del> soigneus
+                    de me <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>er que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>auray este de vous <del><choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>com</expan>
+                    </choice>plaire</del> bien ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ir.<choice>
+                        <orig/>
+                        <reg> »</reg>
+                    </choice></s></p>
+        </body>
+    </text>
+</TEI>
