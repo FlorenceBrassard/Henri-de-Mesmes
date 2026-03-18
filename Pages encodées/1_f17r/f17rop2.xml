@@ -49,7 +49,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del facs="#f17rop2_i_en_france" xml:id="f17rop2_en_france"><add>en <placeName><choice>
+            <ab><s><del facs="#f17rop2_i_en_france" xml:id="f17rop2_en_france"><add>en <placeName><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rance</placeName></add></del>
@@ -118,7 +118,7 @@
                     <del>recommandables</del>
                     <add facs="#f17rop2_i_memorables">memorables</add>
                 </subst>. <substJoin target=" #f17rop2_recomander_recommander #f17rop2_memorables"/></s>
-            </p>
+            </ab>
         </body>
     </text>
 </TEI>

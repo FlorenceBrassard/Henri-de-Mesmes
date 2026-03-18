@@ -21,25 +21,14 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><undo target="#f19vop10_la_plus"/><del xml:id="f19vop10_la_plus"><choice>
-                            <orig>la</orig>
-                            <reg>Là</reg>
-                        </choice>
-                        <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e fu examiné et <subst>
-                            <del>receu le</del>
-                            <add seq="1"><choice>
-                                    <orig>i</orig>
-                                    <reg>j</reg>
-                                </choice>ugé capable</add>
-                            <add seq="2"> le</add>
-                        </subst>
-                        <date>17<hi rend="superscript">e</hi>fe<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>eint</add></del>
+            <p><s><choice><orig>m</orig>
+                <reg>M</reg>
+                </choice>ais il en <subst>
+                    <del seq="1">fut</del>
+                    <del seq="2"><add seq="1">de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eint</add></del>
                     <add seq="2">fut</add>
                 </subst> tant plus soigneus de se preser<choice>
                     <orig>u</orig>
@@ -57,7 +46,7 @@
                     <add>ux</add>
                     <del>la</del>
                 </subst> guerre<add xml:id="f17vop2_s1">s</add>
-                <substJoin target=" #f17vop2_a_la_aux #f17vop2_s1"/>.</p>
+                <substJoin target=" #f17vop2_a_la_aux #f17vop2_s1"/>.</s></p>
         </body>
     </text>
 </TEI>
