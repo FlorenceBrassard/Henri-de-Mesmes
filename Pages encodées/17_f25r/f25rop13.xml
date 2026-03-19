@@ -27,13 +27,13 @@
                     </choice>ussy tost qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>on pensera a<choice>
+                    </choice>on en pensera a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir descou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ert quelque chose <del>on</del> sy on ne peut <subst>
+                    </choice>ert quelque chose, <del>on</del> sy on ne peut <subst>
                         <del>rompre voz desseins </del>
                         <add>s<choice>
                                 <orig/>
@@ -42,7 +42,7 @@
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice> voz volontez<choice>
-                                <orig></orig>
+                                <orig/>
                                 <reg>,</reg>
                             </choice> pour le moins</add>
                     </subst> on ne m'espargnera pas, et peut estre ne sere<choice>
@@ -58,13 +58,13 @@
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>auray este de vous <del><choice>
-                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                        <expan>con</expan>
-                    </choice>plaire</del> bien ser<choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>plaire</del> bien ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ir.<choice>
-                        <orig> </orig>
+                        <orig/>
                         <reg> »</reg>
                     </choice>
                 </s></ab>

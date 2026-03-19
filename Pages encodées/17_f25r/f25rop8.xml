@@ -71,7 +71,8 @@
                     </choice>vous<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> sire<choice>
+                    </choice>
+                    <roleName ref="Q53448"> sire</roleName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> que vous me faictes <choice>

@@ -39,16 +39,17 @@
                     </choice>a on <subst>
                         <del>regarde</del>
                         <add>escoute</add>
-                    </subst>
-                    <del xml:id="f25rop12_ce_de"> ce que <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e re<choice>
-                            <orig>c</orig>
-                            <reg>ç</reg>
-                        </choice>oy icy de</del>
-                    <add xml:id="f25rop12_quels"> quels</add> commandement<add xml:id="f25rop12_s"
-                        >s</add>
+                    </subst> 
+                    <subst xml:id="f25rop12_ce_quels">
+                        <del>ce que <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e re<choice>
+                                <orig>c</orig>
+                                <reg>ç</reg>
+                            </choice>oy icy de</del>
+                        <add>quels</add>
+                    </subst> commandement<add xml:id="f25rop12_s">s</add>
                     <subst xml:id="f25rop12_et_icy">
                         <del>et ceste sy</del>
                         <add><del>on</del>
@@ -60,8 +61,8 @@
                                 <reg>ç</reg>
                             </choice>oy icy</add>
                     </subst><substJoin
-                        target="#f25rop12_ce_de #f25rop12_quels #f25rop12_s #f25rop12_et_icy"
-                    /> de vous, et quels peu<choice>
+                        target="#f25rop12_ce_de #f25rop12_quels #f25rop12_s #f25rop12_et_icy"/> de
+                    vous, et quels peu<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ent estre les sub<choice>

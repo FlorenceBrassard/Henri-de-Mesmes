@@ -51,10 +51,10 @@
                     </choice>ec cela luy rendre <add>ancore</add> autres <choice>
                         <abbr><g ref="#ser-glyph">Ꞩ</g></abbr>
                         <expan>ser<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice></expan>
-                    </choice>ices assidus et <choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                        </choice>ices</expan>
+                    </choice> assidus et <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>ticuliers, et me deffendre de l<choice>
