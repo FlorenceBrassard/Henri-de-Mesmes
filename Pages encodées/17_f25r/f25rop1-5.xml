@@ -25,7 +25,7 @@
                         <orig/>
                         <reg>'</reg>
                     </choice><choice>
-                        <abbr>ã</abbr>
+                        <abbr rend="overlined">a</abbr>
                         <expan>an</expan>
                     </choice>
                     <date rend="overlined">1575</date>
@@ -61,10 +61,10 @@
                         target="#f25rop1-5_veint1 #f25rop1-5_et_passa #f25rop1-5_veint2_add"/>
                     <substJoin seq="3"
                         target="#f25rop1-5_veint2_del #f25rop1-5_fut #f25rop1-5_metamark #f25rop1_5_en_demy"/>
-                    <choice>
+                    <restore resp="AVFB"><del><choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice>
+                    </choice></del></restore>
                     <placeName ref="Q680463">Roissy</placeName><choice>
                         <orig/>
                         <reg>,</reg>

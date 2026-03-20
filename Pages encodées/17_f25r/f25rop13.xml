@@ -46,9 +46,9 @@
                                 <reg>,</reg>
                             </choice> pour le moins</add>
                     </subst> on ne m'espargnera pas, et peut estre ne sere<choice>
-                        <orig>s</orig>
-                        <reg>z</reg>
-                    </choice> vous aussy soigneus de me <choice>
+                        <orig>s </orig>
+                        <reg>z-</reg>
+                    </choice>vous aussy soigneus de me <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
                     </choice>ser<choice>
