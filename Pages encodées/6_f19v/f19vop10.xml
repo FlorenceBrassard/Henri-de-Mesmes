@@ -22,30 +22,30 @@
     <text>
         <body>
             <p><s><metamark function="undo" rend="a_decrire"/><undo target="#f19vop10_la_plus"/><del
-                        xml:id="f19vop10_la_plus"><choice>
-                            <orig>la</orig>
-                            <reg>Là</reg>
-                        </choice>
-                        <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e fu examiné et <subst>
-                            <del>receu le</del>
-                            <add seq="1"><choice>
-                                    <orig>i</orig>
-                                    <reg>j</reg>
-                                </choice>ugé capable</add>
-                            <add seq="2"> le</add>
-                        </subst>
-                        <date>17<hi rend="superscript">e</hi>fe<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>rier <hi rend="overlined">1551</hi></date>
-                        <add>agé de <choice>
-                                <orig>xx</orig>
-                                <reg>20</reg>
-                            </choice> ans ou peu plus</add>.</del>
-                </s></p>
+                xml:id="f19vop10_la_plus"><choice>
+                    <orig>la</orig>
+                    <reg>Là</reg>
+                </choice>
+                <choice>
+                    <orig>i</orig>
+                    <reg>j</reg>
+                </choice>e fu examiné et <subst>
+                    <del>receu le</del>
+                    <add seq="1"><choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ugé capable</add>
+                    <add seq="2"> le</add>
+                </subst>
+                <date>17<hi rend="superscript">e</hi>fe<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>rier <hi rend="overlined">1551</hi></date>
+                <add>agé de <choice>
+                    <orig>xx</orig>
+                    <reg>20</reg>
+                </choice> ans ou peu plus</add>.</del>
+            </s></p>
         </body>
     </text>
 </TEI>

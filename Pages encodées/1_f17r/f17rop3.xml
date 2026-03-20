@@ -52,88 +52,88 @@
     <text>
         <body>
             <ab><s><del facs="#f17rop3_i_en_france" xml:id="f17rop3_en_france"><add>en <placeName
-                ref="Q142"><choice>
-                    <orig>f</orig>
-                    <reg>F</reg>
-                </choice>rance</placeName></add></del>
-                <choice>
-                    <orig>m</orig>
-                    <reg>M</reg>
-                </choice>aintenant ce n'est plus la mode <choice>
-                    <orig>,.</orig>
-                    <reg>;</reg>
-                </choice>
-                <del>Aussy ne voy <choice>
-                    <orig>i</orig>
-                    <reg>j</reg>
-                </choice>e pas que les esprits norrys en un <choice>
-                    <orig>R</orig>
-                    <reg>r</reg>
-                </choice>oyaume <unclear reason="deleted"
-                    ><del><metamark>+</metamark></del></unclear>, mesmement en robe longue,
-                    se puissent guiere</del>
-                <del facs="#f17rop3_i_et_guiere" xml:id="f17rop3_et_guiere_del"><add
-                    xml:id="f17rop3_et_guiere_add">et ceulx qui ont les armes en <placeName
-                        ref="Q142"><choice>
-                            <orig>f</orig>
-                            <reg>F</reg>
-                        </choice>rance</placeName>, n'escrivent guiere</add></del><add
-                            facs="#f17rop3_i_en_guieres" xml:id="f17rop3_en_guieres">En <placeName
                                 ref="Q142"><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
-                                </choice>rance</placeName> ceulx qui <subst>
-                                    <del>manient</del>
-                                    <add>ont</add>
-                                </subst> les armes, <del facs="#f17rop3_i_mesprisent_guieres"
-                                    xml:id="f17rop3_mesprisent_guieres">mesprisent presque touts les letres,
-                                    et n<choice>
-                                        <orig/>
-                                        <reg>'</reg>
-                                    </choice>escrivent guieres.</del></add>
-                <add facs="#f17rop3_i_nusent_chapeaus" xml:id="f17rop3_nusent_chapeaus">n<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>usent guiere de plumes qu'<choice>
-                    <orig>a</orig>
-                    <reg>à</reg>
-                </choice>leurs chapeaus</add>
-                <substJoin seq="1" target="#f17rop3_en_france #f17rop3_et_guiere_add"/>
-                <substJoin seq="2" target="#f17rop3_et_guiere_del #f17rop3_en_guieres"/>
-                <substJoin seq="3" target="#f17rop3_mesprisent_guieres #f17rop3_nusent_chapeaus"
-                /> et <subst>
-                    <del facs="#f17rop3_i_je_ne #f17rop3_i_voy_come #f17rop3_i_les_robe"><add
-                        seq="1" xml:id="f17rop3_ie_longue"><choice>
+                                </choice>rance</placeName></add></del>
+                    <choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                    </choice>aintenant ce n'est plus la mode <choice>
+                        <orig>,.</orig>
+                        <reg>;</reg>
+                    </choice>
+                    <del>Aussy ne voy <choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>e ne voy pas <add seq="2" xml:id="f17rop3_come">come</add>
-                        les gens de robe longue</add></del>
-                    <add
-                        facs=" #f17rop3_i_ceux #f17rop3_i_robes_longues #f17rop3_i_nont_moyen #f17rop3_i_de_recomander"
-                        xml:id="f17rop3_ceulx_recõmander" seq="3">
-                        <subst xml:id="f17rop3_ceulx_les">
-                            <del facs="#f17rop3_i_ceux">ceulx de</del>
-                            <add facs="#f17rop3_i_les1">les</add>
-                        </subst> robe<add facs="#f17rop3_i_s1" xml:id="f17rop3_s_1">s</add>
-                        longue<add facs="#f17rop3_i_s2" xml:id="f17rop3_s_2">s</add>n<choice>
+                        </choice>e pas que les esprits norrys en un <choice>
+                            <orig>R</orig>
+                            <reg>r</reg>
+                        </choice>oyaume <unclear reason="deleted"
+                            ><del><metamark>+</metamark></del></unclear>, mesmement en robe longue,
+                        se puissent guiere</del>
+                    <del facs="#f17rop3_i_et_guiere" xml:id="f17rop3_et_guiere_del"><add
+                            xml:id="f17rop3_et_guiere_add">et ceulx qui ont les armes en <placeName
+                                ref="Q142"><choice>
+                                    <orig>f</orig>
+                                    <reg>F</reg>
+                                </choice>rance</placeName>, n'escrivent guiere</add></del><add
+                        facs="#f17rop3_i_en_guieres" xml:id="f17rop3_en_guieres">En <placeName
+                            ref="Q142"><choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>rance</placeName> ceulx qui <subst>
+                            <del>manient</del>
+                            <add>ont</add>
+                        </subst> les armes, <del facs="#f17rop3_i_mesprisent_guieres"
+                            xml:id="f17rop3_mesprisent_guieres">mesprisent presque touts les letres,
+                            et n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>escrivent guieres.</del></add>
+                    <add facs="#f17rop3_i_nusent_chapeaus" xml:id="f17rop3_nusent_chapeaus">n<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>ont pas moien <del facs="#f17rop3_i_de_recomander"
-                            xml:id="f17rop3_de_recõmander_del">de se rec<choice>
-                                <abbr>õ</abbr>
-                                <expan>om</expan>
-                            </choice>mander</del></add>
-                </subst>
-                <substJoin target="#f17rop3_ceulx_les #f17rop3_s_1 #f17rop3_s_2"/>
-                <del facs=" #f17rop3_i_s_esleuer" xml:id="f17rop3_s_eslever"><add
-                    facs="#f17rop3_i_s3" seq="2" xml:id="f17rop3_s_3">s'</add>eslever</del>
-                <substJoin seq="4" target="#f17rop3_ie_longue #f17rop3_s_3"/>
-                <substJoin seq="5"
-                    target=" #f17rop3_ceulx_recõmander #f17rop3_s_eslever #f17rop3_recommandables_memorables"/>
-                <substJoin seq="6"
-                    target="#f17rop3_de_recõmander_del #f17rop3_de_recommander_add"/>
-                <add facs="#f17rop3_i_de_recommander" xml:id="f17rop3_de_recommander_add">de se
-                    recommander</add> par faicts <subst
+                        </choice>usent guiere de plumes qu'<choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>leurs chapeaus</add>
+                    <substJoin seq="1" target="#f17rop3_en_france #f17rop3_et_guiere_add"/>
+                    <substJoin seq="2" target="#f17rop3_et_guiere_del #f17rop3_en_guieres"/>
+                    <substJoin seq="3" target="#f17rop3_mesprisent_guieres #f17rop3_nusent_chapeaus"
+                    /> et <subst>
+                        <del facs="#f17rop3_i_je_ne #f17rop3_i_voy_come #f17rop3_i_les_robe"><add
+                                seq="1" xml:id="f17rop3_ie_longue"><choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>e ne voy pas <add seq="2" xml:id="f17rop3_come">come</add>
+                                les gens de robe longue</add></del>
+                        <add
+                            facs=" #f17rop3_i_ceux #f17rop3_i_robes_longues #f17rop3_i_nont_moyen #f17rop3_i_de_recomander"
+                            xml:id="f17rop3_ceulx_recõmander" seq="3">
+                            <subst xml:id="f17rop3_ceulx_les">
+                                <del facs="#f17rop3_i_ceux">ceulx de</del>
+                                <add facs="#f17rop3_i_les1">les</add>
+                            </subst> robe<add facs="#f17rop3_i_s1" xml:id="f17rop3_s_1">s</add>
+                                longue<add facs="#f17rop3_i_s2" xml:id="f17rop3_s_2">s</add>n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>ont pas moien <del facs="#f17rop3_i_de_recomander"
+                                xml:id="f17rop3_de_recõmander_del">de se rec<choice>
+                                    <abbr>õ</abbr>
+                                    <expan>om</expan>
+                                </choice>mander</del></add>
+                    </subst>
+                    <substJoin target="#f17rop3_ceulx_les #f17rop3_s_1 #f17rop3_s_2"/>
+                    <del facs=" #f17rop3_i_s_esleuer" xml:id="f17rop3_s_eslever"><add
+                            facs="#f17rop3_i_s3" seq="2" xml:id="f17rop3_s_3">s'</add>eslever</del>
+                    <substJoin seq="4" target="#f17rop3_ie_longue #f17rop3_s_3"/>
+                    <substJoin seq="5"
+                        target=" #f17rop3_ceulx_recõmander #f17rop3_s_eslever #f17rop3_recommandables_memorables"/>
+                    <substJoin seq="6"
+                        target="#f17rop3_de_recõmander_del #f17rop3_de_recommander_add"/>
+                    <add facs="#f17rop3_i_de_recommander" xml:id="f17rop3_de_recommander_add">de se
+                        recommander</add> par faicts <subst
                         xml:id="f17rop3_recommandables_memorables">
                         <del>recommandables</del>
                         <add facs="#f17rop3_i_memorables">memorables</add>

@@ -70,12 +70,14 @@
             </choice>ilz a<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>oient aimez : <del facs="#f17rop1_i_et_ont #f17rop1_i_composé_propre"
-               xml:id="f17rop1_et_propre">et aucuns ont composé la leur propre </del> <del
-               rend="unmarked" xml:id="f17rop1_deux_points">:</del>
-            <substJoin
-               target="#f17rop1_la_leurs #f17rop1_s_1 #ou #f17rop1_metamark_2 #f17rop1_et_propre #deux_points"
-            /> c'estoi<del facs="#f17rop1_i_en" xml:id="f17rop1_en">en</del>
+            </choice>oient aimez <del rend="unmarked" xml:id="f17rop1_deux_points">:</del>
+            <del facs="#f17rop1_i_et_ont #f17rop1_i_composé_propre" xml:id="f17rop1_et_propre">et
+               aucuns ont composé la leur propre</del>. <substJoin
+               target="#f17rop1_la_leurs #f17rop1_s_1 #ou #f17rop1_metamark_2 #f17rop1_et_propre #f17rop1_deux_points"/>
+            <choice>
+               <orig>c</orig>
+               <reg>C</reg>
+            </choice>'estoi<del facs="#f17rop1_i_en" xml:id="f17rop1_en">en</del>
             <subst facs="#f17rop1_i_t_ent" xml:id="f17rop1_t_ent">
                <del rend="unmarked">t</del>
                <add>ent</add>
