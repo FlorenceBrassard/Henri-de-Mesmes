@@ -21,7 +21,23 @@
     </teiHeader>
     <text>
         <body>
-            <p><s></s></p>
+            <p><s><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                    </choice>l est vray que la <choice>
+                        <abbr>s<hi rend="superscript">t</hi></abbr>
+                        <expan>sainct</expan>
+                    </choice> Barthelemy la rompit au bout de deux ans et est bien vray aussy ce qu <choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>on dict<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> que les grands empires ne sont <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>amais lonnguement en repos<supplied reason="margin"
+                >.</supplied></s></p>
         </body>
     </text>
 </TEI>

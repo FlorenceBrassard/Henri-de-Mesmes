@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t</del>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>pres qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il se fu<subst>
+                        <del rend="overwritten">s</del>
+                        <add place="superimposed">t</add>
+                    </subst>
+                    <del>asses</del> ou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ert <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> moy des <choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice> qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit lors <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> cueur <choice>
+                        <orig>i</orig>
+                        <reg>, j</reg>
+                    </choice>e luy d<subst>
+                        <del rend="overwritten">i</del>
+                        <add place="superimposed">y</add>
+                    </subst><choice>
+                        <orig>s</orig>
+                        <reg> : « S</reg>
+                    </choice>ou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ene<choice>
+                        <orig>s</orig>
+                        <reg>z-</reg>
+                    </choice>vous<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <roleName ref="Q53448"> sire</roleName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> que vous me faictes <choice>
+                        <abbr>fe<hi rend="superscript">r</hi></abbr>
+                        <expan>faire</expan>
+                    </choice> le sault perilleus<del>s</del>.</s></ab>
+        </body>
+    </text>
+</TEI>

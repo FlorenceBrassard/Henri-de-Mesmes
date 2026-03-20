@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><s><choice>
+                        <orig>i</orig>
+                        <reg>J</reg>
+                    </choice>e pris ce pretexte pour me retirer peu <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> peu<choice>
+                        <orig> a</orig>
+                        <reg>. A</reg>
+                    </choice>ussy estoient passez les deux ans que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e leur avois <choice>
+                        <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                        <expan>pro</expan>
+                    </choice>mis et m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en veins <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName ref="Q90"><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>aris</placeName> par congé du <roleName ref="Q53448"
+                    >Roy</roleName>, <del><unclear cert="low" reason="illegible">en</unclear>
+                            a<unclear cert="low" reason="illegible">u</unclear>s</del>
+                    <add seq="1">ores que ce fust</add> a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec <metamark function="insert" target="#f24vop13_apparent"
+                        >^</metamark><add seq="2" xml:id="f24vop13_apparent"><metamark>^</metamark>
+                        apparent</add> regret du <roleName ref="Q936976">Roy</roleName> et de la
+                        <roleName ref="Q220845"><choice>
+                            <abbr>R<hi rend="superscript">e</hi></abbr>
+                            <expan><choice>
+                                    <orig>R</orig>
+                                    <reg>r</reg>
+                                </choice>eyne</expan>
+                        </choice>
+                        <nameLink>de</nameLink>
+                        <placeName ref="Q111628725"><choice>
+                                <abbr>N<hi rend="superscript">re</hi></abbr>
+                                <expan>Na<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>arre</expan>
+                            </choice></placeName></roleName> qui ne me peurent retenir da<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>antage<supplied cert="high" reason="margin">.</supplied></s></p>
+        </body>
+    </text>
+</TEI>

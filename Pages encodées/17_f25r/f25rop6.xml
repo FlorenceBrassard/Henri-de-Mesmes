@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s>Je luy demanday sy ce n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estoit pas asses de le ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ir en son conseil d<choice>
+                        <orig>e</orig>
+                        <reg>'E</reg>
+                    </choice>stat et aux charges <choice>
+                        <abbr>ord<hi rend="superscript">res</hi></abbr>
+                        <expan>ordinaires</expan>
+                    </choice> qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il me donoit, n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estimant pas a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir asses de suffisance <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec cela luy rendre <add>ancore</add> autres <choice>
+                        <abbr><g ref="#ser-glyph">Ꞩ</g></abbr>
+                        <expan>ser<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                        </choice>ices</expan>
+                    </choice> assidus et <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>ticuliers, et me deffendre de l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ie que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oi tous<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours eu au visage en le ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant.</s></ab>
+        </body>
+    </text>
+</TEI>
