@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t </del><choice>
+                        <orig>i</orig>
+                        <reg>J</reg>
+                    </choice>e ne tairay pas que le <roleName>Roy</roleName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> qui dez <subst>
+                        <del>quel<choice>
+                                <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                                <expan>que</expan>
+                            </choice>s années</del>
+                        <add>longtemps</add>
+                    </subst>m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit voulu doner <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n office de president <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName>Paris</placeName>
+                    <subst>
+                        <del>dont <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>excusois tous<choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>ours</del>
+                        <add>et m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>en a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit tous<choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>ours trou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>é esloigné</add>
+                    </subst><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> me <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>traignit de prendre au lieu de <subst>
+                        <del>ce don</del>
+                        <add>cela</add>
+                    </subst>xx mil <hi rend="superscript">Łs</hi> qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il luy pleut <subst>
+                        <del cert="medium" rend="unmarked">me doner</del><add>m<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>en<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oier <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>us<choice>
+                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                        <expan>que</expan>
+                    </choice>s dens mon cofre a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant me dire que c<choice>
+                        <orig></orig>
+                        <reg>'</reg>
+                    </choice>estoit <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> moy</add>
+                    </subst>.</s></ab>
+        </body>
+    </text>
+</TEI>

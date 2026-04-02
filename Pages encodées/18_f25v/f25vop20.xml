@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>y</orig>
+                        <reg>Y</reg>
+                    </choice>a il plainte de moy de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant <choice>
+                        <abbr>u</abbr>
+                        <expan>v</expan>
+                    </choice>ant <roleName><choice>
+                            <abbr rend="overlined">vre M.<hi rend="superscript">té</hi></abbr>
+                            <expan>vostre Majesté</expan>
+                        </choice></roleName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> dites le moy s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il vous plaist<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> car <pb/><add><choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                    </choice>e</add> vous esclairciray a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant <del>me</del> partir de ceste posture o<choice>
+                            <orig>u</orig>
+                            <reg>ù</reg>
+                        </choice>
+                        <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e su<subst>
+                            <del rend="overwritten">i</del>
+                            <add place="superimposed">y</add>
+                        </subst>s et sy apres ma deffense vous me trou<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>e<choice>
+                            <orig>s</orig>
+                            <reg>z</reg>
+                        </choice>
+                        <del>en faulte</del>
+                        <subst>
+                            <del rend="overwritten"><gap unit="char" quantity="2"/></del>
+                            <add>coul</add>
+                        </subst>pable, <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e ne vi<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ray plus une heure apres.<choice>
+                            <orig></orig>
+                            <reg> »</reg>
+                        </choice>
+                  </s></ab>
+        </body>
+    </text>
+</TEI>
