@@ -24,13 +24,16 @@
             <ab><s>Que pou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-            </choice>ois<choice>
-                <orig> i</orig>
-                <reg> -j</reg>
-            </choice>e synon luy <subst><del><choice>
-                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                <expan>com</expan>
-            </choice>plaire</del><add>obeir</add></subst> ! </s></ab>
+                    </choice>ois<choice>
+                        <orig> i</orig>
+                        <reg> -j</reg>
+                    </choice>e synon luy <subst>
+                        <del><choice>
+                                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                                <expan>com</expan>
+                            </choice>plaire</del>
+                        <add>obeir</add>
+                    </subst> ! </s></ab>
         </body>
     </text>
 </TEI>

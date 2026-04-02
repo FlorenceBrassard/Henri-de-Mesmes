@@ -22,15 +22,18 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig>e</orig>
-                        <reg>E</reg>
-                    </choice>t <subst>
-                        <del>ch<unclear reason="deleted">acun</unclear></del>
-                        <add>plusieurs</add>
-                    </subst> metoient poine de m'a<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>oir pour amy.</s></ab>
+                        <orig>i</orig>
+                        <reg>I</reg>
+            </choice>l sembloit que <choice>
+                <orig>i</orig>
+                <reg>j'</reg>
+            </choice>a<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>ois part en sa bone grace, et quelque fa<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>eur interieure. </s></ab>
         </body>
     </text>
 </TEI>

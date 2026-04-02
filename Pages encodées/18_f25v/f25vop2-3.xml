@@ -36,7 +36,7 @@
                                 <reg>v</reg>
                             </choice>arice</del>
                         <add>autre cupidité</add>
-                    </subst><restore><del>.</del></restore>
+                    </subst><restore resp="AVFB"><del>.</del></restore></s><s>
                     <del><choice>
                             <orig>c</orig>
                             <reg>C</reg>
@@ -45,12 +45,16 @@
                         <orig>c</orig>
                         <reg>C</reg>
                     </choice>e sont<choice>
-                        <orig></orig>
+                        <orig/>
                         <reg>,</reg>
-                    </choice> ce dict on<choice>
-                        <orig></orig>
+                    </choice> ce dict<choice>
+                        <orig> </orig>
+                        <reg>-</reg>
+                    </choice>on<choice>
+                        <orig/>
                         <reg>,</reg>
-                    </choice> <subst>
+                    </choice>
+                    <subst>
                         <del>vices</del>
                         <add>les fleaus</add>
                     </subst> des grands esprits, <subst>
@@ -76,8 +80,7 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>est</add>
-                    </subst> pas grand.
-                </s></ab>
+                    </subst> pas grand. </s></ab>
         </body>
     </text>
 </TEI>

@@ -21,24 +21,75 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig>e</orig>
-                        <reg>E</reg>
-                    </choice>t certes <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e y trou<choice>
+            <ab><s><add><choice>
+                            <orig>q</orig>
+                            <reg>Q</reg>
+                        </choice></add><choice>
+                        <orig>o</orig>
+                        <reg>O</reg>
+                    </choice>n se ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ois le <roleName>Roy</roleName> fort <subst>
-                        <del>disposé ;</del><add>enclin.</add>
-                    </subst></s><s><choice>
-                        <orig>t</orig>
-                        <reg>T</reg>
-                    </choice>oute l<choice>
-                        <orig></orig>
-                        <reg>'</reg>
-                    </choice>année passa ainsy.</s></ab>
+                    </choice>oit <subst>
+                            <del><add>que</add></del>
+                            <add>seulement</add>
+                        </subst> de mon ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>is <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice><subst><del>les effectuer, en quoy sy <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e ne <del xml:id="f25vop5_les">les</del> rompois <add
+                        xml:id="f25vop5_ce_faire">ce qui ne me sembloit se de<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oir faire</add></del><add>a l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice><choice>
+                            <abbr>exec<hi rend="overlined">uon</hi></abbr>
+                            <expan>execution</expan>
+                            </choice></add></subst><substJoin target="#f25vop5_les #f25vop5_ce_faire"
+                    />, <del>pour</del>
+                    <del>au moins essaiois<choice>
+                            <orig> i</orig>
+                            <reg>-j</reg>
+                        </choice>e de les rendre moins</del>
+                    <choice>
+                        <orig>d</orig>
+                        <reg>. D</reg>
+                    </choice>ieu soit loué <del><choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e n<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>ay <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>amais</del>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e tirois <subst>
+                        <del><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>mon pou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir</del>
+                        <add><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>mon pou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir</add>
+                    </subst> les choses resolues, au pied de la raison</s></ab>
         </body>
     </text>
 </TEI>
