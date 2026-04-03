@@ -45,23 +45,26 @@
                     </choice> en a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir rente. </s><metamark function="insertion"
-                    target="#f25vo_13-17_vous_crainte">#</metamark><add
-                    xml:id="f25vo_13-17_vous_crainte"><metamark>#</metamark><s><choice>
+                    </choice>oir rente. </s><metamark function="insert"
+                    target="#f25vo_14-18_vous_crainte">#</metamark><add
+                    xml:id="f25vo_14-18_vous_crainte"><metamark>#</metamark><s><choice>
                             <orig>v</orig>
                             <reg>V</reg>
-                        </choice>ous croirez come de moy <choice>
+                        </choice>ous croire<choice>
+                            <orig>s</orig>
+                            <reg>z</reg>
+                        </choice> come de moy <choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice> vous qu'en toute cete vie <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
+                        </choice> vous qu'en toute cete vie<choice>
+                            <orig> i</orig>
+                            <reg>, j</reg>
                         </choice>e ne souhaitois autre bien que la maison. </s><s><choice>
                             <orig>e</orig>
                             <reg>E</reg>
-                        </choice>t de cete fausse felicité que les autres vont recerchans <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
+                        </choice>t de cete fausse felicité que les autres vont recerchans<choice>
+                            <orig> i</orig>
+                            <reg>, j</reg>
                         </choice>e n<choice>
                             <orig/>
                             <reg>'</reg>
@@ -71,9 +74,11 @@
                         </choice>amais <subst>
                             <del>affecté</del>
                             <add>gousté</add>
-                        </subst> plus grand fruict que le mespris dicelle. </s><s>Je discourois en
-                        moymesme combien la <choice>
-                            <abbr>b.</abbr>
+                        </subst> plus grand fruict que le mespris d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>icelle. </s><s>Je discourois en moymesme combien la <choice>
+                            <abbr><unclear cert="high">b.</unclear></abbr>
                             <expan>bone</expan>
                         </choice> grace d<choice>
                             <orig/>
@@ -105,28 +110,34 @@
                         </choice>appellent les grandes charges. </s><s><choice>
                             <orig>e</orig>
                             <reg>E</reg>
-                        </choice>t come <del>les</del> aucuns aians le Roy <choice>
+                        </choice>t come <del>les</del> aucuns aians le <roleName ref="Q53448"
+                            >Roy</roleName>
+                        <choice>
                             <abbr>po<hi rend="superscript">r</hi></abbr>
                             <expan>pour</expan>
                         </choice> eulx n<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>ont peur de rien, moy au  <choice>
+                        </choice>ont peur de rien, moy au <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>con</expan>
                         </choice>traire a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                            </choice>ois peur de tout et l<choice>
-                            <orig></orig>
+                        </choice>ois peur de tout<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> et l<choice>
+                            <orig/>
                             <reg>'</reg>
-                            </choice><choice>
-                                <abbr>ord<hi rend="superscript">re</hi></abbr>
-                                <expan>ordinaire</expan>
-                            </choice><choice>
-                                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                                <expan>com</expan>
-                            </choice>paigne de la grande fortune m'estoit la grande crainte. </s></add></ab>
+                        </choice><choice>
+                            <abbr>ord<hi rend="superscript">re</hi></abbr>
+                            <expan>ordinaire</expan>
+                        </choice><choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>paigne de la grande fortune m'estoit la grande crainte.
+                </s></add></ab>
         </body>
     </text>
 </TEI>

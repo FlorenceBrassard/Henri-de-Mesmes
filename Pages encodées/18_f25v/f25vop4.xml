@@ -51,26 +51,27 @@
                     </subst> d'affection que de sub<choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ection<del rend="unmarked">,</del><del><metamark function="insertion"
-                            >#</metamark><add xml:id="f25vop4_en_ducs">en ceste année le
-                                <roleName>Roy</roleName> feit les mariages <add xml:id="f25vop4_d"
-                                >d</add>e<subst>
+                    </choice>ection<choice>
+                        <orig>,</orig>
+                        <reg>.</reg>
+                    </choice><del><metamark function="insert">#</metamark><add
+                        xml:id="f25vop4_en_ducs">en <date when="1581"
+                            >ceste année</date> le <roleName ref="Q53448">Roy</roleName> feit
+                            les mariages <add xml:id="f25vop4_d">d</add>e<subst xml:id="f25vop4_t_s">
                                 <del rend="overwritten">t</del>
-                                <add place="superimposed" xml:id="f25vop4_s">s</add>
-                            </subst><add xml:id="f25vop4_srs_Joy"><choice>
+                                <add place="superimposed">s</add>
+                            </subst><del><add xml:id="f25vop4_srs_Joy"><choice>
                                     <abbr>s<hi rend="superscript">rs</hi></abbr>
-                                    <expan>sieurs</expan>
+                                    <expan>seigneurs</expan>
                                 </choice>
-                                <persName><nameLink>de</nameLink>
+                                <persName ref="Q565927"><nameLink>de</nameLink>
                                     <surname>Joy</surname></persName>
-                            </add><substJoin target="#f25vop4_d #f25vop4_s #f25vop4_srs_Joy"/> les
+                            </add></del><substJoin target="#f25vop4_d #f25vop3_t_s #f25vop4_srs_Joy"/> les
                             erections <choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
-                            </choice> ducs</add></del><choice>
-                        <orig/>
-                        <reg>.</reg>
-                    </choice></s></ab>
+                            </choice> ducs</add></del><del>et de fidelité que de
+                felicité.</del></s></ab>
         </body>
     </text>
 </TEI>

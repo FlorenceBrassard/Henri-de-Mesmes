@@ -27,22 +27,22 @@
                         </choice>oila</del>
                     <subst>
                         <del rend="unmarked"><add>Mais</add></del>
-                        <add xml:id="f25vop18_Or"><metamark>^</metamark>Or</add>
-                    </subst><metamark function="insertion" target="#f25vop18_Or">^</metamark><choice>
+                        <add xml:id="f25vop19_Or"><metamark>^</metamark>Or</add>
+                    </subst><metamark function="insert" target="#f25vop19_Or">^</metamark><choice>
                         <orig>L</orig>
                         <reg>l</reg>
-                    </choice>e <date>17<hi rend="superscript">e</hi>
+                    </choice>e <date when="1582-01-17">17<hi rend="superscript">e</hi>
                         <choice>
-                            <orig>j</orig>
-                            <reg>J</reg>
+                            <orig>J</orig>
+                            <reg>j</reg>
                         </choice>an<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ier <hi rend="overlined">1562</hi>.</date> le
-                        <roleName>Roy</roleName> m<choice>
+                        </choice>ier <hi rend="overlined">1562</hi>.</date> le <roleName
+                        ref="Q53448">Roy</roleName> m<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>appela en son cabinet et me dit qu<choice>
+                    </choice>appella en son cabinet et me dit qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il <subst>
@@ -57,19 +57,21 @@
                     </choice>tantement <subst>
                         <del>de<add seq="2">s</add> mo<subst>
                                 <del rend="overwritten">y</del>
-                                <add place="superimposed" seq="1" xml:id="f25vop18_n">n</add>
+                                <add place="superimposed" seq="1" xml:id="f25vop19_n">n</add>
                             </subst>
-                            <add seq="1" xml:id="f25vop18_entremise"><metamark>^</metamark>
+                            <add seq="1" xml:id="f25vop19_entremise"><metamark>^</metamark>
                                 entremise</add></del>
-                        <add seq="3" xml:id="f25vop18_de_que">de ce que</add>
-                    </subst><substJoin target="#f25vop18_n #f25vop18_entremise"/>
-                    <del xml:id="f25vop18_et_que">et que</del><substJoin
-                        target="#f25vop18_de_que #f25vop18_et_que"/> ses <subst>
+                        <add seq="3" xml:id="f25vop19_de_que">de ce que</add>
+                    </subst><substJoin target="#f25vop19_n #f25vop19_entremise"/>
+                    <del rend="unmarked" xml:id="f25vop19_metamark"><metamark function="insert"
+                            target="#f25vop19_entremise">^</metamark></del><del
+                        xml:id="f25vop19_et_que">et que</del><substJoin
+                        target="#f25vop19_de_que #f25vop19_et_que #f25vop19_metamark"/> ses <subst>
                         <del>secrets</del>
                         <add>pri<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>ez</add>
+                                <orig>ue</orig>
+                                <reg>vé</reg>
+                            </choice>s</add>
                     </subst><choice>
                         <abbr>afe<hi rend="superscript">r</hi>s</abbr>
                         <expan>afaires</expan>
@@ -77,39 +79,38 @@
                     <del>et <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>con</expan>
-                        </choice>seils</del><subst xml:id="f25vop18_vouloient_pas">
-                        <del><unclear>vo</unclear>uloient estre</del>
-                        <add><del xml:id="f25vop18_nestoient_pas">n<choice>
-                                    <orig/>
-                                    <reg>'</reg>
-                                </choice>estoient pas</del></add>
-                    </subst><subst xml:id="f25vop18_maniez_desiroit">
-                        <del seq="1" xml:id="f25vop18_maniez"> maniez </del>
-                        <del rend="unmarked" seq="1" xml:id="f25vop18_auec">a<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>ec </del>
-                        <add>n<choice>
+                        </choice>seils</del>
+                    <del xml:id="f25vop19_vouloient_estre"><unclear cert="medium" reason="cancelled"
+                            >vo</unclear>uloient estre</del>
+                    <del xml:id="f25vop19_nestoient_maniez"><add xml:id="f25vop19_nestoient_pas_add">n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>aloient come il desiroit</add>
-                    </subst><substJoin seq="1" target="#f25vop18_maniez #f25vop18_auec"/>
+                            </choice>estoient pas</add> maniez</del>
+                    <del rend="unmarked" xml:id="f25vop19_auec">a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec </del>
                     <del>autre</del>
-                    <del><subst xml:id="f25vop18_plus_le">
+                    <del xml:id="f25vop19_le_respect"><subst xml:id="f25vop19_plus_le">
                             <del>plus de</del>
                             <add>le</add>
-                        </subst> secret et de respect</del><del xml:id="f25vop18_quil_desiré_del"
-                            ><add xml:id="f25vop18_quil_desiré_add">qu<subst>
+                        </subst> secret et de respect</del><add xml:id="f25vop19_quil_desiré_add"
+                            ><del xml:id="f25vop19_quil_desiré_del">qu<subst>
                                 <del/>
                                 <add>'</add>
                             </subst>il a<subst>
                                 <del>u</del>
                                 <add>v</add>
-                            </subst>oit desiré.</add></del>. <substJoin seq="2"
-                        target=" #f25vop18_vouloient_pas #f25vop18_plus_le #f25vop18_quil_desiré_add"
-                        /><substJoin seq="2"
-                        target="#f25vop18_nestoient_pas #f25vop18_maniez_desiroit #f25vop18_quil_desiré_del"
-                    /></s></ab>
+                            </subst>oit desiré</del><del rend="unmarked" xml:id="f25vop19_point"
+                            >.</del></add>
+                    <substJoin seq="1"
+                        target=" #f25vop19_vouloient_estre #f25vop19_nestoient_pas_add #f25vop19_plus_le #f25vop19_quil_desiré_add"/>
+                    <add xml:id="f25vop19_naloit_desiroit">n<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>aloient come il desiroit</add><substJoin seq="2"
+                        target="#f25vop19_nestoient_maniez #f25vop19_auec #f25vop19_naloit_desiroit #f25vop19_le_respect #f25vop19_quil_desiré_del #f25vop19_point"
+                    />.</s></ab>
         </body>
     </text>
 </TEI>

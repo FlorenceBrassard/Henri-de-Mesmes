@@ -24,19 +24,26 @@
             <ab><s><choice>
                         <orig>y</orig>
                         <reg>Y</reg>
-                    </choice>a il plainte de moy de<choice>
+                    </choice>a<choice>
+                        <orig> </orig>
+                        <reg>-t-</reg>
+                    </choice>il plainte de moy de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ant <choice>
-                        <abbr>u</abbr>
-                        <expan>v</expan>
-                    </choice>ant <roleName><choice>
-                            <abbr rend="overlined">vre M.<hi rend="superscript">té</hi></abbr>
-                            <expan>vostre Majesté</expan>
+                        <abbr rend="overlined">vre</abbr>
+                        <expan>vostre</expan>
+                    </choice>
+                    <roleName ref="Q53448"><choice>
+                            <abbr>M.<hi rend="superscript">té</hi></abbr>
+                            <expan>Majesté</expan>
                         </choice></roleName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> dites le moy s<choice>
+                        </choice> dites<choice>
+                            <orig> </orig>
+                            <reg>-</reg>
+                        </choice>le moy s<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il vous plaist<choice>
@@ -45,41 +52,44 @@
                     </choice> car <pb/><add><choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                    </choice>e</add> vous esclairciray a<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>ant <del>me</del> partir de ceste posture o<choice>
-                            <orig>u</orig>
-                            <reg>ù</reg>
-                        </choice>
-                        <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e su<subst>
-                            <del rend="overwritten">i</del>
-                            <add place="superimposed">y</add>
-                        </subst>s et sy apres ma deffense vous me trou<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>e<choice>
-                            <orig>s</orig>
-                            <reg>z</reg>
-                        </choice>
-                        <del>en faulte</del>
-                        <subst>
-                            <del rend="overwritten"><gap unit="char" quantity="2"/></del>
-                            <add>coul</add>
-                        </subst>pable, <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e ne vi<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>ray plus une heure apres.<choice>
-                            <orig></orig>
-                            <reg> »</reg>
-                        </choice>
-                  </s></ab>
+                        </choice>e</add> vous eclairciray a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant <del>me</del> partir de ceste posture o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                    </choice>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e su<subst>
+                        <del rend="overwritten">i</del>
+                        <add place="superimposed">y</add>
+                    </subst>s<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> et sy apres ma deffense vous me trou<choice>
+                        <orig>ues</orig>
+                        <reg>vez</reg>
+                    </choice>
+                    <del>en faute</del>
+                    c<subst>
+                        <del rend="overwritten"><gap quantity="2" unit="char"/></del>
+                        <add place="superimposed">ou</add>
+                    </subst>lpable, <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e ne vi<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ray plus <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>ne heure apres.<choice>
+                        <orig/>
+                        <reg> »</reg>
+                    </choice>
+                </s></ab>
         </body>
     </text>
 </TEI>

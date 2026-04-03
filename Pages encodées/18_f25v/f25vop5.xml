@@ -25,10 +25,10 @@
                     <choice>
                         <orig>J</orig>
                         <reg>j</reg>
-                    </choice>e puys dire <metamark function="insertion"
-                        target="#f25vop4_sens_mentir">^</metamark><add xml:id="f25vop4_sens_mentir"
-                        >sens mentir</add> que les conseils <del><add>des
-                volontez</add></del> et les volontez se prenoient sens moy</s></ab>
+                    </choice>e puys dire <metamark function="insert" target="#f25vop5_sens_mentir"
+                        >^</metamark><add xml:id="f25vop5_sens_mentir"><metamark>^</metamark>sens
+                        mentir</add> que les conseils <del><add>des volontez</add></del> et les
+                    volontez se prenoient sens moy.</s></ab>
         </body>
     </text>
 </TEI>

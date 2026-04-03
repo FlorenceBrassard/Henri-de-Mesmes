@@ -30,13 +30,14 @@
                     </choice>e y trou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ois le <roleName>Roy</roleName> fort <subst>
-                        <del>disposé ;</del><add>enclin.</add>
-                    </subst></s><s><choice>
+                    </choice>ois le <roleName ref="Q53448">Roy</roleName> fort <subst>
+                        <del>disposé,</del>
+                        <add>enclin</add>
+                    </subst>.</s><s><choice>
                         <orig>t</orig>
                         <reg>T</reg>
                     </choice>oute l<choice>
-                        <orig></orig>
+                        <orig/>
                         <reg>'</reg>
                     </choice>année passa ainsy.</s></ab>
         </body>

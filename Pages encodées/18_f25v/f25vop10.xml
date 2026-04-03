@@ -24,10 +24,8 @@
             <ab><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
-                    </choice>t <subst>
-                        <del>ch<unclear reason="deleted">acun</unclear></del>
-                        <add>plusieurs</add>
-                    </subst> metoient poine de m'a<choice>
+                    </choice>t <del>ch<unclear cert="medium" reason="cancelled">acun</unclear></del>
+                    plusieurs metoient poine de m'a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir pour amy.</s></ab>

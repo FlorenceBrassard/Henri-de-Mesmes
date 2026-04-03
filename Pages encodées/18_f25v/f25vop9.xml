@@ -24,16 +24,16 @@
             <ab><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
-            </choice>l sembloit que <choice>
-                <orig>i</orig>
-                <reg>j'</reg>
-            </choice>a<choice>
-                <orig>u</orig>
-                <reg>v</reg>
-            </choice>ois part en sa bone grace, et quelque fa<choice>
-                <orig>u</orig>
-                <reg>v</reg>
-            </choice>eur interieure. </s></ab>
+                    </choice>l sembloit que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois part en sa bone grace, et quelque fa<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eur interieure. </s></ab>
         </body>
     </text>
 </TEI>

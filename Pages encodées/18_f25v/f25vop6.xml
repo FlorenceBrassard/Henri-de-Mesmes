@@ -21,46 +21,52 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><add><choice>
-                            <orig>q</orig>
-                            <reg>Q</reg>
-                        </choice></add><choice>
+            <ab><s><del><add><choice>
+                                <orig>q</orig>
+                                <reg>Q</reg>
+                            </choice></add></del>
+                    <choice>
                         <orig>o</orig>
                         <reg>O</reg>
                     </choice>n se ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit <subst>
-                            <del><add>que</add></del>
-                            <add>seulement</add>
-                        </subst> de mon ad<choice>
+                        <del><add>que</add></del>
+                        <add>seulement</add>
+                    </subst> de mon ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>is <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice><subst><del>les effectuer, en quoy sy <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e ne <del xml:id="f25vop5_les">les</del> rompois <add
-                        xml:id="f25vop5_ce_faire">ce qui ne me sembloit se de<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>oir faire</add></del><add>a l<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice><choice>
-                            <abbr>exec<hi rend="overlined">uon</hi></abbr>
-                            <expan>execution</expan>
-                            </choice></add></subst><substJoin target="#f25vop5_les #f25vop5_ce_faire"
-                    />, <del>pour</del>
-                    <del>au moins essaiois<choice>
-                            <orig> i</orig>
-                            <reg>-j</reg>
-                        </choice>e de les rendre moins</del>
+                    </choice><subst>
+                        <del>les effectuer, en quoy sy <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e ne <del xml:id="f25vop6_les">les</del> rompois <add
+                                xml:id="f25vop6_ce_faire">ce qui ne me sembloit se de<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>oir faire</add>, <del> pour</del> au moins essaiois<choice>
+                                <orig> i</orig>
+                                <reg>-j</reg>
+                            </choice>e de les rendre moins </del>
+                        <add>a l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice><choice>
+                                <abbr>exec<hi rend="overlined">uon</hi></abbr>
+                                <expan>execution</expan>
+                            </choice></add>
+                    </subst><substJoin target="#f25vop6_les #f25vop6_ce_faire"/><choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice></s>
+                <s>
                     <choice>
                         <orig>d</orig>
-                        <reg>. D</reg>
+                        <reg>D</reg>
                     </choice>ieu soit loué <del><choice>
                             <orig>i</orig>
                             <reg>j</reg>
@@ -89,7 +95,7 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oir</add>
-                    </subst> les choses resolues, au pied de la raison</s></ab>
+                    </subst> les choses resolues, au pied de la raison.</s></ab>
         </body>
     </text>
 </TEI>
