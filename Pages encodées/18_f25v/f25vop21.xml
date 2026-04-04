@@ -40,10 +40,10 @@
                         </choice></roleName><choice>
                         <orig/>
                         <reg>,</reg>
-                        </choice> dites<choice>
-                            <orig> </orig>
-                            <reg>-</reg>
-                        </choice>le moy s<choice>
+                    </choice> dites<choice>
+                        <orig> </orig>
+                        <reg>-</reg>
+                    </choice>le moy s<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il vous plaist<choice>
@@ -72,8 +72,7 @@
                         <orig>ues</orig>
                         <reg>vez</reg>
                     </choice>
-                    <del>en faute</del>
-                    c<subst>
+                    <del>en faute</del> c<subst>
                         <del rend="overwritten"><gap quantity="2" unit="char"/></del>
                         <add place="superimposed">ou</add>
                     </subst>lpable, <choice>

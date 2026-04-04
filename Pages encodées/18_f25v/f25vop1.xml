@@ -26,7 +26,7 @@
                         <reg>v</reg>
                     </choice>ois<choice>
                         <orig> i</orig>
-                        <reg> -j</reg>
+                        <reg>-j</reg>
                     </choice>e synon luy <subst>
                         <del><choice>
                                 <abbr><g ref="#con-glyph">ꝯ</g></abbr>

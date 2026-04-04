@@ -33,7 +33,7 @@
                     </choice>on dict<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> Sire<choice>
+                    </choice>  <roleName ref="Q53448">Sire</roleName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> que <choice>

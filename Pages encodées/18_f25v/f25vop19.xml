@@ -38,8 +38,10 @@
                         </choice>an<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ier <hi rend="overlined">1562</hi>.</date> le <roleName
-                        ref="Q53448">Roy</roleName> m<choice>
+                        </choice>ier <hi rend="overlined">1562</hi><choice>
+                            <orig>.</orig>
+                            <reg>,</reg>
+                        </choice></date> le <roleName ref="Q53448">Roy</roleName> m<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>appella en son cabinet et me dit qu<choice>

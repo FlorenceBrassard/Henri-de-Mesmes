@@ -22,18 +22,22 @@
     <text>
         <body>
             <ab><s><choice>
-                <orig>m</orig>
-                <reg>M</reg>
-            </choice>esme on voulut que <choice>
-                <orig>i</orig>
-                <reg>j'</reg>
-            </choice>eusse <del>la</del> charge de la maison de la <roleName><choice>
-                <abbr>R<hi rend="superscript">e</hi></abbr>
-                <expan>Reyne</expan>
-            </choice></roleName>.</s><add><s><choice>
-                <orig>c</orig>
-                <reg>C</reg>
-            </choice>e qu'on appelle <roleName>chancelier</roleName> en celles qui ont des terres.</s></add></ab>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                    </choice>esme on voulut que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>eusse <del>la</del> charge de la maison de la <roleName><choice>
+                            <abbr>R<hi rend="superscript">e</hi></abbr>
+                            <expan>Reyne</expan>
+                        </choice></roleName><choice>
+                        <orig>.</orig>
+                        <reg>, </reg>
+                    </choice></s><add><s><choice>
+                            <orig>c</orig>
+                            <reg>C</reg>
+                        </choice>e qu'on appelle <roleName>chancelier</roleName> en celles qui ont
+                        des terres.</s></add></ab>
         </body>
     </text>
 </TEI>

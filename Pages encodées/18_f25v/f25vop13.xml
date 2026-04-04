@@ -47,16 +47,17 @@
                         >aussy</unclear></del></add> baillé <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>
-                        </choice> <choice>
-                            <orig>ij mil V<hi rend="superscript">c</hi>
-                                <g ref="#livre-glyph">Ł</g></orig>
-                            <reg>deux mille cinq cents livres</reg>
-                        </choice><metamark function="insert" target="#f25vop13_de_prest"
+                    </choice>
+                    <choice>
+                        <orig>ij mil V<hi rend="superscript">c</hi>
+                            <g ref="#livre-glyph">Ł</g></orig>
+                        <reg>deux mille cinq cents livres</reg>
+                    </choice><metamark function="insert" target="#f25vop13_de_prest"
                         >^</metamark><add xml:id="f25vop13_de_prest"><metamark>^</metamark> de
-                            prest</add> au don du reste<choice>
-                                <orig/>
-                                <reg>,</reg>
-                            </choice> puys on m<choice>
+                        prest</add> au don du reste<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> puys on m<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>assigna <add>de</add> ce prest.</s></ab>
