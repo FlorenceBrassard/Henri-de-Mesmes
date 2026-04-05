@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><del><choice>
+                            <orig>v</orig>
+                            <reg>V</reg>
+                        </choice>oila</del>
+                    <subst>
+                        <del rend="unmarked"><add>Mais</add></del>
+                        <add xml:id="f25vop19_Or"><metamark>^</metamark>Or</add>
+                    </subst><metamark function="insert" target="#f25vop19_Or">^</metamark><choice>
+                        <orig>L</orig>
+                        <reg>l</reg>
+                    </choice>e <date when="1582-01-17">17<hi rend="superscript">e</hi>
+                        <choice>
+                            <orig>J</orig>
+                            <reg>j</reg>
+                        </choice>an<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ier <hi rend="overlined">1562</hi><choice>
+                            <orig>.</orig>
+                            <reg>,</reg>
+                        </choice></date> le <roleName ref="Q53448">Roy</roleName> m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>appella en son cabinet et me dit qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il <subst>
+                        <del>m</del>
+                        <add>n</add>
+                    </subst>'a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit pas <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tantement <subst>
+                        <del>de<add seq="2">s</add> mo<subst>
+                                <del rend="overwritten">y</del>
+                                <add place="superimposed" seq="1" xml:id="f25vop19_n">n</add>
+                            </subst>
+                            <add seq="1" xml:id="f25vop19_entremise"><metamark>^</metamark>
+                                entremise</add></del>
+                        <add seq="3" xml:id="f25vop19_de_que">de ce que</add>
+                    </subst><substJoin target="#f25vop19_n #f25vop19_entremise"/>
+                    <del rend="unmarked" xml:id="f25vop19_metamark"><metamark function="insert"
+                            target="#f25vop19_entremise">^</metamark></del><del
+                        xml:id="f25vop19_et_que">et que</del><substJoin
+                        target="#f25vop19_de_que #f25vop19_et_que #f25vop19_metamark"/> ses <subst>
+                        <del>secrets</del>
+                        <add>pri<choice>
+                                <orig>ue</orig>
+                                <reg>vé</reg>
+                            </choice>s</add>
+                    </subst><choice>
+                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                        <expan>afaires</expan>
+                    </choice>
+                    <del>et <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>seils</del>
+                    <del xml:id="f25vop19_vouloient_estre"><unclear cert="medium" reason="cancelled"
+                            >vo</unclear>uloient estre</del>
+                    <del xml:id="f25vop19_nestoient_maniez"><add xml:id="f25vop19_nestoient_pas_add">n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>estoient pas</add> maniez</del>
+                    <del rend="unmarked" xml:id="f25vop19_auec">a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ec </del>
+                    <del>autre</del>
+                    <del xml:id="f25vop19_le_respect"><subst xml:id="f25vop19_plus_le">
+                            <del>plus de</del>
+                            <add>le</add>
+                        </subst> secret et de respect</del><add xml:id="f25vop19_quil_desiré_add"
+                            ><del xml:id="f25vop19_quil_desiré_del">qu<subst>
+                                <del/>
+                                <add>'</add>
+                            </subst>il a<subst>
+                                <del>u</del>
+                                <add>v</add>
+                            </subst>oit desiré</del><del rend="unmarked" xml:id="f25vop19_point"
+                            >.</del></add>
+                    <substJoin seq="1"
+                        target=" #f25vop19_vouloient_estre #f25vop19_nestoient_pas_add #f25vop19_plus_le #f25vop19_quil_desiré_add"/>
+                    <add xml:id="f25vop19_naloit_desiroit">n<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>aloient come il desiroit</add><substJoin seq="2"
+                        target="#f25vop19_nestoient_maniez #f25vop19_auec #f25vop19_naloit_desiroit #f25vop19_le_respect #f25vop19_quil_desiré_del #f25vop19_point"
+                    />.</s></ab>
+        </body>
+    </text>
+</TEI>

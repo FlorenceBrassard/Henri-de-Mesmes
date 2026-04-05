@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>t</orig>
+                        <reg>T</reg>
+                    </choice>ant y a que me voila de ce <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>our asser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>y <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> une incroiable <subst>
+                        <del>sub<choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>ection</del>
+                        <add>poine</add>
+                    </subst>, mais <subst>
+                        <del>pour le moins</del>
+                        <add>ancore</add>
+                    </subst> a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec <subst>
+                        <del>autant</del>
+                        <add>plus</add>
+                    </subst> d'affection que de sub<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ection<choice>
+                        <orig>,</orig>
+                        <reg>.</reg>
+                    </choice><del><metamark function="insert">#</metamark><add
+                        xml:id="f25vop4_en_ducs">en <date when="1581"
+                            >ceste année</date> le <roleName ref="Q53448">Roy</roleName> feit
+                            les mariages <add xml:id="f25vop4_d">d</add>e<subst xml:id="f25vop4_t_s">
+                                <del rend="overwritten">t</del>
+                                <add place="superimposed">s</add>
+                            </subst><del><add xml:id="f25vop4_srs_Joy"><choice>
+                                    <abbr>s<hi rend="superscript">rs</hi></abbr>
+                                    <expan>seigneurs</expan>
+                                </choice>
+                                <persName ref="Q565927"><nameLink>de</nameLink>
+                                    <surname>Joy</surname></persName>
+                            </add></del><substJoin target="#f25vop4_d #f25vop3_t_s #f25vop4_srs_Joy"/> les
+                            erections <choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice> ducs</add></del><del>et de fidelité que de
+                felicité.</del></s></ab>
+        </body>
+    </text>
+</TEI>

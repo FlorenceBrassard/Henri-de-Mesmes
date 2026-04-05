@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><del><add><choice>
+                                <orig>q</orig>
+                                <reg>Q</reg>
+                            </choice>uand</add></del>
+                    <choice>
+                        <orig>o</orig>
+                        <reg>O</reg>
+                    </choice>n se ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit <subst>
+                        <del><add>que</add></del>
+                        <add>seulement</add>
+                    </subst> de mon ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>is <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice><subst>
+                        <del>les effectuer, en quoy sy <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e ne <del xml:id="f25vop6_les">les</del> rompois <add
+                                xml:id="f25vop6_ce_faire">ce qui ne me sembloit se de<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>oir faire</add>, <del> pour</del> au moins essaiois<choice>
+                                <orig> i</orig>
+                                <reg>-j</reg>
+                            </choice>e de les rendre moins </del>
+                        <add>a l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice><choice>
+                                <abbr>exec<hi rend="overlined">uon</hi></abbr>
+                                <expan>execution</expan>
+                            </choice></add>
+                    </subst><substJoin target="#f25vop6_les #f25vop6_ce_faire"/><choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice></s>
+                <s>
+                    <choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                    </choice>ieu soit loué <del><choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e n<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>ay <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>amais</del>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e tirois <subst>
+                        <del><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>mon pou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir</del>
+                        <add><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>mon pou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir</add>
+                    </subst> les choses resolues, au pied de la raison.</s></ab>
+        </body>
+    </text>
+</TEI>

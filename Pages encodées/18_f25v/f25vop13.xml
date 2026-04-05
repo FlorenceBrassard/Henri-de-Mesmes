@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t </del><choice>
+                        <orig>l</orig>
+                        <reg>L'</reg>
+                    </choice>office de conseiller en <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>lement que vous <metamark function="insert" target="#f25vop12_mon_filz"
+                        >^</metamark><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice><add xml:id="f25vop12_mon_filz"><metamark>^</metamark>mon <roleName
+                            ref="Q94908007">filz</roleName></add><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> tene<choice>
+                        <orig>s</orig>
+                        <reg>z</reg>
+                    </choice> me fut <metamark function="insert" target="#f25vop13_lors"
+                        >^</metamark><add xml:id="f25vop13_lors_aussy"><metamark>^</metamark>lors
+                                <del><unclear cert="high" reason="cancelled"
+                        >aussy</unclear></del></add> baillé <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice>
+                    <choice>
+                        <orig>ij mil V<hi rend="superscript">c</hi>
+                            <g ref="#livre-glyph">Ł</g></orig>
+                        <reg>deux mille cinq cents livres</reg>
+                    </choice><metamark function="insert" target="#f25vop13_de_prest"
+                        >^</metamark><add xml:id="f25vop13_de_prest"><metamark>^</metamark> de
+                        prest</add> au don du reste<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> puys on m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>assigna <add>de</add> ce prest.</s></ab>
+        </body>
+    </text>
+</TEI>
