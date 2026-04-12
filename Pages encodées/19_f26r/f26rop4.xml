@@ -21,7 +21,25 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s></s></ab>
+            <ab><s><choice>
+                        <orig>o</orig>
+                        <reg>« O</reg>
+                    </choice>uy<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice><subst>
+                        <del rend="overwritten">i</del>
+                        <add place="superimposed">v</add>
+                    </subst>ous fere<choice>
+                        <orig>s</orig>
+                        <reg>z</reg>
+                    </choice> bien de ne venir icy en mon cabinet<choice>
+                        <orig></orig>
+                        <reg>,</reg>
+                    </choice> ny che<choice>
+                        <orig>s</orig>
+                        <reg>z</reg>
+                    </choice> ma femme.</s></ab>
         </body>
     </text>
 </TEI>

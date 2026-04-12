@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <ab>Information about the source</ab>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t</del>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                    </choice>l m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit tous<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours promis que <del xml:id="f26rop16_sy">sy</del> on luy <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>l<metamark function="insert">^</metamark><add xml:id="f26rop16_er"
+                        >er</add>oit <substJoin target="#f26rop16_sy #f26rop16_er"/>
+                    <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tre moy<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> il me le diroit.</s></ab>
+        </body>
+    </text>
+</TEI>

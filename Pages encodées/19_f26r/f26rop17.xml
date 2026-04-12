@@ -21,7 +21,19 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s></s></ab>
+            <ab><s><choice>
+                <orig>e</orig>
+                <reg>E</reg>
+            </choice>t falut bien que l<choice>
+                <orig/>
+                <reg>'</reg>
+                </choice>instrument de ce mal <del>f</del>eust beaucoup de pou<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+                </choice>oir sur sa volonté<choice>
+                <orig/>
+                <reg>.</reg>
+                </choice></s></ab>
         </body>
     </text>
 </TEI>
