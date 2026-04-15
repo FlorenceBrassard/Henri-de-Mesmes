@@ -15,7 +15,7 @@
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-                <ab>Information about the source</ab>
+                <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -26,7 +26,7 @@
                         <reg>I</reg>
                     </choice>l me dit<choice>
                         <orig> d</orig>
-                        <reg> : D</reg>
+                        <reg> : « D</reg>
                     </choice>e<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -43,9 +43,10 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>amais rien<choice>
-                        <orig></orig>
+                        <orig/>
                         <reg>,</reg>
-                    </choice> <metamark function="insert" target="#f26rop2_mais_point">+</metamark><add
+                    </choice>
+                    <metamark function="insert" target="#f26rop2_mais_point">+</metamark><add
                         xml:id="f26rop2_mais_point"><metamark>+</metamark> mais il y a quel<choice>
                             <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                             <expan>que</expan>
@@ -53,9 +54,9 @@
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>e ne dors point</add>.<choice>
-                            <orig></orig>
-                            <reg> »</reg>
-                        </choice>
+                        <orig/>
+                        <reg> »</reg>
+                    </choice>
                 </s></ab>
         </body>
     </text>

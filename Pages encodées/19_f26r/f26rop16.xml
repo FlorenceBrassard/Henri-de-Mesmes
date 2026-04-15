@@ -15,7 +15,7 @@
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-                <ab>Information about the source</ab>
+                <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -48,7 +48,7 @@
                     </choice>tre moy<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> il me le diroit.</s></ab>
+                    </choice> il le me diroit.</s></ab>
         </body>
     </text>
 </TEI>

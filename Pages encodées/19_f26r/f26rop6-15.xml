@@ -15,13 +15,13 @@
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-                <ab>Information about the source</ab>
+                <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
-            <ab><delSpan spanTo="#f26rop6-15_ie_et"/><s><choice>
+            <ab><s><delSpan spanTo="#f26rop6-15_moy" xml:id="f26rop6-15_ie_moy"/><choice>
                         <orig>i</orig>
                         <reg>J</reg>
                     </choice>e le suppliay lors <choice>
@@ -55,7 +55,7 @@
                     </choice>arquoy <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e pris congé de luy et de la <roleName><choice>
+                    </choice>e pris congé de luy et de la <roleName ref="Q225411"><choice>
                             <abbr>R<hi rend="superscript">e</hi></abbr>
                             <expan>Reyne</expan>
                         </choice></roleName>
@@ -66,9 +66,8 @@
                             <orig>s</orig>
                             <reg>z</reg>
                         </choice> moy</add>.</s>
-                <s><del xml:id="f26rop5-16_et">et</del><substJoin
-                        target="#f26rop6-15_et_moy #f26rop5-16_et"/>
-                    <anchor xml:id="f26rop6-15_ie_et"/><addSpan spanTo="#f26rop6-15_stipulée"/><choice>
+                <s><anchor xml:id="f26rop6-15_moy"/><addSpan spanTo="#f26rop6-15_stipulée"
+                        xml:id="f26rop6-15_Lors_stipulée"/><choice>
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>ors <choice>
@@ -85,7 +84,7 @@
                         <expan>par</expan>
                     </choice>tie en estoit faicte, <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
-                        <expan>par</expan>
+                        <expan>Par</expan>
                     </choice> quoy <choice>
                         <orig>i</orig>
                         <reg>j</reg>
@@ -95,14 +94,16 @@
                     </choice>n genou en terre et luy dy<choice>
                         <orig> </orig>
                         <reg> :<lb/>—</reg>
-                    </choice><addSpan spanTo="#f26rop6-15_stipulée"/><roleName>Sire</roleName><choice>
+                    </choice><roleName ref="Q53448"><unclear cert="high" reason="margin"
+                        >S</unclear>ire</roleName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e vous suplie en l'humilité que peut <choice>
+                    </choice>e vous suplie <unclear cert="high" reason="margin">e</unclear>n
+                    l'humilité que <unclear cert="high" reason="margin">p</unclear>eut <choice>
                         <orig>v</orig>
                         <reg>u</reg>
                     </choice>n <add>tres humble</add> sub<choice>
@@ -111,14 +112,16 @@
                     </choice>ect<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> rende<choice>
+                    </choice>
+                    <unclear cert="high" reason="margin">r</unclear>ende<choice>
                         <orig>s </orig>
                         <reg>z-</reg>
-                    </choice><del>la</del>moy la <choice>
+                    </choice><del>la</del>moy <unclear cert="high" reason="margin">l</unclear>a <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ustice que doit un <add>bon</add> Roy.</s><s><choice>
-                        <orig>s</orig>
+                    </choice>ustice que <unclear cert="high" reason="margin">d</unclear>oit un
+                        <add>bon</add> Roy.</s><s><choice>
+                        <orig><unclear cert="high" reason="margin">s</unclear></orig>
                         <reg>S</reg>
                     </choice>y <choice>
                         <orig>i</orig>
@@ -126,34 +129,44 @@
                     </choice>e n<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>ay point faict de mal <choice>
+                    </choice>ay point <unclear cert="high" reason="margin">f</unclear>aict de mal <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e ne <del>puys</del> dois estre c<choice>
-                        <abbr rend="overlined">o</abbr>
-                        <expan>on</expan>
-                    </choice>camné, et sy <choice>
-                        <orig>i</orig>
+                    </choice>e ne <del>puys</del> dois estre <choice>
+                        <abbr><unclear cert="high" reason="margin"><g ref="#con-glyph"
+                                >ꝯ</g></unclear></abbr>
+                        <expan>con</expan>
+                    </choice>damné.</s><s>
+                    <choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t sy <choice>
+                        <orig><unclear cert="high" reason="margin">i</unclear></orig>
                         <reg>j'</reg>
-                    </choice>en ay faict c<choice>
+                    </choice>en ay faict <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>c<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>est trop peu.</s><s><choice>
+                    </choice>est <unclear cert="high" reason="margin">t</unclear>rop peu.</s><s><choice>
                         <orig>d</orig>
                         <reg>D</reg>
                     </choice>ites<choice>
                         <orig> </orig>
                         <reg>-</reg>
-                    </choice>moy de<choice>
+                    </choice><unclear cert="high" reason="margin">m</unclear>oy de<choice>
                         <orig/>
                         <reg> </reg>
-                    </choice>quoy on m'accuse, non seulement <choice>
+                    </choice>quoy on m'accuse, non <unclear cert="high" reason="margin"
+                    >s</unclear>eulement <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e me <choice>
-                        <orig>i</orig>
+                        <orig><unclear cert="high" reason="margin">i</unclear></orig>
                         <reg>j</reg>
-                    </choice>ustifieray tout maintenant.</s><s><choice>
+                    </choice>ustifieray tout <unclear cert="high" reason="margin"
+                    >m</unclear>aintenant.</s><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
                     </choice>ais <choice>
@@ -162,16 +175,21 @@
                     </choice>e vous prou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>eray soudain la faulseté et mensonge de l<choice>
+                    </choice>eray <unclear cert="high" reason="margin">so</unclear>udain la faulseté
+                    et mensonge de l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>accusateur.</s><s><choice>
                         <orig> </orig>
                         <reg><lb/> — </reg>
-                    </choice>Rien pour cela, ains seulement <choice>
-                        <orig>i</orig>
+                    </choice><choice>
+                        <orig><unclear cert="high" reason="margin">r</unclear></orig>
+                        <reg>R</reg>
+                    </choice>ien pour cela, <unclear cert="high" reason="margin">a</unclear>ins
+                    seulement <choice>
+                        <orig><unclear cert="high" reason="margin">i</unclear></orig>
                         <reg>j</reg>
-                    </choice>e ne vous en diray autre chose<choice>
+                    </choice>e ne vous en <unclear cert="high" reason="margin">d</unclear>iray autre chose<choice>
                         <orig>l</orig>
                         <reg>. L</reg>
                     </choice>e<choice>
@@ -183,7 +201,10 @@
                     </choice>vous et vous en alle<choice>
                         <orig>s</orig>
                         <reg>z</reg>
-                    </choice> quand il vous plaira.</s><lb/><s>Soudain <choice>
+                    </choice> quand il vous plaira.</s><s><choice>
+                        <orig/>
+                        <reg><lb/></reg>
+                    </choice>Soudain <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e me le<choice>
@@ -192,7 +213,7 @@
                     </choice>e et dy<choice>
                         <orig> a</orig>
                         <reg> :<lb/>— A</reg>
-                    </choice>dieu <roleName>Sire</roleName><choice>
+                    </choice>dieu <roleName ref="Q53448">Sire</roleName><choice>
                         <orig> a</orig>
                         <reg>. <lb/> — A</reg>
                     </choice>dieu<choice>
@@ -202,8 +223,11 @@
                         <abbr>mons<hi rend="superscript">r</hi></abbr>
                         <reg>monsieur</reg>
                     </choice>
-                    <persName><nameLink>de</nameLink>
-                        <surname>Roissy</surname></persName>.</s><lb/><s>Tout cela a<choice>
+                    <persName ref="Q55903338"><nameLink>de</nameLink>
+                        <placeName ref="Q680463">Roissy</placeName></persName>.</s><s><choice>
+                        <orig/>
+                        <reg><lb/></reg>
+                    </choice>Tout cela a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec tant de modestie <choice>
@@ -222,8 +246,13 @@
                     <choice>
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
-                    </choice>mise et stipulée.</s><anchor xml:id="f26rop6-15_stipulée"/><s><subst>
-                        <del><choice>
+                    </choice>mise et stipulée.</s><anchor xml:id="f26rop6-15_stipulée"/><substJoin
+                    target="#f26rop6-15_ie_moy #f26rop6-15_Lors_stipulée #f26rop6-15_et_ce"
+                        /><s><subst xml:id="f26rop6-15_et_ce">
+                        <del><del><choice>
+                                    <orig>e</orig>
+                                    <reg>E</reg>
+                                </choice>t</del><choice>
                                 <orig>v</orig>
                                 <reg>V</reg>
                             </choice>oila en verité les propos que nous eumes, <choice>
@@ -241,33 +270,44 @@
                         >^</metamark><add xml:id="f26rop5_16_vn_peu"><metamark>^</metamark><choice>
                             <orig>v</orig>
                             <reg>u</reg>
-                        </choice>n peu</add> plus long<choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice>
-                    <add>mais c'est la substance<add>,</add></add> et tant moderé<add>,</add> qu'en
-                    la mau<choice>
+                        </choice>n peu</add> plus long<add>,</add>
+                    <add>mais c'est la substance<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice></add> et tant moderé<add>,</add> qu'en la mau<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>aise impression <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e cognoissois que son bon naturel et mon innocence <add>combatoient <choice>
-                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                            <expan>con</expan>
-                        </choice>tre ce qu<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>on luy a<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>oit faict <choice>
-                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
-                            <expan>pro</expan>
-                        </choice>metre</add><choice>
+                    </choice>e cognoissois que son bon naturel et mon innocence <subst>
+                        <del>cognue le retenoient et presque empeschoient en ce qu<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>il a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit promis</del>
+                        <add>combatoient <choice>
+                                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                                <expan>con</expan>
+                            </choice>tre ce qu<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>on luy a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oit faict <choice>
+                                <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                                <expan>pro</expan>
+                            </choice>metre</add>
+                    </subst><choice>
                         <orig> e</orig>
                         <reg>. E</reg>
-                    </choice>t eust esté malaisé de discerner cy a<choice>
+                    </choice>t eust esté malaisé de discerner <choice>
+                        <orig>c</orig>
+                        <reg>s</reg>
+                    </choice>y a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec plus de regret <choice>

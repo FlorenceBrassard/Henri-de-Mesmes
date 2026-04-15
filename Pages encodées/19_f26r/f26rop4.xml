@@ -15,7 +15,7 @@
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-                <ab>Information about the source</ab>
+                <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -34,7 +34,7 @@
                         <orig>s</orig>
                         <reg>z</reg>
                     </choice> bien de ne venir icy en mon cabinet<choice>
-                        <orig></orig>
+                        <orig/>
                         <reg>,</reg>
                     </choice> ny che<choice>
                         <orig>s</orig>

@@ -15,7 +15,7 @@
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-                <ab>Information about the source</ab>
+                <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -38,10 +38,11 @@
                     </subst>
                     <date>septembre</date>
                     <choice>
-                        <abbr>po<hi rend="superscript">r</hi>  <hi rend="overlined">vre</hi></abbr>
+                        <abbr>po<hi rend="superscript">r</hi>
+                            <hi rend="overlined">vre</hi></abbr>
                         <expan>pour vostre</expan>
                     </choice> quartier. <choice>
-                        <orig></orig>
+                        <orig/>
                         <reg> »</reg>
                     </choice></s></ab>
         </body>

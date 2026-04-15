@@ -15,7 +15,7 @@
                 <p>Publication Information</p>
             </publicationStmt>
             <sourceDesc>
-                <ab>Information about the source</ab>
+                <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -31,17 +31,20 @@
                     </choice>ay trop de cueur et de fidelité pour vi<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>re <metamark function="insert" target="#f26ro_vne_heure">^</metamark><add
-                        xml:id="f26ro_vne_heure"><choice>
+                    </choice>re <metamark function="insert" target="#f26rop1_vne_heure"
+                        >^</metamark><add xml:id="f26rop1_vne_heure"><metamark>^</metamark><choice>
                             <orig>v</orig>
                             <reg>u</reg>
                         </choice>ne heure</add> apres vous a<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>oir offensé <choice>
-                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
-                            <expan>par</expan>
-                        </choice> ma faulte.</s></ab>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir offensé <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice> ma faulte.<choice>
+                        <orig/>
+                        <reg> »</reg>
+                    </choice></s></ab>
         </body>
     </text>
 </TEI>
