@@ -37,11 +37,14 @@
                     </choice>oit tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ours promis que <del xml:id="f26rop16_sy">sy</del> on luy <choice>
+                    </choice>ours promis que <subst xml:id="f26rop16_sy_quand">
+                        <del>sy</del>
+                        <add>quand</add>
+                    </subst> on luy <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
-                    </choice>l<metamark function="insert">^</metamark><add xml:id="f26rop16_er"
-                        >er</add>oit <substJoin target="#f26rop16_sy #f26rop16_er"/>
+                    </choice>l<metamark function="insert" target="#f26rop16_er">^</metamark><add xml:id="f26rop16_er"
+                        >er</add>oit <substJoin target="#f26rop16_sy_quand #f26rop16_er"/>
                     <choice>
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>con</expan>

@@ -34,7 +34,7 @@
                         <reg>,</reg>
                     </choice> dy <choice>
                         <orig>i</orig>
-                        <reg>j</reg>
+                        <reg>-j</reg>
                     </choice>e <choice>
                         <orig/>
                         <reg>,</reg>

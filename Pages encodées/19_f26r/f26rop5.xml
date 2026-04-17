@@ -36,7 +36,7 @@
                                 <reg>à</reg>
                             </choice><add place="superimposed">en</add></del>
                     </subst>
-                    <date>septembre</date>
+                    <date when="1582-09">septembre</date>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi>
                             <hi rend="overlined">vre</hi></abbr>
