@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>n ce <subst>
+                        <del>pri<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>é</del>
+                        <add>nou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>eau</add>
+                    </subst> repos, libre d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ie ou de passion, <del>v<unclear reason="cancelled">ui</unclear></del>
+                    franc de tout labeur fors de celuy que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>emploie <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> la culture de mon <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ardin et de mon esprit, Dieu m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a faict beaucoup de graces, que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e tiens plus cheres et plus precieuses que l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>agitation <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tinuelle des flots de la court en ces m<choice>
+                        <orig>e</orig>
+                        <reg>oe</reg>
+                    </choice>urs tant corrompus tant maritimes, ou sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent on perille, tous<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours on tremble.</s></ab>
+        </body>
+    </text>
+</TEI>
