@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s>Voila come <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>ay vescu depuys <choice>
+                        <orig/>
+                        <reg>;</reg>
+                    </choice> et come le lendemain le <roleName ref="Q53448">Roy</roleName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> poussé par quelcun<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <subst xml:id="f27rop7_menuoia_luy">
+                        <del>m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>en<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oia demander</del>
+                        <add>m<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>escri<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>it que <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e luy</add>
+                    </subst>
+                    <metamark function="insert" target="#f27rop7_renuoiasse">^</metamark>
+                    <add xml:id="f27rop7_renuoiasse"><metamark>^</metamark> ren<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oiasse</add>
+                    <substJoin target="#f27rop7_menuoia_luy #f27rop7_renuoiasse"/> les clefs du
+                    tresor de ses chartres, <del>et quand</del>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e les luy ren<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oay promptement a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec une <choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <reg>letres</reg>
+                    </choice> qui disoit que vous estie<choice>
+                        <orig>s</orig>
+                        <reg>z</reg>
+                    </choice> pour<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eu de cet office mais qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il estoit le maistre.</s></ab>
+        </body>
+    </text>
+</TEI>
