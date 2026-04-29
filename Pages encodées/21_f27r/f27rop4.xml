@@ -22,21 +22,18 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <add></add>
-                        <del></del>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                <orig>m</orig>
+                <reg>M</reg>
+            </choice>on desastre <choice>
+                <abbr rend="overlined">pnt</abbr>
+                <expan>present</expan>
+            </choice> de<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>ancera de peu de mois ou pour le plus de peu d<choice>
+                <orig> </orig>
+                <reg>'</reg>
+            </choice>années le desastre publicq.</s></ab>
         </body>
     </text>
 </TEI>

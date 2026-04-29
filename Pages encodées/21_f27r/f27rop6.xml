@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s>Je me resolus donc<choice>
+                <orig></orig>
+                <reg>,</reg>
+            </choice> apres a<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>oir remercié <choice>
+                <orig>d</orig>
+                <reg>D</reg>
+            </choice>ieu, ad<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>erty ma femme, receu et honoré les <choice>
+                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                <expan>com</expan>
+            </choice>plimens des princes et princesses, et de<del>s</del> <choice>
+                <abbr rend="overlined">plrs</abbr>
+                <expan>plusieurs</expan>
+            </choice> mes seigneurs et amys, d<choice>
+                <orig> </orig>
+                <reg>'</reg>
+            </choice>embrasser <add>gaiement</add> cete vie pri<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>ée mais non pas oisi<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>e, me plonger profondement dens les estudes des bones <choice>
+                <abbr rend="overlined">lres</abbr>
+                <expan>letres</expan>
+            </choice> et liberales disciplines, aux<choice>
+                <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                <expan>que</expan>
+            </choice>lles <choice>
+                <orig>i</orig>
+                <reg>j</reg>
+            </choice>e me sens plus né que norry, m<choice>
+                <orig> </orig>
+                <reg>'</reg>
+            </choice>en<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>eloper dens ces belles munitions de l<choice>
+                <orig> </orig>
+                <reg>'</reg>
+            </choice>ame , cou<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>rir mon esprit des galions de la raison et <choice>
+                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                <expan>con</expan>
+            </choice>stance, afin que la douleur ne peut entrer dens moy, et ne trou<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>ast lieu y penetrer au default du harnois.</s></ab>
+        </body>
+    </text>
+</TEI>

@@ -22,21 +22,19 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <add></add>
-                        <del></del>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                <orig>d</orig>
+                <reg>D</reg>
+            </choice>e plus grands maulx se preparent, de plus tristes accidens nous
+                menassent, nous pressent, nous talonent, nous <choice>
+                    <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                    <expan>com</expan>
+                </choice>mandent ou de <subst>
+                    <del>finir</del>
+                    <add>retenir</add>
+                </subst>noz pleurs, ou de les garder pour eulx.<choice>
+                    <orig></orig>
+                    <reg> »</reg>
+                </choice> </s></ab>
         </body>
     </text>
 </TEI>
