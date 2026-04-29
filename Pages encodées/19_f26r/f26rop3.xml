@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s>
+                    <del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t</del>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>« J</reg>
+                    </choice>e voy bien<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> dy <choice>
+                        <orig>i</orig>
+                        <reg>-j</reg>
+                    </choice>e <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> vous trou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ere<choice>
+                        <orig>s</orig>
+                        <reg>z</reg>
+                    </choice> bon que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e me retire en ma maison.<choice>
+                        <orig> </orig>
+                        <reg> » </reg>
+                    </choice></s></ab>
+        </body>
+    </text>
+</TEI>
