@@ -27,7 +27,14 @@
                     </choice>ay vescu depuys<choice>
                         <orig/>
                         <reg> ;</reg>
-                    </choice> et come le lendemain le <roleName>Roy</roleName> poussé par quelcun <subst>
+                    </choice> et come le lendemain le <roleName ref="Q53448">Roy</roleName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> poussé par quelcun<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <subst xml:id="f27rop7_menuoia_luy">
                         <del>m<choice>
                                 <orig/>
                                 <reg>'</reg>
@@ -44,12 +51,15 @@
                             </choice>it que <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
-                            </choice>e luy <metamark function="insert">^</metamark><add
-                                xml:id="f27rop11_renuoiasse"><metamark>^</metamark>ren<choice>
-                                    <orig>u</orig>
-                                    <reg>v</reg>
-                                </choice>oiasse</add></add>
-                    </subst> les clefs du tresor de ses chartres, <del><add>et quand</add></del>
+                            </choice>e luy</add>
+                    </subst>
+                    <metamark function="insert" target="#f27rop7_renuoiasse">^</metamark><add
+                        xml:id="f27rop7_renuoiasse"><metamark>^</metamark>ren<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oiasse</add>
+                    <substJoin target="#f27rop7_menuoia_luy #f27rop7_renuoiasse"/> les clefs du
+                    tresor de ses chartres, <del><add>et quand</add></del>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>

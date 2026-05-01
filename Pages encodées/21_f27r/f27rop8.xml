@@ -30,26 +30,32 @@
                     </choice>en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oia le <persName><roleName>procureur <choice>
+                    </choice>oia le <persName ref="Q136140572"><roleName>procureur <choice>
                                 <abbr rend="overlined">gral</abbr>
                                 <expan>general</expan>
-                            </choice><surname>la guesle</surname>
+                            </choice><surname><choice>
+                                    <orig>l</orig>
+                                    <reg>L</reg>
+                                </choice>a <choice>
+                                    <orig>g</orig>
+                                    <reg>G</reg>
+                                </choice>uesle</surname>,
                         <genName>pere</genName></roleName></persName>, pour sca<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>oir sy <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e voulois retenir l<choice>
-                            <orig></orig>
-                            <reg>'</reg>
-                        </choice>office ou en rece<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>oir le pri<choice>
-                            <orig><unclear>s</unclear></orig>
-                            <reg>x</reg>
-                        </choice>.</s></ab>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir sy <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e voulois retenir l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>office ou en rece<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir le pri<choice>
+                        <orig><unclear>s</unclear></orig>
+                        <reg>x</reg>
+                    </choice>.</s></ab>
         </body>
     </text>
 </TEI>

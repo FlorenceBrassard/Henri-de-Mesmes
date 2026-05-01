@@ -33,7 +33,10 @@
                     </choice>ie et mau<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>aise volonté des meschans luy eust peu persuader que <choice>
+                    </choice>aise volonté des meschans luy eust p<choice>
+                        <orig>eu</orig>
+                        <reg>u</reg>
+                    </choice> persuader que <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>eusse <choice>
@@ -45,7 +48,10 @@
                     </choice>anche gasté ou <subst>
                         <del>dissipé</del>
                         <add>perdu</add>
-                    </subst> les titres de la corone que <choice>
+                    </subst> les titres de la corone<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e scay estre touts en ruine et sy dissip<choice>

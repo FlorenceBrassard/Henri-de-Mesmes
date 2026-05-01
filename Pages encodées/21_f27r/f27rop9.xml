@@ -22,30 +22,31 @@
     <text>
         <body>
             <ab><s><choice>
-                <orig>i</orig>
-                <reg>J</reg>
-            </choice>e luy tendy ma robe come on faict <choice>
-                <orig>a</orig>
-                <reg>à</reg>
-            </choice> <choice>
-                <orig>v</orig>
-                <reg>u</reg>
-            </choice>n retraiant et il m<choice>
-                <orig></orig>
-                <reg>'</reg>
-            </choice>en<choice>
-                <orig>u</orig>
-                <reg>v</reg>
-            </choice>oia lendemain <choice>
-                <orig>ij mil <hi rend="superscript">c<g>Ł</g>s</hi></orig>
-                <reg>2100 livres</reg>
-            </choice> pour le pri<choice>
-                <orig>s</orig>
-                <reg>x</reg>
-            </choice> d<choice>
-                <orig></orig>
-                <reg>'</reg>
-            </choice>icelluy. </s></ab>
+                        <orig>i</orig>
+                        <reg>J</reg>
+                    </choice>e luy tendy ma robe come on faict <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n retraiant et il m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oia lendemain <choice>
+                        <orig>ij mil <hi rend="superscript">c<g ref="#livre-glyph">Ł</g>s</hi></orig>
+                        <reg>deux mille cent livres</reg>
+                    </choice> pour le pri<choice>
+                        <orig>s</orig>
+                        <reg>x</reg>
+                    </choice> d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>icelluy. </s></ab>
         </body>
     </text>
 </TEI>

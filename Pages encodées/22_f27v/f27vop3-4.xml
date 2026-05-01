@@ -33,9 +33,9 @@
                         </choice>rier 158<subst>
                             <del rend="overwritten">8</del>
                             <add place="superimposed">5</add>
-                        </subst>.</date><choice>
-                        <orig>v</orig>
-                        <reg>u</reg>
+                        </subst></date><choice>
+                        <orig>. v</orig>
+                        <reg>, u</reg>
                     </choice>n catharre <metamark function="insert" target="#f27vop3_sur_yeulx"
                         >^</metamark><add xml:id="f27vop3_sur_yeulx"><metamark>^</metamark> sur les
                         yeulx</add><choice>
@@ -71,17 +71,22 @@
                     </subst> constance sy obstinée qu'on n<choice>
                         <orig> </orig>
                         <reg>'</reg>
-                    </choice>a jamais <del>ou <gap unit="char" quantity="1"/></del> veu en six mois
-                    de douleur ny <choice>
+                    </choice>a <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>amais <del>ou <gap unit="char" quantity="1"/></del> v<choice>
+                        <orig>eu</orig>
+                        <reg>u</reg>
+                    </choice> en six mois de douleur ny <choice>
                         <orig>v</orig>
                         <reg>u</reg>
                     </choice>ne larme de moy<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> ny ouy <del><choice>
+                    </choice> ny ouy <del seq="1"><choice>
                             <orig>v</orig>
                             <reg>u</reg>
-                        </choice>ne</del><del><choice>
+                        </choice>ne</del><del seq="2"><choice>
                             <orig>v</orig>
                             <reg>u</reg>
                         </choice>n</del>
@@ -92,7 +97,7 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <del xml:id="f27vop3_aucun">aucun</del><substJoin
+                    <del seq="3" xml:id="f27vop3_aucun">aucun</del><substJoin
                         target="#f27vop3_aucun #f27vop3_vn_seul"/> non pour me bander sy a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -112,15 +117,12 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
-                    </choice>fesse que tu soies douleur.<choice>
-                        <orig> </orig>
-                        <reg> »</reg>
-                    </choice></s><s><choice>
-                        <orig>m</orig>
-                        <reg>M</reg>
-                    </choice>ais resolu <choice>
+                    </choice>fesse que tu soies douleur<choice>
+                        <orig>. </orig>
+                        <reg>. », </reg>
+                    </choice></s><s>mais resolu <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice> la grace de <choice>

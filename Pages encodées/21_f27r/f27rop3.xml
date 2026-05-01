@@ -25,10 +25,10 @@
                         <orig>, </orig>
                         <reg> : « </reg>
                     </choice><subst>
-                        <del>c</del>
-                        <add>C</add>
+                        <del rend="overwritten">c</del>
+                        <add place="superimposed">C</add>
                     </subst>e qui m<choice>
-                        <orig></orig>
+                        <orig/>
                         <reg>'</reg>
                     </choice>est ad<choice>
                         <orig>u</orig>
@@ -39,8 +39,9 @@
                     </choice>iendra bientost <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> <choice>
-                        <abbr rend="overlined">plsrs</abbr>
+                    </choice>
+                    <choice>
+                        <abbr rend="overlined">plrs</abbr>
                         <expan>plusieurs</expan>
                     </choice>.</s></ab>
         </body>
