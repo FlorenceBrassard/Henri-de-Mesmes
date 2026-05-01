@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s>Premierement<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> il m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a doné tant de resolution et de fermeté de cueur, que non seulement <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e mesprise et desdaigne cete inconstante et muable fortune qui guete et
+                    heurte volontiers les meilleurs, et le plus sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent, et plus rudement, furiant sens discretion, et tant plus <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> redoubter quand plus elle se <choice>
+                        <abbr rend="overlined">pste</abbr>
+                        <expan>presente</expan>
+                    </choice>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice><choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>nostre</expan>
+                    </choice> gré, mais ancore <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ay onques senty <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>ne seule pointe de ses assaults <choice>
+                        <orig>, i</orig>
+                        <reg>. J</reg>
+                    </choice>e ne me suys ny esmeu de son partement d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec moy ny empesché <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> la rappeller, faisant estat que sy <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>ay perdu des moiens qui sembloient a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir de l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>antage et ornement beaucoup, <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>en ay acquis qui en verité ont plus d'honeur et plus d'alegement<choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice>
+                </s></ab>
+        </body>
+    </text>
+</TEI>

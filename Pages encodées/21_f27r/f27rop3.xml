@@ -21,22 +21,29 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
+            <ab><s>Je disois<choice>
+                        <orig>, </orig>
+                        <reg> : « </reg>
+                    </choice><subst>
+                        <del rend="overwritten">c</del>
+                        <add place="superimposed">C</add>
+                    </subst>e qui m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>est ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>enu ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>iendra bientost <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
                     </choice>
                     <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <add></add>
-                        <del></del>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <abbr rend="overlined">plrs</abbr>
+                        <expan>plusieurs</expan>
+                    </choice>.</s></ab>
         </body>
     </text>
 </TEI>

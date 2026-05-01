@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>ors il m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oia le <persName ref="Q136140572"><roleName>procureur <choice>
+                                <abbr rend="overlined">gral</abbr>
+                                <expan>general</expan>
+                            </choice><surname><choice>
+                                    <orig>l</orig>
+                                    <reg>L</reg>
+                                </choice>a <choice>
+                                    <orig>g</orig>
+                                    <reg>G</reg>
+                                </choice>uesle</surname>,
+                        <genName>pere</genName></roleName></persName>, pour sca<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir sy <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e voulois retenir l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>office ou en rece<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir le pri<choice>
+                        <orig><unclear>s</unclear></orig>
+                        <reg>x</reg>
+                    </choice>.</s></ab>
+        </body>
+    </text>
+</TEI>
