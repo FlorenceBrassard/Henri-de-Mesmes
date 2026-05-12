@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab><s>Le tiers<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice>
+               <choice>
+                  <orig>v</orig>
+                  <reg>u</reg>
+               </choice>ne belle lignée dont elle vous a contanté<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice>
+               <add>accreu</add> et fortifié de deux beaux <roleName>garsons</roleName> en <date><choice>
+                     <orig>M</orig>
+                     <reg>m</reg>
+                  </choice>ars 86</date><choice>
+                  <orig>.</orig>
+                  <reg/>
+               </choice> et en <date><choice>
+                     <orig>J</orig>
+                     <reg>j</reg>
+                  </choice>uin 87</date><choice>
+                  <orig>.</orig>
+                  <reg>,</reg>
+               </choice> puys d’une <roleName>fille</roleName> en <date><choice>
+                     <abbr>8<hi rend="superscript">bre</hi></abbr>
+                     <expan>octobre</expan>
+                  </choice> 88</date><choice>
+                  <orig>.</orig>
+                  <reg>,</reg>
+               </choice> auxquels <choice>
+                  <orig>d</orig>
+                  <reg>D</reg>
+               </choice>ieu veuille doner ses graces, et de ressembler <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> leurs peres et meres<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> aieuls et bisaieuls.</s></ab>
+      </body>
+   </text>
+</TEI>

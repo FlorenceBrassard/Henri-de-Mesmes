@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab><s>Ancore m<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>a<choice>
+                  <orig> </orig>
+                  <reg>-t-</reg>
+               </choice>il voulu rendre contant en ce qui est le plus pres de moy<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> qui estes vous<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice>
+               <roleName ref="Q94908007">mon filz</roleName>, <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> qui <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>ay veu en peu d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>années ad<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>enir trois contantemens de prosperité mondaine les plus desirables
+                  <del>que <unclear cert="medium" reason="cancelled">n</unclear></del> les plus
+               desirables selon l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>opinion et les souhaits des homes.</s></ab>
+      </body>
+   </text>
+</TEI>

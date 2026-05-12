@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab><s>L<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>une<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice>
+               <choice>
+                  <abbr rend="overlined">vre</abbr>
+                  <expan>vostre</expan>
+               </choice> reception au <choice>
+                  <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                  <expan>par</expan>
+               </choice>lement en l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>office de <roleName>Conseiller</roleName> en icelluy, qui fut d<choice>
+                  <orig>ez</orig>
+                  <reg>ès</reg>
+               </choice>
+               <date>le mois de <add>aoust</add>
+                  <hi rend="overlined">1583</hi></date> a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ec honeur<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice>
+               <del>et a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ec</del> ancore que ce fust en eage qui vous <subst>
+                  <del>pou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>oit</del>
+                  <add>eust p<choice>
+                        <orig>eu</orig>
+                        <reg>u</reg>
+                     </choice></add>
+               </subst> excuser<choice>
+                  <orig/>
+                  <reg> ;</reg>
+               </choice> l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>autre<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice>
+               <choice>
+                  <abbr rend="overlined">vre</abbr>
+                  <expan>vostre</expan>
+               </choice> heureus mariage <del>en</del> au <date>mesme mois l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>an re<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>olu</date> a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ec <roleName><choice>
+                     <orig>v</orig>
+                     <reg>u</reg>
+                  </choice>ne damo<subst>
+                     <del rend="overwritten">i</del>
+                     <add place="superimposed">y</add>
+                  </subst>selle d’honeur</roleName>, de bon lieu, et de force et santé
+                  <del>pour</del> autant que l<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>eussions sceu desirer.</s></ab>
+      </body>
+   </text>
+</TEI>

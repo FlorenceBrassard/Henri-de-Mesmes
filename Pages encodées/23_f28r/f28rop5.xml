@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab><s>Je ne veulx pas oublier qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>en <date>fin de la mesme année 88</date><choice>
+                  <orig>.</orig>
+                  <reg>,</reg>
+               </choice>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>ay esté sy heureus d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>aprendre d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>un de mes amys ce qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oit apris de plus hault et bien certainement sur l’histoire que <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>ay dicte naguiere de la rupture du <roleName ref="Q53448">Roy</roleName> a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ec moy<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> de laquelle Dieu scait que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>amais <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e n<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ois peu aprendre <del>le fon</del> les occasions ny de luy ny d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>autre.</s></ab>
+      </body>
+   </text>
+</TEI>
