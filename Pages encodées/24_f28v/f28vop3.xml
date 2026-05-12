@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab><s><choice>
+                  <orig>c</orig>
+                  <reg>C</reg>
+               </choice>ome <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>eusse esté fort temeraire sy <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>eusse ainsy parlé, ou dict chose qui en aprochast <choice>
+                  <orig><add>que</add></orig>
+                  <reg>,</reg>
+               </choice> sur cela il monta en hault, et s<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>en plaignit aux <choice>
+                  <abbr>s<hi rend="superscript">rs</hi></abbr>
+                  <expan>seigneurs</expan>
+               </choice> de <persName ref="Q565927"><surname>Jo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                     </choice>euse</surname></persName> et d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice><persName ref="Q667104"><surname><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                     </choice>spernon</surname></persName>.</s></ab>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab><s>Voila ce que <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>ay apris de sy certain endroit que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e n<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>en puys <choice>
+                  <abbr>fe<hi rend="superscript">r</hi></abbr>
+                  <expan>faire</expan>
+               </choice> aucun doubte, et le croy come sy <choice>
+                  <orig>i</orig>
+                  <reg>j'</reg>
+               </choice>a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ois esté <choice>
+                  <abbr rend="overlined">prst</abbr>
+                  <expan>present</expan>
+               </choice>
+               <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> touts leurs propos.</s></ab>
+      </body>
+   </text>
+</TEI>

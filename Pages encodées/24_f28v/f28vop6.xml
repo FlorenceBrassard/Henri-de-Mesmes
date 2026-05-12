@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab><s>L<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>autre ne me deffendit pas<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> pource qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il faisoit gloire d<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>estre bien avec le <roleName ref="Q53448">Roy</roleName> et <add>tendre
+                  droict l<choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice></add> s<choice>
+                  <orig>e</orig>
+                  <reg>a</reg>
+               </choice>ns regarder a costé ny <roleName ref="Q131552">mere</roleName><choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> ny <roleName ref="Q225411">femme</roleName>.</s></ab>
+      </body>
+   </text>
+</TEI>
