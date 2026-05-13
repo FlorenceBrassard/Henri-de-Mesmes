@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s>C<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>est que la <roleName>Reyne <genName>mere</genName> du
+                            <roleName>Roy</roleName></roleName>, qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il fault croire par l<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir pas esté bien a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec le <roleName>Roy</roleName> quand <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>estois pres de luy, s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>isa ou fut ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>isée de luy dire que se plaignant <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> moy de cela, <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>estois ingeré de luy prometre que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e les remetrois bien ensemble.</s></ab>
+        </body>
+    </text>
+</TEI>

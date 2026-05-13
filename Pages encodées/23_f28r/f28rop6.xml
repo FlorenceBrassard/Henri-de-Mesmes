@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t ce m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a esté singulier <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tantement de le sca<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir pource que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>aprends tant mieulx par l<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> que ce a esté sens ma faults <del>ny</del> et sens aucun suspe<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                    </choice>on <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tre moy de negligence ou d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>infidelité.</s></ab>
+        </body>
+    </text>
+</TEI>
