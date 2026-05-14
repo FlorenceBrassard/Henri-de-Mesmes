@@ -36,17 +36,20 @@
                     </choice>estre bien a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec le <roleName>Roy</roleName>
+                    </choice>ec le <roleName ref="Q53448">Roy</roleName>
                     <add>et tendre droict l<choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice></add> sens regarder <choice>
+                        </choice></add> s<choice>
+                        <orig>e</orig>
+                        <reg>a</reg>
+                    </choice>ns regarder <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice>costé ny mere<choice>
+                    </choice>ns regarder a costé ny <roleName ref="Q131552">mere</roleName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> ny femme. </s></ab>
+                    </choice> ny <roleName ref="Q225411">femme</roleName>.</s></ab>
         </body>
     </text>
 </TEI>

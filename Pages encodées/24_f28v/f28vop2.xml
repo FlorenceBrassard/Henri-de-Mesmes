@@ -36,7 +36,7 @@
                     </choice>er fort mau<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ais au <roleName>Roy</roleName>.</s></ab>
+                    </choice>ais au <roleName ref="Q53448">Roy</roleName>.</s></ab>
         </body>
     </text>
 </TEI>

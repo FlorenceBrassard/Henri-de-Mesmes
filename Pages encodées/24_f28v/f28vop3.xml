@@ -39,8 +39,11 @@
                     </choice>en plaignit aux <choice>
                         <abbr>s<hi rend="superscript">rs</hi></abbr>
                         <expan>seigneurs</expan>
-                    </choice><persName><nameLink>de</nameLink>
-                        <surname>Joieuse</surname></persName> et <persName><nameLink>d<choice>
+                    </choice><persName ref="Q565927"><nameLink>de</nameLink>
+                        <surname>Jo<choice>
+                            <orig>i</orig>
+                            <reg>y</reg>
+                        </choice>euse</surname></persName> et <persName ref="Q667104"><nameLink>d<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice></nameLink><surname><choice>

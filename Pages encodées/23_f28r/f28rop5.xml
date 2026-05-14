@@ -21,16 +21,12 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s>Je ne veulx pas oubliser qu<choice>
+            <ab><s>Je ne veulx pas oublier qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>en fin de la mesme <date>année 88.</date><choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice>
-                    <choice>
-                        <orig>i</orig>
-                        <reg>j'</reg>
+                    </choice>en <date>fin de la mesme année 88</date><choice>
+                        <orig>. i</orig>
+                        <reg>, j'</reg>
                     </choice>ay esté sy heureus d<choice>
                         <orig/>
                         <reg>'</reg>
@@ -40,13 +36,20 @@
                     </choice>un de mes amys ce qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il auoit apris de plus hault et bien certainement sur l'histoire que <choice>
-                        <orig>i</orig>
-                        <reg>j'</reg>
-                    </choice>ay dicte naguiere de la rupture du <roleName>Roy</roleName> a<choice>
+                    </choice>il a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec moy de laquelle Dieu scait que <choice>
+                    </choice>oit apris de plus hault et bien certainement sur l'histoire que <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>ay dicte naguiere de la rupture du <roleName ref="Q53448"
+                        >Roy</roleName> a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec moy<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> de laquelle Dieu scait que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>amais <choice>

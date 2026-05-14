@@ -24,8 +24,8 @@
             <ab><s>C<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>est que la <roleName>Reyne <genName>mere</genName> du
-                            <roleName>Roy</roleName></roleName>, qu<choice>
+            </choice>est que la <roleName ref="Q131552">Reyne <genName>mere</genName> du
+                <roleName ref="Q53448">Roy</roleName></roleName>, qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il fault croire par l<choice>
@@ -40,7 +40,7 @@
                     </choice>oir pas esté bien a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec le <roleName>Roy</roleName> quand <choice>
+                    </choice>ec le <roleName ref="Q53448">Roy</roleName> quand <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>estois pres de luy, s<choice>

@@ -27,7 +27,7 @@
                     </choice>t come tost apres il dit <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> la <roleName>Reyne</roleName> sa femme qu<choice>
+                    </choice> la <roleName ref="Q225411">Reyne sa femme</roleName> qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il me vouloit reculer d'aupres de luy, il veit sortir de ses yeulx

@@ -31,15 +31,17 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ée, et repos caché<choice>
-                        <orig> </orig>
-                        <reg> : </reg>
-                    </choice>c<choice>
+                        <orig/>
+                        <reg> :</reg>
+                    </choice> c<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>est en ce qui touche m<subst>
+                    </choice>est en ce qui touche m<subst xml:id="f28rop1_a_o">
                         <del rend="overwritten">a</del>
-                        <add place="superimposed">on</add>
-                    </subst> ame et mon esprit et toute l'habitude de ma persone.</s></ab>
+                        <add place="superimposed">o</add>
+                    </subst><add xml:id="f28rop1_n">n</add>
+                    <substJoin target="#f28rop1_a_o #f28rop1_n"/> ame et mon esprit et toute
+                    l'habitude de ma persone.</s></ab>
         </body>
     </text>
 </TEI>

@@ -42,8 +42,8 @@
                     </choice>ois voulu <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> ses despens acquerir la bone grace de la <roleName>Reyne</roleName>
-                    femme de <roleName>sa Ma<choice>
+                    </choice> ses despens acquerir la bone grace de la <roleName ref="Q225411">Reyne
+                    femme de sa Ma<choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>esté</roleName>. </s></ab>

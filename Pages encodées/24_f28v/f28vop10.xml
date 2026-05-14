@@ -24,7 +24,7 @@
             <ab><s><choice>
                         <orig>q</orig>
                         <reg>Q</reg>
-                    </choice>ue pour m'ache<choice>
+            </choice>ue pour <del>le</del> m'ache<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>er de peindre, deux mau<choice>
@@ -36,17 +36,17 @@
                     </choice>iteurs en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ieus de ma fortune, <add>se</add> deffians de la leur me presterent et
+                    </choice>ieus de ma fortune, <add>se</add> deffians de la leur<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> me presterent et
                     lors <choice>
                         <orig>de</orig>
                         <reg>et</reg>
                     </choice> sou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ent depuys<choice>
-                        <orig></orig>
-                        <reg>,</reg>
-                    </choice> de bones charitez pour rendre ceste mal<choice>
+                    </choice>ent depuys de bones charitez pour rendre ceste mal<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>eillance du tout irreconciliable. </s></ab>

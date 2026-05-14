@@ -21,10 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig>v</orig>
-                        <reg>V</reg>
-                    </choice>oila ce que <choice>
+            <ab><s>Voila ce que <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>ay apris de sy certain endroit que <choice>
@@ -44,7 +41,7 @@
                         <reg>v</reg>
                     </choice>ois esté <choice>
                         <abbr rend="overlined">prst</abbr>
-                        <reg>present</reg>
+                        <expan>present</expan>
                     </choice>
                     <choice>
                         <orig>a</orig>

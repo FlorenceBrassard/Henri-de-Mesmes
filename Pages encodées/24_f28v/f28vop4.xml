@@ -24,10 +24,16 @@
             <ab><s><choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ont ce premier respondït que <del><choice>
+            </choice>ont ce premier respond<choice>
+                <orig>ï</orig>
+                <reg>i</reg>
+            </choice>t que <del><choice>
                             <orig>i</orig>
                             <reg>j'</reg>
-                        </choice>estois pour</del>
+            </choice>esto<choice>
+                <orig>ï</orig>
+                <reg>i</reg>
+            </choice>s pour</del>
                     <choice>
                         <orig>i</orig>
                         <reg>j'</reg>

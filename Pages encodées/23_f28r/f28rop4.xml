@@ -23,22 +23,29 @@
         <body>
             <ab><s>Le tiers <choice>
                         <orig>v</orig>
-                        <reg>u</reg>
+                        <reg>, u</reg>
                     </choice>ne belle lignée dont elle vous a contanté<choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <add>accreu</add> et fortifié de deux beaux garsons en <date>Mars 86.</date><choice>
-                        <orig/>
+                    <add>accreu</add> et fortifié de deux beaux <roleName>garsons</roleName> en
+                <date><choice>
+                    <orig>M</orig>
+                    <reg>m</reg>
+                </choice>ars 86</date><choice>
+                        <orig>.</orig>
+                        <reg/>
+                </choice> et en <date><choice>
+                    <orig>J</orig>
+                    <reg>j</reg>
+                </choice>uin 87</date><choice>
+                        <orig>.</orig>
                         <reg>,</reg>
-                    </choice> et en <date>Juin 87.</date><choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> puys d'une fille en <date><choice>
+                    </choice> puys d'une <roleName>fille</roleName> en <date><choice>
                             <abbr>8<hi rend="superscript">bre</hi></abbr>
                             <expan>octobre</expan>
-                        </choice> 88.</date><choice>
-                        <orig/>
+                        </choice> 88</date><choice>
+                        <orig>.</orig>
                         <reg>,</reg>
                     </choice> auxquels <choice>
                         <orig>d</orig>

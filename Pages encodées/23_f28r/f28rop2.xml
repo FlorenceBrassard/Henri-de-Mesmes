@@ -33,7 +33,8 @@
                     </choice> qui estes vous<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> mon filz, <choice>
+                    </choice>
+                    <roleName ref="Q94908007">mon filz</roleName>, <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> qui <choice>
@@ -46,7 +47,7 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>enir trois contantemens de prosperité mondaine les plus desirables
-                        <del>que <unclear>n</unclear></del> selon l<choice>
+                        <del>que <unclear cert="medium" reason="cancelled">n</unclear></del> selon l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>opinion et les souhaits des homes.</s></ab>

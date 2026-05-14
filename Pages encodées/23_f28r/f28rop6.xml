@@ -33,13 +33,22 @@
                     </choice>tantement de le sca<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir pource que <choice>
+                    </choice>oir<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> pource que <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>aprends tant mieulx par l<choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> que ce a esté sens ma faults <del>ny</del> et sens aucun suspe<choice>
+                    </choice> que ce a esté s<choice>
+                        <orig>e</orig>
+                        <reg>a</reg>
+                    </choice>ns ma faulte <del>ny</del> et s<choice>
+                        <orig>e</orig>
+                        <reg>a</reg>
+                    </choice>ns aucun suspe<choice>
                         <orig>c</orig>
                         <reg>ç</reg>
                     </choice>on <choice>

@@ -37,15 +37,18 @@
                         </choice>lement</orgName> en l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>office de Conseiller en icelluy, qui fut dez le <date>mois de
-                            <add>aoust</add>
+                    </choice>office de Conseiller en icelluy, qui fut d<choice>
+                        <orig>ez</orig>
+                        <reg>ès</reg>
+                    </choice> le <date>mois de <add>aoust</add>
                         <hi rend="overlined">1583</hi></date> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                        </choice>ec honeur<choice>
-                            <orig/>
-                            <reg>,</reg>
-                        </choice> <del>et a<choice>
+                    </choice>ec honeur<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <del>et a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ec</del> ancore que ce fust en eage qui vous <subst>
@@ -53,11 +56,14 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oit </del>
-                        <add>eust peu</add>
+                        <add>eust p<choice>
+                                <orig>eu</orig>
+                                <reg>u</reg>
+                            </choice></add>
                     </subst>excuser<choice>
-                        <orig> </orig>
-                        <reg> ; </reg>
-                    </choice>l<choice>
+                        <orig/>
+                        <reg> ;</reg>
+                    </choice> l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice> autre <choice>
@@ -67,13 +73,13 @@
                     <choice>
                         <abbr rend="overlined">vre</abbr>
                         <expan>vostre</expan>
-                    </choice> heureus mariage <del>en</del> au mesme mois l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>an re<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>olu a<choice>
+                    </choice> heureus mariage <del>en</del> au <date>mesme mois l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>an re<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>olu</date> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec <choice>
@@ -83,10 +89,10 @@
                         <del rend="overwritten">i</del>
                         <add place="superimposed">y</add>
                     </subst>selle d'honeur, de bon lieu, et de force et santé <del>pour</del> autant
-                que l<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>eussions sceu desirer.</s></ab>
+                    que l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>eussions sceu desirer.</s></ab>
         </body>
     </text>
 </TEI>
