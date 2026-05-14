@@ -43,10 +43,10 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> ses despens acquerir la bone grace de la <roleName ref="Q225411">Reyne
-                    femme de sa Ma<choice>
+                        femme de <rolename ref="Q53448"> sa Ma<choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>esté</roleName>. </s></ab>
+                        </choice>esté</rolename></roleName>. </s></ab>
         </body>
     </text>
 </TEI>

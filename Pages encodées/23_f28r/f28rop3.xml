@@ -82,13 +82,13 @@
                         </choice>olu</date> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec <choice>
+                        </choice>ec <roleName><choice>
                         <orig>v</orig>
                         <reg>u</reg>
                     </choice>ne damo<subst>
                         <del rend="overwritten">i</del>
                         <add place="superimposed">y</add>
-                    </subst>selle d'honeur, de bon lieu, et de force et santé <del>pour</del> autant
+                    </subst>selle d'honeur</roleName>, de bon lieu, et de force et santé <del>pour</del> autant
                     que l<choice>
                         <orig/>
                         <reg>'</reg>
