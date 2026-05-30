@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                    </choice>ais de m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en <choice>
+                        <abbr>fe<hi rend="superscript">r</hi></abbr>
+                        <expan>faire</expan>
+                    </choice> fort entre le <roleName>Roy</roleName> et la
+                        <roleName>Reyne</roleName>, ancore que l<choice>
+                        <orig>'</orig>
+                        <reg>effort</reg>
+                    </choice> en fust tres<choice>
+                        <orig/>
+                        <reg> </reg>
+                    </choice>bon<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> la vanterie en seroit fort presomptueuse, et mesmes en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ers elle, pr<choice>
+                        <orig>e</orig>
+                        <reg>è</reg>
+                    </choice>s de laquelle <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>estois <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>our quand <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice> des ser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>iteurs de feu <roleName><choice>
+                            <abbr>mons<hi rend="superscript">r</hi></abbr>
+                            <expan>Monsieur</expan>
+                        </choice></roleName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> aiant parl<choice>
+                        <orig>e</orig>
+                        <reg>é</reg>
+                    </choice> longuement <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> son oreille<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> se partit d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>elle et la laissa<choice>
+                        <orig/>
+                        <reg> ;</reg>
+                    </choice> elle nous dit tout hault<choice>
+                        <orig/>
+                        <reg> : « </reg>
+                    </choice> cest home est sy sot qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il se vante <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> moy de nous metre bien ensemble<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> moy et mon filz.<choice>
+                        <orig> </orig>
+                        <reg> »</reg>
+                    </choice></s></ab>
+        </body>
+    </text>
+</TEI>
