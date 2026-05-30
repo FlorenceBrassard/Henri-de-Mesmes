@@ -30,9 +30,14 @@
                     </choice>estois <subst>
                         <del>pas</del>
                         <add>ny</add>
-                    </subst> changé depuys ny asoty, pour aporter moins de prudence <add>et
-                            circonsp<unclear reason="tache">ect</unclear>ion</add> entre le
-                        <roleName>Roy</roleName> et elle. </s></ab>
+                    </subst> changé depuys ny as<choice>
+                        <orig/>
+                        <reg>s</reg>
+                    </choice>oty, pour aporter moins de prudence <add>et
+                            circonspe<unclear
+                            cert="high" reason="tache">ct</unclear>ion</add> entre le
+                        <roleName
+                        ref="Q53448">Roy</roleName> et elle. </s></ab>
         </body>
     </text>
 </TEI>

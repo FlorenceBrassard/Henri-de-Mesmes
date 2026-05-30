@@ -30,17 +30,17 @@
                     </choice>ay des <choice>
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
-                    </choice> de son pere monsieur le <persName><choice>
+                    </choice> de son pere monsieur le <persName ref="Q1348795"><roleName><choice>
                             <abbr>Mar<hi rend="superscript">al</hi></abbr>
-                            <expan>mareschal</expan>
-                        </choice>
+                            <expan>Marechal</expan>
+                        </choice></roleName>
                         <nameLink>de</nameLink>
                         <surname>Joieuse</surname></persName>
                     <choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>du<choice>
-                        <abbr><g rend="#que-glyph">ꝙ</g></abbr>
+                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                         <expan>que</expan>
                     </choice>l <choice>
                         <orig>i</orig>

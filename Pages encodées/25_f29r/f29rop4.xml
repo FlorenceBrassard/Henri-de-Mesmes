@@ -30,7 +30,10 @@
                     </choice>ient aussy qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il y a xvi ans qu<choice>
+                    </choice>il y a <choice>
+                        <orig>xvi</orig>
+                        <reg>16</reg>
+                    </choice> ans qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>elle re<choice>
@@ -39,7 +42,7 @@
                     </choice>enant de la messe acompaignée de toute la cour, <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>eta <roleName><choice>
+                    </choice>eta <roleName ref="Q318380"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>onsieur</roleName> dens <choice>
@@ -48,7 +51,7 @@
                     </choice>ne chambre et nous y feit entrer<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> le <persName><roleName><choice>
+                    </choice> le <persName ref="Q678012"><roleName><choice>
                                 <abbr>mar<hi rend="superscript">al</hi></abbr>
                                 <expan>marechal</expan>
                             </choice></roleName>

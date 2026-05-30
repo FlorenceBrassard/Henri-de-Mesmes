@@ -37,10 +37,13 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>antageuses au <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
-                    </choice>trat de marriage avec la <roleName>seur de la
-                            <roleName>Reyne</roleName></roleName>. </s></ab>
+                    </choice>trat de marriage a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec la <roleName ref="Q22132552">seur de la <roleName
+                            ref="Q225411">Reyne</roleName></roleName>. </s></ab>
         </body>
     </text>
 </TEI>

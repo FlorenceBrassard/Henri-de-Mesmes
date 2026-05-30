@@ -30,8 +30,9 @@
                     </choice>en <choice>
                         <abbr>fe<hi rend="superscript">r</hi></abbr>
                         <expan>faire</expan>
-                    </choice> fort entre le <roleName>Roy</roleName> et la
-                        <roleName>Reyne</roleName>, ancore que l<choice>
+                    </choice> fort entre le <roleName ref="Q53448">Roy</roleName> et la
+                        <roleName
+                        ref="Q131552">Reyne</roleName>, ancore que l<choice>
                         <orig>'</orig>
                         <reg>effort</reg>
                     </choice> en fust tres<choice>
@@ -61,9 +62,12 @@
                     </choice> des ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>iteurs de feu <roleName><choice>
+                    </choice>iteurs de feu <roleName ref="Q318380"><choice>
                             <abbr>mons<hi rend="superscript">r</hi></abbr>
-                            <expan>Monsieur</expan>
+                            <expan><choice>
+                                    <orig>m</orig>
+                                    <reg>M</reg>
+                                </choice>onsieur</expan>
                         </choice></roleName><choice>
                         <orig/>
                         <reg>,</reg>
@@ -83,9 +87,9 @@
                         <orig/>
                         <reg> ;</reg>
                     </choice> elle nous dit tout hault<choice>
-                        <orig/>
-                        <reg> : « </reg>
-                    </choice> cest home est sy sot qu<choice>
+                        <orig> c</orig>
+                        <reg> : « C</reg>
+                    </choice> est home est sy sot qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il se vante <choice>

@@ -27,7 +27,10 @@
                     </choice>ncore ne nous a<choice>
                         <orig> </orig>
                         <reg>-t-</reg>
-                    </choice>elle pas jet<choice>
+                    </choice>elle pas <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>et<choice>
                         <orig>e</orig>
                         <reg>é</reg>
                     </choice>s <subst>

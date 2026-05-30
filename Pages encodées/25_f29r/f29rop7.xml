@@ -46,7 +46,7 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>une fois <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
                     </choice>seill<choice>
                         <orig>e</orig>
@@ -57,17 +57,17 @@
                     </choice>ent lors que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e luy estois intrinseque, et moy<subst>
-                        <add> </add>
-                        <del> : « </del>
-                    </subst>C<choice>
+                    </choice>e luy estois intrinseque, et moy<choice>
+                        <orig> </orig>
+                        <reg> : « </reg>
+                    </choice>C<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>est asse<choice>
                         <orig>s</orig>
                         <reg>z,</reg>
                     </choice><metamark function="insert" target="#f29rop7_Sire">^</metamark>
-                    <add xml:id="f29rop7_Sire"><roleName>Sire</roleName></add><choice>
+                    <add xml:id="f29rop7_Sire"><roleName ref="Q53448">Sire</roleName></add><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> de la voir <subst>

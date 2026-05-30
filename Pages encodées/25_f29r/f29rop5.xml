@@ -31,7 +31,7 @@
                         <del rend="overwritten">is</del>
                         <add place="superimposed">er</add>
                     </subst>
-                    <roleName><choice>
+                    <roleName ref="Q318380"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>onsieur</roleName>, et nous appelloit touts deux <choice>
@@ -43,13 +43,16 @@
                     </choice> son courrous<choice>
                         <orig> n</orig>
                         <reg>. N</reg>
-                    </choice>ous ouymes sens plus, mais nul de nous n'ou<choice>
+                    </choice>ous ouymes s<choice>
+                        <orig>e</orig>
+                        <reg>a</reg>
+                    </choice>ns plus, mais nul de nous n’ou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>rit la bouche pour parler, ny bousgea ou l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>oeil ou l<choice>
+                    </choice>oeil ou la teste ou l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>espaule pour doner <choice>
