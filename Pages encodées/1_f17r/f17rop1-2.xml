@@ -47,7 +47,7 @@
    </facsimile>
    <text>
       <body>
-         <p><choice>
+         <ab><s><choice>
                <orig>V</orig>
                <reg>U</reg>
             </choice>n temps fut que les <del facs="#f17rop1_i_honestes" xml:id="f17rop1_honestes"
@@ -96,27 +96,41 @@
             <substJoin seq="1"
                target="#f17rop1_en #f17rop1_s_2 #s_6 #f17rop1_louanges_remerque #f17rop1_vertueuses_belles"/>
             <substJoin seq="2" target="#f17rop1_t_ent #f17rop1_s_3 #f17rop1_s_5 #f17rop1_s_7"/>
-            actions : et apres eulx, enseignemens pour bien faire.<note resp="AV" type="génétique"
-               >La V1 dissocie la rédaction d’une biographie (ou d’une vie, au sens ancien du terme)
-               et l’écriture de soi (« la leur propre »). La première pratique est motivée par un
-               lien affectif (« ceux quilz avoient aimez ») plutôt que familial. Elle semble à la
-               fois fréquente, aisée et plaisante (« volontiers »). La seconde paraît plus rare
-               (« aucuns ont… », soit « quelques-uns »). Plus difficile de se célébrer que de vanter
-               les mérites d’un aïeul admiré. Dans les deux cas néanmoins, les scripteurs partagent
-               des qualités morales (« honestes homes ») et une même visée : (auto)célébration et
-               exemplarité. La V2 rapproche ces deux pratiques en une formule (« leurs vies ou de
-               ceulx… »), qui sont toutes deux placées sous l’égide de l’adverbe « volontiers ». La
-               pratique d’écriture de soi devient par ailleurs première. Plusieurs modifications de
-               vocabulaire sont opérées : dans la première proposition, « honeste » est remplacé par
-               « de valeur » ; dans la proposition centrale (« c’estoit au moins… »), « louanges »
-               devient « remerque », « vertueuses » devient « belles ». La première substitution
-               déplace la qualité des scripteurs de l’« honnêteté » vers la « valeur », terme plus
-               polysémique mais qui, à propos d’une personne, renvoie spécifiquement au grand mérite
-               et à une condition sociale élevée, parfois aussi à la vaillance [à creuser]. La
-               seconde substitution provoque une forme de neutralisation axiologique des textes
-               envisagés (un constat vs un éloge). La troisième, comme la première, efface la
-               prédominance de la qualité morale (honnêteté, vertu) au profit d’une mise en valeur
-               plus abstraite (« belles » : satisfaisantes, admirables).</note></p>
+            actions : et apres eulx, enseignemens pour bien faire<note resp="AV" type="commentaire"
+               >Henri de Mesmes établit une équivalence entre récit de soi et biographie, pratiques
+               qui toutes deux s’inscrivent dans le cadre d’une conception de l’histoire comme
+               « maîtresse de vie » (historia magistra vitae) (Cicéron, De oratore, II, 9, 36).
+               Héritée de l’Antiquité, celle-ci est particulièrement centrale à l’époque moderne
+               pour conférer à l’histoire une fonction morale et en fonder la légitimité sociale
+               (Couzinet, 2007 ; Guion, 2008). Le temps révolu paraît renvoyer aux guerres d’Italie,
+               qui font l’objet de récit de vie héroïque dans lesquels les membres de la noblesse –
+               et avant tout de la noblesse d’épée – forge leur identité Kuperty-Tsur, 1991; Harari,
+               2004), à l’instar de Robert de La Marck, maréchal de Florange, ou des Du Bellay
+               (Piettre, 2017).</note>.</s>
+            <note resp="AV" type="génétique">La première version dissocie la rédaction d’une
+               biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi (« la
+               leur propre »). La première pratique serait motivée par un lien affectif (« ceux
+               quilz avoient aimez ») plutôt que par la seule appartenance familiale. Elle semble à
+               la fois fréquente, aisée et plaisante (« volontiers »). La seconde paraît plus rare
+               (« aucuns ont… », soit « quelques-uns »). De fait, il est socialement moins bien
+               admis de se célébrer soi-même que de vanter les mérites d’un aïeul admiré. Cette
+               dernière pratique est même cruciale dans la construction d’une identité nobiliaire.
+               Dans les deux cas néanmoins, les scripteurs partagent des qualités morales
+               (« honestes homes ») et une même visée : l’exemplarité. La seconde version rapproche
+               ces deux pratiques en une formule (« leurs vies ou de ceulx… »), placées sous l’égide
+               de l’adverbe « volontiers ». La pratique d’écriture de soi devient par ailleurs
+               première. Plusieurs modifications de vocabulaire sont opérées : dans la première
+               proposition, « honeste » est remplacé par « de valeur » ; dans la proposition
+               centrale (« c’estoit au moins… »), « louanges » devient « remerque », « vertueuses »
+               devient « belles ». La première substitution déplace la qualité des scripteurs de
+               l’« honnêteté » vers la « valeur » : ce dernier terme, a priori plus polysémique,
+               renvoie, quand il qualifie une personne, au grand mérite et à une condition sociale
+               élevée, parfois aussi à la vaillance. La seconde substitution provoque une forme de
+               neutralisation axiologique des textes envisagés, de l’éloge au constat ; néanmoins,
+               ce qui est digne de remarque est implicitement remarquable. La troisième
+               substitution, enfin, comme la première, efface la prédominance de la qualité morale
+               (honnêteté, vertu) au profit d’une mise en valeur plus abstraite (« belles », au sens
+               de satisfaisantes, admirables).</note></ab>
          <p/>
       </body>
    </text>
