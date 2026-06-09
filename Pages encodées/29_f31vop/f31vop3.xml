@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><metamark function="structuring">•</metamark> La mau<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>aise fortune, qui <subst>
+                        <del>assault</del>
+                        <add>guete</add>
+                    </subst> et heurte volontiers les meilleurs, et <del>le</del> plus sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent, et plus rudement furiant s<choice>
+                        <orig>e</orig>
+                        <reg>a</reg>
+                    </choice>ns discretion, <subst>
+                        <del>et</del>
+                        <add>qui est</add>
+                    </subst> tant plus <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> craindre, quand plus elle se presente <del>plus</del>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>nostre</expan>
+                    </choice> gré.</s></ab>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><metamark function="structuring">•</metamark> Je discourrois sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent en moy<choice>
+                        <orig/>
+                        <reg>-</reg>
+                    </choice>mesme combien la bone <subst>
+                        <del>fa<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>eur</del>
+                        <add>grace</add>
+                    </subst> d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un sy grand prince aporte a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec soy et de fa<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eur et de <subst xml:id="f31vop4-5_charges_tremeur">
+                        <del>charges</del>
+                        <add>tremeur</add>
+                    </subst>.</s><s>
+                    <add xml:id="f31vop4-5_et_charges"><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t me sembloit que c<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>est bien <choice>
+                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                            <expan>pro</expan>
+                        </choice>prement parlé quand les ordinaires emplois d<subst
+                            xml:id="f31vop4-5_u_es">
+                            <del rend="overwritten">u</del>
+                            <add place="superscript">es</add>
+                        </subst> Roy<add xml:id="f31vop4-5_s">s</add>
+                        <substJoin target="#f31vop4-5_u_es #f31vop4-5_s"/> s<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>appelent entre nous les grandes charges.</add>
+                    <substJoin target="#f31vop4-5_charges_tremeur #f31vop4-5_et_charges"/>
+                </s></ab>
+        </body>
+    </text>
+</TEI>
