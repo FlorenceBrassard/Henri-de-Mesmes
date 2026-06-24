@@ -21,22 +21,16 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s>Come sy la fortune nous a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+            </choice>oit choisys touts seuls pour nous blesser d<choice>
+                <orig></orig>
+                <reg>'</reg>
+            </choice>une plaie sy grie<choice>
+                <orig>u</orig>
+                <reg>v</reg>
+            </choice>e. </s></ab>
         </body>
     </text>
 </TEI>

@@ -22,20 +22,11 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
+                        <orig>b</orig>
+                        <reg>B</reg>
+                    </choice>landum et affabile odium est <choice>
+                        <orig/>
+                        <reg>.</reg>
                     </choice></s></ab>
         </body>
     </text>

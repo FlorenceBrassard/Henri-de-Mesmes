@@ -21,22 +21,33 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
+            <ab><s><g>•</g> Et come touts les autres aiant le <roleName>Roy</roleName>
                     <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> eulx n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ont <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>amais peur de rien, moy au <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>traire<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>aiant ce <roleName>prince</roleName>
                     <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> moy <choice>
+                        <orig>i</orig>
+                        <reg>, j'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois peur de tout.</s></ab>
         </body>
     </text>
 </TEI>

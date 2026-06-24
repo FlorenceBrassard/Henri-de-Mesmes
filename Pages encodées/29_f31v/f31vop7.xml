@@ -21,22 +21,25 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s><subst>
+                        <del><choice>
+                                <orig>l</orig>
+                                <reg>L</reg>
+                            </choice>a grande crainte est</del>
+                        <add><choice>
+                                <orig>e</orig>
+                                <reg>E</reg>
+                            </choice>t me sou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>enoit bien que la</add>
+                    </subst><add>vraie</add> compaigne de la grand<del>e</del> fortune<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> c<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>est la grand<del>e</del> crainte. </s></ab>
         </body>
     </text>
 </TEI>

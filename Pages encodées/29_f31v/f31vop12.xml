@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s>Noz moderez estudes ne de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ront rien <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> leurs <del xml:id="f31vop12_veilles_del"><subst
+                            xml:id="f31vop12_laborieus_veilles">
+                            <del>laborieus</del>
+                            <add>veilles</add>
+                        </subst></del> inutiles <del xml:id="f31vop12_trauaulx">tra<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>aulx</del>
+                    <add xml:id="f31vop12_veilles_add"/><substJoin seq="1"
+                        target="#f31vop12_laborieus_veilles #f31vop12_trauaulx"/><substJoin seq="2"
+                        target="#f31vop12_veilles_del #f31vop12_veilles_add"/> et <subst>
+                        <del><choice>
+                                <abbr rend="overlined">nre</abbr>
+                                <expan>nostre</expan>
+                            </choice></del>
+                        <add>cet</add>
+                    </subst> honeste repos <subst>
+                        <del>vaudra</del>
+                        <add>n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>aura</add>
+                    </subst> peut estre <metamark function="insert" target="#f31vop12_moins_leurs"
+                        >^</metamark><subst>
+                        <del>bien</del>
+                        <add xml:id="f31vop12_moins_leurs"><metamark>^</metamark> moins d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>honeur que leurs</add>
+                    </subst> tant <del xml:id="f31vop12_de">de</del><substJoin
+                        target="#f31vop12_moins_leurs #f31vop12_de"/> laborieu<subst>
+                        <del>es occupations.</del>
+                        <add>tra<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>aulx</add>
+                    </subst><supplied>.</supplied></s></ab>
+        </body>
+    </text>
+</TEI>

@@ -21,22 +21,13 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s>Ainsy la fortune insolente faict ses <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eus des maulx de nous <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> homes. </s></ab>
         </body>
     </text>
 </TEI>

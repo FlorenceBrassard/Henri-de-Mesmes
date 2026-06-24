@@ -22,21 +22,12 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>b</orig>
+                        <reg>B</reg>
+                    </choice>eneficia sua insolentia perdunt<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> si tumultuosius data sunt. </s></ab>
         </body>
     </text>
 </TEI>

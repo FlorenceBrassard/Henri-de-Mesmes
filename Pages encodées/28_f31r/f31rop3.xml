@@ -22,21 +22,12 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                    </choice>um ad bonam mentem redierit, cum accension illa qu <choice>
+                        <abbr><g ref="#ae-glyph">ⱸ</g></abbr>
+                        <expan>ae</expan>
+                    </choice> bonam mentem inflammabat, se remiserit. </s></ab>
         </body>
     </text>
 </TEI>

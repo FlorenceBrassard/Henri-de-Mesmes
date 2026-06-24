@@ -22,21 +22,14 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>a <metamark function="insert" target="#f32vop10_faueur_la"
+                        >^</metamark><add xml:id="f32vop10_faueur_la"><metamark>^</metamark>fa<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>eur de la</add> cour est une volupté specieuse mais trompeuse.
+                </s></ab>
         </body>
     </text>
 </TEI>

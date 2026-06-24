@@ -21,22 +21,16 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s><g>•</g> Je <subst>
+                        <del>sentois</del>
+                        <add>voiois</add>
+                    </subst> que la ruine de ce royaume aprochoit,<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e la sentois des<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>a sur noz testes.</s></ab>
         </body>
     </text>
 </TEI>

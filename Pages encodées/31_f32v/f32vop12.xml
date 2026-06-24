@@ -22,21 +22,31 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>es honeurs de la cour sont hault montez, et la <surplus>la</surplus> t<subst>
+                        <del rend="overwritten">e</del>
+                        <add>a</add>
+                    </subst>mpeste</s><s><choice>
+                        <abbr rend="overlined"><choice>
+                            <orig>n</orig>
+                            <reg>N</reg>
+                        </choice>re</abbr>
+                        <expan>Nostre</expan>
+                    </choice> repos ha moins de lueur et moins de peur <choice>
+                        <orig/>
+                        <reg> ;</reg>
                     </choice>
                     <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>nostre</expan>
+                    </choice> vie pri<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ée moins peureuse<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> plus heureuse. </s></ab>
         </body>
     </text>
 </TEI>

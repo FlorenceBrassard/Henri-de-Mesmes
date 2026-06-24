@@ -22,21 +22,12 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>c</orig>
+                        <reg>C'</reg>
+                    </choice>estoit elle qui nous a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit haussez. </s></ab>
         </body>
     </text>
 </TEI>

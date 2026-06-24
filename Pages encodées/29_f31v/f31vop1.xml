@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><g>•</g><choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                    </choice>e cete faulse felicité que le<add xml:id="f31vop1_s">s</add><subst
+                        xml:id="f31vop1_monde_vont">
+                        <del>monde</del>
+                        <add>autres vont</add>
+                    </subst> ador<subst>
+                        <del rend="unmarked"><subst xml:id="f31vop1_e_ans">
+                                <del rend="overwritten">e</del>
+                                <add place="superimposed">a</add>
+                                <add>ns</add>
+                            </subst></del>
+                        <add>recerchans</add>
+                    </subst>
+                    <substJoin target=" #f31vop1_s #f31vop1_s #f31vop1_monde_vont #f31vop1_e_ans"/>,<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ay <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>amais affecté plus grand fruit que le mespris d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>icelle.</s></ab>
+        </body>
+    </text>
+</TEI>

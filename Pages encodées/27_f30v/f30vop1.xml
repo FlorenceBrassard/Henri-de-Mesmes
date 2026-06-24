@@ -21,22 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s style="writing-mode: vertical-lr; text-orientation: sideways-right">Memoires de ma vie</s></ab>
         </body>
     </text>
 </TEI>

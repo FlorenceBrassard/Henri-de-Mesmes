@@ -22,21 +22,31 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                    </choice>on esprit s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>exerce, tantost en matieres plus gra<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>es, tantost se tempere en <subst>
+                        <del>sub<choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>ects</del>
+                        <add>estudes</add>
                     </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                    <del>plus</del> moins serieus<choice>
+                        <orig/>
+                        <reg>es</reg>
+                    </choice>, tous<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours guay, quelquefois las, <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>amais hodé.</s></ab>
         </body>
     </text>
 </TEI>
