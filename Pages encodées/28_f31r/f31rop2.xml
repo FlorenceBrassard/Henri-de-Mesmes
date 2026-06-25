@@ -21,13 +21,13 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
+            <ab><s><quote source="Q149687"><choice>
                         <orig>b</orig>
                         <reg>B</reg>
                     </choice>eneficia sua insolentia perdunt<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> si tumultuosius data sunt. </s></ab>
+                    </choice> si tumultuosius data sunt.</quote></s></ab>
         </body>
     </text>
 </TEI>

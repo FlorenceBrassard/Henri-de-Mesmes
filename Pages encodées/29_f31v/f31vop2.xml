@@ -41,38 +41,30 @@
                                 <reg>v</reg>
                             </choice>ois</add>
                     </subst>
-                    <del>non seulement norry, mais né</del><del rend="unmarked">.</del> plus né que
-                    norry, ancore qu<choice>
+                    <del xml:id="f31vop2_non_né">non seulement norry, mais né</del><del
+                        rend="unmarked" xml:id="f31vop2_point">.</del>
+                    <substJoin target="#f31vop2_non_né #f31vop2_point"/> plus né que norry, ancore qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>on m<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>y ait <metamark function="insert" target="#f31vop2_tousiours"
-                        >^</metamark><add xml:id="f31vop2_tousiours">tousiours</add> norry ; et par
-                    lesquelles <choice>
+                        >^</metamark><add xml:id="f31vop2_tousiours">tous<choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>ours</add> norry ; et par lesquelles <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e <subst>
                         <del seq="1">sentois</del>
-                        <del seq="2"><add seq="1">trou<choice>
+                        <del seq="2"><add seq="1" xml:id="f31vop2_trouuois">trou<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ois</add></del>
                         <add seq="2" xml:id="f31vop2_sentois">sentois</add>
-                    </subst><substJoin target="#f31vop2_sentois_trouuois #f31vop2_sentois"/> mon
-                    esprit fondé contre touts les assaults de la fortune. <choice>
-                        <abbr/>
-                        <expan/>
-                    </choice>
-                    <subst>
-                        <add/>
-                        <del/>
-                    </subst>
-                    <choice>
-                        <orig/>
-                        <reg/>
-                    </choice></s></ab>
+                    </subst><substJoin target="#f31vop2_sentois_trouuois #f31vop2_trouuois #f31vop2_sentois"/> mon
+                    esprit fondé contre touts les assaults de la fortune. </s></ab>
         </body>
     </text>
 </TEI>

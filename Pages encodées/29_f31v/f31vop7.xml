@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><subst>
+            <ab><s><subst xml:id="f31vop7_la_la">
                         <del><choice>
                                 <orig>l</orig>
                                 <reg>L</reg>
@@ -36,10 +36,11 @@
                     </subst><add>vraie</add> compaigne de la grand<del>e</del> fortune<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> c<choice>
+                    </choice><add xml:id="f31vop7_cest_grand"> c<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>est la grand<del>e</del> crainte. </s></ab>
+                    </choice>est la grand<del>e</del> crainte. </add>
+                <substJoin target="#f31vop7_la_la #f31vop7_cest_grand"/></s></ab>
         </body>
     </text>
 </TEI>

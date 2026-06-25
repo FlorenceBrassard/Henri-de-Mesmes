@@ -21,7 +21,8 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
+            <ab><s><metamark function="structure">•</metamark>
+                    <choice>
                         <abbr rend="overlined">aprst</abbr>
                         <expan>À present</expan>
                     </choice>
@@ -58,7 +59,7 @@
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>con</expan>
                     </choice>stance<choice>
-                        <orig/>
+                        <orig> ;</orig>
                         <reg>,</reg>
                     </choice> afin que la douleur ne <del>trou<choice>
                             <orig>u</orig>

@@ -23,23 +23,23 @@
         <body>
             <ab><s><choice>
                         <orig>i</orig>
-                        <reg>j</reg>
+                        <reg>J</reg>
                     </choice>e disois<choice>
                         <orig>, c</orig>
                         <reg> : « C</reg>
                     </choice>e qui m<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>est <undo rend="underlined" target=" #f31vop9_apresent"
-                        xml:id="f31vop9_apresent_undo"/>
-                    <del rend="unmarked" seq="1" xml:id="f31vop9_apresent"><choice>
-                            <orig>a</orig>
-                            <reg>à </reg>
-                        </choice>present</del>
-                    <del rend="unmarked" seq="2" xml:id="f31vop9_naguiere_del"><add
-                            xml:id="f31vop9_naguiere_add">naguiere</add></del><substJoin seq="1"
-                        target="#f31vop9_naguiere #f31vop9_apresent"/><substJoin seq="2"
-                        target="#f31vop9_naguiere_del #f31vop9_apresent_undo"/> a<choice>
+                    </choice>est <subst>
+                        <del rend="unmarked" seq="1" xml:id="f31vop9_apresent"><choice>
+                                <orig>a</orig>
+                                <reg>à </reg>
+                            </choice>present</del>
+                        <add><del rend="unmarked" seq="2" xml:id="f31vop9_naguiere">
+                            naguiere</del></add>
+                    </subst><undo rend="underlined" target=" #f31vop9_apresent"
+                        xml:id="f31vop9_apresent_undo"/><substJoin
+                        target="#f31vop9_naguiere #f31vop9_apresent_undo"/> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>enu<choice>

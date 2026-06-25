@@ -21,14 +21,14 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> J<choice>
+            <ab><s><metamark function="structure">•</metamark> J<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>ay perdu des moiens qui sembloient a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir beaucoup <del rend="unmarked" xml:id="f32rop2_de_del">d<subst
-                            xml:id="f32rop2_e">
+                    </choice>oir beaucoup <del rend="unmarked" xml:id="f32rop2_d_apostrophe_e"
+                            >d<subst xml:id="f32rop2_apostrophe_e">
                             <del rend="unmarked">'</del>
                             <add>e</add>
                         </subst></del><subst xml:id="f32rop2_honeur_charge">
@@ -42,8 +42,8 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>antage</add>. <substJoin seq="1"
-                        target=" #f32rop2_e #f32rop2_honeur_charge"/><substJoin seq="2"
-                        target="#f32rop2_charge #f32rop2_de_del #f32rop2_et #f32rop2_et_auantage"
+                        target=" #f32rop2_apostrophe_e #f32rop2_honeur_charge"/><substJoin seq="2"
+                        target="#f32rop2_charge #f32rop2_d_apostrophe_e #f32rop2_et #f32rop2_et_auantage"
                     /></s></ab>
         </body>
     </text>

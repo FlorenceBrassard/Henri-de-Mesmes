@@ -21,10 +21,13 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> Je discourrois sou<choice>
+            <ab><s><metamark function="structure">•</metamark> Je discourrois sou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ent en moymesme combien la bone <subst>
+                    </choice>ent en moy<choice>
+                        <orig/>
+                        <reg>-</reg>
+                    </choice>mesme combien la bone <subst>
                         <del>fa<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -39,10 +42,10 @@
                     </choice>ec soy et de fa<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>eur, et de <subst>
+                    </choice>eur et de <subst xml:id="f31vop4-5_charges_tremeur">
                         <del>charges</del>
                         <add>tremeur</add>
-                    </subst>.</s><add><s><choice>
+                    </subst>.</s><add xml:id="f31vop4-5_et_charges"><s><choice>
                             <orig>e</orig>
                             <reg>E</reg>
                         </choice>t me sembloit que c<choice>
@@ -54,12 +57,14 @@
                         </choice>prement parlé quand les ordinaires emplois d<subst
                             xml:id="f31vop4-5_u_es">
                             <del rend="overwritten">u</del>
-                            <add>es</add>
+                            <add place="superscript">es</add>
                         </subst> Roy<add xml:id="f31vop4-5_s">s</add>
                         <substJoin target="#f31vop4-5_u_es #f31vop4-5_s"/> s<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>appelent entre ous les grandes charges.</s></add></ab>
+                        </choice>appelent entre nous les grandes charges.<substJoin
+                            target="#f31vop4-5_charges_tremeur #f31vop4-5_et_charges"
+                /></s></add></ab>
         </body>
     </text>
 </TEI>

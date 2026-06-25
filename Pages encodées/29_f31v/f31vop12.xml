@@ -27,43 +27,46 @@
                     </choice>ront rien <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> leurs <del xml:id="f31vop12_veilles_del"><subst
-                            xml:id="f31vop12_laborieus_veilles">
-                            <del>laborieus</del>
-                            <add>veilles</add>
-                        </subst></del> inutiles <del xml:id="f31vop12_trauaulx">tra<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>aulx</del>
-                    <add xml:id="f31vop12_veilles_add"/><substJoin seq="1"
-                        target="#f31vop12_laborieus_veilles #f31vop12_trauaulx"/><substJoin seq="2"
-                        target="#f31vop12_veilles_del #f31vop12_veilles_add"/> et <subst>
+                    </choice> leurs <del>laborieus</del>
+                    <del xml:id="f31vop12_veilles_1_del"><add xml:id="f31vop12_veilles_1_add"
+                            >veilles</add></del> inutiles <subst>
+                        <del xml:id="f31vop12_trauaux">tra<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>aulx</del>
+                        <add xml:id="f31vop12_veilles_2_add">veilles</add>
+                    </subst><substJoin seq="1" target="#f31vop12_veilles_1_add #f31vop12_trauaux"/>
+                    <substJoin seq="2" target="#f31vop12_veilles_1_del #f31vop12_veilles_2_add"/>,
+                    et <subst>
+
                         <del><choice>
                                 <abbr rend="overlined">nre</abbr>
                                 <expan>nostre</expan>
                             </choice></del>
                         <add>cet</add>
-                    </subst> honeste repos <subst>
+                    </subst> honeste repos <subst xml:id="f31vop12_vaudra_naura">
                         <del>vaudra</del>
                         <add>n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>aura</add>
                     </subst> peut estre <metamark function="insert" target="#f31vop12_moins_leurs"
-                        >^</metamark><subst>
+                        >^</metamark><subst xml:id="f31vop12_bien_leurs">
                         <del>bien</del>
-                        <add xml:id="f31vop12_moins_leurs"><metamark>^</metamark> moins d<choice>
+                        <add><metamark>^</metamark> moins d<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>honeur que leurs</add>
                     </subst> tant <del xml:id="f31vop12_de">de</del><substJoin
-                        target="#f31vop12_moins_leurs #f31vop12_de"/> laborieu<subst>
+                        target="#f31vop12_vaudra_naura #f31vop12_bien_leurs #f31vop12_de"/>
+                        laborieu<subst xml:id="f31vop12_occupations_trauaulx">
                         <del>es occupations.</del>
                         <add>tra<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>aulx</add>
-                    </subst><supplied>.</supplied></s></ab>
+                    </subst><substJoin target="#f31vop12_trauaux #f31vop12_occupations_trauaulx"
+                        /><supplied>.</supplied></s></ab>
         </body>
     </text>
 </TEI>

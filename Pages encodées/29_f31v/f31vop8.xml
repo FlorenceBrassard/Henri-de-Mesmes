@@ -21,9 +21,12 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> Je <subst>
+            <ab><s><metamark function="structure">•</metamark> Je <subst>
                         <del>sentois</del>
-                        <add>voiois</add>
+                        <add>vo<choice>
+                                <orig>i</orig>
+                                <reg>y</reg>
+                            </choice>ois</add>
                     </subst> que la ruine de ce royaume aprochoit,<choice>
                         <orig>i</orig>
                         <reg>j</reg>

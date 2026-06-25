@@ -21,22 +21,23 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g><choice>
+            <ab><s><metamark function="structure">•</metamark><choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>e cete faulse felicité que le<add xml:id="f31vop1_s">s</add><subst
-                        xml:id="f31vop1_monde_vont">
+                    </choice>e cete faulse felicité que le<subst
+                        xml:id="f31vop1_monde_autres">
                         <del>monde</del>
-                        <add>autres vont</add>
-                    </subst> ador<subst>
-                        <del rend="unmarked"><subst xml:id="f31vop1_e_ans">
+                        <add>s autres</add>
+                    </subst><add xml:id="f31vop1_vont">vont</add>
+                    <subst seq="2">
+                        <del rend="unmarked">ador<subst seq="1" xml:id="f31vop1_e_ans">
                                 <del rend="overwritten">e</del>
-                                <add place="superimposed">a</add>
-                                <add>ns</add>
+                                <add seq="1" place="superimposed">a</add>
+                                <add seq="1">ns</add>
                             </subst></del>
                         <add>recerchans</add>
                     </subst>
-                    <substJoin target=" #f31vop1_s #f31vop1_s #f31vop1_monde_vont #f31vop1_e_ans"/>,<choice>
+                <substJoin target=" #f31vop1_monde_autres #f31vop1_vont #f31vop1_e_ans"/>,<choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e n<choice>

@@ -21,34 +21,26 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig>q</orig>
-                        <reg>Q</reg>
-                    </choice>u<choice>
-                        <abbr><g ref="#ae-glyph">ⱸ</g></abbr>
-                        <expan>ae</expan>
-                    </choice> cum daret mihi superior, non exulta<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>it supra me, sed quam potuit benignissim <choice>
-                        <abbr><g ref="#us-glyph">Ꝯ</g></abbr>
-                        <expan>us</expan>
-                    </choice> fuit, descendit<choice>
-                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
-                        <expan>que</expan>
-                    </choice> in aquum, et detraxit muneri suo pompam, obser<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>a<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>it idoneum temp<choice>
-                        <abbr><g ref="#us-glyph">Ꝯ</g></abbr>
-                        <expan>us</expan>
-                    </choice>, ut in occasione potius <choice>
-                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
-                        <expan>que</expan>
-                    </choice> in necessitate succurreret.</s></ab>
+            <ab><s><quote source="Q149687"><choice>
+                            <orig>q</orig>
+                            <reg>Q</reg>
+                        </choice>u<choice>
+                            <abbr><g ref="#ae-glyph">ⱸ</g></abbr>
+                            <expan>ae</expan>
+                        </choice> cum daret mihi superior, non exultauit supra me, sed quam potuit
+                        benignissim <choice>
+                            <abbr><g ref="#us-glyph">Ꝯ</g></abbr>
+                            <expan>us</expan>
+                        </choice> fuit, descendit<choice>
+                            <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                            <expan>que</expan>
+                        </choice> in aquum, et detraxit muneri suo pompam, obseruauit idoneum temp<choice>
+                            <abbr><g ref="#us-glyph">Ꝯ</g></abbr>
+                            <expan>us</expan>
+                        </choice>, ut in occasione potius <choice>
+                            <abbr><g ref="#quam-glyph">ꝙ</g></abbr>
+                            <expan>quam</expan>
+                        </choice> in necessitate succurreret.</quote></s></ab>
         </body>
     </text>
 </TEI>

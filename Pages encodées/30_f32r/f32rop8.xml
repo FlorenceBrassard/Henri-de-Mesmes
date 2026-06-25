@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> Ce ne seroit pas raison que nous qui somes mortels ne peussions souffrir
+            <ab><s><metamark function="structure">•</metamark> Ce ne seroit pas raison que nous qui somes mortels ne peussions souffrir
                         <del>que</del> rien de mortel en <choice>
                         <abbr rend="overlined">nre</abbr>
                         <expan>nostre</expan>

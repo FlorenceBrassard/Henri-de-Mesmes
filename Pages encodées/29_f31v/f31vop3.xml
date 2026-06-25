@@ -21,16 +21,19 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> La mau<choice>
+            <ab><s><metamark function="structure">•</metamark> La mau<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>aise fortune, qui <subst>
                         <del>assault</del>
                         <add>guete</add>
-                    </subst> et heurte volontiers les meilleures, et <del>le</del> plus sou<choice>
+                    </subst> et heurte volontiers les meilleurs, et <del>le</del> plus sou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ent, et plus rudement, furiant s<choice>
+                    </choice>ent, et plus rudement<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> furiant s<choice>
                         <orig>e</orig>
                         <reg>a</reg>
                     </choice>ns discretion, <subst>

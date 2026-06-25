@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g>Il en fault partir come d<choice>
+            <ab><s><metamark function="structure">•</metamark>Il en fault partir come d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>un festin o<choice>
@@ -49,10 +49,11 @@
                                 <reg>v</reg>
                             </choice>re <choice>
                                 <orig>.</orig>
-                                <reg>,</reg>
+                                <reg/>
                             </choice></add>
-                    </subst> synon la <metamark function="insert" target="#f32rop5_cruelle_mauvaise"
-                        >^</metamark><add xml:id="f32rop5_cruelle_mauvaise"><subst>
+                    </subst></s><s>, synon la <metamark function="insert"
+                        target="#f32rop5_cruelle_mauvaise">^</metamark><add
+                        xml:id="f32rop5_cruelle_mauvaise"><subst>
                             <del>cruelle</del>
                             <add>mau<choice>
                                     <orig>u</orig>
@@ -60,27 +61,27 @@
                                 </choice>aise</add>
                         </subst></add> fortune nous <subst>
                         <del>en chasse</del>
-                            <add>vient saisir<choice>
+                        <add>vient saisir<choice>
                                 <orig/>
                                 <reg>,</reg>
                             </choice> nous de<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ore</add>
-                        </subst><choice>
-                            <orig>,</orig>
-                            <reg> :</reg>
-                        </choice> elle n'atend pas de <subst>
+                    </subst><choice>
+                        <orig>,</orig>
+                        <reg> :</reg>
+                    </choice> elle n'atend pas de <subst>
                         <del rend="unmarked">contenter</del>
                         <add>remplir</add>
-                        </subst> noz apetits<choice>
-                            <orig/>
-                            <reg>,</reg>
-                        </choice> elle assou<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>it le sien<supplied>. </supplied>
-                    </s></ab>
+                    </subst> noz apetits<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> elle assou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>it le sien<supplied>. </supplied>
+                </s></ab>
         </body>
     </text>
 </TEI>

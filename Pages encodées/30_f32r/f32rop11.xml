@@ -24,17 +24,16 @@
             <ab><s><choice>
                         <orig>a</orig>
                         <reg>A</reg>
-            </choice>ncore ne nous a<choice>
-                <orig> </orig>
-                <reg>-t-</reg>
-            </choice>elle pas <choice>
-                <orig>i</orig>
-                <reg>j</reg>
-            </choice>et<choice>
-                <orig>es</orig>
-                <reg>é</reg>
-            </choice> par terre, mais a soustenu
-                    <choice>
+                    </choice>ncore ne nous a<choice>
+                        <orig> </orig>
+                        <reg>-t-</reg>
+                    </choice>elle pas <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>et<choice>
+                        <orig>e</orig>
+                        <reg>é</reg>
+                    </choice>s par terre, mais a soustenu <choice>
                         <abbr rend="overlined">nre</abbr>
                         <expan>nostre</expan>
                     </choice> cheute. </s></ab>

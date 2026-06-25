@@ -22,10 +22,7 @@
     <text>
         <body>
             <ab><s><choice>
-                        <abbr rend="overlined"><choice>
-                                <orig>n</orig>
-                                <reg>N</reg>
-                            </choice>re</abbr>
+                        <abbr rend="overlined">nre</abbr>
                         <expan>Nostre</expan>
                     </choice>
                     <subst>

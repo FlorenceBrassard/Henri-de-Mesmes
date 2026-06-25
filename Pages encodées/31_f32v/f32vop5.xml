@@ -21,10 +21,12 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> <choice>
-                <abbr rend="overlined">aprst</abbr>
-                <expan>À present</expan>
-            </choice> <choice>
+            <ab><s><metamark function="structure">•</metamark>
+                    <choice>
+                        <abbr rend="overlined">aprst</abbr>
+                        <expan>À present</expan>
+                    </choice>
+                    <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e me plonge profondement dens mes estudes. </s></ab>

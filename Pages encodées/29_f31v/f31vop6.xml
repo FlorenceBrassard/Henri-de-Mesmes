@@ -21,7 +21,10 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> Et come touts les autres aiant le <roleName>Roy</roleName>
+            <ab><s><metamark function="structure">•</metamark> Et come touts les autres a<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ant le <roleName ref="Q53448">Roy</roleName>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>
@@ -37,7 +40,10 @@
                     </choice>traire<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice>aiant ce <roleName>prince</roleName>
+                    </choice>a<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ant ce <roleName ref="Q53448">prince</roleName>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>

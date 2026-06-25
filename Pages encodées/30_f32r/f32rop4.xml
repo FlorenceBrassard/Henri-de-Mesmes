@@ -21,29 +21,29 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> En ces flots de la cour, en ces meurs <seg
-                        xml:id="f32rop4_tant_maritimes">tant <metamark function="transposition"
+            <ab><s><metamark function="structure">•</metamark> En ces flots de la cour, en ces meurs
+                        <seg xml:id="f32rop4_tant_maritimes">tant <metamark function="transposition"
                             rend="line" target="#f32rop4_tant_maritimes #f32rop3_tant_corrompus"
                         />maritimes</seg>, <add xml:id="f32rop3_tant_corrompus">tant corrompus</add>
-                <listTranspose>
-                    <transpose>
-                        <ptr target="#f32rop3_tant_corrompus"></ptr>
-                        <ptr target="#f32rop4_tant_maritimes"></ptr>
-                    </transpose>
-                </listTranspose>
-                <choice>
-                    <orig/>
-                    <reg>,</reg>
-                </choice>o<choice>
-                    <orig>u</orig>
-                    <reg>ù</reg>
-                </choice> sou<choice>
+                    <listTranspose>
+                        <transpose>
+                            <ptr target="#f32rop3_tant_corrompus"/>
+                            <ptr target="#f32rop4_tant_maritimes"/>
+                        </transpose>
+                    </listTranspose>
+                    <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                    </choice> sou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                </choice>ent on perille<choice>
-                    <orig/>
-                    <reg>,</reg>
-                </choice> tous<choice>
+                    </choice>ent on perille<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ours on tremble. </s></ab>

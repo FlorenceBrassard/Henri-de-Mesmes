@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> Sy c<choice>
+            <ab><s><metamark function="structure">•</metamark> Sy c<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>est plus <del>de sot</del>
@@ -51,7 +51,10 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oir</del>
-                        <del rend="unmarked" seq="2"><add seq="1">pouvoir</add></del>
+                        <del rend="unmarked" seq="2"><add seq="1">po<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>voir</add></del>
                         <add seq="2">vouloir</add>
                     </subst> souffrir et supporter. </s></ab>
         </body>

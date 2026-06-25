@@ -36,7 +36,10 @@
                     </choice> d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>une grande felicité, rien sy cou<choice>
+                    </choice>une grande felicité<choice>
+                        <orig>,</orig>
+                        <reg> ;</reg>
+                    </choice> rien sy cou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ert et asseuré, que le mespris de <choice>
@@ -56,9 +59,9 @@
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>con</expan>
                     </choice>dicion <choice>
-                        <orig><del> – </del></orig>
+                        <orig>, <del> – </del></orig>
                         <reg> – </reg>
-                    </choice> moins que mediocre, libre d<choice>
+                    </choice> moins que mediocre, <del>et</del> libre d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>en<choice>

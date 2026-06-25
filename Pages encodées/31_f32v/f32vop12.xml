@@ -24,14 +24,14 @@
             <ab><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
-                    </choice>es honeurs de la cour sont hault montez, et la <surplus>la</surplus> t<subst>
+                    </choice>es honeurs de la cour sont hault montez, et l<choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> la t<subst>
                         <del rend="overwritten">e</del>
-                        <add>a</add>
-                    </subst>mpeste</s><s><choice>
-                        <abbr rend="overlined"><choice>
-                            <orig>n</orig>
-                            <reg>N</reg>
-                        </choice>re</abbr>
+                        <add place="superimposed">a</add>
+                    </subst>mpeste</s><lb/><s><choice>
+                        <abbr rend="overlined">nre</abbr>
                         <expan>Nostre</expan>
                     </choice> repos ha moins de lueur et moins de peur <choice>
                         <orig/>

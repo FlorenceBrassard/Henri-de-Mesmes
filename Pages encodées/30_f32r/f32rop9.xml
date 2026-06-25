@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> La fortune nous a ra<choice>
+            <ab><s><metamark function="structure">•</metamark> La fortune nous a ra<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>alez. </s></ab>

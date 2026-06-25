@@ -21,14 +21,17 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s>Jamais home mortel ne la eue <choice>
-                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                <expan>con</expan>
-            </choice>tinuellement douce, sens la sentir quelquefois cruelle. 
-            </s> <choice>
-                <orig>squientem</orig>
-                <reg></reg>
-            </choice></ab>
+            <ab><s>Jamais home mortel ne l<choice>
+                <orig/>
+                <reg>'</reg>
+            </choice>a eue <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>tinuellement douce, sens la sentir quelquefois cruelle. </s>
+                <choice>
+                    <orig>squientem</orig>
+                    <reg/>
+                </choice></ab>
         </body>
     </text>
 </TEI>

@@ -21,19 +21,22 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><g>•</g> Je partiray donc ce mau<choice>
+            <ab><s><metamark function="structure">•</metamark> Je partiray donc ce mau<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-            </choice>ais accident a<choice>
-                <orig>u</orig>
-                <reg>v</reg>
-            </choice>ec beaucoup de gens, et <del>ma</del> quand il y en aura tant qui y <subst><del><choice>
-                <abbr><g ref="#par-glyph">ꝑ</g></abbr>
-                <expan>par</expan>
-            </choice>tageront</del><add>prendront,</add></subst><surplus>,</surplus> ma <choice>
-                <abbr><g ref="#par-glyph">ꝑ</g></abbr>
-                <expan>par</expan>
-            </choice>t du gateau en sera <add>tant</add> plus petite. </s></ab>
+                    </choice>ais accident a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec beaucoup de gens, et <del>ma</del> quand il y en aura tant qui y <subst>
+                        <del><choice>
+                                <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                                <expan>par</expan>
+                            </choice>tageront</del>
+                        <add>prendront,</add>
+                    </subst><surplus>,</surplus> ma <choice>
+                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                        <expan>par</expan>
+                    </choice>t du gateau en sera <add>tant</add> plus petite. </s></ab>
         </body>
     </text>
 </TEI>
