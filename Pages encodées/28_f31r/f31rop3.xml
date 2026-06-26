@@ -22,12 +22,12 @@
     <text>
         <body>
             <ab><s><quote source="Q149687"><choice>
-                        <orig>c</orig>
-                        <reg>C</reg>
-                    </choice>um ad bonam mentem redierit, cum accensio illa qu<choice>
-                        <abbr><g ref="#ae-glyph">ⱸ</g></abbr>
-                        <expan>ae</expan>
-                    </choice> bonam mentem inflammabat, se remiserit. </quote></s></ab>
+                            <orig>c</orig>
+                            <reg>C</reg>
+                        </choice>um ad bonam mentem redierit, cum accensio illa qu<choice>
+                            <abbr><g ref="#ae-glyph">ⱸ</g></abbr>
+                            <expan>ae</expan>
+                        </choice> bonam mentem inflammabat, se remiserit. </quote></s></ab>
         </body>
     </text>
 </TEI>

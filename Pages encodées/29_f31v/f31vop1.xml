@@ -24,20 +24,19 @@
             <ab><s><metamark function="structure">•</metamark><choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>e cete faulse felicité que le<subst
-                        xml:id="f31vop1_monde_autres">
+                    </choice>e cete faulse felicité que le<subst xml:id="f31vop1_monde_autres">
                         <del>monde</del>
                         <add>s autres</add>
                     </subst><add xml:id="f31vop1_vont">vont</add>
                     <subst seq="2">
-                        <del rend="unmarked">ador<subst seq="1" xml:id="f31vop1_e_ans">
+                        <del rend="unmarked">ador<subst seq="1" xml:id="f31vop1_e_a">
                                 <del rend="overwritten">e</del>
                                 <add seq="1" place="superimposed">a</add>
-                                <add seq="1">ns</add>
-                            </subst></del>
+                            </subst><add xml:id="f31vop1_ns">ns</add></del>
                         <add>recerchans</add>
                     </subst>
-                <substJoin target=" #f31vop1_monde_autres #f31vop1_vont #f31vop1_e_ans"/>,<choice>
+                    <substJoin
+                        target=" #f31vop1_monde_autres #f31vop1_vont #f31vop1_e_a #f31vop1_ns"/>,<choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e n<choice>

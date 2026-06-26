@@ -28,12 +28,13 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec beaucoup de gens, et <del>ma</del> quand il y en aura tant qui y <subst>
-                        <del><choice>
+                        <del seq="1"><choice>
                                 <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                                 <expan>par</expan>
                             </choice>tageront</del>
+                        <del rend="unmarked" seq="1">,</del>
                         <add>prendront,</add>
-                    </subst><surplus>,</surplus> ma <choice>
+                    </subst> ma <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>t du gateau en sera <add>tant</add> plus petite. </s></ab>
