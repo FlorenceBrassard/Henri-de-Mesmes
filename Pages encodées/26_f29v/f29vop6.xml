@@ -21,22 +21,22 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s>Je n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en puys dire da<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>antage<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> synon que Dieu nous y a preser<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ez contre la rude et mau<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>aise fortune. </s></ab>
         </body>
     </text>
 </TEI>

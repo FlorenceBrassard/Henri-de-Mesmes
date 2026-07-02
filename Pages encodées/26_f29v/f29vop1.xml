@@ -21,22 +21,33 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
+            <ab><s>Quant <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+            </choice> monsieur <persName ref="Q565927"><nameLink>de</nameLink>
+                        <surname>Joieuse</surname></persName>
                     <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig> i</orig>
+                        <reg>, j</reg>
+                    </choice>e croy bien qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit asse<choice>
+                        <orig>s</orig>
+                        <reg>z</reg>
+                    </choice> qui m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice><subst>
+                        <del rend="overwritten">e</del>
+                        <add place="superimposed">a</add>
+                    </subst>imoit plus loin que pr<choice>
+                        <orig>e</orig>
+                        <reg>è</reg>
+                    </choice>s. </s></ab>
         </body>
     </text>
 </TEI>

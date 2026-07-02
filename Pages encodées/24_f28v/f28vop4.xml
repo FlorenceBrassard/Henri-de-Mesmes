@@ -22,21 +22,28 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+            </choice>ont ce premier respond<choice>
+                <orig>ï</orig>
+                <reg>i</reg>
+            </choice>t que <del><choice>
+                            <orig>i</orig>
+                            <reg>j'</reg>
+            </choice>esto<choice>
+                <orig>ï</orig>
+                <reg>i</reg>
+            </choice>s pour</del>
                     <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>aurois dict cela pour tenir le pied <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> plus d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un estrié. </s></ab>
         </body>
     </text>
 </TEI>

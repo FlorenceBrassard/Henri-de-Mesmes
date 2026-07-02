@@ -22,21 +22,28 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                    </choice>ais <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>eusse sceu luy<choice>
+                        <abbr>fe<hi rend="superscript">r</hi></abbr>
+                        <expan>faire</expan>
+                    </choice> ses condicions plus a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>antageuses au <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>trat de marriage a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec la <roleName ref="Q22132552">seur de la <roleName
+                            ref="Q225411">Reyne</roleName></roleName>. </s></ab>
         </body>
     </text>
 </TEI>

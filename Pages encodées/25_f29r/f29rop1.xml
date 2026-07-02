@@ -21,22 +21,25 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s>Pour la verité<choice>
+                        <orig> i</orig>
+                        <reg>, j</reg>
+                    </choice>e diray icy deux choses dont <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e prie Dieu qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il soit<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> come il est<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> seul de toutes noz actions le tesmoin et le <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>uge. </s></ab>
         </body>
     </text>
 </TEI>

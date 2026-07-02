@@ -22,21 +22,21 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>ncore ne nous a<choice>
+                        <orig> </orig>
+                        <reg>-t-</reg>
+                    </choice>elle pas <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>et<choice>
+                        <orig>e</orig>
+                        <reg>é</reg>
+                    </choice>s par terre, mais a soustenu <choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>nostre</expan>
+                    </choice> cheute. </s></ab>
         </body>
     </text>
 </TEI>

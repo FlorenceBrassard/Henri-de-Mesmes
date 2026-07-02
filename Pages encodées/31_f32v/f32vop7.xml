@@ -21,22 +21,13 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s>Toute la vie de cour est un <subst>
+                        <del>continuel</del>
+                        <add>perpetuel</add>
+                    </subst><subst>
+                        <del rend="unmarked">suplice</del>
+                        <add>tourment</add>
+                    </subst>. </s></ab>
         </body>
     </text>
 </TEI>

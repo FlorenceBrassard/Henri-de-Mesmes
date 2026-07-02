@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                    </choice>l me sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ient aussy qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il y a <choice>
+                        <orig>xvi</orig>
+                        <reg>16</reg>
+                    </choice> ans qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>elle re<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>enant de la messe acompaignée de toute la cour, <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eta <roleName ref="Q318380"><choice>
+                            <orig>m</orig>
+                            <reg>M</reg>
+                        </choice>onsieur</roleName> dens <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>ne chambre et nous y feit entrer<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> le <persName ref="Q678012"><roleName><choice>
+                                <abbr>mar<hi rend="superscript">al</hi></abbr>
+                                <expan>marechal</expan>
+                            </choice></roleName>
+                        <nameLink>de</nameLink>
+                        <surname>Biron</surname></persName> et moy seuls<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> et garder la porte par <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>ne dame <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> qui estoit la chambre.</s></ab>
+        </body>
+    </text>
+</TEI>

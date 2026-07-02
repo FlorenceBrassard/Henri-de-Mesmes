@@ -22,21 +22,31 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t que des<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>a<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un autre costé<choice>
+                        <orig> i</orig>
+                        <reg>, j'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois voulu <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> ses despens acquerir la bone grace de la <roleName ref="Q225411">Reyne
+                        femme de <rolename ref="Q53448"> sa Ma<choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>esté</rolename></roleName>. </s></ab>
         </body>
     </text>
 </TEI>

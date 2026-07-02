@@ -21,22 +21,14 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s><metamark function="structure">•</metamark> Ce ne seroit pas raison que nous qui somes mortels ne peussions souffrir
+                        <del>que</del> rien de mortel en <choice>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>nostre</expan>
+                    </choice> fortune<choice>
+                        <orig>s</orig>
+                        <reg/>
+                    </choice>. </s></ab>
         </body>
     </text>
 </TEI>

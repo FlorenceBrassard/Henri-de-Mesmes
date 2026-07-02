@@ -22,21 +22,24 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>n</orig>
+                        <reg>N</reg>
+                    </choice>ostre vacation est <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n <metamark function="transposition" rend="line"
+                        target="#f32vop8_contantement_continuel"/><seg
+                        xml:id="f32vop8_contantement_continuel"><seg xml:id="f32vop8_contantement"
+                            >contantement</seg>
+                        <seg xml:id="f32vop8_continuel"><choice>
+                                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                                <expan>con</expan>
+                            </choice>tinuel</seg></seg>. <listTranspose>
+                        <transpose>
+                            <ptr target="#f32vop8_continuel"/>
+                            <ptr target="#f32vop8_contantement"/>
+                        </transpose>
+                    </listTranspose></s></ab>
         </body>
     </text>
 </TEI>

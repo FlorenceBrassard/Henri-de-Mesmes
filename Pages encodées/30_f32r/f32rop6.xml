@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><metamark function="structure">•</metamark> Sy c<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>est plus <del>de sot</del>
+                    <subst>
+                        <del>d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>ignorance</del>
+                        <add>d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>imprudence</add>
+                    </subst> de ne <subst>
+                        <del rend="unmarked">cognoistre</del>
+                        <add>sca<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir</add>
+                    </subst> les <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eus de la variable fortune, ou d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>impudance de ne les <subst>
+                        <del seq="1">sca<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir</del>
+                        <del rend="unmarked" seq="2"><add seq="1">po<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>voir</add></del>
+                        <add seq="2">vouloir</add>
+                    </subst> souffrir et supporter. </s></ab>
+        </body>
+    </text>
+</TEI>

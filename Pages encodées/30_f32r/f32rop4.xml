@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><metamark function="structure">•</metamark> En ces flots de la cour, en ces meurs
+                        <seg xml:id="f32rop4_tant_maritimes">tant <metamark function="transposition"
+                            rend="line" target="#f32rop4_tant_maritimes #f32rop3_tant_corrompus"
+                        />maritimes</seg>, <add xml:id="f32rop3_tant_corrompus">tant corrompus</add>
+                    <listTranspose>
+                        <transpose>
+                            <ptr target="#f32rop3_tant_corrompus"/>
+                            <ptr target="#f32rop4_tant_maritimes"/>
+                        </transpose>
+                    </listTranspose>
+                    <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                    </choice> sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent on perille<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> tous<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours on tremble. </s></ab>
+        </body>
+    </text>
+</TEI>

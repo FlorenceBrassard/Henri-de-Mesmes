@@ -21,22 +21,10 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+            <ab><s><metamark function="structure">•</metamark> La fortune nous a ra<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>alez. </s></ab>
         </body>
     </text>
 </TEI>

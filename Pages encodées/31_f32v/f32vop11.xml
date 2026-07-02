@@ -22,21 +22,13 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
+                        <abbr rend="overlined">nre</abbr>
+                        <expan>Nostre</expan>
                     </choice>
                     <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <del rend="unmarked">vacation</del>
+                        <add>loisir</add>
+                    </subst> est sens eclat, mais sens crainte. </s></ab>
         </body>
     </text>
 </TEI>

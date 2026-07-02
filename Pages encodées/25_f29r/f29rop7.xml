@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e le croy<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il luy plaist<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il ne m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a pas plus d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>une fois <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>seill<choice>
+                        <orig>e</orig>
+                        <reg>é</reg>
+                    </choice> de la voir plus sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent lors que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e luy estois intrinseque, et moy<choice>
+                        <orig> </orig>
+                        <reg> : « </reg>
+                    </choice>C<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>est asse<choice>
+                        <orig>s</orig>
+                        <reg>z,</reg>
+                    </choice><metamark function="insert" target="#f29rop7_Sire">^</metamark>
+                    <add xml:id="f29rop7_Sire"><roleName ref="Q53448">Sire</roleName></add><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> de la voir <subst>
+                        <del>de la voir</del>
+                        <add>par moy</add>
+                    </subst> de deux ou trois <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> s<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il vous plaist<choice>
+                        <orig/>
+                        <reg> »,</reg>
+                    </choice> luy monstrant que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e ne pensois lors de<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir <choice>
+                        <abbr>fe<hi rend="superscript">r</hi></abbr>
+                        <expan>faire</expan>
+                    </choice> autre court qu<choice>
+                        <orig>a</orig>
+                        <reg>'à</reg>
+                    </choice> luy. </s></ab>
+        </body>
+    </text>
+</TEI>

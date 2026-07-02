@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><metamark function="structure">•</metamark>Il en fault partir come d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un festin o<choice>
+                        <orig>u</orig>
+                        <reg>ù</reg>
+                    </choice> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>on <subst>
+                        <del>s<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>est soulé de vi<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>re</del>
+                        <add>se soule<choice>
+                                <orig/>
+                                <reg> ;</reg>
+                            </choice> et <add>fault</add> estre bien tost sou d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>y vi<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>re <choice>
+                                <orig>.</orig>
+                                <reg/>
+                            </choice></add>
+                    </subst></s><s>, synon la <metamark function="insert"
+                        target="#f32rop5_cruelle_mauvaise">^</metamark><add
+                        xml:id="f32rop5_cruelle_mauvaise"><subst>
+                            <del>cruelle</del>
+                            <add>mau<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>aise</add>
+                        </subst></add> fortune nous <subst>
+                        <del>en chasse</del>
+                        <add>vient saisir<choice>
+                                <orig/>
+                                <reg>,</reg>
+                            </choice> nous de<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ore</add>
+                    </subst><choice>
+                        <orig>,</orig>
+                        <reg> :</reg>
+                    </choice> elle n'atend pas de <subst>
+                        <del rend="unmarked">contenter</del>
+                        <add>remplir</add>
+                    </subst> noz apetits<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> elle assou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>it le sien<supplied>. </supplied>
+                </s></ab>
+        </body>
+    </text>
+</TEI>

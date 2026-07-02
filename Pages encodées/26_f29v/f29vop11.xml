@@ -22,21 +22,16 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t puys qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il y en a tant qui y <del>prenent</del><del rend="unmarked">,</del>
+                    partagent a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec moy, ma part du gateau en sera tant plus petite. </s></ab>
         </body>
     </text>
 </TEI>

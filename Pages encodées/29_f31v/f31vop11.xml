@@ -22,20 +22,24 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                    </choice>e plus grands maulx se <del><add>nous</add></del> preparent, de plus
+                    tristes accidens <del>se preparent</del> nous menassent<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> nous pressent<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> nous talonnent, nous <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>mandent ou de finir noz <subst>
+                        <del rend="unmarked">larmes</del>
+                        <add>pleurs</add>
+                    </subst>, ou de les garder pour eulx. <choice>
+                        <orig/>
+                        <reg> »</reg>
                     </choice></s></ab>
         </body>
     </text>

@@ -22,21 +22,16 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                    <orig>d</orig>
+                    <reg>D</reg>
+                </choice>es malins nous ren<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>ersoient, elle nous a posez <add><del>m</del></add><add>en terre</add> sur les pieds doucement<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> come pour empescher que le coup de la cheute ne nous
+                froissast.</s></ab>
         </body>
     </text>
 </TEI>

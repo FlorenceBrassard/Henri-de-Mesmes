@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                    </choice>e seroit <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> moy <subst>
+                        <del>beaucoup d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>imprudance</del>
+                        <add>trop de reprehension</add>
+                    </subst> de ne <subst>
+                        <del>cognoistre</del>
+                        <add>sca<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>oir</add>
+                    </subst> les <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eus de la variable fortune, et autant d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>imprudance <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> ne les cognoistre que d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>impudance <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> ne les sca<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oir suporter. </s></ab>
+        </body>
+    </text>
+</TEI>

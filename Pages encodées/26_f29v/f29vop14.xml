@@ -22,21 +22,15 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>lle n<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>atend pas de remplir noz apetits, elle assou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>it quand il luy plaist le sien. </s></ab>
         </body>
     </text>
 </TEI>

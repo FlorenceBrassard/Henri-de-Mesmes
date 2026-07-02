@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><metamark function="structure">•</metamark>
+                    <choice>
+                        <abbr rend="overlined">aprst</abbr>
+                        <expan>À present</expan>
+                    </choice>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e <subst>
+                        <del rend="unmarked">m'en<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>elope</del>
+                        <add>me plonge</add>
+                    </subst> dens ces munitions de l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>ame<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e barriquade mon ame<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e la cou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>re des galions de la raison et <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                    </choice>stance<choice>
+                        <orig> ;</orig>
+                        <reg>,</reg>
+                    </choice> afin que la douleur ne <del>trou<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>e</del>puisse entrer dens moi et ne trou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>e <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> y penetrer pour le default <subst>
+                        <del>de telles armes</del>
+                        <add>de mon harnois</add>
+                    </subst>. </s></ab>
+        </body>
+    </text>
+</TEI>

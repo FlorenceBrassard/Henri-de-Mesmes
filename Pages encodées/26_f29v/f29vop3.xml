@@ -22,21 +22,9 @@
     <text>
         <body>
             <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
-                    <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>e <roleName ref="Q53448">Roy</roleName> les dicta et composa toutes. </s></ab>
         </body>
     </text>
 </TEI>

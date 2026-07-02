@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab><s><choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>ay des <choice>
+                        <abbr rend="overlined">lres</abbr>
+                        <expan>letres</expan>
+                    </choice> de son pere monsieur le <persName ref="Q1348795"><roleName><choice>
+                            <abbr>Mar<hi rend="superscript">al</hi></abbr>
+                            <expan>Marechal</expan>
+                        </choice></roleName>
+                        <nameLink>de</nameLink>
+                        <surname>Joieuse</surname></persName>
+                    <choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>du<choice>
+                        <abbr><g ref="#que-glyph">ꝙ</g></abbr>
+                        <expan>que</expan>
+                    </choice>l <choice>
+                        <orig>i</orig>
+                        <reg>j'</reg>
+                    </choice>ay parlé cy dessus, escrites de sa main, par lesquelles il me remercie
+                    de mes labeurs emploiez <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> sa maison, m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>en promet service, et se dict tres contant du traicté du mariage que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e luy a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ois en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oié apres qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il fut passé et signé par touts. </s></ab>
+        </body>
+    </text>
+</TEI>

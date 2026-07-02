@@ -21,22 +21,23 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice>
+            <ab><s><del><choice>
+                            <orig>l</orig>
+                            <reg>L</reg>
+                        </choice>a grace</del>
                     <choice>
-                        <abbr></abbr>
-                        <expan></expan>
-                    </choice>
-                    <subst>
-                        <del></del>
-                        <add></add>
-                    </subst>
-                    <choice>
-                        <orig></orig>
-                        <reg></reg>
-                    </choice></s></ab>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>a fa<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>eur, la puissance, les charges, chargent<choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> foulent, gra<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent, proufitent peu, menassent prou. </s></ab>
         </body>
     </text>
 </TEI>
