@@ -12,10 +12,12 @@
             <author><persName ref="https://isni.org/isni/0000000121402971"><nameLink>de</nameLink>
                   <surname>Mesmes</surname>, <forename>Henri</forename>
                </persName>(1532-1596)</author>
-            <editor><persName ref="https://isni.org/isni/0000000504833613" xml:id="AV"><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
+            <editor><persName ref="https://isni.org/isni/0000000504833613" xml:id="AV"
+                     ><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
                      <persName><surname>Brassard</surname>,<forename>Florence</forename></persName></editor>
             <funder/>
-            <principal><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
+            <principal><persName ref="https://isni.org/isni/0000000504833613"
+                     ><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
          </titleStmt>
          <editionStmt>
             <edition/>
@@ -274,11 +276,11 @@
       </fileDesc>
       <encodingDesc>
          <charDecl>
-            <glyph xml:id="pro_glyph"></glyph>
-            <glyph xml:id="con_glyph"></glyph>
-            <glyph xml:id="par_glyph"></glyph>
-            <glyph xml:id="nt_glyph"></glyph>
-            <glyph xml:id="que_glyph"></glyph>
+            <glyph xml:id="pro_glyph"/>
+            <glyph xml:id="con_glyph"/>
+            <glyph xml:id="par_glyph"/>
+            <glyph xml:id="nt_glyph"/>
+            <glyph xml:id="que_glyph"/>
          </charDecl>
       </encodingDesc>
       <profileDesc>
@@ -293,19 +295,42 @@
             </listChange>
          </creation>
          <langUsage>
-            <language ident="frm"></language>
-            <language ident="la"></language>
+            <language ident="frm"/>
+            <language ident="la"/>
          </langUsage>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
-         <xi:include href="1_f17r/f17rop1.xml"/>
-         <xi:include href="1_f17r/f17rop2.xml"/>
-         <xi:include href="1_f17r/f17rop3.xml"/>
-         <xi:include href="1_f17r/f17rop4.xml"/>
-         <xi:include href="1_f17r/f17rop5.xml"/>
-         <xi:include href="1_f17r/f17rop6.xml"/>
+         <div type="1.Discours_préfaciel">
+            <facsimile>
+               <surface>
+                  <graphic
+                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/full/full/0/native.jpg"
+                  />
+               </surface>
+            </facsimile>
+            <xi:include href="1_f17r/f17rop1-2.xml"/>
+            <xi:include href="1_f17r/f17rop3.xml"/>
+            <xi:include href="1_f17r/f17rop4-5.xml"/>
+            <xi:include href="1_f17r/f17rop6.xml"/>
+            <xi:include href="1_f17r/f17rop7.xml"/>
+         </div>
+         <div type="2.Généalogie">
+            <xi:include href="1_f17r/f17rop8.xml"/>
+            <facsimile>
+               <surface>
+                  <graphic
+                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/full/full/0/native.jpg"
+                  />
+               </surface>
+            </facsimile>
+            <xi:include href="2_f17v/f17vop1.xml"/>
+            <xi:include href="2_f17v/f17vop2.xml"/>
+            <xi:include href="2_f17v/f17vop3.xml"/>
+            <xi:include href="2_f17v/f17vop4.xml"/>
+            <xi:include href="2_f17v/f17vop5.xml"/>
+         </div>
       </body>
    </text>
 </TEI>

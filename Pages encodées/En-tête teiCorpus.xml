@@ -324,6 +324,9 @@
       <xi:include href="1_f17r/f17rop3.xml"/>
       <xi:include href="1_f17r/f17rop4-5.xml"/>
       <xi:include href="1_f17r/f17rop6.xml"/>
+      <xi:include href="1_f17r/f17rop7.xml"/>
+      <xi:include href="1_f17r/f17rop8.xml"/>
+      
    </TEI>
    <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
