@@ -34,7 +34,8 @@
                         <del rend="overwritten"><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
-                            </choice><add place="superimposed">en</add></del>
+                            </choice></del>
+                        <add place="superimposed">en</add>
                     </subst>
                     <date when="1582-09">septembre</date>
                     <choice>
