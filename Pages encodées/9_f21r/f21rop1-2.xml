@@ -26,7 +26,10 @@
                             <reg>M</reg>
                         </choice>ais ce fut en vain.</del></s>
                 <s><add xml:id="f21rop1-2_Tellement_quaiant">Tellement qu'aiant</add>
-                    <del>sept ans</del> peu apres <subst>
+                    <del>s<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>estans</del> peu apres <subst>
                         <del>resolu au</del>
                         <add xml:id="f21rop1-2_conclud_doner">conclud <add xml:id="f21rop1-2_de"
                                 >de</add> doner</add>
