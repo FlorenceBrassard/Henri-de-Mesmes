@@ -164,7 +164,7 @@
                                 <del>pendant</del>
                                 <add>par</add>
                             </subst> les</del>
-                        <add><del rend="unmarked"><unclear cert="high">aux</unclear></del></add>
+                        <add><del rend="unmarked">aux</del></add>
                     </subst><substJoin target="#f17rop6_p_moien #f17rop6_par_aux"/>guerres de la
                         <placeName>Guiene</placeName> et</del><del facs="#f17rop6_i_y_6_1"
                     xml:id="f17rop6_y">y</del> espousa<add facs="#f17rop6_i_en_marsan"
@@ -184,7 +184,11 @@
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>'en</add>
-                        </subst> ay veu le titre, et en ay copie dens mes papiers.</del>
+                        </subst> ay veu le titre, et en ay copie den<subst>
+                            <del rend="overwritten"><gap reason="deleted" quantity="1" unit="char"
+                                /></del>
+                            <add place="superimposed">s</add>
+                        </subst> mes papiers.</del>
                     <add>. <choice>
                             <orig>e</orig>
                             <reg>E</reg>
@@ -347,7 +351,7 @@
                             facs="#f17rop6_i_et_ville" xml:id="f17rop6_et_ville">et de la
                             ville</add></del> portoit <subst>
                         <del>ancore</del>
-                        <add><del><gap quantity="5" unit="char"/></del></add>
+                        <add><del>anc<gap reason="deleted" quantity="1" unit="char"/></del></add>
                     </subst>
                     <choice>
                         <abbr rend="overlined">nre</abbr>
@@ -366,9 +370,9 @@
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>en <subst>
-                        <del>voulu avoir bone infor<choice>
-                                <abbr rend="overlined">mn</abbr>
-                                <expan>mation</expan>
+                        <del>voulu avoir bone inform<choice>
+                                <abbr rend="overlined">on</abbr>
+                                <expan>ation</expan>
                             </choice></del>
                         <add>fey la recerche</add>
                     </subst><del>qui fut</del><choice>
