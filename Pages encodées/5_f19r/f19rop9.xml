@@ -61,8 +61,7 @@
                <choice>
                      <orig>e</orig>
                      <reg>E</reg>
-               </choice>n ce mesme temps <unclear agent="reliure" reason="illegible"
-                  >li</unclear>soient <choice>
+               </choice>n ce mesme temps lisoient <choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
@@ -74,8 +73,7 @@
                      <abbr>m<hi rend="superscript">es</hi></abbr>
                      <expan>maistres</expan>
                   </choice>
-               <persName ref="https://isni.org/isni/0000000121007699"><surname><unclear
-                  agent="reliure" reason="illegible"><choice>
+               <persName ref="https://isni.org/isni/0000000121007699"><surname><choice>
                      <orig>c</orig>
                      <reg>C</reg>
                   </choice></unclear>orras</surname></persName> et <persName
