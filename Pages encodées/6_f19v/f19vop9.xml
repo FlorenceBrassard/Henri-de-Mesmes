@@ -60,10 +60,11 @@
                                         <abbr><g ref="#ber-glyph">ƀ</g></abbr>
                                         <expan>Ber</expan>
                                     </choice>trandy</surname></persName></del>
-                        <add><del><unclear reason="deleted">et <choice>
-                                        <abbr><g ref="#qui-glyph">ꝙ</g></abbr>
-                                        <expan>qui</expan>
-                                    </choice></unclear></del> depuys <del>fut</del><choice>
+                        <add><del>et <choice>
+                                    <abbr><g ref="#qui-glyph">ꝙ</g></abbr>
+                                    <expan>qui</expan>
+                                </choice></del> depuys <del>f<unclear reason="deleted"
+                                >u</unclear>t</del><choice>
                                 <abbr>card<hi rend="superscript">al</hi></abbr>
                                 <expan>cardinal</expan>
                             </choice>
