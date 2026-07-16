@@ -47,7 +47,7 @@
                             <reg>é</reg>
                         </choice>
                         <subst>
-                            <del>ii <unclear cert="medium" reason="canceled">fois</unclear></del>
+                            <del>ii f<unclear cert="medium" reason="canceled">oi</unclear></del>
                             <add>aux aides deux</add>
                         </subst> matinées <choice>
                             <orig>i</orig>
@@ -126,8 +126,7 @@
                                 honorables</add> et en <choice>
                                 <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                                 <expan>con</expan>
-                            </choice>curran<unclear cert="high">c</unclear>e mesme des docteurs
-                            regens <subst>
+                            </choice>currance mesme des docteurs regens <subst>
                                 <del>pour</del>
                                 <add><del xml:id="f20rop2_afin_fut">afin que ce fut</del></add>
                             </subst>
