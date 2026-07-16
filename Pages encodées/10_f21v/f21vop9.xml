@@ -154,8 +154,7 @@
                     </choice>paignées fran<choice>
                         <orig>c</orig>
                         <reg>ç</reg>
-                    </choice>oyses <del xml:id="f21vop9_vieilles_del"
-                        >vieilles</del><substJoin
+                    </choice>oyses <del xml:id="f21vop9_vieilles_del">vieilles</del><substJoin
                         target="#f21vop9_vieilles_del #f21vop9_vieilles_add"/>, les capitaines <persName><surname><choice>
                                 <orig>l</orig>
                                 <reg>L</reg>
@@ -176,8 +175,8 @@
                             </choice>anson</surname></persName>,<persName><surname><choice>
                                 <orig>a</orig>
                                 <reg>A</reg>
-                            </choice>ntrecasteaus</surname></persName>,
-               <persName><surname><add xml:id="f21vop9_C">C</add><undo rend="underlined"
+                            </choice>ntrecasteaus</surname></persName>, <persName><surname><add
+                                xml:id="f21vop9_C">C</add><undo rend="underlined"
                                 target="#f21vop9_aussans" xml:id="f21rop9_aussans_undo"/><del
                                 xml:id="f21vop9_aussans"
                         >aussans</del></surname></persName><substJoin
@@ -197,19 +196,22 @@
                     </choice>erneur <add>et le <choice>
                             <abbr>s<hi rend="superscript">r</hi></abbr>
                             <expan>seigneur</expan>
-                        </choice><persName ref="Q1924885"><add><nameLink>de
-                        </nameLink></add><surname><add>la</add> Mole</surname></persName>
-                       <del>per <gap quantity="1" unit="char"/></del> <choice>
-                          <orig>a</orig>
-                          <reg>à</reg>
-                       </choice>
-                       <placeName><choice>
-                          <orig>g</orig>
-                          <reg>G</reg>
-                       </choice>rossetto</placeName>placeName> <choice>
+                        </choice><persName ref="Q1924885"><add><nameLink>de </nameLink></add><surname><add><choice>
+                                        <orig>l</orig>
+                                        <reg>L</reg>
+                                    </choice>a</add> Mole</surname></persName>
+                        <del>per <gap quantity="1" unit="char"/></del>
+                        <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>
+                        <placeName ref="Q6716"><choice>
+                                <orig>g</orig>
+                                <reg>G</reg>
+                            </choice>rossetto</placeName>placeName> <choice>
                             <abbr>po<hi rend="superscript">r</hi></abbr>
                             <expan>pour</expan>
-                        </choice> le Mart<unclear cert="medium" reason="illegible">ine</unclear>
+                        </choice> la <placeName ref="Q1233184">Marem</placeName>
                     </add>.<del><choice>
                             <orig>q</orig>
                             <reg>Q</reg>
