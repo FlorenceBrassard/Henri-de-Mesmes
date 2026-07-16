@@ -55,8 +55,7 @@
                                 </choice>auditoire</add>
                         </subst> entier<del xml:id="f19vop6_e">e</del></add>
                     <substJoin target="#f19vop6_lescole_lauditoire #f19vop6_e"/>
-                    <add
-                        xml:id="f19vop6_car_vaquoit"> car <choice>
+                    <add xml:id="f19vop6_car_vaquoit"> car <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice><placeName><choice>
@@ -72,8 +71,7 @@
                         <supplied cert="high">ole</supplied> vaquo<gap agent="reliure" unit="char"
                             quantity="2"/>
                         <supplied cert="high">it</supplied></add><substJoin
-                        target="#f19vop6_a_et_2 #f19vop6_car_vaquoit"/><unclear cert="medium"
-                        reason="faded">.</unclear></s></p>
+                        target="#f19vop6_a_et_2 #f19vop6_car_vaquoit"/>.</s></p>
         </body>
     </text>
 </TEI>
