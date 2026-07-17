@@ -71,8 +71,7 @@
                         <del>son</del>
                         <add>cest</add>
                     </subst>
-                    <del><unclear cert="medium" reason="illegible">l</unclear></del> office.
-                </s></p>
+                    <del><unclear cert="high" reason="cancelled">l</unclear></del> office.</s></p>
         </body>
     </text>
 </TEI>
