@@ -55,19 +55,20 @@
                         <orig>,</orig>
                         <reg>.</reg>
                     </choice><del><metamark function="insert">#</metamark><add
-                        xml:id="f25vop4_en_ducs">en <date when="1581"
-                            >ceste année</date> le <roleName ref="Q53448">Roy</roleName> feit
-                            les mariages <add xml:id="f25vop4_d">d</add>e<subst xml:id="f25vop4_t_s">
+                            xml:id="f25vop4_en_ducs">en <date when="1581">ceste année</date> le
+                                <roleName ref="Q53448">Roy</roleName> feit les mariages <add
+                                xml:id="f25vop4_d">d</add>e<subst xml:id="f25vop4_t_s">
                                 <del rend="overwritten">t</del>
                                 <add place="superimposed">s</add>
                             </subst><del><add xml:id="f25vop4_srs_Joy"><choice>
-                                    <abbr>s<hi rend="superscript">rs</hi></abbr>
-                                    <expan>seigneurs</expan>
-                                </choice>
-                                <persName ref="Q565927"><nameLink>de</nameLink>
-                                    <surname>Joy</surname></persName>
-                            </add></del><substJoin target="#f25vop4_d #f25vop3_t_s #f25vop4_srs_Joy"/> les
-                            erections <choice>
+                                        <abbr>s<hi rend="superscript">rs</hi></abbr>
+                                        <expan>seigneurs</expan>
+                                    </choice>
+                                    <persName ref="Q565927"><nameLink>de</nameLink>
+                                        <surname>Joy</surname></persName>
+                                </add></del><substJoin
+                                target="#f25vop4_d #f25vop3_t_s #f25vop4_srs_Joy"/> les <unclear
+                                cert="high" reason="illegible">e</unclear>rections <choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice> ducs</add></del><del>et de fidelité que de
