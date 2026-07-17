@@ -21,7 +21,8 @@
     </teiHeader>
     <text>
         <body>
-            <ab><addSpan xml:id="f25rop1-5_Le_estant" spanTo="#f25rop1-5_estant"/><s>Le <roleName ref="Q53448">Roy</roleName> en l<choice>
+            <ab><addSpan xml:id="f25rop1-5_Le_estant" spanTo="#f25rop1-5_estant"/><s>Le <roleName
+                        ref="Q53448">Roy</roleName> en l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice><choice>
@@ -62,9 +63,9 @@
                     <substJoin seq="3"
                         target="#f25rop1-5_veint2_del #f25rop1-5_fut #f25rop1-5_metamark #f25rop1_5_en_demy"/>
                     <restore resp="AVFB"><del><choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice></del></restore>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice></del></restore>
                     <placeName ref="Q680463">Roissy</placeName><choice>
                         <orig/>
                         <reg>,</reg>
@@ -119,10 +120,7 @@
                     </choice>mander plus de deux fois<choice>
                         <orig/>
                         <reg>.</reg>
-                    </choice></s><s><choice>
-                        <orig>e</orig>
-                        <reg>E</reg>
-                    </choice>t l<choice>
+                    </choice></s><s> Et l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>an <date>1578</date> quand il dressa son <choice>
@@ -229,7 +227,8 @@
                                     <orig>i</orig>
                                     <reg>I</reg>
                                 </choice>l</add>
-                    </subst></del><substJoin target="#f25rop1-5_Le_estant #f25rop1-5_Le_il #f25rop1-5_point "/> m<choice>
+                        </subst></del><substJoin
+                        target="#f25rop1-5_Le_estant #f25rop1-5_Le_il #f25rop1-5_point "/> m<choice>
                         <orig> </orig>
                         <reg>'</reg>
                     </choice>appela en son cabinet et me dit qu<choice>
@@ -244,8 +243,8 @@
                     </choice>ez <choice>
                         <abbr>afe<hi rend="superscript">r</hi>s</abbr>
                         <expan>afaires</expan>
-                    </choice>, aiant <del xml:id="f25rop1-5_eleu">eleu</del><metamark function="insertion"
-                        target="#f25rop1-5_cogneu_de">^</metamark>
+                    </choice>, aiant <del xml:id="f25rop1-5_eleu">eleu</del><metamark
+                        function="insertion" target="#f25rop1-5_cogneu_de">^</metamark>
                     <add xml:id="f25rop1-5_cogneu_de"><metamark>^</metamark> cogneu de longue main
                         mon affection <choice>
                             <orig>a</orig>
@@ -262,14 +261,14 @@
                         </choice>ec preu<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>e de</add><substJoin target="#f25rop1-5_eleu #f25rop1-5_cogneu_de"/> ma fidelité et quelques autres <choice>
+                        </choice>e de</add><substJoin target="#f25rop1-5_eleu #f25rop1-5_cogneu_de"
+                    /> ma fidelité et quelques autres <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>ties qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il disoit louer en moy. </s>
-            </ab>
+                    </choice>il disoit louer en moy.</s></ab>
         </body>
     </text>
 </TEI>
