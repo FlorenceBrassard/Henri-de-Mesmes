@@ -21,8 +21,8 @@
     </teiHeader>
     <text>
         <body>
-            <p><del><metamark function="insert" target="#f23rop3_Certes_censeur">+</metamark><add
-                        xml:id="f23rop3_Certes_censeur"><metamark>+</metamark><s>Certes <choice>
+            <p><del><metamark function="insert" target="#f23rop3_Certes_censeur">≠</metamark><add
+                        xml:id="f23rop3_Certes_censeur"><metamark>≠</metamark><s>Certes <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>'estimois beaucoup cest honeur qui venoit de <choice>
@@ -91,14 +91,15 @@
                         <add>autant</add>
                     </subst> apris en son escole <metamark function="insert"
                         target="#f23rop3_apres_pere">^</metamark><add xml:id="f23rop3_apres_pere"
-                            ><metamark>^</metamark>apres celle de mon pere</add> qu'en <del>autre</del>
-                    autre <del>de et <unclear cert="low" reason="illegible">t</unclear></del> o<choice>
+                            ><metamark>^</metamark>apres celle de mon pere</add> qu'en
+                        <del>autre</del> autre <del>de et <unclear cert="low" reason="illegible"
+                            >t</unclear></del> o<choice>
                         <orig>u i</orig>
                         <reg>ù j'</reg>
                     </choice>aie esté de mes <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ours. </s></p>
+                    </choice>ours.</s></p>
         </body>
     </text>
 </TEI>
