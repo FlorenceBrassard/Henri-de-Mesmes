@@ -22,12 +22,13 @@
     <text>
         <body>
             <ab><s><choice>
-                    <orig>d</orig>
-                    <reg>D</reg>
-                </choice>es malins nous ren<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>ersoient, elle nous a posez <add><del>m</del></add><add>en terre</add> sur les pieds doucement<choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                    </choice>es malins nous ren<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ersoient, elle nous a posez <del><add>m</add></del>
+                    <add>en terre</add> sur les pieds doucement<choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> come pour empescher que le coup de la cheute ne nous
