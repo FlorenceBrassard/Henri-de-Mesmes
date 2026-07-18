@@ -21,16 +21,16 @@
     </teiHeader>
     <text>
         <body>
-            <p><s>En ce temps florissoit en <placeName><choice>
+            <ab><s>En ce temps florissoit en <placeName><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName> le <persName ref="Q551804"
                             ><roleName>Chancelier</roleName>
                         <nameLink>de</nameLink>
                         <surname>l<choice>
-                                <orig>o</orig>
-                                <reg>'Ho</reg>
-                            </choice>spital</surname></persName> home de grandes <choice>
+                                <orig/>
+                                <reg>'H</reg>
+                            </choice>ospital</surname></persName> home de grandes <choice>
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
                     </choice>, et qui traictoit la <choice>
@@ -39,7 +39,7 @@
                     </choice>ustice <del>et police</del> du <placeName>Royaume</placeName> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec <del>g</del> beaucoup de louange.</s></p>
+                    </choice>ec <del>g</del> beaucoup de louange.</s></ab>
         </body>
     </text>
 </TEI>
