@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mémoires d'Henri de Mesmes : édition critique numérique</title>
+            <author><persName ref="https://isni.org/isni/0000000121402971"><nameLink>de</nameLink>
+                  <surname>Mesmes</surname>, <forename>Henri</forename>
+               </persName>(1532-1596)</author>
+            <editor><persName ref="https://isni.org/isni/0000000504833613" xml:id="AV"
+                     ><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
+                     <persName><surname>Brassard</surname>,<forename>Florence</forename></persName></editor>
+            <funder/>
+            <principal><persName ref="https://isni.org/isni/0000000504833613"
+                     ><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="fr" type="composite">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Français</collection>
+                  <idno>729</idno>
+                  <altIdentifier>
+                     <idno>Anc. 7162(3)</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>de Mesmes 546</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Henri de Mesmes, Opuscules et fragments</head>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+
+                        <support>
+                           <p><material/><locus/></p>
+                        </support>
+                        <extent><dimensions>
+                              <height/>
+                              <width/>
+                           </dimensions></extent>
+                        <foliation> </foliation>
+                        <foliation/>
+                        <collation/>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                     </layoutDesc>
+                     <!--                        layoutDesc - provisoire-->
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <!--                     handDesc provisoire-->
+                  <bindingDesc>
+                     <binding>
+                        <condition/>
+                     </binding>
+                  </bindingDesc>
+                  <!--                     bindingDesc provisoire-->
+               </physDesc>
+               <history/>
+               <additional/>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Notes géographiques sur quelques lieux contestés des
+                           Commentaires de César avec plan et carte</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="main">De l'oraison de Xénophon sur les louanges
+                           d'Agésilas</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Traduction de divers passages de Plutarque sur les
+                           éclipses de lune et de soleil</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. 17r-33r</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Manuscrit autographe des Mémoires</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang mainLang="frm" otherLangs="la"/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Fragments</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Discours sur la mort de monsieur le président de
+                           Marsan</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Discours pieux en latin</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <glyph xml:id="pro_glyph"/>
+         </charDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <listChange>
+               <listChange>
+                  <change target="#ny_histoire #certes_soymesmes">L'emplacement de l'ajout à la
+                     phrase 3 (« Certes mieulx vaudroit avoir esté bien maistre de soymesmes »),
+                     dans la marge de gauche, suggère qu'il est ultérieur à l'ajout de la phrase 4
+                     (« ny ma ꝑfession les a produits dignes de grande histoire »).</change>
+               </listChange>
+            </listChange>
+         </creation>
+         <langUsage>
+            <language ident="frm"/>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f17ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="1_f17r/f17rop1-2.xml"/>
+      <xi:include href="1_f17r/f17rop3.xml"/>
+      <xi:include href="1_f17r/f17rop4-5.xml"/>
+      <xi:include href="1_f17r/f17rop6.xml"/>
+      <xi:include href="1_f17r/f17rop7.xml"/>
+      <xi:include href="1_f17r/f17rop8.xml"/>
+      
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f17vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f40/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="2_f17v/f17vop1.xml"/>
+      <xi:include href="2_f17v/f17vop2.xml"/>
+      <xi:include href="2_f17v/f17vop3.xml"/>
+      <xi:include href="2_f17v/f17vop4.xml"/>
+      <xi:include href="2_f17v/f17vop5.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f18ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="3_f18r/f18rop1.xml"/>
+      <xi:include href="3_f18r/f18rop2.xml"/>
+      <xi:include href="3_f18r/f18rop3.xml"/>
+      <xi:include href="3_f18r/f18rop4.xml"/>
+      <xi:include href="3_f18r/f18rop5.xml"/>
+      <xi:include href="3_f18r/f18rop6.xml"/>
+      <xi:include href="3_f18r/f18rop7.xml"/>
+      <xi:include href="3_f18r/f18rop8.xml"/>
+      <xi:include href="3_f18r/f18rop9.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f18vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="4_f18v/f18vop1.xml"/>
+      <xi:include href="4_f18v/f18vop2.xml"/>
+      <xi:include href="4_f18v/f18vop3.xml"/>
+      <xi:include href="4_f18v/f18vop4.xml"/>
+      <xi:include href="4_f18v/f18vop5.xml"/>
+      <xi:include href="4_f18v/f18vop6.xml"/>
+      <xi:include href="4_f18v/f18vop7.xml"/>
+      <xi:include href="4_f18v/f18vop8.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f19ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="5_f19r/f19rop1.xml"/>
+      <xi:include href="5_f19r/f19rop2-3.xml"/>
+      <xi:include href="5_f19r/f19rop4.xml"/>
+      <xi:include href="5_f19r/f19rop5A.xml"/>
+      <xi:include href="5_f19r/f19rop5B.xml"/>
+      <xi:include href="5_f19r/f19rop6-7.xml"/>
+      <xi:include href="5_f19r/f19rop8.xml"/>
+      <xi:include href="5_f19r/f19rop9.xml"/>
+      <xi:include href="5_f19r/f19rop10.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f19vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="6_f19v/f19vop1.xml"/>
+      <xi:include href="6_f19v/f19vop2-3.xml"/>
+      <xi:include href="6_f19v/f19vop4.xml"/>
+      <xi:include href="6_f19v/f19vop5.xml"/>
+      <xi:include href="6_f19v/f19vop6.xml"/>
+      <xi:include href="6_f19v/f19vop7.xml"/>
+      <xi:include href="6_f19v/f19vop8.xml"/>
+      <xi:include href="6_f19v/f19vop9.xml"/>
+      <xi:include href="6_f19v/f19vop10.xml"/>
+      <xi:include href="6_f19v/f19vop11.xml"/>
+      <xi:include href="6_f19v/f19vop12.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f20ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f45/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="7_f20r/f20rop1.xml"/>
+      <xi:include href="7_f20r/f20rop2.xml"/>
+      <xi:include href="7_f20r/f20rop3.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f20vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/full/full/0/native.jpg"/>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/267,311,3490,2182/full/0/default.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="8_f20v/f20vop1.xml"/>
+      <xi:include href="8_f20v/f20vop2.xml"/>
+      <xi:include href="8_f20v/f20vop3.xml"/>
+      <xi:include href="8_f20v/f20vop4.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f21ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="9_f21r/f21rop1-2.xml"/>
+      <xi:include href="9_f21r/f21rop3.xml"/>
+      <xi:include href="9_f21r/f21rop4.xml"/>
+      <xi:include href="9_f21r/f21rop5.xml"/>
+      <xi:include href="9_f21r/f21rop6.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f21vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="10_f21v/f21vop1.xml"/>
+      <xi:include href="10_f21v/f21vop2.xml"/>
+      <xi:include href="10_f21v/f21vop3.xml"/>
+      <xi:include href="10_f21v/f21vop4.xml"/>
+      <xi:include href="10_f21v/f21vop5.xml"/>
+      <xi:include href="10_f21v/f21vop6.xml"/>
+      <xi:include href="10_f21v/f21vop7.xml"/>
+      <xi:include href="10_f21v/f21vop8.xml"/>
+      <xi:include href="10_f21v/f21vop9.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f22ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="11_f22r/f22rop1.xml"/>
+      <xi:include href="11_f22r/f22rop2.xml"/>
+      <xi:include href="11_f22r/f22rop3-4.xml"/>
+      <xi:include href="11_f22r/f22rop5-6.xml"/>
+      <!--      VÉRIFIER si on garde 5-6, 7 ou si on devrait plutôt mettre 5-6-7-->
+      <xi:include href="11_f22r/f22rop7.xml"/>
+      <xi:include href="11_f22r/f22rop8-9.xml"/>
+      <xi:include href="11_f22r/f22rop10-11.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f22vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="12_f22v/f22vop1.xml"/>
+      <xi:include href="12_f22v/f22vop2.xml"/>
+      <xi:include href="12_f22v/f22vop3-4.xml"/>
+      <xi:include href="12_f22v/f22vop5.xml"/>
+      <xi:include href="12_f22v/f22vop6.xml"/>
+      <xi:include href="12_f22v/f22vop7.xml"/>
+      <xi:include href="12_f22v/f22vop8.xml"/>
+      <xi:include href="12_f22v/f22vop9.xml"/>
+      <xi:include href="12_f22v/f22vop10.xml"/>
+      <xi:include href="12_f22v/f22vop11.xml"/>
+      <xi:include href="12_f22v/f22vop12.xml"/>
+      <xi:include href="12_f22v/f22vop13.xml"/>
+      <xi:include href="12_f22v/f22vop14.xml"/>
+      <xi:include href="12_f22v/f22vop15.xml"/>
+      <xi:include href="12_f22v/f22vop16.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f23ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="13_f23r/f23rop1.xml"/>
+      <xi:include href="13_f23r/f23rop2.xml"/>
+      <xi:include href="13_f23r/f23rop3.xml"/>
+      <xi:include href="13_f23r/f23rop4.xml"/>
+      <xi:include href="13_f23r/f23rop5.xml"/>
+      <xi:include href="13_f23r/f23rop6.xml"/>
+      <xi:include href="13_f23r/f23rop7.xml"/>
+      <xi:include href="13_f23r/f23rop8.xml"/>
+      <xi:include href="13_f23r/f23rop9.xml"/>
+      <xi:include href="13_f23r/f23rop10.xml"/>
+      <xi:include href="13_f23r/f23rop11.xml"/>
+      <xi:include href="13_f23r/f23rop12.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f23vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="14_f23v/f23vop1.xml"/>
+      <xi:include href="14_f23v/f23vop2.xml"/>
+      <xi:include href="14_f23v/f23vop3.xml"/>
+      <xi:include href="14_f23v/f23vop4.xml"/>
+      <xi:include href="14_f23v/f23vop5.xml"/>
+      <xi:include href="14_f23v/f23vop6.xml"/>
+      <xi:include href="14_f23v/f23vop7-8.xml"/>
+      <xi:include href="14_f23v/f23vop9.xml"/>
+      <xi:include href="14_f23v/f23vop10.xml"/>
+      <xi:include href="14_f23v/f23vop11.xml"/>
+      <xi:include href="14_f23v/f23vop12.xml"/>
+      <xi:include href="14_f23v/f23vop13.xml"/>
+      <xi:include href="14_f23v/f23vop14-15.xml"/>
+      <xi:include href="14_f23v/f23vop16-17.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f24ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="15_f24r/f24rop1.xml"/>
+      <xi:include href="15_f24r/f24rop2.xml"/>
+      <xi:include href="15_f24r/f24rop3.xml"/>
+      <xi:include href="15_f24r/f24rop4.xml"/>
+      <xi:include href="15_f24r/f24rop5.xml"/>
+      <xi:include href="15_f24r/f24rop6.xml"/>
+      <xi:include href="15_f24r/f24rop7.xml"/>
+      <xi:include href="15_f24r/f24rop8.xml"/>
+      <xi:include href="15_f24r/f24rop9.xml"/>
+      <xi:include href="15_f24r/f24rop10.xml"/>
+      <xi:include href="15_f24r/f24rop11.xml"/>
+      <xi:include href="15_f24r/f24rop12.xml"/>
+      <xi:include href="15_f24r/f24rop13.xml"/>
+      <xi:include href="15_f24r/f24rop14.xml"/>
+      <xi:include href="15_f24r/f24rop15.xml"/>
+      <xi:include href="15_f24r/f24rop16.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f24vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="16_f24v/f24vop1.xml"/>
+      <xi:include href="16_f24v/f24vop2.xml"/>
+      <xi:include href="16_f24v/f24vop3.xml"/>
+      <xi:include href="16_f24v/f24vop4.xml"/>
+      <xi:include href="16_f24v/f24vop5.xml"/>
+      <xi:include href="16_f24v/f24vop6-7.xml"/>
+      <xi:include href="16_f24v/f24vop8.xml"/>
+      <xi:include href="16_f24v/f24vop9-10.xml"/>
+      <xi:include href="16_f24v/f24vop11-12.xml"/>
+      <xi:include href="16_f24v/f24vop13.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f25ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f55/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="17_f25r/f25rop1-5.xml"/>
+      <xi:include href="17_f25r/f25rop6.xml"/>
+      <xi:include href="17_f25r/f25rop7.xml"/>
+      <xi:include href="17_f25r/f25rop8.xml"/>
+      <xi:include href="17_f25r/f25rop9.xml"/>
+      <xi:include href="17_f25r/f25rop10.xml"/>
+      <xi:include href="17_f25r/f25rop11.xml"/>
+      <xi:include href="17_f25r/f25rop12.xml"/>
+      <xi:include href="17_f25r/f25rop13.xml"/>
+      <xi:include href="17_f25r/f25rop14.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f25vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="18_f25v/f25vop1.xml"/>
+      <xi:include href="18_f25v/f25vop2-3.xml"/>
+      <xi:include href="18_f25v/f25vop4.xml"/>
+      <xi:include href="18_f25v/f25vop5.xml"/>
+      <xi:include href="18_f25v/f25vop6.xml"/>
+      <xi:include href="18_f25v/f25vop7.xml"/>
+      <xi:include href="18_f25v/f25vop8.xml"/>
+      <xi:include href="18_f25v/f25vop9.xml"/>
+      <xi:include href="18_f25v/f25vop10.xml"/>
+      <xi:include href="18_f25v/f25vop11-12.xml"/>
+      <xi:include href="18_f25v/f25vop13.xml"/>
+      <xi:include href="18_f25v/f25vop14-18.xml"/>
+      <xi:include href="18_f25v/f25vop19.xml"/>
+      <xi:include href="18_f25v/f25vop20.xml"/>
+      <xi:include href="18_f25v/f25vop21.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f26ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="19_f26r/f26rop1.xml"/>
+      <xi:include href="19_f26r/f26rop2.xml"/>
+      <xi:include href="19_f26r/f26rop3.xml"/>
+      <xi:include href="19_f26r/f26rop4.xml"/>
+      <xi:include href="19_f26r/f26rop5.xml"/>
+      <xi:include href="19_f26r/f26rop6-15.xml"/>
+      <xi:include href="19_f26r/f26rop16.xml"/>
+      <xi:include href="19_f26r/f26rop17.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f26vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="20_f26v/f26vop1-8.xml"/>
+      <xi:include href="20_f26v/f26vop9.xml"/>
+      <xi:include href="20_f26v/f26vop10.xml"/>
+      <xi:include href="20_f26v/f26vop11.xml"/>
+      <xi:include href="20_f26v/f26vop12.xml"/>
+      <xi:include href="20_f26v/f26vop13.xml"/>
+      <xi:include href="20_f26v/f26vop14.xml"/>
+      <xi:include href="20_f26v/f26vop15.xml"/>
+      <xi:include href="20_f26v/f26vop16.xml"/>
+      <xi:include href="20_f26v/f26vop17.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f27ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f59/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="21_f27r/f27rop1.xml"/>
+      <xi:include href="21_f27r/f27rop2.xml"/>
+      <xi:include href="21_f27r/f27rop3.xml"/>
+      <xi:include href="21_f27r/f27rop4.xml"/>
+      <xi:include href="21_f27r/f27rop5.xml"/>
+      <xi:include href="21_f27r/f27rop6.xml"/>
+      <xi:include href="21_f27r/f27rop7.xml"/>
+      <xi:include href="21_f27r/f27rop8.xml"/>
+      <xi:include href="21_f27r/f27rop9.xml"/>
+      <xi:include href="21_f27r/f27rop10.xml"/>
+      <xi:include href="21_f27r/f27rop11.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f27vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f60/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="22_f27v/f27vop1.xml"/>
+      <xi:include href="22_f27v/f27vop2.xml"/>
+      <xi:include href="22_f27v/f27vop3-4.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f28ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f61/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="23_f28r/f28rop1.xml"/>
+      <xi:include href="23_f28r/f28rop2.xml"/>
+      <xi:include href="23_f28r/f28rop3.xml"/>
+      <xi:include href="23_f28r/f28rop4.xml"/>
+      <xi:include href="23_f28r/f28rop5.xml"/>
+      <xi:include href="23_f28r/f28rop6.xml"/>
+      <xi:include href="23_f28r/f28rop7.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f28vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f62/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="24_f28v/f28vop1.xml"/>
+      <xi:include href="24_f28v/f28vop2.xml"/>
+      <xi:include href="24_f28v/f28vop3.xml"/>
+      <xi:include href="24_f28v/f28vop4.xml"/>
+      <xi:include href="24_f28v/f28vop5.xml"/>
+      <xi:include href="24_f28v/f28vop6.xml"/>
+      <xi:include href="24_f28v/f28vop7.xml"/>
+      <xi:include href="24_f28v/f28vop8.xml"/>
+      <xi:include href="24_f28v/f28vop9.xml"/>
+      <xi:include href="24_f28v/f28vop10.xml"/>
+      <xi:include href="24_f28v/f28vop11.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f29ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f63/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="25_f29r/f29rop1.xml"/>
+      <xi:include href="25_f29r/f29rop2.xml"/>
+      <xi:include href="25_f29r/f29rop3.xml"/>
+      <xi:include href="25_f29r/f29rop4.xml"/>
+      <xi:include href="25_f29r/f29rop5.xml"/>
+      <xi:include href="25_f29r/f29rop6.xml"/>
+      <xi:include href="25_f29r/f29rop7.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f29vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f64/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="26_f29v/f29vop1.xml"/>
+      <xi:include href="26_f29v/f29vop2.xml"/>
+      <xi:include href="26_f29v/f29vop3.xml"/>
+      <xi:include href="26_f29v/f29vop4.xml"/>
+      <xi:include href="26_f29v/f29vop5.xml"/>
+      <xi:include href="26_f29v/f29vop6.xml"/>
+      <xi:include href="26_f29v/f29vop7.xml"/>
+      <xi:include href="26_f29v/f29vop8.xml"/>
+      <xi:include href="26_f29v/f29vop9.xml"/>
+      <xi:include href="26_f29v/f29vop10.xml"/>
+      <xi:include href="26_f29v/f29vop11.xml"/>
+      <xi:include href="26_f29v/f29vop12.xml"/>
+      <xi:include href="26_f29v/f29vop13.xml"/>
+      <xi:include href="26_f29v/f29vop14.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f30vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f65/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="27_f30v/f30vop1.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f31ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f66/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="28_f31r/f31rop1.xml"/>
+      <xi:include href="28_f31r/f31rop2.xml"/>
+      <xi:include href="28_f31r/f31rop3.xml"/>
+      <xi:include href="28_f31r/f31rop4.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f31vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f67/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="29_f31v/f31vop1.xml"/>
+      <xi:include href="29_f31v/f31vop2.xml"/>
+      <xi:include href="29_f31v/f31vop3.xml"/>
+      <xi:include href="29_f31v/f31vop4-5.xml"/>
+      <xi:include href="29_f31v/f31vop6.xml"/>
+      <xi:include href="29_f31v/f31vop7.xml"/>
+      <xi:include href="29_f31v/f31vop8.xml"/>
+      <xi:include href="29_f31v/f31vop9.xml"/>
+      <xi:include href="29_f31v/f31vop10.xml"/>
+      <xi:include href="29_f31v/f31vop11.xml"/>
+      <xi:include href="29_f31v/f31vop12.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f32ro</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f68/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="30_f32r/f32rop1.xml"/>
+      <xi:include href="30_f32r/f32rop2.xml"/>
+      <xi:include href="30_f32r/f32rop3.xml"/>
+      <xi:include href="30_f32r/f32rop4.xml"/>
+      <xi:include href="30_f32r/f32rop5.xml"/>
+      <xi:include href="30_f32r/f32rop6.xml"/>
+      <xi:include href="30_f32r/f32rop7.xml"/>
+      <xi:include href="30_f32r/f32rop8.xml"/>
+      <xi:include href="30_f32r/f32rop9.xml"/>
+      <xi:include href="30_f32r/f32rop10.xml"/>
+      <xi:include href="30_f32r/f32rop11.xml"/>
+      <xi:include href="30_f32r/f32rop12.xml"/>
+   </TEI>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>f32vo</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <institution>Bibliothèque nationale de France</institution>
+                     <idno>Français 729</idno>
+                  </msIdentifier>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <surface>
+            <graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f69/full/full/0/native.jpg"
+            />
+         </surface>
+      </facsimile>
+      <xi:include href="31_f32v/f32vop1.xml"/>
+      <xi:include href="31_f32v/f32vop2.xml"/>
+      <xi:include href="31_f32v/f32vop3.xml"/>
+      <xi:include href="31_f32v/f32vop4.xml"/>
+      <xi:include href="31_f32v/f32vop5.xml"/>
+      <xi:include href="31_f32v/f32vop6.xml"/>
+      <xi:include href="31_f32v/f32vop7.xml"/>
+      <xi:include href="31_f32v/f32vop8.xml"/>
+      <xi:include href="31_f32v/f32vop9.xml"/>
+      <xi:include href="31_f32v/f32vop10.xml"/>
+      <xi:include href="31_f32v/f32vop11.xml"/>
+      <xi:include href="31_f32v/f32vop12.xml"/>
+      <xi:include href="31_f32v/f32vop13.xml"/>
+   </TEI>
+</teiCorpus>
