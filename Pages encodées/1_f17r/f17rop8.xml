@@ -32,12 +32,10 @@
             <zone xml:id="f17rop6_i_metamark_6_2" points="419,369 388,432 488,457 512,341"/>
             <zone xml:id="f17rop6_i_p_moien" points="450,232 431,344 900,326 906,232"/>
             <zone xml:id="f17rop6_i_d_6_1" points="475,425 525,456 600,319 501,300"/>
-            <zone xml:id="f17rop6_i_nomme_berruich"
-                points="1638,194 1669,400 1969,375 2056,169 1833,195 1831,159"/>
+            <zone xml:id="f17rop6_i_nomme_berruich" points="1636,194 1667,400 1967,375 2054,169"/>
             <zone xml:id="f17rop6_i_qui_6_1" points="500,500 488,663 669,600 656,450"/>
             <zone xml:id="f17rop6_i_Marsan_Guiene" points="2411,317 2381,513 2744,513 2725,325"/>
-            <zone xml:id="f17rop6_i_par_aux"
-                points="652,580 566,632 554,686 969,644 963,613 963,556 816,562"/>
+            <zone xml:id="f17rop6_i_par_aux" points="590,598 552,686 967,644 961,556"/>
             <zone xml:id="f17rop6_i_y_6_1" points="1869,575 1956,588 1938,738 1838,713"/>
             <zone xml:id="f17rop6_i_en_marsan" points="2157,505 2147,592 2532,595 2552,490"/>
             <zone xml:id="f17rop6_i_de_ancestres" points="2903,770 2895,822 3435,842 3510,797"/>
@@ -48,13 +46,11 @@
             <zone xml:id="f17rop6_i_ou_6_1" points="2250,1563 2244,1613 2381,1606 2400,1556"/>
             <zone xml:id="f17rop6_i_metamark_6_3" points="2169,1475 2169,1538 2225,1531 2250,1469"/>
             <zone xml:id="f17rop6_i_a_escosse" points="54,1508 581,1550 581,1650 13,1688"/>
-            <zone xml:id="f17rop6_i_a_1567"
-                points="25,1487 2,1947 295,1905 430,1675 592,1630 590,1542"/>
-            <zone xml:id="f17rop6_i_en_1567" points="-5,1667 25,1960 300,1920 467,1650"/>
+            <zone xml:id="f17rop6_i_en_1567" points="4,1670 25,1960 300,1920 467,1650"/>
             <zone xml:id="f17rop6_i_que_6_1" points="2240,1500 2234,1538 2415,1525 2440,1475"/>
             <zone xml:id="f17rop6_i_dont_6_1" points="2281,1563 2269,1538 2425,1519 2413,1563"/>
             <zone xml:id="f17rop6_i_ou_6_2" points="2392,1447 2297,1442 2277,1505 2410,1475"/>
-            <zone xml:id="f17rop6_i_les_6_1" points="402,1722 387,1820 467,1810 515,1770 477,1725"/>
+            <zone xml:id="f17rop6_i_les_6_1" points="402,1722 387,1820 514,1804 498,1726"/>
             <zone xml:id="f17rop6_i_metamark_6_4" points="442,1792 435,1847 505,1840 520,1802"/>
             <zone xml:id="f17rop6_i_et_ville" points="485,1696 469,1775 856,1750 881,1656"/>
             <zone xml:id="f17rop6_i_et_6_3" points="1425,1717 1460,1785 1552,1765 1570,1717"/>
@@ -62,7 +58,8 @@
             <zone xml:id="f17rop6_i_en_6_1" points="1625,1619 1631,1700 1725,1719 1769,1638"/>
             <zone xml:id="f17rop6_i_ce_6_1" points="2625,1694 2644,1775 2738,1788 2760,1707"/>
             <zone xml:id="f17rop6_i_nom_armes" points="3013,1694 2994,1750 3469,1763 3488,1694"/>
-            <zone xml:id="f17rop6_i_une_la" points="3031,725 3025,794 3200,794 3200,731 3163,694"/>
+            <zone xml:id="f17rop6_i_une_la" points="3031,725 3025,794 3200,794 3182,694"/>
+            <zone xml:id="f17rop6_i_a_1567" points="25,1487 2,1947 295,1905 624,1558"/>
         </surface>
     </facsimile>
     <text>

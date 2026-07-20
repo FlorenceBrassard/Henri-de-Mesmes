@@ -25,28 +25,26 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/89,1127,3702,1067/full/0/default.jpg"/>
             <zone xml:id="f17rop3_i_en_france" lry="164" lrx="2528" uly="40" ulx="2048"/>
             <zone xml:id="f17rop3_i_et_guiere" lry="678" lrx="644" uly="366" ulx="110"/>
-            <zone xml:id="f17rop3_i_en_guieres"
-                points="1310,264 1280,346 1354,360 2188,310 2584,306 3000,306 2922,464 3356,496 3458,374 3712,412 3658,176"/>
-            <zone xml:id="f17rop3_i_mesprisent_guieres"
-                points="2652,240 2632,288 2820,286 3018,290 2986,386 2942,480 3364,482 3420,364 3710,398 3686,192"/>
+            <zone xml:id="f17rop3_i_en_guieres" points="1322,266 1292,348 3667,487 3692,182"/>
             <zone xml:id="f17rop3_i_nusent_chapeaus" points="732,464 688,582 2766,446 2746,358"/>
             <zone xml:id="f17rop3_i_ceux" points="3052,480 3056,520 3332,526 3324,480"/>
-            <zone xml:id="f17rop3_i_les1" points="3482,362 3470,432 3564,432 3576,370"/>
+            <zone xml:id="f17rop3_i_les1" points="3482,362 3450,437 3690,442 3695,377"/>
             <zone xml:id="f17rop3_i_s1" points="3470,474 3438,552 3484,540"/>
             <zone xml:id="f17rop3_i_s2" points="3636,496 3656,558 3676,550 3710,482"/>
             <zone xml:id="f17rop3_i_de_recomander" points="3034,675 3034,724 3700,762 3694,670"/>
             <zone xml:id="f17rop3_i_de_recommander" points="824,624 832,726 1526,692 1528,602"/>
             <zone xml:id="f17rop3_i_memorables" points="1816,584 1806,662 2262,650 2278,550"/>
             <zone xml:id="f17rop3_i_je_ne" points="3485,421 3466,472 3652,490 3648,424"/>
-            <zone xml:id="f17rop3_i_voy_come" points="3012,518 3000,558 3030,584 3660,568 3666,532"/>
+            <zone xml:id="f17rop3_i_voy_come" points="3012,518 3030,584 3660,568 3666,532"/>
             <zone xml:id="f17rop3_i_les_robe" points="3004,612 3012,674 3628,670 3576,624"/>
-            <zone xml:id="f17rop3_i_longue"
-                points="3004,716 3006,738 3012,788 3128,830 3352,778 3360,744"/>
+            <zone xml:id="f17rop3_i_longue" points="2998,708 2998,816 3344,802 3360,744"/>
             <zone xml:id="f17rop3_i_et_1" points="3392,408 3388,466 3452,478 3472,402"/>
             <zone xml:id="f17rop3_i_robes_longues" points="3331,463 3326,534 3684,548 3722,466"/>
             <zone xml:id="f17rop3_i_nont_moyen" points="3117,586 3112,615 3640,628 3650,570"/>
-            <zone xml:id="f17rop3_i_s3" points="1022,668 966,780 966,828 1008,824 1058,690"/>
-            <zone xml:id="f17rop3_i_s_esleuer" points="1336,696 1302,798 946,826 996,674 1104,686"/>
+            <zone xml:id="f17rop3_i_s3" points="1016,664 952,822 1008,824 1058,690"/>
+            <zone xml:id="f17rop3_i_s_esleuer" points="1336,696 1302,798 946,826 996,674"/>
+            <zone xml:id="f17rop3_i_mesprisent_guieres" points="2642,226 3026,502 3692,384 3676,192"
+            />
         </surface>
     </facsimile>
     <text>
