@@ -25,7 +25,7 @@
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>es festes <metamark function="insert" rend="unclear"
-                        target="#f19rop4_a_iour">/</metamark><add xml:id="f19rop4_a_iour"
+                        target="#f19rop4_a_iour">^</metamark><add xml:id="f19rop4_a_iour"
                             ><metamark>^</metamark><choice>
                             <orig>a</orig>
                             <reg>à</reg>
@@ -40,7 +40,7 @@
                         <del seq="2" xml:id="f19rop4_nous_lres">nous aprenions du lut lisions des
                             bones <choice>
                                 <abbr rend="overlined">lres</abbr>
-                                <expan>lettres</expan>
+                                <expan>letres</expan>
                             </choice>,</del>
                         <add>un peu de musique et de promenoir</add>
                     </subst><del seq="1"> et</del> quelquefois <add xml:id="f19rop4_nous"
@@ -70,10 +70,7 @@
                     </choice>on ne nous y <subst>
                         <del>laissoit aller</del>
                         <add>vouloit mener</add>
-                    </subst><choice>
-                        <orig/>
-                        <reg>.</reg>
-                    </choice><metamark function="insert"
+                    </subst><supplied>.</supplied><metamark function="insert"
                         target="#f19rop4_le_faber">+</metamark><add xml:id="f19rop4_le_faber"
                             ><metamark>+</metamark><choice>
                             <orig>l</orig>
@@ -95,10 +92,7 @@
                             <reg>v</reg>
                         </choice>ec nous <persName ref="https://isni.org/isni/000000011036923X"
                                 ><forename>Hadrianus</forename>
-                            <surname>Turnebus</surname></persName><choice>
-                                <orig/>
-                                <reg>,</reg>
-                            </choice>
+                            <surname>Turnebus</surname></persName><supplied>,</supplied>
                         <persName ref="https://isni.org/isni/0000000442462721"
                                 ><forename>Dionysius</forename>
                             <surname>Lambinus</surname></persName>, <persName

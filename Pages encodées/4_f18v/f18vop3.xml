@@ -132,9 +132,9 @@
                     </subst>
                     <subst>
                         <del seq="1">qui estoient</del>
-                        <del seq="2"><add seq="1"><gap quantity="3" unit="char"
-                                    /><unclear>aussy</unclear> comme</add></del>
-                        <add seq="2">chez</add>
+                        <del seq="2"><add seq="1"><unclear reason="deleted">ainsy</unclear> come</add></del>
+                        <add seq="2">vers</add>
+                        <add seq="3">chez</add>
                     </subst>
                     <persName ref="https://isni.org/isni/000000012099141X"
                             ><forename>Lazarius</forename>
@@ -157,7 +157,7 @@
                     <subst>
                         <del><del><gap quantity="2" reason="deleted" unit="word"/></del> nous
                             estions</del>
-                        <add>avec honneur, et progrez e<subst>
+                        <add>avec honeur, et progrez e<subst>
                                 <del rend="overwritten">n</del>
                                 <add place="superimposed">z</add>
                             </subst><choice>

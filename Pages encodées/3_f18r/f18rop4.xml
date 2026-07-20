@@ -85,20 +85,20 @@
                     <del>aux lois</del>
                     <add><subst>
                             <del>au temps de me sca<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>oir</del>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>oir</del>
                             <add>a tant que <choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>e me sceusse</add>
-                    </subst> go<choice>
-                       <orig>u</orig>
-                       <reg>v</reg>
-                    </choice>erner moy<choice>
-                            <abbr>mes<hi>e</hi></abbr>
-                            <expan>mesmes</expan>
-                        </choice></add>
+                        </subst> go<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>erner moy<choice>
+                            <orig/>
+                            <reg>-</reg>
+                        </choice>mesme</add>
                 </subst>, come il feit, car il a<choice>
                     <orig>u</orig>
                     <reg>v</reg>
@@ -112,10 +112,10 @@
                     <orig>i</orig>
                     <reg>j</reg>
                 </choice>ours <subst>
-                   <del>de<choice>
-                      <orig>u</orig>
-                      <reg>v</reg>
-                   </choice>ant moy autant qu</del>
+                    <del>de<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant moy autant qu</del>
                     <add>aussy a<choice>
                             <orig>u</orig>
                             <reg>v</reg>

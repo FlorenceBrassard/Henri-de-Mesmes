@@ -36,7 +36,10 @@
                 </subst>lectures <subst>
                     <del>en</del>
                     <add>du</add>
-                </subst> droict civil durant <del xml:id="xii_ou">xii ou</del> xv <metamark
+                </subst> droict ci<choice>
+                    <orig>u</orig>
+                    <reg>v</reg>
+                </choice>il durant <del xml:id="xii_ou">xii ou</del> xv <metamark
                     function="insert" target="#ou_xx" xml:id="metamark_3_1">^</metamark><add
                     xml:id="ou_xx">ou xx</add><substJoin target="#xii_ou #metamark_3_1 #ou_xx"/>
                 ans, <subst>

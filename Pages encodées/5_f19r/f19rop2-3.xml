@@ -46,7 +46,7 @@
                         <del>depuys</del>
                         <add>quelquefois</add>
                     </subst>
-                    <del cert="medium" rend="unmarked" xml:id="f19rop2_de_2">de</del>
+                    <del cert="high" rend="unmarked" xml:id="f19rop2_de_2">de</del>
                     <persName ref="https://isni.org/isni/0000000383074074"><choice>
                             <orig>d</orig>
                             <reg>D</reg>

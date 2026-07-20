@@ -67,8 +67,7 @@
                         </choice> 1568</date>.</s>
                 <s> Je fus<anchor xml:id="f23rop12_fus"/><subst>
                         <del>puys</del>
-                        <add><del><unclear cert="high" reason="illegible">et</unclear></del>
-                            quelques mois apres</add>
+                        <add><del>et</del> quelques mois apres</add>
                     </subst> despeché pour <choice>
                         <orig>v</orig>
                         <reg>u</reg>
@@ -101,8 +100,7 @@
                         <surname><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>
-                            </choice>ouchetel</surname></persName> et moy.</s>
-            </p>
+                            </choice>ouchetel</surname></persName> et moy.</s></p>
         </body>
     </text>
 </TEI>

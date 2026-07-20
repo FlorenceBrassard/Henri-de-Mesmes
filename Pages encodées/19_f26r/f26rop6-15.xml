@@ -67,7 +67,7 @@
                             <reg>z</reg>
                         </choice> moy</add>.</s>
                 <s><anchor xml:id="f26rop6-15_moy"/><addSpan spanTo="#f26rop6-15_stipulée"
-                        xml:id="f26rop6-15_Lors_stipulée"/><choice>
+                        xml:id="f26rop6-15_lors_stipulée"/><choice>
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>ors <choice>
@@ -119,8 +119,7 @@
                     </choice><del>la</del>moy <unclear cert="high" reason="margin">l</unclear>a <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ustice que <unclear cert="high" reason="margin">d</unclear>oit un
-                        <add>bon</add> Roy.</s><s><choice>
+                    </choice>ustice que doit un <add>bon</add> Roy.</s><s><choice>
                         <orig><unclear cert="high" reason="margin">s</unclear></orig>
                         <reg>S</reg>
                     </choice>y <choice>
@@ -166,7 +165,10 @@
                         <orig><unclear cert="high" reason="margin">i</unclear></orig>
                         <reg>j</reg>
                     </choice>ustifieray tout <unclear cert="high" reason="margin"
-                    >m</unclear>aintenant</s><choice><orig>.</orig><reg>,</reg> </choice><s> mais <choice>
+                    >m</unclear>aintenant</s><choice>
+                    <orig>.</orig>
+                    <reg>,</reg>
+                </choice><s> mais <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e vous prou<choice>
@@ -244,7 +246,7 @@
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
                     </choice>mise et stipulée.</s><anchor xml:id="f26rop6-15_stipulée"/><substJoin
-                    target="#f26rop6-15_ie_moy #f26rop6-15_Lors_stipulée #f26rop6-15_et_ce"
+                    target="#f26rop6-15_ie_moy #f26rop6-15_lors_stipulée #f26rop6-15_et_ce"
                         /><s><subst xml:id="f26rop6-15_et_ce">
                         <del><del><choice>
                                     <orig>e</orig>

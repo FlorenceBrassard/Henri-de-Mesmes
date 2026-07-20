@@ -21,35 +21,35 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><metamark function="structuring">•</metamark> <choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                    </choice>e cete faulse felicité que le<subst xml:id="f31vop1_monde_autres">
+                        <del> monde</del>
+                        <add>s autres</add>
+                    </subst>
+                    <add xml:id="f31vop1_vont">vont</add>
+                    <subst seq="2">
+                        <del rend="unmarked">ador<subst seq="1" xml:id="f31vop1_e_a">
+                                <del rend="overwritten">e</del>
+                                <add place="superimposed">a</add>
+                            </subst><add xml:id="f31vop1_ns">ns</add></del>
+                        <add>recerchans</add>
+                    </subst>
+                    <substJoin target="#f31vop1_monde_autres #f31vop1_vont #f31vop1_e_a #f31vop1_ns"/>
+                    <choice>
                         <orig>i</orig>
-                        <reg> J'</reg>
-                    </choice>aimerois mieulx grater la terre aux dens que d<choice>
+                        <reg>j</reg>
+                    </choice>e n<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>accepter l<choice>
+                    </choice>ay <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>amais affecté plus grand fruit que le mespris d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>office d<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>un <add>home</add> vi<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>an<unclear cert="high" reason="margin">t</unclear><unclear cert="medium" reason="margin">.</unclear><choice>
-                        <orig/>
-                        <reg> »</reg>
-                    </choice></s>
-                <s><choice>
-                        <orig>l</orig>
-                        <reg>L</reg>
-                    </choice> e <roleName ref="Q129857">Roy</roleName> excusa ceste liberté <add>de <choice>
-                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
-                            <expan>par</expan>
-                        </choice>ler</add> et la loua, et changea de <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                        <expan>con</expan>
-                    </choice>seil.</s></p>
+                    </choice>icelle.</s></ab>
         </body>
     </text>
 </TEI>

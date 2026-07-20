@@ -69,17 +69,20 @@
                         </choice>e pas que les esprits norrys en un <choice>
                             <orig>R</orig>
                             <reg>r</reg>
-                        </choice>oyaume <unclear reason="deleted"
-                            ><del><metamark>+</metamark></del></unclear>, mesmement en robe longue,
-                        se puissent guiere</del>
+                        </choice>oyaume <unclear cert="medium" reason="deleted"
+                                    ><del><metamark>+</metamark></del></unclear>, mesmement en robe
+                        longue, se puissent guiere</del>
                     <del facs="#f17rop3_i_et_guiere" xml:id="f17rop3_et_guiere_del"><add
                             xml:id="f17rop3_et_guiere_add">et ceulx qui ont les armes en <placeName
                                 ref="Q142"><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
-                                </choice>rance</placeName>, n'escrivent guiere</add></del><add
-                        facs="#f17rop3_i_en_guieres" xml:id="f17rop3_en_guieres">En <placeName
-                            ref="Q142"><choice>
+                                </choice>rance</placeName>, <metamark function="insert"
+                                target="f17rop3_et_guiere_add">+</metamark> n'escri<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ent guiere</add></del><add facs="#f17rop3_i_en_guieres"
+                        xml:id="f17rop3_en_guieres">En <placeName ref="Q142"><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rance</placeName> ceulx qui <subst>
@@ -90,7 +93,10 @@
                             et n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>escrivent guieres.</del></add>
+                            </choice>escri<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ent guieres.</del></add>
                     <add facs="#f17rop3_i_nusent_chapeaus" xml:id="f17rop3_nusent_chapeaus">n<choice>
                             <orig/>
                             <reg>'</reg>

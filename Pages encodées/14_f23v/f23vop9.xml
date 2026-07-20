@@ -63,8 +63,10 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>autre <subst>
-                        <del><add>en p<unclear cert="low" reason="illegible">l</unclear>r <unclear
-                                    cert="low" reason="illegible">tem</unclear>s</add></del>
+                        <del><add>en p<unclear cert="low" reason="illegible">l</unclear>s <choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>ours</add></del>
                         <add><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
@@ -115,7 +117,7 @@
                     </subst> que ce me seroit sy vous mourries sens <subst>
                         <del>ceste merque</del>
                         <add>en estre</add>
-                    </subst><unclear cert="high" reason="margin">.</unclear><choice>
+                    </subst>.<choice>
                         <orig/>
                         <reg> »</reg>
                     </choice>
