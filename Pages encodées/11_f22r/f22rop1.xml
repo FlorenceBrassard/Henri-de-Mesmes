@@ -44,10 +44,10 @@
                         <del>lors</del> ne<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>eu du <persName><rolename><choice>
+                        </choice>eu du <persName><roleName><choice>
                                     <abbr>Card<hi rend="superscript">al</hi></abbr>
                                     <expan>cardinal</expan>
-                                </choice></rolename>
+                                </choice></roleName>
                             <nameLink>de</nameLink><surname>Tournon</surname></persName>, qu<subst
                             xml:id="f22rop1_i_o">
                             <del rend="overwritten">i</del>
@@ -55,12 +55,12 @@
                                     <abbr rend="overlined">o</abbr>
                                     <expan>'on</expan>
                                 </choice></add>
-                            <subst xml:id="f22rop1_est_nome">
-                                <del>est</del>
-                                <add>nome</add>
-                            </subst>
-                            <substJoin target="#f22rop1_i_o #f22rop1_est_nome"/>
-                        </subst> au<choice>
+                        </subst>
+                        <subst xml:id="f22rop1_est_nome">
+                            <del>est</del>
+                            <add>nome</add>
+                        </subst>
+                        <substJoin target="#f22rop1_i_o #f22rop1_est_nome"/> au<choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>ourduy le

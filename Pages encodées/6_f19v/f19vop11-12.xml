@@ -21,8 +21,8 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><undo target="#f19vop11_et_comptes"/>
-                    <del xml:id="f19vop11_et_comptes"><choice>
+            <p><undo target="#f19vop11_et_de"/><del xml:id="f19vop11_et_de"><s>
+                    <choice>
                             <orig>e</orig>
                             <reg>E</reg>
                         </choice>t le <date>V<hi rend="superscript">e</hi>
@@ -73,9 +73,15 @@
                         </choice> des <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>com</expan>
-                        </choice>ptes.</del>
-                <metamark function="undo" target="f19vop10.xml f19vop11.xml f19vop12.xml"
-                    >bon</metamark></s></p>
+                        </choice>ptes<choice><orig>.</orig><reg>,</reg></choice></s><s><choice>
+                                <orig>h</orig>
+                                <reg>H</reg>
+                        </choice>ome de singuliere probité <subst>
+                            <del>, et de</del>
+                            <add>.</add>
+                        </subst></s></del>
+                <metamark function="undo" target="f19vop10.xml f19vop11-12.xml"
+                    >bon</metamark></p>
         </body>
     </text>
 </TEI>

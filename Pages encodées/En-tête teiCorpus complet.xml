@@ -458,12 +458,10 @@
          </surface>
       </facsimile>
       <xi:include href="5_f19r/f19rop1.xml"/>
-      <xi:include href="5_f19r/f19rop2.xml"/>
-      <xi:include href="5_f19r/f19rop3.xml"/>
+      <xi:include href="5_f19r/f19rop2-3.xml"/>
       <xi:include href="5_f19r/f19rop4.xml"/>
-      <xi:include href="5_f19r/f19rop5-6.xml"/>
-      <xi:include href="5_f19r/f19rop7.xml"/>
-      <xi:include href="5_f19r/f19rop8.xml"/>
+      <xi:include href="5_f19r/f19rop5.xml"/>
+      <xi:include href="5_f19r/f19rop6-7-8.xml"/>
       <xi:include href="5_f19r/f19rop9.xml"/>
    </TEI>
    <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -501,8 +499,7 @@
       <xi:include href="6_f19v/f19vop8.xml"/>
       <xi:include href="6_f19v/f19vop9.xml"/>
       <xi:include href="6_f19v/f19vop10.xml"/>
-      <xi:include href="6_f19v/f19vop11.xml"/>
-      <xi:include href="6_f19v/f19vop12.xml"/>
+      <xi:include href="6_f19v/f19vop11-12.xml"/>
    </TEI>
    <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
@@ -664,9 +661,8 @@
       <xi:include href="11_f22r/f22rop1.xml"/>
       <xi:include href="11_f22r/f22rop2.xml"/>
       <xi:include href="11_f22r/f22rop3-4.xml"/>
-      <xi:include href="11_f22r/f22rop5-6.xml"/>
+      <xi:include href="11_f22r/f22rop5-6-7.xml"/>
       <!--      VÉRIFIER si on garde 5-6, 7 ou si on devrait plutôt mettre 5-6-7-->
-      <xi:include href="11_f22r/f22rop7.xml"/>
       <xi:include href="11_f22r/f22rop8-9.xml"/>
       <xi:include href="11_f22r/f22rop10-11.xml"/>
    </TEI>
