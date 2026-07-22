@@ -47,9 +47,9 @@
          <ab><s><choice>
                   <orig>V</orig>
                   <reg>U</reg>
-               </choice>n temps fut que les <del facs="#f17r1_i_honestes"
-                  xml:id="f17r1_honestes">honestes</del> homes <metamark function="insert"
-                  target="#f17r1_de_valeur" xml:id="f17r1_metamark_1">^</metamark>
+               </choice>n temps fut que les <del facs="#f17r1_i_honestes" xml:id="f17r1_honestes"
+                  >honestes</del> homes <metamark function="insert" target="#f17r1_de_valeur"
+                  xml:id="f17r1_metamark_1">^</metamark>
                <add facs="#f17r1_i_de_valeur" xml:id="f17r1_de_valeur"><metamark>^</metamark>de
                   valeur</add>
                <substJoin target="#f17r1_honestes #f17r1_metamark_1 #f17r1_de_valeur"/> escri<choice>
@@ -68,8 +68,8 @@
                   <orig>u</orig>
                   <reg>v</reg>
                </choice>oient aimez <del rend="unmarked" xml:id="f17r1_deux_points">:</del>
-               <del facs="#f17r1_i_et_ont #f17r1_i_composé_prre" xml:id="f17r1_et_prre">et
-                  aucuns ont composé la leur prre</del>. <substJoin
+               <del facs="#f17r1_i_et_ont #f17r1_i_composé_prre" xml:id="f17r1_et_prre">et aucuns
+                  ont composé la leur prre</del>. <substJoin
                   target="#f17r1_la_leurs #f17r1_s_1 #ou #f17r1_metamark_2 #f17r1_et_prre #f17r1_deux_points"/>
                <choice>
                   <orig>c</orig>
@@ -83,8 +83,9 @@
                <subst facs="#f17r1_i_louanges_remerque" xml:id="f17r1_louanges_remerque">
                   <del>louange<add facs="#f17r1_i_s4" xml:id="f17r1_s_4">s</add></del>
                   <add>remerque</add>
-               </subst><add facs="#f17r1_i_s5" xml:id="f17r1_s_5">s</add> de <del
-                  facs="#f17r1_i_s6" xml:id="f17r1_s_6">s</del>
+               </subst><add facs="#f17r1_i_s5" xml:id="f17r1_s_5">s</add><note resp="AV"
+                  type="vocabulaire">Mises en valeur</note> de <del facs="#f17r1_i_s6"
+                  xml:id="f17r1_s_6">s</del>
                <add xml:id="f17r1_s_7">s</add>
                <subst facs="#f17r1_i_vertueuses_belles" xml:id="f17r1_vertueuses_belles">
                   <del>vertueuses</del>
@@ -92,42 +93,42 @@
                </subst>
                <substJoin seq="1"
                   target="#f17r1_en #f17r1_s_2 #s_6 #f17r1_louanges_remerque #f17r1_vertueuses_belles"/>
-               <substJoin seq="2" target="#f17r1_t_ent #f17r1_s_3 #f17r1_s_5 #f17r1_s_7"/>
-               actions : et apres eulx, enseignemens pour bien faire<note resp="AV"
-                  type="commentaire">Henri de Mesmes établit une équivalence entre récit de soi et
-                  biographie, pratiques qui toutes deux s’inscrivent dans le cadre d’une conception
-                  de l’histoire comme « maîtresse de vie » (historia magistra vitae) (Cicéron, De
-                  oratore, II, 9, 36). Héritée de l’Antiquité, celle-ci est particulièrement
-                  centrale à l’époque moderne pour conférer à l’histoire une fonction morale et en
-                  fonder la légitimité sociale (Couzinet, 2007 ; Guion, 2008). Le temps révolu
-                  paraît renvoyer aux guerres d’Italie, qui font l’objet de récit de vie héroïque
-                  dans lesquels les membres de la noblesse – et avant tout de la noblesse d’épée –
-                  forge leur identité (Kuperty-Tsur, 1991 ; Harari, 2004), à l’instar de Robert de
-                  La Marck, maréchal de Florange, ou des Du Bellay (Piettre, 2017).</note>.</s>
+               <substJoin seq="2" target="#f17r1_t_ent #f17r1_s_3 #f17r1_s_5 #f17r1_s_7"/> actions :
+               et apres eulx, enseignemens pour bien faire<note resp="AV" type="commentaire">Henri
+                  de Mesmes établit une équivalence entre récit de soi et biographie, pratiques qui
+                  toutes deux s’inscrivent dans le cadre d’une conception de l’histoire comme «
+                  maîtresse de vie » (historia magistra vitae) (Cicéron, De oratore, II, 9, 36).
+                  Héritée de l’Antiquité, celle-ci est particulièrement centrale à l’époque moderne
+                  pour conférer à l’histoire une fonction morale et en fonder la légitimité sociale
+                  (Couzinet, 2007 ; Guion, 2008). Le temps révolu paraît renvoyer aux guerres
+                  d’Italie, qui font l’objet de récit de vie héroïque dans lesquels les membres de
+                  la noblesse – et avant tout de la noblesse d’épée – forge leur identité
+                  (Kuperty-Tsur, 1991 ; Harari, 2004), à l’instar de Robert de La Marck, maréchal de
+                  Florange, ou des Du Bellay (Piettre, 2017).</note>.</s>
             <note resp="AV" type="génétique">La première version dissocie la rédaction d’une
                biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi (« la
-               leur prre »). La première pratique serait motivée par un lien affectif (« ceux
-               quilz avoient aimez ») plutôt que par la seule appartenance familiale. Elle semble à
-               la fois fréquente, aisée et plaisante (« volontiers »). La seconde paraît plus rare
-               (« aucuns ont… », soit « quelques-uns »). De fait, il est socialement moins bien
-               admis de se célébrer soi-même que de vanter les mérites d’un aïeul admiré. Cette
-               dernière pratique est même cruciale dans la construction d’une identité nobiliaire.
-               Dans les deux cas néanmoins, les scripteurs partagent des qualités morales («
-               honestes homes ») et une même visée : l’exemplarité. <lb/> La seconde version
-               rapproche ces deux pratiques en une formule (« leurs vies ou de ceulx… »), placées
-               sous l’égide de l’adverbe « volontiers ». La pratique d’écriture de soi devient par
-               ailleurs première. Plusieurs modifications de vocabulaire sont opérées : dans la
-               première prosition, « honeste » est remplacé par « de valeur » ; dans la
-               prosition centrale (« c’estoit au moins… »), « louanges » devient « remerque », «
-               vertueuses » devient « belles ». La première substitution déplace la qualité des
-               scripteurs de l’« honnêteté » vers la « valeur » : ce dernier terme, a priori plus
-               polysémique, renvoie, quand il qualifie une personne, au grand mérite et à une
-               condition sociale élevée, parfois aussi à la vaillance. La seconde substitution
-               provoque une forme de neutralisation axiologique des textes envisagés, de l’éloge au
-               constat ; néanmoins, ce qui est « digne de remarques » est implicitement remarquable.
-               La troisième substitution, enfin, comme la première, efface la prédominance de la
-               qualité morale (honnêteté, vertu) au profit d’une mise en valeur plus abstraite («
-               belles », au sens de satisfaisantes, admirables).</note></ab>
+               leur prre »). La première pratique serait motivée par un lien affectif (« ceux quilz
+               avoient aimez ») plutôt que par la seule appartenance familiale. Elle semble à la
+               fois fréquente, aisée et plaisante (« volontiers »). La seconde paraît plus rare («
+               aucuns ont… », soit « quelques-uns »). De fait, il est socialement moins bien admis
+               de se célébrer soi-même que de vanter les mérites d’un aïeul admiré. Cette dernière
+               pratique est même cruciale dans la construction d’une identité nobiliaire. Dans les
+               deux cas néanmoins, les scripteurs partagent des qualités morales (« honestes homes
+               ») et une même visée : l’exemplarité. <lb/> La seconde version rapproche ces deux
+               pratiques en une formule (« leurs vies ou de ceulx… »), placées sous l’égide de
+               l’adverbe « volontiers ». La pratique d’écriture de soi devient par ailleurs
+               première. Plusieurs modifications de vocabulaire sont opérées : dans la première
+               prosition, « honeste » est remplacé par « de valeur » ; dans la prosition centrale («
+               c’estoit au moins… »), « louanges » devient « remerque », « vertueuses » devient «
+               belles ». La première substitution déplace la qualité des scripteurs de l’« honnêteté
+               » vers la « valeur » : ce dernier terme, a priori plus polysémique, renvoie, quand il
+               qualifie une personne, au grand mérite et à une condition sociale élevée, parfois
+               aussi à la vaillance. La seconde substitution provoque une forme de neutralisation
+               axiologique des textes envisagés, de l’éloge au constat ; néanmoins, ce qui est «
+               digne de remarques » est implicitement remarquable. La troisième substitution, enfin,
+               comme la première, efface la prédominance de la qualité morale (honnêteté, vertu) au
+               profit d’une mise en valeur plus abstraite (« belles », au sens de satisfaisantes,
+               admirables).</note></ab>
          <p/>
       </body>
    </text>
