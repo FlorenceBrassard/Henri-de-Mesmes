@@ -23,33 +23,33 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/89,1127,3702,1067/full/0/default.jpg"/>
-            <zone xml:id="f17r2_i_en_france" lry="164" lrx="2528" uly="40" ulx="2048"/>
-            <zone xml:id="f17r2_i_et_guiere" lry="678" lrx="644" uly="366" ulx="110"/>
-            <zone xml:id="f17r2_i_en_guieres" points="1322,266 1292,348 3667,487 3692,182"/>
-            <zone xml:id="f17r2_i_nusent_chapeaus" points="732,464 688,582 2766,446 2746,358"/>
-            <zone xml:id="f17r2_i_ceux" points="3052,480 3056,520 3332,526 3324,480"/>
-            <zone xml:id="f17r2_i_les1" points="3482,362 3450,437 3690,442 3695,377"/>
-            <zone xml:id="f17r2_i_s1" points="3470,474 3438,552 3484,540"/>
-            <zone xml:id="f17r2_i_s2" points="3636,496 3656,558 3676,550 3710,482"/>
-            <zone xml:id="f17r2_i_de_recomander" points="3034,675 3034,724 3700,762 3694,670"/>
-            <zone xml:id="f17r2_i_de_recommander" points="824,624 832,726 1526,692 1528,602"/>
-            <zone xml:id="f17r2_i_memorables" points="1816,584 1806,662 2262,650 2278,550"/>
-            <zone xml:id="f17r2_i_je_ne" points="3485,421 3466,472 3652,490 3648,424"/>
-            <zone xml:id="f17r2_i_voy_come" points="3012,518 3030,584 3660,568 3666,532"/>
-            <zone xml:id="f17r2_i_les_robe" points="3004,612 3012,674 3628,670 3576,624"/>
-            <zone xml:id="f17r2_i_longue" points="2998,708 2998,816 3344,802 3360,744"/>
-            <zone xml:id="f17r2_i_et_1" points="3392,408 3388,466 3452,478 3472,402"/>
-            <zone xml:id="f17r2_i_robes_longues" points="3331,463 3326,534 3684,548 3722,466"/>
-            <zone xml:id="f17r2_i_nont_moyen" points="3117,586 3112,615 3640,628 3650,570"/>
-            <zone xml:id="f17r2_i_s3" points="1016,664 952,822 1008,824 1058,690"/>
-            <zone xml:id="f17r2_i_s_esleuer" points="1336,696 1302,798 946,826 996,674"/>
-            <zone xml:id="f17r2_i_mesprisent_guieres" points="2642,226 3026,502 3692,384 3676,192"
+            <zone xml:id="f17r02_i_en_france" lry="164" lrx="2528" uly="40" ulx="2048"/>
+            <zone xml:id="f17r02_i_et_guiere" lry="678" lrx="644" uly="366" ulx="110"/>
+            <zone xml:id="f17r02_i_en_guieres" points="1322,266 1292,348 3667,487 3692,182"/>
+            <zone xml:id="f17r02_i_nusent_chapeaus" points="732,464 688,582 2766,446 2746,358"/>
+            <zone xml:id="f17r02_i_ceux" points="3052,480 3056,520 3332,526 3324,480"/>
+            <zone xml:id="f17r02_i_les1" points="3482,362 3450,437 3690,442 3695,377"/>
+            <zone xml:id="f17r02_i_s1" points="3470,474 3438,552 3484,540"/>
+            <zone xml:id="f17r02_i_s2" points="3636,496 3656,558 3676,550 3710,482"/>
+            <zone xml:id="f17r02_i_de_recomander" points="3034,675 3034,724 3700,762 3694,670"/>
+            <zone xml:id="f17r02_i_de_recommander" points="824,624 832,726 1526,692 1528,602"/>
+            <zone xml:id="f17r02_i_memorables" points="1816,584 1806,662 2262,650 2278,550"/>
+            <zone xml:id="f17r02_i_je_ne" points="3485,421 3466,472 3652,490 3648,424"/>
+            <zone xml:id="f17r02_i_voy_come" points="3012,518 3030,584 3660,568 3666,532"/>
+            <zone xml:id="f17r02_i_les_robe" points="3004,612 3012,674 3628,670 3576,624"/>
+            <zone xml:id="f17r02_i_longue" points="2998,708 2998,816 3344,802 3360,744"/>
+            <zone xml:id="f17r02_i_et_1" points="3392,408 3388,466 3452,478 3472,402"/>
+            <zone xml:id="f17r02_i_robes_longues" points="3331,463 3326,534 3684,548 3722,466"/>
+            <zone xml:id="f17r02_i_nont_moyen" points="3117,586 3112,615 3640,628 3650,570"/>
+            <zone xml:id="f17r02_i_s3" points="1016,664 952,822 1008,824 1058,690"/>
+            <zone xml:id="f17r02_i_s_esleuer" points="1336,696 1302,798 946,826 996,674"/>
+            <zone xml:id="f17r02_i_mesprisent_guieres" points="2642,226 3026,502 3692,384 3676,192"
             />
         </surface>
     </facsimile>
     <text>
         <body>
-            <ab><s><del facs="#f17r2_i_en_france" xml:id="f17r2_en_france"><add>en <placeName
+            <ab><s><del facs="#f17r02_i_en_france" xml:id="f17r02_en_france"><add>en <placeName
                                 ref="Q142"><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
@@ -70,24 +70,24 @@
                         </choice>oyaume <unclear cert="medium" reason="deleted"
                                     ><del><metamark>+</metamark></del></unclear>, mesmement en robe
                         longue, se puissent guiere</del>
-                    <del facs="#f17r2_i_et_guiere" xml:id="f17r2_et_guiere_del"><add
-                            xml:id="f17r2_et_guiere_add">et ceulx qui ont les armes en <placeName
+                    <del facs="#f17r02_i_et_guiere" xml:id="f17r02_et_guiere_del"><add
+                            xml:id="f17r02_et_guiere_add">et ceulx qui ont les armes en <placeName
                                 ref="Q142"><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>rance</placeName>, <metamark function="insert"
-                                target="f17r2_et_guiere_add">+</metamark> n'escri<choice>
+                                target="f17r02_et_guiere_add">+</metamark> n'escri<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>ent guiere</add></del><add facs="#f17r2_i_en_guieres"
-                        xml:id="f17r2_en_guieres">En <placeName ref="Q142"><choice>
+                            </choice>ent guiere</add></del><add facs="#f17r02_i_en_guieres"
+                        xml:id="f17r02_en_guieres">En <placeName ref="Q142"><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rance</placeName> ceulx qui <subst>
                             <del>manient</del>
                             <add>ont</add>
-                        </subst> les armes, <del facs="#f17r2_i_mesprisent_guieres"
-                            xml:id="f17r2_mesprisent_guieres">mesprisent presque touts les letres,
+                        </subst> les armes, <del facs="#f17r02_i_mesprisent_guieres"
+                            xml:id="f17r02_mesprisent_guieres">mesprisent presque touts les letres,
                             et n<choice>
                                 <orig/>
                                 <reg>'</reg>
@@ -95,52 +95,52 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ent guieres.</del></add>
-                    <add facs="#f17r2_i_nusent_chapeaus" xml:id="f17r2_nusent_chapeaus">n<choice>
+                    <add facs="#f17r02_i_nusent_chapeaus" xml:id="f17r02_nusent_chapeaus">n<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>usent guiere de plumes qu'<choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice>leurs chapeaus</add>
-                    <substJoin seq="1" target="#f17r2_en_france #f17r2_et_guiere_add"/>
-                    <substJoin seq="2" target="#f17r2_et_guiere_del #f17r2_en_guieres"/>
-                    <substJoin seq="3" target="#f17r2_mesprisent_guieres #f17r2_nusent_chapeaus"
+                    <substJoin seq="01" target="#f17r02_en_france #f17r02_et_guiere_add"/>
+                    <substJoin seq="02" target="#f17r02_et_guiere_del #f17r02_en_guieres"/>
+                    <substJoin seq="03" target="#f17r02_mesprisent_guieres #f17r02_nusent_chapeaus"
                     /> et <subst>
-                        <del facs="#f17r2_i_je_ne #f17r2_i_voy_come #f17r2_i_les_robe"><add
-                                seq="1" xml:id="f17r2_ie_longue"><choice>
+                        <del facs="#f17r02_i_je_ne #f17r02_i_voy_come #f17r02_i_les_robe"><add
+                                seq="01" xml:id="f17r02_ie_longue"><choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
-                                </choice>e ne voy pas <add seq="2" xml:id="f17r2_come">come</add>
+                                </choice>e ne voy pas <add seq="02" xml:id="f17r02_come">come</add>
                                 les gens de robe longue</add></del>
                         <add
-                            facs=" #f17r2_i_ceux #f17r2_i_robes_longues #f17r2_i_nont_moyen #f17r2_i_de_recomander"
-                            xml:id="f17r2_ceulx_recõmander" seq="3">
-                            <subst xml:id="f17r2_ceulx_les">
-                                <del facs="#f17r2_i_ceux">ceulx de</del>
-                                <add facs="#f17r2_i_les1">les</add>
-                            </subst> robe<add facs="#f17r2_i_s1" xml:id="f17r2_s_1">s</add>
-                                longue<add facs="#f17r2_i_s2" xml:id="f17r2_s_2">s</add>n<choice>
+                            facs=" #f17r02_i_ceux #f17r02_i_robes_longues #f17r02_i_nont_moyen #f17r02_i_de_recomander"
+                            xml:id="f17r02_ceulx_recõmander" seq="3">
+                            <subst xml:id="f17r02_ceulx_les">
+                                <del facs="#f17r02_i_ceux">ceulx de</del>
+                                <add facs="#f17r02_i_les1">les</add>
+                            </subst> robe<add facs="#f17r02_i_s1" xml:id="f17r02_s_01">s</add>
+                                longue<add facs="#f17r02_i_s2" xml:id="f17r02_s_02">s</add>n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>ont pas moien <del facs="#f17r2_i_de_recomander"
-                                xml:id="f17r2_de_recõmander_del">de se rec<choice>
+                            </choice>ont pas moien <del facs="#f17r02_i_de_recomander"
+                                xml:id="f17r02_de_recõmander_del">de se rec<choice>
                                     <abbr>õ</abbr>
                                     <expan>om</expan>
                                 </choice>mander</del></add>
                     </subst>
-                    <substJoin target="#f17r2_ceulx_les #f17r2_s_1 #f17r2_s_2"/>
-                    <del facs=" #f17r2_i_s_esleuer" xml:id="f17r2_s_eslever"><add
-                            facs="#f17r2_i_s3" seq="2" xml:id="f17r2_s_3">s'</add>eslever</del>
-                    <substJoin seq="4" target="#f17r2_ie_longue #f17r2_s_3"/>
+                    <substJoin target="#f17r02_ceulx_les #f17r02_s_01 #f17r02_s_02"/>
+                    <del facs=" #f17r02_i_s_esleuer" xml:id="f17r02_s_eslever"><add
+                            facs="#f17r02_i_s3" seq="02" xml:id="f17r02_s_03">s'</add>eslever</del>
+                    <substJoin seq="4" target="#f17r02_ie_longue #f17r02_s_03"/>
                     <substJoin seq="5"
-                        target=" #f17r2_ceulx_recõmander #f17r2_s_eslever #f17r2_recommandables_memorables"/>
-                    <substJoin seq="6"
-                        target="#f17r2_de_recõmander_del #f17r2_de_recommander_add"/>
-                    <add facs="#f17r2_i_de_recommander" xml:id="f17r2_de_recommander_add">de se
+                        target=" #f17r02_ceulx_recõmander #f17r02_s_eslever #f17r02_recommandables_memorables"/>
+                    <substJoin seq="06"
+                        target="#f17r02_de_recõmander_del #f17r02_de_recommander_add"/>
+                    <add facs="#f17r02_i_de_recommander" xml:id="f17r02_de_recommander_add">de se
                         recommander</add> par faicts <subst
-                        xml:id="f17r2_recommandables_memorables">
+                        xml:id="f17r02_recommandables_memorables">
                         <del>recommandables</del>
-                        <add facs="#f17r2_i_memorables">memorables</add>
+                        <add facs="#f17r02_i_memorables">memorables</add>
                     </subst>.</s>
             </ab>
         </body>

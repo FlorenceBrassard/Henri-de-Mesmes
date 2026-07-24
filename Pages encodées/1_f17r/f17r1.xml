@@ -23,23 +23,23 @@
       <surface>
          <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/199,369,3562,1115/full/0/default.jpg"/>
-         <zone xml:id="f17r1_i_honestes" points="1519,205 1529,325 1922,300 1906,150"/>
-         <zone xml:id="f17r1_i_de_valeur" points="2046,156 2156,363 2490,160 2246,103"/>
-         <zone xml:id="f17r1_i__la_leurs" points="573,320 547,514 699,500 769,321"/>
-         <zone xml:id="f17r1_i_ou" points="829,501 851,517 885,430 904,376 839,382"/>
-         <zone xml:id="f17r1_i_et_ont" points="2128,388 2115,455 2826,460 2833,376"/>
-         <zone xml:id="f17r1_i_composé_prre" points="538,621 531,691 1582,672 1557,550"/>
-         <zone xml:id="f17r1_i_en" points="1945,557 1905,685 2022,687 2050,555"/>
-         <zone xml:id="f17r1_i_s2" points="2712,702 2772,717 2837,502 2802,520"/>
-         <zone xml:id="f17r1_i_louanges_remerque" points="548,746 508,906 955,903 1100,676"/>
-         <zone xml:id="f17r1_i_s6" points="1097,760 1087,880 1145,865 1143,766"/>
-         <zone xml:id="f17r1_i_vertueuses_belles" points="1162,677 1175,862 1680,852 1692,657"/>
-         <zone xml:id="f17r1_i_s1" points="845,415 872,425 825,527 772,515"/>
-         <zone xml:id="f17r1_i_s3" points="2803,652 2870,657 2865,557 2808,545"/>
-         <zone xml:id="f17r1_i_s4" points="900,882 986,880 980,770 926,759"/>
-         <zone xml:id="f17r1_i_s7" points="1095,695 1141,695 1147,770 1082,752"/>
-         <zone xml:id="f17r1_i_t_ent" points="1913,513 2006,566 2080,655 2127,482"/>
-         <zone xml:id="f17r1_i_s5" points="1007,692 972,775 1010,830 1070,702"/>
+         <zone xml:id="f17r01_i_honestes" points="1519,205 1529,325 1922,300 1906,150"/>
+         <zone xml:id="f17r01_i_de_valeur" points="2046,156 2156,363 2490,160 2246,103"/>
+         <zone xml:id="f17r01_i__la_leurs" points="573,320 547,514 699,500 769,321"/>
+         <zone xml:id="f17r01_i_ou" points="829,501 851,517 885,430 904,376 839,382"/>
+         <zone xml:id="f17r01_i_et_ont" points="2128,388 2115,455 2826,460 2833,376"/>
+         <zone xml:id="f17r01_i_composé_prre" points="538,621 531,691 1582,672 1557,550"/>
+         <zone xml:id="f17r01_i_en" points="1945,557 1905,685 2022,687 2050,555"/>
+         <zone xml:id="f17r01_i_s2" points="2712,702 2772,717 2837,502 2802,520"/>
+         <zone xml:id="f17r01_i_louanges_remerque" points="548,746 508,906 955,903 1100,676"/>
+         <zone xml:id="f17r01_i_s6" points="1097,760 1087,880 1145,865 1143,766"/>
+         <zone xml:id="f17r01_i_vertueuses_belles" points="1162,677 1175,862 1680,852 1692,657"/>
+         <zone xml:id="f17r01_i_s1" points="845,415 872,425 825,527 772,515"/>
+         <zone xml:id="f17r01_i_s3" points="2803,652 2870,657 2865,557 2808,545"/>
+         <zone xml:id="f17r01_i_s4" points="900,882 986,880 980,770 926,759"/>
+         <zone xml:id="f17r01_i_s7" points="1095,695 1141,695 1147,770 1082,752"/>
+         <zone xml:id="f17r01_i_t_ent" points="1913,513 2006,566 2080,655 2127,482"/>
+         <zone xml:id="f17r01_i_s5" points="1007,692 972,775 1010,830 1070,702"/>
       </surface>
    </facsimile>
    <text>
@@ -47,64 +47,64 @@
          <ab><s><choice>
                   <orig>V</orig>
                   <reg>U</reg>
-               </choice>n temps fut que les <del facs="#f17r1_i_honestes" xml:id="f17r1_honestes"
-                  >honestes</del> homes <metamark function="insert" target="#f17r1_de_valeur"
-                  xml:id="f17r1_metamark_1">^</metamark>
-               <add facs="#f17r1_i_de_valeur" xml:id="f17r1_de_valeur"><metamark>^</metamark>de
+               </choice>n temps fut que les <del facs="#f17r01_i_honestes" xml:id="f17r01_honestes"
+                  >honestes</del> homes <metamark function="insert" target="#f17r01_de_valeur"
+                  xml:id="f17r01_metamark_01">^</metamark>
+               <add facs="#f17r01_i_de_valeur" xml:id="f17r01_de_valeur"><metamark>^</metamark>de
                   valeur</add>
-               <substJoin target="#f17r1_honestes #f17r1_metamark_1 #f17r1_de_valeur"/> escri<choice>
+               <substJoin target="#f17r01_honestes #f17r01_metamark_01 #f17r01_de_valeur"/> escri<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oient volontiers <subst facs="#f17r1_i_la_leurs" xml:id="f17r1_la_leurs">
+               </choice>oient volontiers <subst facs="#f17r01_i_la_leurs" xml:id="f17r01_la_leurs">
                   <del>la</del>
                   <add>leurs</add>
-               </subst> vie<add facs="#f17r1_i_s1" xml:id="f17r1_s_1">s</add>
-               <metamark function="insert" target="#f17r1_ou" xml:id="f17r1_metamark_2"
-                  >^</metamark><add facs="#f17r1_i_ou" xml:id="f17r1_ou">ou</add> de ceulx<note
+               </subst> vie<add facs="#f17r01_i_s1" xml:id="f17r01_s_01">s</add>
+               <metamark function="insert" target="#f17r01_ou" xml:id="f17r01_metamark_02"
+                  >^</metamark><add facs="#f17r01_i_ou" xml:id="f17r01_ou">ou</add> de ceulx<note
                   resp="AV" type="vocabulaire">Du celle de ceux</note> qu<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>ilz a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oient aimez <del rend="unmarked" xml:id="f17r1_deux_points">:</del>
-               <del facs="#f17r1_i_et_ont #f17r1_i_composé_prre" xml:id="f17r1_et_prre">et aucuns
+               </choice>oient aimez <del rend="unmarked" xml:id="f17r01_deux_points">:</del>
+               <del facs="#f17r01_i_et_ont #f17r01_i_composé_prre" xml:id="f17r01_et_prre">et aucuns
                   ont composé la leur prre</del>. <substJoin
-                  target="#f17r1_la_leurs #f17r1_s_1 #ou #f17r1_metamark_2 #f17r1_et_prre #f17r1_deux_points"/>
+                  target="#f17r01_la_leurs #f17r01_s_01 #ou #f17r01_metamark_02 #f17r01_et_prre #f17r01_deux_points"/>
                <choice>
                   <orig>c</orig>
                   <reg>C</reg>
-               </choice>'estoi<del facs="#f17r1_i_en" xml:id="f17r1_en">en</del>
-               <subst facs="#f17r1_i_t_ent" xml:id="f17r1_t_ent">
+               </choice>'estoi<del facs="#f17r01_i_en" xml:id="f17r01_en">en</del>
+               <subst facs="#f17r01_i_t_ent" xml:id="f17r01_t_ent">
                   <del rend="unmarked">t</del>
                   <add>ent</add>
-               </subst> au moins quelque<del facs="#f17r1_i_s2" xml:id="f17r1_s_2">s</del>
-               <add facs="#f17r1_i_s3" xml:id="f17r1_s_3">s</add>
-               <subst facs="#f17r1_i_louanges_remerque" xml:id="f17r1_louanges_remerque">
-                  <del>louange<add facs="#f17r1_i_s4" xml:id="f17r1_s_4">s</add></del>
+               </subst> au moins quelque<del facs="#f17r01_i_s2" xml:id="f17r01_s_02">s</del>
+               <add facs="#f17r01_i_s3" xml:id="f17r01_s_03">s</add>
+               <subst facs="#f17r01_i_louanges_remerque" xml:id="f17r01_louanges_remerque">
+                  <del>louange<add facs="#f17r01_i_s4" xml:id="f17r01_s_04">s</add></del>
                   <add>remerque</add>
-               </subst><add facs="#f17r1_i_s5" xml:id="f17r1_s_5">s</add><note resp="AV"
-                  type="vocabulaire">Mises en valeur</note> de <del facs="#f17r1_i_s6"
-                  xml:id="f17r1_s_6">s</del>
-               <add xml:id="f17r1_s_7">s</add>
-               <subst facs="#f17r1_i_vertueuses_belles" xml:id="f17r1_vertueuses_belles">
+               </subst><add facs="#f17r01_i_s5" xml:id="f17r01_s_05">s</add><note resp="AV"
+                  type="vocabulaire">Mises en valeur</note> de <del facs="#f17r01_i_s6"
+                  xml:id="f17r01_s_06">s</del>
+               <add xml:id="f17r01_s_07">s</add>
+               <subst facs="#f17r01_i_vertueuses_belles" xml:id="f17r01_vertueuses_belles">
                   <del>vertueuses</del>
                   <add>belles</add>
                </subst>
-               <substJoin seq="1"
-                  target="#f17r1_en #f17r1_s_2 #s_6 #f17r1_louanges_remerque #f17r1_vertueuses_belles"/>
-               <substJoin seq="2" target="#f17r1_t_ent #f17r1_s_3 #f17r1_s_5 #f17r1_s_7"/> actions :
-               et apres eulx, enseignemens pour bien faire<note resp="AV" type="commentaire">Henri
-                  de Mesmes établit une équivalence entre récit de soi et biographie, pratiques qui
-                  toutes deux s’inscrivent dans le cadre d’une conception de l’histoire comme «
-                  maîtresse de vie » (historia magistra vitae) (Cicéron, De oratore, II, 9, 36).
-                  Héritée de l’Antiquité, celle-ci est particulièrement centrale à l’époque moderne
-                  pour conférer à l’histoire une fonction morale et en fonder la légitimité sociale
-                  (Couzinet, 2007 ; Guion, 2008). Le temps révolu paraît renvoyer aux guerres
-                  d’Italie, qui font l’objet de récit de vie héroïque dans lesquels les membres de
-                  la noblesse – et avant tout de la noblesse d’épée – forge leur identité
-                  (Kuperty-Tsur, 1991 ; Harari, 2004), à l’instar de Robert de La Marck, maréchal de
-                  Florange, ou des Du Bellay (Piettre, 2017).</note>.</s>
+               <substJoin seq="01"
+                  target="#f17r01_en #f17r01_s_02 #s_06 #f17r01_louanges_remerque #f17r01_vertueuses_belles"/>
+               <substJoin seq="02" target="#f17r01_t_ent #f17r01_s_03 #f17r01_s_05 #f17r01_s_07"/>
+               actions : et apres eulx, enseignemens pour bien faire<note resp="AV"
+                  type="commentaire">Henri de Mesmes établit une équivalence entre récit de soi et
+                  biographie, pratiques qui toutes deux s’inscrivent dans le cadre d’une conception
+                  de l’histoire comme « maîtresse de vie » (historia magistra vitae) (Cicéron, De
+                  oratore, II, 9, 36). Héritée de l’Antiquité, celle-ci est particulièrement
+                  centrale à l’époque moderne pour conférer à l’histoire une fonction morale et en
+                  fonder la légitimité sociale (Couzinet, 2007 ; Guion, 2008). Le temps révolu
+                  paraît renvoyer aux guerres d’Italie, qui font l’objet de récit de vie héroïque
+                  dans lesquels les membres de la noblesse – et avant tout de la noblesse d’épée –
+                  forge leur identité (Kuperty-Tsur, 1991 ; Harari, 2004), à l’instar de Robert de
+                  La Marck, maréchal de Florange, ou des Du Bellay (Piettre, 2017).</note>.</s>
             <note resp="AV" type="génétique">La première version dissocie la rédaction d’une
                biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi (« la
                leur prre »). La première pratique serait motivée par un lien affectif (« ceux quilz

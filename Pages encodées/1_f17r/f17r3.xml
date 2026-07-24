@@ -23,26 +23,26 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/93,1693,3702,1051/full/0/default.jpg"/>
-            <zone xml:id="f17r3_i_et" points="2595,0 2569,88 2750,75 2800,0"/>
-            <zone xml:id="f17r3_i_metamark_1" points="2253,185 2254,258 2414,238 2436,182"/>
-            <zone xml:id="f17r3_i_ne_famille" points="2722,386 3388,544 3664,252 3016,227"/>
-            <zone xml:id="f17r3_i_et_serviteur" points="660,598 670,690 2823,600 2840,494"/>
-            <zone xml:id="f17r3_i_certes_soymesmes" points="114,588 131,1015 650,1014 597,568"/>
-            <zone xml:id="f17r3_i_metamark_2" points="2833,477 2833,544 2920,550 2927,492"/>
+            <zone xml:id="f17r03_i_et" points="2595,0 2569,88 2750,75 2800,0"/>
+            <zone xml:id="f17r03_i_metamark_01" points="2253,185 2254,258 2414,238 2436,182"/>
+            <zone xml:id="f17r03_i_ne_famille" points="2722,386 3388,544 3664,252 3016,227"/>
+            <zone xml:id="f17r03_i_et_serviteur" points="660,598 670,690 2823,600 2840,494"/>
+            <zone xml:id="f17r03_i_certes_soymesmes" points="114,588 131,1015 650,1014 597,568"/>
+            <zone xml:id="f17r03_i_metamark_02" points="2833,477 2833,544 2920,550 2927,492"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <p><subst>
                     <del>Mais</del>
-                    <add><del facs="#f17r3_i_et" xml:id="f17r3_et">Et</del></add>
+                    <add><del facs="#f17r03_i_et" xml:id="f17r03_et">Et</del></add>
                 </subst> que scauroit faire de grand <choice>
                     <orig>v</orig>
                     <reg>u</reg>
-                </choice>n home seul <metamark facs="#f17r3_i_metamark_1" function="insert"
-                    target="#f17r3_ne_famille" xml:id="f17r3_metamark_3-1">°¯</metamark>
-                <add facs="#f17r3_i_ne_famille" xml:id="f17r3_ne_famille"
-                        ><metamark>°¯</metamark>ne commendant <subst>
+                </choice>n home seul <metamark facs="#f17r03_i_metamark_01" function="insert"
+                    target="#f17r03_ne_famille" xml:id="f17r03_metamark_03-01">°¯</metamark>
+                <add facs="#f17r03_i_ne_famille" xml:id="f17r03_ne_famille"
+                    ><metamark>°¯</metamark>ne commendant <subst>
                         <del>qu'</del>
                         <add>qu'<choice>
                                 <orig>a</orig>
@@ -53,8 +53,8 @@
                 synon pour oster son bonet, sens langue sy ce n<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>est pour flater ? <add facs="#f17r3_i_et_serviteur" seq="1"
-                    xml:id="f17r3_et_serviteur">Et en fin de compte pour tout <choice>
+                </choice>est pour flater ? <add facs="#f17r03_i_et_serviteur" seq="01"
+                    xml:id="f17r03_et_serviteur">Et en fin de compte pour tout <choice>
                         <orig>E</orig>
                         <reg>e</reg>
                     </choice>loge, <add>c<choice>
@@ -71,12 +71,12 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>estoit un bon serviteur.</add>
-                <substJoin target="#f17r3_et #f17r3_et_serviteur"/>
-                <metamark facs="#f17r3_i_metamark_2" function="insert"
-                    target="#f17r3_certes_soymesmes" xml:id="f17r3_metamark_3_2">+</metamark>
-                <add facs="#f17r3_i_certes_soymesmes" seq="2" xml:id="f17r3_certes_soymesmes"
+                <substJoin target="#f17r03_et #f17r03_et_serviteur"/>
+                <metamark facs="#f17r03_i_metamark_02" function="insert"
+                    target="#f17r03_certes_soymesmes" xml:id="f17r03_metamark_03_02">+</metamark>
+                <add facs="#f17r03_i_certes_soymesmes" seq="02" xml:id="f17r03_certes_soymesmes"
                         ><metamark>+</metamark> Certes mieulx vaudroit avoir <del>apris <gap
-                            quantity="2" unit="char"/></del> esté bien maistre de soymesmes<choice>
+                            quantity="02" unit="char"/></del> esté bien maistre de soymesmes<choice>
                         <orig/>
                         <reg>.</reg>
                     </choice></add><note resp="FB" type="génétique">L'emplacement de ce dernier
