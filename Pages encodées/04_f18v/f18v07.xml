@@ -6,7 +6,7 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,54 +18,66 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-      <facsimile>
-         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/1097,4439,2295,727/full/0/default.jpg"/>
-         </surface>
-      </facsimile>
-  <text>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/1097,4439,2295,727/full/0/default.jpg"/>
+         <zone xml:id="f18v07_i_metamark1" points="1654,150 1596,231 1716,231"/>
+         <zone xml:id="f18v07_i_aians_dieu" points="1573,8 1566,120 2293,108 2293,4"/>
+         <zone xml:id="f18v07_i_metamark2" points="339,369 304,434 385,442"/>
+         <zone xml:id="f18v07_i_heures" points="254,273 254,377 616,323 681,234"/>
+         <zone xml:id="f18v07_i_et" points="1139,415 1154,546 1285,546 1319,427"/>
+         <zone xml:id="f18v07_i_les" points="1169,346 1169,438 1296,434 1277,334"/>
+         <zone xml:id="f18v07_i_s" points="1789,373 1823,415 1758,523 1723,500"/>
+         <zone xml:id="f18v07_i_metamark3" points="1800,438 1754,550 1843,550"/>
+         <zone xml:id="f18v07_i_et_chandeliers" points="1654,346 1654,431 2308,415 2285,315"/>
+      </surface>
+   </facsimile>
+   <text>
       <body>
          <p><s>
-            <choice>
-               <orig>n</orig>
-               <reg>N</reg>
-            </choice>ous estions debout <choice>
-               <orig>a</orig>
-               <reg>à</reg>
-            </choice> iiii heures, et <metamark function="insert" target="#f18vop6_aians_dieu"
-               >^</metamark><add xml:id="f18vop6_aians_dieu"><metamark>^</metamark>aians prié <choice>
-                  <orig>d</orig>
-                  <reg>D</reg>
-               </choice>ieu</add> alions <choice>
+               <choice>
+                  <orig>n</orig>
+                  <reg>N</reg>
+               </choice>ous estions debout <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> cinq <metamark function="insert" target="#f18vop6_heures">^</metamark><add
-                  xml:id="f18vop6_heures"><metamark>^</metamark>heures</add> aux estudes<subst>
-                     <add>,</add>
-                     <del>portant</del>
-                  </subst> noz gros li<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>res <del>de papier</del> soubs les bras <subst xml:id="f18vop6_et_les">
-                     <del>et</del>
-                     <add><choice>
+               </choice> iiii heures, et <metamark facs="#f18v07_i_metamark1" function="insert"
+                  target="#f18v07_aians_dieu">^</metamark><add facs="#f18v07_i_aians_dieu"
+                  xml:id="f18v07_aians_dieu"><metamark>^</metamark>aians prié <choice>
+                     <orig>d</orig>
+                     <reg>D</reg>
+                  </choice>ieu</add> alions <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> cinq <metamark facs="#f18v07_i_metamark2" function="insert"
+                  target="#f18v07_heures">^</metamark><add facs="#f18v07_i_heures"
+                  xml:id="f18v07_heures"><metamark>^</metamark>heures</add> aux estudes<subst>
+                  <add>,</add>
+                  <del>portant</del>
+               </subst> noz gros li<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>res <del>de papier</del> soubs les bras <subst>
+                  <del facs="#f18v07_i_et" xml:id="f18v07_et">et</del>
+                  <add facs="#f18v07_i_les" xml:id="f18v07_les"><choice>
                         <orig/>
                         <reg>,</reg>
                      </choice>les</add>
-                     <del rend="unmarked">l<choice>
+                  <del rend="unmarked">l<choice>
                         <orig/>
                         <reg>'</reg>
                      </choice></del>
-                  </subst>escritoire<add xml:id="f18vop6_s3">s</add><metamark function="insert"
-                     target="#f18vop6_et_chandeliers">^</metamark><add
-                        xml:id="f18vop6_et_chandeliers"><metamark>^</metamark>et noz
-                        chandeliers</add><substJoin
-                           target="#f18vop6_et_les #f18vop6_s3 #f18vop6_et_chandeliers"/>
-            <choice>
-               <orig>a</orig>
-               <reg>à</reg>
-            </choice> la main.</s></p>
+               </subst>escritoire<add facs="#f18v07_i_s" xml:id="f18v07_s">s</add><metamark facs="#f18v07_i_metamark3"
+                  function="insert" target="#f18v07_et_chandeliers">^</metamark><add
+                  facs="#f18v07_i_et_chandeliers" xml:id="f18v07_et_chandeliers"
+                     ><metamark>^</metamark>et noz chandeliers</add><substJoin
+                  target="#f18v07_et #f18v07_les #f18v07_s #f18v07_et_chandeliers"/>
+               <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> la main.</s></p>
       </body>
-  </text>
+   </text>
 </TEI>

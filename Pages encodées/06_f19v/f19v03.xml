@@ -19,6 +19,11 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/983,1181,2373,574/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <p><s><choice>
@@ -26,9 +31,9 @@
                   <reg>E</reg>
                </choice>t que je fey <del xml:id="f19vop4_et">et</del><add xml:id="f19vop4_prenant"
                   >prenant</add><del>leu ce qu<choice>
-               <orig/>
-               <reg>'</reg>
-               </choice>il</del>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>il</del>
                <del xml:id="f19vop4_pris">pris</del>
                <substJoin target="#f19vop4_et #f19vop4_pris #f19vop4_prenant"/> la loy o<choice>
                   <orig>u</orig>

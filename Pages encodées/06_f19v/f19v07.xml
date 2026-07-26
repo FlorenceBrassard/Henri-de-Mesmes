@@ -19,16 +19,22 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/297,2044,3185,956/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <p><s><subst>
                   <del><choice>
-            <orig>la</orig>
-            <reg>Là</reg>
-         </choice> <del>l</del>arri<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>ée </del>
+                        <orig>la</orig>
+                        <reg>Là</reg>
+                     </choice>
+                     <del>l</del>arri<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>ée </del>
                   <add><choice>
                         <orig>l</orig>
                         <reg>L</reg>
@@ -41,12 +47,11 @@
                   >^</metamark><add xml:id="f19vop8_publiquement">publiquement</add> e<subst>
                   <del rend="overwritten">n</del>
                   <add place="superimposed">z</add>
-               </subst> escoles de decret <metamark function="insert"
-                  target="#f19vop8_en_parlement">+</metamark><add xml:id="f19vop8_en_parlement"
-                     ><metamark>+</metamark>en grande <subst>
+               </subst> escoles de decret <metamark function="insert" target="#f19vop8_en_parlement"
+                  >+</metamark><add xml:id="f19vop8_en_parlement"><metamark>+</metamark>en grande <subst>
                      <del>assemblée</del>
                      <add><choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                           <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                            <expan>com</expan>
                         </choice>paignée</add>
                   </subst><del>pour estre cogneu de la plus</del>
@@ -56,11 +61,10 @@
                   >^</metamark><add xml:id="f19vop8_trois_ie"><metamark>^</metamark>trois <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>ours
-                     apres <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                     </choice>e</add> prys les points pour debatre <choice>
+                  </choice>ours apres <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>e</add> prys les points pour debatre <choice>
                   <orig>v</orig>
                   <reg>u</reg>
                </choice>ne regence en droict canon, et <subst>
@@ -69,8 +73,7 @@
                </subst> ou leus publicquement un an <del>et p</del> ou en<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>iron.
-            </s></p>
+               </choice>iron. </s></p>
       </body>
    </text>
 </TEI>

@@ -19,6 +19,11 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1029,1394,2525,708/full/0/default.jpg"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><subst>
@@ -56,10 +61,10 @@
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> mon pere</del><substJoin
-                           target="#f19vop5_tesmoigna_pere #f19vop5_de_main #f19vop5_il_pere"/> qu<choice>
-                              <orig/>
-                              <reg>'</reg>
-                           </choice>il n<choice>
+                        target="#f19vop5_tesmoigna_pere #f19vop5_de_main #f19vop5_il_pere"/> qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il n<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>y a<choice>

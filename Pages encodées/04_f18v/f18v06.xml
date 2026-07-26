@@ -21,46 +21,58 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/1081,4024,2164,590/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/1081,4024,2164,590/full/0/default.jpg"/>
+            <zone xml:id="f18v06_i_estroite_et" points="1504,122 1493,211 2008,181 2008,81"/>
+            <zone xml:id="f18v06_i_s1" points="1934,189 1900,311 2011,296 2011,181"/>
+            <zone xml:id="f18v06_i_s2" points="293,437 241,577 352,577 352,429"/>
+            <zone xml:id="f18v06_i_la" points="1267,185 1267,314 1359,314 1371,189"/>
+            <zone xml:id="f18v06_i_dautres" points="533,392 533,511 830,511 841,385"/>
+            <zone xml:id="f18v06_i_ceulx_maintenant" points="463,318 474,429 1100,400 1100,303"/>
+            <zone xml:id="f18v06_i_fer" points="1515,337 1489,488 1656,474 1667,340"/>
+            <zone xml:id="f18v06_i_practiquer" points="1433,285 1433,396 1830,374 1815,259"/>
+            <zone xml:id="f18v06_i_suporter" points="1822,274 1789,381 2141,337 2145,344 2122,274"/>
+            <zone xml:id="f18v06_i_auiourduy" points="1689,344 1678,463 2100,440 2093,337"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <p><s><choice>
-                    <orig>a</orig>
-                    <reg>À</reg>
-                </choice>
-                <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst>
-                    <del>a<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>ec</del>
-                    <add>en</add>
-                </subst> <del xml:id="f18vop6_la">la</del> plus <add>estroite vie et</add> penible<add
-                    xml:id="f18vop6_s1">s</add> estude<add xml:id="f18vop6_s2">s</add>
-                <substJoin target="#f18vop6_la #f18vop6_s1 #f18vop6_s2"/>
-                que <subst>
-                    <del>d<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>autres</del>
-                    <add xml:id="f18vop6_ceulx_maintenant">ceulx de mainten<choice>
-                            <abbr rend="overlined">ã</abbr>
-                            <expan>an</expan>
-                        </choice>t</add>
-                </subst> ne voudroient <subst>
-                    <del seq="1">f<choice>
-                            <abbr>e<hi rend="superscript">r</hi></abbr>
-                            <expan>aire</expan>
-                        </choice>
-                    </del>
-                    <del seq="2"><add seq="1">practiquer</add></del>
-                    <add seq="2">suporter</add>
-                </subst><del xml:id="f18vop6_auiourduy">au<choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>ourduy</del>. <substJoin
-                    target="#f18vop6_ceulx_maintenant #f18vop6_aujourduy"/></s></p>
+                        <orig>a</orig>
+                        <reg>À</reg>
+                    </choice>
+                    <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst>
+                        <del>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ec</del>
+                        <add>en</add>
+                    </subst>
+                    <del xml:id="f18v06_la">la</del> plus <add facs="#f18v06_i_estroite_et">estroite
+                        vie et</add> penible<add facs="#f18v06_i_s1" xml:id="f18v06_s1">s</add>
+                        estude<add facs="#f18v06_i_s2" xml:id="f18v06_s2">s</add>
+                    <substJoin target="#f18v06_la #f18v06_s1 #f18v06_s2"/> que <subst>
+                        <del facs="#f18v06_i_dautres">d<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>autres</del>
+                        <add facs="#f18v06_i_ceulx_maintenant" xml:id="f18v06_ceulx_maintenant">ceulx de mainten<choice>
+                                <abbr rend="overlined">ã</abbr>
+                                <expan>an</expan>
+                            </choice>t</add>
+                    </subst> ne voudroient <subst>
+                        <del facs="#f18v06_i_fer" seq="1">f<choice>
+                                <abbr>e<hi rend="superscript">r</hi></abbr>
+                                <expan>aire</expan>
+                            </choice>
+                        </del>
+                        <del seq="2"><add facs="#f18v06_i_practiquer" seq="1">practiquer</add></del>
+                        <add facs="#f18v06_i_suporter" seq="2">suporter</add>
+                    </subst><del facs="#f18v06_auiourduy" xml:id="f18v06_auiourduy">au<choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>ourduy</del>. <substJoin
+                        target="#f18v06_ceulx_maintenant #f18v06_aujourduy"/></s></p>
         </body>
     </text>
 </TEI>

@@ -19,6 +19,13 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+      <graphic
+         url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/934,1698,2062,509/full/0/default.jpg"
+      />
+      </surface>
+   </facsimile>
    <text>
       <body>
          <p><s><choice>

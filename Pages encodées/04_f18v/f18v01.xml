@@ -21,28 +21,32 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/952,576,2205,433/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/952,576,2205,433/full/0/default.jpg"/>
+         <zone xml:id="f18v01_i_u_i" points="670,289 644,374 715,374 722,304"/>
+         <zone xml:id="f18v01_i_a_propos" points="944,278 944,415 1304,426 1356,278"/>
+         <zone xml:id="f18v01_i_assez_bien" points="904,193 915,311 1293,259 1307,182"/>
       </surface>
    </facsimile>
    <text>
       <body>
          <p><s>Je trou<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>e que <subst>
-               <del>les</del>
-               <add>ces</add>
-            </subst> xviii <del>ou xx</del> mois du college me f<subst xml:id="f18vop1_u_i">
-               <del rend="overwritten">u</del>
-               <add place="superimposed">i</add>
-            </subst>rent <subst xml:id="f18vop1_a_bien">
-               <del><choice>
-                     <orig>a</orig>
-                     <reg>à</reg>
-                  </choice> propos</del>
-               <add>assez de bien</add>
-            </subst>.
-            <substJoin target="#f18vop1_u_i #f18vop1_a_bien"/></s></p>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>e que <subst>
+                  <del>les</del>
+                  <add>ces</add>
+               </subst> xviii <del>ou xx</del> mois du college me f<subst facs="#f18v01_i_u_i" xml:id="f18v01_u_i">
+                  <del rend="overwritten">u</del>
+                  <add place="superimposed">i</add>
+               </subst>rent <subst>
+                  <del facs="#f18v01_i_a_propos" xml:id="f18v01_a_propos"><choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice> propos</del>
+                  <add facs="#f18v01_i_assez_bien" xml:id="f18v01_assez_bien">assez de bien</add>
+               </subst>. <substJoin target="#f18v01_u_i #f18v01_a_propos #f18v01_assez_bien"
+            /></s></p>
       </body>
    </text>
 </TEI>

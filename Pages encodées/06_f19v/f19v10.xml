@@ -19,17 +19,22 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1095,4077,2509,1383/full/0/default.jpg"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><undo target="#f19vop11_et_de"/><del xml:id="f19vop11_et_de"><s>
-                    <choice>
+                        <choice>
                             <orig>e</orig>
                             <reg>E</reg>
                         </choice>t le <date>V<hi rend="superscript">e</hi>
-                        <choice>
-                            <orig>m</orig>
-                            <reg>M</reg>
-                        </choice>ars</date> ensuy<choice>
+                            <choice>
+                                <orig>m</orig>
+                                <reg>M</reg>
+                            </choice>ars</date> ensuy<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant mes articles de mariage furent accordez puys le lundy <date>13 <choice>
@@ -73,15 +78,17 @@
                         </choice> des <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>com</expan>
-                        </choice>ptes<choice><orig>.</orig><reg>,</reg></choice></s><s><choice>
-                                <orig>h</orig>
-                                <reg>H</reg>
+                        </choice>ptes<choice>
+                            <orig>.</orig>
+                            <reg>,</reg>
+                        </choice></s><s><choice>
+                            <orig>h</orig>
+                            <reg>H</reg>
                         </choice>ome de singuliere probité <subst>
                             <del>, et de</del>
                             <add>.</add>
                         </subst></s></del>
-                <metamark function="undo" target="f19vop10.xml f19vop11-12.xml"
-                    >bon</metamark></p>
+                <metamark function="undo" target="f19vop10.xml f19vop11-12.xml">bon</metamark></p>
         </body>
     </text>
 </TEI>

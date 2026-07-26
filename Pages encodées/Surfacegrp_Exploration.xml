@@ -65,6 +65,38 @@
                 <zone xml:id="f18v07" lry="5170" lrx="3410" uly="4400" ulx="1120"/>
                 <zone xml:id="f18v08" lry="5370" lrx="3220" uly="4965" ulx="1140"/>
             </surface>
+            <surface type="04_f19r.json">
+                <surface>
+                    <graphic
+                        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/full/full/0/native.jpg"/>
+                    <zone xml:id="f19r01_1" lry="5321" lrx="2600" uly="5185" ulx="1743"/>
+                </surface>
+                <surface>
+                    <graphic
+                        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/full/full/0/native.jpg"/>
+                    <zone xml:id="f19r01_2" lry="921" lrx="3093" uly="571" ulx="915"/>
+                    <zone xml:id="f19r02" lry="1892" lrx="3215" uly="785" ulx="850"/>
+                    <zone xml:id="f19r03" lry="2228" lrx="3479" uly="1677" ulx="915"/>
+                    <zone xml:id="f19r04" lry="3721" lrx="3472" uly="1938" ulx="358"/>
+                    <zone xml:id="f19r05" lry="3864" lrx="3658" uly="2556" ulx="943"/>
+                    <zone xml:id="f19r06" lry="5778" lrx="3230" uly="3779" ulx="394"/>
+                    <zone xml:id="f19r07" lry="5249" lrx="3250" uly="4693" ulx="907"/>
+                </surface>
+            </surface>
+            <surface type="04_f18v.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/full/full/0/native.jpg"/>
+                <zone xml:id="f19v01" lry="1314" lrx="3529" uly="514" ulx="886"/>
+                <zone xml:id="f19v02" lry="1471" lrx="3372" uly="971" ulx="957"/>
+                <zone xml:id="f19v03" lry="1778" lrx="3350" uly="1197" ulx="986"/>
+                <zone xml:id="f19v04" lry="2128" lrx="3579" uly="1502" ulx="1035"/>
+                <zone xml:id="f19v05" lry="2278" lrx="3600" uly="1799" ulx="994"/>
+                <zone xml:id="f19v06" lry="2378" lrx="3107" uly="1965" ulx="1036"/>
+                <zone xml:id="f19v07" lry="3092" lrx="3172" uly="2072" ulx="300"/>
+                <zone xml:id="f19v08" lry="4557" lrx="3587" uly="2893" ulx="322"/>
+                <zone xml:id="f19v09" lry="4357" lrx="3615" uly="3814" ulx="972"/>
+                <zone xml:id="f19v10" lry="5471" lrx="3608" uly="4078" ulx="1093"/>
+            </surface>
         </surfaceGrp>
     </facsimile>
 </TEI>

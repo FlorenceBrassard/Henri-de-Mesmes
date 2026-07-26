@@ -19,6 +19,15 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1047,1798,2543,465/full/0/default.jpg"/>
+        </surface>
+        <surface>
+            <graphic url=""/>
+<!--            Ajouter photo sur Nakala-->
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>

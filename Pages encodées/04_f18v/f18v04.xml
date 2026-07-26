@@ -21,66 +21,71 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/957,2096,2209,1360/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/957,2096,2209,1360/full/0/default.jpg"/>
+            <zone xml:id="f18v04_i_metamark1" points="96,782 96,863 185,867 185,782"/>
+            <zone xml:id="f18v04_i_soubs" points="41,675 41,800 326,749 326,656"/>
+            <zone xml:id="f18v04_i_point" points="985,1049 985,1149 1041,1149 1041,1049"/>
+            <zone xml:id="f18v04_i_nommé" points="1056,1026 1056,1119 1426,1123 1404,989"/>
+            <zone xml:id="f18v04_i_cestoit" points="1107,960 1107,1049 1367,1041 1378,926"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <p><s><choice>
-                    <orig>l</orig>
-                    <reg>L'</reg>
-                </choice>an mil v<hi rend="superscript">c</hi> xlv au mois de septembre <choice>
-                    <orig>i</orig>
-                    <reg>j</reg>
-                </choice> fu en<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>oié <choice>
-                    <orig>a</orig>
-                    <reg>à</reg>
-                </choice>
-                <placeName>
-                    <abbr>Thle</abbr>
-                    <expan>Tholose</expan>
-                </placeName> pour estudier en lois, a<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>ec mon precepteur et mon frere <choice>
-                    <orig><del rend="unmarked">.</del></orig>
-                    <reg>,</reg>
-                </choice><del>nous estions bien <choice>
+                        <orig>l</orig>
+                        <reg>L'</reg>
+                    </choice>an mil v<hi rend="superscript">c</hi> xlv au mois de septembre <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>eunes. et fumes mis en</del>
-                <metamark function="insert" target="#f18vop5_soubs">^</metamark><add
-                    xml:id="f18vop4_soubs"><metamark>^</metamark>soubs</add> la conduite d<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>un vieil gentilhome tout blanc qui a<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>oit <subst>
-                    <del>toute sa vie</del>
-                    <add>longuement</add>
-                </subst> voiagé par <subst>
-                    <del>tous les endroits du</del>
-                    <add>le</add>
-                </subst> monde
-                    <add xml:id="f18vop4_point">.</add>
-                <subst xml:id="f18vop4_nommé_cestoit">
-                    <del>nommé</del>
-                    <add><choice>
-                            <orig>c</orig>
-                            <reg>C'</reg>
-                        </choice>estoit</add>
-                </subst><substJoin target="#f18vop4_point #f18vop4_nommé_cestoit"/> monsieur
-                        <persName><nameLink>de</nameLink><surname>Gude</surname></persName> l<choice>
-                    <orig/>
-                    <reg>'</reg>
-                        </choice>un des freres puisn<choice>
-                            <orig>e</orig>
-                            <reg>é</reg>
-                        </choice>s de mon pere. </s></p>
+                    </choice> fu en<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oié <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice>
+                    <placeName>
+                        <abbr>Thle</abbr>
+                        <expan>Tholose</expan>
+                    </placeName> pour estudier en lois, a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec mon precepteur et mon frere <choice>
+                        <orig><del rend="unmarked">.</del></orig>
+                        <reg>,</reg>
+                    </choice><del>nous estions bien <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>eunes. et fumes mis en</del>
+                    <metamark facs="#f18v04_i_metamark1" function="insert" target="#f18v04_soubs">^</metamark><add facs="#f18v04_i_soubs"
+                        xml:id="f18v04_soubs"><metamark>^</metamark>soubs</add> la conduite d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un vieil gentilhome tout blanc qui a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit <subst>
+                        <del>toute sa vie</del>
+                        <add>longuement</add>
+                    </subst> voiagé par <subst>
+                        <del>tous les endroits du</del>
+                        <add>le</add>
+                    </subst> monde <add facs="#f18v04_i_point" xml:id="f18v04_point">.</add>
+                    <subst>
+                        <del facs="#f18v04_i_nommé" xml:id="f18v04_nommé">nommé</del>
+                        <add facs="#f18v04_i_cestoit" xml:id="f18v04_cestoit"><choice>
+                                <orig>c</orig>
+                                <reg>C'</reg>
+                            </choice>estoit</add>
+                    </subst><substJoin target="#f18v04_point #f18v04_nommé #f18v04_cestoit"/>
+                    monsieur <persName><nameLink>de</nameLink><surname>Gude</surname></persName> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un des freres puisn<choice>
+                        <orig>e</orig>
+                        <reg>é</reg>
+                    </choice>s de mon pere. </s></p>
         </body>
     </text>
 </TEI>
