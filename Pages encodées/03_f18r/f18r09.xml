@@ -21,7 +21,15 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/930,4721,2291,618/full/0/default.jpg"></graphic>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/930,4721,2291,618/full/0/default.jpg"/>
+         <zone xml:id="f18r09_i_en_la" points="700,112 700,254 993,231 981,112"/>
+         <zone xml:id="f18r09_i_seuerité" points="1004,108 996,185 1369,170 1366,93"/>
+         <zone xml:id="f18r09_i_rétablissement" points="943,162 950,220 1354,220 1343,147"/>
+         <zone xml:id="f18r09_i_au_regle" points="612,43 612,120 966,104 962,27"/>
+         <zone xml:id="f18r09_i_au_regle2" points="646,47 646,112 996,108 996,20"/>
+         <zone xml:id="f18r09_i_police" points="1050,8 1031,77 1327,66 1327,20"/>
+         <zone xml:id="f18r09_i_rétablissement2" points="1062,81 1062,127 1273,108 1277,66"/>
       </surface>
    </facsimile>
    <text>
@@ -29,21 +37,26 @@
          <p><choice>
                <orig>l</orig>
                <reg>L'</reg>
-            </choice>autre <del xml:id="en_la">en la</del>
+            </choice>autre <del facs="#f18r09_i_en_la" xml:id="f18r09_en_la">en la</del>
             <subst>
-               <del rend="unmarked" seq="1" xml:id="severité"><undo rend="underlined"
-                        seq="1" target="#severite"/><del rend="unmarked" seq="3"><choice>
+               <del facs="#f18r09_i_seuerité" rend="unmarked" seq="1" xml:id="f18r09_severité"><undo
+                     facs="#f18r09_i_rétablissement" rend="underlined" seq="1"
+                     target="#f18r09_severité"/><del rend="unmarked" seq="3"><choice>
                         <orig>u</orig>
                         <reg>v</reg>
                      </choice>erité</del></del>
-               <add seq="1"><del seq="2" xml:id="police"><undo rend="underlined" seq="2"
-                        target="#police"/><del seq="4">police</del></del></add>
-               <add seq="2" xml:id="au_regle"><del seq="5" xml:id="au_regle2">au regle</del></add>
-            </subst><substJoin target="#au_regle #en_la"/>
-            <del seq="5" xml:id="de_vie">de la vie</del><add seq="3" xml:id="a_discipline"><choice>
+               <add seq="1"><del facs="#f18r09_i_police" seq="2" xml:id="f18r09_police"><undo
+                        facs="#f18r09_i_rétablissement2" rend="underlined" seq="2"
+                        target="#f18r09_police"/><del seq="4">police</del></del></add>
+               <add facs="#f18r09_i_au_regle" seq="2" xml:id="f18r09_au_regle"><del facs="#f18r09_i_au_regle2" seq="5"
+                     xml:id="f18r09_au_regle2">au regle</del></add>
+            </subst><substJoin target="#f18r09_au_regle #f18r09_en_la"/>
+            <del seq="5" xml:id="f18r09_de_vie">de la vie</del><add seq="3"
+               xml:id="f18r09_a_discipline"><choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice>la discipline</add><substJoin target="#au_regle2 #de_vie #a_discipline"/> scolasti<choice>
+               </choice>la discipline</add><substJoin
+               target="#f18r09_au_regle2 #f18r09_de_vie #f18r09_a_discipline"/> scolasti<choice>
                <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                <expan>que</expan>
             </choice> pour nous f<choice>
@@ -61,7 +74,7 @@
             </subst> et come nous desgorger en <del>l<choice>
                   <orig/>
                   <reg>'</reg>
-            </choice></del>eau courante.</p>
+               </choice></del>eau courante.</p>
       </body>
    </text>
 </TEI>

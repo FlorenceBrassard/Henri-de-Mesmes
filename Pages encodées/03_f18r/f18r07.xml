@@ -21,7 +21,13 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/970,3761,2760,484/full/0/default.jpg"></graphic>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/970,3761,2760,484/full/0/default.jpg"/>
+         <zone xml:id="f18r07_i_metamark1" points="1372,153 1358,229 1424,229 1424,153"/>
+         <zone xml:id="f18r07_i_moins_dun" points="1300,33 1320,105 1839,67 1834,-8"/>
+         <zone xml:id="f18r07_i_un" points="1500,53 1500,138 1620,138 1620,48"/>
+         <zone xml:id="f18r07_i_metamark2" points="1720,67 1715,143 1848,124 1853,38"/>
+         <zone xml:id="f18r07_i_ou_moins" points="1977,0 1991,119 2639,129 2596,0"/>
       </surface>
    </facsimile>
    <text>
@@ -33,15 +39,16 @@
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu <subst>
-               <add seq="1"><del seq="2"><metamark function="insert" target="#moins_dun">^</metamark><add
-                     xml:id="moins_dun"><metamark>^</metamark>moins d<choice>
-                        <orig/>
-                        <reg>'</reg>
-                     </choice>un</add></del></add>
+               <add seq="1"><del seq="2"><metamark facs="#f18r07_i_metamark1" function="insert" target="#f18r07_moins_dun"
+                        >^</metamark><add facs="#f18r07_i_moins_dun" xml:id="f18r07_moins_dun"><metamark>^</metamark>moins d<choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice>un</add></del></add>
                <del seq="1">un</del>
-               <add seq="2" xml:id="un">un</add>
-            </subst> an <metamark function="insert">+</metamark><add seq="2" xml:id="ou_moins"
-                  ><metamark>+</metamark>ou peu moins</add> de la premiere.<substJoin target="#un #ou_moins"></substJoin></p>
+               <add facs="#f18r07_i_un" seq="2" xml:id="f18r07_un">un</add>
+            </subst> an <metamark facs="#f18r07_i_metamark2" function="insert">+</metamark><add facs="#f18r07_i_ou_moins" seq="2" xml:id="f18r07_ou_moins"
+                  ><metamark>+</metamark>ou peu moins</add> de la premiere.<substJoin
+                     target="#f18r07_un #f18r07_ou_moins"/></p>
       </body>
    </text>
 </TEI>

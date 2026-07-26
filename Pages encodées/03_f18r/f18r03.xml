@@ -21,7 +21,11 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/939,1200,2284,746/full/0/default.jpg"></graphic>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/939,1200,2284,746/full/0/default.jpg"/>
+         <zone xml:id="f18r03_i_meres_monde" points="15,612 19,754 823,742 812,581"/>
+         <zone xml:id="f18r03_i_meres" points="1935,319 1935,481 2281,489 2269,350"/>
+         <zone xml:id="f18r03_i_de_temps" points="58,515 58,639 600,623 596,512"/>
       </surface>
    </facsimile>
    <text>
@@ -29,9 +33,9 @@
          <p>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere <del>dame Nicole
                Hennequin</del>
             <add>l'une</add> des meilleures femmes et des meilleures <subst>
-               <del>meres du monde.</del>
-               <add seq="1">meres<del rend="unmarked">.</del></add>
-               <add seq="2">de son temps.</add>
+               <del facs="#f18r03_i_meres_monde" xml:id="f18r03_meres_monde">meres du monde.</del>
+               <add facs="#f18r03_i_meres" seq="1" xml:id="f18r03_meres">meres<del rend="unmarked">.</del></add>
+               <add facs="#f18r03_i_de_temps" seq="2" xml:id="f18r03_de_temps">de son temps.</add>
             </subst></p>
          <p/>
       </body>

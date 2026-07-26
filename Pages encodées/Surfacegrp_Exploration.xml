@@ -24,11 +24,11 @@
             <surface type="01_f17r.json">
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/full/full/0/native.jpg"/>
-                <zone xml:id="f17r01" lry="1471" lrx="3786" uly="192" ulx="215"/>
+                <zone xml:id="f17r01" lry="1435" lrx="3257" uly="521" ulx="686"/>
                 <zone xml:id="f17r02" lry="2021" lrx="3801" uly="1164" ulx="207"/>
                 <zone xml:id="f17r03" lry="2735" lrx="3822" uly="1685" ulx="207"/>
                 <zone xml:id="f17r04" lry="3207" lrx="3822" uly="2135" ulx="650"/>
-                <zone xml:id="f17r05" lry="3757" lrx="3815" uly="2929" ulx="272"/>
+                <zone xml:id="f17r05" lry="3742" lrx="3115" uly="2929" ulx="272"/>
                 <zone xml:id="f17r06" lry="5743" lrx="3815" uly="3629" ulx="243"/>
             </surface>
             <surface type="02_f17v.json">
@@ -37,8 +37,8 @@
                 <zone xml:id="f17v01" lry="1514" lrx="3729" uly="207" ulx="222"/>
                 <zone xml:id="f17v02" lry="1557" lrx="3372" uly="979" ulx="936"/>
                 <zone xml:id="f17v03" lry="2385" lrx="3758" uly="1336" ulx="865"/>
-                <zone xml:id="f17v04" lry="3371" lrx="3443" uly="2078" ulx="243"/>
-                <zone xml:id="f17v05" lry="3843" lrx="3759" uly="3128" ulx="236"/>
+                <zone xml:id="f17v04" lry="3378" lrx="3443" uly="2078" ulx="857"/>
+                <zone xml:id="f17v05" lry="3828" lrx="3759" uly="3128" ulx="886"/>
             </surface>
             <surface type="03_f18r.json">
                 <graphic

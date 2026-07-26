@@ -21,7 +21,11 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/315,458,3384,912/full/0/default.jpg"></graphic>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/315,458,3384,912/full/0/default.jpg"/>
+         <zone xml:id="f18r01_i_qui_maintenant" points="1663,320 1646,423 3396,407 3380,280"/>
+         <zone xml:id="f18r01_i_1531" points="1642,406 1643,516 1556,516 1542,371"/>
+         <zone xml:id="f18r01_i_metamark1" points="2876,383 2876,490 2753,490 2753,390"/>
       </surface>
    </facsimile>
    <text>
@@ -46,51 +50,56 @@
             </choice>an<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ier <hi rend="overlined">153<subst xml:id="f18rop1_1531">
+            </choice>ier <hi rend="overlined">153<subst facs="#f18r01_i_1531" xml:id="f18r01_1531">
                   <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
                   <del rend="overwritten">2</del>
                   <add place="superimposed" seq="2">1</add>
                </subst></hi>
-            <del xml:id="f18rop1_qui_maintenant"><add seq="1">qui est 33 selon la reduction qu<substJoin target="#f18rop1_1531 #f18rop1_qui_maintenant"/><choice>
+            <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant"><add seq="1">qui est
+                  33 selon la reduction qu<substJoin target="#f18r01_1531 #f18r01_qui_maintenant"/><choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>on tient maintenant</add></del>
             <choice>
                <orig>a</orig>
                <reg>à</reg>
-            </choice> trois heures du matin<supplied>.</supplied><metamark function="insert"
-               target="#f18rop1_qui_prst">+</metamark><add xml:id="f18rop1_qui_prst"><metamark>+</metamark><subst xml:id="f18rop1_qui_c">
+            </choice> trois heures du matin<supplied>.</supplied><metamark
+               facs="#f18r01_i_metamark1" function="insert" target="#f18r01_qui_prst"
+               >+</metamark><add xml:id="f18r01_qui_prst"><metamark>+</metamark><subst
+                  xml:id="f18r01_qui_c">
                   <del>qui</del>
                   <add><choice>
                         <orig>c</orig>
                         <reg>C</reg>
-                  </choice>'</add>
-               </subst>estoit <add xml:id="f18rop1_le">le</add><substJoin target="#f18rop1_qui_c #f18rop1_le"/> c<choice>
+                     </choice>'</add>
+               </subst>estoit <add xml:id="f18r01_le">le</add><substJoin
+                  target="#f18r01_qui_c #f18r01_le"/> c<choice>
                   <abbr>õ</abbr>
                   <expan>om</expan>
                </choice>mancement de l<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>année <hi rend="overlined">1532</hi>
-               <subst xml:id="f18rop1_mode_compte">
-                  <del><choice>
+               <subst>
+                  <del xml:id="f18r01_a_mode"><choice>
                         <orig>a</orig>
                         <reg>à</reg>
                      </choice> la mode</del>
-                  <add>au compte</add>
+                  <add xml:id="f18r01_au_compte">au compte</add>
                </subst>
                <choice>
                   <orig>R</orig>
                   <reg>r</reg>
-               </choice>omain<del xml:id="f18rop1_e_la">e la</del>que<del xml:id="f18rop1_lle">lle</del> nous tenons
-                  <hi rend="overlined"><choice>
+               </choice>omain<del xml:id="f18r01_e_la">e la</del>que<del xml:id="f18r01_lle"
+                  >lle</del> nous tenons <hi rend="overlined"><choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
                   <choice>
                      <abbr>prst</abbr>
                      <expan>present</expan>
-                  </choice></hi>.<substJoin target="#f18rop1_mode_compte #f18rop1_e_la #f18rop1_lle"/></add>
+                  </choice></hi>.<substJoin
+                  target="#f18r01_a_mode #f18r01_au_compte #f18r01_e_la #f18r01_lle"/></add>
          </p>
       </body>
    </text>

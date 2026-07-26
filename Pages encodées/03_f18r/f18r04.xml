@@ -21,7 +21,12 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/673,1680,2567,1744/full/0/default.jpg"></graphic>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/673,1680,2567,1744/full/0/default.jpg"/>
+            <zone xml:id="f18r04_i_pour_et" points="522,717 522,830 1352,752 1352,647"/>
+            <zone xml:id="f18r04_i_scauant" points="61,760 56,952 339,952 339,782"/>
+            <zone xml:id="f18r04_i_home" points="2282,487 2282,621 2530,621 2530,482"/>
+            <zone xml:id="f18r04_i_ieune_home" points="722,573 722,713 1274,652 1278,539"/>
         </surface>
     </facsimile>
     <text>
@@ -57,7 +62,7 @@
                 <choice>
                     <orig>L</orig>
                     <reg>l</reg>
-                </choice>imosin, <del><choice>
+                </choice>imosin, <del facs="#f18r04_ieune_home" xml:id="f18r04_ieune_home"><choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>eune home</del><del rend="unmarked">,</del> disciple de <del><choice>
@@ -66,8 +71,11 @@
                     </choice></del><persName ref="https://isni.org/isni/0000000120991209"><surname><choice>
                             <orig>d</orig>
                             <reg>D</reg>
-                        </choice>orat</surname></persName>,<add seq="2">home </add><add seq="1"
-                    >scavant</add> choisy <add>pour sa vie innocente et</add> d'eage con<choice>
+                    </choice>orat</surname></persName>,<add facs="#f18r04_i_home" seq="2" xml:id="f18r02_home">home </add><add facs="#f18r04_i_scauant" seq="1" xml:id="f18r02_scauant">sca<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ant</add> <substJoin target="#f18r04_ieune_home #f18r02_scauant #f18r02_home"></substJoin> choisy <add facs="#f18r04_i_pour_et">pour sa vie innocente
+                    et</add> d'eage con<choice>
                     <orig>u</orig>
                     <reg>v</reg>
                 </choice>enable <subst>

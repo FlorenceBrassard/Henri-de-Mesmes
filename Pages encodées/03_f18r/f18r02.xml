@@ -21,13 +21,18 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/891,953,2851,613/full/0/default.jpg"></graphic>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/891,953,2851,613/full/0/default.jpg"/>
+         <zone xml:id="f18r02_i_estant" points="376,96 376,229 85,267 95,124"/>
+         <zone xml:id="f18r02_i_estoit" points="857,19 857,143 1104,115 1095,15"/>
+         <zone xml:id="f18r02_i_par_gré" points="4,305 2042,291 2414,638 2838,15"/>
       </surface>
    </facsimile>
    <text>
       <body>
-         <p><del xml:id="estant">estant</del> lors mon pere <add xml:id="estoit"
-               >estoit</add><substJoin target="#estant #estoit #par_gré"/><choice>
+         <p><del facs="#f18r02_i_estant" xml:id="f18r02_estant">estant</del> lors mon pere <add
+               facs="#f18r02_i_estoit" xml:id="f18r02_estoit">estoit</add><substJoin
+               target="#f18r02_estant #f18r02_estoit #f18r02_par_gré"/><choice>
                <abbr>lieut<hi>t</hi></abbr>
                <expan>lieutenant</expan>
             </choice> ci<choice>
@@ -36,7 +41,7 @@
             </choice>il de <placeName><choice>
                   <orig>p</orig>
                   <reg>P</reg>
-               </choice>aris</placeName><add xml:id="par_gré">, par l<choice>
+               </choice>aris</placeName><add facs="#f18r02_i_par_gré" xml:id="f18r02_par_gré">, par l<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>lection du <persName ref="https://isni.org/isni/0000000121029337"><roleName><choice>

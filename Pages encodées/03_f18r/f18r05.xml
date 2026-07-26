@@ -21,23 +21,27 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/922,3166,2143,459/full/0/default.jpg"></graphic>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/922,3166,2143,459/full/0/default.jpg"/>
+         <zone xml:id="f18r05_i_me" points="841,63 852,223 1030,223 1034,71"/>
+         <zone xml:id="f18r05_i_t_s" points="1437,37 1404,163 1489,163 1497,37"/>
       </surface>
    </facsimile>
    <text>
       <body>
          <ab><s><choice>
-               <orig>e</orig>
-               <reg>E</reg>
-            </choice>t ne <del xml:id="f18r05_me">me</del>
-               <del>l d</del> sorti<subst xml:id="f18r05_t_s">
-               <del rend="overwritten">t</del>
-               <add place="superimposed">s</add>
-               </subst><substJoin target="#f18r05_me #f18r05_t_s"/> de sa charge <del>que</del> synon lors que <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>'entray en office.</s></ab>
-<!--         Saut de paragraphe après « office » ?-->
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t ne <del facs="#f18r05_i_me" xml:id="f18r05_me">me</del>
+               <del>l d</del> sorti<subst facs="#f18r05_i_t_s" xml:id="f18r05_t_s">
+                  <del rend="overwritten">t</del>
+                  <add place="superimposed">s</add>
+               </subst><substJoin target="#f18r05_me #f18r05_t_s"/> de sa charge <del>que</del>
+               synon lors que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>'entray en office.</s></ab>
+         <!--         Saut de paragraphe après « office » ?-->
          <p/>
       </body>
    </text>

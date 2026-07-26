@@ -21,7 +21,12 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/757,3936,2958,1051/full/0/default.jpg"></graphic>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/757,3936,2958,1051/full/0/default.jpg"/>
+            <zone xml:id="f18r08_i_que_nestimant" points="1610,90 1610,230 2250,225 2250,80"/>
+            <zone xml:id="f18r08_i_beaucoup_college" points="240,275 240,440 1360,395 1350,240"/>
+            <zone xml:id="f18r08_i_quen_college" points="1605,15 1625,105 2930,95 2935,0"/>
+            <zone xml:id="f18r08_i_neantmoins" points="1775,230 1775,345 2390,340 2390,225"/>
         </surface>
     </facsimile>
     <text>
@@ -30,20 +35,20 @@
                 <choice>
                     <orig>m</orig>
                     <reg>M</reg>
-                </choice>on pere disoit <subst xml:id="que_college">
-                    <del>que n<choice>
+                </choice>on pere disoit <subst>
+                    <del facs="#f18r08_i_que_nestimant #f18r08_i_beaucoup_college" xml:id="f18r08_que_college">que n<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>estimant beaucoup la vie du college</del>
-                    <add>qu<choice>
+                    <add facs="#f18r08_i_quen_college" xml:id="f18r08_quen_college">qu<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>en ceste <del>vie</del> norriture du college</add>
                 </subst> il a<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>oit <del xml:id="neantmoins">neantmoins</del>
-                <substJoin target="#que_college #neantmoins"/>
+                </choice>oit <del facs="#f18r08_i_neantmoins" xml:id="f18r08_neantmoins">neantmoins</del>
+                <substJoin target="#f18r08_que_college #f18r08_quen_college #f18r08_neantmoins"/>
                 <add>eu</add> deux regards, l'un <choice>
                     <orig>a</orig>
                     <reg>à</reg>
@@ -64,25 +69,25 @@
                     <reg>j</reg>
                 </choice>eunesse <subst seq="2">
                     <del>bien norrie</del>
-                   <add>gaie et innocen<add><surplus>n</surplus>te</add></add>
+                    <add>gaie et innocen<add><surplus>n</surplus>te</add></add>
                 </subst><subst seq="1">
-                        <del>, car en la tourbe il s<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>y en trou<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>oit</del>
-                        <add><del>dont il <del>s<choice>
+                    <del>, car en la tourbe il s<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>y en trou<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oit</del>
+                    <add><del>dont il <del>s<choice>
                                     <orig/>
                                     <reg>'</reg>
                                 </choice>y</del> y a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                                </choice>oit <del>lors</del> l<choice>
-                                   <orig>a</orig>
-                                   <reg>à</reg>
-                                </choice></del></add>
+                            </choice>oit <del>lors</del> l<choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice></del></add>
                 </subst><del>quelque petit nombre</del>. </p>
         </body>
     </text>
