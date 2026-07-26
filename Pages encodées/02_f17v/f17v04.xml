@@ -19,73 +19,86 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f40/882,2110,2528,1260/full/0/default.jpg"/>
+            <zone xml:id="f17v04_i_le_ancien" points="13,343 31,708 174,482 587,417"/>
+            <zone xml:id="f17v04_i_depuys" points="461,700 439,973 535,795 666,726"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <p><s><subst xml:id="f17vop4_aiant_il">
-                    <del>or aiant</del>
-                        <add xml:id="f17vop4_icy_il">icy il</add>
-            </subst>espous<subst xml:id="f17vop4_é_a">
-                    <del rend="overwritten">é</del>
-                    <add place="superimposed">a</add>
-            </subst><del xml:id="f17vop4_icy">icy</del><substJoin target="#f17vop4_aiant_il #f17vop4_é_a"/><substJoin
-                target="#f17vop4_icy #f17vop4_icy_il"/>feu ma mere <add><del>d</del> dame</add>
-                <persName><forename>Nicole</forename>
-                    <surname>Hennequin</surname></persName><choice>
+            <p><s><subst>
+                        <del xml:id="f17v04_or_aiant">or aiant</del>
+                        <add xml:id="f17v04_icy_il">icy il</add>
+                    </subst>espous<subst xml:id="f17v04_é_a">
+                        <del rend="overwritten">é</del>
+                        <add place="superimposed">a</add>
+                    </subst><del xml:id="f17v04_icy">icy</del><substJoin
+                        target="#f17v04_or_aiant #f17v04_icy_il #f17v04_é_a"/><substJoin
+                        target="#f17v04_icy #f17v04_icy_il"/>feu ma mere <add><del>d</del>
+                        dame</add>
+                    <persName><forename>Nicole</forename>
+                        <surname>Hennequin</surname></persName><choice>
                         <orig/>
-                        <reg>,</reg></choice> fille de messire <persName><forename><choice>
-                            <orig>c</orig>
-                            <reg>C</reg>
-                        </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
-                            function="insert" target="#f17vop4_le_ancien">^</metamark><add xml:id="f17vop4_le_ancien"
-                        ><del>le</del> plus ancien</add> conseiller du parlement de <placeName><choice>
-                        <orig>p</orig>
-                        <reg>P</reg>
-                    </choice>aris</placeName> et president d'<placeName><choice>
-                        <orig>a</orig>
-                        <reg>A</reg>
-                    </choice>lançon</placeName>
-                <subst>
-                    <del>duquel</del>
-                    <add>que</add>
-                </subst>le <persName ref="https://isni.org/isni/0000000121029337"
-                        ><roleName>Roy</roleName><forename><choice>
-                            <orig>f</orig>
-                            <reg>F</reg>
-                        </choice>rancoys</forename></persName><subst>
-                    <del>s<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>estoit ser<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>y</del>
-                    <add>avoit tenu <subst>
-                            <del>longuement</del>
-                            <add>quelque temps son</add>
-                        </subst></add>
-                </subst>ambassadeur en <placeName><choice>
-                        <orig>s</orig>
-                        <reg>S</reg>
-                    </choice>uisse</placeName> et <metamark function="insert" target="#depuys"
-               >^</metamark><add xml:id="depuys">depuys</add> en autres grandes charges.<choice>
-                    <orig>e</orig>
-                    <reg>E</reg>
-                </choice>t l<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>a<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>oit designé premier president de <placeName><choice>
-                        <orig>p</orig>
-                        <reg>P</reg>
-                    </choice>aris</placeName> pour ce qu<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>il sca<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>oit bien faire et bien dire.</s></p>
+                        <reg>,</reg>
+                    </choice> fille de messire <persName><forename><choice>
+                                <orig>c</orig>
+                                <reg>C</reg>
+                            </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
+                        function="insert" target="#f17v04_le_ancien">^</metamark><add facs="#f17v04_i_le_ancien"
+                        xml:id="f17v04_le_ancien"><del>le</del> plus ancien</add> conseiller du
+                    parlement de <placeName><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>aris</placeName> et president d'<placeName><choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>lançon</placeName>
+                    <subst>
+                        <del>duquel</del>
+                        <add>que</add>
+                    </subst>le <persName ref="https://isni.org/isni/0000000121029337"
+                            ><roleName>Roy</roleName><forename><choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>rancoys</forename></persName><subst>
+                        <del>s<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>estoit ser<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>y</del>
+                        <add>avoit tenu <subst>
+                                <del>longuement</del>
+                                <add>quelque temps son</add>
+                            </subst></add>
+                    </subst>ambassadeur en <placeName><choice>
+                            <orig>s</orig>
+                            <reg>S</reg>
+                        </choice>uisse</placeName> et <metamark function="insert"
+                        target="#f17v04_depuys">^</metamark><add facs="#f17v04_i_depuys" xml:id="f17v04_depuys">depuys</add>
+                    en autres grandes charges.<choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit designé premier president de <placeName><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>aris</placeName> pour ce qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il sca<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit bien faire et bien dire.</s></p>
         </body>
     </text>
 </TEI>

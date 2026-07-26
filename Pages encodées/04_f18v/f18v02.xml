@@ -19,6 +19,11 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/987,749,2717,950/full/0/default.jpg"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><del>car <metamark function="insert" target="#f18vop2_ne_toutesfois"

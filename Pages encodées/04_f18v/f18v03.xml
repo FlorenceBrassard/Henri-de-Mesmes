@@ -19,6 +19,14 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/954,1438,2712,876/full/0/default.jpg"/>
+        </surface>
+        <surface>
+<!--          PHOTO PERSO DE LA MARGE-->
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>

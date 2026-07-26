@@ -19,6 +19,20 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f40/915,1330,2831,1048/full/0/default.jpg"/>
+            <zone xml:id="f17v03_i_xii_ou" points="1467,195 1453,334 1767,300 1772,195"/>
+            <zone xml:id="f17v03_i_metamark_1" points="1867,234 1867,315 1957,315 1948,224"/>
+            <zone xml:id="f17v03_i_ou_xx" points="1848,143 1848,229 2038,210 2038,148"/>
+            <zone xml:id="f17v03_i_metamark_2" points="2391,143 2400,215 2457,215 2453,124"/>
+            <zone xml:id="f17v03_i_et_compaignon" points="2357,53 2333,134 2805,105 2805,34"/>
+            <zone xml:id="f17v03_i_a_e" points="524,366 518,434 590,432 584,374"/>
+            <zone xml:id="f17v03_i_cheuer" points="594,356 594,420 822,410 822,358"/>
+            <zone xml:id="f17v03_i_continuer" points="562,316 564,360 834,380 824,316"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p>Il <subst>
@@ -28,8 +42,7 @@
                 <subst>
                     <del>en ses</del>
                     <add seq="1">dez <del>les</del></add>
-                            <add>ses</add>
-                  
+                    <add>ses</add>
                 </subst> premiers ans fort celebre <subst>
                     <del>pour ses</del>
                     <add>ez</add>
@@ -39,15 +52,17 @@
                 </subst> droict ci<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>il durant <del xml:id="xii_ou">xii ou</del> xv <metamark
-                    function="insert" target="#ou_xx" xml:id="metamark_3_1">^</metamark><add
-                    xml:id="ou_xx">ou xx</add><substJoin target="#xii_ou #metamark_3_1 #ou_xx"/>
-                ans, <subst>
+                </choice>il durant <del facs="#f17v03_xii_ou" xml:id="f17v03_xii_ou">xii ou</del> xv
+                    <metamark facs="#f17v03_i_metamark_1" function="insert" target="#f17v03_ou_xx"
+                    xml:id="f17v03_metamark_1">^</metamark><add facs="#f17v03_i_ou_xx"
+                    xml:id="f17v03_ou_xx">ou xx</add><substJoin
+                    target="#xii_ou #f17v03_metamark_1 #f17v03_ou_xx"/> ans, <subst>
                     <del>et</del>
-                    <add>collegue <metamark function="insert" target="et_compaignon"
-                            xml:id="metamark_3_2">^</metamark><add xml:id="et_compaignon"
-                                ><metamark>^</metamark>et compaignon</add> de <persName
-                            ref="https://isni.org/isni/0000000081661660"
+                    <add>collegue <metamark facs="#f17v03_i_metamark_2" function="insert"
+                            target="f17v03_et_compaignon" xml:id="f17v03_metamark_2"
+                            >^</metamark><add facs="#f17v03_i_et_compaignon"
+                            xml:id="f17v03_et_compaignon"><metamark>^</metamark>et compaignon</add>
+                        de <persName ref="https://isni.org/isni/0000000081661660"
                                 ><forename>Philippus</forename>
                             <surname>Decius</surname></persName> et d'<persName
                             ref="https://isni.org/isni/0000000122798373"><forename full="abb"><choice>
@@ -71,19 +86,23 @@
                             <del>rendoient</del>
                             <add>faisoient</add>
                         </subst></add>
-                </subst><add>mais au lieu d<subst xml:id="a_de">
+                </subst><add>mais au lieu d<subst xml:id="f17v03_a_e">
                         <del rend="overwritten"><choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>a</del>
                         <add place="superimposed">e</add>
-                    </subst><subst xml:id="chever_continuer">
-                        <del>chever</del>
-                        <add><choice>
+                    </subst><subst>
+                        <del facs="#f17v03_i_cheuer" xml:id="f17v03_cheuer">che<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>er</del>
+                        <add facs="#f17v03_i_continuer" xml:id="f17v03_continuer"><choice>
                                 <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                                 <expan>con</expan>
                             </choice>tinuer</add>
-                    </subst><substJoin target="#a_de #chever_continuer"/> ceste <choice>
+                    </subst><substJoin
+                        target=" #f17v03_a_e #f17v03_cheuer #f17v03_continuer"/> ceste <choice>
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
                     </choice>fession <del>et se perpetuer par ses escrits il</del></add> fut requis

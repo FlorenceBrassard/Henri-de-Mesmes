@@ -19,6 +19,18 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f40/952,983,2430,580/full/0/default.jpg"/>
+            <zone xml:id="f17v02_i_huict_dix" points="488,204 488,304 829,266 829,204"/>
+            <zone xml:id="f17v02_i_metamark_1" points="850,300 850,387 917,366 900,300"/>
+            <zone xml:id="f17v02_i_dix" points="842,187 863,283 992,283 975,204"/>
+            <zone xml:id="f17v02_i_ux" points="71,437 88,591 150,587 125,429"/>
+            <zone xml:id="f17v02_i_la" points="246,425 229,600 150,583 121,429"/>
+            <zone xml:id="f17v02_i_s1" points="496,441 496,550 558,550 550,441"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
@@ -37,18 +49,19 @@
                     </choice>er et a sur<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>escu <subst xml:id="f17vop2_touts_huict_dix">
+                    </choice>escu <subst>
                         <del>touts</del>
-                        <add><del>huict ou dix</del></add>
-                    </subst>ses <metamark function="insert" target="#f17vop2_dix"
-                        xml:id="f17vop2_metamark_1">^</metamark><add xml:id="f17vop2_dix"
-                        >dix></add><substJoin
-                        target=" #f17vop2_touts_huict_dix #f17vop2_metamark_1 #f17vop2_dix"/> freres
-                    qui sont presque touts morts a<subst xml:id="f17vop2_a_la_aux">
-                        <add>ux</add>
-                        <del>la</del>
-                    </subst> guerre<add xml:id="f17vop2_s1">s</add>
-                    <substJoin target=" #f17vop2_a_la_aux #f17vop2_s1"/>.</s></p>
+                        <add><del facs="#f17v02_i_huict_dix" xml:id="f17v02_huict_dix">huict ou
+                                dix</del></add>
+                    </subst>ses <metamark facs="#f17v02_i_metamark_1" function="insert"
+                        target="#f17v02_dix" xml:id="f17v02_metamark_1">^</metamark><add
+                        facs="#f17v02_i_dix" xml:id="f17v02_dix">dix></add><substJoin
+                        target=" #f17v02_huict_dix #f17v02_metamark_1 #f17v02_dix"/> freres qui sont
+                    presque touts morts a<subst xml:id="f17v02_a_la_aux">
+                        <add facs="#f17v02_i_ux">ux</add>
+                        <del facs="#f17v02_i_la">la</del>
+                    </subst> guerre<add facs="#f17v02_i_s1" xml:id="f17v02_s1">s</add>
+                    <substJoin target=" #f17v02_a_la_aux #f17v02_s1"/>.</s></p>
         </body>
     </text>
 </TEI>
