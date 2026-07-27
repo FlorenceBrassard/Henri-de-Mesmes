@@ -21,55 +21,69 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/382,2688,2786,1889/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/382,2688,2786,1889/full/0/default.jpg"/>
+            <zone xml:id="f19v08_i_mais" points="1924,138 1924,209 2153,185 2172,119"/>
+            <zone xml:id="f19v08_i_metamark1" points="2162,152 2081,214 2248,214"/>
+            <zone xml:id="f19v08_i_metamark2" points="2110,52 2043,114 2129,114"/>
+            <zone xml:id="f19v08_i_il_a" points="2091,14 2038,123 2719,76 2686,4"/>
+            <zone xml:id="f19v08_i_lors" points="1910,63 1873,156 2066,113 2073,46"/>
+            <zone xml:id="f19v08_i_apres_cela" points="1720,56 1746,173 2060,56 2023,13"/>
+            <zone xml:id="f19v08_i_de1" points="553,347 553,504 724,485 686,347"/>
+            <zone xml:id="f19v08_i_a_er" points="1038,357 1038,457 1153,442 1153,342"/>
+            <zone xml:id="f19v08_i_et_fer" points="957,433 934,538 2586,400 2605,300"/>
+            <zone xml:id="f19v08_i_bertrandy_ieu" points="700,509 705,804 2105,685 2781,395"/>
         </surface>
         <surface>
             <graphic url=""/>
-<!--            Ajouter photo marge de droite sur Nakala-->
+            <!--            Ajouter photo marge de droite sur Nakala-->
         </surface>
     </facsimile>
     <text>
         <body>
             <p><s><subst>
-                        <del xml:id="f19vop9_mais" seq="1"><choice>
+                        <del facs="#f19v08_i_mais" xml:id="f19v08_mais" seq="1"><choice>
                                 <orig>m</orig>
                                 <reg>M</reg>
-                            </choice>ais <metamark function="insert" target="#f19vop9_il_a"
-                                >^</metamark></del>
-                        <del seq="2"><add seq="1" xml:id="f19vop9_lors"><choice>
+                            </choice>ais <del facs="#f19v08_i_metamark1" xml:id="f19v08_metamark1"
+                                    ><metamark function="insert" target="#f19v08_il_a"
+                                >^</metamark></del></del>
+                        <del seq="2"><add facs="#f19v08_lors" seq="1" xml:id="f19v08_lors"><choice>
                                     <orig>l</orig>
                                     <reg>L</reg>
                                 </choice>ors</add></del>
-                        <add seq="2"><choice>
+                        <add facs="#f19v08_i_apres_cela" seq="2"><choice>
                                 <orig>a</orig>
                                 <reg>A</reg>
                             </choice>pres cela</add>
-                    </subst><add xml:id="f19vop9_il_a"><del xml:id="f19vop9_metamark_2"
+                    </subst><add facs="#f19v08_i_il_a" xml:id="f19v08_il_a"><del
+                            facs="#f19v08_i_metamark2" xml:id="f19v08_metamark_2"
                                 ><metamark>^</metamark></del> il sembla bon <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice></add><substJoin
-                        target="#f19vop9_metamark_2 #f19vop9_mais #f19vop9_lors"/>
+                        target="#f19v08_mais #f19v08_metamark1 #f19v08_metamark_2 #f19v08_lors"/>
                     <roleName ref="https://isni.org/isni/0000000000812616">mon pere</roleName>
-                    <add xml:id="f19vop9_de1">de</add> m<choice>
+                    <add facs="#f19v08_i_de1" xml:id="f19v08_de1">de</add> m<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oi<subst xml:id="f19vop9_a_er">
+                    </choice>oi<subst facs="#f19v08_i_a_er" xml:id="f19v08_a_er">
                         <del rend="overwritten">a</del>
                         <add place="superimposed">er</add>
                     </subst>
-                    <substJoin target="#f19vop9_il_a #f19vop9_de1 #f19vop9_a_er"/> a la cour a<choice>
+                    <substJoin target="#f19v08_il_a #f19v08_de1 #f19v08_a_er"/> a la cour a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec le garde des seaus <subst>
-                        <del><persName ref="https://isni.org/isni/0000000112609540"><surname><choice>
+                        <del facs="#f19v08_i_bertrandy_ieu"><persName
+                                ref="https://isni.org/isni/0000000112609540"><surname><choice>
                                         <abbr><g ref="#ber-glyph">ƀ</g></abbr>
                                         <expan>Ber</expan>
                                     </choice>trandy</surname></persName></del>
-                        <add><del>et <choice>
+                        <add facs="#f19v08_i_et_fer"><del>et <choice>
                                     <abbr><g ref="#qui-glyph">ꝙ</g></abbr>
                                     <expan>qui</expan>
                                 </choice></del> depuys <del>f<unclear reason="deleted"

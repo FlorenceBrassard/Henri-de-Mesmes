@@ -21,7 +21,15 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1029,1394,2525,708/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1029,1394,2525,708/full/0/default.jpg"/>
+            <zone xml:id="f19v04_i_a_quoy" points="934,135 934,230 1174,208 1143,130"/>
+            <zone xml:id="f19v04_i_daigna" points="1221,95 1252,191 1456,174 1461,104"/>
+            <zone xml:id="f19v04_i_y" points="1456,104 1456,200 1547,182 1547,100"/>
+            <zone xml:id="f19v04_i_er_a" points="1700,143 1674,269 1787,269 1795,161"/>
+            <zone xml:id="f19v04_i_tesmoigna_pere" points="1978,126 1982,222 2521,204 2513,117"/>
+            <zone xml:id="f19v04_i_de_main" points="752,278 747,365 1195,343 1191,256"/>
+            <zone xml:id="f19v04_i_il_pere" points="821,339 800,456 2100,365 2091,265"/>
         </surface>
     </facsimile>
     <text>
@@ -31,16 +39,16 @@
                                 <orig>i</orig>
                                 <reg>I</reg>
                             </choice>l voulut y</del>
-                        <add><del xml:id="f19vop5_a_quoy"><choice>
+                        <add><del facs="#f19v04_a_quoy" xml:id="f19v04_a_quoy"><choice>
                                     <orig>a</orig>
                                     <reg>À</reg>
-                                </choice> quoy</del> il <del xml:id="f19vop5_daigna">daigna
-                                </del><add xml:id="f19vop5_y">y</add></add>
-                    </subst> assist<subst xml:id="f19vop5_er_a">
+                                </choice> quoy</del> il <del facs="#f19v04_i_daigna"
+                                xml:id="f19v04_daigna">daigna </del><add facs="#f19v04_i_y"
+                                xml:id="f19v04_y">y</add></add>
+                    </subst> assist<subst facs="#f19v04_er_a" xml:id="f19v04_er_a">
                         <del rend="overwritten">er</del>
                         <add place="superimposed">a</add>
-                    </subst><substJoin
-                        target="#f19vop5_a_quoy #f19vop5_daigna #f19vop5_y #f19vop5_er_a"
+                    </subst><substJoin target="#f19v04_a_quoy #f19v04_daigna #f19v04_y #f19v04_er_a"
                         /><add>luymesme <subst>
                             <del>et</del>
                             <add>a<choice>
@@ -50,18 +58,18 @@
                         </subst> toute l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>escole</add> et <add xml:id="f19vop5_tesmoigna_pere">tesmoigna <choice>
+                        </choice>escole</add> et <add facs="#f19v04_tesmoigna_pere" xml:id="f19v04_tesmoigna_pere">tesmoigna <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> mon pere</add> par <choice>
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
-                    </choice> latines <add xml:id="f19vop5_de_main">de sa main</add>
-                    <del xml:id="f19vop5_il_pere">il tesmoigna <choice>
+                    </choice> latines <add facs="#f19v04_i_de_main" xml:id="f19v04_de_main">de sa main</add>
+                    <del facs="#f19v04_i_il_pere" xml:id="f19v04_il_pere">il tesmoigna <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> mon pere</del><substJoin
-                        target="#f19vop5_tesmoigna_pere #f19vop5_de_main #f19vop5_il_pere"/> qu<choice>
+                        target="#f19v04_tesmoigna_pere #f19v04_de_main #f19v04_il_pere"/> qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il n<choice>

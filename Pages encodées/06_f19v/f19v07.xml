@@ -21,7 +21,14 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/297,2044,3185,956/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/297,2044,3185,956/full/0/default.jpg"/>
+         <zone xml:id="f19v07_i_publiquement" points="1217,267 1700,239 1634,322 1217,355"/>
+         <zone xml:id="f19v07_i_metamark1" points="1289,372 1206,505 1378,505"/>
+         <zone xml:id="f19v07_i_metamark2" points="2173,222 2173,328 2300,283 2295,222"/>
+         <zone xml:id="f19v07_i_metamark3" points="2489,278 2423,372 2545,372"/>
+         <zone xml:id="f19v07_i_en_parlement" points="0,344 761,294 1095,517 56,833"/>
+         <zone xml:id="f19v07_i_trois_ie" points="2384,172 2400,278 3128,294 3156,183"/>
       </surface>
    </facsimile>
    <text>
@@ -43,12 +50,12 @@
                <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>e disputay <metamark function="insert" target="#f19vop8_publiquement"
-                  >^</metamark><add xml:id="f19vop8_publiquement">publiquement</add> e<subst>
+               </choice>e disputay <metamark facs="#f19v07_i_metamark1" function="insert" target="#f19v07_publiquement"
+                  >^</metamark><add facs="#f19v07_i_publiquement" xml:id="f19v07_publiquement">publiquement</add> e<subst>
                   <del rend="overwritten">n</del>
                   <add place="superimposed">z</add>
-               </subst> escoles de decret <metamark function="insert" target="#f19vop8_en_parlement"
-                  >+</metamark><add xml:id="f19vop8_en_parlement"><metamark>+</metamark>en grande <subst>
+               </subst> escoles de decret <metamark facs="#f19v07_i_metamark2" function="insert" target="#f19v07_en_parlement"
+                  >+</metamark><add facs="#f19v07_en_parlement" xml:id="f19v07_en_parlement"><metamark>+</metamark>en grande <subst>
                      <del>assemblée</del>
                      <add><choice>
                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
@@ -57,8 +64,8 @@
                   </subst><del>pour estre cogneu de la plus</del>
                   <add><del>du</del> presque de tout le parlement</add>
                </add>
-               <del>po</del> et <metamark function="insert" target="#f19vop8_trois_ie"
-                  >^</metamark><add xml:id="f19vop8_trois_ie"><metamark>^</metamark>trois <choice>
+               <del>po</del> et <metamark facs="#f19v07_i_metamark3" function="insert" target="#f19v07_trois_ie"
+                  >^</metamark><add facs="#f19v07_i_trois_ie" xml:id="f19v07_trois_ie"><metamark>^</metamark>trois <choice>
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>ours apres <choice>

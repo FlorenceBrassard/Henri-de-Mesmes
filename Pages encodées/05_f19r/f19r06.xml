@@ -22,15 +22,17 @@
    <facsimile>
       <surface>
          <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/358,3796,2858,1996/full/0/default.jpg"
-         />
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/358,3796,2858,1996/full/0/default.jpg"/>
+         <zone xml:id="f19r06_i_force" points="1670,790 1645,940 1930,905 1955,795"/>
+         <zone xml:id="f19r06_i_suffisance" points="1740,745 1735,830 2115,785 2105,715"/>
+         <zone xml:id="f19r06_i_cueur" points="2240,780 2240,860 2545,860 2540,790"/>
+         <zone xml:id="f19r06_i_confidance" points="2255,730 2270,820 2655,775 2655,675"/>
+         <zone xml:id="f19r06_i_metamark" points="2665,695 2660,820 2800,810 2790,680"/>
       </surface>
       <surface>
-         <graphic
-            url=""
-         />
+         <graphic url=""/>
       </surface>
-<!--      Ajouter photo marge sur Nakala-->
+      <!--      Ajouter photo marge sur Nakala-->
    </facsimile>
    <text>
       <body>
@@ -62,15 +64,16 @@
                </choice>y <subst>
                   <del>rendre</del>
                   <add>aporter</add>
-               </subst> autant de <subst xml:id="f19rop8_force_suffisance">
-                  <del>force</del>
-                  <add>suffisance</add>
-               </subst> que de <subst xml:id="f19rop8_cueur_confidance">
-                  <del>cueur</del>
-                  <add>confidance</add>
-               </subst><substJoin target="#f19rop8_force_suffisance #f19rop8_cueur_confidance"/>.
-               </s><metamark function="insert" target="#f19rop8_en_france">++</metamark>
-            <add xml:id="f19rop8_en_france"><metamark>++</metamark><s>
+               </subst> autant de <subst>
+                  <del facs="#f19r06_i_force" xml:id="f19r06_force">force</del>
+                  <add facs="#f19r06_i_suffisance" xml:id="f19r06_suffisance">suffisance</add>
+               </subst> que de <subst>
+                  <del facs="#f19r06_i_cueur" xml:id="f19r06_cueur">cueur</del>
+                  <add facs="#f19r06_i_confidance" xml:id="f19r06_confidance">confidance</add>
+               </subst><substJoin
+                  target=" #f19r06_force #f19r06_suffisance #f19r06_cueur #f19r06_confidance"/>.
+               </s><metamark facs="#f19r06_i_metamark" function="insert" target="#f19r06_en_france">++</metamark>
+            <add xml:id="f19r06_en_france"><metamark>++</metamark><s>
                   <choice>
                      <orig>e</orig>
                      <reg>E</reg>
@@ -172,14 +175,14 @@
                            </choice>ibrac</surname></persName> et moy, come elles ont depuys <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
-                     </choice>tinué aux estats et <metamark function="insert" target="#f19rop8_aux"
-                        >^</metamark><add xml:id="f19rop8_aux">aux</add> afaires <add
-                        xml:id="f19rop8_de_france">de la <choice>
+                     </choice>tinué aux estats et <metamark function="insert" target="#f19r06_aux"
+                        >^</metamark><add xml:id="f19r06_aux">aux</add> afaires <add
+                        xml:id="f19r06_de_france">de la <choice>
                            <orig>f</orig>
                            <reg>F</reg>
                         </choice>rance</add>
-                     <substJoin target="#f19rop8_aux #f19rop8_de_france"
-                     /><supplied>.</supplied></add></s></add></p>
+                     <substJoin target="#f19r06_aux #f19r06_de_france"
+                  /><supplied>.</supplied></add></s></add></p>
       </body>
    </text>
 </TEI>

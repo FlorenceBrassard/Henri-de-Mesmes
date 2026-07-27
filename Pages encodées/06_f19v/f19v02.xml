@@ -21,13 +21,21 @@
     </teiHeader>
     <facsimile>
         <surface>
-        <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/895,969,2506,489/full/0/default.jpg"
-        /></surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/895,969,2506,489/full/0/default.jpg"/>
+            <zone xml:id="f19v02_i_il_voulut" points="548,179 535,314 1005,253 1000,161"/>
+            <zone xml:id="f19v02_i_nous_arriuée" points="609,114 618,209 1805,118 1792,44"/>
+            <zone xml:id="f19v02_i_et_bon" points="1805,31 1805,105 2444,87 2439,18"/>
+            <zone xml:id="f19v02_i_a_on" points="1748,135 1722,240 1805,240 1831,140"/>
+            <zone xml:id="f19v02_i_place" points="1831,144 1826,257 2170,266 2174,140"/>
+            <zone xml:id="f19v02_i_lieu" points="1848,74 1805,174 2035,179 1996,83"/>
+            <zone xml:id="f19v02_i_de_arriuée" points="613,340 613,466 1387,431 1383,283"/>
+            <zone xml:id="f19v02_i_matin_francoys" points="700,266 700,370 1531,314 1531,205"/>
+        </surface>
     </facsimile>
     <text>
         <body>
-            <p><s><add xml:id="f19vop2-3_nous_larriuée"><choice>
+            <p><s><add facs="#f19v02_nous_larriuée" xml:id="f19v02_nous_larriuée"><choice>
                             <orig>n</orig>
                             <reg>N</reg>
                         </choice>ous le saluasmes le soir <choice>
@@ -39,35 +47,34 @@
                         </choice>arri<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ée.</add></s><s><subst xml:id="f19vop2-3_et_voulut">
-                        <add><choice>
+                        </choice>ée.</add></s><s><subst>
+                        <add facs="#f19v02_i_et_bon" xml:id="f19v02_et_bon"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
                             </choice>t il luy sembla bon </add>
-                        <del>il voulut</del>
+                        <del facs="#f19v02_i_il_voulut" xml:id="f19v02_il_voulut">il voulut</del>
                     </subst><substJoin
-                        target="#f19vop2-3_nous_larriuée #f19vop2-3_et_voulut #f19vop2-3_de_françoys"
+                        target="#f19v02_nous_larriuée #f19v02_et_bon #f19v02_il_voulut #f19v02_de_arriuée #f19v02_matin_françoys"
                     /> que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e leusse en s<subst xml:id="f19v2-3_a_on">
+                    </choice>e leusse en s<subst facs="#f19v02_i_a_on" xml:id="f19v02_a_on">
                         <del rend="overwritten">a</del>
                         <add place="superimposed">on</add>
                     </subst>
-                    <subst xml:id="f19v2-3_place_lieu">
-                        <del>place</del>
-                        <add>lieu</add>
+                    <subst>
+                        <del facs="#f19v02_i_place" xml:id="f19v02_place">place</del>
+                        <add facs="#f19v02_i_lieu" xml:id="f19v02_lieu">lieu</add>
                     </subst>
-                    <substJoin target="#f19v2-3_sa_son #f19v2-3_place_lieu"/> lendemain <subst
-                        xml:id="f19vop2-3_de_françoys">
-                        <del>de <choice>
+                    <substJoin target="#f19v02_a_on #f19v02_place #f19v02_lieu"/> lendemain <subst>
+                        <del facs="#f19v02_i_de_arriuée" xml:id="f19v02_de_arriuée">de <choice>
                                 <abbr rend="overlined">nre</abbr>
                                 <expan>nostre</expan>
                             </choice>arri<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ée</del>
-                        <add>matin <choice>
+                        <add facs="#f19v02_matin_françoys" xml:id="f19v02_matin_françoys">matin <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>our de <choice>

@@ -22,8 +22,15 @@
    <facsimile>
       <surface>
          <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/956,2554,2663,1315/full/0/default.jpg"
-         />
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/956,2554,2663,1315/full/0/default.jpg"/>
+         <zone xml:id="f19r05_i_demy_an" points="2114,168 2114,318 2386,318 2386,163"/>
+         <zone xml:id="f19r05_i_et_an_add" points="1045,313 1050,377 1541,341 1536,277"/>
+         <zone xml:id="f19r05_i_et_an_del" points="1055,323 1059,381 1545,345 1546,287"/>
+         <zone xml:id="f19r05_i_mais" points="1127,368 1145,454 1418,427 1405,345"/>
+         <zone xml:id="f19r05_i_apres" points="1445,359 1450,472 1705,468 1718,341"/>
+         <zone xml:id="f19r05_i_trois" points="1732,313 1727,463 2073,477 2073,318"/>
+         <zone xml:id="f19r05_i_mois" points="14,600 14,700 291,691 264,586"/>
+         <zone xml:id="f19r05_i_puys" points="95,518 95,650 318,618 314,509"/>
       </surface>
    </facsimile>
    <text>
@@ -32,7 +39,7 @@
                   <orig>a</orig>
                   <reg>A</reg>
                </choice>u bout des deux ans et demy nous leumes en public <add
-                  xml:id="f19rop5-6_demy_an">demy an</add>
+                  facs="#f19r05_demy_an" xml:id="f19r05_demy_an">demy an</add>
                <choice>
                   <orig>a</orig>
                   <reg>à</reg>
@@ -40,17 +47,16 @@
                   <orig/>
                   <reg>'</reg>
                </choice>escole des institutes. </s><s><subst>
-                  <del xml:id="f19rop5-6_mais">mais</del>
-                  <add xml:id="f19rop5-6_et_an_add"><del xml:id="f19rop5-6_et_an_del">et demy
-                        an</del></add>
+                  <del facs="#f19r05_i_mais" xml:id="f19r05_mais">mais</del>
+                  <add facs="#f19r05_i_et_an_add" xml:id="f19r05_et_an_add"><del
+                        facs="#f19r05_i_et_an_del" xml:id="f19r05_et_an_del">et demy an</del></add>
                </subst>
-               <del><del rend="unmarked" xml:id="f19rop5-6_apres">apres</del>
-                  <del xml:id="f19rop5-6_trois_mois">trois mois</del></del>
-               <substJoin seq="1"
-                  target="#f19rop5-6_mais #f19rop5-6_trois_mois #f19rop5-6_et_an_add"/>
-               <substJoin seq="2" target="#f19rop5-6_et_an_del #f19rop5-6_demy_an"/>
-               <substJoin seq="3" target="#f19rop5-6_apres #f19rop5-6_puys"/>
-               <add xml:id="f19rop5-6_puys"><choice>
+               <del><del facs="#f19r05_i_apres" rend="unmarked" xml:id="f19r05_apres">apres</del>
+                  <del facs="#f19r05_i_trois #f19r05_i_mois" xml:id="f19r05_trois_mois">trois mois</del></del>
+               <substJoin seq="1" target="#f19r05_mais #f19r05_trois_mois #f19r05_et_an_add"/>
+               <substJoin seq="2" target="#f19r05_et_an_del #f19r05_demy_an"/>
+               <substJoin seq="3" target="#f19r05_apres #f19r05_puys"/>
+               <add facs="#f19r05_i_puys" xml:id="f19r05_puys"><choice>
                      <orig>p</orig>
                      <reg>P</reg>
                   </choice>uys</add> nous <subst>

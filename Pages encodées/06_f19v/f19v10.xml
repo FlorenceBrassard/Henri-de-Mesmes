@@ -21,12 +21,15 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1095,4077,2509,1383/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1095,4077,2509,1383/full/0/default.jpg"/>
+            <zone xml:id="f19v010_i_metamark1" points="587,-4 1100,1382 1235,1347 752,0"/>
+            <zone xml:id="f19v010_i_metamark_bon" points="2296,8 2296,247 2496,247 2496,17"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <p><undo target="#f19vop11_et_de"/><del xml:id="f19vop11_et_de"><s>
+            <ab><undo target="#f19v10_et_de"/><metamark facs="#f19v010_i_metamark1" function="delete" rend="a_decrire"></metamark><del xml:id="f19v10_et_de"><s>
                         <choice>
                             <orig>e</orig>
                             <reg>E</reg>
@@ -88,7 +91,7 @@
                             <del>, et de</del>
                             <add>.</add>
                         </subst></s></del>
-                <metamark function="undo" target="f19vop10.xml f19vop11-12.xml">bon</metamark></p>
+                <metamark facs="#f19v010_i_metamark_bon" function="undo" target="f19v08.xml #f19v10_et_de">bon</metamark></ab>
         </body>
     </text>
 </TEI>

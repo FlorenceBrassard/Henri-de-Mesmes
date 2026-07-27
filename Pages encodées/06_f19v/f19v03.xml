@@ -21,7 +21,11 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/983,1181,2373,574/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/983,1181,2373,574/full/0/default.jpg"/>
+         <zone xml:id="f19v03_i_et" points="1888,64 1892,168 2024,156 2012,48"/>
+         <zone xml:id="f19v03_i_prenant" points="2024,36 2024,176 2356,144 2356,16"/>
+         <zone xml:id="f19v03_i_leu_pris" points="48,284 52,464 832,396 804,244"/>
       </surface>
    </facsimile>
    <text>
@@ -29,13 +33,13 @@
          <p><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
-               </choice>t que je fey <del xml:id="f19vop4_et">et</del><add xml:id="f19vop4_prenant"
-                  >prenant</add><del>leu ce qu<choice>
+               </choice>t que je fey <del facs="#f19v03_i_et" xml:id="f19v03_et">et</del><add facs="#f19v03_i_prenant" xml:id="f19v03_prenant"
+                  >prenant</add><del facs="#f19v03_i_leu_pris" xml:id="f19v03_leu_pris">leu ce qu<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>il</del>
-               <del xml:id="f19vop4_pris">pris</del>
-               <substJoin target="#f19vop4_et #f19vop4_pris #f19vop4_prenant"/> la loy o<choice>
+               <del>pris</del>
+               <substJoin target="#f19v03_et #f19v03_leu_pris #f19v03_prenant"/> la loy o<choice>
                   <orig>u</orig>
                   <reg>ù</reg>
                </choice> il estoit demouré le <choice>

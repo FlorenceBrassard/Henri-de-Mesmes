@@ -21,25 +21,29 @@
     </teiHeader>
     <facsimile>
         <surface>
-        <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/941,1968,2508,890/full/0/default.jpg"
-        />
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/932,1908,2568,952/full/0/default.jpg"/>
+            <zone xml:id="f19r04_i_metamark1" points="948,187 900,252 1013,252"/>
+            <zone xml:id="f19r04_i_a_iour" points="796,91 796,183 2526,130 2526,52"/>
+            <zone xml:id="f19r04_i_nous_lut" points="978,139 1000,244 2083,213 2065,109"/>
+            <zone xml:id="f19r04_i_lisions_lres" points="-9,383 -9,453 1013,391 1026,296"/>
+            <zone xml:id="f19r04_i_vn_promenoir" points="39,300 48,383 1461,278 1443,209"/>
+            <zone xml:id="f19r04_i_nous" points="1683,235 1683,317 2013,278 2009,209"/>
+            <zone xml:id="f19r04_i_metamark2" points="1448,630 1448,717 1556,717 1565,635"/>
         </surface>
         <surface>
-            <graphic
-                url=""
-            />
+            <graphic url=""/>
         </surface>
-<!--        Ajouter photo sur Nakala-->
+        <!--        Ajouter photo sur Nakala-->
     </facsimile>
     <text>
         <body>
             <p><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
-                    </choice>es festes <metamark function="insert" rend="unclear"
-                        target="#f19r04_a_iour">^</metamark><add xml:id="f19r04_a_iour"
-                            ><metamark>^</metamark><choice>
+                    </choice>es festes <metamark facs="#f19r04_i_metamark1" function="insert"
+                        rend="unclear" target="#f19r04_a_iour">^</metamark><add
+                        facs="#f19r04_i_a_iour" xml:id="f19r04_a_iour"><metamark>^</metamark><choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> la grand messe et vespres<choice>
@@ -50,15 +54,18 @@
                             <reg>j</reg>
                         </choice>our</add>
                     <subst>
-                        <del seq="2" xml:id="f19r04_nous_lres">nous aprenions du lut lisions des
-                            bones <choice>
+                        <del seq="2" facs="#f19r04_i_nous_lut #f19r04_i_lisions_lres"
+                            xml:id="f19r04_nous_lres">nous aprenions du lut lisions des bones <choice>
                                 <abbr rend="overlined">lres</abbr>
                                 <expan>lettres</expan>
                             </choice>,</del>
-                        <add>un peu de musique et de promenoir</add>
-                    </subst><del seq="1"> et</del> quelquefois <add xml:id="f19r04_nous"
-                        >nous</add><substJoin target="#f19r04_nous_lres #f19r04_nous"/> alions
-                    disner chez <subst seq="2">
+                        <add facs="#f19r04_i_vn_promenoir"><choice>
+                                <orig>v</orig>
+                                <reg>u</reg>
+                            </choice>n peu de musique et de promenoir</add>
+                    </subst><del seq="1"> et</del> quelquefois <add facs="#f19r04_i_nous"
+                        xml:id="f19r04_nous">nous</add><substJoin
+                        target="#f19r04_nous_lres #f19r04_nous"/> alions disner chez <subst seq="2">
                         <del>les premiers <choice>
                                 <abbr rend="overlined">hoes</abbr>
                                 <expan>hommes</expan>
@@ -86,7 +93,7 @@
                     </subst><choice>
                         <orig/>
                         <reg>.</reg>
-                    </choice><metamark function="insert"
+                    </choice><metamark facs="#f19r04_i_metamark2" function="insert"
                         target="#f19r04_le_faber">+</metamark><add xml:id="f19r04_le_faber"
                             ><metamark>+</metamark><choice>
                             <orig>l</orig>
@@ -109,9 +116,9 @@
                         </choice>ec nous <persName ref="https://isni.org/isni/000000011036923X"
                                 ><forename>Hadrianus</forename>
                             <surname>Turnebus</surname></persName><choice>
-                                <orig/>
-                                <reg>,</reg>
-                            </choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice>
                         <persName ref="https://isni.org/isni/0000000442462721"
                                 ><forename>Dionysius</forename>
                             <surname>Lambinus</surname></persName>, <persName

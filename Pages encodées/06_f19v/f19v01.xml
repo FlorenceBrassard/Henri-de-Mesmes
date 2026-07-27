@@ -21,59 +21,69 @@
     </teiHeader>
     <facsimile>
         <surface>
-        <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/880,473,2652,869/full/0/default.jpg"
-        /></surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/880,473,2652,869/full/0/default.jpg"/>
+            <zone xml:id="f19v01_i_et1" points="2122,332 2118,409 2236,409 2245,305"/>
+            <zone xml:id="f19v01_i_et_celebrité" points="2627,164 2627,382 1963,300 1959,232"/>
+            <zone xml:id="f19v01_i_et2" points="13,537 4,673 118,673 118,550"/>
+            <zone xml:id="f19v01_i_de1" points="159,519 154,664 290,664 304,500"/>
+            <zone xml:id="f19v01_i_et_frequence" points="731,496 740,609 13,669 13,491"/>
+            <zone xml:id="f19v01_i_et3" points="759,523 768,605 877,605 886,509"/>
+            <zone xml:id="f19v01_i_de2" points="818,423 818,532 959,537 954,432"/>
+            <zone xml:id="f19v01_i_maiesté" points="881,519 881,609 1245,596 1263,459"/>
+        </surface>
     </facsimile>
     <text>
         <body>
             <p><s><choice>
-                    <orig>p</orig>
-                    <reg>P</reg>
-                </choice>assasmes en <placeName><choice>
-                        <orig>a</orig>
-                        <reg>A</reg>
-                    </choice><choice>
+                        <orig>p</orig>
+                        <reg>P</reg>
+                    </choice>assasmes en <placeName><choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice><choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ignon</placeName> pour voir <persName
+                        ref="https://isni.org/isni/0000000115620980"><forename><choice>
+                                <orig>æ</orig>
+                                <reg>Æ</reg>
+                            </choice>milius</forename>
+                        <surname><choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>erretus</surname></persName> qui lors lisoit a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ignon</placeName> pour voir <persName
-                    ref="https://isni.org/isni/0000000115620980"><forename><choice>
-                            <orig>æ</orig>
-                            <reg>Æ</reg>
-                        </choice>milius</forename>
-                    <surname><choice>
-                            <orig>f</orig>
-                            <reg>F</reg>
-                        </choice>erretus</surname></persName> qui lors lisoit a<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>ec plus d<subst>
-                    <del rend="overwritten">e</del>
-                    <add place="superimposed"><choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>a</add>
-                </subst>pparat <del seq="1" xml:id="f19vop1_et1">et</del>
-                <add seq="3" xml:id="f19vop1_et_celebrité">et de <subst>
-                        <del>celebrité</del>
-                        <add>reputation</add>
-                    </subst></add>
-                <del seq="3" xml:id="f19vop1_et_frequence"><add seq="2" xml:id="f19vop1_et2"
-                        >et</add></del><del seq="1" xml:id="f19vop1_de1">de</del>
-                <del>frequence</del>
-                <del seq="2" xml:id="f19vop1_et3">et</del>
-                <del seq="1" xml:id="f19vop1_de2"><add seq="1">de</add></del>
-                <del seq="2" xml:id="f19vop1_maiesté">ma<choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>esté</del> que lecteur de son <subst>
-                    <del seq="1">temps</del>
-                    <del seq="2"><add seq="1">siecle</add></del>
-                    <add seq="2">temps</add>
+                    </choice>ec plus d<subst>
+                        <del rend="overwritten">e</del>
+                        <add place="superimposed"><choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>a</add>
+                    </subst>pparat <del seq="1" facs="#f19v01_i_et1" xml:id="f19v01_et1">et</del>
+                    <add seq="3" facs="#f19v01_i_et_celebrité" xml:id="f19v01_et_celebrité">et de <subst>
+                            <del>celebrité</del>
+                            <add>reputation</add>
+                        </subst></add>
+                    <del seq="3" facs="#f19v01_i_et_frequence"><add seq="2" facs="#f19v01_et2"
+                            xml:id="f19v01_et2">et</add></del><del seq="1" facs="#f19v01_i_de1"
+                        xml:id="f19v01_de1">de</del>
+                    <del>frequence</del>
+                    <del seq="2" facs="#f19v01_i_et3" xml:id="f19v01_et3">et</del>
+                    <del seq="1" facs="#f19v01_i_de2" xml:id="f19v01_de2"><add seq="1"
+                        >de</add></del>
+                    <del seq="2" facs="#f19v01_i_maiesté" xml:id="f19v01_maiesté">ma<choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>esté</del> que lecteur de son <subst>
+                        <del seq="1">temps</del>
+                        <del seq="2"><add seq="1">siecle</add></del>
+                        <add seq="2">temps</add>
                     </subst>.</s></p>
-            <substJoin seq="1" target="#f19vop1_et1 #f19vop1_de1 #f19vop1_de2"/>
-            <substJoin seq="2" target=" #f19vop1_et2 #f19vop1_et3 #f19vop1_maiesté"/>
-            <substJoin seq="3" target="#f19vop1_et_celebrité #f19vop1_et_frequence"/>
+            <substJoin seq="1" target="#f19v01_et1 #f19v01_de1 #f19v01_de2"/>
+            <substJoin seq="2" target=" #f19v01_et2 #f19v01_et3 #f19v01_maiesté"/>
+            <substJoin seq="3" target="#f19v01_et_celebrité #f19v01_et_frequence"/>
             <p/>
         </body>
     </text>
