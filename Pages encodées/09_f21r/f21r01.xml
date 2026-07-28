@@ -19,41 +19,62 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/299,2199,3297,1111/full/0/default.jpg"/>
+            <zone xml:id="f21r01_i_Tellement_quaiant" points="522,261 522,395 1394,317 1389,200"/>
+            <zone xml:id="f21r01_i_conclud_doner" points="1678,150 1672,272 2200,245 2211,122"/>
+            <zone xml:id="f21r01_i_des" points="2450,172 2405,306 2605,317 2611,228"/>
+            <zone xml:id="f21r01_i_aux" points="2711,150 2689,306 2489,217 2505,150"/>
+            <zone xml:id="f21r01_i_x" points="2650,150 2589,311 2689,317 2728,145"/>
+            <zone xml:id="f21r01_i_metamark1" points="1094,489 1039,572 1133,589"/>
+            <zone xml:id="f21r01_i_acorder_la" points="972,406 955,489 1350,478 1339,400"/>
+            <zone xml:id="f21r01_i_pape_les" points="2735,105 2690,255 3250,260 3240,110"/>
+            <zone xml:id="f21r01_i_point_del" points="1385,450 1385,515 1430,515 1435,450"/>
+            <zone xml:id="f21r01_i_saincte_aportée" points="1335,370 1335,435 2330,410 2320,305"/>
+            <zone xml:id="f21r01_i_metamark2" points="1195,685 1155,780 1295,760 1295,705"/>
+            <zone xml:id="f21r01_i_pour_feu" points="580,775 575,1115 0,1105 -5,765"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><del><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>ais ce fut en vain.</del></s>
-                <s><add xml:id="f21rop1-2_Tellement_quaiant">Tellement qu'aiant</add>
+                <s><add facs="#f21r01_i_Tellement_quaiant" xml:id="f21r01_Tellement_quaiant"
+                        >Tellement qu'aiant</add>
                     <del>s<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>estans</del> peu apres <subst>
                         <del>resolu au</del>
-                        <add xml:id="f21rop1-2_conclud_doner">conclud <add xml:id="f21rop1-2_de"
-                                >de</add> doner</add>
+                        <add facs="#f21r01_i_conclud_doner" xml:id="f21r01_conclud_doner">conclud
+                                <add>de</add> doner</add>
                     </subst><substJoin seq="1"
-                        target="#f21rop1-2_Tellement_quaiant #f21rop1-2_conclud_doner #f21rop1_des_aux #f21rop1-2_acorder_la #f21rop1-2_point_add"
-                    />secours <subst xml:id="f21rop1_des_aux">
-                        <del>des</del>
-                        <add><del><metamark function="insert">+</metamark></del> au<del
-                                xml:id="f21rop1-2_x">x</del></add>
+                        target="#f21r01_Tellement_quaiant #f21r01_conclud_doner #f21r01_des #f21r01_aux #f21r01_acorder_la #f21r01_point_add"
+                    />secours <subst>
+                        <del facs="#f21r01_i_des" xml:id="f21r01_des">des</del>
+                        <add facs="#f21r01_i_aux" xml:id="f21r01_aux"><del><metamark
+                                    function="insert">+</metamark></del> au<del facs="#f21r01_i_x"
+                                xml:id="f21r01_x">x</del></add>
                     </subst>
-                    <substJoin target="#f21rop1_conclud-doner #f21rop1_aux"/>
-                    <add xml:id="f21rop1-2_pape_les"><roleName
+                    <substJoin target="#f21r01_conclud-doner #f21r01_aux"/>
+                    <add xml:id="f21r01_pape_les"><roleName
                             ref="https://isni.org/isni/0000000448838048">Pape</roleName> contre
                         les</add>
-                    <substJoin target="#f21rop1-2_x #f21rop1_Pape_les"/><persName><surname><choice>
+                    <substJoin target="#f21r01_x #f21r01_pape_les"/><persName><surname><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
-                            </choice>olonois</surname></persName> et <metamark function="insert"
-                        target="#f21rop1-2_acorder_la">^</metamark><add xml:id="f21rop1-2_acorder_la"
-                            ><metamark>^</metamark>acorder la</add> ligue <add
-                        xml:id="f21rop1-2_saincte_aportée">saincte qui luy fut aportée</add><add
-                            xml:id="f21rop1-2_point_add"><del rend="unmarked" xml:id="f21rop1-2_point_del">.</del>
-                        </add><substJoin seq="2"
-                            target="#f21rop1-2_saincte_aportée #f21rop1-2_point_del"/> d<choice>
+                            </choice>olonois</surname></persName> et <metamark
+                        facs="#f21r01_i_metamark1" function="insert" target="#f21r01_acorder_la"
+                        >^</metamark><add facs="#f21r01_i_acorder_la" xml:id="f21r01_acorder_la"
+                            ><metamark>^</metamark>acorder la</add> ligue <add facs="#f21r01_i_saincte_aportée"
+                        xml:id="f21r01_saincte_aportée">saincte qui luy fut aportée</add><add
+                        xml:id="f21r01_point_add"><del facs="#f21r01_i_point_del" rend="unmarked" xml:id="f21r01_point_del"
+                            >.</del>
+                    </add><substJoin seq="2" target="#f21r01_saincte_aportée #f21r01_point_del"/> d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice><placeName><choice>
@@ -82,7 +103,7 @@
                     </choice>estois lors <del>pour</del> par son <choice>
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>com</expan>
-                    </choice>mandement <metamark function="insert" target="#f21rop1-2_pour_feu"
+                    </choice>mandement <metamark facs="#f21r01_i_metamark2" function="insert" target="#f21r01_pour_feu"
                         >+</metamark><subst>
                         <del>pour <subst>
                                 <del>le</del>
@@ -97,7 +118,7 @@
                                 <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                                 <expan>par</expan>
                             </choice>tie de la ville.</del>
-                        <add xml:id="f21rop1-2_pour_feu"><metamark>+</metamark> pour doner ordre <choice>
+                        <add facs="#f21r01_pour_feu" xml:id="f21r01_pour_feu"><metamark>+</metamark> pour doner ordre <choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice> ceste ville <choice>

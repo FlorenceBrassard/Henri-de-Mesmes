@@ -19,6 +19,23 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/785,2993,2905,1285/full/0/default.jpg"/>
+         <zone xml:id="f21r02_i_aux" points="1935,340 1935,445 2210,435 2205,325"/>
+         <zone xml:id="f21r02_i_afers_et" points="65,605 70,820 905,710 890,600"/>
+         <zone xml:id="f21r02_i_au" points="795,545 795,610 900,615 900,535"/>
+         <zone xml:id="f21r02_i_metamark1" points="1595,550 1555,670 1660,670"/>
+         <zone xml:id="f21r02_i_de_lestat" points="1480,455 1425,545 1830,520 1875,420"/>
+         <zone xml:id="f21r02_i_u" points="2165,790 2155,840 2220,840 2235,780"/>
+         <zone xml:id="f21r02_i_montalcin" points="2595,780 2595,855 2225,875 2255,765"/>
+         <zone xml:id="f21r02_i_sienois" points="2865,785 2855,870 2585,845 2610,750"/>
+         <zone xml:id="f21r02_i_qui_doubtoit" points="1335,825 1325,1015 2055,945 2045,765"/>
+         <zone xml:id="f21r02_i_destre" points="80,1125 85,1285 465,1245 445,1100"/>
+         <zone xml:id="f21r02_i_denuiron_mois" points="770,1000 770,1110 1640,1030 1625,935"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <p><s><subst>
@@ -58,25 +75,25 @@
                      </subst></add>
                   <del>et</del>
                </subst>
-               <subst xml:id="f21rop3_aux_au">
-                  <del>aux <choice>
+               <subst>
+                  <del facs="#f21r02_i_aux #f21r02_i_afers_et" xml:id="f21r02_aux_et">aux <choice>
                         <abbr>afe<hi rend="superscript">r</hi>s</abbr>
                         <expan>afaires</expan>
                      </choice> d<choice>
                         <orig>e</orig>
                         <reg>'E</reg>
                      </choice>stat et</del>
-                  <add>au</add>
+                  <add facs="#f21r02_i_au" xml:id="f21r02_au">au</add>
                </subst>
                <choice>
                   <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                   <expan>con</expan>
-               </choice>seil estroit <metamark function="insert" target="#f21rop3_de_lestat"
-                  >^</metamark><add xml:id="f21rop3_de_lestat"><metamark>^</metamark>de l<choice>
+               </choice>seil estroit <metamark facs="#f21r02_i_metamark1" function="insert" target="#f21r02_de_lestat"
+                  >^</metamark><add facs="#f21r02_i_de_lestat" xml:id="f21r02_de_lestat"><metamark>^</metamark>de l<choice>
                      <orig>e</orig>
                      <reg>'E</reg>
-                  </choice>stat</add><substJoin target="#f21rop3_aux_au #f21rop3_de_lestat"/> en ce
-               voiage pour <del>a<unclear reason="cancelled">u</unclear></del>
+                  </choice>stat</add><substJoin target="#f21r02_aux_et #f21r02_au #f21r02_de_lestat"/>
+               en ce voiage pour <del>a<unclear reason="cancelled">u</unclear></del>
                <choice>
                   <orig/>
                   <reg>,</reg>
@@ -93,18 +110,18 @@
                </choice> me rendre incontin<choice>
                   <abbr>ã</abbr>
                   <expan>an</expan>
-               </choice>t a <add xml:id="f21rop3_u">u</add>
-               <subst xml:id="f21rop3_montalcin_sienois">
-                  <del><placeName><choice>
+               </choice>t a <add facs="#f21r02_i_u" xml:id="f21r02_u">u</add>
+               <subst>
+                  <del facs="#f21r02_i_montalcin" xml:id="f21r02_montalcin"><placeName><choice>
                            <orig>m</orig>
                            <reg>M</reg>
                         </choice>ontalcin</placeName></del>
-                  <add><placeName><choice>
+                  <add facs="#f21r02_i_sienois" xml:id="f21r02_sienois"><placeName><choice>
                            <orig>s</orig>
                            <reg>S</reg>
                         </choice>ienois</placeName></add>
                </subst>
-               <substJoin target="#f21rop3_u #f21rop3_montalcin_sienois"/>
+               <substJoin target="#f21r02_u #f21r02_montalcin #f21r02_sienois"/>
                <subst>
                   <del>en ma</del>
                   <del> et y <choice>
@@ -143,15 +160,15 @@
                   </choice>embre 155<subst>
                      <del rend="overwritten">5</del>
                      <add place="superimposed">6</add>
-                  </subst></date> et laissay ma femme <del xml:id="f21rop3_qui_destre">qui se
+                  </subst></date> et laissay ma femme <del facs="#f21r02_i_qui_doubtoit #f21r02_i_destre" xml:id="f21r02_qui_destre">qui se
                   doubtoit d<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>estre</del> grosse <add xml:id="f21rop3_denuiron_mois">d'en<choice>
+                  </choice>estre</del> grosse <add facs="#f21r02_i_denuiron_mois" xml:id="f21r02_denuiron_mois">d'en<choice>
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>iron deux mois</add><substJoin
-                  target="#f21rop3_qui_destre #f21rop3_denuiron_mois"/>.</s></p>
+                  target="#f21r02_qui_destre #f21r02_denuiron_mois"/>.</s></p>
       </body>
    </text>
 </TEI>

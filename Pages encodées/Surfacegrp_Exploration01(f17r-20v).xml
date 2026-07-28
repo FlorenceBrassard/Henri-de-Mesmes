@@ -83,7 +83,7 @@
                     <zone xml:id="f19r07" lry="5249" lrx="3250" uly="4693" ulx="907"/>
                 </surface>
             </surface>
-            <surface type="04_f18v.json">
+            <surface type="04_f19v.json">
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/full/full/0/native.jpg"/>
                 <zone xml:id="f19v01" lry="1314" lrx="3529" uly="514" ulx="886"/>
@@ -96,6 +96,45 @@
                 <zone xml:id="f19v08" lry="4557" lrx="3587" uly="2893" ulx="322"/>
                 <zone xml:id="f19v09" lry="4357" lrx="3615" uly="3814" ulx="972"/>
                 <zone xml:id="f19v10" lry="5471" lrx="3608" uly="4078" ulx="1093"/>
+            </surface>
+            <surface type="04_f20r.json">
+                <surface>
+                    <graphic
+                        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f45/full/full/0/native.jpg"/>
+                    <zone xml:id="f20r01" lry="1321" lrx="3600" uly="577" ulx="770"/>
+                    <zone xml:id="f20r02" lry="5078" lrx="3686" uly="1114" ulx="336"/>
+                    <zone xml:id="f20r03_01" lry="5421" lrx="3086" uly="4842" ulx="792"/>
+                </surface>
+                <surface>
+                    <graphic
+                        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/full/full/0/native.jpg"/>
+                    <zone xml:id="f20r03_2" lry="3249" lrx="3579" uly="435" ulx="900"/>
+                </surface>
+            </surface>
+            <surface type="04_f20v.json">
+                <surface>
+                    <graphic
+                        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/full/full/0/native.jpg"/>
+                    <zone xml:id="f20v01" lry="3585" lrx="3593" uly="2985" ulx="1000"/>
+                    <zone xml:id="f20v02" lry="4621" lrx="3608" uly="3342" ulx="1000"/>
+                    <zone xml:id="f20v03" lry="4914" lrx="3257" uly="4421" ulx="1000"/>
+                    <zone xml:id="f20v04_1" lry="5542" lrx="3600" uly="4635" ulx="993"/>
+                </surface>
+                <surface>
+                    <graphic
+                        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/full/full/0/native.jpg"/>
+                    <zone xml:id="f20v04_2" lry="2485" lrx="2986" uly="442" ulx="300"/>
+                </surface>
+            </surface>
+            <surface type="05_f21r.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/full/full/0/native.jpg"/>
+                <zone xml:id="f21r01" lry="1435" lrx="3257" uly="521" ulx="686"/>
+                <zone xml:id="f21r02" lry="2021" lrx="3801" uly="1164" ulx="207"/>
+                <zone xml:id="f21r03" lry="2735" lrx="3822" uly="1685" ulx="207"/>
+                <zone xml:id="f21r04" lry="3207" lrx="3822" uly="2135" ulx="650"/>
+                <zone xml:id="f21r05" lry="3742" lrx="3115" uly="2929" ulx="272"/>
+                <zone xml:id="f21r06" lry="5743" lrx="3815" uly="3629" ulx="243"/>
             </surface>
         </surfaceGrp>
     </facsimile>

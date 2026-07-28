@@ -19,9 +19,19 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/912,4858,2098,448/full/0/default.jpg"
+         />
+      </surface>
+   </facsimile>
    <text>
       <body>
-         <p><s><choice><orig>m</orig><reg>M</reg></choice>ais <choice>
+         <p><s><choice>
+                  <orig>m</orig>
+                  <reg>M</reg>
+               </choice>ais <choice>
                   <orig>i</orig>
                   <reg>j'</reg>
                </choice>estois filz de famille et ne fus <choice>

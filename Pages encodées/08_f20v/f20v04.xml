@@ -23,19 +23,24 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/639,4624,3219,903/full/0/default.jpg"/>
-            <zone xml:id="f20vop4_i_me" lry="244" lrx="2500" uly="183" ulx="2377"/>
-            <zone xml:id="f20vop4_i_quelque" lry="300" lrx="2990" uly="165" ulx="2730"/>
-            <zone xml:id="f20vop4_i_essay_estudes" points="425,440 400,575 1445,470 1450,375"/>
-            <zone xml:id="f20vop4_i_favoriser_avancement"
+            <zone xml:id="f20v04_i_me" lry="244" lrx="2500" uly="183" ulx="2377"/>
+            <zone xml:id="f20v04_i_quelque" lry="300" lrx="2990" uly="165" ulx="2730"/>
+            <zone xml:id="f20v04_i_essay_estudes" points="425,440 400,575 1445,470 1450,375"/>
+            <zone xml:id="f20v04_i_favoriser_avancement"
                 points="2372,300 2377,505 2950,516 2983,300"/>
         </surface>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/267,311,3490,2182/full/0/default.jpg"
-                xml:id="f21ro_haut"/>
-            <zone xml:id="f20vop4_i_metamark_1_del" lry="1300" lrx="2162" uly="1222" ulx="2055"/>
-            <zone xml:id="f20vop4_i_bientost" lry="1177" lrx="2394" uly="1107" ulx="2062"/>
-            <zone xml:id="f20vop4_i_un_iour" points="2125,1175 2124,1218 2445,1197 2444,1167"/>
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/267,311,3490,2182/full/0/default.jpg"/>
+            <zone xml:id="f20v04_i_metamark2" lry="1300" lrx="2162" uly="1222" ulx="2055"/>
+            <zone xml:id="f20v04_i_bientost" lry="1177" lrx="2394" uly="1107" ulx="2062"/>
+            <zone xml:id="f20v04_i_un_iour" points="2125,1175 2124,1218 2445,1197 2444,1167"/>
+            <zone xml:id="f20v04_i_metamark1" points="1224,1165 1218,1282 1318,1276 1324,1147"/>
+            <zone xml:id="f20v04_i_et_iustice" points="0,1276 624,1265 624,1594 -4,1612"/>
+            <zone xml:id="f20v04_i_vers_les" points="236,1070 253,1276 589,1259 648,1059"/>
+            <zone xml:id="f20v04_i_t_ent" points="2448,1000 2448,1117 2671,1117 2659,988"/>
+            <zone xml:id="f20v04_i_metamark3" points="748,1782 677,1912 824,1912"/>
+            <zone xml:id="f20v04_i_de_mon" points="995,1700 995,1806 742,1812 742,1706"/>
         </surface>
     </facsimile>
     <text>
@@ -58,14 +63,13 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>aimer, et</del>
-                        <add facs="f20vop4_i_me" seq="2" xml:id="f20vop4_me">me</add>
-                        <add seq="1">gouster <del facs="f20vop4_i_quelque #f20vop4_i_essay_estudes"
-                                seq="2" xml:id="f20vop4_quelque_estudes">quelque essay de mes <choice>
+                        <add facs="f20v04_i_me" seq="2" xml:id="f20v04_me">me</add>
+                        <add seq="1">gouster <del facs="f20v04_i_quelque #f20v04_i_essay_estudes"
+                                seq="2" xml:id="f20v04_quelque_estudes">quelque essay de mes <choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>eunes estudes</del></add>
-                        <add facs="f20vop4_i_et_auancement" seq="2" xml:id="f20vop4_et_auancement"
-                            >et fa<choice>
+                        <add facs="f20v04_i_et_auancement" seq="2" xml:id="f20v04_et_auancement">et fa<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oriser mon a<choice>
@@ -73,7 +77,7 @@
                                 <reg>v</reg>
                             </choice>ancement,</add>
                     </subst><substJoin
-                        target="#f20vop4_me #f20vop4_quelque_estudes #f20vop4_et_auancement"/> a<choice>
+                        target="#f20v04_me #f20v04_quelque_estudes #f20v04_et_auancement"/> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit <choice>
@@ -94,7 +98,7 @@
                     </choice> des Requestes <add>come <choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>e faisois</add><pb facs="#f21ro_haut"/> dont <choice>
+                        </choice>e faisois</add><pb/> dont <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>'ay la depesche signée <persName><surname><choice>
@@ -157,7 +161,7 @@
                             </choice>oier</add>
                     </subst><subst>
                         <del>au pays</del>
-                        <add xml:id="f20vop4_vers_les">vers les</add>
+                        <add facs="#f20v04_i_vers_les" xml:id="f20v04_vers_les">vers les</add>
                     </subst>
                     <choice>
                         <orig>s</orig>
@@ -171,13 +175,14 @@
                         </choice>man</del>.</s><s><choice>
                         <orig>q</orig>
                         <reg>Q</reg>
-                    </choice>ui lors estoi<subst xml:id="f20vop4_t_ent">
+                    </choice>ui lors estoi<subst facs="#f20v04_i_t_ent" xml:id="f20v04_t_ent">
                         <del rend="overwritten">t</del>
                         <add place="superimposed">ent</add>
-                    </subst><substJoin target="#f20vop4_vers_les 
-                           #f20vop4_t_ent"/> en sa protection <metamark
-                        function="insert" target="#f20vop4_et_iustice">+</metamark><add
-                        xml:id="f20vop4_et_iustice">et luy demandoient <choice>
+                    </subst><substJoin target="#f20v04_vers_les 
+                           #f20v04_t_ent"/> en sa protection <metamark
+                        facs="#f20v04_i_metamark1" function="insert" target="#f20v04_et_iustice"
+                        >+</metamark><add facs="#f20v04_i_et_iustice" xml:id="f20v04_et_iustice">et
+                        luy demandoient <choice>
                             <orig>v</orig>
                             <reg>u</reg>
                         </choice>n chef de <choice>
@@ -195,12 +200,12 @@
                     </subst> descou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>rit <del facs="#f20vop4_i_metamark_1_del"
-                        xml:id="f20vop4_metamark_1_del"><metamark function="insert"
-                            target=" #f20vop4_bientost">^</metamark></del><subst>
-                        <del facs="#f20vop4_bientost" xml:id="f20vop4_bientost_del"><add seq="1"
-                                xml:id="f20vop4_bientost">bientost</add></del>
-                        <add facs="f20vop4_i_un_iour" seq="2" xml:id="f20vop4_un_iour"><choice>
+                    </choice>rit <del facs="#f20v04_i_metamark_2" xml:id="f20v04_metamark2"
+                            ><metamark function="insert" target=" #f20v04_bientost"
+                        >^</metamark></del><subst>
+                        <del facs="#f20v04_i_bientost" xml:id="f20v04_bientost_del"><add seq="1"
+                                xml:id="f20v04_bientost">bientost</add></del>
+                        <add facs="f20v04_i_un_iour" seq="2" xml:id="f20v04_un_iour"><choice>
                                 <orig>v</orig>
                                 <reg>u</reg>
                             </choice>n <choice>
@@ -208,8 +213,7 @@
                                 <reg>j</reg>
                             </choice>our</add>
                     </subst>
-                    <substJoin
-                        target="#f20vop4_bientost_del #f20vop4_metamark_1_del #f20vop4_un_iour"/>
+                    <substJoin target="#f20v04_bientost_del #f20v04_metamark2 #f20v04_un_iour"/>
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -232,8 +236,8 @@
                     </choice>oir l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>excuse de ma jeunesse et <del><metamark function="insert"
-                            target="#f20vop4_de_mon">^</metamark><add xml:id="f20vop4_de_mon">de mon
+                    </choice>excuse de ma jeunesse et <del><metamark facs="#f20v04_i_metamark3" function="insert"
+                            target="#f20v04_de_mon">^</metamark><add facs="#f20v04_de_mon" xml:id="f20v04_de_mon">de mon
                         </add></del> peu d<choice>
                         <orig/>
                         <reg>'</reg>

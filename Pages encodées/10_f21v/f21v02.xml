@@ -19,6 +19,22 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/801,645,2744,1209/full/0/default.jpg"/>
+            <zone xml:id="f21v02_i_virgule" points="624,291 581,372 705,367"/>
+            <zone xml:id="f21v02_i_qui_est" points="652,267 662,391 1000,362 1000,234"/>
+            <zone xml:id="f21v02_i_iuge" points="1467,196 1481,296 1691,239 1672,129"/>
+            <zone xml:id="f21v02_i_Cest_et" points="638,162 638,272 1290,253 1290,148"/>
+            <zone xml:id="f21v02_i_metamark1" points="1824,824 1743,934 1871,934"/>
+            <zone xml:id="f21v02_i_ores_grand" points="1843,729 1786,805 2424,776 2410,705"/>
+            <zone xml:id="f21v02_i_vil_grand" points="2414,738 1810,881 1629,891 1748,753"/>
+            <zone xml:id="f21v02_i_mais_toutesfois" points="2167,805 2167,915 2752,872 2743,696"/>
+            <zone xml:id="f21v02_i_fort_casuel" points="771,1034 729,1143 243,1176 243,1072"/>
+            <zone xml:id="f21v02_i_bien_vil" points="100,962 110,1072 852,1038 852,957"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
@@ -31,23 +47,23 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ustice<choice>
-                        <orig><del rend="unmarked" xml:id="f21vop2_virgule">,</del></orig>
+                        <orig><del facs="#f21v02_i_virgule" rend="unmarked" xml:id="f21v02_virgule">,</del></orig>
                         <reg>.</reg>
                     </choice>
-                    <subst xml:id="f21vop2_qui_et">
-                        <del>qui est</del>
-                        <add>C<choice>
+                    <subst>
+                        <del facs="#f21v02_i_qui_est" xml:id="f21v02_qui_est">qui est</del>
+                        <add facs="#f21v02_i_Cest_et" xml:id="f21v02_Cest_et">C<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>est le premier et</add>
                     </subst> sou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>erain <add xml:id="f21vop2_iuge"><choice>
+                    </choice>erain <add facs="#f21v02_i_iuge" xml:id="f21v02_iuge"><choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>uge</add><substJoin
-                        target="#f21vop2_virgule #f21vop2_qui_et #f21vop2_iuge"/> ez matieres
+                        target="#f21v02_virgule #f21v02_qui_et #f21v02_iuge"/> ez matieres
                     criminelles. <choice>
                         <orig>m</orig>
                         <reg>M</reg>
@@ -80,13 +96,13 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e feis en quitant ce<del>st</del>
-                    <del xml:id="f21vop2_vil_grand">vil <metamark function="insert"
-                            target="#f21vop2_ores_grand">^</metamark>
-                       <add xml:id="f21vop2_ores_grand">ores que bien grand</add></del> profit,
-                        <subst xml:id="f21vop2_mais_casuel">
-                        <del>mais gros <add>toutesfois</add> et fort casuel</del>
-                        <add>bien grand et bien vil</add>
-                    </subst><substJoin target="#f21vop2_vil_grand #f21vop2_mais_casuel"/>, que <choice>
+                    <del facs="#f21v02_i_vil_grand" xml:id="f21v02_vil_grand">vil <metamark facs="#f21v02_i_metamark1" function="insert"
+                            target="#f21v02_ores_grand">^</metamark>
+                        <add facs="#f21v02_i_ores_grand" xml:id="f21v02_ores_grand">ores que bien grand</add></del> profit,
+                        <subst>
+                            <del facs="#f21v02_i_mais_toutesfois #f21v02_i_fort_casuel" xml:id="f21v02_mais_casuel">mais gros <add>toutesfois</add> et fort casuel</del>
+                        <add facs="#f21v02_i_bien_vil" xml:id="f21v02_bien_vil">bien grand et bien vil</add>
+                    </subst><substJoin target="#f21v02_vil_grand #f21v02_mais_casuel"/>, que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e demouray sou<choice>

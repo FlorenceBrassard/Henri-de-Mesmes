@@ -19,6 +19,18 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/674,4451,2324,644/full/0/default.jpg"/>
+         <zone xml:id="f21r04_i_y" points="1216,216 1180,328 1276,356 1308,224"/>
+         <zone xml:id="f21r04_i_e" points="1212,160 1212,236 1316,236 1308,144"/>
+         <zone xml:id="f21r04_i_metamark1" points="1776,208 1696,288 1804,292"/>
+         <zone xml:id="f21r04_i_a_Rome" points="1696,104 1696,216 2068,168 2076,92"/>
+         <zone xml:id="f21r04_i_qui_estoit" points="940,352 940,524 1836,412 1828,288"/>
+         <zone xml:id="f21r04_i_la" points="2268,292 2232,372 2328,360 2320,280"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <p><s><subst>
@@ -26,45 +38,50 @@
                         <orig>e</orig>
                         <reg>E</reg>
                      </choice>t me fut faicte</del>
-            <add><choice>
-               <orig>de</orig>
-               <reg>Dè</reg>
-               </choice>s lors on me feit</add>
-               </subst> instance d<subst xml:id="f21rop5_y_e">
-                  <del>y</del>
-                  <add>e</add>
-               </subst> demourer <metamark function="insert" target="#f21rop5_a_Rome"
-               >^</metamark><add xml:id="f21rop5_a_Rome"><metamark>^</metamark><choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice>
+                  <add><choice>
+                        <orig>de</orig>
+                        <reg>Dè</reg>
+                     </choice>s lors on me feit</add>
+               </subst> instance d<subst>
+                  <del facs="#f21r04_i_y" xml:id="f21r04_y">y</del>
+                  <add facs="#f21r04_i_e"  xml:id="f21r04_e">e</add>
+               </subst> demourer <metamark facs="#f21r04_i_metamark1" function="insert" target="#f21r04_a_Rome"
+                  >^</metamark><add facs="#f21r04_i_a_Rome" xml:id="f21r04_a_Rome"><metamark>^</metamark><choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice>
                   <placeName>Rome</placeName></add><choice>
-                     <orig/>
-                     <reg>,</reg>
-                  </choice><substJoin
-               target="#f21rop5_y_e #f21rop5_a_Rome"/> successeur de <choice>
-               <abbr>m<hi rend="superscript">r</hi></abbr>
-               <expan>monsieur</expan>
-               </choice><persName ref="https://isni.org/isni/0000000061748267"><nameLink>de</nameLink>
-               <surname>Sel<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>e</surname></persName>
-            <del xml:id="f21rop5_qui_estoit">qui lors y estoit</del> Ambassad<choice>
-               <abbr>u<hi rend="superscript">r</hi></abbr>
-               <expan>eur</expan>
-            </choice>
-            <add xml:id="f21rop5_la">l<choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-            </choice></add><substJoin target="#f21rop5_qui_estoit #f21rop5_la"/><subst>
+                  <orig/>
+                  <reg>,</reg>
+               </choice><substJoin target="#f21r04_y #f21r04_e #f21r04_a_Rome"/> successeur de <choice>
+                  <abbr>m<hi rend="superscript">r</hi></abbr>
+                  <expan>monsieur</expan>
+               </choice><persName ref="https://isni.org/isni/0000000061748267"
+                     ><nameLink>de</nameLink>
+                  <surname>Sel<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                     </choice>e</surname></persName>
+               <del facs="#f21r04_i_qui_estoit" xml:id="f21r04_qui_estoit">qui lors y estoit</del> Ambassad<choice>
+                  <abbr>u<hi rend="superscript">r</hi></abbr>
+                  <expan>eur</expan>
+               </choice>
+               <add facs="#f21r04_i_la" xml:id="f21r04_la">l<choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice></add><substJoin target="#f21r04_qui_estoit #f21r04_la"/><subst>
                   <del>du <roleName ref="https://isni.org/isni/0000000395001884"
-                     >Roy</roleName></del><add> <subst><add>qui</add><del>et</del></subst> retournoit vers le <roleName
+                     >Roy</roleName></del>
+                  <add>
+                     <subst>
+                        <add>qui</add>
+                        <del>et</del>
+                     </subst> retournoit vers le <roleName
                         ref="https://isni.org/isni/0000000395001884">Roy</roleName></add>
-            </subst><choice>
-               <orig><del>.</del></orig>
-               <reg>.</reg>
-            </choice></s>
+               </subst><choice>
+                  <orig><del>.</del></orig>
+                  <reg>.</reg>
+               </choice></s>
          </p>
       </body>
    </text>

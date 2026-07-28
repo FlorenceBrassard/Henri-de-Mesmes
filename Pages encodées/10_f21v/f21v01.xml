@@ -19,6 +19,14 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/841,295,2721,624/full/0/default.jpg"/>
+            <zone xml:id="f21v01_i_metamark1" points="659,314 609,409 736,400"/>
+            <zone xml:id="f21v01_i_1557" points="536,159 532,314 809,273 800,127"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><del><add><choice>
@@ -31,8 +39,8 @@
                     <choice>
                         <orig>p</orig>
                         <reg>P</reg>
-                    </choice>asques <metamark function="insert" target="#f21vop1_1557"
-                        >^</metamark><add xml:id="f21vop1_1557"
+                    </choice>asques <metamark facs="#f21v01_i_metamark1" function="insert" target="#f21v01_1557"
+                        >^</metamark><add facs="#f21v01_i_1557" xml:id="f21v01_1557"
                             ><metamark>^</metamark><date>1557</date></add>
                     <choice>
                         <orig>i</orig>

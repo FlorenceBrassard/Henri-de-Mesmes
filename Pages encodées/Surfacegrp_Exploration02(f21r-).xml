@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface type="05_f21r.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/full/full/0/native.jpg"/>
+                <zone xml:id="f21r01" lry="3357" lrx="3593" uly="2237" ulx="286"/>
+                <zone xml:id="f21r02" lry="4300" lrx="3708" uly="2957" ulx="779"/>
+                <zone xml:id="f21r04" lry="5092" lrx="3007" uly="4441" ulx="657"/>
+                <zone xml:id="f21r03" lry="5349" lrx="3779" uly="3943" ulx="850"/>
+                <zone xml:id="f21r05" lry="5371" lrx="2993" uly="4800" ulx="915"/>
+            </surface>
+            <surface type="06_f21v.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/full/full/0/native.jpg"/>
+                <zone xml:id="f21v01" lry="871" lrx="3550" uly="394" ulx="957"/>
+                <zone xml:id="f21v02" lry="1849" lrx="3572" uly="607" ulx="893"/>
+                <zone xml:id="f21v03" lry="2157" lrx="3594" uly="1528" ulx="1036"/>
+                <zone xml:id="f21v04" lry="2271" lrx="3564" uly="1841" ulx="1022"/>
+                <zone xml:id="f21v05" lry="2592" lrx="3586" uly="1899" ulx="993"/>
+                <zone xml:id="f21v06" lry="2735" lrx="3586" uly="2271" ulx="1015"/>
+                <zone xml:id="f21v07" lry="2892" lrx="3593" uly="2428" ulx="1007"/>
+                <zone xml:id="f21v08" lry="3707" lrx="3593" uly="2671" ulx="993"/>
+                <zone xml:id="f21v09" lry="5607" lrx="3615" uly="3371" ulx="1057"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+</TEI>

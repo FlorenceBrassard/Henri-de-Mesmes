@@ -19,6 +19,17 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/965,2187,2625,539/full/0/default.jpg"/>
+            <zone xml:id="f21v06_i_metamark1" points="441,427 391,527 523,527"/>
+            <zone xml:id="f21v06_i_venue" points="391,340 368,450 682,395 677,336"/>
+            <zone xml:id="f21v06_i_venue_del" points="455,327 423,431 659,390 659,331"/>
+            <zone xml:id="f21v06_i_de_ste" points="682,331 668,413 1096,363 1109,250"/>
+            <zone xml:id="f21v06_i_de_france" points="500,381 482,490 896,495 909,377"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s>Pendant que <choice>
@@ -44,15 +55,16 @@
                     <choice>
                         <abbr>n<hi rend="overlined">re</hi></abbr>
                         <expan>nostre</expan>
-                    </choice> armée <metamark function="insert" target="#f21vop6_venue"
-                        >^</metamark><add xml:id="f21vop6_venue"
-                            ><metamark>^</metamark><del>venue</del></add>
+                    </choice> armée <metamark facs="#f21v06_i_metamark1" function="insert" target="#f21v06_venue"
+                        >^</metamark><add facs="#f21v06_i_venue" xml:id="f21v06_venue"
+                            ><metamark>^</metamark><del facs="#f21v06_i_venue_del"
+                            xml:id="f21v06_venue_del">venue</del></add>
                     <subst>
-                        <del>de <placeName><choice>
+                        <del facs="#f21v06_i_de_france" xml:id="f21v06_de_france">de <placeName><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>rance</placeName></del>
-                        <add>de la ligue <choice>
+                        <add facs="#f21v06_i_de_ste" xml:id="f21v06_de_ste">de la ligue <choice>
                                 <abbr>s<hi rend="superscript">te</hi></abbr>
                                 <expan>saincte</expan>
                             </choice></add>

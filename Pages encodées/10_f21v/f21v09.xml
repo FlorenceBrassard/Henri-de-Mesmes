@@ -19,6 +19,25 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1054,3338,2553,2346/full/0/default.jpg"/>
+            <zone xml:id="f21v09_i_et" points="1100,665 1074,756 1218,721 1218,652"/>
+            <zone xml:id="f21v09_i_sr" points="1352,1052 1265,1143 1300,1152 1405,1060"/>
+            <zone xml:id="f21v09_i_metamark1" points="1396,1043 1335,1130 1426,1130"/>
+            <zone xml:id="f21v09_i_baron" points="1257,986 1257,1060 1548,1039 1526,947"/>
+            <zone xml:id="f21v09_i_vieilles_add" points="505,1600 500,1695 761,1678 787,1586"/>
+            <zone xml:id="f21v09_i_vieilles_del" points="1648,1573 1652,1713 2105,1700 2131,1569"/>
+            <zone xml:id="f21v09_i_metamark2" points="474,1691 431,1804 540,1808"/>
+            <zone xml:id="f21v09_i_metamark3" points="439,1839 361,1968 474,1955"/>
+            <zone xml:id="f21v09_i_blacons" points="370,1769 379,1865 652,1847 639,1756"/>
+            <zone xml:id="f21v09_i_C" points="1770,1721 1705,1882 1805,1882 1852,1726"/>
+            <zone xml:id="f21v09_i_aussans_undo" points="2213,1791 2200,1865 1752,1860 1757,1821"/>
+            <zone xml:id="f21v09_i_aussans" points="1826,1756 1779,1839 2192,1808 2170,1721"/>
+            <zone xml:id="f21v09_i_et_Montalcino" points="26,869 22,1000 1700,869 1696,786"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
@@ -52,7 +71,8 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <del xml:id="f21vop9_et"><add>et</add></del> que le <roleName ref="Q32500">Roy d<choice>
+                    <del facs="#f21v09_i_et" xml:id="f21v09_et"><add>et</add></del> que le <roleName
+                        ref="Q32500">Roy d<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>
@@ -63,9 +83,9 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <add xml:id="f21vop9_et_Montalcino">et distant seulement de deux mile de
-                            <placeName>Montalcino</placeName><substJoin
-                            target="#f21vop9_et #f21vop9_et_Montalcino"/></add><choice>
+                    <add facs="#f21v09_i_et_Montalcino" xml:id="f21v09_et_Montalcino">et distant
+                        seulement de deux mile de <placeName>Montalcino</placeName><substJoin
+                            target="#f21v09_et #f21v09_et_Montalcino"/></add><choice>
                         <orig/>
                         <reg>.</reg>
                     </choice>
@@ -83,13 +103,13 @@
                         <del rend="overwritten">s</del>
                         <add place="superimposed">s</add>
                     </subst><del rend="unmarked">t</del> expeditions militaires furent le <del
-                        xml:id="f21vop9_sr"><choice>
+                        facs="#f21v09_i_sr" xml:id="f21v09_sr"><choice>
                             <abbr>s<hi rend="superscript">r</hi></abbr>
                             <expan>seigneur</expan>
-                        </choice></del><metamark function="insert" target="#f21vop9_baron"
-                        >^</metamark><add xml:id="f21vop9_baron"
-                        ><metamark>^</metamark>baron</add><substJoin
-                        target="#f21vop9_sr #f21vop9_baron"/>
+                        </choice></del><metamark facs="#f21v09_i_metamark1" function="insert"
+                        target="#f21v09_baron">^</metamark><add facs="#f21v09_i_baron"
+                        xml:id="f21v09_baron"><metamark>^</metamark>baron</add><substJoin
+                        target="#f21v09_sr #f21v09_baron"/>
                     <persName ref="Q597422"><nameLink>de</nameLink>
                         <surname>Serres</surname></persName>
                     <choice>
@@ -146,23 +166,26 @@
                     </choice>ec <choice>
                         <abbr>le<hi rend="superscript">rs</hi></abbr>
                         <expan>leurs</expan>
-                    </choice>
-                    <add xml:id="f21vop9_vieilles_add">vieilles</add>
+                    </choice><metamark facs="#f21v09_i_metamark2" function="insert"
+                        target="#f21v09_vieilles_add">^</metamark>
+                    <add facs="#f21v09_i_vieilles_add" xml:id="f21v09_vieilles_add">vieilles</add>
                     <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>com</expan>
                     </choice>paignées fran<choice>
                         <orig>c</orig>
                         <reg>ç</reg>
-                    </choice>oyses <del xml:id="f21vop9_vieilles_del">vieilles</del><substJoin
-                        target="#f21vop9_vieilles_del #f21vop9_vieilles_add"/>, les capitaines <persName><surname><choice>
+                    </choice>oyses <del facs="#f21v09_i_vieilles_del" xml:id="f21v09_vieilles_del"
+                        >vieilles</del><substJoin target="#f21v09_vieilles_del #f21v09_vieilles_add"
+                    />, les capitaines <persName><surname><choice>
                                 <orig>l</orig>
                                 <reg>L</reg>
                             </choice>ussan</surname></persName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice><metamark function="insert" target="#f21vop9_blacons">^</metamark><add
-                        xml:id="f21vop9_blacons"><metamark>^</metamark><persName><surname><choice>
+                    </choice><metamark facs="#f21v09_i_metamark3" function="insert"
+                        target="#f21v09_blacons">^</metamark><add facs="#f21v09_i_blacons" xml:id="f21v09_blacons"
+                            ><metamark>^</metamark><persName><surname><choice>
                                     <orig>b</orig>
                                     <reg>B</reg>
                                 </choice>lacons</surname></persName><choice>
@@ -175,12 +198,11 @@
                             </choice>anson</surname></persName>,<persName><surname><choice>
                                 <orig>a</orig>
                                 <reg>A</reg>
-                            </choice>ntrecasteaus</surname></persName>, <persName><surname><add
-                                xml:id="f21vop9_C">C</add><undo rend="underlined"
-                                target="#f21vop9_aussans" xml:id="f21rop9_aussans_undo"/><del
-                                xml:id="f21vop9_aussans"
-                        >aussans</del></surname></persName><substJoin
-                        target="#f21vop9_C #f21vop9_ussans_undo"/>, et autres<choice>
+                            </choice>ntrecasteaus</surname></persName>, <persName><surname><add facs="#f21v09_i_C"
+                                xml:id="f21v09_C">C</add><undo facs="#f21v09_i_aussans_undo" rend="underlined"
+                                target="#f21v09_aussans" xml:id="f21rop9_aussans_undo"/><del facs="#f21v09_i_aussans"
+                                xml:id="f21v09_aussans">aussans</del></surname></persName><substJoin
+                        target="#f21v09_C #f21v09_ussans_undo"/>, et autres<choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> demourant <del>en</del> le <choice>

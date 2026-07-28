@@ -19,6 +19,21 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1035,2532,2558,1139/full/0/default.jpg"/>
+            <zone xml:id="f21v08_i_metamark1" points="1579,309 1496,383 1652,383"/>
+            <zone xml:id="f21v08_i_et" points="1570,222 1539,326 1639,296 1679,222"/>
+            <zone xml:id="f21v08_i_chef_sur" points="2339,248 2339,322 2548,313 2535,240"/>
+            <zone xml:id="f21v08_i_au_Sienois" points="2087,187 2105,274 2552,253 2518,157"/>
+            <zone xml:id="f21v08_i_toute_sur" points="39,444 39,540 1496,457 1487,370"/>
+            <zone xml:id="f21v08_i_mesme" points="587,496 583,605 874,583 879,474"/>
+            <zone xml:id="f21v08_i_au_et" points="1100,474 1100,574 1813,526 1805,418"/>
+            <zone xml:id="f21v08_i_que_auoient" points="1513,700 1513,835 2505,731 2483,622"/>
+            <zone xml:id="f21v08_i_par_espaignols" points="492,974 465,1140 1452,1057 1461,918"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><del><choice>
@@ -44,24 +59,23 @@
                         <expan>monsieur</expan>
                     </choice>
                     <persName ref="Q28495"><nameLink>de</nameLink> Guise</persName><metamark
-                        function="insert" target="#f21vop8_et">^</metamark><add xml:id="f21vop8_et"
-                        >et</add>
+                        facs="#f21v08_i_metamark1" function="insert" target="#f21v08_et"
+                        >^</metamark><add facs="#f21v08_i_et" xml:id="f21v08_et">et</add>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e demourray <subst xml:id="f21vop8_chef_sur">
-                        <del>chef sur</del>
-                        <add>au <placeName>Sienois</placeName> a<choice>
+                    </choice>e demourray <subst>
+                        <del facs="#f21v08_i_chef_sur" xml:id="f21v08_chef_sur">chef sur</del>
+                        <add facs="#f21v08_i_au_Sienois #f21v08_i_toute_sur" xml:id="f21v08_au_sur">au <placeName>Sienois</placeName> a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ec toute autorité absolue, mesme sur</add>
-                    </subst> les armes <del xml:id="f21vop8_mesme">mesme</del>
+                    </subst> les armes <del xml:id="f21v08_mesme">mesme</del>
                     <del><unclear cert="high">e</unclear>n</del>
-                    <del xml:id="f21rop8_au_et">au Sienois et</del>
-                    <substJoin
-                        target="#f21vop8_chef_sur #f21vop8_mesme #f21vop8_au_et #f21vop8_point"/><choice>
+                    <del facs="#f21v08_i_au_et" xml:id="f21rop8_au_et">au Sienois et</del>
+                    <substJoin target="#f21v08_chef_sur #f21v08_mesme #f21v08_au_et #f21v08_point"/><choice>
                         <orig> a</orig>
-                        <reg xml:id="f21vop8_point">. A</reg>
+                        <reg xml:id="f21v08_point">. A</reg>
                     </choice>d<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -98,7 +112,7 @@
                         <abbr><hi rend="overlined">nres</hi></abbr>
                         <expan>nostres</expan>
                     </choice>
-                    <add xml:id="f21vop8_que_auoient">que les <choice>
+                    <add facs="#f21v08_i_que_auoient" xml:id="f21v08_que_auoient">que les <choice>
                             <orig>e</orig>
                             <reg>E</reg>
                         </choice>spaignols a<choice>
@@ -107,11 +121,11 @@
                         </choice>oient</add> surpris aupara<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ant ma venue <del xml:id="f21vop8_par_espaignols">par les <choice>
+                    </choice>ant ma venue <del facs="#f21v08_i_par_espaignols" xml:id="f21v08_par_espaignols">par les <choice>
                             <orig>e</orig>
                             <reg>E</reg>
                         </choice>spaignols</del><substJoin
-                        target="#f21vop8_que_auoient #f21vop8_par_espaignols"/>. </s></p>
+                        target="#f21v08_que_auoient #f21v08_par_espaignols"/>. </s></p>
         </body>
     </text>
 </TEI>

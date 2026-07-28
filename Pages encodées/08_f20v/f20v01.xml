@@ -19,6 +19,16 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/1026,3017,2554,581/full/0/default.jpg"/>
+            <zone xml:id="f20r03_i_integrité" points="1292,213 1292,313 1739,282 1770,182"/>
+            <zone xml:id="f20r03_i_pu" points="1790,164 1722,294 1850,282 1874,148"/>
+            <zone xml:id="f20r03_i_virgule" points="1798,232 1750,312 1794,312 1818,234"/>
+            <zone xml:id="f20v01_i_deur" points="1882,148 1856,282 2060,276 2108,178"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
@@ -28,12 +38,12 @@
                         <del>singuliere</del>
                         <add>rare</add>
                     </subst> vertu, et <subst>
-                        <del xml:id="f20vop1_integrité">integrité</del>
-                        <add place="superimposed" xml:id="f20vop1_pu">pu</add>
-                        <del rend="overwritten" xml:id="f20vop1_virgule">,</del>
-                        <add place="superimposed" xml:id="f20vop1_deur">deur</add>
+                        <del facs="#f20r03_i_integrité" xml:id="f20v01_integrité">integrité</del>
+                        <add facs="#f20r03_i_pu" place="superimposed" xml:id="f20v01_pu">pu</add>
+                        <del facs="#f20r03_i_virgule" rend="overwritten" xml:id="f20v01_virgule">,</del>
+                        <add facs="#f20v01_deur" xml:id="f20v01_deur">deur</add>
                     </subst><substJoin
-                        target="#f20vop1_integrité #f20vop1_virgule #f20vop1_pu #f20vop1_deur"/>et <subst>
+                        target="#f20v01_integrité #f20v01_virgule #f20v01_pu #f20v01_deur"/>et <subst>
                         <del>a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>

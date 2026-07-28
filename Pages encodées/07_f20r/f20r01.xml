@@ -19,9 +19,14 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f45/776,583,2857,764/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
-         <p><s><del seq="2" xml:id="f20rop1_or_examines"><choice>
+         <p><s><del seq="2" xml:id="f20r01_or_examines"><choice>
                <orig>o</orig>
                <reg>O</reg>
             </choice>r <choice>

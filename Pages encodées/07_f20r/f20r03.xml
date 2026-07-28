@@ -19,9 +19,39 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f45/790,4833,2373,631/full/0/default.jpg"/>
+            <zone xml:id="f20r03_i_ma_1552" points="1208,40 2120,16 872,308 8,336"/>
+            <zone xml:id="f20r03_i_e_E" points="1216,168 1208,296 1276,296 1296,176"/>
+            <zone xml:id="f20r03_i_l_L" points="1440,128 1360,288 1612,296 1436,240"/>
+            <zone xml:id="f20r03_i_i_lres" points="776,292 780,380 1152,348 1152,252"/>
+            <zone xml:id="f20r03_i_ie_expedié" points="692,356 700,516 1348,484 1312,324"/>
+            <zone xml:id="f20r03_i_Et" points="1380,176 1340,332 1196,300 1236,160"/>
+        </surface>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/869,421,2702,2813/full/0/default.jpg"/>
+            <zone xml:id="f20r03_i_metamark1" points="113,281 54,418 227,400"/>
+            <zone xml:id="f20r03_i_de_reqtes" points="132,95 45,236 909,195 891,36"/>
+            <zone xml:id="f20r03_i_fus" points="254,218 250,368 395,227"/>
+            <zone xml:id="f20r03_i_metamark2" points="1227,227 1145,322 1313,300"/>
+            <zone xml:id="f20r03_i_aussy_examen" points="1132,90 1127,222 1954,177 1927,63"/>
+            <zone xml:id="f20r03_i_mais_estudes" points="2227,531 2173,1040 2695,1022 2691,522"/>
+            <zone xml:id="f20r03_i_mais" points="113,600 113,731 463,672 463,563 454,568"/>
+            <zone xml:id="f20r03_i_or" points="241,531 241,618 418,618 418,495"/>
+            <zone xml:id="f20r03_i_u_e" points="859,904 813,1040 923,1040 945,913"/>
+            <zone xml:id="f20r03_i_son_estat" points="891,827 877,936 1282,881 1273,795"/>
+            <zone xml:id="f20r03_i_sien" points="973,895 927,1013 1245,1013 1236,886"/>
+            <zone xml:id="f20r03_i_ez_u" points="2095,1500 2095,1504 2054,1650 2200,1640 2200,1504"/>
+            <zone xml:id="f20r03_i_pais" points="2254,1504 2195,1668 2495,1677 2495,1522"/>
+            <zone xml:id="f20r03_i_limosin" points="218,1790 204,1954 595,1922 600,1786"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <p><s><del xml:id="f20rop3_ma_1552"><choice>
+            <p><s><del facs="#f20r03_i_ma_1552" xml:id="f20r03_ma_1552"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>a reception est du <date>XVI<hi rend="superscript">e</hi>
@@ -30,26 +60,27 @@
                                     <reg>v</reg>
                                 </choice>ier <add><hi rend="overlined"
                         >1552</hi></add></del></date>.</del>
-                    <del xml:id="f20rop3_Et"><subst xml:id="f20rop3_e_E">
+                    <del facs="#f20r03_i_Et" xml:id="f20r03_Et"><subst facs="#f20r03_i_e_E"
+                            xml:id="f20r03_e_E">
                             <del rend="overwritten">e</del>
                             <add place="superimposed">E</add>
-                        </subst>t</del><substJoin seq="1" target="#f20rop3_ma_1552 #f20rop3_e_E"/>
-                    <subst xml:id="f20rop3_l_L">
+                        </subst>t</del><substJoin seq="1" target="#f20r03_ma_1552 #f20r03_e_E"/>
+                    <subst facs="#f20r03_i_l_L" xml:id="f20r03_l_L">
                         <del rend="overwritten">l</del>
                         <add place="superimposed">L</add>
-                    </subst>e <substJoin seq="2" target="#f20rop3_Et #f20rop3_l_L"/>
+                    </subst>e <substJoin seq="2" target="#f20r03_Et #f20r03_l_L"/>
                     <date>27<hi rend="superscript">e</hi> aoust <subst>
                             <del>ensuy<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ant</del>
                             <add>1553</add>
-                        </subst></date>, <subst xml:id="f20rop3_ie_lres">
-                        <del><choice>
+                        </subst></date>, <subst>
+                        <del facs="#f20r03_i_ie_expedié" xml:id="f20r03_ie_expedié"><choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e fu expedié</del>
-                        <add><choice>
+                        <add facs="#f20r03_i_i_lres" xml:id="f20r03_i_lres"><choice>
                                 <orig>i</orig>
                                 <reg>j'</reg>
                             </choice>eu <choice>
@@ -62,22 +93,24 @@
                     </choice>i<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ance <pb/><metamark function="insert" target="#f20rop3_de_reqtes"
-                        >^</metamark>
-                    <add xml:id="f20rop3_de_reqtes">
+                    </choice>ance <pb/><metamark facs="#f20r03_i_metamark1" function="insert"
+                        target="#f20r03_de_reqtes">^</metamark>
+                    <add facs="#f20r03_i_de_reqtes" xml:id="f20r03_de_reqtes">
                         <metamark>^</metamark>de <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
                             <expan>maistre</expan>
                         </choice> des <choice>
                             <abbr>req.<hi rend="superscript">tes</hi></abbr>
                             <expan>requestes</expan>
-                        </choice></add> et <add xml:id="f20rop3_fus">fus</add><substJoin
-                        target="#f20rop3_ie_lres #f20rop3_fus"/> receu au <choice>
+                        </choice></add> et <add facs="#f20r03_i_fus" xml:id="f20r03_fus"
+                        >fus</add><substJoin target="#f20r03_ie_expedié #f20r03_i_lres #f20r03_fus"
+                    /> receu au <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
-                    </choice>lement <metamark function="insert">^</metamark><add
-                        xml:id="f20rop3_aussy_examen"><metamark>^</metamark>aussy sens examen</add>
-                    le <date>28 Septembre en la mesme année qu<choice>
+                    </choice>lement <metamark facs="#f20r03_i_metamark2" function="insert"
+                        >^</metamark><add facs="#f20r03_i_aussy_examen" xml:id="f20r03_aussy_examen"
+                            ><metamark>^</metamark>aussy sens examen</add> le <date>28 Septembre en
+                        la mesme année qu<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>on <choice>
@@ -87,8 +120,9 @@
                     <add>n<choice>
                             <orig> </orig>
                             <reg>'</reg>
-                        </choice>aiant pas ancore xxii ans</add><add xml:id="f20rop3_mais_estudes"
-                        >mais le <persName ref="https://isni.org/isni/0000000395001884"
+                        </choice>aiant pas ancore xxii ans</add><add facs="#f20r03_i_mais_estudes"
+                        xml:id="f20r03_mais_estudes">mais le <persName
+                            ref="https://isni.org/isni/0000000395001884"
                                 ><roleName>Roy</roleName><forename>Henry</forename></persName> mon
                         bon <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
@@ -99,11 +133,10 @@
                         </choice>il a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>oit suffisant raport de mes estudes</add><subst
-                        xml:id="f20rop3_mais_or">
-                        <del>mais</del>
-                        <add>or</add>
-                    </subst><substJoin target="#f20rop3_mais_estudes #f20rop3_mais_or"/>
+                        </choice>oit suffisant raport de mes estudes</add><subst>
+                        <del facs="#f20r03_i_mais" xml:id="f20r03_mais">mais</del>
+                        <add facs=" #f20r03_i_or" xml:id="f20r03_or">or</add>
+                    </subst><substJoin target="#f20r03_mais_estudes #f20r03_mais #f20r03_or"/>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
@@ -116,13 +149,13 @@
                     </subst> grand conseil car mon pere reteint l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>exercisse d<subst xml:id="f20rop3_u_e">
+                    </choice>exercisse d<subst facs="#f20r03_i_u_e" xml:id="f20r03_u_e">
                         <del rend="overwritten">u</del>
                         <add place="superimposed">e</add>
-                    </subst><subst xml:id="f20rop3_sien_estat">
-                        <del>sien</del>
-                        <add>son estat</add>
-                    </subst><substJoin target="#f20rop3_u_e #f20rop3_sien_estat"/> et come <choice>
+                    </subst><subst>
+                        <del facs="#f20r03_i_sien" xml:id="f20r03_sien">sien</del>
+                        <add facs="#f20r03_i_son_estat" xml:id="f20r03_son_estat">son estat</add>
+                    </subst><substJoin target="#f20r03_u_e #f20r03_sien #f20r03_son_estat"/> et come <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e fu bien tost emploié en plusieurs charges, la mesme année <date
@@ -151,19 +184,22 @@
                                 <expan>com</expan>
                             </choice>mission</add>
                     </subst> du <roleName ref="https://isni.org/isni/0000000395001884"
-                        >Roy</roleName> le proces criminel au gouverneur <subst
-                            xml:id="f20rop3_ez_du">
+                        >Roy</roleName> le proces criminel au gouverneur <subst facs="#f20r03_i_ez_u"
+                        xml:id="f20r03_ez_du">
                         <add>d</add>
+<!--                            Est-on bien sûres que ce “d” est un ajout ? Dans tous les cas je le placerais hors de Subst...-->
                         <del rend="overwritten">ez</del>
                         <add place="superimposed">u</add>
                     </subst>
-                    <subst xml:id="f20rop3_limousin_pais">
-                        <add>pais</add>
-                        <del><placeName><choice>
-                            <orig>l</orig>
-                            <reg>L</reg>
-                        </choice>imosin</placeName></del>
-                    </subst>, ma mere alla <choice>
+                    <subst>
+                        <add facs="#f20r03_i_pais" xml:id="f20r03_pais">pais</add>
+                        <del facs="#f20r03_i_limosin" xml:id="f20r03_limosin"><placeName><choice>
+                                    <orig>l</orig>
+                                    <reg>L</reg>
+                                </choice>imosin</placeName></del>
+                    </subst><substJoin target="#f20r03_ez_du #f20r03_pais #f20r03_limosin"/>, ma
+                    <!--                    J'ai ajouté le substJoin à la ligne précédente--> mere
+                    alla <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
