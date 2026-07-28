@@ -19,6 +19,19 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <app>
+            <lem><div>
+                  <head/>
+                  <p/>
+               </div></lem>
+         </app>
+         <p><graphic
+               url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/804,3125,3061,1019/full/0/default.jpg"
+            /></p>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <p><s><choice>
@@ -31,12 +44,12 @@
                   <del rend="overwritten">s</del>
                   <add place="superimposed">yvy</add>
                </subst>
-            <del xml:id="f22rop8-9_por_suyvy"><choice>
-                        <abbr>po<hi rend="superscript">r</hi></abbr>
-                        <expan>pour</expan>
-            </choice> le suyvy</del>
-            <substJoin target="#f22rop8-9_s_yvy #f22rop8-9_por_suyvy"/>
-                en <placeName>Champaigne</placeName>
+               <del xml:id="f22rop8-9_por_suyvy"><choice>
+                     <abbr>po<hi rend="superscript">r</hi></abbr>
+                     <expan>pour</expan>
+                  </choice> le suyvy</del>
+               <substJoin target="#f22rop8-9_s_yvy #f22rop8-9_por_suyvy"/> en
+                  <placeName>Champaigne</placeName>
                <add> et <placeName><choice>
                         <orig>p</orig>
                         <reg>P</reg>
@@ -50,13 +63,15 @@
                   </choice>mi<subst>
                      <del rend="overwritten">e</del>
                      <add place="superimposed">a</add>
-                  </subst>ns</placeName> et <add>ne</add> <metamark function="insert" target="#f22rop8-9_le"
-                  >^</metamark><add xml:id="f22rop8-9_le"><metamark>^</metamark> le </add> laissay
-               guiere durant la guerre ny en la res<choice>
+                  </subst>ns</placeName> et <add>ne</add>
+               <metamark function="insert" target="#f22rop8-9_le">^</metamark><add
+                  xml:id="f22rop8-9_le"><metamark>^</metamark> le </add> laissay guiere durant la
+               guerre ny en la res<choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>ouissance de la pais <metamark function="insert"
-                  target="#f22rop8-9_depuys_acordée">^</metamark><add xml:id="f22rop8-9_depuys_acordée"><metamark>^</metamark> depuys acordée</add> o<choice>
+                  target="#f22rop8-9_depuys_acordée">^</metamark><add
+                  xml:id="f22rop8-9_depuys_acordée"><metamark>^</metamark> depuys acordée</add> o<choice>
                   <orig>u i</orig>
                   <reg>ù j</reg>
                </choice>e le vy fraper <choice>
@@ -66,10 +81,11 @@
                <placeName>Paris</placeName> du coup dont il mourrut <add seq="2"><metamark
                      function="insert" target="#f22rop8-9_Et_luy">^</metamark></add><add seq="1"
                      ><del>et la p</del></add><add seq="2" xml:id="f22rop8-9_et_luy"
-                        ><metamark>^</metamark> <choice>
-                        <orig>E</orig>
-                        <reg>e</reg>
-                        </choice>t le <subst>
+                     ><metamark>^</metamark>
+                  <choice>
+                     <orig>E</orig>
+                     <reg>e</reg>
+                  </choice>t le <subst>
                      <del>bien</del>
                      <add>repos</add>
                   </subst> de la <placeName><choice>
@@ -78,10 +94,10 @@
                      </choice>rance</placeName> a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                     </choice>ec luy</add> en <date>fin de <choice>
-                        <orig>J</orig>
-                        <reg>j</reg>
-                     </choice>uillet 1559.</date></s></p>
+                  </choice>ec luy</add> en <date>fin de <choice>
+                     <orig>J</orig>
+                     <reg>j</reg>
+                  </choice>uillet 1559.</date></s></p>
       </body>
    </text>
 </TEI>

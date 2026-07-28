@@ -19,6 +19,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/716,443,3191,533/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s>Il ad<choice>
@@ -49,6 +56,6 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir.</s></p>
-            </body>
+        </body>
     </text>
 </TEI>

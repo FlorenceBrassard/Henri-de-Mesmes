@@ -19,6 +19,20 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/793,1834,3082,1683/full/0/default.jpg"/>
+        </surface>
+        <surface>
+            <graphic url=""/>
+            <!--                Ajouter une photo [À PRENDRE] de la marge de gauche c'est-à-dire_soir-->
+        </surface>
+        <surface>
+            <graphic url=""/>
+<!--                Ajouter une photo de la marge de gauche aussy_1557-->
+        </surface>
+        
+    </facsimile>
     <text>
         <body>
             <p><addSpan xml:id="f22rop5-6-7_et_fu" spanTo="#f22rop5-6-7_fu"/><s><del><choice>

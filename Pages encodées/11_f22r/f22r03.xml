@@ -19,6 +19,17 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/752,632,3147,1671/full/0/default.jpg"
+            />
+        </surface>
+        <surface>
+            <graphic url=""/>
+            <!--            Ajouter photo marge de gauche et_iustice-->
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
