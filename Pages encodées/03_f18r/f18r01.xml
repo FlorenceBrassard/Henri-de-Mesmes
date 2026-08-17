@@ -27,6 +27,11 @@
          <zone xml:id="f18r01_i_1531" points="1642,406 1643,516 1556,516 1542,371"/>
          <zone xml:id="f18r01_i_metamark1" points="2876,383 2876,490 2753,490 2753,390"/>
       </surface>
+      <surface>
+         <graphic
+            url="https://apitest.nakala.fr/iiif/10.34847/nkl.bc56qf0v/47557bb8c8c4c13f065cd326f6fe588d40a4a716/1128,922,1742,1517/full/0/default.jpg"
+         />
+      </surface>
    </facsimile>
    <text>
       <body>
