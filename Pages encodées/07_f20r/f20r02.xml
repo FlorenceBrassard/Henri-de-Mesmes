@@ -270,7 +270,6 @@
                                             <reg>C</reg>
                                         </choice>ela </add><substJoin
                                         target="#f20r02_pibrac_et #f20r02_et_cela2"/>
-                                    <!--                                    Ajout du substJoin ci-dessus-->
                                 </add>
                             </subst> me feit <del
                                 facs="#f20r02_i_desdaigner_moy #f20r02_i_tellement_me"
@@ -309,7 +308,6 @@
                                         <reg>j</reg>
                                     </choice>e n'</add>
                             </subst><substJoin target="#f20r02_les #f20r02_cest_n"/>estois entr<choice>
-                                <!--                                Ajout du substJoin ci-dessus-->
                                 <orig>e</orig>
                                 <reg>é</reg>
                             </choice> que deux ou trois matinées. <subst>
