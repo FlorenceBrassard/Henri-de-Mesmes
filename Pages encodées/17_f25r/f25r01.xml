@@ -139,7 +139,7 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>eau <choice>
-                        <abbr>regts</abbr>
+                        <abbr>regl<hi rend="overlined">t</hi></abbr>
                         <expan>reglements</expan>
                     </choice>ancore que <choice>
                         <orig>i</orig>

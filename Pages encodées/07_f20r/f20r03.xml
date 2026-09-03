@@ -184,10 +184,8 @@
                                 <expan>com</expan>
                             </choice>mission</add>
                     </subst> du <roleName ref="https://isni.org/isni/0000000395001884"
-                        >Roy</roleName> le proces criminel au gouverneur <subst facs="#f20r03_i_ez_u"
-                        xml:id="f20r03_ez_du">
-                        <add>d</add>
-<!--                            Est-on bien sûres que ce “d” est un ajout ? Dans tous les cas je le placerais hors de Subst...-->
+                        >Roy</roleName> le proces criminel au gouverneur d<subst
+                        facs="#f20r03_i_ez_u" xml:id="f20r03_ez_du">
                         <del rend="overwritten">ez</del>
                         <add place="superimposed">u</add>
                     </subst>
@@ -198,8 +196,7 @@
                                     <reg>L</reg>
                                 </choice>imosin</placeName></del>
                     </subst><substJoin target="#f20r03_ez_du #f20r03_pais #f20r03_limosin"/>, ma
-                    <!--                    J'ai ajouté le substJoin à la ligne précédente--> mere
-                    alla <choice>
+                    mere alla <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>

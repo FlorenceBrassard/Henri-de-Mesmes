@@ -30,15 +30,20 @@
     <text>
         <body>
             <p><s><subst>
-                        <del xml:id="f17v04_or_aiant">or aiant</del>
-                        <add xml:id="f17v04_icy_il">icy il</add>
-                    </subst>espous<subst xml:id="f17v04_é_a">
+                        <del xml:id="f17v04_or">or</del>
+                        <add xml:id="f17v04_icy_add">icy</add>
+                    </subst>
+                    <subst>
+                        <del xml:id="f17v04_il">il</del>
+                        <add xml:id="f17v04_aiant">aiant</add>
+                    </subst> espous<subst xml:id="f17v04_é_a">
                         <del rend="overwritten">é</del>
                         <add place="superimposed">a</add>
-                    </subst><del xml:id="f17v04_icy">icy</del><substJoin
-                        target="#f17v04_or_aiant #f17v04_icy_il #f17v04_é_a"/><substJoin
-                        target="#f17v04_icy #f17v04_icy_il"/>feu ma mere <add><del>d</del>
-                        dame</add>
+                    </subst>
+                    <del xml:id="f17v04_icy_del">icy</del>
+                    <substJoin target="#f17v04_or #f17v04_icy_add #f17v04_icy_del"/>
+                    <substJoin target="#f17v04_il #f17v04_aiant #f17v04_é_a"/> feu ma mere
+                            <add><del>d</del> dame</add>
                     <persName><forename>Nicole</forename>
                         <surname>Hennequin</surname></persName><choice>
                         <orig/>
@@ -47,9 +52,9 @@
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
-                        function="insert" target="#f17v04_le_ancien">^</metamark><add facs="#f17v04_i_le_ancien"
-                        xml:id="f17v04_le_ancien"><del>le</del> plus ancien</add> conseiller du
-                    parlement de <placeName><choice>
+                        function="insert" target="#f17v04_le_ancien">^</metamark><add
+                        facs="#f17v04_i_le_ancien" xml:id="f17v04_le_ancien"><del>le</del> plus
+                        ancien</add> conseiller du parlement de <placeName><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName> et president d'<placeName><choice>
@@ -79,8 +84,8 @@
                             <orig>s</orig>
                             <reg>S</reg>
                         </choice>uisse</placeName> et <metamark function="insert"
-                        target="#f17v04_depuys">^</metamark><add facs="#f17v04_i_depuys" xml:id="f17v04_depuys">depuys</add>
-                    en autres grandes charges.<choice>
+                        target="#f17v04_depuys">^</metamark><add facs="#f17v04_i_depuys"
+                        xml:id="f17v04_depuys">depuys</add> en autres grandes charges.<choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>t l<choice>

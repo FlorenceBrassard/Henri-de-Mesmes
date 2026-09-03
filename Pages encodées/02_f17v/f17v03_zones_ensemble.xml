@@ -86,13 +86,14 @@
                             <del>rendoient</del>
                             <add>faisoient</add>
                         </subst></add>
-                    </subst><add>mais au lieu d<subst facs="#f17v03_i_a_de" xml:id="f17v03_a_de">
+                </subst><add>mais au lieu d<subst facs="#f17v03_i_a_de" xml:id="f17v03_a_de">
                         <del rend="overwritten"><choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>a</del>
                         <add place="superimposed">e</add>
-                    </subst><subst facs="#f17v03_i_chever_continuer" xml:id="f17v03_chever_continuer">
+                    </subst><subst facs="#f17v03_i_chever_continuer"
+                        xml:id="f17v03_chever_continuer">
                         <del>che<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -112,7 +113,10 @@
                     <surname>Navarre</surname></persName> de venir en <placeName><choice>
                         <orig>f</orig>
                         <reg>F</reg>
-                    </choice>rance</placeName> pour assister ses <del>grands</del> actes <subst>
+                    </choice>rance</placeName> pour assister ses <del>grands</del> a<choice>
+                    <abbr>fe<hi rend="superscript">r</hi></abbr>
+                    <expan>faire</expan>
+                </choice>s <subst>
                     <add>et acompaigner</add>
                     <del>avec</del>
                 </subst>le <persName ref="https://isni.org/isni/0000000122791446"

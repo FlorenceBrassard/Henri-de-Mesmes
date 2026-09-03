@@ -101,8 +101,8 @@
                                 <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                                 <expan>con</expan>
                             </choice>tinuer</add>
-                    </subst><substJoin
-                        target=" #f17v03_a_e #f17v03_cheuer #f17v03_continuer"/> ceste <choice>
+                    </subst><substJoin target=" #f17v03_a_e #f17v03_cheuer #f17v03_continuer"/>
+                    ceste <choice>
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
                     </choice>fession <del>et se perpetuer par ses escrits il</del></add> fut requis
@@ -113,7 +113,10 @@
                     <surname>Navarre</surname></persName> de venir en <placeName><choice>
                         <orig>f</orig>
                         <reg>F</reg>
-                    </choice>rance</placeName> pour assister ses <del>grands</del> actes <subst>
+                    </choice>rance</placeName> pour assister ses <del>grands</del> a<choice>
+                    <abbr>fe<hi rend="superscript">r</hi></abbr>
+                    <expan>faire</expan>
+                </choice>s <subst>
                     <add>et acompaigner</add>
                     <del>avec</del>
                 </subst>le <persName ref="https://isni.org/isni/0000000122791446"

@@ -56,13 +56,7 @@
                     </choice> qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il refusa l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>un apres l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>autre <subst>
+                    </choice>il refusa <subst>
                         <del><add>en p<unclear cert="low" reason="illegible">l</unclear>s <choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
@@ -74,7 +68,13 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>erses fois</add>
-                    </subst> et ne <subst>
+                    </subst> l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>un apres l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>autre et ne <subst>
                         <del>prist</del>
                         <add>receut</add>
                     </subst> qu<choice>
