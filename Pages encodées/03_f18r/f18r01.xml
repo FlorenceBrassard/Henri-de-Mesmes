@@ -27,10 +27,18 @@
          <zone xml:id="f18r01_i_1531" points="1642,406 1643,516 1556,516 1542,371"/>
          <zone xml:id="f18r01_i_metamark1" points="2876,383 2876,490 2753,490 2753,390"/>
       </surface>
-      <surface>
+      <surface xml:id="f18r01_i_qui_prst">
          <graphic
-            url="https://apitest.nakala.fr/iiif/10.34847/nkl.bc56qf0v/47557bb8c8c4c13f065cd326f6fe588d40a4a716/1128,922,1742,1517/full/0/default.jpg"
-         />
+            url="https://api.nakala.fr/iiif/10.34847/nkl.edfbip7z/47557bb8c8c4c13f065cd326f6fe588d40a4a716/897,784,2050,1561/full/0/default.jpg"/>
+         <zone xml:id="f18r01_i_c" points="258,468 262,651 410,658 431,462"/>
+         <zone xml:id="f18r01_i_qui" points="210,672 203,851 458,789 458,637"/>
+         <zone xml:id="f18r01_i_le" points="744,324 744,562 869,500 869,289"/>
+         <zone xml:id="f18r01_i_a_la" points="1169,620 1200,744 1734,593 1789,479"/>
+         <zone xml:id="f18r01_i_mode" points="244,1086 244,1262 531,1182 531,1044"/>
+         <zone xml:id="f18r01_i_compte" points="244,958 244,1089 641,1000 644,893"/>
+         <zone xml:id="f18r01_i_au" points="1210,482 1244,627 1600,503 1569,393"/>
+         <zone xml:id="f18r01_i_e_la" points="1155,813 1114,1103 1348,975 1403,741"/>
+         <zone xml:id="f18r01_i_lle" points="1634,706 1613,982 1896,865 1889,631"/>
       </surface>
    </facsimile>
    <text>
@@ -69,15 +77,14 @@
                <orig>a</orig>
                <reg>à</reg>
             </choice> trois heures du matin<supplied>.</supplied><metamark
-               facs="#f18r01_i_metamark1" function="insert" target="#f18r01_qui_prst"
-               >+</metamark><add xml:id="f18r01_qui_prst"><metamark>+</metamark><subst
-                  xml:id="f18r01_qui_c">
-                  <del>qui</del>
-                  <add><choice>
+               facs="#f18r01_i_qui_prst" function="insert" target="#f18r01_qui_prst"
+               >+</metamark><add xml:id="f18r01_qui_prst"><metamark>+</metamark><subst>
+                  <del facs="#f18r01_i_qui" xml:id="f18r01_qui">qui</del>
+                  <add facs="#f18r01_i_c" xml:id="f18r01_c"><choice>
                         <orig>c</orig>
                         <reg>C</reg>
                      </choice>'</add>
-               </subst>estoit <add xml:id="f18r01_le">le</add><substJoin
+               </subst>estoit <add facs="#f18r01_i_le" xml:id="f18r01_le">le</add><substJoin
                   target="#f18r01_qui_c #f18r01_le"/> c<choice>
                   <abbr>õ</abbr>
                   <expan>om</expan>
@@ -86,17 +93,19 @@
                   <reg>'</reg>
                </choice>année <hi rend="overlined">1532</hi>
                <subst>
-                  <del xml:id="f18r01_a_mode"><choice>
+                  <del facs="#f18r01_i_mode" xml:id="f18r01_a_mode"><choice>
                         <orig>a</orig>
                         <reg>à</reg>
                      </choice> la mode</del>
-                  <add xml:id="f18r01_au_compte">au compte</add>
+                  <add facs="#f18r01_i_au #f18r01_i_compte" xml:id="f18r01_au_compte">au
+                     compte</add>
                </subst>
                <choice>
                   <orig>R</orig>
                   <reg>r</reg>
-               </choice>omain<del xml:id="f18r01_e_la">e la</del>que<del xml:id="f18r01_lle"
-                  >lle</del> nous tenons <hi rend="overlined"><choice>
+               </choice>omain<del facs="#f18r01_i_e_la" xml:id="f18r01_e_la">e la</del>que<del
+                  facs="#f18r01_i_lle" xml:id="f18r01_lle">lle</del> nous tenons <hi
+                  rend="overlined"><choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>

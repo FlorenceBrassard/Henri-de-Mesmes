@@ -31,10 +31,11 @@
             <zone xml:id="f19r04_i_nous" points="1683,235 1683,317 2013,278 2009,209"/>
             <zone xml:id="f19r04_i_metamark2" points="1448,630 1448,717 1556,717 1565,635"/>
         </surface>
-        <surface>
-            <graphic url=""/>
+        <surface xml:id="f19r04_i_le_faber">
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.bb242t64/40f6781aeeebd54fbd8c946df86d28b38d7944d5/63,12,1842,3768/full/0/default.jpg"
+            />
         </surface>
-        <!--        Ajouter photo sur Nakala-->
     </facsimile>
     <text>
         <body>
@@ -94,7 +95,7 @@
                         <orig/>
                         <reg>.</reg>
                     </choice><metamark facs="#f19r04_i_metamark2" function="insert"
-                        target="#f19r04_le_faber">+</metamark><add xml:id="f19r04_le_faber"
+                        target="#f19r04_le_faber">+</metamark><add facs="#f19r04_i_le_faber" xml:id="f19r04_le_faber"
                             ><metamark>+</metamark><choice>
                             <orig>l</orig>
                             <reg>L</reg>

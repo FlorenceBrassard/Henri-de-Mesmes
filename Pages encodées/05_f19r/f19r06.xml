@@ -28,11 +28,14 @@
          <zone xml:id="f19r06_i_cueur" points="2240,780 2240,860 2545,860 2540,790"/>
          <zone xml:id="f19r06_i_confidance" points="2255,730 2270,820 2655,775 2655,675"/>
          <zone xml:id="f19r06_i_metamark" points="2665,695 2660,820 2800,810 2790,680"/>
+         <zone xml:id="f19r06_i_aux" points="2060,1765 2035,1895 2095,1900 2205,1765"/>
+         <zone xml:id="f19r06_i_de_france" points="2420,1760 2410,1860 2840,1870 2845,1740"/>
       </surface>
       <surface>
-         <graphic url=""/>
+         <graphic
+            url="https://api.nakala.fr/iiif/10.34847/nkl.6eee7uof/88c70303c0a7b4a4836de10e92b119ec12101284/65,1775,1151,1870/full/0/default.jpg"/>
+         <zone xml:id="f19r06_i_en_temps" points="229,59 -11,1653 1164,1612 958,12"/>
       </surface>
-      <!--      Ajouter photo marge sur Nakala-->
    </facsimile>
    <text>
       <body>
@@ -72,7 +75,8 @@
                   <add facs="#f19r06_i_confidance" xml:id="f19r06_confidance">confidance</add>
                </subst><substJoin
                   target=" #f19r06_force #f19r06_suffisance #f19r06_cueur #f19r06_confidance"/>.
-               </s><metamark facs="#f19r06_i_metamark" function="insert" target="#f19r06_en_france">++</metamark>
+               </s><metamark facs="#f19r06_i_metamark" function="insert" target="#f19r06_en_france"
+               >++</metamark>
             <add xml:id="f19r06_en_france"><metamark>++</metamark><s>
                   <choice>
                      <orig>e</orig>
@@ -176,8 +180,8 @@
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
                      </choice>tinué aux estats et <metamark function="insert" target="#f19r06_aux"
-                        >^</metamark><add xml:id="f19r06_aux">aux</add> afaires <add
-                        xml:id="f19r06_de_france">de la <choice>
+                        >^</metamark><add facs="#f19r06_i_aux" xml:id="f19r06_aux">aux</add> afaires
+                        <add facs="#f19r06_i_de_france" xml:id="f19r06_de_france">de la <choice>
                            <orig>f</orig>
                            <reg>F</reg>
                         </choice>rance</add>

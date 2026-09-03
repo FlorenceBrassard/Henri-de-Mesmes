@@ -25,15 +25,18 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/987,749,2717,950/full/0/default.jpg"/>
             <zone xml:id="f18v02_i_metamark" points="1532,23 1532,128 1691,100 1677,28"/>
         </surface>
-        <surface>
-            <!--          PHOTO PERSO DE LA MARGE-->
+        <surface xml:id="f18v02_i_ne_toutesfois">
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.1bb84152/f5a8b900b1cbc01501e0e9d10882b6c8d8cd8b12/173,1473,1645,1496/full/0/default.jpg"
+                />
         </surface>
     </facsimile>
     <text>
         <body>
-            <p><s><del>car <metamark facs="#f18v02_i_metamark" function="insert" target="#f18v02_ne_toutesfois"
-                            >+</metamark><add xml:id="f18v02_ne_toutesfois"
-                            ><metamark>+</metamark>ne pouvant gaster mes meurs pour l<choice>
+            <p><s><del>car <metamark facs="#f18v02_i_metamark" function="insert"
+                            target="#f18v02_ne_toutesfois">+</metamark><add facs="#f18v02_i_ne_toutesfois"
+                            xml:id="f18v02_ne_toutesfois"><metamark>+</metamark>ne pouvant gaster
+                            mes meurs pour l<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>assistance <choice>
