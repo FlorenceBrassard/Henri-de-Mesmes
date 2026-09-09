@@ -22,12 +22,15 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/752,632,3147,1671/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/752,632,3147,1671/full/0/default.jpg"/>
+            <zone xml:id="f22r03_i_le_viceroy" points="1005,79 1005,205 2989,132 3010,42"/>
+            <zone xml:id="f22r03_i_metamark1" points="1116,195 1094,305 1205,310"/>
+            <zone xml:id="f22r03_i_metamark2" points="3010,47 2989,142 3068,142 3063,32"/>
         </surface>
         <surface>
-            <graphic url=""/>
-            <!--            Ajouter photo marge de gauche et_iustice-->
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.b95cvrj8/7d3b30a08ee75a3b5fa197623c6a445c7e2e8674/432,399,1715,2199/full/0/default.jpg"/>
+            <zone xml:id="f22r03_i_et_iustice" points="316,325 -16,2200 1725,1667 1750,-24"/>
         </surface>
     </facsimile>
     <text>
@@ -35,9 +38,9 @@
             <p><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
-                    </choice>ais <metamark function="insert" target="#f22rop3-4_le_viceroy"
+                    </choice>ais <metamark facs="#f22r03_i_metamark1" function="insert" target="#f22r03_le_viceroy"
                         >^</metamark>
-                    <add xml:id="f22rop3-4_le_viceroy"><metamark>^</metamark> le <roleName
+                    <add facs="#f22r03_i_le_viceroy" xml:id="f22r03_le_viceroy"><metamark>^</metamark> le <roleName
                             ref="Q132545">Roy</roleName> fut de mon costé, y en<choice>
                             <orig>u</orig>
                             <reg>v</reg>
@@ -57,10 +60,10 @@
                                     <orig>e</orig>
                                     <reg>E</reg>
                                 </choice>sté</surname>
-                        </persName> pour viceroy <metamark function="insert"
-                            target="#f22rop_3-4_et_iustice">#</metamark></add><addSpan
-                        spanTo="#f22rop3-4_iustice" xml:id="f22rop3-4_et_iustice"
-                        /><metamark>#</metamark> et me mainteint a<choice>
+                        </persName> pour viceroy <metamark facs="#f22r03_i_metamark2" function="insert"
+                            target="#f22r03_et_iustice">#</metamark></add><addSpan facs="#f22r03_i_et_iustice"
+                        spanTo="#f22r03_iustice" xml:id="f22r03_et_iustice"/><metamark>#</metamark>
+                    et me mainteint a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec beaucoup de tesmoignages de <choice>
@@ -81,7 +84,7 @@
                     </choice> la <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ustice <anchor xml:id="f22rop3-4_iustice"/><choice>
+                    </choice>ustice <anchor xml:id="f22r03_iustice"/><choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e m<choice>

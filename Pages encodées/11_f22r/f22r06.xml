@@ -22,18 +22,47 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/710,3837,3146,1392/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/710,3837,3146,1392/full/0/default.jpg"/>
+            <zone xml:id="f22r06_i_metamark1" points="1440,857 1337,947 1517,955"/>
+            <zone xml:id="f22r06_i_et_courtiser" points="1440,712 1340,825 2075,817 2102,742"/>
+            <zone xml:id="f22r06_i_et" points="1453,689 1398,782 1555,772 1638,729"/>
+            <zone xml:id="f22r06_i_et_ciuile" points="1495,832 5,1082 2190,1072 3142,810"/>
+            <zone xml:id="f22r06_i_violance" points="1882,960 1840,1035 2337,1027 2355,952"/>
+            <zone xml:id="f22r06_i_metamark2" points="1637,1170 1545,1270 1730,1275"/>
+            <zone xml:id="f22r06_i_a_et" points="1510,1070 1437,1160 2112,1140 2112,1057"/>
         </surface>
         <surface>
             <graphic url=""/>
             <!--            Ajouter photo de la marge sur Nakala-->
         </surface>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1003,285,2822,1002/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1003,285,2822,1002/full/0/default.jpg"/>
+            <zone xml:id="f22r06_i_metamark3" points="1343,252 1352,367 1462,357 1452,252"/>
+            <zone xml:id="f22r06_i_vous_naquites" points="977,677 977,832 2100,752 2117,615"/>
+            <zone xml:id="f22r06_i_et_del" points="100,925 57,925 40,920 42,987 122,985"/>
+            <zone xml:id="f22r06_i_nommé_del" points="140,895 152,992 482,967 495,897"/>
+            <zone xml:id="f22r06_i_et_add" points="387,827 390,915 535,907 527,817"/>
+            <zone xml:id="f22r06_i_mon_pere_del" points="1150,835 1138,950 1618,935 1613,842"/>
+            <zone xml:id="f22r06_i_mon_pere_add" points="610,810 615,900 900,882 890,800"/>
+            <zone xml:id="f22r06_i_nommé_add" points="1200,785 1200,870 1577,872 1572,750"/>
         </surface>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/275,691,942,4641/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/275,691,942,4641/full/0/default.jpg"
+                xml:id="f22r06_i_enuiron_nacquites"/>
+            <zone xml:id="f22r06_i_charite_et" points="468,1066 470,1120 749,1112 755,1060"/>
+            <zone xml:id="f22r06_i_et_charite" points="70,1203 70,1307 508,1280 509,1193"/>
+            <zone xml:id="f22r06_i_son" points="139,2085 257,2092 246,2176 108,2192"/>
+            <zone xml:id="f22r06_i_leurs" points="162,2031 122,2100 301,2103 308,2034"/>
+            <zone xml:id="f22r06_i_s1" points="385,2073 357,2157 424,2150 428,2074"/>
+            <zone xml:id="f22r06_i_z" points="611,2039 660,2133 768,2106 736,2019"/>
+            <zone xml:id="f22r06_i_s_de" points="176,2930 157,3096 279,2988 563,2938"/>
+            <zone xml:id="f22r06_i_s_yeulx" points="327,3068 289,3160 644,3136 647,3057"/>
+            <zone xml:id="f22r06_i_ceulx" points="422,3025 417,3087 597,3076 622,3025"/>
+            <zone xml:id="f22r06_i_filz" points="589,4233 558,4298 712,4276 714,4198"/>
+            <zone xml:id="f22r06_i_second_enfant" points="495,4204 477,4260 939,4265 943,4201"/>
+            <zone xml:id="f22r06_i_mon_filz" points="603,4314 587,4373 841,4366 839,4309"/>
         </surface>
     </facsimile>
     <text>
@@ -72,11 +101,11 @@
                     </choice>e me disposay apres sa mort <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> moins voiager<metamark function="insert"
-                        target="#f22r06_et_courtiser">^</metamark><add
-                        xml:id="f22r06_et_courtiser"><metamark>^</metamark><add
+                    </choice> moins voiager<metamark facs="#f22r06_i_metamark1" function="insert"
+                        target="#f22r06_et_courtiser">^</metamark><add facs="#f22r06_i_et_courtiser"
+                        xml:id="f22r06_et_courtiser"><metamark>^</metamark><add facs="#f22r06_i_et"
                             xml:id="f22r06_et">et</add> moins courtiser</add>
-                    <del xml:id="f22r06_et_ciuile">et ne me pas <choice>
+                    <del facs="#f22r06_i_et_ciuile" xml:id="f22r06_et_ciuile">et ne me pas <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>eter aux troubles pource que <choice>
@@ -90,8 +119,8 @@
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>amais la <subst>
-                            <del xml:id="f22r06_violance"><undo rend="underlined"
-                                    target=" #f22r06_violance"/>violance</del>
+                            <del facs="#f22r06_i_violance" xml:id="f22r06_violance"><undo
+                                    rend="underlined" target=" #f22r06_violance"/>violance</del>
                             <add><del>guerre ci<choice>
                                         <orig>u</orig>
                                         <reg>v</reg>
@@ -102,8 +131,9 @@
                     </choice>ois qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il valoit mieulx me tenir <metamark function="insert"
-                        target=" #f22r06_a_et">^</metamark><add xml:id="f22r06_a_et"><choice>
+                    </choice>il valoit mieulx me tenir <metamark facs="#f22r06_i_metamark2"
+                        function="insert" target=" #f22r06_a_et">^</metamark><add
+                        facs="#f22r06_i_a_et" xml:id="f22r06_a_et"><choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> mes li<choice>
@@ -131,10 +161,11 @@
                     </choice> mon retour d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice><placeName>Italie</placeName>, <metamark function="insert"
-                        target="#f22r06_enuiron_nacquites">+</metamark><del>et a mes
-                        estudes</del>.</s><s><addSpan spanTo="#f22r06_nacquites"
-                        xml:id="f22r06_enuiron_nacquites"/><metamark>+</metamark>en<choice>
+                    </choice><placeName>Italie</placeName>, <metamark facs="#f22r06_i_metamark3"
+                        function="insert" target="#f22r06_enuiron_nacquites">+</metamark><del>et a
+                        mes estudes</del>.</s><s><addSpan facs="#f22r06_i_enuiron_nacquites"
+                        spanTo="#f22r06_nacquites" xml:id="f22r06_enuiron_nacquites"
+                        /><metamark>+</metamark>en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>iron ce temps <add>et le <date><choice>
@@ -194,9 +225,11 @@
                         <orig>C</orig>
                         <reg>c</reg>
                     </choice>hrestiene et de toute <del>s<unclear reason="deleted"
-                        >e</unclear>mp</del><add xml:id="f22r06_charite_et">charite et</add>
-                    rondeur <del xml:id="f22r06_et_charite">et charité</del><substJoin
-                        target="#f22r06_charite_et #f22r06_et_charite"/>.</s><s><choice>
+                        >e</unclear>mp</del><add facs="#f22r06_i_charite_et"
+                        xml:id="f22r06_charite_et">charite et</add> rondeur <del
+                        facs="#f22r06_et_charite" xml:id="f22r06_et_charite">et
+                        charité</del><substJoin target="#f22r06_charite_et #f22r06_et_charite"
+                    />.</s><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
                     </choice>l estoit l<choice>
@@ -242,12 +275,12 @@
                                 <reg>à</reg>
                             </choice></del>
                         <add>en</add>
-                    </subst><subst xml:id="f22r06_son_leurs">
-                        <del>son</del>
-                        <add>leurs</add>
-                    </subst> sexe<add xml:id="f22r06_s1">s</add><substJoin
-                        target="#f22r06_son_leurs #f22r06_s1 #f22r06_z"/> honore<add
-                        xml:id="f22r06_z">z</add> de tou<subst>
+                    </subst><subst>
+                        <del facs="#f22r06_i_son" xml:id="f22r06_son">son</del>
+                        <add facs="#f22r06_i_leurs" xml:id="f22r06_leurs">leurs</add>
+                    </subst> sexe<add facs="#f22r06_i_s1" xml:id="f22r06_s1">s</add><substJoin
+                        target="#f22r06_son #f22r06_leurs #f22r06_s1 #f22r06_z"/> honore<add
+                        facs="#f22r06_i_z" xml:id="f22r06_z">z</add> de tou<subst>
                         <del rend="overwritten">s</del>
                         <add place="superimposed">te</add>
                     </subst> vertu, et laissa apres luy son <add><del rend="unmarked">s</del></add>
@@ -276,14 +309,15 @@
                     </choice>usticier plus clair<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oiant de<add xml:id="f22r06_s_de">s yeulx de</add> l<choice>
+                    </choice>oiant de<add facs="#f22r06_i_s_de" xml:id="f22r06_s_de">s yeulx
+                        de</add> l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>entendement que de<subst xml:id="f22r06_s_ceulx">
-                        <del>s yeulx</del>
-                        <add>ceulx</add>
+                    </choice>entendement que de<subst>
+                        <del facs="#f22r06_i_s_yeulx" xml:id="f22r06_s_yeulx">s yeulx</del>
+                        <add facs="#f22r06_i_ceulx" xml:id="f22r06_ceulx">ceulx</add>
                     </subst> de son corps.</s><s>
-                    <substJoin target="#f22r06_s_de #f22r06_s_ceulx"/>
+                    <substJoin target="#f22r06_s_de #f22r06_s_yeulx #f22r06_ceulx"/>
                     <choice>
                         <orig>a</orig>
                         <reg>A</reg>
@@ -327,13 +361,15 @@
                             </choice>an <choice>
                                 <orig>v</orig>
                                 <reg>u</reg>
-                            </choice>n <subst xml:id="f22r06_filz_enfant">
-                                <del>filz</del>
-                                <add>second enfant</add>
+                            </choice>n <subst>
+                                <del facs="#f22r06_i_filz" xml:id="f22r06_filz">filz</del>
+                                <add facs="#f22r06_i_second_enfant" xml:id="f22r06_second_enfant"
+                                    >second enfant</add>
                             </subst></add>
-                    </subst> qui estes vous <add xml:id="f22r06_mon_filz"><roleName
-                            ref="Q94908007">mon filz</roleName></add>, substJoin
-                    target="#f22r06_filz_enfant #f22r06_mon_filz"/> qui nacquites<anchor
+                    </subst> qui estes vous <add facs="#f22r06_i_mon_filz" xml:id="f22r06_mon_filz"
+                            ><roleName ref="Q94908007">mon filz</roleName></add>, <substJoin
+                        target="#f22r06_filz #f22r06_second_enfant
+                    #f22r06_mon_filz"/> qui nacquites<anchor
                         xml:id="f22r06_nacquites"/> le <date>XXV<choice>
                             <orig>ij</orig>
                             <reg>II</reg>
@@ -348,8 +384,7 @@
                     </date> entre cinq et six heures du soir, et beaucoup plus pres de six que de
                     cinq <del xml:id="f22r06_vous_nacquites">vous <roleName ref="Q94908007">mon
                             filz</roleName>, nacquites</del><substJoin
-                        target="#f22r06_vous_nacquites #f22r06_enuiron_nacquites"/> futes
-                    baptisé <choice>
+                        target="#f22r06_vous_nacquites #f22r06_enuiron_nacquites"/> futes baptisé <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
@@ -357,19 +392,19 @@
                             <abbr>S<hi rend="superscript">t</hi></abbr>
                             <expan>ainct</expan>
                         </choice> Merry</date>
-                    <subst xml:id="f22r06_et_nommé">
-                        <del rend="unmarked">et </del>
-                        <del>nommé</del>
-                        <add>et</add>
-                    </subst> par <add xml:id="f22r06_mon_pere_add"><roleName ref="Q107207194"
-                            >mon pere</roleName></add>
+                    <subst>
+                        <del facs="#f22r06_i_et_del" rend="unmarked" xml:id="f22r06_et_del">et </del>
+                        <del facs="#f22r06_i_nommé_del" xml:id="f22r06_nommé_del">nommé</del>
+                        <add facs="#f22r06_i_et_add" xml:id="f22r06_et_add">et</add>
+                    </subst> par <add facs="#f22r06_i_mon_pere_add" xml:id="f22r06_mon_pere_add"
+                            ><roleName ref="Q107207194">mon pere</roleName></add>
                     <choice>
                         <abbr rend="overlined">vre</abbr>
                         <expan>vostre</expan>
-                    </choice> aieul <del xml:id="f22r06_mon_pere_del"><roleName
-                            ref="Q107207194">mon pere</roleName></del><add
-                        xml:id="f22r06_nommé">nommé</add><substJoin
-                        target="#f22r06_et_nommé  #f22r06_mon_pere_del #f22r06_nommé"
+                    </choice> aieul <del facs="#f22r06_i_mon_pere_del" xml:id="f22r06_mon_pere_del"
+                            ><roleName ref="Q107207194">mon pere</roleName></del><add
+                        facs="#f22r06_i_nommé_add" xml:id="f22r06_nommé_add">nommé</add><substJoin
+                        target="#f22r06_et_del #f22r06_nommé_del #f22r06_et_add #f22r06_mon_pere_del #f22r06_mon_pere_add #f22r06_nommé_add"
                     /> de son nom <persName ref="Q107207194"><forename>Jean<choice>
                                 <orig> </orig>
                                 <reg>-</reg>

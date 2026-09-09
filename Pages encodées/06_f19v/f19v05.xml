@@ -28,8 +28,12 @@
             <zone xml:id="f19v05_i_lassistance" points="1526,100 1530,156 1917,130 1913,91"/>
         </surface>
         <surface>
-            <graphic url=""/>
-            <!--            Ajouter photo sur Nakala-->
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.9fa2jq5c/a4ce14589ea7626a14de803933b93489d8f24c92/0,1770,1625,1062/full/0/default.jpg"/>
+            <zone xml:id="f19v05_i_lescole" points="561,322 530,525 1080,505 1111,297"/>
+            <zone xml:id="f19v05_i_lauditoire" points="530,486 522,647 1208,655 1219,519"/>
+            <zone xml:id="f19v05_i_e" points="1447,325 1433,455 1497,469 1491,316"/>
+            <zone xml:id="f19v05_i_car_vaquoit" points="197,627 222,886 1464,1052 1491,600"/>
         </surface>
     </facsimile>
     <text>
@@ -37,8 +41,9 @@
             <p><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
-                    </choice>e mesme fut en passant <del facs="#f19v05_i_a_et2" xml:id="f19v05_a_et_2"><metamark
-                            function="insert" target="#f19v05_a_et_1">^</metamark>
+                    </choice>e mesme fut en passant <del facs="#f19v05_i_a_et2"
+                        xml:id="f19v05_a_et_2"><metamark function="insert" target="#f19v05_a_et_1"
+                            >^</metamark>
                         <add xml:id="f19v05_a_et_1"><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
@@ -54,20 +59,23 @@
                             <abbr rend="overlined">orls</abbr>
                             <expan>Orléans</expan>
                         </choice></placeName><add><del>et</del> le tout en <subst>
-                                <del facs="#f19v05_i_auditoire" xml:id="f19v05_auditoire">auditoire</del>
-                            <add facs="#f19v05_i_lassistance" xml:id="f19v05_lassistance">l'assistance</add>
+                            <del facs="#f19v05_i_auditoire" xml:id="f19v05_auditoire"
+                                >auditoire</del>
+                            <add facs="#f19v05_i_lassistance" xml:id="f19v05_lassistance"
+                                >l'assistance</add>
                         </subst> de touts les docteurs <del>et</del> de <subst>
-                            <del xml:id="f19v05_lescole">l<choice>
+                            <del facs="#f19v05_i_lescole" xml:id="f19v05_lescole">l<choice>
                                     <orig/>
                                     <reg>'</reg>
                                 </choice>escole</del>
-                            <add xml:id="f19v05_lauditoire">l<choice>
+                            <add facs="#f19v05_i_lauditoire" xml:id="f19v05_lauditoire">l<choice>
                                     <orig/>
                                     <reg>'</reg>
                                 </choice>auditoire</add>
-                        </subst> entier<del xml:id="f19v05_e">e</del></add>
-                    <substJoin target="#f19v05_lescole #f19v05_lauditoire #f19v05_lassistance #f19v05_e"/>
-                    <add xml:id="f19v05_car_vaquoit"> car <choice>
+                        </subst> entier<del facs="#f19v05_i_e" xml:id="f19v05_e">e</del></add>
+                    <substJoin
+                        target="#f19v05_lescole #f19v05_lauditoire #f19v05_lassistance #f19v05_e"/>
+                    <add facs="#f19v05_i_car_vaquoit" xml:id="f19v05_car_vaquoit"> car <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice><placeName><choice>

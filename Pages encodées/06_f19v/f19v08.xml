@@ -31,12 +31,15 @@
             <zone xml:id="f19v08_i_apres_cela" points="1720,56 1746,173 2060,56 2023,13"/>
             <zone xml:id="f19v08_i_de1" points="553,347 553,504 724,485 686,347"/>
             <zone xml:id="f19v08_i_a_er" points="1038,357 1038,457 1153,442 1153,342"/>
-            <zone xml:id="f19v08_i_et_fer" points="957,433 934,538 2586,400 2605,300"/>
-            <zone xml:id="f19v08_i_bertrandy_ieu" points="700,509 705,804 2105,685 2781,395"/>
+            <zone xml:id="f19v08_i_et_Bertrandy" points="957,433 934,538 2010,438 2019,338"/>
+            <zone xml:id="f19v08_i_pour_ieu" points="1134,500 538,838 2105,685 2781,395"/>
+            <zone xml:id="f19v08_i_pour_fer" points="2095,347 2100,452 2595,409 2610,300"/>
+            <zone xml:id="f19v08_i_bertrandy" points="695,495 695,657 1086,647 1086,490"/>
         </surface>
         <surface>
-            <graphic url=""/>
-            <!--            Ajouter photo marge de droite sur Nakala-->
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.25fe14f6/4d9dd5b195d095f8074b573b86ddf00638dc7d32/6,1800,1642,1362/full/0/default.jpg"/>
+            <zone xml:id="f19v08_i_cognoistre_reqtes" points="-7,269 193,1277 1496,1341 1470,77"/>
         </surface>
     </facsimile>
     <text>
@@ -78,12 +81,12 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec le garde des seaus <subst>
-                        <del facs="#f19v08_i_bertrandy_ieu"><persName
+                        <del facs="#f19v08_i_bertrandy"><persName
                                 ref="https://isni.org/isni/0000000112609540"><surname><choice>
                                         <abbr><g ref="#ber-glyph">ƀ</g></abbr>
                                         <expan>Ber</expan>
                                     </choice>trandy</surname></persName></del>
-                        <add facs="#f19v08_i_et_fer"><del>et <choice>
+                        <add facs="#f19v08_i_et_Bertrandy"><del>et <choice>
                                     <abbr><g ref="#qui-glyph">ꝙ</g></abbr>
                                     <expan>qui</expan>
                                 </choice></del> depuys <del>f<unclear reason="deleted"
@@ -101,7 +104,7 @@
                                     </subst>trandy</surname></persName></add>
                     </subst>
                     <subst>
-                        <del>pour a<choice>
+                        <del facs="#f19v08_i_pour_ieu">pour a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oir sur<choice>
@@ -120,7 +123,7 @@
                                 <orig>i</orig>
                                 <reg>j'</reg>
                             </choice>eu</del>
-                        <add>pour me <choice>
+                        <add facs="#f19v08_i_cognoistre_reqtes">pour me <choice>
                                 <abbr>f<hi rend="superscript">er</hi></abbr>
                                 <expan>faire</expan>
                             </choice> cognoistre au <roleName

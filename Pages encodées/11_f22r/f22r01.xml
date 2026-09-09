@@ -21,7 +21,11 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/555,137,3279,388/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/555,137,3279,388/full/0/default.jpg"/>
+            <zone xml:id="f22r01_i_i_o" points="2707,160 2710,243 2767,238 2755,148"/>
+            <zone xml:id="f22r01_i_est" points="2767,168 2762,263 2900,273 2902,165"/>
+            <zone xml:id="f22r01_i_nome" points="2782,110 2775,170 3012,188 3027,120"/>
         </surface>
     </facsimile>
     <text>
@@ -53,19 +57,19 @@
                                     <abbr>Card<hi rend="superscript">al</hi></abbr>
                                     <expan>cardinal</expan>
                                 </choice></roleName>
-                            <nameLink>de</nameLink><surname>Tournon</surname></persName>, qu<subst
-                            xml:id="f22rop1_i_o">
+                            <nameLink>de</nameLink><surname>Tournon</surname></persName>, qu<subst facs="#f22r01_i_i_o"
+                            xml:id="f22r01_i_o">
                             <del rend="overwritten">i</del>
                             <add place="superimposed"><choice>
                                     <abbr rend="overlined">o</abbr>
                                     <expan>'on</expan>
                                 </choice></add>
                         </subst>
-                        <subst xml:id="f22rop1_est_nome">
-                            <del>est</del>
-                            <add>nome</add>
+                        <subst>
+                            <del facs="#f22r01_i_est" xml:id="f22r01_est">est</del>
+                            <add facs="#f22r01_i_nome" xml:id="f22r01_nome">nome</add>
                         </subst>
-                        <substJoin target="#f22rop1_i_o #f22rop1_est_nome"/> au<choice>
+                        <substJoin target="#f22r01_i_o #f22r01_est #f22r01_nome"/> au<choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>ourduy le

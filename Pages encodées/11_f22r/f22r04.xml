@@ -21,21 +21,46 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/793,1834,3082,1683/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/793,1834,3082,1683/full/0/default.jpg"/>
+            <zone xml:id="f22r04_i_et_qui" points="2006,121 1985,237 2932,179 2916,100"/>
+            <zone xml:id="f22r04_i_valent_fu" points="11,442 6,558 1906,394 1900,300"/>
+            <zone xml:id="f22r04_i_ie_fu" points="2558,158 2516,284 2921,315 2937,168"/>
+            <zone xml:id="f22r04_i_15" points="2268,334 2266,430 2412,420 2431,302"/>
+            <zone xml:id="f22r04_i_point" points="2310,396 2275,447 2325,443"/>
+            <zone xml:id="f22r04_i_ou" points="2167,390 2185,465 2293,452 2281,378"/>
+            <zone xml:id="f22r04_i_pour_particulier" points="48,670 38,852 922,722 1004,628"/>
+            <zone xml:id="f22r04_i_metamark0" points="950,660 896,728 994,724"/>
+            <zone xml:id="f22r04_i_vne_dont" points="918,536 876,622 1490,580 1486,508"/>
+            <zone xml:id="f22r04_i_metamark1" points="924,550 878,634 968,626 954,552"/>
+            <zone xml:id="f22r04_i_ma_d" points="140,576 130,674 886,620 920,528"/>
+            <zone xml:id="f22r04_i_estoit_absent_add" points="1808,460 1804,574 2968,526 2950,428"/>
+            <zone xml:id="f22r04_i_metamark2" points="1882,580 1814,678 1942,684"/>
+            <zone xml:id="f22r04_i_metamark3" points="914,812 1016,800 1010,728 896,734"/>
+            <zone xml:id="f22r04_i_estoit_absent_del" points="1022,738 962,906 2414,776 2408,670"/>
+            <zone xml:id="f22r04_i_l" points="2622,614 2510,794 2626,808 2694,618"/>
+            <zone xml:id="f22r04_i_nommée" points="52,972 24,1096 484,1086 474,962"/>
+            <zone xml:id="f22r04_i_faict_nomer" points="160,894 134,1018 726,926 694,854"/>
+            <zone xml:id="f22r04_i_nom" points="2894,666 2870,770 3028,764 3032,676"/>
+            <zone xml:id="f22r04_i_virgule_point" points="2024,890 1988,956 2078,962 2038,892"/>
+            <zone xml:id="f22r04_i_metamark4" points="1956,788 1948,894 2126,870 2126,784"/>
+            <zone xml:id="f22r04_i_et" points="2104,846 2106,946 2240,938 2246,844"/>
+            <zone xml:id="f22r04_i_Quant" points="2142,768 2098,846 2344,844 2358,766"/>
         </surface>
         <surface>
             <graphic url=""/>
             <!--                Ajouter une photo [À PRENDRE] de la marge de gauche c'est-à-dire_soir-->
         </surface>
         <surface>
-            <graphic url=""/>
-<!--                Ajouter une photo de la marge de gauche aussy_1557-->
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.78dchd97/9cc1504f71b0200443f9176256c7dc295e1a58cb/828,754,1587,3122/full/0/default.jpg"/>
+            <zone xml:id="f22r04_i_aussy_1557" points="142,142 42,3058 1559,2900 1584,-8"/>
         </surface>
-        
     </facsimile>
     <text>
         <body>
-            <p><addSpan xml:id="f22rop5-6-7_et_fu" spanTo="#f22rop5-6-7_fu"/><s><del><choice>
+            <p><addSpan facs="#f22r04_i_et_qui #f22r04_i_valent_fu" xml:id="f22r04_et_fu"
+                    spanTo="#f22r04_fu"/><s><del><choice>
                             <orig>e</orig>
                             <reg>E</reg>
                         </choice>t</del>
@@ -54,7 +79,8 @@
                     </choice>icelles.</s><s><choice>
                         <orig>i</orig>
                         <reg>J</reg>
-                    </choice>e fu<anchor xml:id="f22rop5-6-7_fu"/><del xml:id="f22rop5-6-7_ie_fu"><choice>
+                    </choice>e fu<anchor xml:id="f22r04_fu"/><del facs="#f22r04_i_ie_fu"
+                        xml:id="f22r04_ie_fu"><choice>
                             <orig>i</orig>
                             <reg>J</reg>
                         </choice>e fu</del> de retour <choice>
@@ -69,37 +95,39 @@
                             <add>8</add>
                         </subst></date>
                     <subst>
-                        <del rend="overwritten" xml:id="f22rop5-6-7_point">.</del>
-                        <add place="superimposed">o<choice xml:id="f22rop5-6-7_u">
+                        <del facs="#f22r04_i_point" rend="overwritten" xml:id="f22r04_point">.</del>
+                        <add place="superimposed">o<choice>
                                 <orig>u</orig>
-                                <reg>ù</reg>
+                                <reg xml:id="f22r04_u">ù</reg>
                             </choice>
-                            <del xml:id="f22rop5-6-7_15">15</del></add>
-                    </subst><substJoin seq="1" target="#f22rop5-6-7_ie_fu #f22rop5-6-7_point"
-                        /><substJoin seq="2"
-                        target="#f22rop5-6-7_et_fu #f22rop5-6-7_15 #f22rop5-6-7_u"/>
+                            <del facs="#f22r04_i_15" xml:id="f22r04_15">15</del></add>
+                    </subst><substJoin seq="1" target="#f22r04_ie_fu #f22r04_point"/><substJoin
+                        seq="2" target="#f22r04_et_fu #f22r04_15 #f22r04_u"/>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e trou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ay <del xml:id="f22rop5-6-7_pour_particulier">pour mon <choice>
+                    </choice>ay <del facs="#f22r04_i_pour_particulier"
+                        xml:id="f22r04_pour_particulier">pour mon <choice>
                             <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                             <expan>par</expan>
-                        </choice>ticulier <metamark function="insert" target="#f22rop5-6-7_vne_dont"
-                            >^</metamark></del><subst>
-                        <add xml:id="f22rop5-6-7_vne_dont"><add xml:id="f22rop5-6-7_ma_d">ma famille
-                                accreue d'</add><del xml:id="f22rop5-6-7_metamark_1"
+                        </choice>ticulier <metamark facs="#f22r04_i_metamark0" function="insert"
+                            target="#f22r04_vne_dont">^</metamark></del><subst>
+                        <add facs="#f22r04_i_vne_dont" xml:id="f22r04_vne_dont"><add
+                                facs="#f22r04_i_ma_d" xml:id="f22r04_ma_d">ma famille accreue
+                                d'</add><del facs="#f22r04_i_metamark1" xml:id="f22r04_metamark_1"
                                     ><metamark>^</metamark></del><choice>
                                 <orig>v</orig>
                                 <reg>u</reg>
                             </choice>ne fille dont</add>
                         <del>que</del>
                     </subst><substJoin
-                        target="#f22rop5-6-7_pour_particulier #f22rop5-6-7_ma_d #f22rop5-6-7_metamark_1"
-                    /> ma femme <metamark function="insert" target="#f22rop5-6-7_estoit_absent_add"
-                        >^</metamark><add xml:id="f22rop5-6-7_estoit_absent_add"
+                        target="#f22r04_pour_particulier #f22r04_ma_d #f22r04_metamark_1"/> ma femme
+                        <metamark facs="#f22r04_i_metamark2" function="insert"
+                        target="#f22r04_estoit_absent_add">^</metamark><add
+                        facs="#f22r04_estoit_absent_add" xml:id="f22r04_estoit_absent_add"
                             ><metamark>^</metamark> estoit acouchée moy absent</add> sept mois apres
                     mon <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
@@ -111,8 +139,9 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <metamark function="insert" target="#f22rop5-6-7_cest_soir">+</metamark>
-                    <add xml:id="f22rop5-6-7_cest_soir"><metamark>+</metamark> c<choice>
+                    <metamark facs="#f22r04_i_metamark3" function="insert"
+                        target="#f22r04_cest_soir">+</metamark>
+                    <add xml:id="f22r04_cest_soir"><metamark>+</metamark> c<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>est <choice>
@@ -130,29 +159,29 @@
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> XI heures et 1 quart du soir </add>
-                    <del xml:id="f22rop5-6-7_estoit_absent_del">estoit acouchée moy
-                        absent</del><substJoin
-                        target="#f22rop5-6-7_estoit_absent_add #f22rop5-6-7_estoit_absent_del"/> et
-                        <del xml:id="f22rop5-6-7_l">l<choice>
+                    <del facs="#f22r04_i_estoit_absent_del" xml:id="f22r04_estoit_absent_del">estoit
+                        acouchée moy absent</del><substJoin
+                        target="#f22r04_estoit_absent_add #f22r04_estoit_absent_del"/> et <del
+                        facs="#f22r04_i_l" xml:id="f22r04_l">l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice></del>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit <subst>
-                        <del seq="1">nommée</del>
-                        <del seq="2" xml:id="f22rop5-6-7_faict_nomer"><add seq="1">faict
-                            nomer</add></del>
-                        <add seq="2" xml:id="f22rop5-6-7_nom">nom</add>
-                    </subst><substJoin
-                        target="#f22rop5-6-7_l #f22rop5-6-7_faict_nomer #f22rop5-6-7_nom"/> Renée,
-                    mon premier enfant <subst rend="unmarked" xml:id="f22rop5-6-7_virgule_point">
+                        <del seq="1" facs="#f22r04_i_nommée">nommée</del>
+                        <del seq="2" facs="#f22r04_i_faict_nomer" xml:id="f22r04_faict_nomer"><add
+                                seq="1">faict nomer</add></del>
+                        <add seq="2" facs="#f22r04_i_nom" xml:id="f22r04_nom">nom</add>
+                    </subst><substJoin target="#f22r04_l #f22r04_faict_nomer #f22r04_nom"/> Renée,
+                    mon premier enfant <subst facs="#f22r04_i_virgule_point" rend="unmarked"
+                        xml:id="f22r04_virgule_point">
                         <del>,</del>
                         <add>.</add>
                     </subst></s>
-                <metamark function="insert" target="#f22rop5-6-7_aussy_1557">π</metamark><addSpan
-                    spanTo="#f22rop5-6-7_1557" xml:id="f22rop5-6-7_aussy_1557"
-                        /><s><metamark>π</metamark>
+                <metamark facs="#f22r04_i_metamark4" function="insert" target="#f22r04_aussy_1557"
+                    >π</metamark><addSpan facs="#f22r04_i_aussy_1557" spanTo="#f22r04_1557"
+                    xml:id="f22r04_aussy_1557"/><s><metamark>π</metamark>
                     <subst>
                         <del><choice>
                                 <orig>a</orig>
@@ -185,16 +214,16 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>our de sa mort fut</add>
-                    </subst> le <date>12. Mars 1557.</date><anchor xml:id="f22rop5-6-7_1557"/>
-                </s><s><subst xml:id="f22rop5-6-7_et_Quant">
-                        <del><choice>
+                    </subst> le <date>12. Mars 1557.</date><anchor xml:id="f22r04_1557"/>
+                </s><s><subst>
+                        <del facs="#f22r04_i_et" xml:id="f22r04_et"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
                             </choice>t</del>
-                        <add>Quant</add>
+                        <add facs="#f22r04_i_Quant" xml:id="f22r04_Quant">Quant</add>
                     </subst><substJoin
-                        target="#f22rop5-6-7_aussy_1557 #f22rop5-6-7_et_Quant #f22rop5-6-7_virgule_point"
-                    /> au public le <roleName ref="Q132545">Roy</roleName> a<choice>
+                        target="#f22r04_aussy_1557 #f22r04_et #f22r04_Quant #f22r04_virgule_point"/> au
+                    public le <roleName ref="Q132545">Roy</roleName> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit remis sus de grosses forces et sembloit <subst>
