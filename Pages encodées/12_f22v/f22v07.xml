@@ -21,7 +21,10 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1035,2716,2801,395/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1035,2716,2801,395/full/0/default.jpg"/>
+            <zone xml:id="f22v07_i_metamark01" points="1996,100 1929,200 2034,205"/>
+            <zone xml:id="f22v07_i_dieu_dispose" points="1958,11 1958,10 1928,101 2331,95 2335,8"/>
         </surface>
     </facsimile>
     <text>
@@ -33,8 +36,9 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <metamark function="insert" target="#f22vop8_dieu_dispose">^</metamark><add
-                        xml:id="f22vop8_dieu_dispose">^<choice>
+                    <metamark facs="#f22v07_i_metamark01" function="insert"
+                        target="#f22v07_dieu_dispose">^</metamark><add facs="#f22v07_i_dieu_dispose"
+                        xml:id="f22v07_dieu_dispose">^<choice>
                             <orig>d</orig>
                             <reg>D</reg>
                         </choice>ieu dispose</add>, nous somes soubs ses pieds et il nous prend

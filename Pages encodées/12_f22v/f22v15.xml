@@ -30,9 +30,9 @@
                             <orig>c</orig>
                             <reg>C</reg>
                         </choice>ar</del>
-                    <metamark function="transposition" rend="line" target=" #f22vop16_il_souuent"
-                        /><seg xml:id="f22vop16_il_souuent"><seg xml:id="f22vop16_il_faisoit">il me
-                            faisoit</seg><seg xml:id="f22vop16_souuent"><choice>
+                    <metamark function="transposition" rend="line" target=" #f22v15_il_souuent"
+                        /><seg xml:id="f22v15_il_souuent"><seg xml:id="f22v15_il_faisoit">il me
+                            faisoit</seg><seg xml:id="f22v15_souuent"><choice>
                                 <orig>s</orig>
                                 <reg>S</reg>
                             </choice>ou<choice>
@@ -40,8 +40,8 @@
                                 <reg>v</reg>
                             </choice>ent</seg></seg><listTranspose>
                         <transpose>
-                            <ptr target="#f22vop16_souuent"/>
-                            <ptr target="#f22vop16_il_faisoit"/>
+                            <ptr target="#f22v15_souuent"/>
+                            <ptr target="#f22v15_il_faisoit"/>
                         </transpose>
                     </listTranspose> tenir la chancellerie, <del>pour</del> en son lieu dedens sa
                     sale, et seler en plein seau, <subst>

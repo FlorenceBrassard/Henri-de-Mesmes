@@ -21,7 +21,10 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1092,4222,2760,392/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1092,4222,2760,392/full/0/default.jpg"/>
+            <zone xml:id="f22v12_i_metamark01" points="2077,128 2010,219 2167,214 2162,209"/>
+            <zone xml:id="f22v12_i_et_religion" points="2029,33 2005,114 2448,109 2448,28"/>
         </surface>
     </facsimile>
     <text>
@@ -29,9 +32,10 @@
             <p><s><choice>
                         <orig>a</orig>
                         <reg>A</reg>
-                    </choice>u regard de la police <metamark function="insert"
-                        target="#f22vop13_et_religion">^</metamark><add
-                        xml:id="f22vop13_et_religion"><metamark>^</metamark>et religion</add> on en <subst>
+                    </choice>u regard de la police <metamark facs="#f22v12_i_metamark01"
+                        function="insert" target="#f22v12_et_religion">^</metamark><add
+                        facs="#f22v12_i_et_religion" xml:id="f22v12_et_religion"
+                            ><metamark>^</metamark>et religion</add> on en <subst>
                         <del>debatoit et disputoit</del>
                         <add>parloit</add>
                     </subst> di<choice>

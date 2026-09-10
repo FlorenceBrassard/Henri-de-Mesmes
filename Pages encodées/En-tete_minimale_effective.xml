@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mémoires d'Henri de Mesmes : édition savante numérique</title>
+            <author><persName ref="Q18115562"><nameLink>de</nameLink>
+                  <surname>Mesmes</surname>, <forename>Henri</forename>
+               </persName>(1532-1596)</author>
+            <editor><persName ref="Q114080841" xml:id="AV"
+                     ><surname>Viaud</surname>,<forename>Alicia</forename>,</persName> ;
+                     <persName><surname>Brassard</surname>,<forename>Florence</forename></persName></editor>
+            <funder>Fonds de recherche du Québec</funder>
+            <principal><persName ref="Q114080841"
+                     ><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
+            <respStmt>
+               <resp>Avec la collaboration de</resp>
+               <persName><forename>Chloé</forename>
+                  <surname>Moulin</surname></persName>
+            </respStmt>
+            <respStmt>
+               <resp>facsimilé numérisé par les soins de la</resp>
+               <orgName>Bibliothèque nationale de France</orgName>
+            </respStmt>
+            <!--            Pas certaine que ça aille là, à confirmer ? selon https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD27-egXML-zi peut-être que ça irait là-->
+         </titleStmt>
+         <editionStmt>
+            <edition n="01">Première édition savante numérique des Mémoires d'Henri de Mesmes,
+                  <date>2027</date></edition>
+            <respStmt>
+               <resp/>
+               <persName/>
+            </respStmt>
+            <!--            One or more respStmt elements may also be used to supply statements of responsibility for the edition 
+               in question. These may refer to individuals or corporate bodies and can indicate functions such as that of a reviser, 
+               or can name the person or body responsible for the provision of supplementary matter, of appendices, etc., in a new 
+               edition.-->
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Presses universitaires de Rouen et du Havre</publisher>
+            <pubPlace>Rouen</pubPlace>
+            <date>2027</date>
+            <idno type="ISBN"/>
+            <idno type="DOI"/>
+            <availability>
+               <licence/>
+            </availability>
+            <!--         Creative commons ? À compléter-->
+            <distributor/>
+            <!--            Distributeur = nécessaire, différent pour la version papier ? voir p.ex. 
+               https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD24-egXML-fr -->
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="fr" type="composite">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Français</collection>
+                  <idno>729</idno>
+                  <altIdentifier>
+                     <idno>Anc. 7162(3)</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>de Mesmes 546</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Henri de Mesmes, Opuscules et fragments</head>
+               <msContents>
+                  <summary>Les Mémoires d'Henri de Mesmes sont colligés au sein d'un
+                     recueil...[etc.] </summary>
+                  <!--                  Il m'apparaît que la façon la plus efficace de procéder pour tenir compte de la nature du recueil où 
+                     se trouvent les Mémoires serait rédiger une brève description de ce recueil dans l'élément
+                     summary ci-dessus,  puis de donner les informations basiques (empan de pages, titre, éventuellement langue ? 
+                     avec <textLang> sur chacune des parties du recueil de façon structurée avec MsItemStruct plus loin, dans Ms Part. 
+                     Dans la suite de <msContents> général, ici, inclure les infos de base vraies pour l'ensemble du recueil ; 
+                     les informations relatives spécifiquement aux mémoires, pourront être  détaillées plus bas dans MsPart. 
+                     Ce ne sera pas uniforme, mais ça me semble l'option la plus cohérente-->
+               </msContents>
+               <physDesc>
+                  <objectDesc form="composite_manuscript">
+                     <supportDesc>
+                        <support>
+                           <p><material/><locus/></p>
+                        </support>
+                        <extent><dimensions>
+                              <height/>
+                              <width/>
+                           </dimensions></extent>
+                        <foliation> </foliation>
+                        <foliation/>
+                        <collation/>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                     </layoutDesc>
+                     <!--                        layoutDesc : sert à décrire la mise en page ; ne me semble pas crucial. -->
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <!--                     handDesc : pour décrire les caractéristiques de la calligraphie. Encore là pas crucial
+                  Le seul intérêt serait p-ê de préciser que la pagination a été faite par qqn d'autre, au moment où les papiers épars ont été
+                  rassemblés (et reliés) ?-->
+                  <bindingDesc>
+                     <binding>
+                        <condition/>
+                     </binding>
+                  </bindingDesc>
+                  <!--                     bindingDesc provisoire : qq infos sur la reliure ? -->
+               </physDesc>
+               <history/>
+               <additional/>
+
+               <msPart n="01">
+                  <msIdentifier>
+                     <idno>729 ff. 3r-9v</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct n="01">
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <!--                        Commencé par Lanoue, terminé par HdeMesmes selon la BnF ?-->
+                        <title type="desc">Notes géographiques sur quelques lieux contestés des
+                           Commentaires de César avec plan et carte</title>
+                        <decoNote/>
+                        <!--                        Évoquer la carte dans decoNote? -->
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
+               <msPart n="02">
+                  <msIdentifier>
+                     <idno>729 ff. 11r-12r</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct n="02">
+                        <title type="main">De l'oraison de Xénophon sur les louanges
+                           d'Agésilas</title>
+                        <!--                     Inscriptions latines à vérifier sur 12v-->
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
+               <msPart n="03">
+                  <msIdentifier>
+                     <idno>729 ff. 13r-15r</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct n="03">
+                        <author ref="Q41523"><persName>Plutarque</persName></author>
+                        <respStmt>
+                           <resp>traduit par</resp>
+                           <persName ref="Q18115562"><forename>Henri</forename>
+                              <nameLink>de</nameLink>
+                              <surname>Mesmes</surname></persName>
+                        </respStmt>
+                        <title type="desc">Traduction de divers passages de Plutarque sur les
+                           éclipses de lune et de soleil</title>
+                     </msItemStruct>
+                     <msItem n="03.1">
+                        <locus>ff. 13r-14r</locus>
+                        <title type="main">Plut. Eclipses de Lune</title>
+                     </msItem>
+                     <msItem n="03.2">
+                        <locus>ff. 14v-15r</locus>
+                        <title type="main">Eclipses de soleil</title>
+                     </msItem>
+                     <!--                  C'est ce qu'indique la BnF ; mais il y a des titres marqués par Henri : à 13r : « Plut. Eclipses de Lune » ; 
+                  à 14v, « Eclipses de soleil ». Devrait-on en tenir compte, et faire une subdivision ? J'ai essayé, voir si c'est licite. ? -->
+                  </msContents>
+               </msPart>
+               <msPart n="04">
+                  <msIdentifier>
+                     <idno>729 ff. 17r-33r</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct n="04">
+                        <author><persName ref="Q18115562"><forename>Henri</forename>
+                              <nameLink>de</nameLink>
+                              <surname>Mesmes</surname></persName></author>
+                        <title type="desc">Manuscrit autographe des Mémoires</title>
+                        <textLang mainLang="frm" otherLangs="la"/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart n="05">
+                  <msIdentifier>
+                     <idno>729 ff. 35r-41r </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct n="05">
+                        <author/>
+                        <title type="desc">Fragments</title>
+                        <!--                     Encore ici: à préciser ? 
+                     35r-v ;
+                     37r: porte le titre « Lib. xvij » :bonnes mœurs>lois
+                     39r: Études de cas, question de plusieurs meurtres ; 
+                     de là où doit s'étendre la grace du roi. Indication marginale cachée par un petit bout de papier (frustrant !)
+                     40r-v : manière de favoriser les bonnes mœurs (pour contenir un peu ple sous l'obeissance du roi et crainte de la justice)
+                     selon Xenophon ? LEs méditations +exemples antiques sur ce sujet se poursuivent à 41r, mais la calligraphie est différente. -->
+                     </msItemStruct>
+                  </msContents>
+               </msPart>
+               <msPart n="06">
+                  <msIdentifier>
+                     <idno>729 ff. 42r-43v</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItem n="06">
+                        <title type="desc">Discours sur la mort de monsieur le président de
+                           Marsan</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="07">
+                  <msIdentifier>
+                     <idno>729 ff. 46r-53v</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItem n="07">
+                        <title type="desc">Discours pieux en latin</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl/>
+         <!--         samplingDecl pourrait être le lieu de déclarer qu'on a seulement encodé la partie “mémoires” du manuscrit composite ? -->
+         <editorialDecl>
+            <segmentation>
+               <p>Explications quant à la balise s ; [ça je le conserverais, ce ne sera pas dans le
+                  péritexte, et c'est propre à la version numérique et à son éventuelle réutilisation]</p>
+            </segmentation>
+            <interpretation>
+               <p>Explications de notre démarche génétique, surtout ?</p>
+            </interpretation>
+         </editorialDecl>
+         <tagsDecl/>
+         <!--     Voir ici : https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD57 
+            Je pense que c'est nécessaire, mais ça outrepasse mes conmpétences    -->
+         <styleDefDecl/>
+         <!--         Voir ici : https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD57-1a
+         idem -->
+         <refsDecl>
+            <p>Expliquer comment référencer la version électronique du texte. Il me semble que le
+               plus logique serait de donner un attribut <att>n</att> à chacune des balises
+                  <gi>pb</gi>, correspondant aux pages du manuscrit. Il faudrait ajouter les
+               éléments att et gi au schéma. </p>
+            <!--            Voir ici https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD54P-->
+         </refsDecl>
+         <schemaRef url="tei_ms_schema.rng"/>
+         <!--         Est-ce que schemaSpec serait pertinent ? Je n'en suis pas sûre, d'autant qu'on n'a pas nécessairement conservé 
+            tous les éléments à l'intérieur des différents modules de la TEI...
+            Par ailleurs je ne sais pas si l'un ou l'autre est bien nécessaire, et si le lien auquel ça renvoie est pertinent dans le cadre de la diffusion 
+            de l'encodage.. à confirmer.-->
+         <appInfo>
+            <application ident="oXygen" version="28.0">
+               <desc/>
+            </application>
+            <!--            Je ne sais pas quoi indiquer dans desc ; les guidelines ne montrent pas cet élément à l'intérieur d'appInfo.
+            https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HDAPP-->
+         </appInfo>
+         <!--         Garder <g> mais pas <charDecl> -- Je ne suis plus certaine que <g> et <charDecl> soient nécessaires, finalement, puisque ça semble plutôt servir à distinguer des caractères qui seraient
+            pareils mais qui n'auraient pas le même usage. Même pour pro-glyph et par-glyph, qui se présentent parfois de la même manière, je ne suis pas sûre que ce soit 
+            nécessaire puisqu'ils sont tous les deux dépliés avec abbr expan : 
+            voir ici https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/WD.html#D25-20-->
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="" notAfter=""/>
+         </creation>
+         <langUsage>
+            <language ident="frm"/>
+            <language ident="la"/>
+         </langUsage>
+         <textClass/>
+         <!--         Pour donner des mots-clés tirés d'une classification existante, avec <keywords>, ou un numéro issu
+         d'une classification (Dewey Decimal, p.ex., avec <classCode>-->
+         <abstract>
+            <list>
+               <item/>
+            </list>
+         </abstract>
+         <!--         abstract pourrait être pertinent si on veut présenter les différentes unités 
+            discursives que nous avons identifiées et leur contenu, je crois. (ce n'Est pas l'exemple donné sur le site 
+            de la TEI, mais je pense que ça marcherait ; il faudrait ajouter au schéma abstract & list-->
+         <calendarDesc/>
+         <!--         Si on décide d'utiliser @calendar dans les dates mentionnées au fil du texte, il faudrait lister ici le/les calendriers utilisés-->
+       
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change n="" when="" who=""/>
+         </listChange>
+      </revisionDesc>
+      <!--      À partir de quel moment noter les changements ? Et sous quel format ? Les valeurs qui renseignent l'attribut who peuvent être des personnes nommées dans le titleStmt, dans l'élément <respStmt. -->
+   </teiHeader>
+   <facsimile/>
+   <text>
+      <body/>
+      <back/>
+   </text>
+</TEI>

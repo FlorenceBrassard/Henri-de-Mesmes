@@ -21,7 +21,9 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1005,1215,2814,636/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1005,1215,2814,636/full/0/default.jpg"/>
+            <zone xml:id="f22r01_i_grosse_add" points="2428,71 2430,140 2668,128 2665,53"/>
         </surface>
     </facsimile>
     <text>
@@ -47,10 +49,9 @@
                                 <orig>j</orig>
                                 <reg>J</reg>
                             </choice>acques</forename></persName> en <placeName>Galice</placeName>
-                    <add>et laissant <add xml:id="f22vop1_grosse_add">grosse</add> sa femme <del
-                            xml:id="f22vop1_grosse_del">grosse</del></add>
-                    <substJoin target="#f22vop1_grosse_add #f22vop1_grosse_del"/><add>qui estoit
-                        plus <choice>
+                    <add>et laissant <add facs="#f22r01_i_grosse_add" xml:id="f22v01_grosse_add">grosse</add> sa femme <del
+                            xml:id="f22v01_grosse_del">grosse</del></add>
+                    <substJoin target="#f22v01_grosse_add #f22v01_grosse_del"/><add>qui estoit plus <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>eune, nomée <persName><nameLink>de</nameLink>
@@ -100,8 +101,7 @@
                             <reg>,</reg>
                         </choice> fors que moy pource que mon <roleName ref="Q132545">parr<supplied
                                 cert="high" reason="margin">ein</supplied></roleName> estoit
-                            <roleName
-                        ref="Q132545">Roy</roleName> et son nom ne se de<choice>
+                            <roleName ref="Q132545">Roy</roleName> et son nom ne se de<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>oit acompaigné de celuy d'un autre moindre<choice>

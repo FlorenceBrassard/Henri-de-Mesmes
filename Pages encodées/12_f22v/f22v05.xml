@@ -21,7 +21,18 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1043,2308,2798,479/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1043,2308,2798,479/full/0/default.jpg"/>
+            <zone xml:id="f22v05_i_en_eage" points="223,258 223,332 776,325 776,242"/>
+            <zone xml:id="f22v05_i_a_fin" points="176,198 176,270 535,252 526,177"/>
+            <zone xml:id="f22v05_i_pieté" points="966,218 933,323 1168,318 1188,192"/>
+            <zone xml:id="f22v05_i_de" points="1743,152 1743,230 1858,213 1855,145"/>
+            <zone xml:id="f22v05_i_dont_veue" points="2235,175 2231,267 2771,277 2775,180"/>
+            <zone xml:id="f22v05_i_mourir" points="16,395 18,472 330,463 353,382"/>
+            <zone xml:id="f22v05_i_selon_eage" points="2108,127 2108,205 2783,200 2780,110"/>
+            <zone xml:id="f22v05_i_come_innocente" points="44,336 46,406 2316,348 2316,276"/>
+            <zone xml:id="f22v05_i_la" points="800,212 774,300 924,298 920,222"/>
+            <zone xml:id="f22v05_i_autant_de" points="538,180 538,260 1016,234 1014,150"/>
         </surface>
     </facsimile>
     <text>
@@ -41,31 +52,32 @@
                     </choice>ieu qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il me done <subst xml:id="f22vop6_en_fin">
-                        <del>en mon eage</del>
-                        <add><choice>
+                    </choice>il me done <subst>
+                        <del facs="#f22v05_i_en_eage" xml:id="f22v05_en_eage">en mon eage</del>
+                        <add facs="#f22v05_i_a_fin" xml:id="f22v05_a_fin"><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice> ma fin</add>
                     </subst>
                     <subst seq="1">
-                        <del>la</del>
-                        <add>autant de</add>
+                        <del facs="#f22v05_i_la">la</del>
+                        <add facs="#f22v05_i_autant_de">autant de</add>
                     </subst>
-                    <del xml:id="f22vop6_pieté">pieté,</del> de<choice>
+                    <del facs="#f22v05_i_pieté" xml:id="f22v05_pieté">pieté,</del> de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>otion, et <add xml:id="f22vop6_de">de</add><substJoin seq="2"
-                        target="#f22vop6_pieté #f22vop6_de"/> constance <subst
-                        xml:id="f22vop6_dont_innocente">
-                        <del>dont <choice>
+                    </choice>otion, et <add facs="#f22v05_i_de" xml:id="f22v05_de"
+                        >de</add><substJoin seq="2" target="#f22v05_pieté #f22v05_de"/> constance <subst>
+                        <del facs="#f22v05_i_dont_veue #f22v05_i_mourir" xml:id="f22v05_dont_mourir"
+                            >dont <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e l<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>ay veue mourir</del>
-                        <add> selon mon sexe et <choice>
+                        <add facs="#f22v05_i_selon_eage #f22v05_i_come_innocente"
+                            xml:id="f22v05_selon_innocente"> selon mon sexe et <choice>
                                 <abbr>m<hi rend="overlined">o</hi></abbr>
                                 <expan>mon</expan>
                             </choice>eage come <choice>
@@ -73,8 +85,9 @@
                                 <reg>j'</reg>
                             </choice>en vey en la tendre enfance de ceste pauvre innocente.</add>
                     </subst>
-                    <substJoin cert="high" seq="3" target="#f22vop6_en_fin #f22vop6_dont_innocente"
-                        /><del rend="unmarked">.</del></s></p>
+                    <substJoin cert="high" seq="3"
+                        target="#f22v05_en_eage #f22v05_a_fin #f22v05_dont_mourir"/><del
+                        rend="unmarked">.</del></s></p>
         </body>
     </text>
 </TEI>

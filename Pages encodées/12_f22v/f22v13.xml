@@ -21,7 +21,10 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1099,4392,2760,392/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1032,4379,2870,417/full/0/default.jpg"/>
+            <zone xml:id="f22v13_i_d_souuent" points="32,236 42,402 728,382 740,290"/>
+            <zone xml:id="f22v13_i_a_tenir" points="228,214 226,280 606,286 596,206"/>
         </surface>
     </facsimile>
     <text>
@@ -45,7 +48,7 @@
                                 <reg>'</reg>
                             </choice>obligeoit</add>
                     </subst><subst seq="2">
-                        <del><subst seq="1">
+                        <del facs="#f22v13_i_d_souuent"><subst seq="1">
                                 <del>d<choice>
                                         <orig/>
                                         <reg>'</reg>
@@ -54,11 +57,11 @@
                                         <orig>a </orig>
                                         <reg>à </reg>
                                     </choice></add>
-                            </subst> estre sou<choice>
+                            </subst>estre sou<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ent </del>
-                        <add><choice>
+                        <add facs="#f22v13_i_a_tenir"><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice> me tenir</add>
