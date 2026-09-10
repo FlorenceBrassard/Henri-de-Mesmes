@@ -79,6 +79,45 @@
                 <zone xml:id="f22v14" lry="5220" lrx="3855" uly="4575" ulx="1045"/>
                 <zone xml:id="f22v15" lry="5505" lrx="3855" uly="5025" ulx="1050"/>
             </surface>
+            <surface type="12_f23r.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/full/full/0/native.jpg"/>
+                <zone xml:id="zone_t21_slq_nkc" lry="935" lrx="3693" uly="364" ulx="686"/>
+                <zone xml:id="zone_jp2_hmq_nkc" lry="1207" lrx="3700" uly="736" ulx="686"/>
+                <zone xml:id="zone_qtx_nmq_nkc" lry="1799" lrx="3693" uly="621" ulx="336"/>
+                <zone xml:id="zone_f4m_pmq_nkc" lry="2350" lrx="3693" uly="1693" ulx="365"/>
+                <zone xml:id="zone_ccg_wmq_nkc" lry="2614" lrx="3693" uly="2307" ulx="750"/>
+                <zone xml:id="zone_fmn_xmq_nkc" lry="2964" lrx="3693" uly="2350" ulx="736"/>
+                <zone xml:id="zone_qrs_1nq_nkc" lry="3507" lrx="3715" uly="2694" ulx="735"/>
+                <zone xml:id="zone_nwc_dnq_nkc" lry="3999" lrx="3743" uly="3192" ulx="735"/>
+                <zone xml:id="zone_f5w_fnq_nkc" lry="4164" lrx="3750" uly="3729" ulx="728"/>
+                <zone xml:id="zone_qjw_3nq_nkc" lry="4442" lrx="3765" uly="3835" ulx="729"/>
+                <zone xml:id="zone_wy4_knq_nkc" lry="5099" lrx="3793" uly="4392" ulx="714"/>
+                <zone xml:id="zone_o5y_mnq_nkc" lry="5628" lrx="3793" uly="4750" ulx="422"/>
+            </surface>
+            <span><floatingText>
+                    <front>
+                        <div>
+                            <head><hi rend="italic"/></head>
+                        </div>
+                    </front>
+                </floatingText><hi rend="bold"><floatingText>
+                        <front>
+                            <div>
+                                <p/>
+                            </div>
+                        </front>
+                    </floatingText></hi></span>
+            <surface type="12_f23v.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/full/full/0/native.jpg"
+                />
+            </surface>
+            <surface type="12_f24r.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/full/full/0/native.jpg"
+                />
+            </surface>
         </surfaceGrp>
     </facsimile>
 </TEI>
