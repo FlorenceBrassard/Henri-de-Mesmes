@@ -19,6 +19,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/984,4378,2660,535/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
@@ -56,7 +63,7 @@
                         <reg>v</reg>
                     </choice>oit <metamark function="insert" target="#f23vop11_luy_viuant"
                         >^</metamark>
-                <add xml:id="f23vop11_luy_viuant"><metamark>^</metamark> luy vi<choice>
+                    <add xml:id="f23vop11_luy_viuant"><metamark>^</metamark> luy vi<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant</add> autrement vacquer.</s></p>

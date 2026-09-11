@@ -19,6 +19,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/1005,5118,2651,545/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
@@ -36,7 +43,8 @@
                     </choice>un <add>home</add> vi<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>an<unclear cert="high" reason="margin">t</unclear><unclear cert="medium" reason="margin">.</unclear><choice>
+                    </choice>an<unclear cert="high" reason="margin">t</unclear><unclear
+                        cert="medium" reason="margin">.</unclear><choice>
                         <orig/>
                         <reg> »</reg>
                     </choice></s>

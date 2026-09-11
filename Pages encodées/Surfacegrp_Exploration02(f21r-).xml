@@ -24,10 +24,12 @@
             <surface type="09_f21r.json">
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f47/full/full/0/native.jpg"/>
-                <zone xml:id="f21r01" lry="3357" lrx="3593" uly="2237" ulx="286"/>
-                <zone xml:id="f21r02" lry="4300" lrx="3708" uly="2957" ulx="779"/>
+                <zone xml:id="f20v04_b" lry="2492" lrx="3179" uly="442" ulx="293"/>
+                <zone xml:id="f21r01" lry="3370" lrx="3694" uly="2278" ulx="260"/>
+                <zone xml:id="f21r02" lry="4293" lrx="3698" uly="3076" ulx="750"/>
+                <zone xml:id="f21r03_a" lry="4676" lrx="3033" uly="3936" ulx="850"/>
+                <zone xml:id="f21r03_b" lry="5346" lrx="3750" uly="4339" ulx="2893"/>
                 <zone xml:id="f21r04" lry="5092" lrx="3007" uly="4441" ulx="657"/>
-                <zone xml:id="f21r03" lry="5349" lrx="3779" uly="3943" ulx="850"/>
                 <zone xml:id="f21r05" lry="5371" lrx="2993" uly="4800" ulx="915"/>
             </surface>
             <surface type="10_f21v.json">
@@ -44,25 +46,20 @@
                 <zone xml:id="f21v09" lry="5607" lrx="3615" uly="3371" ulx="1057"/>
             </surface>
             <surface type="11_f22r.json">
-                <surface>
-                    <graphic
-                        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/full/full/0/native.jpg"/>
-                    <zone xml:id="f22r01" lry="542" lrx="3908" uly="157" ulx="615"/>
-                    <zone xml:id="f22r02" lry="942" lrx="3900" uly="385" ulx="771"/>
-                    <zone xml:id="f22r03" lry="2328" lrx="3900" uly="671" ulx="265"/>
-                    <zone xml:id="f22r04" lry="4257" lrx="3843" uly="1941" ulx="315"/>
-                    <zone xml:id="f22r05" lry="4150" lrx="3865" uly="3107" ulx="800"/>
-                    <zone xml:id="f22r06-1" lry="5235" lrx="3800" uly="3821" ulx="679"/>
-                </surface>
-                <surface>
-                    <graphic
-                        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/full/full/0/native.jpg"/>
-                    <zone xml:id="f21v06-2" lry="5314" lrx="3858" uly="199" ulx="257"/>
-                </surface>
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/full/full/0/native.jpg"/>
+                <zone xml:id="f22r01" lry="542" lrx="3908" uly="157" ulx="615"/>
+                <zone xml:id="f22r02" lry="942" lrx="3900" uly="385" ulx="771"/>
+                <zone xml:id="f22r03" lry="2328" lrx="3900" uly="671" ulx="265"/>
+                <zone xml:id="f22r04" lry="4257" lrx="3843" uly="1941" ulx="315"/>
+                <zone xml:id="f22r05" lry="4150" lrx="3865" uly="3107" ulx="800"/>
+                <zone xml:id="f22r06-1" lry="5235" lrx="3800" uly="3821" ulx="679"/>
             </surface>
             <surface type="12_f22v.json">
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/full/full/0/native.jpg"/>
+                <zone xml:id="f22v06_b" lry="1249" lrx="3843" uly="364" ulx="951"/>
+                <zone xml:id="f22v06_c" lry="5342" lrx="1086" uly="621" ulx="272"/>
                 <zone xml:id="f22v01" lry="1900" lrx="3820" uly="1215" ulx="1015"/>
                 <zone xml:id="f22v02" lry="2115" lrx="3828" uly="1677" ulx="1025"/>
                 <zone xml:id="f22v04" lry="2520" lrx="3830" uly="2221" ulx="1042"/>
@@ -82,41 +79,45 @@
             <surface type="12_f23r.json">
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/full/full/0/native.jpg"/>
-                <zone xml:id="zone_t21_slq_nkc" lry="935" lrx="3693" uly="364" ulx="686"/>
-                <zone xml:id="zone_jp2_hmq_nkc" lry="1207" lrx="3700" uly="736" ulx="686"/>
-                <zone xml:id="zone_qtx_nmq_nkc" lry="1799" lrx="3693" uly="621" ulx="336"/>
-                <zone xml:id="zone_f4m_pmq_nkc" lry="2350" lrx="3693" uly="1693" ulx="365"/>
-                <zone xml:id="zone_ccg_wmq_nkc" lry="2614" lrx="3693" uly="2307" ulx="750"/>
-                <zone xml:id="zone_fmn_xmq_nkc" lry="2964" lrx="3693" uly="2350" ulx="736"/>
-                <zone xml:id="zone_qrs_1nq_nkc" lry="3507" lrx="3715" uly="2694" ulx="735"/>
-                <zone xml:id="zone_nwc_dnq_nkc" lry="3999" lrx="3743" uly="3192" ulx="735"/>
-                <zone xml:id="zone_f5w_fnq_nkc" lry="4164" lrx="3750" uly="3729" ulx="728"/>
-                <zone xml:id="zone_qjw_3nq_nkc" lry="4442" lrx="3765" uly="3835" ulx="729"/>
-                <zone xml:id="zone_wy4_knq_nkc" lry="5099" lrx="3793" uly="4392" ulx="714"/>
-                <zone xml:id="zone_o5y_mnq_nkc" lry="5628" lrx="3793" uly="4750" ulx="422"/>
+                <zone xml:id="f23r01" lry="935" lrx="3693" uly="364" ulx="686"/>
+                <zone xml:id="f23r02" lry="1207" lrx="3700" uly="736" ulx="686"/>
+                <zone xml:id="f23r03" lry="1799" lrx="3693" uly="621" ulx="336"/>
+                <zone xml:id="f23r04" lry="2350" lrx="3693" uly="1693" ulx="365"/>
+                <zone xml:id="f23r05" lry="2614" lrx="3693" uly="2307" ulx="750"/>
+                <zone xml:id="f23r06" lry="2964" lrx="3693" uly="2350" ulx="736"/>
+                <zone xml:id="f23r07" lry="3507" lrx="3715" uly="2694" ulx="735"/>
+                <zone xml:id="f23r08" lry="3999" lrx="3743" uly="3192" ulx="735"/>
+                <zone xml:id="f23r09" lry="4164" lrx="3750" uly="3729" ulx="728"/>
+                <zone xml:id="f23r10" lry="4442" lrx="3765" uly="3835" ulx="729"/>
+                <zone xml:id="f23r11" lry="5099" lrx="3793" uly="4392" ulx="714"/>
+                <zone xml:id="f23r12" lry="5628" lrx="3793" uly="4750" ulx="422"/>
             </surface>
-            <span><floatingText>
-                    <front>
-                        <div>
-                            <head><hi rend="italic"/></head>
-                        </div>
-                    </front>
-                </floatingText><hi rend="bold"><floatingText>
-                        <front>
-                            <div>
-                                <p/>
-                            </div>
-                        </front>
-                    </floatingText></hi></span>
             <surface type="12_f23v.json">
                 <graphic
-                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/full/full/0/native.jpg"
-                />
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/full/full/0/native.jpg"/>
+                <zone xml:id="f23v01" lry="1165" lrx="3625" uly="315" ulx="270"/>
+                <zone xml:id="f23v02" lry="1370" lrx="3610" uly="940" ulx="885"/>
+                <zone xml:id="f23v03" lry="2030" lrx="3620" uly="1190" ulx="880"/>
+                <zone xml:id="f23v04_a" lry="2340" lrx="3620" uly="1835" ulx="275"/>
+                <zone xml:id="f23v04_b" lry="2700" lrx="870" uly="2215" ulx="270"/>
+                <zone xml:id="f23v05" lry="2485" lrx="3630" uly="2155" ulx="865"/>
+                <zone xml:id="f23v06" lry="2750" lrx="3630" uly="2265" ulx="870"/>
+                <zone xml:id="f23v07" lry="2910" lrx="3625" uly="2545" ulx="670"/>
+                <zone xml:id="f23v08" lry="4180" lrx="3620" uly="2855" ulx="955"/>
+                <zone xml:id="f23v09" lry="4580" lrx="3630" uly="3920" ulx="955"/>
+                <zone xml:id="f23v10" lry="4895" lrx="3620" uly="4365" ulx="950"/>
+                <zone xml:id="f23v11" lry="5270" lrx="3645" uly="4680" ulx="955"/>
+                <zone xml:id="f23v12" lry="5360" lrx="3640" uly="4975" ulx="950"/>
+                <zone xml:id="f23v13" lry="5650" lrx="3630" uly="5130" ulx="960"/>
+                <zone xml:id="f23v14_a" lry="5965" lrx="3640" uly="5355" ulx="945"/>
             </surface>
             <surface type="12_f24r.json">
                 <graphic
-                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/full/full/0/native.jpg"
-                />
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/full/full/0/native.jpg"/>
+                <zone xml:id="f23v14_b" lry="785" lrx="3608" uly="478" ulx="757"/>
+                <zone xml:id="f24v01" lry="864" lrx="3615" uly="521" ulx="757"/>
+                <zone xml:id="f24r02_a" lry="1078" lrx="3715" uly="686" ulx="757"/>
+                <zone xml:id="f24r02_b" lry="1449" lrx="843" uly="943" ulx="314"/>
             </surface>
         </surfaceGrp>
     </facsimile>
