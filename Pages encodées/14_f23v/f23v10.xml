@@ -22,8 +22,14 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/984,4378,2660,535/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/984,4378,2660,535/full/0/default.jpg"/>
+            <zone xml:id="f23v10_i_aussy" lry="81" lrx="982" uly="9" ulx="791"/>
+            <zone xml:id="f23v10_i_et" points="1314,63 1295,140 1400,136 1414,72"/>
+            <zone xml:id="f23v10_i_que" points="1336,13 1358,84 1518,40 1514,0"/>
+            <zone xml:id="f23v10_i_le" lry="320" lrx="1162" uly="186" ulx="1058"/>
+            <zone xml:id="f23v10_i_son_officier" lry="234" lrx="1934" uly="140" ulx="1574"/>
+            <zone xml:id="f23v10_i_metamark01" points="798,412 720,498 810,510"/>
+            <zone xml:id="f23v10_i_luy_viuant" lry="408" lrx="1246" uly="304" ulx="736"/>
         </surface>
     </facsimile>
     <text>
@@ -31,39 +37,39 @@
             <p><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
-                    </choice>equel <add xml:id="f23vop11_aussy">aussy</add>
+                    </choice>equel <add facs="#f23v10_i_aussy" xml:id="f23v10_aussy">aussy</add>
                     <metamark function="transposition" rend="line"
-                        target="#f23vop11_rudement_seuerement" xml:id="f23vop11_line"/>
-                    <seg xml:id="f23vop11_rudement_seuerement">
-                        <seg xml:id="f23vop11_rudement">rudement</seg>
-                        <subst xml:id="f23vop11_et_que">
-                            <del>et</del>
-                            <add>que</add>
+                        target="#f23v10_rudement_seuerement" xml:id="f23v10_line"/>
+                    <seg xml:id="f23v10_rudement_seuerement">
+                        <seg xml:id="f23v10_rudement">rudement</seg>
+                        <subst>
+                            <del facs="#f23v10_i_et" xml:id="f23v10_et">et</del>
+                            <add facs="#f23v10_i_que" xml:id="f23v10_que">que</add>
                         </subst>
-                        <seg xml:id="f23vop11_seuerement">se<choice>
+                        <seg xml:id="f23v10_seuerement">se<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>erement</seg>
                     </seg><listTranspose>
                         <transpose>
-                            <ptr target="#f23vop11_seuerement"/>
-                            <ptr target="#f23vop11_rudement"/>
+                            <ptr target="#f23v10_seuerement"/>
+                            <ptr target="#f23v10_rudement"/>
                         </transpose>
-                    </listTranspose><substJoin
-                        target="#f23vop11_aussy #f23vop11_et_que #f23vop11_line"/> luy contesta qu<choice>
+                    </listTranspose><substJoin target="#f23v10_aussy #f23v10_et #f23v10_que #f23v10_line"/>
+                    luy contesta qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il ne faisoit pas bien de <del xml:id="f23vop11_le">le</del>
-                    despouiller <add xml:id="f23vop11_son_officier">son officier</add><substJoin
-                        target="#f23vop11_le #f23vop11_son_officier"/> sens crime, et que l<choice>
+                    </choice>il ne faisoit pas bien de <del facs="#f23v10_i_le" xml:id="f23v10_le">le</del> despouiller
+                        <add facs="#f23v10_i_son_officier" xml:id="f23v10_son_officier">son officier</add><substJoin
+                        target="#f23v10_le #f23v10_son_officier"/> sens crime, et que l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>office ne pou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit <metamark function="insert" target="#f23vop11_luy_viuant"
+                    </choice>oit <metamark facs="#f23v10_i_metamark01" function="insert" target="#f23v10_luy_viuant"
                         >^</metamark>
-                    <add xml:id="f23vop11_luy_viuant"><metamark>^</metamark> luy vi<choice>
+                    <add facs="#f23v10_i_luy_viuant" xml:id="f23v10_luy_viuant"><metamark>^</metamark> luy vi<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant</add> autrement vacquer.</s></p>

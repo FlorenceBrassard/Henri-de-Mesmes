@@ -22,8 +22,9 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/680,2540,2925,375/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/680,2540,2925,375/full/0/default.jpg"/>
+            <zone xml:id="f23v07_i_metamark01" lry="178" lrx="1192" uly="128" ulx="1142"/>
+            <zone xml:id="f23v07_i_diuerses" lry="98" lrx="1480" uly="20" ulx="1132"/>
         </surface>
     </facsimile>
     <text>
@@ -37,8 +38,8 @@
                     </choice>oit <add><choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice></add> trois <metamark function="insert"
-                        target="#f23vop7-8_diuerses">^</metamark><add xml:id="f23vop7-8_diuerses">di<choice>
+                        </choice></add> trois <metamark facs="#f23v07_i_metamark01" function="insert" target="#f23v07_diuerses"
+                        >^</metamark><add facs="#f23v07_i_diuerses" xml:id="f23v07_diuerses">di<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>erses</add> fois en sa vie gardé les seaus de <placeName ref="Q142"><choice>

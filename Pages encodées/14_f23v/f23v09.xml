@@ -22,8 +22,10 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/977,3906,2647,709/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/977,3906,2647,709/full/0/default.jpg"/>
+            <zone xml:id="f23v09_i_metamark01" lry="355" lrx="1900" uly="259" ulx="1814"/>
+            <zone xml:id="f23v09_i_son" lry="255" lrx="2027" uly="155" ulx="1859"/>
+            <zone xml:id="f23v09_i_du_Roy" lry="332" lrx="2650" uly="141" ulx="2309"/>
         </surface>
     </facsimile>
     <text>
@@ -51,13 +53,12 @@
                             <expan>premier</expan>
                         </choice></persName> lassé de feu
                         <persName><surname>Rusé</surname></persName>
-                    <metamark function="insert" target="#f23vop10_son">^</metamark><add
-                        xml:id="f23vop10_son">son</add> ad<choice>
+                    <metamark facs="#f23v09_i_metamark01" target="#f23v09_son">^</metamark><add facs="#f23v09_i_son"
+                        xml:id="f23v09_son">son</add> ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ocat <del xml:id="f23vop10_du_Roy">du <roleName ref="Q129857"
-                            >Roy</roleName></del><substJoin target="#f23vop10_son #f23vop10_du_Roy"
-                    /> au <choice>
+                    </choice>ocat <del facs="#f23v09_i_du_Roy" xml:id="f23v09_du_Roy">du <roleName ref="Q129857"
+                            >Roy</roleName></del><substJoin target="#f23v09_son #f23v09_du_Roy"/> au <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>lement de <placeName ref="Q90"><choice>

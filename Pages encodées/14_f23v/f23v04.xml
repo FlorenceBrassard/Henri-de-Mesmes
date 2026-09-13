@@ -22,10 +22,10 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/907,1814,2711,563/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/907,1814,2711,563/full/0/default.jpg"/>
+            <zone xml:id="f23v04_i_metamark01" lry="450" lrx="505" uly="350" ulx="391"/>
         </surface>
-        <surface>
+        <surface xml:id="f23v04_i_il_ans">
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/283,2177,628,543/full/0/default.jpg"
             />
@@ -52,9 +52,9 @@
                     </choice>ec tesmoignage public de <subst>
                         <del>sa</del>
                         <add>tres</add>
-                    </subst> bone renomée.</s><s><metamark function="insert"
-                        target="#f23vop4_il_ans">+</metamark><add xml:id="f23vop4_il_ans"
-                            ><metamark>+</metamark>
+                    </subst> bone renomée.</s><s><metamark facs="#f23v04_i_metamark01"
+                        function="insert" target="#f23v04_il_ans">+</metamark><add
+                        facs="#f23v04_i_il_ans" xml:id="f23v04_il_ans"><metamark>+</metamark>
                         <choice>
                             <orig>i</orig>
                             <reg>I</reg>

@@ -22,13 +22,16 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/872,2261,2748,514/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/872,2261,2748,514/full/0/default.jpg"/>
+            <zone xml:id="f23v06_i_que_mal" lry="185" lrx="2388" uly="42" ulx="1957"/>
+            <zone xml:id="f23v06_i_il_gre" points="1012,10 1007,105 1929,95 1927,10"/>
+            <zone xml:id="f23v06_i_e_un" lry="342" lrx="567" uly="228" ulx="460"/>
+            <zone xml:id="f23v06_i_grand" points="687,157 955,137 950,207 675,277"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <p><s><add xml:id="f23vop6_il_gre"><choice>
+            <p><s><add facs="#f23v06_i_il_gre" xml:id="f23v06_il_gre"><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l a<choice>
@@ -43,18 +46,18 @@
                     </choice> ci<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>il <del xml:id="f23vop6_que_mal">que mal</del><substJoin
-                        target="#f23vop6_que_mal #f23vop6_il_gre"/> et sur une <choice>
+                    </choice>il <del facs="#f23v06_i_que_mal" xml:id="f23v06_que_mal">que mal</del><substJoin
+                        target="#f23v06_que_mal #f23v06_il_gre"/> et sur une <choice>
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
-                    </choice>messe d<subst xml:id="f23vop6_e_un">
+                    </choice>messe d<subst facs="#f23v06_i_e_un" xml:id="f23v06_e_un">
                         <del rend="overwritten">e</del>
                         <add place="superimposed"><choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>un</add>
-                    </subst> plus <add xml:id="f23vop6_grand">grand</add><substJoin
-                        target="#f23vop6_e_un #f23vop6_grand"/> il s<choice>
+                    </subst> plus <add facs="#f23v06_i_grand" xml:id="f23v06_grand">grand</add><substJoin
+                        target="#f23v06_e_un #f23v06_grand"/> il s<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>estoit contanté <subst>

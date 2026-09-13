@@ -22,8 +22,9 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/881,2080,2768,420/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/881,2080,2768,420/full/0/default.jpg"/>
+            <zone xml:id="f23v05_i_ny_ac" lry="390" lrx="747" uly="269" ulx="466"/>
+            <zone xml:id="f23v05_i_acheté_ny" lry="352" lrx="400" uly="228" ulx="19"/>
         </surface>
     </facsimile>
     <text>
@@ -43,9 +44,10 @@
                     </choice>oit <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>amais <add xml:id="f23vop5_acheté_ny">acheté ny</add> demandé <del
-                        xml:id="f23vop4_ny_ac">ny ac</del><substJoin
-                        target="#f23vop4_ny_ac #f23vop5_acheté_ny"/> office.</s></p>
+                    </choice>amais <add facs="#f23v05_i_acheté_ny" xml:id="f23v05_acheté_ny">acheté
+                        ny</add> demandé <del facs="#f23v05_i_ny_ac" xml:id="f23v05_ny_ac">ny
+                        ac</del><substJoin target="#f23v05_ny_ac #f23v05_acheté_ny"/>
+                office.</s></p>
         </body>
     </text>
 </TEI>

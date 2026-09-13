@@ -22,8 +22,11 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/876,851,2735,550/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/876,851,2735,550/full/0/default.jpg"/>
+            <zone xml:id="f23v02_i_sa" lry="181" lrx="1564" uly="122" ulx="1450"/>
+            <zone xml:id="f23v02_i_du_Roy" lry="254" lrx="2014" uly="87" ulx="1671"/>
+            <zone xml:id="f23v02_i_faict" lry="443" lrx="709" uly="335" ulx="427"/>
+            <zone xml:id="f23v02_i_u_ir" lry="491" lrx="862" uly="391" ulx="719"/>
         </surface>
     </facsimile>
     <text>
@@ -32,9 +35,10 @@
                             <abbr>R<hi rend="superscript">ne</hi></abbr>
                             <expan>Reine</expan>
                         </choice></roleName>
-                    <add xml:id="f23vop2_sa">sa</add> mere <del xml:id="f23vop2_du_Roy">du <roleName
-                            ref="Q53448">Roy</roleName></del><substJoin
-                        target="#f23vop2_sa #f23vop2_du_Roy"/> pleura <add>de</add> ceste nou<choice>
+                    <add facs="#f23v02_i_sa" xml:id="f23v02_sa">sa</add> mere <del
+                        facs="#f23v02_i_du_Roy" xml:id="f23v02_du_Roy">du <roleName ref="Q53448"
+                            >Roy</roleName></del><substJoin target="#f23v02_sa #f23v02_du_Roy"/>
+                    pleura <add>de</add> ceste nou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>elle <del>qu</del> et dit <subst>
@@ -70,12 +74,12 @@
                     </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit nomé et <add xml:id="f23vop2_faict">faict</add> reten<subst
-                        xml:id="f23vop2_u_ir">
+                    </choice>oit nomé et <add facs="#f23v02_i_faict" xml:id="f23v02_faict"
+                        >faict</add> reten<subst facs="#f23v02_i_u_ir" xml:id="f23v02_u_ir">
                         <del rend="overwritten">u</del>
                         <add place="superimposed">ir</add>
                     </subst>
-                    <substJoin target="#f23vop2_faict #f23vop2_u_ir"/> chancelier de <placeName
+                    <substJoin target="#f23v02_faict #f23v02_u_ir"/> chancelier de <placeName
                         ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
