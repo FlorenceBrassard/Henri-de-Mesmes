@@ -21,7 +21,12 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/752,3882,3008,578/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/752,3882,3008,578/full/0/default.jpg"/>
+            <zone xml:id="f23r10_i_apostrophe" points="1936,177 1926,234 1966,237 1966,174"/>
+            <zone xml:id="f23r10_i_e" points="1933,224 1886,287 1943,277"/>
+            <zone xml:id="f23r10_i_metamark01" points="1883,333 1960,332 1929,264 1929,271"/>
+            <zone xml:id="f23r10_i_le_soir" points="1915,130 1881,223 2178,220 2186,148"/>
         </surface>
     </facsimile>
     <text>
@@ -42,12 +47,13 @@
                     </choice>usques presque <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> nuict close qu<subst xml:id="f23rop10_apostrophe_e">
-                        <del rend="overwritten">'</del>
-                        <add place="superimposed">e</add>
-                    </subst><metamark function="insert">^</metamark><add xml:id="f23rop10_le_soir"
-                            ><metamark>^</metamark> le soir</add><substJoin
-                        target="#f23rop10_apostrophe_e #f23rop10_le_soir"/> au retour <choice>
+                    </choice> nuict close qu<subst xml:id="f23r10_apostrophe_e">
+                        <del facs="#f23r10_i_apostrophe" rend="overwritten">'</del>
+                        <add facs="#f23r10_i_e" place="superimposed">e</add>
+                    </subst><metamark facs="#f23r10_i_metamark01" function="insert">^</metamark><add
+                        facs="#f23r10_i_le_soir" xml:id="f23r10_le_soir"><metamark>^</metamark> le
+                        soir</add><substJoin target="#f23r10_apostrophe_e #f23r10_le_soir"/> au
+                    retour <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>

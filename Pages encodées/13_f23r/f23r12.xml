@@ -21,7 +21,10 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/341,4722,3491,958/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/341,4722,3491,958/full/0/default.jpg"/>
+            <zone xml:id="f23r12_i_metamark" lry="244" lrx="2675" uly="154" ulx="2600"/>
+            <zone xml:id="f23r12_i_durant_fus" lry="892" lrx="507" uly="347" ulx="62"/>
         </surface>
     </facsimile>
     <text>
@@ -50,9 +53,10 @@
                     <choice>
                         <orig>,</orig>
                         <reg>.</reg>
-                    </choice><metamark function="insert" target="#f23rop12_durant_fus"
-                        >҂</metamark><addSpan seq="2" spanTo="#f23rop12_fus"
-                        xml:id="f23rop12_durant_fus"/><metamark>҂</metamark>
+                    </choice><metamark facs="#f23r12_i_metamark" function="insert"
+                        target="#f23r12_durant_fus">҂</metamark><addSpan facs="#f23r12_i_durant_fus"
+                        seq="2" spanTo="#f23r12_fus" xml:id="f23r12_durant_fus"
+                        /><metamark>҂</metamark>
                     <choice>
                         <orig>d</orig>
                         <reg>D</reg>
@@ -70,7 +74,7 @@
                             <abbr>8<hi rend="superscript">bre</hi></abbr>
                             <expan>octobre</expan>
                         </choice> 1568</date>.</s>
-                <s> Je fus<anchor xml:id="f23rop12_fus"/><subst>
+                <s> Je fus<anchor xml:id="f23r12_fus"/><subst>
                         <del>puys</del>
                         <add><del>et</del> quelques mois apres</add>
                     </subst> despeché pour <choice>

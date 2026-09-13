@@ -21,7 +21,16 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/706,309,3001,655/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/706,309,3001,655/full/0/default.jpg"/>
+            <zone xml:id="f23r01_i_ce" points="1003,157 1003,253 1133,257 1140,167"/>
+            <zone xml:id="f23r01_i_les_difficultez" points="970,46 970,170 1630,120 1630,16"/>
+            <zone xml:id="f23r01_i_t_ent" points="1736,143 1720,256 1846,240 1836,146"/>
+            <zone xml:id="zone_og1_jcz_nkc" points="2077,138 2006,269 2106,264"/>
+            <zone xml:id="f23r01_i_destre_iugé" points="2653,117 2077,90 2073,240 2573,243"/>
+            <zone xml:id="f23r01_i_par" points="2636,163 2543,266 2746,276 2763,193"/>
+            <zone xml:id="f23r01_i_de" points="2686,76 2633,163 2773,193 2800,116"/>
+            <zone xml:id="f23r01_i_quelque" points="2196,233 2210,420 2323,326 2563,266"/>
         </surface>
     </facsimile>
     <text>
@@ -32,16 +41,17 @@
                     </choice>uys <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e luy raportois <subst xml:id="f23rop1_ce_difficultez">
-                        <del>ce</del>
-                        <add>les difficultez</add>
-                    </subst> qui me sembloi<subst xml:id="f23rop1_t_ent">
+                    </choice>e luy raportois <subst>
+                        <del facs="#f23r01_i_ce" xml:id="f23r01_ce">ce</del>
+                        <add facs="#f23r01_i_les_difficultez" xml:id="f23r01_les_difficultez">les
+                            difficultez</add>
+                    </subst> qui me sembloi<subst xml:id="f23r01_t_ent">
                         <del rend="overwritten">t</del>
                         <add place="superimposed">ent</add>
-                    </subst> digne<add xml:id="f23rop1_s">s</add>
+                    </subst> digne<add facs="#f23r01_s" xml:id="f23r01_s">s</add>
                     <substJoin
-                        target="#f23rop1_ce_difficultez #f23rop1_t_ent #f23rop1_s #f23rop1_destre_iugé"/>
-                    <del xml:id="f23rop1_destre_iugé">d<choice>
+                        target="#f23r01_ce #f23r01_les_difficultez #f23r01_t_ent #f23r01_s #f23r01_destre_iugé"/>
+                    <del facs="#f23r01_i_destre_iugé" xml:id="f23r01_destre_iugé">d<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>estre <choice>
@@ -57,9 +67,9 @@
                     </choice> l'heure qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il sentoit <metamark function="insert" target="#f23rop1_quelque"
+                    </choice>il sentoit <metamark function="insert" target="#f23r01_quelque"
                         >^</metamark>
-                    <add xml:id="f23rop1_quelque">quelque</add> allegement <del>en son mal <subst>
+                    <add xml:id="f23r01_quelque">quelque</add> allegement <del>en son mal <subst>
                             <del>et<add seq="1">qu<choice>
                                         <orig/>
                                         <reg>'</reg>

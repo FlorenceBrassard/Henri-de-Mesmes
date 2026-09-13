@@ -21,7 +21,11 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/781,2361,2940,641/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/781,2361,2940,641/full/0/default.jpg"/>
+            <zone xml:id="f23r06_i_qui_estoient" points="1445,95 1455,220 1925,200 1930,115"/>
+            <zone xml:id="f23r06_i_touts_deux" points="1485,5 1485,95 1935,95 1925,10"/>
+            <zone xml:id="f23r06_i_deux" points="2065,55 2065,195 2275,185 2275,70"/>
         </surface>
     </facsimile>
     <text>
@@ -32,12 +36,14 @@
                     </choice>t ont <persName ref="Q3085482"><surname>Oli<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>ier</surname></persName> et luy, <subst
-                        xml:id="f23rop6_qui_deux">
-                        <del>qui estoient</del>
-                        <add>touts deux</add>
-                    </subst> les <del xml:id="f23rop6_deux">deux</del><substJoin
-                        target="#f23rop6_qui_deux #f23rop6_deux"/> plus capables qu'on ait <subst>
+                            </choice>ier</surname></persName> et luy, <subst>
+                        <del facs="#f23r06_i_qui_estoient" xml:id="f23r06_qui_estoient">qui
+                            estoient</del>
+                        <add facs="#f23r06_i_touts_deux" xml:id="f23r06_touts_deux">touts deux</add>
+                    </subst> les <del facs="#f23r06_i_deux" xml:id="f23r06_deux"
+                        >deux</del><substJoin
+                        target="#f23r06_qui_estoient #f23r06_touts_deux #f23r06_deux"/> plus
+                    capables qu'on ait <subst>
                         <del><choice>
                                 <orig>i</orig>
                                 <reg>j</reg>

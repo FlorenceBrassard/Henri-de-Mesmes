@@ -21,13 +21,22 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/361,579,3443,1265/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/361,579,3443,1265/full/0/default.jpg"/>
+            <zone xml:id="f23r03_i_metamark01" points="1535,450 1505,550 1635,535 1675,435"/>
+            <zone xml:id="f23r03_i_Certes_censeur" points="5,30 345,35 415,895 10,885"/>
+            <zone xml:id="f23r03_i_metamark02" points="2605,550 2530,635 2685,645"/>
+            <zone xml:id="f23r03_i_auec_moy" points="2625,440 2550,515 2980,520 2985,465"/>
+            <zone xml:id="f23r03_i_metamark03" points="1465,975 1395,1095 1525,1085"/>
+            <zone xml:id="f23r03_i_apres_pere" points="1395,895 1315,970 2230,955 2210,890"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <p><del><metamark function="insert" target="#f23rop3_Certes_censeur">≠</metamark><add
-                        xml:id="f23rop3_Certes_censeur"><metamark>≠</metamark><s>Certes <choice>
+            <p><del><metamark facs="#f23r03_i_metamark01" function="insert"
+                        target="#f23r03_Certes_censeur">≠</metamark><add
+                        facs="#f23r03_i_Certes_censeur" xml:id="f23r03_Certes_censeur"
+                            ><metamark>≠</metamark><s>Certes <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>'estimois beaucoup cest honeur qui venoit de <choice>
@@ -54,8 +63,9 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ent</add>
-                    </subst> il entroit <metamark function="insert" target="#f23rop3_auec_moy"
-                        >^</metamark><add xml:id="f23rop3_auec_moy"><metamark>^</metamark>a<choice>
+                    </subst> il entroit <metamark facs="#f23r03_i_metamark02" function="insert"
+                        target="#f23r03_auec_moy">^</metamark><add facs="#f23r03_i_auec_moy"
+                        xml:id="f23r03_auec_moy"><metamark>^</metamark>a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ec moy</add> en discours des <choice>
@@ -94,8 +104,9 @@
                     </choice>oir <subst>
                         <del>plus</del>
                         <add>autant</add>
-                    </subst> apris en son escole <metamark function="insert"
-                        target="#f23rop3_apres_pere">^</metamark><add xml:id="f23rop3_apres_pere"
+                    </subst> apris en son escole <metamark facs="#f23r03_i_metamark03"
+                        function="insert" target="#f23r03_apres_pere">^</metamark><add
+                        facs="#f23r03_i_apres_pere" xml:id="f23r03_apres_pere"
                             ><metamark>^</metamark>apres celle de mon pere</add> qu'en
                         <del>autre</del> autre <del>de et <unclear cert="low" reason="illegible"
                             >t</unclear></del> o<choice>

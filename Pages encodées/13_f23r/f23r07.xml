@@ -21,7 +21,10 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/711,2698,3041,853/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/711,2698,3041,853/full/0/default.jpg"/>
+            <zone xml:id="f23r07_i_metamark01" points="1095,716 1021,795 1132,790"/>
+            <zone xml:id="f23r07_i_auec_elle" points="995,611 948,695 1353,674 1353,611"/>
         </surface>
     </facsimile>
     <text>
@@ -65,8 +68,9 @@
                                         <orig>l</orig>
                                         <reg>L</reg>
                                     </choice>orraine</expan>
-                            </choice></surname></persName> et m'emmena <metamark function="insert"
-                        target="#f23rop7_auec_elle">^</metamark><add xml:id="f23rop7_auec_elle"
+                            </choice></surname></persName> et m'emmena <metamark
+                        facs="#f23r07_i_metamark01" function="insert" target="#f23r07_auec_elle"
+                        >^</metamark><add facs="#f23r07_i_auec_elle" xml:id="f23r07_auec_elle"
                             ><metamark>^</metamark> a<choice>
                             <orig>u</orig>
                             <reg>v</reg>

@@ -21,7 +21,11 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/700,691,3007,570/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/700,691,3007,570/full/0/default.jpg"/>
+            <zone xml:id="f23r02_i_virgule" points="2306,303 2296,353 2366,363 2363,303"/>
+            <zone xml:id="f23r02_i_et_nestions" points="2390,246 2376,340 2976,366 2986,266"/>
+            <zone xml:id="f23r02_i_guiere_auis" points="100,383 30,550 1156,503 1160,343"/>
         </surface>
     </facsimile>
     <text>
@@ -50,11 +54,13 @@
                     </choice>ois remis <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> luy<del rend="unmarked" xml:id="f23rop2_virgule">,</del><del
-                        xml:id="f23rop2_et_auis"> et n'estions guiere de differens a<choice>
+                    </choice> luy<del facs="#f23r02_i_virgule" rend="unmarked"
+                        xml:id="f23r02_virgule">,</del><del
+                        facs="#f23r02_i_et_nestions #f23r02_i_guiere_auis" xml:id="f23r02_et_auis">
+                        et n'estions guiere de differens a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>is</del><substJoin target="#f23rop2_virgule #f23rop2_et_auis"/>.
+                        </choice>is</del><substJoin target="#f23r02_virgule #f23r02_et_auis"/>.
                 </s></p>
         </body>
     </text>

@@ -21,7 +21,16 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/753,3220,3034,795/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/753,3220,3034,795/full/0/default.jpg"/>
+            <zone xml:id="f23r08_i_metamark01" points="2415,416 2321,526 2447,510"/>
+            <zone xml:id="f23r08_i_a_citoien" points="2084,321 2047,431 2742,389 2736,300"/>
+            <zone xml:id="f23r08_i_mon" points="179,663 194,768 389,752 389,652"/>
+            <zone xml:id="f23r08_i_son" points="205,589 205,684 384,673 373,589"/>
+            <zone xml:id="f23r08_i_metamark02" points="563,647 489,758 594,747"/>
+            <zone xml:id="f23r08_i_enfermé_tempeste" points="421,542 389,663 2321,552 2321,468"/>
+            <zone xml:id="f23r08_i_en" points="610,610 594,710 705,705 694,621"/>
+            <zone xml:id="f23r08_i_d" points="701,591 691,698 751,696 785,595"/>
         </surface>
     </facsimile>
     <text>
@@ -59,9 +68,9 @@
                     </choice>il estoit temps de secourir sa patrie, et qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il ne seioit pas bien<metamark function="insert"
-                        target="#f23rop8_a_citoien">^</metamark><add xml:id="f23rop8_a_citoien"
-                            ><metamark>^</metamark><choice>
+                    </choice>il ne seioit pas bien<metamark facs="#f23r08_i_metamark01"
+                        function="insert" target="#f23r08_a_citoien">^</metamark><add
+                        facs="#f23r08_i_a_citoien" xml:id="f23r08_a_citoien"><metamark>^</metamark><choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice>
@@ -75,11 +84,13 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice><subst>
-                        <del>mon</del>
-                        <add>son</add>
-                    </subst> aise <metamark function="insert" target="#f23rop8_enfermé_tempeste"
-                        >^</metamark><add xml:id="f23rop8_enfermé_tempeste"><metamark>^</metamark>
-                        enfermé dens <choice>
+                        <del facs="#f23r08_i_mon" xml:id="f23r08_mon">mon</del>
+                        <add facs="#f23r08_i_son" xml:id="f23r08_son">son</add>
+                    </subst><substJoin target=" #f23r08_a_citoien #f23r08_mon #f23r08_son"/> aise
+                        <metamark facs="#f23r08_i_metamark02" function="insert"
+                        target="#f23r08_enfermé_tempeste">^</metamark><add
+                        facs="#f23r08_i_enfermé_tempeste" xml:id="f23r08_enfermé_tempeste"
+                            ><metamark>^</metamark> enfermé dens <choice>
                             <orig>v</orig>
                             <reg>u</reg>
                         </choice>n <choice>
@@ -88,14 +99,14 @@
                         </choice>ardin et <choice>
                             <orig>v</orig>
                             <reg>u</reg>
-                        </choice>n estude pendant la tempeste</add><subst xml:id="f28rop8_en_d">
-                        <del>en</del>
-                        <add>d'</add>
+                        </choice>n estude pendant la tempeste</add><subst>
+                        <del facs="#f23r08_i_en" xml:id="f23r08_en">en</del>
+                        <add facs="#f23r08_i_d" xml:id="f23r08_d">d'</add>
                     </subst><choice>
                         <orig>v</orig>
                         <reg>u</reg>
                     </choice>n orage public.<substJoin
-                        target="#f23rop8_enfermé_tempeste #f28rop8_en_d"/></s></p>
+                        target="#f23r08_enfermé_tempeste #f23r08_en_d"/></s></p>
         </body>
     </text>
 </TEI>

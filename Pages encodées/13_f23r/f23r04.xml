@@ -21,7 +21,21 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/358,1636,3453,744/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/358,1636,3453,744/full/0/default.jpg"/>
+            <zone xml:id="f23r04_i_iay01" points="1405,47 1402,177 1570,175 1580,50"/>
+            <zone xml:id="f23r04_i_e" points="1745,50 1710,140 1763,135 1770,58"/>
+            <zone xml:id="f23r04_i_s" points="1790,57 1750,142 1807,145 1827,65"/>
+            <zone xml:id="f23r04_i_iay02_del" points="295,427 265,607 402,602 420,435"/>
+            <zone xml:id="f23r04_i_iay02" points="365,357 345,457 485,452 485,372"/>
+            <zone xml:id="f23r04_i_asses_qui" points="2560,282 2552,385 3300,347 3300,260 3297,262"/>
+            <zone xml:id="f23r04_i_asses" points="2566,266 2564,370 2728,364 2726,268"/>
+            <zone xml:id="f23r04_i_nauoit_bien" points="455,502 450,597 1797,525 1782,437"/>
+            <zone xml:id="f23r04_i_metamark_01" points="2712,262 2695,315 2790,312 2795,252"/>
+            <zone xml:id="f23r04_i_cognoissables_nom" points="32,405 262,382 255,602 32,615"/>
+            <zone xml:id="f23r04_i_digne_qui" points="2772,267 2747,345 3330,345 3335,255"/>
+            <zone xml:id="f23r04_i_escrire" points="1715,500 1660,630 2005,592 2002,507"/>
+            <zone xml:id="f23r04_i_que_executer" points="2037,475 1982,670 3127,637 3127,507"/>
         </surface>
     </facsimile>
     <text>
@@ -29,15 +43,15 @@
             <p><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
-                    </choice>t <del xml:id="f23rop4_iay_1"><choice>
+                    </choice>t <del facs="#f23r04_i_iay01" xml:id="f23r04_iay01"><choice>
                             <orig>i</orig>
                             <reg>j'</reg>
                         </choice>ay</del> entr<subst>
                         <del rend="overwritten">e</del>
-                        <add place="superimposed" xml:id="f23rop4_e">e</add>
+                        <add facs="#f23r04_i_e" place="superimposed" xml:id="f23r04_e">e</add>
                     </subst>
-                    <del xml:id="f23rop4_s">s</del><substJoin target="#f23rop4_e #f23rop4_s"/> mes
-                    papiers parmy les <choice>
+                    <del facs="#f23r04_i_s" xml:id="f23r04_s">s</del><substJoin
+                        target="#f23r04_e #f23r04_s"/> mes papiers parmy les <choice>
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
                     </choice> des <subst>
@@ -60,7 +74,8 @@
                             </subst> quantité</add>
                     </subst>
                     <subst>
-                        <del xml:id="f23rop4_iay_2_del"><add xml:id="f23rop4_iay_2"><choice>
+                        <del facs="#f23r04_iay_02_del" xml:id="f23r04_iay02_del"><add
+                                facs="#f23r04_i_iay02" xml:id="f23r04_iay02"><choice>
                                     <orig>i</orig>
                                     <reg>j'</reg>
                                 </choice>ay</add></del>
@@ -68,7 +83,7 @@
                                 <orig>i</orig>
                                 <reg>j'</reg>
                             </choice>ay</add>
-                    </subst><substJoin target="#f23rop4_iay_1 #f23rop4_iay_2"/> quelque nombre d<choice>
+                    </subst><substJoin target="#f23r04_iay01 #f23r04_iay02"/> quelque nombre d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>espistres latines qu<choice>
@@ -94,16 +109,21 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>il estoit aussy elegant or d'</del>
-                        <add xml:id="f23rop4_asses_bien"><delSpan spanTo="#f23rop4_nom"
-                                xml:id="f23rop4_asses_nom"/>asses <metamark function="insert"
-                                target="#f23rop4_cognoissables_nom">≠</metamark>
+                        <add facs="#f23r04_i_asses_qui #f23r04_i_nauoit_bien"
+                            xml:id="f23r04_asses_bien"><delSpan
+                                facs=" #f23r04_i_asses #f23r04_i_cognoissables_nom"
+                                spanTo="#f23r04_nom" xml:id="f23r04_asses_nom"/>asses <metamark
+                                facs="#f23r04_i_metamark_01" function="insert"
+                                target="#f23r04_cognoissables_nom">≠</metamark>
                             <subst>
-                                <add xml:id="f23rop4_cognoissables_nom"
+                                <add facs="#f23r04_cognoissables_nom"
+                                    xml:id="f23r04_cognoissables_nom"
                                     ><metamark>≠</metamark>cognoissables <unclear cert="high"
                                         reason="margin">s</unclear>ens son nom <substJoin
-                                        target="#f23rop4_asses_nom #f23rop4_iay_2_del"/><anchor
-                                        xml:id="f23rop4_nom"/></add>
-                                <del xml:id="f23rop4_dignes_bien">dignes d<choice>
+                                        target="#f23r04_asses_nom #f23r04_iay02_del"/><anchor
+                                        xml:id="f23r04_nom"/></add>
+                                <del facs=" #f23r04_i_digne_qui #f23r04_i_nauoit_bien"
+                                    xml:id="f23r04_dignes_bien">dignes d<choice>
                                         <orig/>
                                         <reg>'</reg>
                                     </choice>un qui n<choice>
@@ -115,10 +135,11 @@
                                     </choice>oit faict autre mestier que bien</del>
                             </subst></add>
                     </subst>
-                    <del xml:id="f23rop4_escrire">escrire</del>
-                    <del xml:id="f23rop4_que_executer">que resolu <del><substJoin seq="1"
-                                target="#f23rop4_asses_bien #f23rop4_que_executer"/><substJoin
-                                seq="2" target="#f23rop4_dignes_bien #f23rop4_escrire"/><add><choice>
+                    <del facs="#f23r04_i_escrire" xml:id="f23r04_escrire">escrire</del>
+                    <del facs=" #f23r04_i_que_executer" xml:id="f23r04_que_executer">que resolu
+                                <del><substJoin seq="1"
+                                target="#f23r04_asses_bien #f23r04_que_executer"/><substJoin seq="2"
+                                target="#f23r04_dignes_bien #f23r04_escrire"/><add><choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
                                 </choice> bien ca</add></del>

@@ -22,8 +22,14 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/226,195,3459,977/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/226,195,3459,977/full/0/default.jpg"/>
+            <zone xml:id="f23v01_i_metamark01" lry="410" lrx="1026" uly="307" ulx="890"/>
+            <zone xml:id="f23v01_i_come_douleurs" lry="877" lrx="623" uly="287" ulx="44"/>
+            <zone xml:id="f23v01_i_ieu_lres_del" points="1873,350 1880,470 2280,464 2270,360"/>
+            <zone xml:id="f23v01_i_auec" points="2093,385 2072,356 2080,210 2248,188"/>
+            <zone xml:id="f23v01_i_cour" points="2214,290 2214,347 2423,351 2421,290"/>
+            <zone xml:id="f23v01_i_Re_mere" points="2496,188 2215,187 2193,303 2494,301"/>
+            <zone xml:id="f23v01_i_ieu_lres_add" lry="380" lrx="3386" uly="233" ulx="3067"/>
         </surface>
     </facsimile>
     <text>
@@ -31,9 +37,9 @@
             <p><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
-                    </choice>ais <metamark function="insert" target="#f23vop1_come_douleurs"
+                    </choice>ais <metamark facs="#f23v01_i_metamark01" function="insert" target="#f23v01_come_douleurs"
                         >+</metamark>
-                    <add xml:id="f23vop1_come_douleurs"><metamark>+</metamark> come <choice>
+                    <add facs="#f23v01_i_come_douleurs" xml:id="f23v01_come_douleurs"><metamark>+</metamark> come <choice>
                             <orig>d</orig>
                             <reg>D</reg>
                         </choice>ieu entremesle les honeurs et les douleurs</add><choice>
@@ -44,27 +50,26 @@
                             <reg>s</reg>
                         </choice>eptembre</date>
                     <subst>
-                        <del xml:id="f23vop1_ieu_lres_del"><choice>
+                        <del facs="#f23v01_i_ieu_lres_del" xml:id="f23v01_ieu_lres_del"><choice>
                                 <orig>i</orig>
                                 <reg>j'</reg>
                             </choice>eu <choice>
                                 <abbr rend="overlined">lres</abbr>
                                 <expan>letres</expan>
                             </choice></del>
-                        <add>estant<metamark function="insert" target="#f23vop1_auec"
-                                >^</metamark><add xml:id="f23vop1_auec">a<choice>
+                        <add>estant<metamark function="insert" target="#f23v01_auec"
+                                >^</metamark><add facs="#f23v01_i_auec" xml:id="f23v01_auec">a<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
-                                </choice>ec</add> la <subst xml:id="f23vop1_cour_mere">
-                                <del>cour</del>
-                                <add><roleName ref="Q131552"><choice>
+                                </choice>ec</add> la <subst>
+                                    <del facs="#f23v01_i_cour" xml:id="f23v01_cour">cour</del>
+                                    <add facs="#f23v01_i_Re_mere" xml:id="f23v01_Re_mere"><roleName ref="Q131552"><choice>
                                             <abbr>R<hi rend="superscript">e</hi></abbr>
                                             <expan>Reine</expan>
                                         </choice> mere</roleName></add>
                             </subst></add>
                     </subst>
-                    <substJoin target="#f23vop1_auec #f23vop1_cour_mere"/> au <placeName
-                        ref="Q638089"><choice>
+                    <substJoin target="#f23v01_auec #f23v01_cour #f23v01_Re_mere"/> au <placeName ref="Q638089"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>lessis lez <choice>
@@ -74,14 +79,14 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <add xml:id="f23vop1_ieu_lres_add"><choice>
+                    <add facs="#f23v01_i_ieu_lres_add" xml:id="f23v01_ieu_lres_add"><choice>
                             <orig>i</orig>
                             <reg>j'</reg>
                         </choice>eu <choice>
                             <abbr rend="overlined">lres</abbr>
                             <expan>letres</expan>
-                        </choice></add><substJoin
-                        target="#f23vop1_ieu_lres_del #f23vop1_ieu_lres_add"/> de l<choice>
+                        </choice></add><substJoin target="#f23v01_ieu_lres_del #f23v01_ieu_lres_add"
+                    /> de l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>extreme maladie de feu mon <roleName ref="Q107207194">pere</roleName>
