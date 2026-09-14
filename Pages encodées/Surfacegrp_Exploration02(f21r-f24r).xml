@@ -53,7 +53,7 @@
                 <zone xml:id="f22r03" lry="2328" lrx="3900" uly="671" ulx="265"/>
                 <zone xml:id="f22r04" lry="4257" lrx="3843" uly="1941" ulx="315"/>
                 <zone xml:id="f22r05" lry="4150" lrx="3865" uly="3107" ulx="800"/>
-                <zone xml:id="f22r06_a" lry="5235" lrx="3800" uly="3821" ulx="679"/>
+                <zone xml:id="f22r06-1" lry="5235" lrx="3800" uly="3821" ulx="679"/>
             </surface>
             <surface type="12_f22v.json">
                 <graphic

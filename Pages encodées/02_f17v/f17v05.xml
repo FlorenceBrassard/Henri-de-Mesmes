@@ -86,7 +86,7 @@
                                  <del seq="2"><add place="superimposed" seq="1">1</add></del>
                                  <add seq="2">2</add>
                               </subst>
-                           </hi></del></date>. <add xml:id="f17v05_date_1531"><date><hi
+                           </hi></del></date><del rend="unmarked">.</del> <add xml:id="f17v05_date_1531"><date><hi
                               rend="trait_suscrit">1531</hi></date></add>
                      <substJoin target="#f17v05_date_15312 #f17v05_date_1531"/></seg>
                </add><del>Je nacquis <choice>

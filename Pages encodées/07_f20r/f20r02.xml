@@ -23,13 +23,13 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f45/343,1129,3350,3805/full/0/default.jpg"/>
-            <zone xml:id="f20r02_i_metamark1" points="947,247 882,337 1020,342"/>
+            <zone xml:id="f20r02_i_metamark01" points="947,247 882,337 1020,342"/>
             <zone xml:id="f20r02_i_et_installation" points="892,132 840,227 1465,202 1470,122"/>
             <zone xml:id="f20r02_i_et_fut" points="1012,190 940,352 1162,285 1130,202"/>
-            <zone xml:id="f20r02_i_metamark2" points="1810,237 1737,295 1835,350 1977,285"/>
+            <zone xml:id="f20r02_i_metamark02" points="1810,237 1737,295 1835,350 1977,285"/>
             <zone xml:id="f20r02_i_mais_conseil" points="2607,197 2565,1135 3290,1097 3310,205"/>
             <zone xml:id="f20r02_i_ce_par" points="2592,1130 2580,1422 3237,1392 3237,1102"/>
-            <zone xml:id="f20r02_i_metamark3" points="2270,1075 2195,1175 2320,1185"/>
+            <zone xml:id="f20r02_i_metamark03" points="2270,1075 2195,1175 2320,1185"/>
             <zone xml:id="f20r02_i_a_prendre" points="2160,965 2150,1085 2810,1040 2810,965"/>
             <zone xml:id="f20r02_i_ranc" points="520,702 490,805 820,792 825,700"/>
             <zone xml:id="f20r02_i_seance" points="562,630 542,712 790,707 790,625"/>
@@ -44,7 +44,7 @@
             <zone xml:id="f20r02_i_confiance_qui" points="502,1702 502,1815 1975,1712 1962,1635"/>
             <zone xml:id="f20r02_i_pibrac_et" points="2506,1747 2494,1847 3000,1841 2953,1735"/>
             <zone xml:id="f20r02_i_et_cela2" points="2553,1852 2559,1994 3288,1970 3265,1829"/>
-            <zone xml:id="f20r02_i_metamark4" points="1700,1822 1637,1910 1775,1897"/>
+            <zone xml:id="f20r02_i_metamark04" points="1700,1822 1637,1910 1775,1897"/>
             <zone xml:id="f20r02_i_soit_nouueaus" points="1500,1727 1467,1807 2247,1772 2237,1695"/>
             <zone xml:id="f20r02_i_l1" points="1692,1902 1650,2035 1717,2037 1725,1892"/>
             <zone xml:id="f20r02_i_dre" points="1795,1895 1777,2017 1872,2020 1872,1900"/>
@@ -52,7 +52,7 @@
             <zone xml:id="f20r02_i_tellement_me" points="502,1985 507,2110 1505,2037 1507,1927"/>
             <zone xml:id="f20r02_i_lendemain1" points="1198,2602 1198,2726 1656,2684 1658,2572"/>
             <zone xml:id="f20r02_i_lendemain2" points="510,2862 510,3028 1142,2962 1124,2862"/>
-            <zone xml:id="f20r02_i_metamark5" points="1360,2766 1360,2856 1486,2846 1476,2763"/>
+            <zone xml:id="f20r02_i_metamark05" points="1360,2766 1360,2856 1486,2846 1476,2763"/>
             <zone xml:id="f20r02_i_auec_eage" points="0,2866 0,3140 373,3150 373,2826"/>
             <zone xml:id="f20r02_i_metamark6" points="2100,2703 2100,2780 2283,2780 2286,2700"/>
             <zone xml:id="f20r02_i_apres_rencontres"
@@ -73,7 +73,7 @@
                         <choice>
                             <orig>p</orig>
                             <reg>P</reg>
-                        </choice>arquoy ma reception <metamark facs="#f20r02_i_metamark1"
+                        </choice>arquoy ma reception <metamark facs="#f20r02_i_metamark01"
                             function="insert" target="#f20r02_et_installation">^</metamark>
                         <add facs="#f20r02_i_et_installation" xml:id="f20r02_et_installation">
                             <metamark>^</metamark> et installation</add>
@@ -88,7 +88,7 @@
                             <expan>com</expan>
                         </choice>paignons le <date>XX<hi rend="superscript">e</hi> decembre <hi
                                 rend="overlined">1552</hi></date>
-                        <metamark facs="#f20r02_i_metamark2" function="insert"
+                        <metamark facs="#f20r02_i_metamark02" function="insert"
                             target="#f20r02_mais_conseil 
                      #f20r02_ce_par">+</metamark></del>
                     <add facs="#f20r02_i_mais_conseil" xml:id="f20r02_mais_conseil">
@@ -160,7 +160,7 @@
                             </choice>a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>ois attendu les VI ans <metamark facs="#f20r02_i_metamark3"
+                            </choice>ois attendu les VI ans <metamark facs="#f20r02_i_metamark03"
                                 function="insert" target="#f20r02_a_prendre">^</metamark><add
                                 facs="#f20r02_i_a_prendre" xml:id="f20r02_a_prendre"
                                     ><metamark>^</metamark><choice>
@@ -276,7 +276,7 @@
                                 xml:id="f20r02_desdaigner_me">desdaigner d<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice>en voir six <metamark facs="#f20r02_i_metamark4"
+                                </choice>en voir six <metamark facs="#f20r02_i_metamark04"
                                     function="insert" target="#f20r02_soit_nouueaus">^</metamark>
                                 <add facs="#f20r02_i_soit_nouueaus" xml:id="f20r02_soit_nouueaus"
                                             ><add>soi<unclear cert="medium" reason="cancelled"
@@ -414,7 +414,7 @@
                                     </choice>oit voulu m'examiner.</add>
                                 <substJoin target="#f20r02_auec_examiner #f20r03_ma_1552"/>
                             </del></del>
-                        <add seq="2"><metamark facs="#f20r02_i_metamark5" function="insert"
+                        <add seq="2"><metamark facs="#f20r02_i_metamark05" function="insert"
                                 target="f20r02_auec_eage">+</metamark></add>
                         <add seq="2" facs="#f20r02_i_auec_eage" xml:id="f20r02_auec_eage"
                                 ><metamark>+</metamark> a<choice>

@@ -23,24 +23,32 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f40/882,2110,2528,1260/full/0/default.jpg"/>
-            <zone xml:id="f17v04_i_le_ancien" points="13,343 31,708 174,482 587,417"/>
-            <zone xml:id="f17v04_i_depuys" points="461,700 439,973 535,795 666,726"/>
+            <zone xml:id="f17v04_i_or" lry="229" lrx="801" uly="101" ulx="639"/>
+            <zone xml:id="f17v04_i_icy_add" lry="126" lrx="813" uly="19" ulx="685"/>
+            <zone xml:id="f17v04_i_aiant" lry="191" lrx="1074" uly="95" ulx="794"/>
+            <zone xml:id="f17v04_i_il" lry="121" lrx="970" uly="32" ulx="828"/>
+            <zone xml:id="f17v04_i_é_a" lry="208" lrx="1383" uly="39" ulx="1259"/>
+            <zone xml:id="f17v04_i_icy_del" lry="200" lrx="1544" uly="50" ulx="1376"/>
+            <zone xml:id="f17v04_i_metamark01" lry="590" lrx="148" uly="497" ulx="46"/>
+            <zone xml:id="f17v04_i_le_ancien" lry="486" lrx="487" uly="368" ulx="24"/>
+            <zone xml:id="f17v04_i_metamark02" lry="904" lrx="531" uly="807" ulx="424"/>
+            <zone xml:id="f17v04_i_depuys" lry="795" lrx="648" uly="680" ulx="437"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <p><s><subst>
-                        <del xml:id="f17v04_or">or</del>
-                        <add xml:id="f17v04_icy_add">icy</add>
+                        <del facs="#f17v04_i_or" xml:id="f17v04_or">or</del>
+                        <add facs="#f17v04_i_icy_add" xml:id="f17v04_icy_add">icy</add>
                     </subst>
                     <subst>
-                        <del xml:id="f17v04_il">il</del>
-                        <add xml:id="f17v04_aiant">aiant</add>
-                    </subst> espous<subst xml:id="f17v04_é_a">
+                        <del facs="#f17v04_i_il" xml:id="f17v04_il">il</del>
+                        <add facs="#f17v04_i_aiant" xml:id="f17v04_aiant">aiant</add>
+                    </subst> espous<subst facs="#f17v04_i_é_a" xml:id="f17v04_é_a">
                         <del rend="overwritten">é</del>
                         <add place="superimposed">a</add>
                     </subst>
-                    <del xml:id="f17v04_icy_del">icy</del>
+                    <del facs="#f17v04_icy_del" xml:id="f17v04_icy_del">icy</del>
                     <substJoin target="#f17v04_or #f17v04_icy_add #f17v04_icy_del"/>
                     <substJoin target="#f17v04_il #f17v04_aiant #f17v04_é_a"/> feu ma mere
                             <add><del>d</del> dame</add>
@@ -52,9 +60,9 @@
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
-                        function="insert" target="#f17v04_le_ancien">^</metamark><add
-                        facs="#f17v04_i_le_ancien" xml:id="f17v04_le_ancien"><del>le</del> plus
-                        ancien</add> conseiller du parlement de <placeName><choice>
+                        facs="#f17v04_i_metamark01" function="insert" target="#f17v04_le_ancien"
+                        >^</metamark><add facs="#f17v04_i_le_ancien" xml:id="f17v04_le_ancien"
+                            ><del>le</del> plus ancien</add> conseiller du parlement de <placeName><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName> et president d'<placeName><choice>
@@ -83,7 +91,7 @@
                     </subst>ambassadeur en <placeName><choice>
                             <orig>s</orig>
                             <reg>S</reg>
-                        </choice>uisse</placeName> et <metamark function="insert"
+                        </choice>uisse</placeName> et <metamark facs="#f17v04_i_metamark02" function="insert"
                         target="#f17v04_depuys">^</metamark><add facs="#f17v04_i_depuys"
                         xml:id="f17v04_depuys">depuys</add> en autres grandes charges.<choice>
                         <orig>e</orig>

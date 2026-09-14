@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f40/218,172,3529,1337/full/0/default.jpg"/>
+         <zone xml:id="f17v01_i_dun_Mammes_add" points="1580,234 1580,427 3376,404 3363,207"/>
+         <zone xml:id="f17v01_i_de_Mammes" points="2776,183 2764,442 3400,442 3383,174"/>
+         <zone xml:id="f17v01_i_dun_maison" lry="418" lrx="2788" uly="232" ulx="1574"/>
+         <zone xml:id="f17v01_i_maison_del" points="1054,600 1052,696 1374,672 1350,576"/>
+         <zone xml:id="f17v01_i_bone_famille1" points="910,505 910,602 1395,580 1397,485"/>
+         <zone xml:id="f17v01_i_bone_famille2" points="882,487 882,627 1397,597 1392,497"/>
+         <zone xml:id="f17v01_i_maison_add" points="1092,675 1092,745 1375,720 1365,655"/>
+         <zone xml:id="f17v01_i_sa" points="794,883 805,1071 852,1077 964,889"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <p>Mon pere <subst>
+               <del>ainsy né, <add facs="#f17v01_i_dun_Mammes_add" xml:id="f17v01_dun_Mammes_add"
+                        ><del seq="2" facs="#f17v01_i_dun_maison" xml:id="f17v01_dun_maison">d<choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice>un gentilhome de ceste maison</del>
+                     <del seq="1" facs="#f17v01_i_de_Mammes" xml:id="f17v01_de_Mammes">de
+                           <surname>Mammes</surname></del></add> et d<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>une damoyselle qui estoit de <surname>Canna</surname>, <subst>
+                     <del facs="#f17v01_i_maison_del" xml:id="f17v01_maison_del">maison</del>
+                     <del facs="#f17v01_i_bone_famille_del" xml:id="f17v01_bone_famille_del"><add
+                           facs="#f17v01_i_bone_famille_add" xml:id="f17v01_bone_famille_add">bone
+                           famille</add></del>
+                     <add facs="#f17v01_i_maison_add" xml:id="f17v01_maison_add">maison</add>
+                  </subst><substJoin seq="1"
+                     target=" #f17v01_dun_Mammes_add #f17v01_maison_del #f17v01_bone_famille_add"/><substJoin
+                     seq="2" target=" #f17v01_dun_maison #f17v01_bone_famille_del #f17v01_maison_add"/>
+                  cognue en <placeName><choice>
+                        <orig>g</orig>
+                        <reg>G</reg>
+                     </choice>ascoigne</placeName>, fut neantmoins instruit aux letres pource qu<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>il estoit né <choice>
+                     <orig>a</orig>
+                     <reg>à</reg>
+                  </choice> sept mois et fort <subst>
+                     <del>delicat</del>
+                     <add>delié</add>
+                  </subst> en <metamark function="insert" target="f17v01_sa">^</metamark><add
+                     facs="#f17v01_i_sa" xml:id="f17v01_sa">sa</add>
+                  <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>eunesse.</del>
+               <add><gap unit="char" quantity="1"/><supplied cert="high">a</supplied> sa naissance n<choice>
+                     <orig> </orig>
+                     <reg>'</reg>
+                  </choice>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit <gap unit="char" quantity="1"/><supplied cert="high">q</supplied>ue
+                  sept mois. <choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>t pource <gap unit="char" quantity="1"/><supplied cert="high"
+                     >q</supplied>u<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>il ne prometoit pas <subst>
+                     <del seq="1">longue vie il fut</del>
+                     <del seq="2"><add seq="1">gra<gap reason="deleted"/></add></del>
+                     <add seq="2">grande force, il fut</add>
+                  </subst><subst>
+                     <del>norry</del>
+                     <add>dedié</add>
+                  </subst> aux <choice>
+                     <abbr rend="overlined">lres</abbr>
+                     <expan>letres</expan>
+                  </choice> estant fort delié en <del>sa</del>
+                  <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>eunesse.</add>
+            </subst></p>
+      </body>
+   </text>
+</TEI>
