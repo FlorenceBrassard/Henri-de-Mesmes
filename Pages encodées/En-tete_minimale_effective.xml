@@ -34,10 +34,7 @@
                <resp/>
                <persName/>
             </respStmt>
-            <!--            One or more respStmt elements may also be used to supply statements of responsibility for the edition 
-               in question. These may refer to individuals or corporate bodies and can indicate functions such as that of a reviser, 
-               or can name the person or body responsible for the provision of supplementary matter, of appendices, etc., in a new 
-               edition.-->
+            <!--  Rôles des différent·es membres de l'équipe à préciser  -->
          </editionStmt>
          <publicationStmt>
             <publisher>Presses universitaires de Rouen et du Havre</publisher>
@@ -278,7 +275,7 @@
             <!--            Je ne sais pas quoi indiquer dans desc ; les guidelines ne montrent pas cet élément à l'intérieur d'appInfo.
             https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HDAPP-->
          </appInfo>
-         <!--         Garder <g> mais pas <charDecl> -- Je ne suis plus certaine que <g> et <charDecl> soient nécessaires, finalement, puisque ça semble plutôt servir à distinguer des caractères qui seraient
+         <!--         Garder <g> mais pas <charDecl> Je ne suis plus certaine que <g> et <charDecl> soient nécessaires, finalement, puisque ça semble plutôt servir à distinguer des caractères qui seraient
             pareils mais qui n'auraient pas le même usage. Même pour pro-glyph et par-glyph, qui se présentent parfois de la même manière, je ne suis pas sûre que ce soit 
             nécessaire puisqu'ils sont tous les deux dépliés avec abbr expan : 
             voir ici https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/WD.html#D25-20-->

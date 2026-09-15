@@ -27,8 +27,8 @@
          <zone xml:id="f17v01_i_de_Mammes" points="2776,183 2764,442 3400,442 3383,174"/>
          <zone xml:id="f17v01_i_dun_maison" lry="418" lrx="2788" uly="232" ulx="1574"/>
          <zone xml:id="f17v01_i_maison_del" points="1054,600 1052,696 1374,672 1350,576"/>
-         <zone xml:id="f17v01_i_bone_famille1" points="910,505 910,602 1395,580 1397,485"/>
-         <zone xml:id="f17v01_i_bone_famille2" points="882,487 882,627 1397,597 1392,497"/>
+         <zone xml:id="f17v01_i_bone_famille_add" points="910,505 910,602 1395,580 1397,485"/>
+         <zone xml:id="f17v01_i_bone_famille_del" points="882,487 882,627 1397,597 1392,497"/>
          <zone xml:id="f17v01_i_maison_add" points="1092,675 1092,745 1375,720 1365,655"/>
          <zone xml:id="f17v01_i_sa" points="794,883 805,1071 852,1077 964,889"/>
       </surface>
