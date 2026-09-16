@@ -78,7 +78,7 @@
                <reg>à</reg>
             </choice> trois heures du matin<supplied>.</supplied><metamark
                facs="#f18r01_i_qui_prst" function="insert" target="#f18r01_qui_prst"
-               >+</metamark><add xml:id="f18r01_qui_prst"><metamark>+</metamark><subst>
+               >+</metamark><add facs="#f18r01_i_qui_prst" xml:id="f18r01_qui_prst"><metamark>+</metamark><subst>
                   <del facs="#f18r01_i_qui" xml:id="f18r01_qui">qui</del>
                   <add facs="#f18r01_i_c" xml:id="f18r01_c"><choice>
                         <orig>c</orig>
