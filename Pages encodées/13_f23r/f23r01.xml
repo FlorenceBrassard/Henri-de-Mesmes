@@ -28,8 +28,6 @@
             <zone xml:id="f23r01_i_t_ent" points="1736,143 1720,256 1846,240 1836,146"/>
             <zone xml:id="zone_og1_jcz_nkc" points="2077,138 2006,269 2106,264"/>
             <zone xml:id="f23r01_i_destre_iugé" points="2653,117 2077,90 2073,240 2573,243"/>
-            <zone xml:id="f23r01_i_par" points="2636,163 2543,266 2746,276 2763,193"/>
-            <zone xml:id="f23r01_i_de" points="2686,76 2633,163 2773,193 2800,116"/>
             <zone xml:id="f23r01_i_quelque" points="2196,233 2210,420 2323,326 2563,266"/>
         </surface>
     </facsimile>

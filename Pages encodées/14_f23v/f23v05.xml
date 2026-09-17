@@ -45,7 +45,7 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>amais <add facs="#f23v05_i_acheté_ny" xml:id="f23v05_acheté_ny">acheté
-                        ny</add> demandé <del facs="#f23v05_i_ny_ac" xml:id="f23v05_ny_ac">ny
+                        ny</add> demandé <del facs="#f23v05_i_ny_ac" instant="true" xml:id="f23v05_ny_ac">ny
                         ac</del><substJoin target="#f23v05_ny_ac #f23v05_acheté_ny"/>
                 office.</s></p>
         </body>

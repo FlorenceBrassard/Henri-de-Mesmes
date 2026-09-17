@@ -46,8 +46,9 @@
                     </choice> ci<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>il <del facs="#f23v06_i_que_mal" xml:id="f23v06_que_mal">que mal</del><substJoin
-                        target="#f23v06_que_mal #f23v06_il_gre"/> et sur une <choice>
+                    </choice>il <del facs="#f23v06_i_que_mal" instant="true" xml:id="f23v06_que_mal"
+                        >que mal</del><substJoin target="#f23v06_que_mal #f23v06_il_gre"/> et sur
+                    une <choice>
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
                     </choice>messe d<subst facs="#f23v06_i_e_un" xml:id="f23v06_e_un">
@@ -56,8 +57,8 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>un</add>
-                    </subst> plus <add facs="#f23v06_i_grand" xml:id="f23v06_grand">grand</add><substJoin
-                        target="#f23v06_e_un #f23v06_grand"/> il s<choice>
+                    </subst> plus <add facs="#f23v06_i_grand" xml:id="f23v06_grand"
+                        >grand</add><substJoin target="#f23v06_e_un #f23v06_grand"/> il s<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>estoit contanté <subst>

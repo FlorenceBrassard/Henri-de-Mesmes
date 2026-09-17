@@ -25,7 +25,7 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/793,1834,3082,1683/full/0/default.jpg"/>
             <zone xml:id="f22r04_i_et_qui" points="2006,121 1985,237 2932,179 2916,100"/>
             <zone xml:id="f22r04_i_valent_fu" points="11,442 6,558 1906,394 1900,300"/>
-            <zone xml:id="f22r04_i_ie_fu" points="2558,158 2516,284 2921,315 2937,168"/>
+            <zone xml:id="f22r04_i_ie_fus" points="2558,158 2516,284 2921,315 2937,168"/>
             <zone xml:id="f22r04_i_15" points="2268,334 2266,430 2412,420 2431,302"/>
             <zone xml:id="f22r04_i_point" points="2310,396 2275,447 2325,443"/>
             <zone xml:id="f22r04_i_ou" points="2167,390 2185,465 2293,452 2281,378"/>
@@ -79,11 +79,11 @@
                     </choice>icelles.</s><s><choice>
                         <orig>i</orig>
                         <reg>J</reg>
-                    </choice>e fu<anchor xml:id="f22r04_fu"/><del facs="#f22r04_i_ie_fu"
-                        xml:id="f22r04_ie_fu"><choice>
+                    </choice>e fu<anchor xml:id="f22r04_fu"/><del facs="#f22r04_i_ie_fuss"
+                        xml:id="f22r04_ie_fuss"><choice>
                             <orig>i</orig>
                             <reg>J</reg>
-                        </choice>e fu</del> de retour <choice>
+                        </choice>e fus</del> de retour <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
@@ -95,13 +95,13 @@
                             <add>8</add>
                         </subst></date>
                     <subst>
-                        <del facs="#f22r04_i_point" rend="overwritten" xml:id="f22r04_point">.</del>
-                        <add place="superimposed">o<choice>
+                        <del facs="#f22r04_i_point" xml:id="f22r04_point">.</del>
+                        <add>o<choice>
                                 <orig>u</orig>
                                 <reg xml:id="f22r04_u">ù</reg>
                             </choice>
                             <del facs="#f22r04_i_15" xml:id="f22r04_15">15</del></add>
-                    </subst><substJoin seq="1" target="#f22r04_ie_fu #f22r04_point"/><substJoin
+                    </subst><substJoin seq="1" target="#f22r04_ie_fus #f22r04_point"/><substJoin
                         seq="2" target="#f22r04_et_fu #f22r04_15 #f22r04_u"/>
                     <choice>
                         <orig>i</orig>

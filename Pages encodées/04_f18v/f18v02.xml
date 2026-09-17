@@ -28,15 +28,15 @@
         <surface xml:id="f18v02_i_ne_toutesfois">
             <graphic
                 url="https://api.nakala.fr/iiif/10.34847/nkl.1bb84152/f5a8b900b1cbc01501e0e9d10882b6c8d8cd8b12/173,1473,1645,1496/full/0/default.jpg"
-                />
+            />
         </surface>
     </facsimile>
     <text>
         <body>
             <p><s><del>car <metamark facs="#f18v02_i_metamark" function="insert"
-                            target="#f18v02_ne_toutesfois">+</metamark><add facs="#f18v02_i_ne_toutesfois"
-                            xml:id="f18v02_ne_toutesfois"><metamark>+</metamark>ne pouvant gaster
-                            mes meurs pour l<choice>
+                            target="#f18v02_ne_toutesfois">+</metamark><add
+                            facs="#f18v02_i_ne_toutesfois" xml:id="f18v02_ne_toutesfois"
+                                ><metamark>+</metamark>ne pouvant gaster mes meurs pour l<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>assistance <choice>
@@ -51,11 +51,14 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>repeter, <del><add>et</add></del> disputer et haranguer en public, pris
-                    cognoissance d <del rend="overwritten">e</del>
-                    <choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>honestes enfans dont aucuns vi<choice>
+                    cognoissance d<subst instant="true">
+                        <del rend="overwritten">e</del>
+                        <add place="superimposed">
+                            <choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>h</add>
+                    </subst>onestes enfans dont aucuns vi<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ent <subst>
@@ -64,8 +67,10 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>ourduy</add>
-                    </subst>, <del rend="overwritten">et</del> apris la vie frugale de la scolarité,
-                    et <choice>
+                    </subst>, <subst instant="true">
+                        <del rend="overwritten">et</del>
+                        <add place="superimposed">ap</add>
+                    </subst>ris la vie frugale de la scolarité, et <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>regler mes heures. </s></p>
