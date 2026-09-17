@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><quote source="Q149687"><choice>
+            <ab><s><quote rend="unmarked" source="Q149687" xml:lang="la"><choice>
                         <orig>b</orig>
                         <reg>B</reg>
                     </choice>landum et affabile odium est <choice>
