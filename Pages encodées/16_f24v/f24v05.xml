@@ -57,16 +57,16 @@
                         </choice>rance</placeName> d<choice>
                         <orig> </orig>
                         <reg>'</reg>
-                        </choice>une tr<choice>
-                            <orig>e</orig>
-                            <reg>è</reg>
-                        </choice>s<choice>
+                    </choice>une tr<choice>
+                        <orig>e</orig>
+                        <reg>è</reg>
+                    </choice>s<choice>
                         <orig/>
                         <reg>-</reg>
-                        </choice>sanglante et tr<choice>
-                            <orig>e</orig>
-                            <reg>è</reg>
-                        </choice>s<choice>
+                    </choice>sanglante et tr<choice>
+                        <orig>e</orig>
+                        <reg>è</reg>
+                    </choice>s<choice>
                         <orig/>
                         <reg>-</reg>
                     </choice>perilleuse guerre<choice>
@@ -75,7 +75,10 @@
                     </choice> dont <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
-                    </choice>espere que les gens de bien me scauront tous<choice>
+                    </choice>espere que les gens de bien me s<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                    </choice>auront tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ours gré.</s></p>
