@@ -48,10 +48,10 @@
                             </choice>ran<choice>
                                 <orig>c</orig>
                                 <reg>ç</reg>
-                            </choice>oys</forename><choice>
+                            </choice>oys</forename><genName><choice>
                             <abbr>p<hi rend="superscript">r</hi></abbr>
                             <expan>premier</expan>
-                        </choice></persName> lassé de feu
+                        </choice></genName></persName> lassé de feu
                         <persName><surname>Rusé</surname></persName>
                     <metamark facs="#f23v09_i_metamark01" target="#f23v09_son">^</metamark><add facs="#f23v09_i_son"
                         xml:id="f23v09_son">son</add> ad<choice>

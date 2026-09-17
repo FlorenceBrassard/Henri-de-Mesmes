@@ -68,7 +68,7 @@
             <p>Mon pere a<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>oit nom <persName ref="https://isni.org/isni/0000000000812616"><choice>
+            </choice>oit nom <persName ref="Q107207194"><choice>
                         <abbr><forename full="init"><choice>
                                     <orig>I. I.</orig>
                                     <reg>J. J.</reg>

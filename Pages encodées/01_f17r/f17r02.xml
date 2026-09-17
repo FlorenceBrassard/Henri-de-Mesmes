@@ -27,8 +27,8 @@
             <zone xml:id="f17r02_i_et_guiere" lry="678" lrx="644" uly="366" ulx="110"/>
             <zone xml:id="f17r02_i_en_guieres" points="1322,266 1292,348 3667,487 3692,182"/>
             <zone xml:id="f17r02_i_nusent_chapeaus" points="732,464 688,582 2766,446 2746,358"/>
-            <zone xml:id="f17r02_i_ceux" points="3052,480 3056,520 3332,526 3324,480"/>
-            <zone xml:id="f17r02_i_les1" points="3482,362 3450,437 3690,442 3695,377"/>
+            <zone xml:id="f17r02_i_ceulx_de" points="3052,480 3056,520 3332,526 3324,480"/>
+            <zone xml:id="f17r02_i_les01" points="3482,362 3450,437 3690,442 3695,377"/>
             <zone xml:id="f17r02_i_s1" points="3470,474 3438,552 3484,540"/>
             <zone xml:id="f17r02_i_s2" points="3636,496 3656,558 3676,550 3710,482"/>
             <zone xml:id="f17r02_i_de_recomander" points="3034,675 3034,724 3700,762 3694,670"/>
@@ -113,11 +113,12 @@
                                 </choice>e ne voy pas <add seq="02" xml:id="f17r02_come">come</add>
                                 les gens de robe longue</add></del>
                         <add
-                            facs=" #f17r02_i_ceux #f17r02_i_robes_longues #f17r02_i_nont_moyen #f17r02_i_de_recomander"
+                            facs=" #f17r02_i_ceulx_de #f17r02_i_robes_longues #f17r02_i_nont_moyen #f17r02_i_de_recomander"
                             xml:id="f17r02_ceulx_recõmander" seq="3">
-                            <subst xml:id="f17r02_ceulx_les">
-                                <del facs="#f17r02_i_ceux">ceulx de</del>
-                                <add facs="#f17r02_i_les1">les</add>
+                            <subst>
+                                <del facs="#f17r02_i_ceulx_de" xml:id="f17r02_ceulx_de">ceulx
+                                    de</del>
+                                <add facs="#f17r02_i_les01" xml:id="f17r02_les01">les</add>
                             </subst> robe<add facs="#f17r02_i_s1" xml:id="f17r02_s_01">s</add>
                                 longue<add facs="#f17r02_i_s2" xml:id="f17r02_s_02">s</add>n<choice>
                                 <orig/>
@@ -128,7 +129,7 @@
                                     <expan>om</expan>
                                 </choice>mander</del></add>
                     </subst>
-                    <substJoin target="#f17r02_ceulx_les #f17r02_s_01 #f17r02_s_02"/>
+                    <substJoin target="#f17r02_ceulx_de #f17r02_les01 #f17r02_s_01 #f17r02_s_02"/>
                     <del facs=" #f17r02_i_s_esleuer" xml:id="f17r02_s_eslever"><add
                             facs="#f17r02_i_s3" seq="02" xml:id="f17r02_s_03">s'</add>eslever</del>
                     <substJoin seq="4" target="#f17r02_ie_longue #f17r02_s_03"/>

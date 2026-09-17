@@ -24,22 +24,27 @@
          <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/199,369,3562,1115/full/0/default.jpg"/>
          <zone xml:id="f17r01_i_honestes" points="1519,205 1529,325 1922,300 1906,150"/>
-         <zone xml:id="f17r01_i_de_valeur" points="2046,156 2156,363 2490,160 2246,103"/>
-         <zone xml:id="f17r01_i__la_leurs" points="573,320 547,514 699,500 769,321"/>
+         <zone xml:id="f17r01_i_metamark01" points="2184,272 2124,346 2216,344"/>
+         <zone xml:id="f17r01_i_de_valeur" points="2054,126 2054,218 2478,216 2476,126"/>
+         <zone xml:id="f17r01_i_la" points="558,390 547,514 699,500 706,404"/>
+         <zone xml:id="f17r01_i_leurs" points="572,310 564,410 755,418 761,323"/>
          <zone xml:id="f17r01_i_ou" points="829,501 851,517 885,430 904,376 839,382"/>
          <zone xml:id="f17r01_i_et_ont" points="2128,388 2115,455 2826,460 2833,376"/>
          <zone xml:id="f17r01_i_composé_prre" points="538,621 531,691 1582,672 1557,550"/>
          <zone xml:id="f17r01_i_en" points="1945,557 1905,685 2022,687 2050,555"/>
-         <zone xml:id="f17r01_i_s2" points="2712,702 2772,717 2837,502 2802,520"/>
-         <zone xml:id="f17r01_i_louanges_remerque" points="548,746 508,906 955,903 1100,676"/>
-         <zone xml:id="f17r01_i_s6" points="1097,760 1087,880 1145,865 1143,766"/>
-         <zone xml:id="f17r01_i_vertueuses_belles" points="1162,677 1175,862 1680,852 1692,657"/>
-         <zone xml:id="f17r01_i_s1" points="845,415 872,425 825,527 772,515"/>
-         <zone xml:id="f17r01_i_s3" points="2803,652 2870,657 2865,557 2808,545"/>
-         <zone xml:id="f17r01_i_s4" points="900,882 986,880 980,770 926,759"/>
-         <zone xml:id="f17r01_i_s7" points="1095,695 1141,695 1147,770 1082,752"/>
-         <zone xml:id="f17r01_i_t_ent" points="1913,513 2006,566 2080,655 2127,482"/>
-         <zone xml:id="f17r01_i_s5" points="1007,692 972,775 1010,830 1070,702"/>
+         <zone xml:id="f17r01_i_s02" points="2712,702 2772,717 2837,502 2802,520"/>
+         <zone xml:id="f17r01_i_louanges" points="567,747 508,901 955,898 995,772"/>
+         <zone xml:id="f17r01_i_remerques" lry="805" lrx="1055" uly="675" ulx="643"/>
+         <zone xml:id="f17r01_i_s06" points="1097,760 1087,880 1145,865 1143,766"/>
+         <zone xml:id="f17r01_i_vertueuses" points="1174,750 1175,862 1680,852 1690,752"/>
+         <zone xml:id="f17r01_i_belles" lry="766" lrx="1582" uly="650" ulx="1310"/>
+         <zone xml:id="f17r01_i_s01" points="845,415 872,425 825,527 772,515"/>
+         <zone xml:id="f17r01_i_s03" points="2803,652 2870,657 2865,557 2808,545"/>
+         <zone xml:id="f17r01_i_s04" points="900,882 986,880 980,770 926,759"/>
+         <zone xml:id="f17r01_i_s07" points="1095,695 1141,695 1147,770 1082,752"/>
+         <zone xml:id="f17r01_i_ent" points="1938,490 1944,562 2134,540 2127,482"/>
+         <zone xml:id="zone_ovs_2qn_pkc" lry="650" lrx="2112" uly="567" ulx="2027"/>
+         <zone xml:id="f17r01_i_s05" points="1007,692 972,775 1010,830 1070,702"/>
       </surface>
    </facsimile>
    <text>
@@ -48,20 +53,20 @@
                   <orig>V</orig>
                   <reg>U</reg>
                </choice>n temps fut que les <del facs="#f17r01_i_honestes" xml:id="f17r01_honestes"
-                  >honestes</del> homes <metamark function="insert" target="#f17r01_de_valeur"
-                  xml:id="f17r01_metamark_01">^</metamark>
+                  >honestes</del> homes <metamark facs="#f17r01_i_metamark01" function="insert"
+                  target="#f17r01_de_valeur" xml:id="f17r01_metamark_01">^</metamark>
                <add facs="#f17r01_i_de_valeur" xml:id="f17r01_de_valeur"><metamark>^</metamark>de
                   valeur</add>
                <substJoin target="#f17r01_honestes #f17r01_metamark_01 #f17r01_de_valeur"/> escri<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oient volontiers <subst facs="#f17r01_i_la_leurs" xml:id="f17r01_la_leurs">
-                  <del>la</del>
-                  <add>leurs</add>
-               </subst> vie<add facs="#f17r01_i_s1" xml:id="f17r01_s_01">s</add>
+               </choice>oient volontiers <subst>
+                  <del facs="#f17r01_i_la" xml:id="f17r01_la">la</del>
+                  <add facs="#f17r01_i_leurs" xml:id="f17r01_leurs">leurs</add>
+               </subst> vie<add facs="#f17r01_i_s01" xml:id="f17r01_s_01">s</add>
                <metamark function="insert" target="#f17r01_ou" xml:id="f17r01_metamark_02"
                   >^</metamark><add facs="#f17r01_i_ou" xml:id="f17r01_ou">ou</add> de ceulx<note
-                  resp="AV" type="vocabulaire">Du celle de ceux</note> qu<choice>
+                  resp="AV" type="vocabulaire">Ou celle de ceux</note> qu<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>ilz a<choice>
@@ -70,30 +75,31 @@
                </choice>oient aimez <del rend="unmarked" xml:id="f17r01_deux_points">:</del>
                <del facs="#f17r01_i_et_ont #f17r01_i_composé_prre" xml:id="f17r01_et_prre">et aucuns
                   ont composé la leur propre</del>. <substJoin
-                  target="#f17r01_la_leurs #f17r01_s_01 #ou #f17r01_metamark_02 #f17r01_et_prre #f17r01_deux_points"/>
+                  target="#f17r01_la #f17r01_leurs #f17r01_s_01 #ou #f17r01_metamark_02 #f17r01_et_prre #f17r01_deux_points"/>
                <choice>
                   <orig>c</orig>
                   <reg>C</reg>
                </choice>'estoi<del facs="#f17r01_i_en" xml:id="f17r01_en">en</del>
-               <subst facs="#f17r01_i_t_ent" xml:id="f17r01_t_ent">
-                  <del rend="unmarked">t</del>
-                  <add>ent</add>
-               </subst> au moins quelque<del facs="#f17r01_i_s2" xml:id="f17r01_s_02">s</del>
-               <add facs="#f17r01_i_s3" xml:id="f17r01_s_03">s</add>
-               <subst facs="#f17r01_i_louanges_remerque" xml:id="f17r01_louanges_remerque">
-                  <del>louange<add facs="#f17r01_i_s4" xml:id="f17r01_s_04">s</add></del>
-                  <add>remerque</add>
-               </subst><add facs="#f17r01_i_s5" xml:id="f17r01_s_05">s</add><note resp="AV"
-                  type="vocabulaire">Mises en valeur</note> de <del facs="#f17r01_i_s6"
+               <subst>
+                  <del facs="#f17r01_i_t" rend="unmarked" xml:id="f17r01_t">t</del>
+                  <add facs="#f17r01_i_ent" xml:id="f17r01_ent">ent</add>
+               </subst> au moins quelque<del facs="#f17r01_i_s02" xml:id="f17r01_s_02">s</del>
+               <add facs="#f17r01_i_s03" xml:id="f17r01_s_03">s</add>
+               <subst>
+                  <del facs="#f17r01_i_louanges" xml:id="f17r01_louanges">louange<add
+                        facs="#f17r01_i_s04" xml:id="f17r01_s_04">s</add></del>
+                  <add facs="#f17r01_i_remerques" xml:id="f17r01_remerque">remerque</add>
+               </subst><add facs="#f17r01_i_s05" xml:id="f17r01_s_05">s</add><note resp="AV"
+                  type="vocabulaire">Mises en valeur</note> de <del facs="#f17r01_i_s06"
                   xml:id="f17r01_s_06">s</del>
                <add xml:id="f17r01_s_07">s</add>
-               <subst facs="#f17r01_i_vertueuses_belles" xml:id="f17r01_vertueuses_belles">
-                  <del>vertueuses</del>
-                  <add>belles</add>
+               <subst>
+                  <del facs="#f17r01_i_vertueuses" xml:id="f17r01_vertueuses">vertueuses</del>
+                  <add facs="#f17r01_i_belles" xml:id="f17r01_belles">belles</add>
                </subst>
                <substJoin seq="01"
-                  target="#f17r01_en #f17r01_s_02 #s_06 #f17r01_louanges_remerque #f17r01_vertueuses_belles"/>
-               <substJoin seq="02" target="#f17r01_t_ent #f17r01_s_03 #f17r01_s_05 #f17r01_s_07"/>
+                  target="#f17r01_en #f17r01_s_02 #s_06 #f17r01_louanges #f17r01_remerque #f17r01_vertueuses_belles"/>
+               <substJoin seq="02" target="#f17r01_t #f17r01_ent #f17r01_s_03 #f17r01_s_05 #f17r01_s_07"/>
                actions : et apres eulx, enseignemens pour bien faire<note resp="AV"
                   type="commentaire">Henri de Mesmes établit une équivalence entre récit de soi et
                   biographie, pratiques qui toutes deux s’inscrivent dans le cadre d’une conception
@@ -107,28 +113,28 @@
                   La Marck, maréchal de Florange, ou des Du Bellay (Piettre, 2017).</note>.</s>
             <note resp="AV" type="génétique">La première version dissocie la rédaction d’une
                biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi (« la
-               leur propre »). La première pratique serait motivée par un lien affectif (« ceux quilz
-               avoient aimez ») plutôt que par la seule appartenance familiale. Elle semble à la
-               fois fréquente, aisée et plaisante (« volontiers »). La seconde paraît plus rare («
-               aucuns ont… », soit « quelques-uns »). De fait, il est socialement moins bien admis
-               de se célébrer soi-même que de vanter les mérites d’un aïeul admiré. Cette dernière
-               pratique est même cruciale dans la construction d’une identité nobiliaire. Dans les
-               deux cas néanmoins, les scripteurs partagent des qualités morales (« honestes homes
-               ») et une même visée : l’exemplarité. <lb/> La seconde version rapproche ces deux
-               pratiques en une formule (« leurs vies ou de ceulx… »), placées sous l’égide de
-               l’adverbe « volontiers ». La pratique d’écriture de soi devient par ailleurs
-               première. Plusieurs modifications de vocabulaire sont opérées : dans la première
-               prosition, « honeste » est remplacé par « de valeur » ; dans la prosition centrale («
-               c’estoit au moins… »), « louanges » devient « remerque », « vertueuses » devient «
-               belles ». La première substitution déplace la qualité des scripteurs de l’« honnêteté
-               » vers la « valeur » : ce dernier terme, a priori plus polysémique, renvoie, quand il
-               qualifie une personne, au grand mérite et à une condition sociale élevée, parfois
-               aussi à la vaillance. La seconde substitution provoque une forme de neutralisation
-               axiologique des textes envisagés, de l’éloge au constat ; néanmoins, ce qui est «
-               digne de remarques » est implicitement remarquable. La troisième substitution, enfin,
-               comme la première, efface la prédominance de la qualité morale (honnêteté, vertu) au
-               profit d’une mise en valeur plus abstraite (« belles », au sens de satisfaisantes,
-               admirables).</note></ab>
+               leur propre »). La première pratique serait motivée par un lien affectif (« ceux
+               quilz avoient aimez ») plutôt que par la seule appartenance familiale. Elle semble à
+               la fois fréquente, aisée et plaisante (« volontiers »). La seconde paraît plus rare
+               (« aucuns ont… », soit « quelques-uns »). De fait, il est socialement moins bien
+               admis de se célébrer soi-même que de vanter les mérites d’un aïeul admiré. Cette
+               dernière pratique est même cruciale dans la construction d’une identité nobiliaire.
+               Dans les deux cas néanmoins, les scripteurs partagent des qualités morales («
+               honestes homes ») et une même visée : l’exemplarité. <lb/> La seconde version
+               rapproche ces deux pratiques en une formule (« leurs vies ou de ceulx… »), placées
+               sous l’égide de l’adverbe « volontiers ». La pratique d’écriture de soi devient par
+               ailleurs première. Plusieurs modifications de vocabulaire sont opérées : dans la
+               première prosition, « honeste » est remplacé par « de valeur » ; dans la prosition
+               centrale (« c’estoit au moins… »), « louanges » devient « remerque », « vertueuses »
+               devient « belles ». La première substitution déplace la qualité des scripteurs de l’«
+               honnêteté » vers la « valeur » : ce dernier terme, a priori plus polysémique,
+               renvoie, quand il qualifie une personne, au grand mérite et à une condition sociale
+               élevée, parfois aussi à la vaillance. La seconde substitution provoque une forme de
+               neutralisation axiologique des textes envisagés, de l’éloge au constat ; néanmoins,
+               ce qui est « digne de remarques » est implicitement remarquable. La troisième
+               substitution, enfin, comme la première, efface la prédominance de la qualité morale
+               (honnêteté, vertu) au profit d’une mise en valeur plus abstraite (« belles », au sens
+               de satisfaisantes, admirables).</note></ab>
          <p/>
       </body>
    </text>

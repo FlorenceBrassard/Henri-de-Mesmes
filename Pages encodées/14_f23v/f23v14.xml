@@ -60,59 +60,61 @@
                     </choice> genous de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ant mon <roleName ref="Q107207194">pere</roleName> en son estude l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>appellant son pere et son sau<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>eur apres <choice>
-                        <orig>d</orig>
-                        <reg>D</reg>
-                    </choice>ieu<unclear cert="medium" reason="margin">.</unclear></s><s><choice>
-                        <orig/>
-                        <reg>« </reg>
-                    </choice>Je n<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>ay<choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> dict il<choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> rien faict pour vous<choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> ne m<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>en remercies point<choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> car <choice>
-                        <orig>i</orig>
-                        <reg>j'</reg>
-                    </choice>ay ser<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>y <choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice> ma <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                        <expan>con</expan>
-                    </choice>sciance et non <choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice>
-                    <choice>
-                        <abbr rend="overlined">vre</abbr>
-                        <expan>vostre</expan>
-                    </choice> satisfaction.<choice>
-                        <orig/>
-                        <reg> »</reg>
-                    </choice>
+                    </choice>ant mon <roleName ref="Q107207194">pere</roleName> en son estude <said
+                        direct="false">l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>appellant son pere et son sau<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>eur apres <choice>
+                            <orig>d</orig>
+                            <reg>D</reg>
+                        </choice>ieu</said><unclear cert="medium" reason="margin"
+                        >.</unclear></s><s><said direct="true"><choice>
+                            <orig/>
+                            <reg>« </reg>
+                        </choice>Je n<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>ay<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> dict il<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> rien faict pour vous<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> ne m<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>en remercies point<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> car <choice>
+                            <orig>i</orig>
+                            <reg>j'</reg>
+                        </choice>ay ser<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>y <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> ma <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>sciance et non <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice>
+                        <choice>
+                            <abbr rend="overlined">vre</abbr>
+                            <expan>vostre</expan>
+                        </choice> satisfaction.<choice>
+                            <orig/>
+                            <reg> »</reg>
+                        </choice></said>
                 </s></p>
         </body>
     </text>
