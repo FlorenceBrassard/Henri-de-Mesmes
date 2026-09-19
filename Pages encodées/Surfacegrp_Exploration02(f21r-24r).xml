@@ -98,8 +98,9 @@
                 <zone xml:id="f23v01" lry="1165" lrx="3625" uly="315" ulx="270"/>
                 <zone xml:id="f23v02" lry="1370" lrx="3610" uly="940" ulx="885"/>
                 <zone xml:id="f23v03" lry="2030" lrx="3620" uly="1190" ulx="880"/>
-                <zone xml:id="f23v04_a" lry="2340" lrx="3620" uly="1835" ulx="275"/>
-                <zone xml:id="f23v04_b" lry="2700" lrx="870" uly="2215" ulx="270"/>
+                <zone xml:id="f23v04"><zone xml:id="f23v04_a" lry="2340" lrx="3620" uly="1835"
+                        ulx="275"/>
+                    <zone xml:id="f23v04_b" lry="2700" lrx="870" uly="2215" ulx="270"/></zone>
                 <zone xml:id="f23v05" lry="2485" lrx="3630" uly="2155" ulx="865"/>
                 <zone xml:id="f23v06" lry="2750" lrx="3630" uly="2265" ulx="870"/>
                 <zone xml:id="f23v07" lry="2910" lrx="3625" uly="2545" ulx="670"/>
@@ -115,9 +116,16 @@
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/full/full/0/native.jpg"/>
                 <zone xml:id="f23v14_b" lry="785" lrx="3608" uly="478" ulx="757"/>
-                <zone xml:id="f24v01" lry="864" lrx="3615" uly="521" ulx="757"/>
-                <zone xml:id="f24r02_a" lry="1078" lrx="3715" uly="686" ulx="757"/>
-                <zone xml:id="f24r02_b" lry="1449" lrx="843" uly="943" ulx="314"/>
+                <zone xml:id="f24r01" lry="864" lrx="3615" uly="521" ulx="757"/>
+                <zone xml:id="f24r02"><zone xml:id="f24r02_a" lry="1076" lrx="3756" uly="733"
+                        ulx="763"/>
+                    <zone xml:id="f24r02_b" lry="1410" lrx="836" uly="972" ulx="360"/></zone>
+                <zone xml:id="f24r03" lry="2725" lrx="3695" uly="987" ulx="837"/>
+                <zone xml:id="f24r04" lry="3025" lrx="3720" uly="2530" ulx="835"/>
+                <zone xml:id="f24r06" lry="3315" lrx="3235" uly="3105" ulx="955"/>
+                <zone xml:id="f24r05" lry="3330" lrx="3730" uly="2825" ulx="815"/>
+                <zone xml:id="f24r07" lry="3605" lrx="3700" uly="3105" ulx="780"/>
+                <zone xml:id="f24r08" lry="3965" lrx="3680" uly="3400" ulx="810"/>
             </surface>
         </surfaceGrp>
     </facsimile>

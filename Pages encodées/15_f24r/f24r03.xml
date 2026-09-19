@@ -19,10 +19,21 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/829,996,2919,1731/full/0/default.jpg"/>
+            <zone xml:id="f24r03_i_metamark_01" points="2520,62 2415,100 2477,170"/>
+            <zone xml:id="f24r03_i_derniers" points="2542,52 2485,135 2792,187 2812,125"/>
+            <zone xml:id="f24r03_i_puys" lry="1040" lrx="1703" uly="936" ulx="1510"/>
+            <zone xml:id="f24r03_i_peu_aupauant_01" lry="1026" lrx="2616" uly="940" ulx="1706"/>
+            <zone xml:id="f24r03_i_peu_aupauant_02" lry="1190" lrx="1943" uly="1083" ulx="966"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <p><s>Aiant porté en terre le corps de mon pere et rendu les <metamark function="insert"
-                        target="#f24rop3_derniers">^</metamark><add xml:id="f24rop3_derniers"
+            <p><s>Aiant porté en terre le corps de mon pere et rendu les <metamark facs="#f24r03_i_metamark_01" function="insert"
+                        target="#f24r03_derniers">^</metamark><add facs="#f24r03_i_derniers" xml:id="f24r03_derniers"
                         >derniers</add> offices que mon de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -85,7 +96,7 @@
                         <reg>v</reg>
                     </choice>aliers et grands seigneurs, et <subst>
                         <del>aussy</del>
-                        <add><del xml:id="f24rop3_puys_aupauant">puys peu de <choice>
+                        <add><del facs="#f24r03_i_peu_aupauant_01" xml:id="f24r03_puys_aupauant">puys peu de <choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>ours au<choice>
@@ -101,7 +112,7 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>a grand</del>
-                        <add xml:id="f24rop3_peu_aupauant">peu de <choice>
+                        <add facs="#f24r03_i_peu_aupauant_02" xml:id="f24r03_peu_aupauant">peu de <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>ours au<choice>
@@ -111,7 +122,7 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ant</add>
-                    </subst><substJoin target="#f24rop3_puys_aupauant #f24rop3_peu_aupauant"/>
+                    </subst><substJoin target="#f24r03_puys_aupauant #f24r03_peu_aupauant"/>
                     <choice>
                         <orig>p</orig>
                         <reg>. P</reg>

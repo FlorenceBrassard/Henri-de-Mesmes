@@ -21,29 +21,27 @@
     </teiHeader>
     <text>
         <body>
-            <p><s>Le <roleName ref="Q134309">Roy</roleName> y voulut entendre et me choisit <subst>
-                        <del>pour aller traicter a<choice>
+            <p><s><del><choice>
+                            <orig>s</orig>
+                            <reg>S</reg>
+                        </choice>embla</del>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>mena a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec luy <persName ref="Q2077151"><surname><choice>
+                                <orig>b</orig>
+                                <reg>B</reg>
+                            </choice>eau<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>ec eulx</del>
-                        <add>pour a<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>ec le<choice>
-                                <abbr><g ref="#dict-glyph">ɠ</g></abbr>
-                                <expan>dict</expan>
-                            </choice>
-                            <choice>
-                                <abbr>S<hi rend="superscript">r</hi></abbr>
-                                <expan>seigneur</expan>
-                            </choice>
-                            <persName ref="Q678012"
-                                ><nameLink>de</nameLink><surname>Biron</surname></persName> les
-                            aller trou<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>er et traicter</add>
-                    </subst>.</s></p>
+                            </choice>ais</surname></persName> et <persName ref="Q1868249"
+                            ><surname>Teligny</surname></persName> qui parloient de pai<choice>
+                        <orig>s</orig>
+                        <reg>x</reg>
+                    </choice>.</s></p>
         </body>
     </text>
 </TEI>

@@ -22,18 +22,9 @@
     <text>
         <body>
             <p><s><choice>
-                        <orig>e</orig>
-                        <reg>E</reg>
-                    </choice>t <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e n<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>en ay point veu depuys <choice>
-                        <orig>xxv</orig>
-                        <reg>25</reg>
-                    </choice> ans qui ait guiere duré.</s></p>
+                <orig>o</orig>
+                <reg>O</reg>
+            </choice>n la disoit boiteuse et Malassise.</s></p>
         </body>
     </text>
 </TEI>
