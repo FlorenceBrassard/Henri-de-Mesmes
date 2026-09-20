@@ -19,12 +19,19 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/815,4830,1612,178/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
-                <orig>o</orig>
-                <reg>O</reg>
-            </choice>n la disoit boiteuse et Malassise.</s></p>
+                        <orig>o</orig>
+                        <reg>O</reg>
+                    </choice>n la disoit boiteuse et Malassise.</s></p>
         </body>
     </text>
 </TEI>

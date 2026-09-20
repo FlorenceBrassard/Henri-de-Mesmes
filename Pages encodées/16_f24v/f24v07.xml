@@ -19,18 +19,29 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/982,3353,2639,451/full/0/default.jpg"
+            />
+        </surface>
+        <surface>
+            <graphic url=""/>
+        </surface>
+        <!--    Nakala-->
+    </facsimile>
     <text>
         <body>
             <p><s><choice>
-                <orig>i</orig>
-                <reg>I</reg>
-            </choice>l est vray qu<choice>
-                <orig></orig>
-                <reg>'</reg>
-            </choice>on vouloit que <choice>
-                <orig>i</orig>
-                <reg>j</reg>
-            </choice>e feisse plus de miracles que les saincts.</s></p>
+                        <orig>i</orig>
+                        <reg>I</reg>
+                    </choice>l est vray qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>on vouloit que <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>e feisse plus de miracles que les saincts.</s></p>
         </body>
     </text>
 </TEI>

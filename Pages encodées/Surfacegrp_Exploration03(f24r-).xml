@@ -20,18 +20,15 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <surface>
-            <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/805,5122,2913,326/full/0/default.jpg"
-            />
-        </surface>
+        <surfaceGrp>
+            <surface type="17_f25r.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f55/full/full/0/native.jpg"/>
+            </surface>
+            <surface type="18_f25v.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/full/full/0/native.jpg"/>
+            </surface>
+        </surfaceGrp>
     </facsimile>
-    <text>
-        <body>
-            <p><s><choice>
-                        <orig>e</orig>
-                        <reg>E</reg>
-                    </choice>t nous y somes ancore.</s></p>
-        </body>
-    </text>
 </TEI>

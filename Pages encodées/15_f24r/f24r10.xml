@@ -19,6 +19,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/798,3840,2918,563/full/0/default.jpg "
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <p><s>Le <roleName ref="Q134309">Roy</roleName> y voulut entendre et me choisit <subst>

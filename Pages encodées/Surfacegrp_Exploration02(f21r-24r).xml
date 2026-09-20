@@ -76,7 +76,7 @@
                 <zone xml:id="f22v14" lry="5220" lrx="3855" uly="4575" ulx="1045"/>
                 <zone xml:id="f22v15" lry="5505" lrx="3855" uly="5025" ulx="1050"/>
             </surface>
-            <surface type="12_f23r.json">
+            <surface type="13_f23r.json">
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/full/full/0/native.jpg"/>
                 <zone xml:id="f23r01" lry="935" lrx="3693" uly="364" ulx="686"/>
@@ -92,7 +92,7 @@
                 <zone xml:id="f23r11" lry="5099" lrx="3793" uly="4392" ulx="714"/>
                 <zone xml:id="f23r12" lry="5628" lrx="3793" uly="4750" ulx="422"/>
             </surface>
-            <surface type="12_f23v.json">
+            <surface type="14_f23v.json">
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/full/full/0/native.jpg"/>
                 <zone xml:id="f23v01" lry="1165" lrx="3625" uly="315" ulx="270"/>
@@ -112,20 +112,47 @@
                 <zone xml:id="f23v13" lry="5650" lrx="3630" uly="5130" ulx="960"/>
                 <zone xml:id="f23v14_a" lry="5965" lrx="3640" uly="5355" ulx="945"/>
             </surface>
-            <surface type="12_f24r.json">
+            <surface type="15_f24r.json">
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/full/full/0/native.jpg"/>
+                <zone xml:id="f24r02">
+                    <zone lrx="3756" lry="1076" ulx="763" uly="733" xml:id="f24r02_a"/>
+                    <zone lrx="836" lry="1410" ulx="360" uly="972" xml:id="f24r02_b"/>
+                </zone>
                 <zone xml:id="f23v14_b" lry="785" lrx="3608" uly="478" ulx="757"/>
                 <zone xml:id="f24r01" lry="864" lrx="3615" uly="521" ulx="757"/>
-                <zone xml:id="f24r02"><zone xml:id="f24r02_a" lry="1076" lrx="3756" uly="733"
-                        ulx="763"/>
-                    <zone xml:id="f24r02_b" lry="1410" lrx="836" uly="972" ulx="360"/></zone>
                 <zone xml:id="f24r03" lry="2725" lrx="3695" uly="987" ulx="837"/>
                 <zone xml:id="f24r04" lry="3025" lrx="3720" uly="2530" ulx="835"/>
                 <zone xml:id="f24r06" lry="3315" lrx="3235" uly="3105" ulx="955"/>
                 <zone xml:id="f24r05" lry="3330" lrx="3730" uly="2825" ulx="815"/>
                 <zone xml:id="f24r07" lry="3605" lrx="3700" uly="3105" ulx="780"/>
                 <zone xml:id="f24r08" lry="3965" lrx="3680" uly="3400" ulx="810"/>
+                <zone xml:id="f24r09" lry="4075" lrx="3695" uly="3700" ulx="810"/>
+                <zone xml:id="f24r10" lry="4385" lrx="3680" uly="3835" ulx="805"/>
+                <zone xml:id="f24r11" lry="4870" lrx="3770" uly="4130" ulx="805"/>
+                <zone xml:id="f24r12" lry="5000" lrx="2420" uly="4805" ulx="790"/>
+                <zone xml:id="f24r13" lry="5190" lrx="3780" uly="4810" ulx="755"/>
+                <zone xml:id="f24r14" lry="5345" lrx="3715" uly="4950" ulx="780"/>
+                <zone xml:id="f24r15" lry="5450" lrx="3695" uly="5135" ulx="800"/>
+                <zone xml:id="f24r16" lry="5585" lrx="3660" uly="5285" ulx="785"/>
+                <zone xml:id="f24r17_a" lry="5785" lrx="3680" uly="5390" ulx="785"/>
+            </surface>
+            <surface type="16_f24v.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/full/full/0/native.jpg"/>
+                <zone xml:id="f24r17_b" lry="878" lrx="3608" uly="500" ulx="886"/>
+                <zone xml:id="f24v01" lry="1264" lrx="3608" uly="671" ulx="878"/>
+                <zone xml:id="f24v02" lry="1880" lrx="3625" uly="960" ulx="880"/>
+                <zone xml:id="f24v03" lry="1800" lrx="3630" uly="1590" ulx="1460"/>
+                <zone xml:id="f24v04" lry="2330" lrx="3615" uly="1700" ulx="940"/>
+                <zone xml:id="f24v05" lry="2930" lrx="3645" uly="2195" ulx="945"/>
+                <zone xml:id="f24v06_a" lry="3620" lrx="3600" uly="2795" ulx="970"/>
+                <zone xml:id="f24v06_b" lry="3820" lrx="1055" uly="3240" ulx="260"/>
+                <zone xml:id="f24v07" lry="3805" lrx="3645" uly="3335" ulx="960"/>
+                <zone xml:id="f24v08_a" lry="3660" lrx="3670" uly="3505" ulx="2860"/>
+                <zone xml:id="f24v08_b" lry="5760" lrx="1195" uly="3775" ulx="260"/>
+                <zone xml:id="f24v09" lry="5370" lrx="3660" uly="3680" ulx="1030"/>
+                <zone xml:id="f24v10" lry="5830" lrx="3665" uly="5230" ulx="1045"/>
             </surface>
         </surfaceGrp>
     </facsimile>
