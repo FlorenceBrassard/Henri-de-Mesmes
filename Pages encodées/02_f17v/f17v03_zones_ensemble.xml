@@ -62,10 +62,9 @@
                             target="f17v03_et_compaignon" xml:id="f17v03_metamark_2"
                             >^</metamark><add facs="#f17v03_i_et_compaignon"
                             xml:id="f17v03_et_compaignon"><metamark>^</metamark>et compaignon</add>
-                        de <persName ref="https://isni.org/isni/0000000081661660"
-                                ><forename>Philippus</forename>
-                            <surname>Decius</surname></persName> et d'<persName
-                            ref="https://isni.org/isni/0000000122798373"><forename full="abb"><choice>
+                        de <persName ref="Q3745175"><forename>Philippus</forename>
+                            <surname>Decius</surname></persName> et d'<persName ref="Q464471"
+                                ><forename full="abb"><choice>
                                     <abbr>Andr.</abbr>
                                     <expan>Andreas</expan>
                                 </choice></forename>
@@ -106,8 +105,7 @@
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
                     </choice>fession <del>et se perpetuer par ses escrits il</del></add> fut requis
-                par la <persName ref="https://isni.org/isni/0000000054625242"
-                        ><roleName>Reyne</roleName>
+                par la <persName ref="Q236896"><roleName>Reyne</roleName>
                     <forename>Caterine</forename>
                     <nameLink>de</nameLink>
                     <surname>Navarre</surname></persName> de venir en <placeName><choice>
@@ -119,8 +117,7 @@
                 </choice>s <subst>
                     <add>et acompaigner</add>
                     <del>avec</del>
-                </subst>le <persName ref="https://isni.org/isni/0000000122791446"
-                        ><roleName>Roy</roleName>
+                </subst>le <persName ref="Q317506"><roleName>Roy</roleName>
                     <forename>Henry</forename>
                     <nameLink>de</nameLink>
                     <surname>Navarre</surname></persName> son filz. <choice>

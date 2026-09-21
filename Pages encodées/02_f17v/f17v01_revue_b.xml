@@ -34,7 +34,8 @@
    </facsimile>
    <text>
       <body>
-         <ab>Mon pere <subst>
+         <ab><roleName ref="Q107207194">Mon pere</roleName>
+            <subst>
                <del>ainsy né, <add facs="#f17v01_i_dun_Mammes_add" xml:id="f17v01_dun_Mammes_add"
                         ><del seq="2" facs="#f17v01_i_dun_maison" xml:id="f17v01_dun_maison">d<choice>
                            <orig/>
@@ -54,7 +55,7 @@
                      target=" #f17v01_dun_Mammes_add #f17v01_maison_del #f17v01_bone_famille_add"
                      /><substJoin seq="2"
                      target=" #f17v01_dun_maison #f17v01_bone_famille_del #f17v01_maison_add"/>
-                  cognue en <placeName><choice>
+                  cognue en <placeName ref="Q191085"><choice>
                         <orig>g</orig>
                         <reg>G</reg>
                      </choice>ascoigne</placeName>, fut neantmoins instruit aux letres pource qu<choice>
