@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface type="17_f25r.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f55/full/full/0/native.jpg"/>
+                <zone xml:id="f24r01"><zone xml:id="f24r01_a" lry="757" lrx="3893" uly="186"
+                        ulx="329"/>
+                    <zone xml:id="f25r01_b" lry="2521" lrx="929" uly="771" ulx="336"/>
+                    <zone xml:id="f25r01_c" lry="1535" lrx="3836" uly="729" ulx="921"/></zone>
+                <zone xml:id="f25r02" lry="2328" lrx="3808" uly="1292" ulx="935"/>
+                <zone xml:id="f25r03" lry="2828" lrx="3829" uly="2021" ulx="943"/>
+                <zone xml:id="f25r04" lry="3257" lrx="3808" uly="2679" ulx="1015"/>
+                <zone xml:id="f25r05" lry="3428" lrx="3786" uly="2942" ulx="1021"/>
+                <zone xml:id="f25r06" lry="3864" lrx="3779" uly="3192" ulx="986"/>
+                <zone xml:id="f25r07" lry="3814" lrx="3786" uly="3534" ulx="2300"/>
+                <zone xml:id="f25r08" lry="4364" lrx="3779" uly="3714" ulx="843"/>
+                <zone xml:id="f25r09" lry="5164" lrx="3800" uly="4063" ulx="1029"/>
+                <zone xml:id="f25r10" lry="5749" lrx="3815" uly="4850" ulx="1029"/>
+            </surface>
+            <surface type="18_f25v.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/full/full/0/native.jpg"/>
+                <zone xml:id="f25v01" lry="828" lrx="2715" uly="564" ulx="936"/>
+                <zone xml:id="f25v02" lry="1421" lrx="3586" uly="622" ulx="972"/>
+                <zone xml:id="f25v03" lry="1892" lrx="3586" uly="1164" ulx="143"/>
+                <zone xml:id="f25v04" lry="2085" lrx="3600" uly="1571" ulx="865"/>
+                <zone xml:id="f25v05" lry="2528" lrx="3586" uly="1707" ulx="993"/>
+                <zone xml:id="f25v06" lry="2821" lrx="3600" uly="2357" ulx="993"/>
+                <zone xml:id="f25v07" lry="3549" lrx="3572" uly="2522" ulx="986"/>
+                <zone xml:id="f25v08" lry="3621" lrx="3593" uly="3157" ulx="979"/>
+                <zone xml:id="f25v09" lry="3828" lrx="3601" uly="3349" ulx="1022"/>
+                <zone xml:id="f25v10" lry="4035" lrx="3615" uly="3543" ulx="907"/>
+                <zone xml:id="f25v11" lry="4507" lrx="3615" uly="3757" ulx="1000"/>
+                <zone xml:id="f25v12"><zone xml:id="f25v12_a" lry="4614" lrx="3578" uly="4136"
+                        ulx="1015"/>
+                    <zone xml:id="f25v12_b" points="172,3099 986,3099 1293,5935 172,5964"/></zone>
+                <zone xml:id="f25v13" lry="5307" lrx="3650" uly="4271" ulx="836"/>
+                <zone xml:id="f25v14" lry="5557" lrx="3615" uly="4956" ulx="1000"/>
+                <zone xml:id="f25v15_a" lry="5728" lrx="3579" uly="5271" ulx="979"/>
+            </surface>
+            <surface type="19_f26r.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/full/full/0/native.jpg"/>
+                <zone xml:id="f25v15_b" lry="1428" lrx="3815" uly="557" ulx="579"/>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+</TEI>

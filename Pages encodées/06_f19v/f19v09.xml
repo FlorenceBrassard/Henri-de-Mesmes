@@ -22,14 +22,15 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/978,3833,2628,511/full/0/default.jpg"/>
-            <zone xml:id="f19v09_i_metamark" points="691,163 782,132 941,513 809,509"/>
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/988,3837,2609,1927/full/0/default.jpg"/>
+            <zone xml:id="f19v09_i_metamark_bon" lry="504" lrx="2600" uly="223" ulx="2414"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <p><s><metamark facs="#f19v09_i_metamark" function="undo" rend="a_decrire"/><undo target="#f19v09_la_plus"/><del
-                        xml:id="f19v09_la_plus"><choice>
+            <p><metamark facs="#f19v09_i_metamark_bon" function="undo"
+                    target="#f19v09_la_de">bon</metamark><undo
+                    target="#f19v09_la_de"/><del xml:id="f19v09_la_de"><s><choice>
                             <orig>la</orig>
                             <reg>Là</reg>
                         </choice>
@@ -51,8 +52,70 @@
                         <add>agé de <choice>
                                 <orig>xx</orig>
                                 <reg>20</reg>
-                            </choice> ans ou peu plus</add>.</del>
-                </s></p>
+                            </choice> ans ou peu plus</add>.
+                </s><s>
+                        <choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t le <date>V<hi rend="superscript">e</hi>
+                            <choice>
+                                <orig>m</orig>
+                                <reg>M</reg>
+                            </choice>ars</date> ensuy<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant mes articles de mariage furent accordez puys le lundy <date>13 <choice>
+                                <orig>J</orig>
+                                <reg>j</reg>
+                            </choice>uin</date> aussy ensuy<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant qu<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>on disoit <date rend="overlined">1552</date>
+                        <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e fu <del><add>me</add></del> marié et espousay ma femme damoyselle <persName>
+                            <forename><choice>
+                                    <abbr>I.</abbr>
+                                    <expan><choice>
+                                            <orig>I</orig>
+                                            <reg>J</reg>
+                                        </choice>eanne</expan>
+                                </choice></forename><surname><choice>
+                                    <abbr>H.</abbr>
+                                    <expan>Hennequin</expan>
+                                </choice></surname></persName> fille de <choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice>
+                        <persName ref="https://isni.org/isni/0000000000926541"><forename><choice>
+                                    <orig>o</orig>
+                                    <reg>O</reg>
+                                </choice>udart</forename>
+                            <surname>Hennequin</surname></persName>
+                        <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>seiller et <choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice> des <choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>ptes<choice>
+                            <orig>.</orig>
+                            <reg>,</reg>
+                        </choice></s><s><choice>
+                            <orig>h</orig>
+                            <reg>H</reg>
+                        </choice>ome de singuliere probité <subst>
+                            <del>, et de</del>
+                            <add>.</add>
+                        </subst></s></del>
+                </p>
         </body>
     </text>
 </TEI>

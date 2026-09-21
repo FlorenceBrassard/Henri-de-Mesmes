@@ -145,10 +145,14 @@
                         <reg>v</reg>
                     </choice>alier escossois <subst>
                         <del facs="#f17r06_i_nommé" xml:id="f17r06_nommé">nommé</del>
-                        <add facs="#f17r06_i_de_berruich" xml:id="f17r06_de_berruich">de <placeName><choice>
+                        <add facs="#f17r06_i_de_berruich" xml:id="f17r06_de_berruich">de <placeName
+                                ref="Q504678"><choice>
                                     <orig>b</orig>
                                     <reg>B</reg>
-                                </choice>erruich</placeName></add>
+                                </choice>err<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ich</placeName></add>
                     </subst>
                     <persName><forename>Amaneus</forename>
                         <nameLink>de</nameLink>
@@ -158,9 +162,9 @@
                         <reg>'</reg>
                     </choice>an 1200 veint prendre terre <del>ferme</del> en <subst>
                         <del facs="#f17r06_i_Marsan" xml:id="f17r06_Marsan"
-                                ><placeName>Marsan</placeName></del>
+                                ><placeName ref="Q3373488">Marsan</placeName></del>
                         <add facs="#f17r06_i_Guiene" xml:id="f17r06_Guiene"
-                                ><placeName>Guiene</placeName></add>
+                                ><placeName ref="Q849324">Guiene</placeName></add>
                     </subst><choice>
                         <orig/>
                         <reg>,</reg>
@@ -175,7 +179,7 @@
                                     >aux</del></add>
                         </subst>
                         <substJoin target="#f17r06_p_moien #f17r06_par #f17r06_aux_add"/> guerres de
-                        la <placeName>Guiene</placeName> et</del><del facs="#f17r06_i_y_01"
+                        la <placeName ref="Q849324">Guiene</placeName> et</del><del facs="#f17r06_i_y_01"
                         xml:id="f17r06_y">y</del> espousa<add facs="#f17r06_i_en_marsan"
                         xml:id="f17r06_en_marsan"> en <placeName>Marsan</placeName></add>
                     <substJoin
@@ -316,7 +320,14 @@
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> celles de noz parens de <placeName>Berruich</placeName>, <metamark
+                    </choice> celles de noz parens de <placeName ref="Q504678">Berr<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ich</placeName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <metamark
                         facs="#f17r06_i_metamark_03" function="insert"
                         target="#f17r06_en_1567_add #f17r06_a_escosse" xml:id="f17r06_metamark_03"
                         >+</metamark><add facs="#f17r06_i_a_1567"><metamark>+</metamark>
@@ -326,26 +337,25 @@
                                     recerche que <choice>
                                         <orig>i</orig>
                                         <reg>j'</reg>
-                                    </choice>en fey en l'an 1567 <gap quantity="03" unit="char"
-                                    />pour</add></del>
+                                    </choice>en fey en l'an 1567 pour</add></del>
                             <add facs="#f17r06_i_a_escosse" xml:id="f17r06_a_escosse"><choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
                                 </choice> present limite d<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice><placeName><choice>
+                                </choice><placeName ref="Q21"><choice>
                                         <orig>a</orig>
                                         <reg>A</reg>
                                     </choice>ngleterre</placeName> et d<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice><placeName><choice>
+                                </choice><placeName ref="Q22"><choice>
                                         <orig>e</orig>
                                         <reg>E</reg>
                                     </choice>scosse</placeName></add>
                         </subst>
-                    </add><subst>
+                    </add>,<subst>
                         <del seq="01" facs="#f17r06_i_ou_01" xml:id="f17r06_ou_del">o<choice>
                                 <orig>u</orig>
                                 <reg>ù</reg>
