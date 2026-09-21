@@ -29,7 +29,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Au commancement de l<choice>
+            <ab><s>Au commancement de l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>an <date>mil V<hi rend="superscript">c</hi><subst>
@@ -79,7 +79,7 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName ref="Q193313">sainct Mor</placeName>.</s></p>
+                    <placeName ref="Q193313">sainct Mor</placeName>.</s></ab>
         </body>
     </text>
 </TEI>

@@ -26,7 +26,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><subst>
+         <ab><s><subst>
                   <del rend="overwritten"><choice>
                         <orig>e</orig>
                         <reg>E</reg>
@@ -45,7 +45,7 @@
                      <abbr>No<hi rend="superscript">bre</hi></abbr>
                      <expan>Novembre</expan>
                   </choice>
-                  <hi rend="overlined">1550</hi></date>.</s></p>
+                  <hi rend="overlined">1550</hi></date>.</s></ab>
       </body>
    </text>
 </TEI>

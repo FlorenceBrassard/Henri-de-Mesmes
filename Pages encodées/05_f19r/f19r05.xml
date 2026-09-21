@@ -34,7 +34,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>a</orig>
                   <reg>A</reg>
                </choice>u bout des deux ans et demy nous leumes en public <add
@@ -81,7 +81,7 @@
                </subst> passer sens quelque essai <add>de mes <subst>
                      <del>estudes</del>
                      <add>debiles forces</add>
-                  </subst></add>.</s></p>
+                  </subst></add>.</s></ab>
       </body>
    </text>
 </TEI>

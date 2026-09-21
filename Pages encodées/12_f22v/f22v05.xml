@@ -37,7 +37,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>t sou<choice>
@@ -87,7 +87,7 @@
                     </subst>
                     <substJoin cert="high" seq="3"
                         target="#f22v05_en_eage #f22v05_a_fin #f22v05_dont_mourir"/><del
-                        rend="unmarked">.</del></s></p>
+                        rend="unmarked">.</del></s></ab>
         </body>
     </text>
 </TEI>

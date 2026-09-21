@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>s</orig>
                         <reg>S</reg>
                     </choice>y diray <choice>
@@ -41,7 +41,7 @@
                     il eut <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
-                    </choice>tantement.</s></p>
+                    </choice>tantement.</s></ab>
         </body>
     </text>
 </TEI>

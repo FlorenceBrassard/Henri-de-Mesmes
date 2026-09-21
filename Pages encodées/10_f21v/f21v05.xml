@@ -29,7 +29,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>m</orig>
                   <reg>M</reg>
                </choice>ais <subst>
@@ -69,7 +69,7 @@
                </subst> la su<choice>
                   <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                   <expan>per</expan>
-               </choice>intendance sur <del>toutes</del> les finances.</s></p>
+               </choice>intendance sur <del>toutes</del> les finances.</s></ab>
       </body>
    </text>
 </TEI>

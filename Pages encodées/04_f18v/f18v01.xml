@@ -30,7 +30,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s>Je trou<choice>
+         <ab><s>Je trou<choice>
                   <orig>u</orig>
                   <reg>v</reg>
                </choice>e que <subst>
@@ -46,7 +46,7 @@
                      </choice> propos</del>
                   <add facs="#f18v01_i_assez_bien" xml:id="f18v01_assez_bien">assez de bien</add>
                </subst>. <substJoin target="#f18v01_u_i #f18v01_a_propos #f18v01_assez_bien"
-            /></s></p>
+            /></s></ab>
       </body>
    </text>
 </TEI>

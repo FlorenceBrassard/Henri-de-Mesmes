@@ -26,7 +26,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>m</orig>
                   <reg>M</reg>
                </choice>on pere qui a<choice>
@@ -54,7 +54,7 @@
                </choice>il <subst>
                   <del seq="1">estoit <unclear reason="faded">c</unclear></del>
                   <add><del seq="2">de</del></add>
-               </subst> cognoissoit chaste mais ce fut tout.</s></p>
+               </subst> cognoissoit chaste mais ce fut tout.</s></ab>
       </body>
    </text>
 </TEI>

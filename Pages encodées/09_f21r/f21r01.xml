@@ -39,7 +39,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del><choice>
+            <ab><s><del><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>ais ce fut en vain.</del></s>
@@ -128,7 +128,7 @@
                     </subst><choice>
                         <orig/>
                         <reg>.</reg>
-                    </choice></s></p>
+                    </choice></s></ab>
         </body>
     </text>
 </TEI>

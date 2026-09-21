@@ -67,7 +67,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
@@ -408,7 +408,7 @@
                     /> de son nom <persName ref="Q107207194"><forename>Jean<choice>
                                 <orig> </orig>
                                 <reg>-</reg>
-                            </choice>Jacques</forename></persName>.</s></p>
+                            </choice>Jacques</forename></persName>.</s></ab>
         </body>
     </text>
 </TEI>

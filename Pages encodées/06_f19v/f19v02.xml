@@ -35,7 +35,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><add facs="#f19v02_nous_larriuée" xml:id="f19v02_nous_larriuée"><choice>
+            <ab><s><add facs="#f19v02_nous_larriuée" xml:id="f19v02_nous_larriuée"><choice>
                             <orig>n</orig>
                             <reg>N</reg>
                         </choice>ous le saluasmes le soir <choice>
@@ -85,7 +85,7 @@
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rancoys</add>
-                    </subst>.</s></p>
+                    </subst>.</s></ab>
         </body>
     </text>
 </TEI>

@@ -44,7 +44,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del facs="#f19v08_i_mais" xml:id="f19v08_mais" seq="1"><choice>
                                 <orig>m</orig>
                                 <reg>M</reg>
@@ -169,7 +169,7 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>y entray que ii matinées et la iii<hi rend="superscript"
-                            >e</hi></add></del>. </s></p>
+                            >e</hi></add></del>. </s></ab>
         </body>
     </text>
 </TEI>

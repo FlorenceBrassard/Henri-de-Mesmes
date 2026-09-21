@@ -35,7 +35,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>p</orig>
                         <reg>P</reg>
                     </choice>assasmes en <placeName><choice>
@@ -80,7 +80,7 @@
                         <del seq="1">temps</del>
                         <del seq="2"><add seq="1">siecle</add></del>
                         <add seq="2">temps</add>
-                    </subst>.</s></p>
+                    </subst>.</s></ab>
             <substJoin seq="1" target="#f19v01_et1 #f19v01_de1 #f19v01_de2"/>
             <substJoin seq="2" target=" #f19v01_et2 #f19v01_et3 #f19v01_maiesté"/>
             <substJoin seq="3" target="#f19v01_et_celebrité #f19v01_et_frequence"/>

@@ -33,7 +33,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><subst>
+         <ab><s><subst>
                   <del><choice>
                         <orig>e</orig>
                         <reg>E</reg>
@@ -82,7 +82,7 @@
                   <orig><del>.</del></orig>
                   <reg>.</reg>
                </choice></s>
-         </p>
+         </ab>
       </body>
    </text>
 </TEI>

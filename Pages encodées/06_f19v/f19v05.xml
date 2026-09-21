@@ -38,7 +38,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>e mesme fut en passant <del facs="#f19v05_i_a_et2"
@@ -91,7 +91,7 @@
                         <supplied cert="high">ole</supplied> vaquo<gap agent="reliure" unit="char"
                             quantity="2"/>
                         <supplied cert="high">it</supplied></add><substJoin
-                        target="#f19v05_a_et_2 #f19v05_car_vaquoit"/>.</s></p>
+                        target="#f19v05_a_et_2 #f19v05_car_vaquoit"/>.</s></ab>
         </body>
     </text>
 </TEI>

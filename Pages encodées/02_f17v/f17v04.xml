@@ -37,7 +37,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del facs="#f17v04_i_or" xml:id="f17v04_or">or</del>
                         <add facs="#f17v04_i_icy_add" xml:id="f17v04_icy_add">icy</add>
                     </subst>
@@ -111,7 +111,7 @@
                     </choice>il sca<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit bien faire et bien dire.</s></p>
+                    </choice>oit bien faire et bien dire.</s></ab>
         </body>
     </text>
 </TEI>

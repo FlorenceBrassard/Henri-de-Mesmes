@@ -35,7 +35,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><add><subst>
+         <ab><s><add><subst>
                      <del>toutesfois</del>
                      <add>Mais</add>
                   </subst> sa mort <subst>
@@ -101,7 +101,7 @@
                      <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                     </choice> trois heures du matin</date>.</del></s></p>
+                     </choice> trois heures du matin</date>.</del></s></ab>
       </body>
    </text>
 </TEI>

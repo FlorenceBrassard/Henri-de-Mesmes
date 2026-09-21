@@ -26,10 +26,10 @@
       </facsimile>
   <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
             <orig>c</orig>
             <reg>C</reg>
-         </choice>'estoit ma charge en la republique.</s></p>
+         </choice>'estoit ma charge en la republique.</s></ab>
       </body>
   </text>
 </TEI>

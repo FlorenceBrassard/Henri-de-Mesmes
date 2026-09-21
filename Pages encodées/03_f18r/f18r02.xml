@@ -30,7 +30,7 @@
    </facsimile>
    <text>
       <body>
-         <p><del facs="#f18r02_i_estant" xml:id="f18r02_estant">estant</del> lors mon pere <add
+         <ab><del facs="#f18r02_i_estant" xml:id="f18r02_estant">estant</del> lors mon pere <add
                facs="#f18r02_i_estoit" xml:id="f18r02_estoit">estoit</add><substJoin
                target="#f18r02_estant #f18r02_estoit #f18r02_par_gré"/><choice>
                <abbr>lieut<hi>t</hi></abbr>
@@ -66,7 +66,7 @@
                   <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                   <expan>con</expan>
                </choice>traint d'accepter ceste charge contre son gré. </add>
-         </p>
+         </ab>
       </body>
    </text>
 </TEI>

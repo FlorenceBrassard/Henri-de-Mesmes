@@ -35,7 +35,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>o</orig>
                   <reg>O</reg>
                </choice>r <choice>
@@ -101,7 +101,7 @@
                   </choice>ec luy</add> en <date>fin de <choice>
                      <orig>J</orig>
                      <reg>j</reg>
-                  </choice>uillet 1559.</date></s></p>
+                  </choice>uillet 1559.</date></s></ab>
       </body>
    </text>
 </TEI>

@@ -32,7 +32,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>l</orig>
                         <reg>L'</reg>
                     </choice>an mil v<hi rend="superscript">c</hi> xlv au mois de septembre <choice>
@@ -85,7 +85,7 @@
                     </choice>un des freres puisn<choice>
                         <orig>e</orig>
                         <reg>é</reg>
-                    </choice>s de mon pere. </s></p>
+                    </choice>s de mon pere. </s></ab>
         </body>
     </text>
 </TEI>

@@ -27,7 +27,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
                     </choice>l est vray que la <choice>
@@ -43,7 +43,7 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>amais lonnguement en repos<supplied reason="margin"
-                >.</supplied></s></p>
+                >.</supplied></s></ab>
         </body>
     </text>
 </TEI>

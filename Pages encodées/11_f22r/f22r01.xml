@@ -30,7 +30,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><add><choice>
+            <ab><s><add><choice>
                             <orig>d</orig>
                             <reg>D</reg>
                         </choice>e touts ces <choice>
@@ -86,7 +86,7 @@
                             </choice></add><choice>
                             <orig> </orig>
                             <reg>-</reg>
-                        </choice> Esprit. </add></s></p>
+                        </choice> Esprit. </add></s></ab>
         </body>
     </text>
 </TEI>

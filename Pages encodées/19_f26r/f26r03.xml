@@ -21,8 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s>
-                    <del><choice>
+            <ab><s><del><choice>
                             <orig>e</orig>
                             <reg>E</reg>
                         </choice>t</del>

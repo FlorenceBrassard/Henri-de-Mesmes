@@ -30,7 +30,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
                </choice>t que je fey <del facs="#f19v03_i_et" xml:id="f19v03_et">et</del><add facs="#f19v03_i_prenant" xml:id="f19v03_prenant"
@@ -45,7 +45,7 @@
                </choice> il estoit demouré le <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>our precedent. </s></p>
+               </choice>our precedent. </s></ab>
       </body>
    </text>
 </TEI>

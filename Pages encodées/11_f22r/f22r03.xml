@@ -35,7 +35,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
                     </choice>ais <metamark facs="#f22r03_i_metamark1" function="insert" target="#f22r03_le_viceroy"
@@ -167,7 +167,7 @@
                     </choice>ois pas failly en ma charge <del>et qu<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>il</del> ny luy en son election.</s></p>
+                        </choice>il</del> ny luy en son election.</s></ab>
         </body>
     </text>
 </TEI>

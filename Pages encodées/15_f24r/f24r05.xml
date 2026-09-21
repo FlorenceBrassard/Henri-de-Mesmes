@@ -24,7 +24,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>d</orig>
                         <reg>D</reg>
                     </choice>e fa<choice>
@@ -57,7 +57,7 @@
                         <surname><choice>
                                 <orig>l</orig>
                                 <reg>L</reg>
-                            </choice>imoges</surname></persName> et moy. </s></p>
+                            </choice>imoges</surname></persName> et moy. </s></ab>
         </body>
     </text>
 </TEI>

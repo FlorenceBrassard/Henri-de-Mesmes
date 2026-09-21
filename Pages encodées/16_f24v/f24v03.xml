@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
                     </choice>l le trou<choice>
@@ -37,7 +37,7 @@
                     </choice>a bon ainsy, et opta la pai<choice>
                         <orig>s</orig>
                         <reg>x</reg>
-                    </choice>.</s></p>
+                    </choice>.</s></ab>
         </body>
     </text>
 </TEI>

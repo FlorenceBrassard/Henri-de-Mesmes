@@ -34,7 +34,7 @@
    </facsimile>
    <text>
       <body>
-         <p>Mon pere <subst>
+         <ab>Mon pere <subst>
                <del>ainsy né, <del facs=" #f17v01_i_dun_Mammes2" xml:id="f17v01_dun_Mammes2"><add
                         facs="#f17v01_i_dun_Mammes1" xml:id="f17v01_dun_Mammes1">d<choice>
                            <orig/>
@@ -98,7 +98,7 @@
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>eunesse.</add>
-            </subst></p>
+            </subst></ab>
       </body>
    </text>
 </TEI>

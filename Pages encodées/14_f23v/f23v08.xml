@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
                     </choice>l a <subst>
@@ -148,7 +148,7 @@
                             <orig>iiij xx</orig>
                             <reg>80</reg>
                         </choice> ans<del rend="unmarked">.</del>
-                    </s></del></p>
+                    </s></del></ab>
         </body>
     </text>
 </TEI>

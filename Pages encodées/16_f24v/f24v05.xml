@@ -32,7 +32,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>q</orig>
                         <reg>Q</reg>
                     </choice>uoy que soit <choice>
@@ -92,7 +92,7 @@
                     </choice>auront tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ours gré.</s></p>
+                    </choice>ours gré.</s></ab>
         </body>
     </text>
 </TEI>

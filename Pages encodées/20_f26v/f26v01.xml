@@ -21,8 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p>
-                <del seq="1"><s>Je ne diray pas icy tout ce qui me semble de ce prince.</s><s><choice>
+            <ab><del seq="1"><s>Je ne diray pas icy tout ce qui me semble de ce prince.</s><s><choice>
                             <orig>c</orig>
                             <reg>C'</reg>
                         </choice>est besoigne de plus longue alene.</s><s><choice>
@@ -157,7 +156,10 @@
                                 </choice></roleName>
                             <choice>
                                 <abbr>v. m.</abbr>
-                                <expan>vostre mere<choice><orig/><reg> »</reg></choice></expan>
+                                <expan>vostre mere<choice>
+                                        <orig/>
+                                        <reg> »</reg>
+                                    </choice></expan>
                             </choice> il repliqua</s><s><choice>
                                 <orig>. d</orig>
                                 <reg>: « D</reg>
@@ -316,7 +318,7 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir rien du mien.</s>
-            </p>
+            </ab>
         </body>
     </text>
 </TEI>

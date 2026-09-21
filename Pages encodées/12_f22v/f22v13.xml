@@ -29,7 +29,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>i</orig>
                         <reg>J'</reg>
                     </choice>estois <roleName><choice>
@@ -68,7 +68,7 @@
                     </subst> pres de luy <del>pour ma charge.</del><choice>
                         <orig/>
                         <reg>.</reg>
-                    </choice></s></p>
+                    </choice></s></ab>
         </body>
     </text>
 </TEI>

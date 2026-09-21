@@ -34,7 +34,7 @@
    </facsimile>
    <text>
       <body>
-         <p><choice>
+         <ab><choice>
                <orig>l</orig>
                <reg>L'</reg>
             </choice>autre <del facs="#f18r09_i_en_la" xml:id="f18r09_en_la">en la</del>
@@ -74,7 +74,7 @@
             </subst> et come nous desgorger en <del>l<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice></del>eau courante.</p>
+               </choice></del>eau courante.</ab>
       </body>
    </text>
 </TEI>

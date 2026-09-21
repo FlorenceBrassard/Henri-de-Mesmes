@@ -51,7 +51,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del facs="#f20r03_i_ma_1552" xml:id="f20r03_ma_1552"><choice>
+            <ab><s><del facs="#f20r03_i_ma_1552" xml:id="f20r03_ma_1552"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>a reception est du <date>XVI<hi rend="superscript">e</hi>
@@ -219,7 +219,7 @@
                     </choice>oient <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> son trespas.</s></p>
+                    </choice> son trespas.</s></ab>
         </body>
     </text>
 </TEI>

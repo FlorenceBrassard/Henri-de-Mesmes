@@ -29,7 +29,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del><add><choice>
+            <ab><s><del><add><choice>
                                 <orig>a</orig>
                                 <reg>À</reg>
                             </choice></add></del><choice>
@@ -64,7 +64,7 @@
                     </choice> estoit lors la republique <choice>
                         <orig>S</orig>
                         <reg>s</reg>
-                    </choice>ienoise. </s></p>
+                    </choice>ienoise. </s></ab>
         </body>
     </text>
 </TEI>

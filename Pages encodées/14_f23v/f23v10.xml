@@ -34,7 +34,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>equel <add facs="#f23v10_i_aussy" xml:id="f23v10_aussy">aussy</add>
@@ -72,7 +72,7 @@
                     <add facs="#f23v10_i_luy_viuant" xml:id="f23v10_luy_viuant"><metamark>^</metamark> luy vi<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ant</add> autrement vacquer.</s></p>
+                        </choice>ant</add> autrement vacquer.</s></ab>
         </body>
     </text>
 </TEI>

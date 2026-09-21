@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Pour le moins <choice>
+            <ab><s>Pour le moins <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e ne <subst xml:id="f24vop11-12_teins_sorty">
@@ -198,7 +198,7 @@
                         </choice></add>, et que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e voulois y aller doner ordre.</s></p>
+                    </choice>e voulois y aller doner ordre.</s></ab>
         </body>
     </text>
 </TEI>

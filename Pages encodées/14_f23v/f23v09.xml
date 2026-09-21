@@ -30,7 +30,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>a</orig>
                         <reg>A</reg>
                     </choice>ncore ad<choice>
@@ -79,7 +79,7 @@
                         <del>son</del>
                         <add>cest</add>
                     </subst>
-                    <del><unclear cert="high" reason="cancelled">l</unclear></del> office.</s></p>
+                    <del><unclear cert="high" reason="cancelled">l</unclear></del> office.</s></ab>
         </body>
     </text>
 </TEI>

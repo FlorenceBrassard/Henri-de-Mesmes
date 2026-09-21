@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><del>Aussy tost que <choice>
+         <ab><s><del>Aussy tost que <choice>
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>e fu ches moy</del> Le Jugement du <roleName ref="https://isni.org/isni/0000000123197721"
@@ -57,7 +57,7 @@
                   <reg>F</reg>
                </choice>rance</placeName> <metamark function="insert" target="#f26rop13_come_parut"
                   >^</metamark><add xml:id="f26rop13_come_parut"><metamark>^</metamark> come il
-                  parut</add> en <placeName>Anvers</placeName> au periode de son an courant.</s></p>
+                  parut</add> en <placeName>Anvers</placeName> au periode de son an courant.</s></ab>
       </body>
    </text>
 </TEI>

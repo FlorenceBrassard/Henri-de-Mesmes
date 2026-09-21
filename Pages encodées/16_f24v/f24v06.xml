@@ -37,7 +37,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Apres la <choice>
+            <ab><s>Apres la <choice>
                         <abbr>s<hi rend="superscript">t</hi></abbr>
                         <expan>sainct</expan>
                     </choice> B<choice>
@@ -119,7 +119,7 @@
                     </choice> metre poine de les retenir tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ours en son obeissance.</s></p>
+                    </choice>ours en son obeissance.</s></ab>
         </body>
     </text>
 </TEI>

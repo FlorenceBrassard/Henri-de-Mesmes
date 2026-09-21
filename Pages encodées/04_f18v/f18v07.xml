@@ -36,7 +36,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s>
+         <ab><s>
                <choice>
                   <orig>n</orig>
                   <reg>N</reg>
@@ -77,7 +77,7 @@
                <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> la main.</s></p>
+               </choice> la main.</s></ab>
       </body>
    </text>
 </TEI>

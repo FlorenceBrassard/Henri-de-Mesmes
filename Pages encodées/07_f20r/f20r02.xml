@@ -68,7 +68,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><substJoin target="#f20r01_or_examines #f20r02_parquoy_1552 #f20r02_et_par"/>
+            <ab><s><substJoin target="#f20r01_or_examines #f20r02_parquoy_1552 #f20r02_et_par"/>
                     <del xml:id="f20r02_parquoy_1552">
                         <choice>
                             <orig>p</orig>
@@ -452,7 +452,7 @@
                                 target="#f20r02_diuers #f20r02_s"/></add>
                     </subst>
                 </s>
-            </p>
+            </ab>
         </body>
     </text>
 </TEI>

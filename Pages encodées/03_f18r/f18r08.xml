@@ -31,7 +31,7 @@
     </facsimile>
     <text>
         <body>
-            <p><del>et</del>
+            <ab><del>et</del>
                 <choice>
                     <orig>m</orig>
                     <reg>M</reg>
@@ -88,7 +88,7 @@
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice></del></add>
-                </subst><del>quelque petit nombre</del>. </p>
+                </subst><del>quelque petit nombre</del>. </ab>
         </body>
     </text>
 </TEI>

@@ -32,7 +32,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
                     </choice>l est vray qu<choice>
@@ -41,7 +41,7 @@
                     </choice>on vouloit que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e feisse plus de miracles que les saincts.</s></p>
+                    </choice>e feisse plus de miracles que les saincts.</s></ab>
         </body>
     </text>
 </TEI>

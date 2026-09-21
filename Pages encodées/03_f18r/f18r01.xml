@@ -43,7 +43,7 @@
    </facsimile>
    <text>
       <body>
-         <p><choice>
+         <ab><choice>
                <orig>I</orig>
                <reg>J</reg>
             </choice>e nacquis <del>donc</del>
@@ -114,7 +114,7 @@
                      <expan>present</expan>
                   </choice></hi>.<substJoin
                   target="#f18r01_a_mode #f18r01_au_compte #f18r01_e_la #f18r01_lle"/></add>
-         </p>
+         </ab>
       </body>
    </text>
 </TEI>

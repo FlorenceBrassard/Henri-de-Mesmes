@@ -39,7 +39,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del><choice>
                                 <orig>i</orig>
                                 <reg>I</reg>
@@ -85,7 +85,7 @@
                     </choice>y a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit pas pris desplaisir.</s></p>
+                    </choice>oit pas pris desplaisir.</s></ab>
         </body>
     </text>
 </TEI>

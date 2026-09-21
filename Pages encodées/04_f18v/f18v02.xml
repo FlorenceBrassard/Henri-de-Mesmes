@@ -33,7 +33,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del>car <metamark facs="#f18v02_i_metamark" function="insert"
+            <ab><s><del>car <metamark facs="#f18v02_i_metamark" function="insert"
                             target="#f18v02_ne_toutesfois">+</metamark><add
                             facs="#f18v02_i_ne_toutesfois" xml:id="f18v02_ne_toutesfois"
                                 ><metamark>+</metamark>ne pouvant gaster mes meurs pour l<choice>
@@ -73,7 +73,7 @@
                     </subst>ris la vie frugale de la scolarité, et <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice>regler mes heures. </s></p>
+                    </choice>regler mes heures. </s></ab>
         </body>
     </text>
 </TEI>

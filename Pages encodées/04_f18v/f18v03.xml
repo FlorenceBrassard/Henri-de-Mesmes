@@ -43,7 +43,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>t</orig>
                         <reg>T</reg>
                     </choice>ellement que <subst>
@@ -194,7 +194,7 @@
                     </add>
                     <substJoin target=" #f18v03_de_ce #f18v03_du #f18v03_la_ou  #f18v03_la_et"/>
                 </s>
-            </p>
+            </ab>
         </body>
     </text>
 </TEI>

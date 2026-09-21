@@ -39,7 +39,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
                </choice>n fin des six ans <del>ap</del> nous teismes <choice>
@@ -186,7 +186,7 @@
                            <reg>F</reg>
                         </choice>rance</add>
                      <substJoin target="#f19r06_aux #f19r06_de_france"
-                  /><supplied>.</supplied></add></s></add></p>
+                  /><supplied>.</supplied></add></s></add></ab>
       </body>
    </text>
 </TEI>

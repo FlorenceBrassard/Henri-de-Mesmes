@@ -36,7 +36,7 @@
     </facsimile>
     <text>
         <body>
-            <p>Il <subst>
+            <ab>Il <subst>
                     <del>fut</del>
                     <add seq="2">se rendit</add>
                 </subst>
@@ -134,7 +134,7 @@
                 </choice>mancement d<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>une autre forme de vie. </p>
+                </choice>une autre forme de vie. </ab>
         </body>
     </text>
 </TEI>

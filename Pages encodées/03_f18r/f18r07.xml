@@ -32,7 +32,7 @@
    </facsimile>
    <text>
       <body>
-         <p><choice>
+         <ab><choice>
                <orig>p</orig>
                <reg>P</reg>
             </choice>uys <choice>
@@ -48,7 +48,7 @@
                <add facs="#f18r07_i_un" seq="2" xml:id="f18r07_un">un</add>
             </subst> an <metamark facs="#f18r07_i_metamark2" function="insert">+</metamark><add facs="#f18r07_i_ou_moins" seq="2" xml:id="f18r07_ou_moins"
                   ><metamark>+</metamark>ou peu moins</add> de la premiere.<substJoin
-                     target="#f18r07_un #f18r07_ou_moins"/></p>
+                     target="#f18r07_un #f18r07_ou_moins"/></ab>
       </body>
    </text>
 </TEI>

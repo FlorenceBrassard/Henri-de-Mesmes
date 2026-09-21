@@ -30,7 +30,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>t ont <persName ref="Q3085482"><surname>Oli<choice>
@@ -58,7 +58,7 @@
                     </choice> place <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> d'autres qui ne leur ont pas succedé en tout.</s></p>
+                    </choice> d'autres qui ne leur ont pas succedé en tout.</s></ab>
         </body>
     </text>
 </TEI>

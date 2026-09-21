@@ -37,7 +37,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>a</orig>
                         <reg>À</reg>
                     </choice>
@@ -72,7 +72,7 @@
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>ourduy</del>. <substJoin
-                        target="#f18v06_ceulx_maintenant #f18v06_aujourduy"/></s></p>
+                        target="#f18v06_ceulx_maintenant #f18v06_aujourduy"/></s></ab>
         </body>
     </text>
 </TEI>

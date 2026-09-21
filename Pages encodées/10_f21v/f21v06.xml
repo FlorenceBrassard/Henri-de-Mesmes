@@ -32,7 +32,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Pendant que <choice>
+            <ab><s>Pendant que <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>estois l<choice>
@@ -71,7 +71,7 @@
                     </subst> assiegea <placeName>Ci<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>itella</placeName>. </s></p>
+                        </choice>itella</placeName>. </s></ab>
         </body>
     </text>
 </TEI>

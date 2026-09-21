@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <p><s><del><choice>
+            <ab><s><del><choice>
                             <orig>i</orig>
                             <reg>J</reg>
                         </choice>e prie <choice>
@@ -61,7 +61,7 @@
                     <substJoin seq="3" target="#f20vop10_u_es #f26vop10_s #f26vop10_uy_eur"/>
                     <del><metamark function="insert" target="f26vop1-8.xml">#</metamark></del>
                 </s>
-            </p>
+            </ab>
         </body>
     </text>
 </TEI>

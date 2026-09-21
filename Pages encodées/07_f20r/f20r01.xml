@@ -26,7 +26,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><del seq="2" xml:id="f20r01_or_examines"><choice>
+         <ab><s><del seq="2" xml:id="f20r01_or_examines"><choice>
                <orig>o</orig>
                <reg>O</reg>
             </choice>r <choice>
@@ -50,7 +50,7 @@
             </choice> la seconde chambre <choice>
                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                <expan>com</expan>
-            </choice>plete.</add></del></s></p>
+            </choice>plete.</add></del></s></ab>
       </body>
    </text>
 </TEI>
