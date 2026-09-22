@@ -70,8 +70,7 @@
                         <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                         <expan>que</expan>
                     </choice><del facs="#f18v05_i_s1" xml:id="f18v05_s1">s</del> bien<del facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del>.
-                        <substJoin target="#f18v05_s1 #f18v05_s2"/></s>
-            </ab>
+                        <substJoin target="#f18v05_s1 #f18v05_s2"/></s></ab>
         </body>
     </text>
 </TEI>

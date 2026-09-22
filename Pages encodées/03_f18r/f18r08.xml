@@ -32,11 +32,12 @@
     <text>
         <body>
             <ab><del>et</del>
-                <choice>
-                    <orig>m</orig>
-                    <reg>M</reg>
-                </choice>on pere disoit <subst>
-                    <del facs="#f18r08_i_que_nestimant #f18r08_i_beaucoup_college" xml:id="f18r08_que_college">que n<choice>
+                <roleName ref="Q107207194"><choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                    </choice>on pere</roleName> disoit <subst>
+                    <del facs="#f18r08_i_que_nestimant #f18r08_i_beaucoup_college"
+                        xml:id="f18r08_que_college">que n<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>estimant beaucoup la vie du college</del>
@@ -47,7 +48,8 @@
                 </subst> il a<choice>
                     <orig>u</orig>
                     <reg>v</reg>
-                </choice>oit <del facs="#f18r08_i_neantmoins" xml:id="f18r08_neantmoins">neantmoins</del>
+                </choice>oit <del facs="#f18r08_i_neantmoins" xml:id="f18r08_neantmoins"
+                    >neantmoins</del>
                 <substJoin target="#f18r08_que_college #f18r08_quen_college #f18r08_neantmoins"/>
                 <add>eu</add> deux regards, l'un <choice>
                     <orig>a</orig>
@@ -88,7 +90,7 @@
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice></del></add>
-                </subst><del>quelque petit nombre</del>. </ab>
+                </subst><del>quelque petit nombre</del>.</ab>
         </body>
     </text>
 </TEI>

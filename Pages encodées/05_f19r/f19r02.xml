@@ -56,22 +56,20 @@
                                 <reg>j</reg>
                             </choice>eu</add>
                     </subst>
-                    <persName ref="https://isni.org/isni/0000000122836085"><choice>
+                    <persName ref="Q7235"><choice>
                             <orig>s</orig>
                             <reg>S</reg>
-                        </choice>ophocle<add>s</add></persName> ou <persName
-                        ref="https://isni.org/isni/000000012123391X"><choice>
+                        </choice>ophocle<add>s</add></persName> ou <persName ref="Q43353"><choice>
                             <orig>a</orig>
                             <reg>A</reg>
-                        </choice>ristophanes</persName> ou <persName
-                        ref="https://isni.org/isni/0000000121382034">Euripide<add>s</add></persName>
-                    et <subst>
+                        </choice>ristophanes</persName> ou <persName ref="Q48305"
+                            >Euripide<add>s</add></persName> et <subst>
                         <del>depuys</del>
                         <add>quelquefois</add>
                     </subst>
                     <del facs="#f19r02_i_de2" cert="high" rend="unmarked" xml:id="f19r02_de_2"
                         >de</del>
-                    <persName ref="https://isni.org/isni/0000000383074074"><choice>
+                    <persName ref="Q117253"><choice>
                             <orig>d</orig>
                             <reg>D</reg>
                         </choice>emosthene<add>s</add></persName>
@@ -79,18 +77,16 @@
                             facs="#f19r02_i_ou_de1" xml:id="f19r02_ou_de_1"><unclear
                                 reason="deleted">ou</unclear> de</add></del>
                     <supplied>,</supplied>
-                    <persName ref="https://isni.org/isni/0000000139322910"><choice>
+                    <persName ref="Q1541"><choice>
                             <orig>c</orig>
                             <reg>C</reg>
                         </choice>icero</persName>, <del facs="#f19r02_i_et_Plato"
-                        xml:id="f19r02_et_plato">et <persName
-                            ref="https://isni.org/isni/0000000120967858">Plato</persName>. </del>
+                        xml:id="f19r02_et_plato">et <persName ref="Q859">Plato</persName>. </del>
                     <add facs="#f19r02_i_Virgilius_horatius" xml:id="f19r02_virgilius_horatius"
-                            ><persName ref="https://isni.org/isni/0000000430695667">Virgili<choice>
+                            ><persName ref="Q1398">Virgili<choice>
                                 <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
                                 <expan>us</expan>
-                            </choice></persName> ou <persName
-                            ref="https://isni.org/isni/0000000121452178"><choice>
+                            </choice></persName> ou <persName ref="Q6197"><choice>
                                 <orig>h</orig>
                                 <reg>H</reg>
                             </choice>oratius</persName></add>

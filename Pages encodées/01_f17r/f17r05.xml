@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <ab>Puys apres moy, que vous <roleName ref="Q94908007"><choice>
+            <ab>Puys apres moy, que vous <roleName full="init" ref="Q94908007"><choice>
                         <abbr>m. f.</abbr>
                         <expan>mon fils</expan>
                     </choice></roleName> par la lecture de ma vie aies un exemple domestique pour

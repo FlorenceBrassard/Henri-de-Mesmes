@@ -41,7 +41,7 @@
                         <orig>a</orig>
                         <reg>À</reg>
                     </choice>
-                    <placeName>Tholose</placeName> nous fumes trois ans auditeurs <subst>
+                    <placeName ref="Q7880">Tholose</placeName> nous fumes trois ans auditeurs <subst>
                         <del>a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -56,7 +56,8 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>autres</del>
-                        <add facs="#f18v06_i_ceulx_maintenant" xml:id="f18v06_ceulx_maintenant">ceulx de mainten<choice>
+                        <add facs="#f18v06_i_ceulx_maintenant" xml:id="f18v06_ceulx_maintenant"
+                            >ceulx de mainten<choice>
                                 <abbr rend="overlined">ã</abbr>
                                 <expan>an</expan>
                             </choice>t</add>

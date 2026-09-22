@@ -81,8 +81,8 @@
                         target="#f18v03_et_lautre #f18v03_qui_lres" xml:id="f18v03_metamark_1"
                         >≠</metamark>
                     <add seq="2" xml:id="f18v03_et_lautre"><metamark xml:id="f18v03_metamark_2"
-                            >≠</metamark> et recitay <persName
-                            ref="https://isni.org/isni/000000036354151X">Homere</persName> par cueur d<choice>
+                            >≠</metamark> et recitay <persName ref="Q6691">Homere</persName> par
+                        cueur d<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>un bout <choice>
@@ -162,21 +162,17 @@
                             <add seq="2">vers</add>
                             <add seq="3">chez</add>
                         </subst>
-                        <persName ref="https://isni.org/isni/000000012099141X"
-                                ><forename>Lazarius</forename>
-                            <surname>Bayfius</surname></persName>, <persName
-                            ref="https://isni.org/isni/0000000361526324"><surname>Tussanus</surname>
-                        </persName><supplied>,</supplied><persName
-                            ref="https://isni.org/isni/0000000358280028"
+                        <persName ref="Q1640529"><forename>Lazarius</forename>
+                            <surname>Bayfius</surname></persName>, <persName ref="Q21543031"
+                                ><surname>Tussanus</surname>
+                        </persName><supplied>,</supplied><persName ref="Q3174686"
                                 ><surname>Strazelius</surname></persName>
                         <del><unclear cert="low" reason="deleted">et</unclear></del>
                         <choice>
                             <orig/>
                             <reg>,</reg>
-                        </choice><persName ref="https://isni.org/isni/000000012364005X"
-                            >Castellanus</persName> et <persName
-                            ref="https://isni.org/isni/0000000121201969"
-                            ><surname>Danesius</surname></persName><choice>
+                        </choice><persName ref="Q3384831">Castellanus</persName> et <persName
+                            ref="Q3384615"><surname>Danesius</surname></persName><choice>
                             <orig>.</orig>
                             <reg>,</reg>
                         </choice>
@@ -192,9 +188,7 @@
                                 </choice></add>
                         </subst><supplied>.</supplied>
                     </add>
-                    <substJoin target=" #f18v03_de_ce #f18v03_du #f18v03_la_ou  #f18v03_la_et"/>
-                </s>
-            </ab>
+                    <substJoin target=" #f18v03_de_ce #f18v03_du #f18v03_la_ou  #f18v03_la_et"/></s></ab>
         </body>
     </text>
 </TEI>

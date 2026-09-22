@@ -32,10 +32,12 @@
     </facsimile>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig>l</orig>
-                        <reg>L'</reg>
-                    </choice>an mil v<hi rend="superscript">c</hi> xlv au mois de septembre <choice>
+            <ab><s><date><choice>
+                            <orig>l</orig>
+                            <reg>L'</reg>
+                        </choice>an mil v<hi rend="superscript">c</hi> xlv au mois de
+                        septembre</date>
+                    <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice> fu en<choice>
@@ -45,21 +47,22 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName>
+                    <placeName ref="Q7880">
                         <abbr>Thle</abbr>
                         <expan>Tholose</expan>
                     </placeName> pour estudier en lois, a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec mon precepteur et mon frere <choice>
+                    </choice>ec mon precepteur et mon frere<choice>
                         <orig><del rend="unmarked">.</del></orig>
                         <reg>,</reg>
-                    </choice><del>nous estions bien <choice>
+                    </choice><del> nous estions bien <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>eunes. et fumes mis en</del>
-                    <metamark facs="#f18v04_i_metamark1" function="insert" target="#f18v04_soubs">^</metamark><add facs="#f18v04_i_soubs"
-                        xml:id="f18v04_soubs"><metamark>^</metamark>soubs</add> la conduite d<choice>
+                    <metamark facs="#f18v04_i_metamark1" function="insert" target="#f18v04_soubs"
+                        >^</metamark><add facs="#f18v04_i_soubs" xml:id="f18v04_soubs"
+                            ><metamark>^</metamark>soubs</add> la conduite d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>un vieil gentilhome tout blanc qui a<choice>
@@ -85,7 +88,7 @@
                     </choice>un des freres puisn<choice>
                         <orig>e</orig>
                         <reg>é</reg>
-                    </choice>s de mon pere. </s></ab>
+                    </choice>s de mon pere.</s></ab>
         </body>
     </text>
 </TEI>
