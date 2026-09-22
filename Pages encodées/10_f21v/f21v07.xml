@@ -21,7 +21,9 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/968,2435,2628,449/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/968,2435,2628,449/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
@@ -32,10 +34,10 @@
                </choice>ui est l<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>entrée du <placeName><choice>
+               </choice>entrée du <placeName ref="Q173065"><choice>
                      <abbr>R<hi rend="superscript">me</hi></abbr>
                      <expan>royaume</expan>
-                  </choice> de Naples</placeName>. </s></ab>
+                  </choice> de Naples</placeName>.</s></ab>
       </body>
    </text>
 </TEI>

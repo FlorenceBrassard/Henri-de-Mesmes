@@ -38,10 +38,11 @@
             <ab><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
-                    </choice>ais <metamark facs="#f22r03_i_metamark1" function="insert" target="#f22r03_le_viceroy"
-                        >^</metamark>
-                    <add facs="#f22r03_i_le_viceroy" xml:id="f22r03_le_viceroy"><metamark>^</metamark> le <roleName
-                            ref="Q132545">Roy</roleName> fut de mon costé, y en<choice>
+                    </choice>ais <metamark facs="#f22r03_i_metamark1" function="insert"
+                        target="#f22r03_le_viceroy">^</metamark>
+                    <add facs="#f22r03_i_le_viceroy" xml:id="f22r03_le_viceroy"
+                            ><metamark>^</metamark> le <roleName ref="Q132545">Roy</roleName> fut de
+                        mon costé, y en<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>oia le <choice>
@@ -60,10 +61,10 @@
                                     <orig>e</orig>
                                     <reg>E</reg>
                                 </choice>sté</surname>
-                        </persName> pour viceroy <metamark facs="#f22r03_i_metamark2" function="insert"
-                            target="#f22r03_et_iustice">#</metamark></add><addSpan facs="#f22r03_i_et_iustice"
-                        spanTo="#f22r03_iustice" xml:id="f22r03_et_iustice"/><metamark>#</metamark>
-                    et me mainteint a<choice>
+                        </persName> pour viceroy <metamark facs="#f22r03_i_metamark2"
+                            function="insert" target="#f22r03_et_iustice">#</metamark></add><addSpan
+                        facs="#f22r03_i_et_iustice" spanTo="#f22r03_iustice"
+                        xml:id="f22r03_et_iustice"/><metamark>#</metamark> et me mainteint a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec beaucoup de tesmoignages de <choice>
@@ -96,7 +97,7 @@
                     </choice> mois de ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ice au sindicat acoustumé selon les statuts de <placeName>
+                    </choice>ice au sindicat acoustumé selon les statuts de <placeName ref="Q2751">
                         <choice>
                             <orig>s</orig>
                             <reg>S</reg>
@@ -137,7 +138,7 @@
                     </subst>, et depuys tesmoignage de bien ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>y par toute la <placeName ref="Q2751">Republique</placeName><choice>
+                    </choice>y par toute la <orgName ref="Q736727">Republique</orgName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> dont <del><choice>
@@ -147,7 +148,7 @@
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e raportay en <placeName><choice>
+                    </choice>e raportay en <placeName ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName> les <choice>

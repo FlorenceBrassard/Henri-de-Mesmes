@@ -56,7 +56,7 @@
                     </choice>n ce temps l<choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> le <persName ref="https://isni.org/isni/0000000395001884"
+                    </choice> le <persName ref="Q132545"
                             ><roleName>Roy</roleName><forename>Henry</forename></persName> qui me
                     faisoit cest honeur de <subst>
                         <del seq="1">m<choice>
@@ -95,13 +95,16 @@
                     </choice>estat de <choice>
                         <abbr>m<hi rend="superscript">e</hi></abbr>
                         <expan>maistre</expan>
-                    </choice> des Requestes <add>come <choice>
+                    </choice> des <choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                    </choice>equestes <add>come <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>e faisois</add><pb/> dont <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>'ay la depesche signée <persName><surname><choice>
+                    </choice>'ay la depesche signée <persName ref="Q3158358"><surname><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>
                             </choice>ourdin</surname></persName><del>du <space/></del><choice>
@@ -135,7 +138,7 @@
                     </choice> la mode d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice><placeName><choice>
+                    </choice><placeName ref="Q38"><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>talie</placeName>, <subst>
@@ -217,8 +220,8 @@
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> mon <roleName ref="https://isni.org/isni/0000000000812616"
-                        >pere</roleName> l<subst>
+                    </choice>
+                    <roleName ref="Q107207194">mon pere</roleName> l<subst>
                         <del rend="overwritten">e</del>
                         <add place="superimposed">u</add>
                     </subst>y declarant qu<choice>
@@ -236,9 +239,9 @@
                     </choice>oir l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>excuse de ma jeunesse et <del><metamark facs="#f20v04_i_metamark3" function="insert"
-                            target="#f20v04_de_mon">^</metamark><add facs="#f20v04_de_mon" xml:id="f20v04_de_mon">de mon
-                        </add></del> peu d<choice>
+                    </choice>excuse de ma jeunesse et <del><metamark facs="#f20v04_i_metamark3"
+                            function="insert" target="#f20v04_de_mon">^</metamark><add
+                            facs="#f20v04_de_mon" xml:id="f20v04_de_mon">de mon </add></del> peu d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>experiance pour<del><add>o</add></del> gou<choice>
@@ -259,7 +262,7 @@
                     </choice>ée que ceste l<choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice>. </s></ab>
+                    </choice>.</s></ab>
         </body>
     </text>
 </TEI>

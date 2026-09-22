@@ -64,16 +64,16 @@
                             </choice>ars</date> ensuy<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ant mes articles de mariage furent accordez puys le lundy <date>13 <choice>
+                            </choice>ant mes articles de mariage furent accordez puys le <date>lundy 13 <choice>
                                 <orig>J</orig>
                                 <reg>j</reg>
-                            </choice>uin</date> aussy ensuy<choice>
+                            </choice>uin aussy ensuy<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant qu<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>on disoit <date rend="overlined">1552</date>
+                        </choice>on disoit <hi rend="overlined">1552</hi></date>
                         <choice>
                             <orig>i</orig>
                             <reg>j</reg>
@@ -91,7 +91,7 @@
                             <abbr>m<hi rend="superscript">e</hi></abbr>
                             <expan>maistre</expan>
                         </choice>
-                        <persName ref="https://isni.org/isni/0000000000926541"><forename><choice>
+                        <persName><forename><choice>
                                     <orig>o</orig>
                                     <reg>O</reg>
                                 </choice>udart</forename>
@@ -114,8 +114,7 @@
                         </choice>ome de singuliere probité <subst>
                             <del>, et de</del>
                             <add>.</add>
-                        </subst></s></del>
-                </ab>
+                        </subst></s></del></ab>
         </body>
     </text>
 </TEI>

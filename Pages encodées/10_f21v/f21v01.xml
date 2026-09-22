@@ -36,12 +36,12 @@
                         <orig>a</orig>
                         <reg>À</reg>
                     </choice>
-                    <choice>
-                        <orig>p</orig>
-                        <reg>P</reg>
-                    </choice>asques <metamark facs="#f21v01_i_metamark1" function="insert" target="#f21v01_1557"
-                        >^</metamark><add facs="#f21v01_i_1557" xml:id="f21v01_1557"
-                            ><metamark>^</metamark><date>1557</date></add>
+                    <date><choice>
+                            <orig>p</orig>
+                            <reg>P</reg>
+                        </choice>asques <metamark facs="#f21v01_i_metamark1" function="insert"
+                            target="#f21v01_1557">^</metamark><add facs="#f21v01_i_1557"
+                            xml:id="f21v01_1557"><metamark>^</metamark>1557</add></date>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
@@ -58,13 +58,13 @@
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice><placeName>Montalcino</placeName> o<choice>
+                    </choice><placeName ref="Q91208">Montalcino</placeName> o<choice>
                         <orig>u</orig>
                         <reg>ù</reg>
-                    </choice> estoit lors la republique <choice>
-                        <orig>S</orig>
-                        <reg>s</reg>
-                    </choice>ienoise. </s></ab>
+                    </choice> estoit lors la <orgName ref="Q736727">republique <choice>
+                            <orig>S</orig>
+                            <reg>s</reg>
+                        </choice>ienoise</orgName>.</s></ab>
         </body>
     </text>
 </TEI>

@@ -21,7 +21,9 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1053,1976,2029,391/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1053,1976,2029,391/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
@@ -36,7 +38,7 @@
                   <orig>a</orig>
                   <reg>à</reg>
                </choice>
-               <placeName><choice>
+               <placeName ref="Q90"><choice>
                      <orig>p</orig>
                      <reg>P</reg>
                   </choice>aris</placeName><del> de retour</del> le <date>7<hi rend="superscript"

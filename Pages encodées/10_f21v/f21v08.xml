@@ -54,7 +54,7 @@
                                 <expan>lieutenant</expan>
                             </choice> du <roleName ref="Q132545">Roy</roleName> en</add>
                     </subst>
-                    <placeName>Toscane</placeName> ala vers <choice>
+                    <placeName ref="Q1273">Toscane</placeName> ala vers <choice>
                         <abbr>m<hi rend="superscript">r</hi></abbr>
                         <expan>monsieur</expan>
                     </choice>
@@ -66,13 +66,15 @@
                         <reg>j</reg>
                     </choice>e demourray <subst>
                         <del facs="#f21v08_i_chef_sur" xml:id="f21v08_chef_sur">chef sur</del>
-                        <add facs="#f21v08_i_au_Sienois #f21v08_i_toute_sur" xml:id="f21v08_au_sur">au <placeName>Sienois</placeName> a<choice>
+                        <add facs="#f21v08_i_au_Sienois #f21v08_i_toute_sur" xml:id="f21v08_au_sur"
+                            >au <placeName>Sienois</placeName> a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ec toute autorité absolue, mesme sur</add>
                     </subst> les armes <del xml:id="f21v08_mesme">mesme</del>
                     <del><unclear cert="high">e</unclear>n</del>
-                    <del facs="#f21v08_i_au_et" xml:id="f21rop8_au_et">au Sienois et</del>
+                    <del facs="#f21v08_i_au_et" xml:id="f21rop8_au_et">au <placeName ref="Q16275"
+                            >Sienois</placeName> et</del>
                     <substJoin target="#f21v08_chef_sur #f21v08_mesme #f21v08_au_et #f21v08_point"/><choice>
                         <orig> a</orig>
                         <reg xml:id="f21v08_point">. A</reg>
@@ -121,11 +123,12 @@
                         </choice>oient</add> surpris aupara<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ant ma venue <del facs="#f21v08_i_par_espaignols" xml:id="f21v08_par_espaignols">par les <choice>
+                    </choice>ant ma venue <del facs="#f21v08_i_par_espaignols"
+                        xml:id="f21v08_par_espaignols">par les <choice>
                             <orig>e</orig>
                             <reg>E</reg>
                         </choice>spaignols</del><substJoin
-                        target="#f21v08_que_auoient #f21v08_par_espaignols"/>. </s></ab>
+                        target="#f21v08_que_auoient #f21v08_par_espaignols"/>.</s></ab>
         </body>
     </text>
 </TEI>

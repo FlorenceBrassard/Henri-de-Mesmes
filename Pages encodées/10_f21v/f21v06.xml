@@ -55,12 +55,13 @@
                     <choice>
                         <abbr>n<hi rend="overlined">re</hi></abbr>
                         <expan>nostre</expan>
-                    </choice> armée <metamark facs="#f21v06_i_metamark1" function="insert" target="#f21v06_venue"
-                        >^</metamark><add facs="#f21v06_i_venue" xml:id="f21v06_venue"
-                            ><metamark>^</metamark><del facs="#f21v06_i_venue_del"
+                    </choice> armée <metamark facs="#f21v06_i_metamark1" function="insert"
+                        target="#f21v06_venue">^</metamark><add facs="#f21v06_i_venue"
+                        xml:id="f21v06_venue"><metamark>^</metamark><del facs="#f21v06_i_venue_del"
                             xml:id="f21v06_venue_del">venue</del></add>
                     <subst>
-                        <del facs="#f21v06_i_de_france" xml:id="f21v06_de_france">de <placeName><choice>
+                        <del facs="#f21v06_i_de_france" xml:id="f21v06_de_france">de <placeName
+                                ref="Q142"><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>rance</placeName></del>
@@ -68,10 +69,10 @@
                                 <abbr>s<hi rend="superscript">te</hi></abbr>
                                 <expan>saincte</expan>
                             </choice></add>
-                    </subst> assiegea <placeName>Ci<choice>
+                    </subst> assiegea <placeName ref="Q51440">Ci<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>itella</placeName>. </s></ab>
+                        </choice>itella</placeName>.</s></ab>
         </body>
     </text>
 </TEI>

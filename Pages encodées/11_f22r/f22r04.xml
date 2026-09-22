@@ -87,7 +87,7 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName><choice>
+                    <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName> le <date>18 juillet 155<subst>
@@ -132,7 +132,7 @@
                     mon <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
-                    </choice>tement de <placeName><choice>
+                    </choice>tement de <placeName ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName><choice>
@@ -222,8 +222,8 @@
                             </choice>t</del>
                         <add facs="#f22r04_i_Quant" xml:id="f22r04_Quant">Quant</add>
                     </subst><substJoin
-                        target="#f22r04_aussy_1557 #f22r04_et #f22r04_Quant #f22r04_virgule_point"/> au
-                    public le <roleName ref="Q132545">Roy</roleName> a<choice>
+                        target="#f22r04_aussy_1557 #f22r04_et #f22r04_Quant #f22r04_virgule_point"/>
+                    au public le <roleName ref="Q132545">Roy</roleName> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit remis sus de grosses forces et sembloit <subst>
@@ -242,7 +242,7 @@
                         </choice><choice>
                             <orig>l</orig>
                             <reg>L</reg>
-                        </choice>aurens</date> pres <placeName><choice>
+                        </choice>aurens</date> pres <placeName ref="Q182744"><choice>
                             <abbr>s<hi rend="superscript">t</hi>
                             </abbr>
                             <expan>Sainct</expan>

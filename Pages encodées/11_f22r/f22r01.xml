@@ -46,19 +46,19 @@
                                 <abbr>s<hi rend="superscript">r</hi></abbr>
                                 <expan>seigneur</expan>
                             </choice></add>
-                        <persName><nameLink>d'</nameLink><surname><choice>
+                        <persName ref="Q127776801"><nameLink>d'</nameLink><surname><choice>
                                     <orig>a</orig>
                                     <reg>A</reg>
                                 </choice>ntrecasteaus</surname></persName>
                         <del>lors</del> ne<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>eu du <persName><roleName><choice>
+                        </choice>eu du <persName ref="Q459338"><roleName><choice>
                                     <abbr>Card<hi rend="superscript">al</hi></abbr>
                                     <expan>cardinal</expan>
                                 </choice></roleName>
-                            <nameLink>de</nameLink><surname>Tournon</surname></persName>, qu<subst facs="#f22r01_i_i_o"
-                            xml:id="f22r01_i_o">
+                            <nameLink>de</nameLink><surname>Tournon</surname></persName>, qu<subst
+                            facs="#f22r01_i_i_o" xml:id="f22r01_i_o">
                             <del rend="overwritten">i</del>
                             <add place="superimposed"><choice>
                                     <abbr rend="overlined">o</abbr>
@@ -72,8 +72,9 @@
                         <substJoin target="#f22r01_i_o #f22r01_est #f22r01_nome"/> au<choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>ourduy le
-                                <persName><roleName>conte</roleName><nameLink>de</nameLink><surname>Grignan</surname></persName><choice>
+                        </choice>ourduy le <persName ref="Q127776801"><roleName>conte</roleName>
+                            <nameLink>de</nameLink>
+                            <surname>Grignan</surname></persName><choice>
                             <orig/>
                             <reg>,</reg>
                         </choice>
@@ -86,7 +87,7 @@
                             </choice></add><choice>
                             <orig> </orig>
                             <reg>-</reg>
-                        </choice> Esprit. </add></s></ab>
+                        </choice>Esprit.</add></s></ab>
         </body>
     </text>
 </TEI>

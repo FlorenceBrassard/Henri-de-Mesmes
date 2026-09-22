@@ -38,14 +38,13 @@
             <ab><s><choice>
                         <orig>p</orig>
                         <reg>P</reg>
-                    </choice>assasmes en <placeName><choice>
+                    </choice>assasmes en <placeName ref="Q6397"><choice>
                             <orig>a</orig>
                             <reg>A</reg>
                         </choice><choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ignon</placeName> pour voir <persName
-                        ref="https://isni.org/isni/0000000115620980"><forename><choice>
+                        </choice>ignon</placeName> pour voir <persName ref="Q41569401"><forename><choice>
                                 <orig>æ</orig>
                                 <reg>Æ</reg>
                             </choice>milius</forename>

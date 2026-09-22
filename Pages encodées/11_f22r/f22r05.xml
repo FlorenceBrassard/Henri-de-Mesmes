@@ -52,16 +52,16 @@
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>y</del>
-               <substJoin target="#f22r05_s_yvy #f22r05_por_suyuy"/> en
-                  <placeName>Champaigne</placeName>
-               <add> et <placeName><choice>
+               <substJoin target="#f22r05_s_yvy #f22r05_por_suyuy"/> en <placeName ref="Q273827"
+                  >Champaigne</placeName>
+               <add> et <placeName ref="Q13950"><choice>
                         <orig>p</orig>
                         <reg>P</reg>
                      </choice>icardie</placeName></add>
                <del>en L</del> en ceste grosse armée d<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice><placeName><choice>
+               </choice><placeName ref="Q41604"><choice>
                      <orig>a</orig>
                      <reg>A</reg>
                   </choice>mi<subst>
@@ -82,7 +82,7 @@
                   <orig>a</orig>
                   <reg>à</reg>
                </choice>
-               <placeName>Paris</placeName> du coup dont il mourrut <add seq="2"><metamark
+               <placeName ref="Q90">Paris</placeName> du coup dont il mourrut <add seq="2"><metamark
                      facs=" #f22r05_i_metamark3" function="insert" target="#f22r05_et_luy"
                      >^</metamark></add><add seq="1"><del>et la p</del></add><add
                   facs="#f22r05_i_et_luy" seq="2" xml:id="f22r05_et_luy"><metamark>^</metamark>
@@ -92,7 +92,7 @@
                   </choice>t le <subst>
                      <del>bien</del>
                      <add>repos</add>
-                  </subst> de la <placeName><choice>
+                  </subst> de la <placeName ref="Q142"><choice>
                         <orig>f</orig>
                         <reg>F</reg>
                      </choice>rance</placeName> a<choice>
