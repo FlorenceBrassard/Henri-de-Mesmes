@@ -29,7 +29,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>a</orig>
                         <reg>A</reg>
                     </choice>u regard de la police <metamark facs="#f22v12_i_metamark01"
@@ -57,7 +57,7 @@
                             </choice>ais<choice>
                                 <orig/>
                                 <reg>.</reg>
-                            </choice></add></del></s></p>
+                            </choice></add></del></s></ab>
         </body>
     </text>
 </TEI>

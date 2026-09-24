@@ -29,7 +29,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Mais c<choice>
+            <ab><s>Mais c<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>est ainsy<choice>
@@ -48,7 +48,7 @@
                     </choice>eunes <choice>
                         <abbr><g ref="#que-glyph">ꝙ</g>d</abbr>
                         <expan>quand</expan>
-                    </choice> il luy plaist. </s></p>
+                    </choice> il luy plaist. </s></ab>
         </body>
     </text>
 </TEI>

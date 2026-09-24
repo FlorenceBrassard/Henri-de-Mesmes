@@ -29,7 +29,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
                     </choice>l a<choice>
@@ -71,7 +71,7 @@
                                 <reg>j'</reg>
                             </choice></del>
                     </subst> ay encore les cofres <add>des seaulx</add> pour merque de cest honeur.
-                </s></p>
+                </s></ab>
         </body>
     </text>
 </TEI>

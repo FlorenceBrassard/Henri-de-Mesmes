@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>m</orig>
                   <reg>M</reg>
                </choice>ais c<choice>
@@ -33,7 +33,7 @@
                </choice> pour sy peu de sub<choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>ect.</s></p>
+               </choice>ect.</s></ab>
       </body>
    </text>
 </TEI>

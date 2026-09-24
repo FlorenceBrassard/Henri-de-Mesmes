@@ -26,14 +26,14 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del><roleName>Mon beau pere</roleName> mourut apres et ce fut le que <choice>
+            <ab><s><del><roleName>Mon beau pere</roleName> mourut apres et ce fut le que <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>e puys dire <choice>
                             <orig>v</orig>
                             <reg>u</reg>
                         </choice>n miroir et vray exemple de simplicité chrestiene et de modestie et
-                        charité.</del></s></p>
+                        charité.</del></s></ab>
         </body>
     </text>
 </TEI>

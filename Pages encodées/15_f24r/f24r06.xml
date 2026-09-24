@@ -25,7 +25,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><add><choice>
+            <ab><s><add><choice>
                             <orig>l</orig>
                             <reg>L</reg>
                         </choice>es autres <add>estoient</add> absens</add> et n<choice>
@@ -35,7 +35,7 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit autre intendant que <persName ref="Q2960638"
-                            ><surname>Marillac</surname></persName>.</s></p>
+                            ><surname>Marillac</surname></persName>.</s></ab>
         </body>
     </text>
 </TEI>

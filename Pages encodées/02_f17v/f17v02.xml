@@ -33,7 +33,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
                     </choice>ais il en <subst>
@@ -61,7 +61,7 @@
                         <add facs="#f17v02_i_ux">ux</add>
                         <del facs="#f17v02_i_la">la</del>
                     </subst> guerre<add facs="#f17v02_i_s1" xml:id="f17v02_s1">s</add>
-                    <substJoin target=" #f17v02_a_la_aux #f17v02_s1"/>.</s></p>
+                    <substJoin target=" #f17v02_a_la_aux #f17v02_s1"/>.</s></ab>
         </body>
     </text>
 </TEI>

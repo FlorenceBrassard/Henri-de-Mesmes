@@ -30,7 +30,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>ors il me resol<choice>
@@ -61,7 +61,7 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>is</del><substJoin target="#f23r02_virgule #f23r02_et_auis"/>.
-                </s></p>
+                </s></ab>
         </body>
     </text>
 </TEI>

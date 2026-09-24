@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
                </choice>t bien que le ren<choice>
@@ -62,7 +62,7 @@
                   <orig/>
                   <reg>'</reg>
                </choice>une longue et publique ruine les masures entrouvertes de ma petite
-               cohuete.</s></p>
+               cohuete.</s></ab>
       </body>
    </text>
 </TEI>

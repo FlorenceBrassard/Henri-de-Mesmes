@@ -30,7 +30,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Pour le moins <choice>
+            <ab><s>Pour le moins <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e ne <subst>
@@ -202,7 +202,7 @@
                         </choice></add>, et que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e voulois y aller doner ordre.</s></p>
+                    </choice>e voulois y aller doner ordre.</s></ab>
         </body>
     </text>
 </TEI>

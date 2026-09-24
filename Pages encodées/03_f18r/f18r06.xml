@@ -21,12 +21,14 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/953,3434,2148,632/full/0/default.jpg"></graphic>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/953,3434,2148,632/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
       <body>
-         <p>A<choice>
+         <ab>A<choice>
                <orig>u</orig>
                <reg>v</reg>
             </choice>ec luy et mon frere puisné <persName><forename full="init"><choice>
@@ -34,25 +36,26 @@
                            <orig>I. I.</orig>
                            <reg>J. J.</reg>
                         </choice></abbr>
-               <expan>Jean-Jacques</expan>
+                     <expan>Jean-Jacques</expan>
                   </choice></forename>
-                  <add><surname>de Mesmes</surname></add></persName>
-<choice>
+               <add><surname>de Mesmes</surname></add></persName>
+            <choice>
                <orig>i</orig>
                <reg>j</reg>
-            </choice>e fu mis au college de <placeName><choice>
+            </choice>e fu mis au <orgName ref="Q1109997">college de <choice>
                   <orig>b</orig>
                   <reg>B</reg>
-            </choice>ourgoigne</placeName> <subst>
-                  <del>en</del>
-                  <add>dez</add>
-               </subst>
+               </choice>ourgoigne</orgName>
+            <subst>
+               <del>en</del>
+               <add>dez</add>
+            </subst>
             <del>le</del>l<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>an <hi rend="trait_suscrit">1542</hi>
+               <orig/>
+               <reg>'</reg>
+            </choice>an <date><hi rend="trait_suscrit">1542</hi></date>
             <del>et</del>
-            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</p>
+            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</ab>
       </body>
    </text>
 </TEI>

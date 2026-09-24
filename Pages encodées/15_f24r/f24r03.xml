@@ -32,7 +32,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Aiant porté en terre le corps de mon pere et rendu les <metamark facs="#f24r03_i_metamark_01" function="insert"
+            <ab><s>Aiant porté en terre le corps de mon pere et rendu les <metamark facs="#f24r03_i_metamark_01" function="insert"
                         target="#f24r03_derniers">^</metamark><add facs="#f24r03_i_derniers" xml:id="f24r03_derniers"
                         >derniers</add> offices que mon de<choice>
                         <orig>u</orig>
@@ -148,7 +148,7 @@
                     </choice> d<choice>
                         <orig>e</orig>
                         <reg>'E</reg>
-                    </choice>stat.</s></p>
+                    </choice>stat.</s></ab>
         </body>
     </text>
 </TEI>

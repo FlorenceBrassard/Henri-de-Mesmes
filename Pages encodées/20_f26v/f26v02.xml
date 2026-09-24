@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>i</orig>
                   <reg>I</reg>
                </choice>l n<choice>
@@ -52,7 +52,7 @@
                </choice>fois <choice>
             <orig>a</orig>
             <reg>à</reg>
-            </choice> eulx mesmes.</s></p>
+            </choice> eulx mesmes.</s></ab>
       </body>
    </text>
 </TEI>

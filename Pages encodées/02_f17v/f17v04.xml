@@ -37,7 +37,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del facs="#f17v04_i_or" xml:id="f17v04_or">or</del>
                         <add facs="#f17v04_i_icy_add" xml:id="f17v04_icy_add">icy</add>
                     </subst>
@@ -62,18 +62,18 @@
                             </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
                         facs="#f17v04_i_metamark01" function="insert" target="#f17v04_le_ancien"
                         >^</metamark><add facs="#f17v04_i_le_ancien" xml:id="f17v04_le_ancien"
-                            ><del>le</del> plus ancien</add> conseiller du parlement de <placeName><choice>
+                            ><del>le</del> plus ancien</add> conseiller du parlement de <placeName
+                        ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
-                        </choice>aris</placeName> et president d'<placeName><choice>
+                        </choice>aris</placeName> et president d'<placeName ref="Q181269"><choice>
                             <orig>a</orig>
                             <reg>A</reg>
                         </choice>lançon</placeName>
                     <subst>
                         <del>duquel</del>
                         <add>que</add>
-                    </subst>le <persName ref="https://isni.org/isni/0000000121029337"
-                            ><roleName>Roy</roleName><forename><choice>
+                    </subst>le <persName ref="Q129857"><roleName>Roy</roleName><forename><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rancoys</forename></persName><subst>
@@ -88,12 +88,13 @@
                                 <del>longuement</del>
                                 <add>quelque temps son</add>
                             </subst></add>
-                    </subst>ambassadeur en <placeName><choice>
+                    </subst>ambassadeur en <placeName ref="Q39"><choice>
                             <orig>s</orig>
                             <reg>S</reg>
-                        </choice>uisse</placeName> et <metamark facs="#f17v04_i_metamark02" function="insert"
-                        target="#f17v04_depuys">^</metamark><add facs="#f17v04_i_depuys"
-                        xml:id="f17v04_depuys">depuys</add> en autres grandes charges.<choice>
+                        </choice>uisse</placeName> et <metamark facs="#f17v04_i_metamark02"
+                        function="insert" target="#f17v04_depuys">^</metamark><add
+                        facs="#f17v04_i_depuys" xml:id="f17v04_depuys">depuys</add> en autres
+                    grandes charges.<choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>t l<choice>
@@ -102,16 +103,19 @@
                     </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit designé premier president de <placeName><choice>
+                    </choice>oit designé premier president de <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName> pour ce qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il sca<choice>
+                    </choice>il s<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                    </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit bien faire et bien dire.</s></p>
+                    </choice>oit bien faire et bien dire.</s></ab>
         </body>
     </text>
 </TEI>

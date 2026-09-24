@@ -67,7 +67,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
@@ -149,7 +149,8 @@
                     </choice>e ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ois <pb/>ordinairement depuys que mon pere m<choice>
+                    </choice>ois <pb/>ordinairement depuys que <roleName ref="Q107207194">mon
+                        pere</roleName> m<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>en eut quité l<choice>
@@ -161,9 +162,10 @@
                     </choice> mon retour d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice><placeName>Italie</placeName>, <metamark facs="#f22r06_i_metamark3"
-                        function="insert" target="#f22r06_enuiron_nacquites">+</metamark><del>et a
-                        mes estudes</del>.</s><s><addSpan facs="#f22r06_i_enuiron_nacquites"
+                    </choice><placeName ref="Q38">Italie</placeName>, <metamark
+                        facs="#f22r06_i_metamark3" function="insert"
+                        target="#f22r06_enuiron_nacquites">+</metamark><del>et a mes
+                    estudes</del>.</s><s><addSpan facs="#f22r06_i_enuiron_nacquites"
                         spanTo="#f22r06_nacquites" xml:id="f22r06_enuiron_nacquites"
                         /><metamark>+</metamark>en<choice>
                         <orig>u</orig>
@@ -202,14 +204,15 @@
                     <choice>
                         <abbr>ord<hi rend="superscript">re</hi></abbr>
                         <expan>ordinaire</expan>
-                    </choice> en la chambre des <choice>
-                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                        <expan>com</expan>
-                    </choice>ptes <choice>
+                    </choice> en la <orgName ref="Q2948401">chambre des <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>ptes</orgName>
+                    <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName><choice>
+                    <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName><choice>
@@ -235,8 +238,8 @@
                     </choice>l estoit l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>aisné des <persName><surname>Hennequins</surname></persName> de sa
-                    branche et a<choice>
+                    </choice>aisné des <persName ref="Q21493029"
+                        ><surname>Hennequins</surname></persName> de sa branche et a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit veu mourir a<choice>
@@ -245,7 +248,7 @@
                     </choice>ant luy son frere <choice>
                         <abbr>m<hi rend="superscript">r</hi></abbr>
                         <expan>monsieur</expan>
-                    </choice><persName><surname><choice>
+                    </choice><persName ref="Q131534845"><surname><choice>
                                 <orig>d</orig>
                                 <reg>D</reg>
                             </choice>acy</surname></persName>
@@ -259,7 +262,7 @@
                         <abbr>presi.<hi rend="superscript">te</hi></abbr>
                         <expan>presidente</expan>
                     </choice>
-                    <persName><nameLink>de</nameLink>
+                    <persName ref="Q102227602"><nameLink>de</nameLink>
                         <surname><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>
@@ -388,10 +391,10 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <date><choice>
+                    <placeName ref="Q525891"><choice>
                             <abbr>S<hi rend="superscript">t</hi></abbr>
                             <expan>ainct</expan>
-                        </choice> Merry</date>
+                        </choice> Merry</placeName>
                     <subst>
                         <del facs="#f22r06_i_et_del" rend="unmarked" xml:id="f22r06_et_del">et </del>
                         <del facs="#f22r06_i_nommé_del" xml:id="f22r06_nommé_del">nommé</del>
@@ -408,7 +411,7 @@
                     /> de son nom <persName ref="Q107207194"><forename>Jean<choice>
                                 <orig> </orig>
                                 <reg>-</reg>
-                            </choice>Jacques</forename></persName>.</s></p>
+                            </choice>Jacques</forename></persName>.</s></ab>
         </body>
     </text>
 </TEI>

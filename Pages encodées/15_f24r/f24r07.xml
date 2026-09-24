@@ -24,7 +24,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>c</orig>
                         <reg>C</reg>
                     </choice>ela <subst>
@@ -37,7 +37,7 @@
                                 <expan>afaires</expan>
                             </choice> et finances</add>
                     </subst> furent plus malades, plus de medecins, <del>et</del> moins de
-                        remede<add>s</add>.</s></p>
+                        remede<add>s</add>.</s></ab>
         </body>
     </text>
 </TEI>

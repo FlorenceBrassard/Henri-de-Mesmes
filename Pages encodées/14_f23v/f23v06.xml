@@ -31,7 +31,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><add facs="#f23v06_i_il_gre" xml:id="f23v06_il_gre"><choice>
+            <ab><s><add facs="#f23v06_i_il_gre" xml:id="f23v06_il_gre"><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l a<choice>
@@ -73,7 +73,7 @@
                     </choice> des <choice>
                         <abbr>req<hi rend="superscript">tes</hi></abbr>
                         <expan>requestes</expan>
-                    </choice>.</s></p>
+                    </choice>.</s></ab>
         </body>
     </text>
 </TEI>

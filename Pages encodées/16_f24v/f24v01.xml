@@ -30,7 +30,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>t la pai<choice>
@@ -56,7 +56,7 @@
                     </choice> dire toutes choses en <subst>
                         <del>son</del>
                         <add>leur</add>
-                    </subst> entier. </s></p>
+                    </subst> entier. </s></ab>
         </body>
     </text>
 </TEI>

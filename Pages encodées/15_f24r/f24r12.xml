@@ -28,10 +28,10 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>o</orig>
                         <reg>O</reg>
-                    </choice>n la disoit boiteuse et Malassise.</s></p>
+                    </choice>n la disoit boiteuse et Malassise.</s></ab>
         </body>
     </text>
 </TEI>

@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Il ad<choice>
+            <ab><s>Il ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>eint<choice>
@@ -55,7 +55,7 @@
                     </choice> que d'honeur et de pou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir.</s></p>
+                    </choice>oir.</s></ab>
         </body>
     </text>
 </TEI>

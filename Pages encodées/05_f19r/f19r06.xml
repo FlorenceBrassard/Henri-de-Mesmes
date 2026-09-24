@@ -39,7 +39,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
                </choice>n fin des six ans <del>ap</del> nous teismes <choice>
@@ -85,7 +85,7 @@
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
-                  <placeName><choice>
+                  <placeName ref="Q7880"><choice>
                         <abbr rend="overlined">Thle</abbr>
                         <expan>Tholose</expan>
                      </choice></placeName>
@@ -93,31 +93,27 @@
                      <abbr>m<hi rend="superscript">rs</hi></abbr>
                      <expan>messieurs</expan>
                   </choice>
-                  <persName ref="https://isni.org/isni/0000000121007699"><surname><unclear
-                           agent="reliure" reason="illegible"><choice>
+                  <persName ref="Q2412465"><surname><unclear agent="reliure" reason="illegible"><choice>
                               <orig>c</orig>
                               <reg>C</reg>
-                           </choice></unclear>orras</surname></persName> et <persName
-                     ref="https://isni.org/isni/0000000119390270"><nameLink>du</nameLink>
+                           </choice></unclear>orras</surname></persName> et <persName ref="Q691362"
+                        ><nameLink>du</nameLink>
                      <surname><choice>
                            <orig>f</orig>
                            <reg>F</reg>
                         </choice>errier</surname></persName>, aussy <persName><surname><choice>
                            <orig>p</orig>
                            <reg>P</reg>
-                        </choice>ereri</surname></persName> et <persName
-                     ref="https://isni.org/isni/0000000026315095"><surname><choice>
+                        </choice>ereri</surname></persName> et <persName><surname><choice>
                            <orig>f</orig>
                            <reg>F</reg>
                         </choice>ernandi</surname></persName> et des <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>eunes <persName ref="https://isni.org/isni/0000000013211908"
-                        ><nameLink>du</nameLink><surname><choice>
+                  </choice>eunes <persName><nameLink>du</nameLink><surname><choice>
                            <orig>b</orig>
                            <reg>B</reg>
-                        </choice>ourg</surname></persName> et <persName
-                     ref="https://isni.org/isni/0000000080770195"><surname><choice>
+                        </choice>ourg</surname></persName> et <persName ref="Q3121749"><surname><choice>
                            <orig>p</orig>
                            <reg>P</reg>
                         </choice>ibrac</surname></persName>.</s><s><choice>
@@ -127,7 +123,7 @@
                      <abbr>m<hi rend="superscript">r</hi></abbr>
                      <expan>monsieur</expan>
                   </choice>
-                  <persName ref="https://isni.org/isni/0000000061298200"><nameLink>de</nameLink>
+                  <persName ref="Q2405987"><nameLink>de</nameLink>
                      <surname><choice>
                            <orig>f</orig>
                            <reg>F</reg>
@@ -143,7 +139,7 @@
                   </choice>ec le <roleName><choice>
                         <abbr>m<hi rend="superscript">al</hi></abbr>
                         <expan>marechal</expan>
-                     </choice></roleName><persName ref="https://isni.org/isni/0000000000927798"><nameLink><choice>
+                     </choice></roleName><persName ref="Q1348795"><nameLink><choice>
                            <orig>d</orig>
                            <reg>D</reg>
                         </choice>e</nameLink><surname><choice>
@@ -168,12 +164,12 @@
                      </choice>t voila les premieres compaignées d<choice>
                         <orig/>
                         <reg>'</reg>
-                     </choice>estude entre <persName ref="https://isni.org/isni/0000000061298200"><surname><choice>
+                     </choice>estude entre <persName ref="Q2405987"><surname><choice>
                               <orig>f</orig>
                               <reg>F</reg>
                            </choice>ois</surname></persName><supplied>,</supplied>
                      <del>et</del>
-                     <persName ref="https://isni.org/isni/0000000080770195"><surname><choice>
+                     <persName ref="Q3121749"><surname><choice>
                               <orig>p</orig>
                               <reg>P</reg>
                            </choice>ibrac</surname></persName> et moy, come elles ont depuys <choice>
@@ -186,7 +182,7 @@
                            <reg>F</reg>
                         </choice>rance</add>
                      <substJoin target="#f19r06_aux #f19r06_de_france"
-                  /><supplied>.</supplied></add></s></add></p>
+                  /><supplied>.</supplied></add></s></add></ab>
       </body>
    </text>
 </TEI>

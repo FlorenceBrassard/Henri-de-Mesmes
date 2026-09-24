@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><subst>
+            <ab><subst>
                     <del seq="1">et</del>
                     <del seq="2"><add seq="1">Mais</add></del>
                     <add seq="2">Puys</add>
@@ -38,7 +38,9 @@
                     </choice>e sceu lire et escrire <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e fu <del>mis</del> don</del> mon pere <subst>
+                    </choice>e fu <del>mis</del> don</del>
+                <roleName ref="Q107207194">mon pere</roleName>
+                <subst>
                     <del>meut</del>
                     <del>a<choice>
                             <orig>u</orig>
@@ -65,10 +67,10 @@
                     </choice>eune home</del><del rend="unmarked">,</del> disciple de <del><choice>
                         <abbr>m<hi>e</hi></abbr>
                         <expan>maître</expan>
-                    </choice></del><persName ref="https://isni.org/isni/0000000120991209"><surname><choice>
+                    </choice></del><persName ref="Q714921"><surname><choice>
                             <orig>d</orig>
                             <reg>D</reg>
-                    </choice>orat</surname></persName>,<add>home </add><add>sca<choice>
+                        </choice>orat</surname></persName>,<add>home </add><add>sca<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ant</add> choisy <add facs="#f18r04_i_pour_et">pour sa vie innocente
@@ -136,8 +138,7 @@
                 </subst> il estoit requis pour m<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>enseigner.</p>
-            <p/>
+                </choice>enseigner.</ab>
         </body>
     </text>
 </TEI>

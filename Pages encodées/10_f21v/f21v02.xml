@@ -37,7 +37,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>t pris la charge de <choice>
@@ -112,7 +112,7 @@
                         <orig/>
                         <reg/>
                     </choice>
-                </s></p>
+                </s></ab>
             <p/>
         </body>
     </text>

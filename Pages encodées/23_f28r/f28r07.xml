@@ -21,8 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s>
-                    <choice>
+            <ab><s><choice>
                         <orig>a</orig>
                         <reg>A</reg>
                     </choice>ussy a<choice>

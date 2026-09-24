@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del>Or</del>
                         <add>Mais</add>
                     </subst> il alloit alieurs et <addSpan spanTo="#f23v03_parquoy"/>luy faloit <choice>
@@ -102,7 +102,7 @@
                                 <expan>pour</expan>
                             </choice> la luy lire</del>
                         <add>de touts les siens</add>
-                    </subst>.</s></p>
+                    </subst>.</s></ab>
         </body>
     </text>
 </TEI>

@@ -21,19 +21,20 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/1071,3349,2078,1273/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/1071,3349,2078,1273/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
-                  <orig>m</orig>
-                  <reg>M</reg>
-               </choice>on pere qui a<choice>
+         <ab><s><roleName ref="Q107207194"><choice>
+                     <orig>m</orig>
+                     <reg>M</reg>
+                  </choice>on pere</roleName> qui a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oit acoustumé le marriage 
-               et l<choice>
+               </choice>oit acoustumé le marriage et l<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>estude, voulut quelque temps apres essaier s<choice>
@@ -54,7 +55,7 @@
                </choice>il <subst>
                   <del seq="1">estoit <unclear reason="faded">c</unclear></del>
                   <add><del seq="2">de</del></add>
-               </subst> cognoissoit chaste mais ce fut tout.</s></p>
+               </subst> cognoissoit chaste mais ce fut tout.</s></ab>
       </body>
    </text>
 </TEI>

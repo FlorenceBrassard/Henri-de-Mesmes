@@ -31,7 +31,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
                     </choice>ais <choice>
@@ -73,7 +73,7 @@
                     </subst> moymesme, et n'a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oi plus ma liberté entiere. </s></p>
+                    </choice>oi plus ma liberté entiere. </s></ab>
         </body>
     </text>
 </TEI>

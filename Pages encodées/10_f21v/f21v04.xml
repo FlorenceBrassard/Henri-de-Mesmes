@@ -5,8 +5,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -18,18 +18,21 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-      <facsimile>
-         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1071,1822,2527,459/full/0/default.jpg"/>
-         </surface>
-      </facsimile>
-  <text>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1071,1822,2527,459/full/0/default.jpg"
+         />
+      </surface>
+   </facsimile>
+   <text>
       <body>
-         <p><s><choice>
-            <orig>c</orig>
-            <reg>C</reg>
-         </choice>'estoit ma charge en la republique.</s></p>
+         <ab><s><choice>
+                  <orig>c</orig>
+                  <reg>C</reg>
+               </choice>'estoit ma charge en la <orgName ref="Q736727"
+            >republique</orgName>.</s></ab>
       </body>
-  </text>
+   </text>
 </TEI>

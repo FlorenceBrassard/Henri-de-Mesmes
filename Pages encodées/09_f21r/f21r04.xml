@@ -33,7 +33,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><subst>
+         <ab><s><subst>
                   <del><choice>
                         <orig>e</orig>
                         <reg>E</reg>
@@ -44,9 +44,10 @@
                      </choice>s lors on me feit</add>
                </subst> instance d<subst>
                   <del facs="#f21r04_i_y" xml:id="f21r04_y">y</del>
-                  <add facs="#f21r04_i_e"  xml:id="f21r04_e">e</add>
-               </subst> demourer <metamark facs="#f21r04_i_metamark1" function="insert" target="#f21r04_a_Rome"
-                  >^</metamark><add facs="#f21r04_i_a_Rome" xml:id="f21r04_a_Rome"><metamark>^</metamark><choice>
+                  <add facs="#f21r04_i_e" xml:id="f21r04_e">e</add>
+               </subst> demourer <metamark facs="#f21r04_i_metamark1" function="insert"
+                  target="#f21r04_a_Rome">^</metamark><add facs="#f21r04_i_a_Rome"
+                  xml:id="f21r04_a_Rome"><metamark>^</metamark><choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
@@ -82,7 +83,7 @@
                   <orig><del>.</del></orig>
                   <reg>.</reg>
                </choice></s>
-         </p>
+         </ab>
       </body>
    </text>
 </TEI>

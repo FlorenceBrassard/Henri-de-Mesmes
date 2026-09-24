@@ -40,7 +40,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>ntre autres <choice>
@@ -56,7 +56,8 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName>Montalcino</placeName> et <del>nous</del> empeschoit tout secours de vi<choice>
+                    <placeName ref="Q91208">Montalcino</placeName> et <del>nous</del> empeschoit
+                    tout secours de vi<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>res<choice>
@@ -67,12 +68,12 @@
                         <del>et</del>
                         <add>de</add>
                     </subst> munitions et d'homes estant <add>ce chateau sis</add> entre nous et la
-                    ville de <placeName>Siene</placeName><choice>
+                    ville de <placeName ref="Q2751">Siene</placeName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
                     <del facs="#f21v09_i_et" xml:id="f21v09_et"><add>et</add></del> que le <roleName
-                        ref="Q32500">Roy d<choice>
+                        ref="Q34417">Roy d<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>
@@ -84,7 +85,8 @@
                         <reg>,</reg>
                     </choice>
                     <add facs="#f21v09_i_et_Montalcino" xml:id="f21v09_et_Montalcino">et distant
-                        seulement de deux mile de <placeName>Montalcino</placeName><substJoin
+                        seulement de deux mile de <placeName ref="Q91208"
+                            >Montalcino</placeName><substJoin
                             target="#f21v09_et #f21v09_et_Montalcino"/></add><choice>
                         <orig/>
                         <reg>.</reg>
@@ -110,7 +112,7 @@
                         target="#f21v09_baron">^</metamark><add facs="#f21v09_i_baron"
                         xml:id="f21v09_baron"><metamark>^</metamark>baron</add><substJoin
                         target="#f21v09_sr #f21v09_baron"/>
-                    <persName ref="Q597422"><nameLink>de</nameLink>
+                    <persName><nameLink>de</nameLink>
                         <surname>Serres</surname></persName>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
@@ -184,8 +186,8 @@
                         <orig/>
                         <reg>,</reg>
                     </choice><metamark facs="#f21v09_i_metamark3" function="insert"
-                        target="#f21v09_blacons">^</metamark><add facs="#f21v09_i_blacons" xml:id="f21v09_blacons"
-                            ><metamark>^</metamark><persName><surname><choice>
+                        target="#f21v09_blacons">^</metamark><add facs="#f21v09_i_blacons"
+                        xml:id="f21v09_blacons"><metamark>^</metamark><persName><surname><choice>
                                     <orig>b</orig>
                                     <reg>B</reg>
                                 </choice>lacons</surname></persName><choice>
@@ -198,10 +200,12 @@
                             </choice>anson</surname></persName>,<persName><surname><choice>
                                 <orig>a</orig>
                                 <reg>A</reg>
-                            </choice>ntrecasteaus</surname></persName>, <persName><surname><add facs="#f21v09_i_C"
-                                xml:id="f21v09_C">C</add><undo facs="#f21v09_i_aussans_undo" rend="underlined"
-                                target="#f21v09_aussans" xml:id="f21rop9_aussans_undo"/><del facs="#f21v09_i_aussans"
-                                xml:id="f21v09_aussans">aussans</del></surname></persName><substJoin
+                            </choice>ntrecasteaus</surname></persName>, <persName><surname><add
+                                facs="#f21v09_i_C" xml:id="f21v09_C">C</add><undo
+                                facs="#f21v09_i_aussans_undo" rend="underlined"
+                                target="#f21v09_aussans" xml:id="f21rop9_aussans_undo"/><del
+                                facs="#f21v09_i_aussans" xml:id="f21v09_aussans"
+                            >aussans</del></surname></persName><substJoin
                         target="#f21v09_C #f21v09_ussans_undo"/>, et autres<choice>
                         <orig/>
                         <reg>,</reg>
@@ -238,7 +242,7 @@
                             <orig>q</orig>
                             <reg>Q</reg>
                         </choice>ui est celuy qui</del>
-                </s></p>
+                </s></ab>
         </body>
     </text>
 </TEI>

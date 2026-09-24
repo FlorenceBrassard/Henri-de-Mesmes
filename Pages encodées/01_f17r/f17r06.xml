@@ -92,10 +92,10 @@
                             ><metamark>^</metamark>issu d<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice><placeName><choice>
+                        </choice><placeName ref="Q22"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
-                            </choice>scosse</placeName></add> né en <placeName><choice>
+                            </choice>scosse</placeName></add> né en <placeName ref="Q191085"><choice>
                             <orig>g</orig>
                             <reg>G</reg>
                         </choice>ascoigne</placeName><choice>
@@ -112,7 +112,7 @@
                             xml:id="f17r06_descosse_add">d<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice><placeName><choice>
+                            </choice><placeName ref="Q22"><choice>
                                     <orig>e</orig>
                                     <reg>E</reg>
                                 </choice>scosse</placeName></add></del>
@@ -160,11 +160,11 @@
                     <del facs="#f17r06_i_qui_01" xml:id="f17r06_qui">qui</del> dez l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>an 1200 veint prendre terre <del>ferme</del> en <subst>
-                        <del facs="#f17r06_i_Marsan" xml:id="f17r06_Marsan"
-                                ><placeName ref="Q3373488">Marsan</placeName></del>
-                        <add facs="#f17r06_i_Guiene" xml:id="f17r06_Guiene"
-                                ><placeName ref="Q849324">Guiene</placeName></add>
+                    </choice>an <date>1200</date> veint prendre terre <del>ferme</del> en <subst>
+                        <del facs="#f17r06_i_Marsan" xml:id="f17r06_Marsan"><placeName
+                                ref="Q3373488">Marsan</placeName></del>
+                        <add facs="#f17r06_i_Guiene" xml:id="f17r06_Guiene"><placeName ref="Q849324"
+                                >Guiene</placeName></add>
                     </subst><choice>
                         <orig/>
                         <reg>,</reg>
@@ -179,9 +179,10 @@
                                     >aux</del></add>
                         </subst>
                         <substJoin target="#f17r06_p_moien #f17r06_par #f17r06_aux_add"/> guerres de
-                        la <placeName ref="Q849324">Guiene</placeName> et</del><del facs="#f17r06_i_y_01"
-                        xml:id="f17r06_y">y</del> espousa<add facs="#f17r06_i_en_marsan"
-                        xml:id="f17r06_en_marsan"> en <placeName>Marsan</placeName></add>
+                        la <placeName ref="Q849324">Guiene</placeName> et</del><del
+                        facs="#f17r06_i_y_01" xml:id="f17r06_y">y</del> espousa<add
+                        facs="#f17r06_i_en_marsan" xml:id="f17r06_en_marsan"> en
+                            <placeName>Marsan</placeName></add>
                     <substJoin
                         target="#f17r06_pendant_Guiene #f17r06_y #f17r06_en_marsan #f17r06_Marsan_Guiene"/>
                     <choice>
@@ -226,8 +227,8 @@
                             <add>la</add>
                         </subst> chappelle<add facs="#f17r06_i_de_ancestres"
                             xml:id="f17r06_de_ancestres"> de mes ancestres</add><substJoin
-                            target="#f17r06_une_la #f17r06_de_ancestres"/> au <placeName>mont de
-                            Marsan</placeName></add>
+                            target="#f17r06_une_la #f17r06_de_ancestres"/> au <placeName
+                            ref="Q188033">mont de Marsan</placeName></add>
                     <substJoin target="#f17r06_dont_papiers #f17r06_et_Marsan"/>
                     <del facs="#f17r06_i_ce_berruich" xml:id="f17r06_ce_berruich"><choice>
                             <orig>c</orig>
@@ -235,7 +236,7 @@
                         </choice>e che<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>alier estoit de <placeName><choice>
+                        </choice>alier estoit de <placeName ref="Q504678"><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>
                             </choice>erruich</placeName>.</del><substJoin
@@ -291,7 +292,7 @@
                         </subst><substJoin target="#f17r06_et_del #f17r06_et_add"/> l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>an 1567 le gou<choice>
+                        </choice>an <date>1567</date> le gou<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>erneur <subst>
@@ -327,8 +328,7 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <metamark
-                        facs="#f17r06_i_metamark_03" function="insert"
+                    <metamark facs="#f17r06_i_metamark_03" function="insert"
                         target="#f17r06_en_1567_add #f17r06_a_escosse" xml:id="f17r06_metamark_03"
                         >+</metamark><add facs="#f17r06_i_a_1567"><metamark>+</metamark>
                         <subst>
@@ -337,7 +337,7 @@
                                     recerche que <choice>
                                         <orig>i</orig>
                                         <reg>j'</reg>
-                                    </choice>en fey en l'an 1567 pour</add></del>
+                                    </choice>en fey en l'an <date>1567</date> pour</add></del>
                             <add facs="#f17r06_i_a_escosse" xml:id="f17r06_a_escosse"><choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
@@ -402,18 +402,20 @@
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>en <subst>
-                        <del facs="#f17r06_i_voulu_information" xml:id="f17r06_voulu_information">voulu a<choice>
+                        <del facs="#f17r06_i_voulu_information" xml:id="f17r06_voulu_information"
+                            >voulu a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oir bone inform<choice>
                                 <abbr rend="overlined">on</abbr>
                                 <expan>ation</expan>
                             </choice></del>
-                        <add facs="#f17r06_i_fey_recerche" xml:id="f17r06_fey_recerche">fey la recerche</add>
-                    </subst><del facs="#f17r06_i_qui_fut" xml:id="f17r06_qui_fut">qui fut</del><choice>
-                        <orig rend="overlined">.1567.</orig>
-                        <reg>(1567).</reg>
-                    </choice><substJoin seq="05"
+                        <add facs="#f17r06_i_fey_recerche" xml:id="f17r06_fey_recerche">fey la
+                            recerche</add>
+                    </subst><del facs="#f17r06_i_qui_fut" xml:id="f17r06_qui_fut">qui fut</del><date><choice>
+                            <orig rend="overlined">.1567.</orig>
+                            <reg>(1567).</reg>
+                        </choice></date><substJoin seq="05"
                         target="#f17r06_voulu_information #f17r06_en_1567_add"/><substJoin seq="06"
                         target="#f17r06_en_1567_del #f17r06_fey_recerche #f17r06_qui_fut"/></s><s><choice>
                         <orig> e</orig>

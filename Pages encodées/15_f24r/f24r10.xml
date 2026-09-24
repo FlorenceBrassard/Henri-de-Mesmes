@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Le <roleName ref="Q134309">Roy</roleName> y voulut entendre et me choisit <subst>
+            <ab><s>Le <roleName ref="Q134309">Roy</roleName> y voulut entendre et me choisit <subst>
                         <del>pour aller traicter a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -50,7 +50,7 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>er et traicter</add>
-                    </subst>.</s></p>
+                    </subst>.</s></ab>
         </body>
     </text>
 </TEI>

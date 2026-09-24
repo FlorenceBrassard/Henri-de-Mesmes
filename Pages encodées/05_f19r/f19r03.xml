@@ -28,10 +28,10 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>l</orig>
                   <reg>L</reg>
-               </choice>ors nous soupions, puys <del>nous</del> lisions en grec ou en latin.</s></p>
+               </choice>ors nous soupions, puys <del>nous</del> lisions en grec ou en latin.</s></ab>
       </body>
    </text>
 </TEI>

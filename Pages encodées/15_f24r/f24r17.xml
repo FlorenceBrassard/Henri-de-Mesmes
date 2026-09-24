@@ -33,7 +33,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>'instruction qu<choice>
@@ -77,7 +77,7 @@
                     </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit permis. </s></p>
+                    </choice>oit permis. </s></ab>
         </body>
     </text>
 </TEI>

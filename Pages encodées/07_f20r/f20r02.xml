@@ -68,7 +68,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><substJoin target="#f20r01_or_examines #f20r02_parquoy_1552 #f20r02_et_par"/>
+            <ab><s><substJoin target="#f20r01_or_examines #f20r02_parquoy_1552 #f20r02_et_par"/>
                     <del xml:id="f20r02_parquoy_1552">
                         <choice>
                             <orig>p</orig>
@@ -98,7 +98,7 @@
                         </choice>
                         <subst>
                             <del>ii f<unclear cert="medium" reason="canceled">oi</unclear></del>
-                            <add>aux aides deux</add>
+                            <add>aux <orgName ref="Q3001050">aides</orgName> deux</add>
                         </subst> matinées <choice>
                             <orig>i</orig>
                             <reg>j</reg>
@@ -114,10 +114,11 @@
                         </choice>ert d<choice>
                             <orig> </orig>
                             <reg>'</reg>
-                        </choice>entrer au grand <choice>
-                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                            <expan>con</expan>
-                        </choice>seil </add>. <subst>
+                        </choice>entrer au <orgName>grand <choice>
+                                <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                                <expan>con</expan>
+                            </choice>seil</orgName>
+                    </add>. <subst>
                         <del xml:id="f20r02_et_par"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
@@ -150,7 +151,7 @@
                             </subst>autres, ains <choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
-                            </choice> la mode de <placeName><choice>
+                            </choice> la mode de <placeName ref="Q7880"><choice>
                                     <abbr rend="overlined">Thle</abbr>
                                     <expan>Tholose</expan>
                                 </choice></placeName>
@@ -224,7 +225,7 @@
                                         <abbr>m<hi rend="superscript">r</hi></abbr>
                                         <expan>monsieur</expan>
                                     </choice>
-                                    <persName ref="https://isni.org/isni/0000000119390270">
+                                    <persName ref="Q691362">
                                         <nameLink>du</nameLink>
                                         <surname><choice>
                                                 <orig>f</orig>
@@ -236,12 +237,12 @@
                                             <orig> </orig>
                                             <reg>,</reg>
                                         </choice>
-                                        <persName ref="https://isni.org/isni/0000000121007699">
+                                        <persName ref="Q2412465">
                                             <surname><choice>
                                                   <orig>c</orig>
                                                   <reg>C</reg>
-                                                </choice>orras</surname></persName></add>, <persName
-                                        ref="https://isni.org/isni/0000000013211908"><nameLink>du </nameLink>
+                                                </choice>orras</surname></persName></add>,
+                                            <persName><nameLink>du </nameLink>
                                         <surname><choice>
                                                 <orig>b</orig>
                                                 <reg>B</reg>
@@ -250,18 +251,18 @@
                                         <reg>, </reg>
                                     </choice>
                                     <del facs="#f20r02_i_pibrac_et" xml:id="f20r02_pibrac_et"
-                                            ><persName ref="https://isni.org/isni/0000000080770195">
+                                            ><persName ref="Q3121749">
                                             <surname><choice>
                                                   <orig>p</orig>
                                                   <reg>P</reg>
                                                 </choice>ibrac</surname></persName> et </del>
-                                    <persName ref="https://isni.org/isni/0000000121312191"><surname>Cu<choice>
+                                    <persName ref="Q707285"><surname>Cu<choice>
                                                 <orig>i</orig>
                                                 <reg>j</reg>
                                             </choice>as</surname></persName><del rend="unmarked"
                                         >.</del>
                                     <add facs="#f20r02_i_et_cela2" xml:id="f20r02_et_cela2"> et
-                                            <persName ref="https://isni.org/isni/0000000080770195">
+                                            <persName ref="Q3121749">
                                             <surname><choice>
                                                   <orig>p</orig>
                                                   <reg>P</reg>
@@ -366,7 +367,8 @@
                                 <orig>l</orig>
                                 <reg>L</reg>
                             </choice>endemain</add>
-                    </subst> mon pere me feit rece<choice>
+                    </subst>
+                    <roleName ref="Q107207194">mon pere</roleName> me feit rece<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir <subst>
@@ -404,7 +406,8 @@
                                 </choice>estoit point pour le <subst>
                                     <del>regard</del>
                                     <add>respect</add>
-                                </subst> de la cour des aides<del rend="unmarked">.</del>
+                                </subst> de la <orgName ref="Q3001050">cour des aides</orgName><del rend="unmarked"
+                                    >.</del>
                                 <add>qu<choice>
                                         <orig/>
                                         <reg>'</reg>
@@ -432,7 +435,7 @@
                             </choice> de mes disputes et lectures <add><choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
-                                </choice><placeName><choice>
+                                </choice><placeName ref="Q7880"><choice>
                                         <abbr rend="overlined">Thle</abbr>
                                         <expan>Tholose</expan>
                                     </choice></placeName></add>, o<choice>
@@ -452,7 +455,7 @@
                                 target="#f20r02_diuers #f20r02_s"/></add>
                     </subst>
                 </s>
-            </p>
+            </ab>
         </body>
     </text>
 </TEI>

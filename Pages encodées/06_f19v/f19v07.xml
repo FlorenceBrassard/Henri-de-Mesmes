@@ -33,7 +33,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><subst>
+         <ab><s><subst>
                   <del><choice>
                         <orig>la</orig>
                         <reg>Là</reg>
@@ -80,7 +80,7 @@
                </subst> ou leus publicquement un an <del>et p</del> ou en<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>iron. </s></p>
+               </choice>iron. </s></ab>
       </body>
    </text>
 </TEI>

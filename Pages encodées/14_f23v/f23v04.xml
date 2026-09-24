@@ -33,7 +33,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del><choice>
                                 <orig>i</orig>
                                 <reg>I</reg>
@@ -64,7 +64,7 @@
                         </choice>an <date rend="overlined">1410</date> et entroit en l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>eage de 80 ans.</add></s></p>
+                        </choice>eage de 80 ans.</add></s></ab>
         </body>
     </text>
 </TEI>

@@ -26,7 +26,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del><choice>
+            <ab><s><del><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>ais son autre puisné <choice>
@@ -37,7 +37,7 @@
                             <surname>Cuny</surname></persName> le sur<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>esquit, et est mort apres luy.</del></s></p>
+                        </choice>esquit, et est mort apres luy.</del></s></ab>
         </body>
     </text>
 </TEI>

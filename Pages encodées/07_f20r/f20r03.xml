@@ -51,7 +51,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del facs="#f20r03_i_ma_1552" xml:id="f20r03_ma_1552"><choice>
+            <ab><s><del facs="#f20r03_i_ma_1552" xml:id="f20r03_ma_1552"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>a reception est du <date>XVI<hi rend="superscript">e</hi>
@@ -104,11 +104,12 @@
                             <expan>requestes</expan>
                         </choice></add> et <add facs="#f20r03_i_fus" xml:id="f20r03_fus"
                         >fus</add><substJoin target="#f20r03_ie_expedié #f20r03_i_lres #f20r03_fus"
-                    /> receu au <choice>
-                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
-                        <expan>par</expan>
-                    </choice>lement <metamark facs="#f20r03_i_metamark2" function="insert"
-                        >^</metamark><add facs="#f20r03_i_aussy_examen" xml:id="f20r03_aussy_examen"
+                    /> receu au <orgName ref="Q1242473"><choice>
+                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                            <expan>par</expan>
+                        </choice>lement</orgName>
+                    <metamark facs="#f20r03_i_metamark2" function="insert">^</metamark><add
+                        facs="#f20r03_i_aussy_examen" xml:id="f20r03_aussy_examen"
                             ><metamark>^</metamark>aussy sens examen</add> le <date>28 Septembre en
                         la mesme année qu<choice>
                             <orig/>
@@ -121,8 +122,7 @@
                             <orig> </orig>
                             <reg>'</reg>
                         </choice>aiant pas ancore xxii ans</add><add facs="#f20r03_i_mais_estudes"
-                        xml:id="f20r03_mais_estudes">mais le <persName
-                            ref="https://isni.org/isni/0000000395001884"
+                        xml:id="f20r03_mais_estudes">mais le <persName ref="Q132545"
                                 ><roleName>Roy</roleName><forename>Henry</forename></persName> mon
                         bon <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
@@ -146,7 +146,9 @@
                     </choice>ice <subst>
                         <del>du</del>
                         <add>au</add>
-                    </subst> grand conseil car mon pere reteint l<choice>
+                    </subst>
+                    <orgName>grand conseil</orgName> car <roleName ref="Q107207194">mon
+                        pere</roleName> reteint l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>exercisse d<subst facs="#f20r03_i_u_e" xml:id="f20r03_u_e">
@@ -159,7 +161,7 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e fu bien tost emploié en plusieurs charges, la mesme année <date
-                        rend="overlined">1553</date> estant en <placeName><choice>
+                        rend="overlined">1553</date> estant en <placeName ref="Q1190"><choice>
                             <orig>l</orig>
                             <reg>L</reg>
                         </choice>imosin</placeName> o<choice>
@@ -183,15 +185,14 @@
                                 <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                                 <expan>com</expan>
                             </choice>mission</add>
-                    </subst> du <roleName ref="https://isni.org/isni/0000000395001884"
-                        >Roy</roleName> le proces criminel au gouverneur d<subst
-                        facs="#f20r03_i_ez_u" xml:id="f20r03_ez_du">
+                    </subst> du <roleName ref="Q132545">Roy</roleName> le proces criminel au
+                    gouverneur d<subst facs="#f20r03_i_ez_u" xml:id="f20r03_ez_du">
                         <del rend="overwritten">ez</del>
                         <add place="superimposed">u</add>
                     </subst>
                     <subst>
                         <add facs="#f20r03_i_pais" xml:id="f20r03_pais">pais</add>
-                        <del facs="#f20r03_i_limosin" xml:id="f20r03_limosin"><placeName><choice>
+                        <del facs="#f20r03_i_limosin" xml:id="f20r03_limosin"><placeName ref="Q1190"><choice>
                                     <orig>l</orig>
                                     <reg>L</reg>
                                 </choice>imosin</placeName></del>
@@ -219,7 +220,7 @@
                     </choice>oient <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> son trespas.</s></p>
+                    </choice> son trespas.</s></ab>
         </body>
     </text>
 </TEI>

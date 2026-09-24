@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><s>Mais <choice>
+         <ab><s>Mais <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e dy a<choice>
@@ -33,7 +33,7 @@
                </choice>mune <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> touts ceulx qui mangent des fruicts de la terre.</s></p>
+               </choice> touts ceulx qui mangent des fruicts de la terre.</s></ab>
       </body>
    </text>
 </TEI>

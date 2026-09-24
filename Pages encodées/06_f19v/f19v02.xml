@@ -35,7 +35,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><add facs="#f19v02_nous_larriuée" xml:id="f19v02_nous_larriuée"><choice>
+            <ab><s><add facs="#f19v02_nous_larriuée" xml:id="f19v02_nous_larriuée"><choice>
                             <orig>n</orig>
                             <reg>N</reg>
                         </choice>ous le saluasmes le soir <choice>
@@ -74,18 +74,18 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ée</del>
-                        <add facs="#f19v02_matin_françoys" xml:id="f19v02_matin_françoys">matin <choice>
-                                <orig>i</orig>
-                                <reg>j</reg>
-                            </choice>our de <choice>
-                                <abbr>s<hi rend="superscript">t</hi></abbr>
-                                <expan>saint</expan>
-                            </choice>
-                            <choice>
-                                <orig>f</orig>
-                                <reg>F</reg>
-                            </choice>rancoys</add>
-                    </subst>.</s></p>
+                        <add facs="#f19v02_matin_françoys" xml:id="f19v02_matin_françoys">matin <date><choice>
+                                    <orig>i</orig>
+                                    <reg>j</reg>
+                                </choice>our de <choice>
+                                    <abbr>s<hi rend="superscript">t</hi></abbr>
+                                    <expan>saint</expan>
+                                </choice>
+                                <choice>
+                                    <orig>f</orig>
+                                    <reg>F</reg>
+                                </choice>rancoys</date></add>
+                    </subst>.</s></ab>
         </body>
     </text>
 </TEI>

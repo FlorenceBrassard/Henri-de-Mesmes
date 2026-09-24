@@ -39,7 +39,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><del><choice>
+            <ab><s><del><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>ais ce fut en vain.</del></s>
@@ -61,23 +61,23 @@
                                 xml:id="f21r01_x">x</del></add>
                     </subst>
                     <substJoin target="#f21r01_conclud-doner #f21r01_aux"/>
-                    <add xml:id="f21r01_pape_les"><roleName
-                            ref="https://isni.org/isni/0000000448838048">Pape</roleName> contre
+                    <add xml:id="f21r01_pape_les"><roleName ref="Q101430">Pape</roleName> contre
                         les</add>
-                    <substJoin target="#f21r01_x #f21r01_pape_les"/><persName><surname><choice>
+                    <substJoin target="#f21r01_x #f21r01_pape_les"/><persName ref="Q327202"><surname><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>olonois</surname></persName> et <metamark
                         facs="#f21r01_i_metamark1" function="insert" target="#f21r01_acorder_la"
                         >^</metamark><add facs="#f21r01_i_acorder_la" xml:id="f21r01_acorder_la"
-                            ><metamark>^</metamark>acorder la</add> ligue <add facs="#f21r01_i_saincte_aportée"
-                        xml:id="f21r01_saincte_aportée">saincte qui luy fut aportée</add><add
-                        xml:id="f21r01_point_add"><del facs="#f21r01_i_point_del" rend="unmarked" xml:id="f21r01_point_del"
+                            ><metamark>^</metamark>acorder la</add> ligue <add
+                        facs="#f21r01_i_saincte_aportée" xml:id="f21r01_saincte_aportée">saincte qui
+                        luy fut aportée</add><add xml:id="f21r01_point_add"><del
+                            facs="#f21r01_i_point_del" rend="unmarked" xml:id="f21r01_point_del"
                             >.</del>
                     </add><substJoin seq="2" target="#f21r01_saincte_aportée #f21r01_point_del"/> d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice><placeName><choice>
+                    </choice><placeName ref="Q38"><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>talie</placeName><choice>
@@ -93,7 +93,7 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName>Tonerre</placeName> o<choice>
+                    <placeName ref="Q498854">Tonerre</placeName> o<choice>
                         <orig>u</orig>
                         <reg>ù</reg>
                     </choice>
@@ -103,8 +103,8 @@
                     </choice>estois lors <del>pour</del> par son <choice>
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>com</expan>
-                    </choice>mandement <metamark facs="#f21r01_i_metamark2" function="insert" target="#f21r01_pour_feu"
-                        >+</metamark><subst>
+                    </choice>mandement <metamark facs="#f21r01_i_metamark2" function="insert"
+                        target="#f21r01_pour_feu">+</metamark><subst>
                         <del>pour <subst>
                                 <del>le</del>
                                 <add>cognoistre du</add>
@@ -118,7 +118,8 @@
                                 <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                                 <expan>par</expan>
                             </choice>tie de la ville.</del>
-                        <add facs="#f21r01_pour_feu" xml:id="f21r01_pour_feu"><metamark>+</metamark> pour doner ordre <choice>
+                        <add facs="#f21r01_pour_feu" xml:id="f21r01_pour_feu"><metamark>+</metamark>
+                            pour doner ordre <choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice> ceste ville <choice>
@@ -128,7 +129,7 @@
                     </subst><choice>
                         <orig/>
                         <reg>.</reg>
-                    </choice></s></p>
+                    </choice></s></ab>
         </body>
     </text>
 </TEI>

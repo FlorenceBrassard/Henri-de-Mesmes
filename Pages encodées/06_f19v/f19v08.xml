@@ -44,7 +44,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><subst>
+            <ab><s><subst>
                         <del facs="#f19v08_i_mais" xml:id="f19v08_mais" seq="1"><choice>
                                 <orig>m</orig>
                                 <reg>M</reg>
@@ -66,7 +66,7 @@
                             <reg>à</reg>
                         </choice></add><substJoin
                         target="#f19v08_mais #f19v08_metamark1 #f19v08_metamark_2 #f19v08_lors"/>
-                    <roleName ref="https://isni.org/isni/0000000000812616">mon pere</roleName>
+                    <roleName ref="Q107207194">mon pere</roleName>
                     <add facs="#f19v08_i_de1" xml:id="f19v08_de1">de</add> m<choice>
                         <orig/>
                         <reg>'</reg>
@@ -81,8 +81,7 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec le garde des seaus <subst>
-                        <del facs="#f19v08_i_bertrandy"><persName
-                                ref="https://isni.org/isni/0000000112609540"><surname><choice>
+                        <del facs="#f19v08_i_bertrandy"><persName ref="Q3175280"><surname><choice>
                                         <abbr><g ref="#ber-glyph">ƀ</g></abbr>
                                         <expan>Ber</expan>
                                     </choice>trandy</surname></persName></del>
@@ -94,7 +93,7 @@
                                 <abbr>card<hi rend="superscript">al</hi></abbr>
                                 <expan>cardinal</expan>
                             </choice>
-                            <persName ref="https://isni.org/isni/0000000112609540"><surname><subst>
+                            <persName ref="Q3175280"><surname><subst>
                                         <del rend="overwritten"><unclear cert="low"
                                                 reason="overwritten">f</unclear></del>
                                         <add place="superimposed"><choice>
@@ -126,8 +125,7 @@
                         <add facs="#f19v08_i_cognoistre_reqtes">pour me <choice>
                                 <abbr>f<hi rend="superscript">er</hi></abbr>
                                 <expan>faire</expan>
-                            </choice> cognoistre au <roleName
-                                ref="https://isni.org/isni/0000000395001884">Roy</roleName> et <subst>
+                            </choice> cognoistre au <roleName ref="Q132545">Roy</roleName> et <subst>
                                 <del>aspirer</del>
                                 <add>tendre</add>
                             </subst>
@@ -169,7 +167,7 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>y entray que ii matinées et la iii<hi rend="superscript"
-                            >e</hi></add></del>. </s></p>
+                            >e</hi></add></del>. </s></ab>
         </body>
     </text>
 </TEI>

@@ -26,7 +26,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Or vous ne futes pas long temps puisné car
+            <ab><s>Or vous ne futes pas long temps puisné car
                         <persName><forename>Renée</forename></persName> ma fille alla <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -49,7 +49,7 @@
                         </choice>ril mil V<hi rend="superscript">c</hi>lxi<choice>
                             <orig>j</orig>
                             <reg>i</reg>
-                        </choice></date>.</s></p>
+                        </choice></date>.</s></ab>
         </body>
     </text>
 </TEI>

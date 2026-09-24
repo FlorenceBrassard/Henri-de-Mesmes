@@ -35,7 +35,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>ou</orig>
                         <reg>Où</reg>
                     </choice> elle me <subst>
@@ -106,7 +106,7 @@
                         <orig>v</orig>
                         <reg>u</reg>
                     </choice>n orage public.<substJoin
-                        target="#f23r08_enfermé_tempeste #f23r08_en_d"/></s></p>
+                        target="#f23r08_enfermé_tempeste #f23r08_en_d"/></s></ab>
         </body>
     </text>
 </TEI>

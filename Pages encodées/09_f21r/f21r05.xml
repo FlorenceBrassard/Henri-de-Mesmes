@@ -28,7 +28,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                   <orig>m</orig>
                   <reg>M</reg>
                </choice>ais <choice>
@@ -40,7 +40,7 @@
                </choice>seillé me charger de <choice>
                   <abbr>leg<hi rend="overlined">on</hi></abbr>
                   <expan>legation</expan>
-               </choice> de sy grosse despense.</s></p>
+               </choice> de sy grosse despense.</s></ab>
       </body>
    </text>
 </TEI>

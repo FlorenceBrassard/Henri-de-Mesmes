@@ -26,7 +26,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                 <orig>a</orig>
                 <reg>A</reg>
             </choice>insy ad<choice>
@@ -38,7 +38,7 @@
             </choice>iles, mesme <choice>
                 <abbr>po<hi rend="superscript">r</hi></abbr>
                 <expan>pour</expan>
-            </choice> religion.</s></p>
+            </choice> religion.</s></ab>
         </body>
     </text>
 </TEI>

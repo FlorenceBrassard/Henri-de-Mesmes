@@ -40,7 +40,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>t <del facs="#f23r04_i_iay01" xml:id="f23r04_iay01"><choice>
@@ -146,7 +146,7 @@
                         <choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice> executer</del>.</s></p>
+                        </choice> executer</del>.</s></ab>
         </body>
     </text>
 </TEI>

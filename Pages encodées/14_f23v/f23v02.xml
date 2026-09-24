@@ -31,7 +31,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s>La <roleName ref="Q131552"><choice>
+            <ab><s>La <roleName ref="Q131552"><choice>
                             <abbr>R<hi rend="superscript">ne</hi></abbr>
                             <expan>Reine</expan>
                         </choice></roleName>
@@ -83,7 +83,7 @@
                         ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
-                        </choice>rance</placeName>. </s></p>
+                        </choice>rance</placeName>. </s></ab>
         </body>
     </text>
 </TEI>

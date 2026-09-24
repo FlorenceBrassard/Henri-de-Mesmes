@@ -28,10 +28,10 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Certes c<choice>
+            <ab><s>Certes c<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>estoient bones gens du temps passé.</s></p>
+                    </choice>estoient bones gens du temps passé.</s></ab>
         </body>
     </text>
 </TEI>

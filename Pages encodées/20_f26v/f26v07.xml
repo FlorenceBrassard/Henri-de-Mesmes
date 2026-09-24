@@ -21,7 +21,7 @@
    </teiHeader>
    <text>
       <body>
-         <p><s>Ja ne me tiens <choice>
+         <ab><s>Ja ne me tiens <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e pour tel que mes plaies soient pour saigner <choice>
@@ -49,7 +49,7 @@
                   <orig>d</orig>
                   <reg>D</reg>
                </choice>ieu.
-            </s></p>
+            </s></ab>
          </body>
    </text>
 </TEI>

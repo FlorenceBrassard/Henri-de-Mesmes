@@ -26,7 +26,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s>Ainsy elle n<choice>
+         <ab><s>Ainsy elle n<choice>
                <orig/>
                <reg>'</reg>
             </choice>a vescu que <choice>
@@ -47,7 +47,7 @@
             </choice> xxi<choice>
                <orig>j</orig>
                <reg>i</reg>
-            </choice> heures et demie.</s></p>
+            </choice> heures et demie.</s></ab>
       </body>
    </text>
 </TEI>

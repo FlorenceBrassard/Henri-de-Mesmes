@@ -28,15 +28,16 @@
     </facsimile>
     <text>
         <body>
-            <ab>Puys apres moy, que vous <choice>
-                    <abbr>m. f.</abbr>
-                    <expan>mon fils</expan>
-                </choice> par la lecture de ma vie aies un exemple domestique pour craindre Dieu, <subst>
+            <ab>Puys apres moy, que vous <roleName full="init" ref="Q94908007"><choice>
+                        <abbr>m. f.</abbr>
+                        <expan>mon fils</expan>
+                    </choice></roleName> par la lecture de ma vie aies un exemple domestique pour
+                craindre Dieu, <subst>
                     <del>ambrasser</del>
                     <add>suyvre</add>
                 </subst>la vertu, <del>prevoir les accidens,</del> et mespriser la fortune. <del
-                    facs="#f17r05_i_e_laborem"><quote rend="unmarked" source="Q47154" xml:lang="la">E terra magnum
-                        alterius spectare laborem.</quote></del></ab>
+                    facs="#f17r05_i_e_laborem"><quote rend="unmarked" source="Q47154" xml:lang="la"
+                        >E terra magnum alterius spectare laborem.</quote></del></ab>
         </body>
     </text>
 </TEI>

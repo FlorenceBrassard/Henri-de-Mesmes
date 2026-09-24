@@ -29,7 +29,7 @@
    </facsimile>
    <text>
       <body>
-         <p><s><choice>
+         <ab><s><choice>
                <orig>p</orig>
             <reg>P</reg>
             </choice>uys <del>nous</del> venions <pb/>disner apres a<choice>
@@ -41,7 +41,7 @@
             </choice>a<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ions escrit des lectures. </s></p>
+            </choice>ions escrit des lectures. </s></ab>
       </body>
    </text>
 </TEI>

@@ -28,7 +28,7 @@
     </facsimile>
     <text>
         <body>
-            <p><s><choice>
+            <ab><s><choice>
                         <orig>m</orig>
                         <reg>« M</reg>
                     </choice>ais c<choice>
@@ -61,7 +61,7 @@
                     </subst> ?<choice>
                         <orig/>
                         <reg> »</reg>
-                    </choice></s></p>
+                    </choice></s></ab>
         </body>
     </text>
 </TEI>

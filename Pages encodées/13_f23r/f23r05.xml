@@ -26,13 +26,13 @@
     </facsimile>
     <text>
         <body>
-            <p><s>Or il ne dura pas tous<choice>
+            <ab><s>Or il ne dura pas tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ours et sentit luy mesme les pointes de l'en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ie.</s></p>
+                    </choice>ie.</s></ab>
         </body>
     </text>
 </TEI>
