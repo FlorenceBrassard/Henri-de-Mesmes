@@ -21,7 +21,9 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1083,5025,2781,502/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1083,5025,2781,502/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
@@ -43,8 +45,8 @@
                             <ptr target="#f22v15_souuent"/>
                             <ptr target="#f22v15_il_faisoit"/>
                         </transpose>
-                    </listTranspose> tenir la chancellerie, <del>pour</del> en son lieu dedens sa
-                    sale, et seler en plein seau, <subst>
+                    </listTranspose> tenir la chancellerie, <del>pour</del> en
+                    son lieu dedens sa sale, et seler en plein seau, <subst>
                         <del>ce qui est peu acoustumé</del>
                         <add>quand il perdoit son sang et ne pou<choice>
                                 <orig>u</orig>

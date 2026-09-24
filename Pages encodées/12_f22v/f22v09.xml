@@ -21,7 +21,9 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1080,3308,2781,518/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1080,3308,2781,518/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
@@ -29,8 +31,8 @@
          <ab><s><del>Il estoit l<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>aisné des <persName><surname>Hennequins</surname></persName> de sa
-                  branche et a<choice>
+                  </choice>aisné des <persName ref="Q21493029"
+                     ><surname>Hennequins</surname></persName> de sa branche et a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>oit veu mourir a<choice>
@@ -42,22 +44,22 @@
                            <abbr>m<hi rend="superscript">r</hi></abbr>
                            <expan>monsieur</expan>
                         </choice>
-                        <persName><surname>Dacy</surname></persName>
+                        <persName ref="Q131534845"><surname>Dacy</surname></persName>
                         <roleName><choice>
                               <abbr>p<hi rend="superscript">r</hi></abbr>
                               <expan>premier</expan>
                            </choice> president</roleName> en la</add>
-                  </subst> chambre des <choice>
+                  </subst> <orgName ref="Q2948401">chambre des <choice>
                      <abbr><g ref="#con-glyph">ꝯ</g>ptes</abbr>
                      <expan>comptes</expan>
-                  </choice> et sa seur <choice>
+                  </choice></orgName> et sa seur <choice>
                      <abbr>mad<hi rend="superscript">elle</hi></abbr>
                      <expan>mademoiselle</expan>
                   </choice> la <roleName><choice>
                         <abbr>p.<hi rend="superscript">te</hi></abbr>
                         <expan>presidente</expan>
                      </choice></roleName>
-                  <persName><nameLink>de</nameLink>
+                  <persName ref="Q102227602"><nameLink>de</nameLink>
                      <surname><choice>
                            <orig>b</orig>
                            <reg>B</reg>

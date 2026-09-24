@@ -48,13 +48,15 @@
                         <forename><choice>
                                 <orig>j</orig>
                                 <reg>J</reg>
-                            </choice>acques</forename></persName> en <placeName>Galice</placeName>
-                    <add>et laissant <add facs="#f22r01_i_grosse_add" xml:id="f22v01_grosse_add">grosse</add> sa femme <del
-                            xml:id="f22v01_grosse_del">grosse</del></add>
+                            </choice>acques</forename></persName> en <placeName ref="Q3908"
+                        >Galice</placeName>
+                    <add>et laissant <add facs="#f22r01_i_grosse_add" xml:id="f22v01_grosse_add"
+                            >grosse</add> sa femme <del xml:id="f22v01_grosse_del"
+                        >grosse</del></add>
                     <substJoin target="#f22v01_grosse_add #f22v01_grosse_del"/><add>qui estoit plus <choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>eune, nomée <persName><nameLink>de</nameLink>
+                        </choice>eune, nomée <persName ref="Q105701217"><nameLink>de</nameLink>
                             <surname>Cauna</surname></persName><choice>
                             <orig/>
                             <reg>,</reg>
@@ -62,7 +64,7 @@
                         <del>qui est <choice>
                                 <orig>v</orig>
                                 <reg>u</reg>
-                            </choice>ne</del> noble et anciene maison en <placeName><choice>
+                            </choice>ne</del> noble et anciene maison en <placeName ref="Q849324"><choice>
                                 <orig>g</orig>
                                 <reg>G</reg>
                             </choice>uiene</placeName></add><choice>
@@ -83,7 +85,7 @@
                     </choice>acques a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec celuy de son <roleName>parrein</roleName><choice>
+                    </choice>ec celuy de son parrein<choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
@@ -99,7 +101,7 @@
                         </choice> noms<choice>
                             <orig/>
                             <reg>,</reg>
-                        </choice> fors que moy pource que mon <roleName ref="Q132545">parr<supplied
+                        </choice> fors que moy pource que <roleName ref="Q132545">mon parr<supplied
                                 cert="high" reason="margin">ein</supplied></roleName> estoit
                             <roleName ref="Q132545">Roy</roleName> et son nom ne se de<choice>
                             <orig>u</orig>

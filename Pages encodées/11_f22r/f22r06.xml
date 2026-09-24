@@ -255,10 +255,10 @@
                     <choice>
                         <abbr>p<hi rend="superscript">r</hi> p<hi rend="superscript">t</hi></abbr>
                         <expan>premier president</expan>
-                    </choice> en la chambre des <choice>
-                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                        <expan>com</expan>
-                    </choice>ptes et sa seur la <choice>
+                    </choice> en la <orgName ref="Q2948401">chambre des <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>ptes</orgName> et sa seur la <choice>
                         <abbr>presi.<hi rend="superscript">te</hi></abbr>
                         <expan>presidente</expan>
                     </choice>
