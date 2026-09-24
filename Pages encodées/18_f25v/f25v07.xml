@@ -19,6 +19,23 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/980,2506,2607,1027/full/0/default.jpg"
+            />
+        </surface>
+        <surface>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.ff324f8z/7f449c1761950954757226ff0c9d8f861683e15d/16,662,1876,3384/full/0/default.jpg"/>
+            <zone xml:id="f25v07_i_le_Roy" points="1110,35 1039,567 1636,670 1649,119"/>
+            <zone xml:id="f25v07_i_vn_office" points="565,570 552,829 1691,996 1687,674"/>
+            <zone xml:id="f25v07_i_esloigné" points="1052,845 975,1151 1678,1274 1691,1016"/>
+            <zone xml:id="f25v07_i_xx_mil_livres" points="265,1577 291,1925 1736,2000 1736,1606"/>
+            <zone xml:id="f25v07_i_por_moy_metamark"
+                points="1123,1848 1075,2203 1713,2232 1684,1961"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><del><choice>
@@ -27,7 +44,8 @@
                         </choice>t </del><choice>
                         <orig>i</orig>
                         <reg>J</reg>
-                    </choice>e ne tairay pas que le <roleName ref="Q53448">Roy</roleName><choice>
+                    </choice>e ne tairay pas que <seg facs="#f25v07_i_le_Roy">le <roleName
+                            ref="Q53448">Roy</roleName></seg><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> qui dez <subst>
@@ -42,10 +60,10 @@
                     </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit voulu doner <choice>
-                        <orig>v</orig>
-                        <reg>u</reg>
-                    </choice>n office de president <choice>
+                    </choice>oit voulu doner <seg facs="#f25v07_i_vn_office"><choice>
+                            <orig>v</orig>
+                            <reg>u</reg>
+                        </choice>n office</seg> de president <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
@@ -73,7 +91,7 @@
                             </choice>ours trou<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>é esloigné</add>
+                            </choice>é <seg facs="#f25v07_i_esloigné">esloigné</seg></add>
                     </subst><choice>
                         <orig/>
                         <reg>,</reg>
@@ -83,10 +101,12 @@
                     </choice>traignit de prendre au lieu de <subst>
                         <del>ce don</del>
                         <add>cela</add>
-                    </subst><choice>
-                        <orig>xx mil <hi rend="superscript"><g ref="#livre-glyph">Ł</g>s</hi></orig>
-                        <reg>vingt mille livres</reg>
-                    </choice> qu<choice>
+                    </subst>
+                    <seg facs="#f25v07_i_xx_mil_livres"><choice>
+                            <orig>xx mil <hi rend="superscript"><g ref="#livre-glyph"
+                                >Ł</g>s</hi></orig>
+                            <reg>vingt mille livres</reg>
+                        </choice></seg> qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il luy pleut <add>m<choice>
@@ -107,11 +127,11 @@
                         </choice>ant me dire que c<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>estoit <choice>
-                            <abbr>po<hi rend="superscript">r</hi></abbr>
-                            <expan>pour</expan>
-                        </choice> moy <del><unclear cert="high" reason="faded"
-                                    ><metamark>≠</metamark></unclear></del></add>
+                        </choice>estoit <seg facs="#f25v07_i_por_moy_metamark"><choice>
+                                <abbr>po<hi rend="superscript">r</hi></abbr>
+                                <expan>pour</expan>
+                            </choice> moy <del><unclear cert="high" reason="faded"
+                                        ><metamark>≠</metamark></unclear></del></seg></add>
                     <del rend="unmarked">me doner</del>.</s></ab>
         </body>
     </text>

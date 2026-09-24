@@ -22,8 +22,12 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/802,4096,2986,764/full/0/default.jpg "
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/802,4096,2986,764/full/0/default.jpg "/>
+            <zone xml:id="f24r11_i_metamark_01" points="260,500 195,595 310,600"/>
+            <zone xml:id="f24r11_i_retournames_vers" lry="480" lrx="855" uly="360" ulx="205"/>
+            <zone xml:id="f24r11_i_metamark_02" points="1170,635 1095,740 1245,740"/>
+            <zone xml:id="f24r11_i_nous_et" points="1115,520 1105,630 2810,590 2810,500"/>
+            <zone xml:id="f24r11_i_y" points="1575,600 1645,600 1565,755 1480,740"/>
         </surface>
     </facsimile>
     <text>
@@ -67,9 +71,9 @@
                         </choice>u<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ergne</placeName> puys <metamark function="insert"
-                        target="#f24rop10_retournames_vers">^</metamark><add
-                        xml:id="f24rop10_retournames_vers"> retournames vers</add> le <roleName
+                        </choice>ergne</placeName> puys <metamark facs="#f24r11_i_metamark_01" function="insert"
+                        target="#f24r11_retournames_vers">^</metamark><add facs="#f24r11_i_retournames_vers"
+                        xml:id="f24r11_retournames_vers"> retournames vers</add> le <roleName
                         ref="Q134309">Roy</roleName>
                     <choice>
                         <orig>a</orig>
@@ -104,13 +108,12 @@
                         <orig>u</orig>
                         <reg>ù</reg>
                     </choice>
-                    <metamark function="insert" target="#f24rop10_nous_et">^</metamark><add
-                        xml:id="f24rop10_nous_et"><metamark>^</metamark> nous luy menasme les <roleName>deput<choice>
+                    <metamark facs="#f24r11_i_metamark_02" function="insert" target="#f24r11_nous_et">^</metamark><add facs="#f24r11_i_nous_et"
+                        xml:id="f24r11_nous_et"><metamark>^</metamark> nous luy menasme les <roleName>deput<choice>
                                 <orig>e</orig>
                                 <reg>é</reg>
-                            </choice>s des princes</roleName> et </add> la paix <add
-                        xml:id="f24rop10_y">y</add><substJoin target="#f24rop10_nous_et #f24rop10_y"
-                    /> fut conclu<subst>
+                            </choice>s des princes</roleName> et </add> la paix <add facs="#f24r11_i_y"
+                        xml:id="f24r11_y">y</add><substJoin target="#f24r11_nous_et #f24r11_y"/> fut conclu<subst>
                         <del rend="overwritten">s</del>
                         <add place="superimposed">e</add>
                         <del>e</del>

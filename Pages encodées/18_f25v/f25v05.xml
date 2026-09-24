@@ -19,6 +19,14 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/1007,1685,2586,811/full/0/default.jpg"/>
+            <zone xml:id="f25v05_i_les" lry="482" lrx="757" uly="337" ulx="592"/>
+            <zone xml:id="f25v05_i_ce_faire" points="996,239 996,365 2418,291 2400,182"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><del><add><choice>
@@ -44,8 +52,9 @@
                         <del>les effectuer, en quoy sy <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
-                            </choice>e ne <del xml:id="f25vop6_les">les</del> rompois <add
-                                xml:id="f25vop6_ce_faire">ce qui ne me sembloit se de<choice>
+                            </choice>e ne <del facs="#f25v05_i_les" xml:id="f25v05_les">les</del>
+                            rompois <add facs="#f25v05_i_ce_faire" xml:id="f25v05_ce_faire">ce qui
+                                ne me sembloit se de<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>oir faire</add>, <del> pour</del> au moins essaiois<choice>
@@ -59,7 +68,7 @@
                                 <abbr>exec<hi rend="overlined">uon</hi></abbr>
                                 <expan>execution</expan>
                             </choice></add>
-                    </subst><substJoin target="#f25vop6_les #f25vop6_ce_faire"/><choice>
+                    </subst><substJoin target="#f25v05_les #f25v05_ce_faire"/><choice>
                         <orig/>
                         <reg>.</reg>
                     </choice></s>

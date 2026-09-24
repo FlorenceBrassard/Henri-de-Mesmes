@@ -19,10 +19,41 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f55/353,165,3490,2345/full/0/default.jpg"/>
+            <zone xml:id="f25r01_i_veint01" lry="246" lrx="745" uly="133" ulx="504"/>
+            <zone xml:id="f25r01_i_venant" lry="153" lrx="816" uly="73" ulx="555"/>
+            <zone xml:id="f25r01_i_et_passa" points="1018,111 1012,223 1341,229 1365,117"/>
+            <zone xml:id="f25r01_i_veint02" lry="116" lrx="1228" uly="63" ulx="1018"/>
+            <zone xml:id="f25r01_i_metamark_01" points="1383,145 1311,215 1423,220"/>
+            <zone xml:id="f25r01_i_en_maison" points="1358,91 1348,135 1878,135 1875,80"/>
+            <zone xml:id="f25r01_i_fut" points="1230,55 1220,126 1348,111 1351,51"/>
+            <zone xml:id="f25r01_i_un_demy" points="1368,41 1370,100 1948,98 1943,25"/>
+            <zone xml:id="f25r01_i_Le_estant"
+                points="16,57 3481,28 3458,605 551,578 645,2353 -7,2353"/>
+            <zone xml:id="f25r01_i_point" lry="707" lrx="1763" uly="657" ulx="1713"/>
+            <zone xml:id="f25r01_i_il" lry="706" lrx="2166" uly="573" ulx="2096"/>
+            <zone xml:id="f25r01_i_metamark_02" points="890,1113 826,1210 936,1203"/>
+            <zone xml:id="f25r01_i_eleu" lry="1176" lrx="1167" uly="1046" ulx="947"/>
+            <zone xml:id="f25r01_i_cogneu_de" points="850,940 3456,853 3466,1046 833,1086"/>
+        </surface>
+        <surface>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.e38d0o8w/b5f099044d046c0a07d7b227523f6fa406196f11/439,279,888,3629/full/0/default.jpg"/>
+            <zone xml:id="f25r01_i_Le" points="257,428 342,389 365,541 261,579"/>
+            <zone xml:id="f25r01_i_ie" lry="723" lrx="328" uly="607" ulx="240"/>
+            <zone xml:id="f25r01_i_conseil" points="230,738 236,889 448,758 421,629"/>
+            <zone xml:id="f25r01_i_Et" points="221,922 204,1064 312,999 307,904"/>
+            <zone xml:id="f25r01_i_de_la" points="174,1047 180,1192 355,1116 327,1007"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <ab><addSpan xml:id="f25rop1-5_Le_estant" spanTo="#f25rop1-5_estant"/><s>Le <roleName
-                        ref="Q53448">Roy</roleName> en l<choice>
+            <ab><addSpan facs="#f25r01_i_Le_estant" xml:id="f25r01_Le_estant"
+                    spanTo="#f25r01_estant"/><s><seg facs="#f25r01_i_Le">Le</seg>
+                    <roleName ref="Q53448">Roy</roleName> en l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice><choice>
@@ -31,8 +62,8 @@
                     </choice>
                     <date rend="overlined">1575</date>
                     <subst>
-                        <del xml:id="f25rop1-5_veint1">veint</del>
-                        <add>venant</add>
+                        <del facs="#f25r01_i_veint01" xml:id="f25r01_veint01">veint</del>
+                        <add facs="#f25r01_i_venant">venant</add>
                     </subst>
                     <choice>
                         <orig>a</orig>
@@ -40,16 +71,20 @@
                     </choice>
                     <placeName ref="Q90">Paris</placeName>
                     <subst>
-                        <del seq="1" xml:id="f25rop1-5_et_passa">et passa</del>
-                        <del seq="2" xml:id="f25rop1-5_veint2_del"><add seq="1"
-                                xml:id="f25rop1-5_veint2_add">veint</add></del>
-                        <add seq="2" xml:id="f25rop1-5_fut">fut</add>
-                    </subst><del xml:id="f25rop1-5_metamark"><metamark function="insertion"
-                            target="#f25rop1-5_en_maison_add">^</metamark></del><subst
-                        xml:id="f25rop1_5_en_demy">
-                        <del xml:id="f25rop1-5_en_maison_del"><add xml:id="f25rop1-5_en_maison_add"
-                                >en ma maison</add></del>
-                        <add><choice>
+                        <del seq="1" facs="#f25r01_i_et_passa" xml:id="f25r01_et_passa">et
+                            passa</del>
+                        <del seq="2" facs="#f25r01_i_veint02" xml:id="f25r01_veint02_del"><add
+                                seq="1" facs="#f25r01_i_veint02" xml:id="f25r01_veint02_add"
+                                >veint</add></del>
+                        <add seq="2" facs="#f25r01_i_fut_demy" xml:id="f25r01_fut">fut</add>
+                    </subst><del facs="#f25r01_i_metamark_01" xml:id="f25r01_metamark_01_del"
+                            ><metamark facs="#f25r01_i_metamark_01" function="insertion"
+                            xml:id="f25r01_metamark_01" target="#f25r01_en_maison_add"
+                        >^</metamark></del><subst>
+                        <del facs="#f25r01_i_en_maison" xml:id="f25r01_en_maison_del"><add
+                                facs="#f25r01_i_en_maison" xml:id="f25r01_en_maison_add">en ma
+                                maison</add></del>
+                        <add facs="#f25r01_i_un_demy" xml:id="f25r01_un_demy"><choice>
                                 <orig>v</orig>
                                 <reg>u</reg>
                             </choice>n <choice>
@@ -57,11 +92,10 @@
                                 <reg>j</reg>
                             </choice>our et demy</add>
                     </subst>
-                    <substJoin target="#f25rop1-5_metamark #f25rop1-5_en_maison_del"/>
-                    <substJoin seq="2"
-                        target="#f25rop1-5_veint1 #f25rop1-5_et_passa #f25rop1-5_veint2_add"/>
+                    <substJoin seq="1" target="#f25r01_metamark_01 #f25r01_en_maison_add"/>
+                    <substJoin seq="2" target="#f25r01_veint01 #f25r01_et_passa #f25r01_veint02_add"/>
                     <substJoin seq="3"
-                        target="#f25rop1-5_veint2_del #f25rop1-5_fut #f25rop1-5_metamark #f25rop1_5_en_demy"/>
+                        target="#f25r01_veint02_del #f25r01_fut #f25r01_metamark_01_del #f25rop1_5_en_maison_del #f25r01_un_demy"/>
                     <restore resp="AVFB"><del><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
@@ -81,10 +115,10 @@
                     </choice> ses <choice>
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
-                    </choice> disant <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e viens vous querir <choice>
+                    </choice> disant <seg facs="#f25r01_i_ie"><choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e</seg> viens vous querir <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>us<choice>
@@ -102,7 +136,8 @@
                     </choice>uys me commanda de ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ir en son conseil <subst>
+                    </choice>ir en son <seg facs="#f25r01_i_conseil">conseil</seg>
+                    <subst>
                         <del>matin et apres disner</del>
                         <add>ainsy que <choice>
                                 <orig>i</orig>
@@ -135,7 +170,8 @@
                     </choice> il me bailla l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>une des principales charges de la direction de ce nou<choice>
+                    </choice>une des principales charges <seg facs="#f25r01_i_de_la">de la</seg>
+                    direction de ce nou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>eau <choice>
@@ -195,7 +231,7 @@
                     </choice> ce que le <roleName ref="Q53448">Roy</roleName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> estant<anchor xml:id="f25rop1-5_estant"/>
+                    </choice> estant<anchor xml:id="f25r01_estant"/>
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -213,22 +249,21 @@
                         </choice>asques <hi rend="overlined">15<subst>
                                 <del rend="overwritten">6</del>
                                 <add place="superimposed">8</add>
-                            </subst>1</hi></date><del rend="unmarked" xml:id="f25rop1-5_point"
-                        >.</del><choice>
+                            </subst>1</hi></date><del facs="#f25r01_i_point" rend="unmarked"
+                        xml:id="f25r01_point">.</del><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice><del xml:id="f25rop1-5_Le_il"><subst>
-                            <del>
-                                <choice>
-                                    <orig>l</orig>
-                                    <reg>L</reg>
-                                </choice>e <roleName ref="Q53448">Roy</roleName></del>
-                            <add><choice>
+                    </choice><subst>
+                        <del>
+                            <choice>
+                                <orig>l</orig>
+                                <reg>L</reg>
+                            </choice>e <roleName ref="Q53448">Roy</roleName></del>
+                        <add><del facs="#f25r01_i_il" xml:id="f25r01_il_del"><choice>
                                     <orig>i</orig>
                                     <reg>I</reg>
-                                </choice>l</add>
-                        </subst></del><substJoin
-                        target="#f25rop1-5_Le_estant #f25rop1-5_Le_il #f25rop1-5_point "/> m<choice>
+                                </choice>l</del></add>
+                    </subst><substJoin target="#f25r01_Le_estant #f25r01_il_del #f25r01_point "/> m<choice>
                         <orig> </orig>
                         <reg>'</reg>
                     </choice>appela en son cabinet et me dit qu<choice>
@@ -243,10 +278,11 @@
                     </choice>ez <choice>
                         <abbr>afe<hi rend="superscript">r</hi>s</abbr>
                         <expan>afaires</expan>
-                    </choice>, aiant <del xml:id="f25rop1-5_eleu">eleu</del><metamark
-                        function="insertion" target="#f25rop1-5_cogneu_de">^</metamark>
-                    <add xml:id="f25rop1-5_cogneu_de"><metamark>^</metamark> cogneu de longue main
-                        mon affection <choice>
+                    </choice>, aiant <del facs="#f25r01_i_eleu" xml:id="f25r01_eleu"
+                        >eleu</del><metamark facs="#f25r01_i_metamark_02" function="insertion"
+                        target="#f25r01_cogneu_de">^</metamark>
+                    <add facs="#f25r01_i_cogneu_de" xml:id="f25r01_cogneu_de"><metamark>^</metamark>
+                        cogneu de longue main mon affection <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice><add>suy<choice>
@@ -261,8 +297,8 @@
                         </choice>ec preu<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>e de</add><substJoin target="#f25rop1-5_eleu #f25rop1-5_cogneu_de"
-                    /> ma fidelité et quelques autres <choice>
+                        </choice>e de</add><substJoin target="#f25r01_eleu #f25r01_cogneu_de"/> ma
+                    fidelité et quelques autres <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>ties qu<choice>

@@ -19,6 +19,16 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f55/828,3691,2969,637/full/0/default.jpg"/>
+            <zone xml:id="f25r08_i_ce_de" lry="235" lrx="2865" uly="20" ulx="1877"/>
+            <zone xml:id="f25r08_i_quels" lry="572" lrx="240" uly="393" ulx="23"/>
+            <zone xml:id="f25r08_i_s" lry="435" lrx="922" uly="348" ulx="867"/>
+            <zone xml:id="f25r08_i_on_icy" lry="315" lrx="1547" uly="197" ulx="1020"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><choice>
@@ -40,18 +50,18 @@
                         <del>regarde</del>
                         <add>escoute</add>
                     </subst>
-                    <subst xml:id="f25rop12_ce_quels">
-                        <del>ce que <choice>
+                    <subst>
+                        <del facs="#f25r08_i_ce_de" xml:id="f25r08_ce_de">ce que <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e re<choice>
                                 <orig>c</orig>
                                 <reg>ç</reg>
                             </choice>oy icy de</del>
-                        <add>quels</add>
-                    </subst> commandement<add xml:id="f25rop12_s">s</add>
+                        <add facs="#f25r08_i_quels" xml:id="f25r08_quels">quels</add>
+                    </subst> commandement<add facs="#f25r08_i_s" xml:id="f25r08_s">s</add>
                     <del>et ceste sy</del>
-                    <add xml:id="f25rop12_on_icy"><del>on</del>
+                    <add facs="#f25r08_i_on_icy" xml:id="f25r08_on_icy"><del instant="true">on</del>
                         <choice>
                             <orig>i</orig>
                             <reg>j</reg>
@@ -59,8 +69,8 @@
                             <orig>c</orig>
                             <reg>ç</reg>
                         </choice>oy icy</add>
-                    <substJoin target="#f25rop12_ce_de #f25rop12_quels #f25rop12_s #f25rop12_on_icy"
-                    /> de vous, et quels peu<choice>
+                    <substJoin target="#f25r08_ce_de #f25r08_quels #f25r08_s #f25r08_on_icy"/> de
+                    vous, et quels peu<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ent estre les sub<choice>

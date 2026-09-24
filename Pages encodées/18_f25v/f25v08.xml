@@ -19,6 +19,18 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/1033,3155,2547,493/full/0/default.jpg"
+            />
+        </surface>
+        <surface>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.ff324f8z/7f449c1761950954757226ff0c9d8f861683e15d/236,2725,1562,531/full/0/default.jpg"/>
+            <zone xml:id="f25v08_i_part" lry="495" lrx="1505" uly="95" ulx="1086"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><choice>
@@ -30,7 +42,7 @@
                     </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ois part en sa bone grace, et quelque fa<choice>
+                    </choice>ois <seg facs="#f25v08_i_part">part</seg> en sa bone grace, et quelque fa<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>eur interieure. </s></ab>

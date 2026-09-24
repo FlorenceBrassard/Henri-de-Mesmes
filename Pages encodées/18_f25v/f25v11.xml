@@ -19,6 +19,24 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/1058,3762,2527,714/full/0/default.jpg"/>
+            <zone xml:id="f25v11_i_metamark_01" points="2322,118 2252,213 2413,205"/>
+            <zone xml:id="f25v11_i_mon_filz" lry="113" lrx="2521" uly="11" ulx="2169"/>
+            <zone xml:id="f25v11_i_metamark_02" points="365,409 317,509 421,500"/>
+            <zone xml:id="f25v11_i_lors_aussy" points="234,313 230,431 656,366 665,253"/>
+            <zone xml:id="f25v11_i_metamark_03" points="1626,309 1561,413 1678,413"/>
+            <zone xml:id="f25v11_i_de_prest" lry="309" lrx="1947" uly="200" ulx="1552"/>
+        </surface>
+        <surface>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.2c75pl74/e0c9fe5ba8d68add151559d2c232567b554e3b11/0,2028,837,913/full/0/default.jpg"/>
+            <zone xml:id="f25v11_i_tenes" points="583,259 500,421 752,583 797,388"/>
+            <zone xml:id="f25v11_i_reste" points="372,494 291,701 666,880 737,654"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><del><choice>
@@ -30,21 +48,24 @@
                     </choice>office de conseiller en <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
-                    </choice>lement que vous <metamark function="insert" target="#f25vop12_mon_filz"
-                        >^</metamark><choice>
+                    </choice>lement que vous <metamark facs="#f25v11_i_metamark_01"
+                        function="insert" target="#f25v11_mon_filz">^</metamark><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice><add xml:id="f25vop12_mon_filz"><metamark>^</metamark>mon <roleName
-                            ref="Q94908007">filz</roleName></add><choice>
+                    </choice><add facs="#f25v11_i_mon_filz" xml:id="f25v11_mon_filz"
+                            ><metamark>^</metamark>mon <roleName ref="Q94908007"
+                        >filz</roleName></add><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> tene<choice>
-                        <orig>s</orig>
-                        <reg>z</reg>
-                    </choice> me fut <metamark function="insert" target="#f25vop13_lors"
-                        >^</metamark><add xml:id="f25vop13_lors_aussy"><metamark>^</metamark>lors
-                                <del><unclear cert="high" reason="cancelled"
-                        >au</unclear>ssy</del></add> baillé <choice>
+                    </choice>
+                    <seg facs="#f25v11_i_tenes">tene<choice>
+                            <orig>s</orig>
+                            <reg>z</reg>
+                        </choice></seg> me fut <metamark facs="#f25v11_i_metamark_02"
+                        function="insert" target="#f25v11_lors_aussy">^</metamark><add
+                        facs="#f25v11_i_lors_aussy" xml:id="f25v11_lors_aussy"
+                            ><metamark>^</metamark>lors <del><unclear cert="high" reason="cancelled"
+                                >au</unclear>ssy</del></add> baillé <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>
                     </choice>
@@ -52,9 +73,10 @@
                         <orig>ij mil V<hi rend="superscript">c</hi>
                             <g ref="#livre-glyph">Ł</g></orig>
                         <reg>deux mille cinq cents livres</reg>
-                    </choice><metamark function="insert" target="#f25vop13_de_prest"
-                        >^</metamark><add xml:id="f25vop13_de_prest"><metamark>^</metamark> de
-                        prest</add> au don du reste<choice>
+                    </choice><metamark facs="#f25v11_i_metamark_03" function="insert"
+                        target="#f25v11_de_prest">^</metamark><add facs="#f25v11_i_de_prest"
+                        xml:id="f25v11_de_prest"><metamark>^</metamark> de prest</add> au don du
+                        <seg facs="#f25v11_i_reste">reste</seg><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> puys on m<choice>

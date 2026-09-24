@@ -26,9 +26,10 @@
             />
         </surface>
         <surface>
-            <graphic url=""/>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.00066783/772cfb5dd085e76541f03711d1debe89ec688f34/624,2719,1651,444/full/0/default.jpg"/>
+            <zone xml:id="f24v07_i_que_ie" lry="422" lrx="1519" uly="50" ulx="894"/>
         </surface>
-        <!--    Nakala-->
     </facsimile>
     <text>
         <body>
@@ -38,10 +39,10 @@
                     </choice>l est vray qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>on vouloit que <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e feisse plus de miracles que les saincts.</s></p>
+                    </choice>on vouloit <seg facs="#f24v07_i_que_ie">que <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e</seg> feisse plus de miracles que les saincts.</s></p>
         </body>
     </text>
 </TEI>

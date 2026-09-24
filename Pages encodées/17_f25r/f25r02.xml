@@ -19,6 +19,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f55/971,1299,2868,1024/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s>Je luy demanday sy ce n<choice>
@@ -53,7 +60,7 @@
                         <expan>ser<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                        </choice>ices</expan>
+                            </choice>ices</expan>
                     </choice> assidus et <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>

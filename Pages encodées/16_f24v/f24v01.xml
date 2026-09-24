@@ -22,8 +22,10 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/912,656,2681,620/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/912,656,2681,620/full/0/default.jpg"/>
+            <zone xml:id="f24r01_i_quil" points="885,255 855,398 1105,363 1095,213"/>
+            <zone xml:id="f24r01_i_que_rien" points="895,170 887,303 1175,243 1170,138"/>
+            <zone xml:id="f24r01_i_plus" lry="268" lrx="1803" uly="133" ulx="1507"/>
         </surface>
     </facsimile>
     <text>
@@ -37,14 +39,15 @@
                     </choice> ou guerre <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> son chois sens <subst xml:id="f24vop1_quil_rien">
-                        <del>qu<choice>
+                    </choice> son chois sens <subst>
+                        <del facs="#f24r01_i_quil" xml:id="f24v01_quil">qu<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>il</del>
-                        <add>que rien</add>
-                    </subst> dependist <add xml:id="f24vop1_plus">plus</add>
-                    <substJoin target="#f24vop1_quil_rien #f24vop1_plus"/> que de sa seule volonté, c<choice>
+                        <add facs="#f24r01_i_que_rien" xml:id="f24v01_que_rien">que rien</add>
+                    </subst> dependist <add facs="#f24r01_i_plus" xml:id="f24v01_plus">plus</add>
+                    <substJoin target="#f24v01_quil #f24v01_que_rien #f24v01_plus"/> que de sa seule
+                    volonté, c<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>est <choice>

@@ -22,13 +22,13 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/2844,3490,782,185/full/0/default.jpg"
-            />
+                url="https://api.nakala.fr/iiif/10.34847/nkl.00066783/772cfb5dd085e76541f03711d1debe89ec688f34/178,3044,1985,441/full/0/default.jpg"/>
+            <zone xml:id="f24v08_i_metamark_01" lry="177" lrx="1907" uly="43" ulx="1697"/>
         </surface>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/239,3743,955,1976/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/239,3743,955,1976/full/0/default.jpg"/>
+            <zone xml:id="f24v08_i_et_lors" points="45,40 825,20 935,1935 60,1965"/>
         </surface>
     </facsimile>
     <text>
@@ -46,8 +46,9 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <metamark function="insert" target="#f24vop9-10_et_lors">°-</metamark>
-                    <addSpan spanTo="#f24vop9-10_lors" xml:id="f24vop9-10_et_lors"
+                    <metamark facs="#f24v08_i_metamark_01" function="insert"
+                        target="#f24v08_et_lors">°-</metamark>
+                    <addSpan facs="#f24v08_i_et_lors" spanTo="#f24v08_lors" xml:id="f24v08_et_lors"
                         /><metamark>°-</metamark> et <del>ad</del> ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -120,7 +121,7 @@
                         <orig/>
                         <reg>,</reg>
                     </choice> car il se deffaisoit de ceulx qui les tenoient lors<anchor
-                        xml:id="f24vop9-10_lors"/>.</s></p>
+                        xml:id="f24v08_lors"/>.</s></p>
         </body>
     </text>
 </TEI>

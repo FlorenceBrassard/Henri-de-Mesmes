@@ -26,9 +26,13 @@
             />
         </surface>
         <surface>
-            <graphic url=""/>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.00066783/772cfb5dd085e76541f03711d1debe89ec688f34/748,9,1424,1837/full/0/default.jpg"/>
+            <zone xml:id="f24v05_i_sincerement" points="833,42 592,369 1388,630 1390,357"/>
+            <zone xml:id="f24v05_i_la_france" points="1009,464 895,692 1402,1066 1404,664"/>
+            <zone xml:id="f24v05_i_dont" points="800,790 700,1000 1366,1247 1397,1057"/>
+            <zone xml:id="f24v05_i_tousiours_gré" points="14,926 0,1266 1381,1535 1385,1254"/>
         </surface>
-        <!--    Nakala-->
     </facsimile>
     <text>
         <body>
@@ -44,7 +48,7 @@
                     </choice>urer y a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir procedé sincerement et dire que <subst>
+                    </choice>oir procedé <seg facs="#f24v05_i_sincerement">sincerement</seg> et dire que <subst>
                         <del><choice>
                                 <orig>i</orig>
                                 <reg>j'</reg>
@@ -62,10 +66,10 @@
                     </choice>t <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> ceste fois la <placeName ref="Q142"><choice>
+                    </choice> ceste fois <seg facs="#f24v05_i_la_france">la <placeName ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
-                        </choice>rance</placeName> d<choice>
+                        </choice>rance</placeName></seg> d<choice>
                         <orig> </orig>
                         <reg>'</reg>
                     </choice>une tr<choice>
@@ -83,16 +87,16 @@
                     </choice>perilleuse guerre<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> dont <choice>
+                    </choice> <seg facs="#f24v05_i_dont">dont</seg> <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>espere que les gens de bien me s<choice>
                         <orig>c</orig>
                         <reg>ç</reg>
-                    </choice>auront tous<choice>
+                    </choice>auront <seg facs="#f24v05_i_tousiours_gré">tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ours gré.</s></p>
+                    </choice>ours gré.</seg></s></p>
         </body>
     </text>
 </TEI>

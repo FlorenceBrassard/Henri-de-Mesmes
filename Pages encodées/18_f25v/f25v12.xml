@@ -19,6 +19,18 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/1056,4081,2520,543/full/0/default.jpg"/>
+            <zone xml:id="f25v12_i_metamark_01" lry="269" lrx="2244" uly="171" ulx="2137"/>
+        </surface>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/211,3115,1124,2832/full/0/default.jpg"/>
+            <zone xml:id="f25v12_i_vous_crainte" points="20,0 765,10 1060,2800 0,2815"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><subst>
@@ -45,9 +57,9 @@
                     </choice> en a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir rente. </s><metamark function="insert"
-                    target="#f25vo_14-18_vous_crainte">#</metamark><add
-                    xml:id="f25vo_14-18_vous_crainte"><metamark>#</metamark><s><choice>
+                    </choice>oir rente. </s><metamark facs="#f25v12_i_metamark_01" function="insert"
+                    target="#f25v12_vous_crainte">#</metamark><add facs="#f25v12_i_vous_crainte"
+                    xml:id="f25v12_vous_crainte"><metamark>#</metamark><s><choice>
                             <orig>v</orig>
                             <reg>V</reg>
                         </choice>ous croire<choice>

@@ -19,12 +19,23 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/1026,3345,2562,503/full/0/default.jpg"/>
+            <surface>
+                <graphic
+                    url="https://api.nakala.fr/iiif/10.34847/nkl.fa80o1ub/8d636cd2b1796aca3bc99dcb45ea96dd90c4c32b/842,1260,1425,961/full/0/default.jpg"/>
+                <zone xml:id="f25v09_i_chcun" points="766,150 814,645 1323,890 1326,242"/>
+            </surface>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
-                    </choice>t <del><choice>
+                    </choice>t <del facs="#f25v09_i_chcun"><choice>
                             <orig>ch<unclear cert="medium" reason="cancelled">cun</unclear></orig>
                             <reg>chacun</reg>
                         </choice></del> plusieurs metoient poine de m'a<choice>

@@ -22,18 +22,26 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/982,2795,2636,845/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/982,2795,2636,845/full/0/default.jpg"/>
+            <zone xml:id="f24v06_i_metamark_01" points="1050,553 959,644 1100,644"/>
+            <zone xml:id="f24v06_i_qui_et" points="973,459 932,554 2614,486 2605,395"/>
+            <zone xml:id="f24v06_i_et_fut" points="1073,531 1073,627 1482,604 1477,513"/>
         </surface>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/256,3276,818,531/full/0/default.jpg "
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/256,3276,818,531/full/0/default.jpg "/>
+            <zone xml:id="f24v06_i_desclara_cestoit" points="45,1 801,6 746,479 40,515"/>
         </surface>
         <surface>
-            <graphic url=""/>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.00066783/772cfb5dd085e76541f03711d1debe89ec688f34/950,1352,1331,1374/full/0/default.jpg"/>
+            <zone xml:id="f24v06_i_me" points="957,231 933,420 1137,468 1164,275"/>
+            <zone xml:id="f24v06_i_afers_de" points="529,421 1180,428 1195,839 457,717"/>
+            <zone xml:id="f24v06_i_du_forcé" points="835,733 784,971 1180,1102 1217,877"/>
+            <zone xml:id="f24v06_i_le_Roy" points="926,975 926,1177 1182,1268 1215,1071"/>
+            <zone xml:id="f24v06_i_metamark_02" lry="1215" lrx="1191" uly="1125" ulx="1103"/>
+            <zone xml:id="f24v06_i_retenir" points="658,1121 633,1301 1147,1353 1158,1230"/>
         </surface>
-        <!--    Nakala-->
     </facsimile>
     <text>
         <body>
@@ -52,7 +60,7 @@
                         </choice>oust <hi rend="overlined">1572</hi></date><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> le <roleName ref="Q134309">Roy</roleName> me forsa de prendre la
+                    </choice> le <roleName ref="Q134309">Roy</roleName> <seg facs="#f24v06_i_me">me</seg> forsa de prendre la
                     charge du <roleName ref="Q936976">Roy <nameLink>de</nameLink>
                         <placeName ref="Q111628725"><choice>
                                 <abbr>N<hi rend="superscript">re</hi></abbr>
@@ -60,10 +68,10 @@
                                         <orig>u</orig>
                                         <reg>v</reg>
                                     </choice>arre</expan>
-                            </choice></placeName></roleName> et de ses <choice>
+                            </choice></placeName></roleName> et de ses <seg facs="#f24v06_i_afers_de"><choice>
                         <abbr>afe<hi rend="superscript">r</hi>s</abbr>
                         <expan>afaires</expan>
-                    </choice> et de la <roleName ref="Q220845">Reyne <nameLink>de</nameLink>
+                    </choice> et de</seg> la <roleName ref="Q220845">Reyne <nameLink>de</nameLink>
                         <placeName ref="Q111628725">Na<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -73,7 +81,7 @@
                     </choice> ainsy que le contient le <choice>
                         <abbr><g ref="#bre-glyph">ƀ</g></abbr>
                         <expan>bre</expan>
-                    </choice>vet du forcé <choice>
+                    </choice>vet <seg facs="#f24v06_i_du_forcé">du forcé</seg> <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g>mand<hi rend="superscript">t</hi></abbr>
                         <expan>commandement</expan>
                     </choice> qu<choice>
@@ -86,17 +94,18 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <metamark function="insert" target="#f24vop6-7_qui_Roy">^</metamark><add
-                        xml:id="f24vop6-7_qui_Roy"><metamark>^</metamark>qui <choice>
+                    <metamark facs="#f24v06_i_metamark_01" function="insert"
+                        target="#f24v06_qui_Roy">^</metamark><add
+                        facs="#f24v06_i_qui_et #f24v06_i_le_Roy" xml:id="f24v06_qui_Roy"
+                            ><metamark>^</metamark>qui <choice>
                             <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                             <expan>con</expan>
                         </choice>tient mes longs refus et <choice>
                             <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                             <expan>con</expan>
-                        </choice>testations et le <roleName ref="Q134309">Roy</roleName><metamark
-                            function="insert" target="#f24vop6-7_desclara_cestoit"
-                        >=</metamark></add>
-                    <addSpan spanTo="#f24vop6-7_cestoit" xml:id="f24vop6-7_desclara_cestoit"
+                        </choice>testations et <seg facs="#f24v06_i_le_Roy">le <roleName ref="Q134309">Roy</roleName></seg><metamark facs="#f24v06_i_metamark_02"
+                            function="insert" target="#f24v06_desclara_cestoit">=</metamark></add>
+                    <addSpan facs="#f24v06_i_desclara_cestoit" spanTo="#f24v06_cestoit" xml:id="f24v06_desclara_cestoit"
                         /><metamark>=</metamark>desclara qu<choice>
                         <orig/>
                         <reg>'</reg>
@@ -110,13 +119,13 @@
                     </choice>t que c<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>estoit <anchor xml:id="f24vop6-7_cestoit"/><del
-                        xml:id="f24vop6-7_et_fut">et ce fut</del>
-                    <substJoin cert="medium" target="#f24vop6-7_desclara_cestoit #f24vop6-7_et_fut"/>
+                    </choice>estoit <anchor xml:id="f24v06_cestoit"/><del facs="#f24v06_i_et_fut" xml:id="f24v06_et_fut">et
+                        ce fut</del>
+                    <substJoin cert="medium" target="#f24v06_desclara_cestoit #f24v06_et_fut"/>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>
-                    </choice> metre poine de les retenir tous<choice>
+                    </choice> metre poine de les <seg facs="#f24v06_i_retenir">retenir</seg> tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ours en son obeissance.</s></p>

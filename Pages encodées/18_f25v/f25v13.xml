@@ -19,6 +19,31 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/842,4188,2766,1045/full/0/default.jpg "/>
+            <zone xml:id="f25v13_i_metamark_01" points="215,524 177,629 296,610"/>
+            <zone xml:id="f25v13_i_Or" points="334,400 277,505 443,486 448,391"/>
+            <zone xml:id="f25v13_i_de_que" points="2520,410 2520,505 2724,481 2710,395"/>
+            <zone xml:id="f25v13_i_metamark_02" points="200,810 134,929 267,929"/>
+            <zone xml:id="f25v13_i_s" points="2634,495 2596,591 2681,553"/>
+            <zone xml:id="f25v13_i_entremise" points="181,724 143,838 791,753 753,667 753,662"/>
+            <zone xml:id="f25v13_i_et_que" points="253,781 248,895 581,848 577,753"/>
+            <zone xml:id="f25v13_i_vouloient_estre" lry="748" lrx="2453" uly="662" ulx="1743"/>
+            <zone xml:id="f25v13_i_nestoient_pas" lry="686" lrx="2500" uly="572" ulx="1821"/>
+            <zone xml:id="f25v13_i_maniez" points="2453,643 2462,738 2720,719 2715,624"/>
+            <zone xml:id="f25v13_i_auec" lry="1053" lrx="486" uly="972" ulx="253"/>
+            <zone xml:id="f25v13_i_plus_de" points="758,900 724,1033 1153,1005 1148,872"/>
+            <zone xml:id="f25v13_i_le" points="1077,795 1067,915 1220,900 1229,786"/>
+            <zone xml:id="f25v13_i_plus_respect" points="2205,795 2215,915 724,1024 748,881"/>
+            <zone xml:id="f25v13_i_quil_desiré" points="2091,748 2077,895 2734,805 2739,715"/>
+            <zone xml:id="f25v13_i_naloient_desiroit" points="286,876 281,1010 1086,905 1100,781"/>
+        </surface>
+        <surface>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><del><choice>
@@ -27,8 +52,9 @@
                         </choice>oila</del>
                     <subst>
                         <del rend="unmarked"><add>Mais</add></del>
-                        <add xml:id="f25vop19_Or"><metamark>^</metamark>Or</add>
-                    </subst><metamark function="insert" target="#f25vop19_Or">^</metamark><choice>
+                        <add facs="#f25v13_i_Or" xml:id="f25v13_Or"><metamark>^</metamark>Or</add>
+                    </subst><metamark facs="#f25v13_i_metamark_01" function="insert"
+                        target="#f25v13_Or">^</metamark><choice>
                         <orig>L</orig>
                         <reg>l</reg>
                     </choice>e <date when="1582-01-17">17<hi rend="superscript">e</hi>
@@ -57,18 +83,19 @@
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>con</expan>
                     </choice>tantement <subst>
+                        <!--                                Zone pour la substitution à ajouter dans la photo de la marge-->
                         <del>de<add seq="2">s</add> mo<subst>
                                 <del rend="overwritten">y</del>
-                                <add place="superimposed" seq="1" xml:id="f25vop19_n">n</add>
+                                <add place="superimposed" seq="1" xml:id="f25v13_n">n</add>
                             </subst>
-                            <add seq="1" xml:id="f25vop19_entremise"><metamark>^</metamark>
-                                entremise</add></del>
-                        <add seq="3" xml:id="f25vop19_de_que">de ce que</add>
-                    </subst><substJoin target="#f25vop19_n #f25vop19_entremise"/>
-                    <del rend="unmarked" xml:id="f25vop19_metamark"><metamark function="insert"
-                            target="#f25vop19_entremise">^</metamark></del><del
-                        xml:id="f25vop19_et_que">et que</del><substJoin
-                        target="#f25vop19_de_que #f25vop19_et_que #f25vop19_metamark"/> ses <subst>
+                            <add seq="1" facs="#f25v13_i_entremise" xml:id="f25v13_entremise"
+                                    ><metamark>^</metamark> entremise</add></del>
+                        <add seq="3" facs="#f25v13_i_de_que" xml:id="f25v13_de_que">de ce que</add>
+                    </subst><substJoin target="#f25v13_n #f25v13_entremise"/>
+                    <del facs="#f25v13_i_metamark_02" rend="unmarked" xml:id="f25v13_metamark_02"
+                            ><metamark function="insert" target="#f25v13_entremise"
+                        >^</metamark></del><del xml:id="f25v13_et_que">et que</del><substJoin
+                        target="#f25v13_de_que #f25v13_et_que #f25v13_metamark_02"/> ses <subst>
                         <del>secrets</del>
                         <add>pri<choice>
                                 <orig>ue</orig>
@@ -82,35 +109,42 @@
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>con</expan>
                         </choice>seils</del>
-                    <del xml:id="f25vop19_vouloient_estre">vouloient estre</del>
-                    <del xml:id="f25vop19_nestoient_maniez"><add xml:id="f25vop19_nestoient_pas_add">n<choice>
+                    <del facs="#f25v13_i_vouloient_estre" xml:id="f25v13_vouloient_estre">vouloient
+                        estre</del>
+                    <del facs="#f25v13_i_nestoient_pas #f25v13_i_maniez"
+                        xml:id="f25v13_nestoient_maniez"><add facs="#f25v13_i_nestoient_pas"
+                            xml:id="f25v13_nestoient_pas_add">n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>estoient pas</add> maniez</del>
-                    <del rend="unmarked" xml:id="f25vop19_auec">a<choice>
+                    <del facs="#f25v13_i_auec" rend="unmarked" xml:id="f25v13_auec">a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ec </del>
-                    <del>autre</del>
-                    <del xml:id="f25vop19_le_respect"><subst xml:id="f25vop19_plus_le">
-                            <del>plus de</del>
-                            <add>le</add>
-                        </subst> secret et de respect</del><add xml:id="f25vop19_quil_desiré_add"
-                            ><del xml:id="f25vop19_quil_desiré_del">qu<subst>
+                    <del instant="true">autre</del>
+                    <del facs="#f25v13_i_plus_respect" xml:id="f25v13_le_respect"><subst>
+                            <del facs="#f25v13_i_plus_de">plus de</del>
+                            <!--                            Ajouter @instant pour “add” de “le” ? Ce qui expliquerait que “de respect” ≠ modifié ; puis
+                        la rature continue de “plus_respect”-->
+                            <add facs="#f25v13_i_le">le</add>
+                        </subst> secret et de respect</del><add facs="#f25v13_i_quil_desiré"
+                        xml:id="f25v13_quil_desiré_add"><del facs="#f25v13_i_quil_desiré"
+                            xml:id="f25v13_quil_desiré_del">qu<subst>
                                 <del/>
                                 <add>'</add>
                             </subst>il a<subst>
                                 <del>u</del>
                                 <add>v</add>
-                            </subst>oit desiré</del><del rend="unmarked" xml:id="f25vop19_point"
+                                <!--                                Zone pour le point à ajouter dans la photo de la marge-->
+                            </subst>oit desiré</del><del rend="unmarked" xml:id="f25v13_point"
                             >.</del></add>
                     <substJoin seq="1"
-                        target=" #f25vop19_vouloient_estre #f25vop19_nestoient_pas_add #f25vop19_plus_le #f25vop19_quil_desiré_add"/>
-                    <add xml:id="f25vop19_naloit_desiroit">n<choice>
+                        target=" #f25v13_vouloient_estre #f25v13_nestoient_pas_add #f25v13_plus_le #f25v13_quil_desiré_add"/>
+                    <add facs="#f25v13_i_naloient_desiroit" xml:id="f25v13_naloit_desiroit">n<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>aloient come il desiroit</add><substJoin seq="2"
-                        target="#f25vop19_nestoient_maniez #f25vop19_auec #f25vop19_naloit_desiroit #f25vop19_le_respect #f25vop19_quil_desiré_del #f25vop19_point"
+                        target="#f25v13_nestoient_maniez #f25v13_auec #f25v13_naloit_desiroit #f25v13_le_respect #f25v13_quil_desiré_del #f25v13_point"
                     />.</s></ab>
         </body>
     </text>

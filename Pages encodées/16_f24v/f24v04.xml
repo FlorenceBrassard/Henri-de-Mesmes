@@ -18,7 +18,8 @@
                 <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>, <facsimile>
+    </teiHeader>
+    <facsimile>
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/942,1721,2659,604/full/0/default.jpg "

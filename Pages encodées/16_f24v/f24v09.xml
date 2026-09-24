@@ -22,8 +22,10 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/1046,3663,2628,1710/full/0/default.jpg "
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/1046,3663,2628,1710/full/0/default.jpg "/>
+            <zone xml:id="f24v09_i_teins" points="932,73 927,159 1214,132 1200,59"/>
+            <zone xml:id="f24v09_i_sorty" points="914,14 909,100 1141,87 1141,18"/>
+            <zone xml:id="f24v09_i_que_synon" lry="187" lrx="2123" uly="14" ulx="1545"/>
         </surface>
     </facsimile>
     <text>
@@ -31,14 +33,16 @@
             <p><s>Pour le moins <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e ne <subst xml:id="f24vop11-12_teins_sorty">
-                        <del>te<unclear cert="medium" reason="illegible">in</unclear>s</del>
-                        <add>sorty</add>
+                    </choice>e ne <subst>
+                        <del facs="#f24v09_i_teins" xml:id="f24v09_teins">te<unclear cert="medium"
+                                reason="illegible">in</unclear>s</del>
+                        <add facs="#f24v09_i_sorty" xml:id="f24v09_sorty">sorty</add>
                     </subst><choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>amais <del xml:id="f24vop11-12_que_synon">que synon</del>
-                    <substJoin target="#f24vop11-12_teins_sorty #f24vop11-12_que_synon"/> des <choice>
+                    </choice>amais <del facs="#f24v09_i_que_synon" xml:id="f24v09_que_synon">que
+                        synon</del>
+                    <substJoin target="#f24v09_teins #f24v09_sorty #f24v09_que_synon"/> des <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g>mand.<hi rend="superscript">ts</hi></abbr>
                         <expan>commandements</expan>
                     </choice> du <roleName ref="Q134309">Roy</roleName>

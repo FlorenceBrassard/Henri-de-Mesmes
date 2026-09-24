@@ -22,8 +22,9 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/1035,5173,2640,676/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f54/1035,5173,2640,676/full/0/default.jpg"/>
+            <zone xml:id="f24v10_i_metamark_01" points="2452,297 2395,377 2485,377"/>
+            <zone xml:id="f24v10_i_apparent" points="2442,227 2427,312 2600,270 2600,200"/>
         </surface>
     </facsimile>
     <text>
@@ -59,10 +60,10 @@
                     <add seq="1">ores que ce fust</add> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec <metamark function="insert" target="#f24vop13_apparent"
-                        >^</metamark><add seq="2" xml:id="f24vop13_apparent"><metamark>^</metamark>
-                        apparent</add> regret du <roleName ref="Q936976">Roy</roleName> et de la
-                        <roleName ref="Q220845"><choice>
+                    </choice>ec <metamark facs="#f24v10_i_metamark_01" function="insert"
+                        target="#f24v10_apparent">^</metamark><add facs="#f24v10_i_apparent" seq="2"
+                        xml:id="f24v10_apparent"><metamark>^</metamark> apparent</add> regret du
+                        <roleName ref="Q936976">Roy</roleName> et de la <roleName ref="Q220845"><choice>
                             <abbr>R<hi rend="superscript">e</hi></abbr>
                             <expan><choice>
                                     <orig>R</orig>

@@ -19,18 +19,32 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/917,3532,2660,506/full/0/default.jpg"
+            />
+        </surface>
+        <surface>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.fa80o1ub/8d636cd2b1796aca3bc99dcb45ea96dd90c4c32b/0,2026,2264,1660/full/0/default.jpg"/>
+            <zone xml:id="f25v10_i_mesme" lry="873" lrx="2235" uly="289" ulx="1480"/>
+            <zone xml:id="f25v10_i_de_Re" lry="1469" lrx="2215" uly="857" ulx="1246"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
-            <ab><s><choice>
-                        <orig>m</orig>
-                        <reg>M</reg>
-                    </choice>esme on voulut que <choice>
+            <ab><s><seg facs="#f25v10_i_mesme"><choice>
+                            <orig>m</orig>
+                            <reg>M</reg>
+                        </choice>esme</seg> on voulut que <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
-                    </choice>eusse <del>la</del> charge de la maison de la <roleName><choice>
-                            <abbr>R<hi rend="superscript">e</hi></abbr>
-                            <expan>Reyne</expan>
-                        </choice></roleName><choice>
+                    </choice>eusse <del>la</del> charge de la maison <seg facs="#f25v10_i_de_Re">de
+                        la <roleName><choice>
+                                <abbr>R<hi rend="superscript">e</hi></abbr>
+                                <expan>Reyne</expan>
+                            </choice></roleName></seg><choice>
                         <orig>.</orig>
                         <reg>, </reg>
                     </choice></s><add><s><choice>

@@ -19,16 +19,25 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/884,1554,2668,519/full/0/default.jpg"/>
+            <zone xml:id="f25v04_i_metamark_01" points="700,186 645,300 750,286"/>
+            <zone xml:id="f25v04_i_sens_mentir" points="1141,59 1150,141 595,209 595,109"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><add>Or</add>
                     <choice>
                         <orig>J</orig>
                         <reg>j</reg>
-                    </choice>e puys dire <metamark function="insert" target="#f25vop5_sens_mentir"
-                        >^</metamark><add xml:id="f25vop5_sens_mentir"><metamark>^</metamark>sens
-                        mentir</add> que les conseils <del><add>des volontez</add></del> et les
-                    volontez se prenoient sens moy.</s></ab>
+                    </choice>e puys dire <metamark facs="#f25v04_i_metamark_01" function="insert"
+                        target="#f25v04_sens_mentir">^</metamark><add facs="#f25v04_i_sens_mentir"
+                        xml:id="f25v04_sens_mentir"><metamark>^</metamark>sens mentir</add> que les
+                    conseils <del><add>des volontez</add></del> et les volontez se prenoient sens
+                    moy.</s></ab>
         </body>
     </text>
 </TEI>

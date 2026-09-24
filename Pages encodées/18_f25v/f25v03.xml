@@ -19,6 +19,17 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f56/176,1113,3399,799/full/0/default.jpg"/>
+            <zone xml:id="f25v03_i_metamark_01" lry="440" lrx="2280" uly="303" ulx="2116"/>
+            <zone xml:id="f25v03_i_s_t" points="801,531 781,601 835,587 835,528"/>
+            <zone xml:id="f25v03_i_srs_Joy" points="46,606 20,696 366,660 376,660 363,600"/>
+            <zone xml:id="f25v03_i_d" points="727,512 790,525 752,622 712,600"/>
+            <zone xml:id="f25v03_i_en_ducs" points="3,350 16,780 853,677 833,327"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><choice>
@@ -55,19 +66,20 @@
                         <orig>,</orig>
                         <reg>.</reg>
                     </choice><del><metamark function="insert">#</metamark><add
-                            xml:id="f25vop4_en_ducs">en <date when="1581">ceste année</date> le
-                                <roleName ref="Q53448">Roy</roleName> feit les mariages <add
-                                xml:id="f25vop4_d">d</add>e<subst xml:id="f25vop4_t_s">
+                            facs="#f25v03_i_en_ducs" xml:id="f25v03_en_ducs">en <date when="1581"
+                                >ceste année</date> le <roleName ref="Q53448">Roy</roleName> feit
+                            les mariages <add facs="#f25v03_i_d" xml:id="f25v03_d">d</add>e<subst
+                                facs="#f25v03_i_s_t" xml:id="f25v03_t_s">
                                 <del rend="overwritten">t</del>
                                 <add place="superimposed">s</add>
-                            </subst><del><add xml:id="f25vop4_srs_Joy"><choice>
+                            </subst><del><add facs="#f25v03_i_srs_Joy" xml:id="f25v03_srs_Joy"><choice>
                                         <abbr>s<hi rend="superscript">rs</hi></abbr>
                                         <expan>seigneurs</expan>
                                     </choice>
                                     <persName ref="Q565927"><nameLink>de</nameLink>
                                         <surname>Joy</surname></persName>
                                 </add></del><substJoin
-                                target="#f25vop4_d #f25vop3_t_s #f25vop4_srs_Joy"/> les <unclear
+                                target="#f25v03_d #f25v03_t_s #f25v03_srs_Joy"/> les <unclear
                                 cert="high" reason="illegible">e</unclear>rections <choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
