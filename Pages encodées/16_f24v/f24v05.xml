@@ -48,7 +48,8 @@
                     </choice>urer y a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir procedé <seg facs="#f24v05_i_sincerement">sincerement</seg> et dire que <subst>
+                    </choice>oir procedé <seg facs="#f24v05_i_sincerement">sincerement</seg> et dire
+                    que <subst>
                         <del><choice>
                                 <orig>i</orig>
                                 <reg>j'</reg>
@@ -67,9 +68,9 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> ceste fois <seg facs="#f24v05_i_la_france">la <placeName ref="Q142"><choice>
-                            <orig>f</orig>
-                            <reg>F</reg>
-                        </choice>rance</placeName></seg> d<choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>rance</placeName></seg> d<choice>
                         <orig> </orig>
                         <reg>'</reg>
                     </choice>une tr<choice>
@@ -87,16 +88,18 @@
                     </choice>perilleuse guerre<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> <seg facs="#f24v05_i_dont">dont</seg> <choice>
+                    </choice>
+                    <seg facs="#f24v05_i_dont">dont</seg>
+                    <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>espere que les gens de bien me s<choice>
                         <orig>c</orig>
                         <reg>ç</reg>
                     </choice>auront <seg facs="#f24v05_i_tousiours_gré">tous<choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>ours gré.</seg></s></p>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>ours gré.</seg></s></ab>
         </body>
     </text>
 </TEI>

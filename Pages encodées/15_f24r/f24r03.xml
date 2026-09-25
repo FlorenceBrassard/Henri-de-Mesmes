@@ -32,8 +32,9 @@
     </facsimile>
     <text>
         <body>
-            <ab><s>Aiant porté en terre le corps de mon pere et rendu les <metamark facs="#f24r03_i_metamark_01" function="insert"
-                        target="#f24r03_derniers">^</metamark><add facs="#f24r03_i_derniers" xml:id="f24r03_derniers"
+            <ab><s>Aiant porté en terre le corps de mon pere et rendu les <metamark
+                        facs="#f24r03_i_metamark_01" function="insert" target="#f24r03_derniers"
+                        >^</metamark><add facs="#f24r03_i_derniers" xml:id="f24r03_derniers"
                         >derniers</add> offices que mon de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -96,7 +97,9 @@
                         <reg>v</reg>
                     </choice>aliers et grands seigneurs, et <subst>
                         <del>aussy</del>
-                        <add><del facs="#f24r03_i_peu_aupauant_01" xml:id="f24r03_puys_aupauant">puys peu de <choice>
+                        <del facs="#f24r03_puys"><add>puys</add></del>
+                        <add facs="#f24r03_i_peu_aupauant_01"><del facs="#f24r03_i_peu_aupauant_01"
+                                xml:id="f24r03_peu_aupauant_del">peu de <choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>ours au<choice>
@@ -112,7 +115,8 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>a grand</del>
-                        <add facs="#f24r03_i_peu_aupauant_02" xml:id="f24r03_peu_aupauant">peu de <choice>
+                        <add facs="#f24r03_i_peu_aupauant_02" xml:id="f24r03_peu_aupauant_add">peu
+                            de <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>ours au<choice>
@@ -122,7 +126,7 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ant</add>
-                    </subst><substJoin target="#f24r03_puys_aupauant #f24r03_peu_aupauant"/>
+                    </subst><substJoin target="#f24r03_peu_aupauant_del #f24r03_peu_aupauant_add"/>
                     <choice>
                         <orig>p</orig>
                         <reg>. P</reg>
