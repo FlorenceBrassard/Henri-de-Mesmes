@@ -37,9 +37,10 @@
             <ab><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
-                    </choice>ais <metamark facs="#f23v01_i_metamark01" function="insert" target="#f23v01_come_douleurs"
-                        >+</metamark>
-                    <add facs="#f23v01_i_come_douleurs" xml:id="f23v01_come_douleurs"><metamark>+</metamark> come <choice>
+                    </choice>ais <metamark facs="#f23v01_i_metamark01" function="insert"
+                        target="#f23v01_come_douleurs">+</metamark>
+                    <add facs="#f23v01_i_come_douleurs" xml:id="f23v01_come_douleurs"
+                            ><metamark>+</metamark> come <choice>
                             <orig>d</orig>
                             <reg>D</reg>
                         </choice>ieu entremesle les honeurs et les douleurs</add><choice>
@@ -62,14 +63,16 @@
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ec</add> la <subst>
-                                    <del facs="#f23v01_i_cour" xml:id="f23v01_cour">cour</del>
-                                    <add facs="#f23v01_i_Re_mere" xml:id="f23v01_Re_mere"><roleName ref="Q131552"><choice>
+                                <del facs="#f23v01_i_cour" xml:id="f23v01_cour">cour</del>
+                                <add facs="#f23v01_i_Re_mere" xml:id="f23v01_Re_mere"><roleName
+                                        ref="Q131552"><choice>
                                             <abbr>R<hi rend="superscript">e</hi></abbr>
                                             <expan>Reine</expan>
                                         </choice> mere</roleName></add>
                             </subst></add>
                     </subst>
-                    <substJoin target="#f23v01_auec #f23v01_cour #f23v01_Re_mere"/> au <placeName ref="Q638089"><choice>
+                    <substJoin target="#f23v01_auec #f23v01_cour #f23v01_Re_mere"/> au <placeName
+                        ref="Q638089"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>lessis lez <choice>
@@ -125,13 +128,13 @@
                         </choice>aris</placeName> pour les <choice>
                         <abbr>afe<hi rend="superscript">r</hi>s</abbr>
                         <expan>afaires</expan>
-                    </choice> du <choice>
-                        <abbr>R<hi rend="superscript">me</hi></abbr>
-                        <expan><choice>
-                                <orig>R</orig>
-                                <reg>r</reg>
-                            </choice>oyaume</expan>
-                    </choice>. </s></ab>
+                    </choice> du <placeName ref="Q142"><choice>
+                            <abbr>R<hi rend="superscript">me</hi></abbr>
+                            <expan><choice>
+                                    <orig>R</orig>
+                                    <reg>r</reg>
+                                </choice>oyaume</expan>
+                        </choice></placeName>.</s></ab>
         </body>
     </text>
 </TEI>

@@ -49,22 +49,23 @@
                                 <orig>c</orig>
                                 <reg>ç</reg>
                             </choice>oys</forename><genName><choice>
-                            <abbr>p<hi rend="superscript">r</hi></abbr>
-                            <expan>premier</expan>
-                        </choice></genName></persName> lassé de feu
-                        <persName><surname>Rusé</surname></persName>
-                    <metamark facs="#f23v09_i_metamark01" target="#f23v09_son">^</metamark><add facs="#f23v09_i_son"
-                        xml:id="f23v09_son">son</add> ad<choice>
+                                <abbr>p<hi rend="superscript">r</hi></abbr>
+                                <expan>premier</expan>
+                            </choice></genName></persName> lassé de feu
+                            <persName><surname>Rusé</surname></persName>
+                    <metamark facs="#f23v09_i_metamark01" target="#f23v09_son">^</metamark><add
+                        facs="#f23v09_i_son" xml:id="f23v09_son">son</add> ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ocat <del facs="#f23v09_i_du_Roy" xml:id="f23v09_du_Roy">du <roleName ref="Q129857"
-                            >Roy</roleName></del><substJoin target="#f23v09_son #f23v09_du_Roy"/> au <choice>
-                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
-                        <expan>par</expan>
-                    </choice>lement de <placeName ref="Q90"><choice>
-                            <orig>p</orig>
-                            <reg>P</reg>
-                        </choice>aris</placeName><choice>
+                    </choice>ocat <del facs="#f23v09_i_du_Roy" xml:id="f23v09_du_Roy">du <roleName
+                            ref="Q129857">Roy</roleName></del><substJoin
+                        target="#f23v09_son #f23v09_du_Roy"/> au <orgName ref="Q1242473"><choice>
+                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                            <expan>par</expan>
+                        </choice>lement de <placeName ref="Q90"><choice>
+                                <orig>p</orig>
+                                <reg>P</reg>
+                            </choice>aris</placeName></orgName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> il manda mon <roleName ref="Q107207194">pere</roleName>

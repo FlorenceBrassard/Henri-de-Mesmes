@@ -107,9 +107,9 @@
                     </subst> apris en son escole <metamark facs="#f23r03_i_metamark03"
                         function="insert" target="#f23r03_apres_pere">^</metamark><add
                         facs="#f23r03_i_apres_pere" xml:id="f23r03_apres_pere"
-                            ><metamark>^</metamark>apres celle de mon pere</add> qu'en
-                        <del>autre</del> autre <del>de et <unclear cert="low" reason="illegible"
-                            >t</unclear></del> o<choice>
+                            ><metamark>^</metamark>apres celle de <roleName ref="Q107207194">mon
+                            pere</roleName></add> qu'en <del>autre</del> autre <del>de et <unclear
+                            cert="low" reason="illegible">t</unclear></del> o<choice>
                         <orig>u i</orig>
                         <reg>ù j'</reg>
                     </choice>aie esté de mes <choice>

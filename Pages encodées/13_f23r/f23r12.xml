@@ -46,7 +46,7 @@
                             </choice>ondé</surname></persName> qui a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit grosse armée en <placeName><choice>
+                    </choice>oit grosse armée en <placeName ref="Q1190"><choice>
                             <orig>l</orig>
                             <reg>L</reg>
                         </choice>imosin</placeName>
@@ -74,7 +74,7 @@
                             <abbr>8<hi rend="superscript">bre</hi></abbr>
                             <expan>octobre</expan>
                         </choice> 1568</date>.</s>
-                <s> Je fus<anchor xml:id="f23r12_fus"/><subst>
+                <s>Je fus<anchor xml:id="f23r12_fus"/><subst>
                         <del>puys</del>
                         <add><del>et</del> quelques mois apres</add>
                     </subst> despeché pour <choice>
@@ -104,8 +104,8 @@
                             <orig/>
                             <reg>'</reg>
                         </choice></persName>
-                    <persName ref="Q2898877"><roleName>evesque</roleName> de
-                            <placeName>Renes</placeName>
+                    <persName ref="Q2898877"><roleName>evesque</roleName> de <placeName ref="Q647"
+                            >Renes</placeName>
                         <surname><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>

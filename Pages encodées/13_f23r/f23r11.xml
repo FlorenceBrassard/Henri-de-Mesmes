@@ -21,7 +21,9 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/724,4373,3084,754/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/724,4373,3084,754/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
@@ -45,13 +47,13 @@
                     </choice><roleName ref="Q150862">em<choice>
                             <abbr><g ref="par-glyph">ꝑ</g></abbr>
                             <expan>per</expan>
-                        </choice>eur</roleName> et les <roleName>princes d<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice><placeName><choice>
-                                <orig>a</orig>
-                                <reg>A</reg>
-                            </choice>lemaigne</placeName></roleName>, <add>o<choice>
+                        </choice>eur</roleName> et les princes d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice><placeName ref="Q183"><choice>
+                            <orig>a</orig>
+                            <reg>A</reg>
+                        </choice>lemaigne</placeName>, <add>o<choice>
                             <orig>u</orig>
                             <reg>ù</reg>
                         </choice> il faloit <choice>

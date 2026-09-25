@@ -60,7 +60,7 @@
                     </choice> genous de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ant mon <roleName ref="Q107207194">pere</roleName> en son estude <said
+                    </choice>ant <roleName ref="Q107207194">mon pere</roleName> en son estude <said
                         direct="false">l<choice>
                             <orig/>
                             <reg>'</reg>
@@ -114,8 +114,7 @@
                         </choice> satisfaction.<choice>
                             <orig/>
                             <reg> »</reg>
-                        </choice></said>
-                </s></ab>
+                        </choice></said></s></ab>
         </body>
     </text>
 </TEI>

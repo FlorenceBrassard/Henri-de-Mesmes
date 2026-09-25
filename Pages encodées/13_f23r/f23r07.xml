@@ -56,7 +56,8 @@
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName>
-                    <placeName>rue de Jouy</placeName>, accompaignée du <persName ref="Q712264"><roleName><choice>
+                    <placeName ref="Q3450774">rue de Jouy</placeName>, accompaignée du <persName
+                        ref="Q712264"><roleName><choice>
                                 <abbr>Card<hi rend="superscript">al</hi></abbr>
                                 <expan><choice>
                                         <orig>C</orig>

@@ -32,10 +32,10 @@
     </facsimile>
     <text>
         <body>
-            <ab><s>Aiant porté en terre le corps de mon pere et rendu les <metamark
-                        facs="#f24r03_i_metamark_01" function="insert" target="#f24r03_derniers"
-                        >^</metamark><add facs="#f24r03_i_derniers" xml:id="f24r03_derniers"
-                        >derniers</add> offices que mon de<choice>
+            <ab><s>Aiant porté en terre le corps de <roleName ref="Q107207194">mon pere</roleName>
+                    et rendu les <metamark facs="#f24r03_i_metamark_01" function="insert"
+                        target="#f24r03_derniers">^</metamark><add facs="#f24r03_i_derniers"
+                        xml:id="f24r03_derniers">derniers</add> offices que mon de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir et ma religion et pieté me commandoient<choice>
@@ -72,10 +72,10 @@
                                         <reg>v</reg>
                                     </choice>iller</surname></persName> et <persName ref="Q2379398"
                                     ><nameLink>de</nameLink>
-                                <surname><choice>
+                                <placeName ref="Q45656"><choice>
                                         <orig>l</orig>
                                         <reg>L</reg>
-                                    </choice>imoges</surname></persName>. <choice>
+                                    </choice>imoges</placeName></persName>. <choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
                             </choice>t</del>

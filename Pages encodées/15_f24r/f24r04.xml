@@ -20,7 +20,9 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/820,2491,2930,515/full/0/default.jpg "/>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/820,2491,2930,515/full/0/default.jpg "
+        />
     </facsimile>
     <text>
         <body>
@@ -48,8 +50,8 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <persName ref="Q2379398"><surname>Limoges</surname></persName> et <persName
-                        ref="Q921075"><surname>Birague</surname></persName>.</s></ab>
+                    <persName ref="Q2379398"><placeName ref="Q45656">Limoges</placeName></persName>
+                    et <persName ref="Q921075"><surname>Birague</surname></persName>.</s></ab>
         </body>
     </text>
 </TEI>
