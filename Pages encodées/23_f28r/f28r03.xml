@@ -31,7 +31,7 @@
                     <choice>
                         <abbr rend="overlined">vre</abbr>
                         <expan>vostre</expan>
-                    </choice> reception au <orgName><choice>
+                    </choice> reception au <orgName ref="Q1242473"><choice>
                             <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                             <expan>par</expan>
                         </choice>lement</orgName> en l<choice>
@@ -82,14 +82,14 @@
                         </choice>olu</date> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                        </choice>ec <roleName><choice>
-                        <orig>v</orig>
-                        <reg>u</reg>
-                    </choice>ne damo<subst>
-                        <del rend="overwritten">i</del>
-                        <add place="superimposed">y</add>
-                    </subst>selle d'honeur</roleName>, de bon lieu, et de force et santé <del>pour</del> autant
-                    que l<choice>
+                    </choice>ec <roleName><choice>
+                            <orig>v</orig>
+                            <reg>u</reg>
+                        </choice>ne damo<subst>
+                            <del rend="overwritten">i</del>
+                            <add place="superimposed">y</add>
+                        </subst>selle d'honeur</roleName>, de bon lieu, et de force et santé
+                        <del>pour</del> autant que l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>eussions sceu desirer.</s></ab>

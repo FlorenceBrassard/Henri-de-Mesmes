@@ -27,11 +27,11 @@
                </choice>a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>ec le <roleName ref="https://isni.org/isni/0000000123197721">Roy</roleName>
+               </choice>ec le <roleName ref="Q53448">Roy</roleName>
                <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>e pris congé de la <roleName ref="https://isni.org/isni/0000000108941786"><choice>
+               </choice>e pris congé de la <roleName ref="Q225411"><choice>
                      <abbr>R<hi rend="superscript">e</hi></abbr>
                      <expan>Reine</expan>
                   </choice></roleName>, <metamark function="insert" target="#f26vop11_sa_femme"
@@ -43,7 +43,7 @@
                   target="#f26vop11_i_e #f26vop11_me_semb"/><choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>e laissay come il me sembla, asses triste. </s></ab>
+               </choice>e laissay come il me sembla, asses triste.</s></ab>
       </body>
    </text>
 </TEI>

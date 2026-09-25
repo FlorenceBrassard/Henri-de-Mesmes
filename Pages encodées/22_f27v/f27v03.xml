@@ -104,7 +104,10 @@
                     </choice>ant que celuy qui disoit<choice>
                         <orig> </orig>
                         <reg> : « </reg>
-                    </choice>Tu ne scauroies <choice>
+                    </choice>Tu ne s<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                    </choice>auroies <choice>
                         <abbr>fe<hi rend="superscript">r</hi></abbr>
                         <expan>faire</expan>
                     </choice><choice>

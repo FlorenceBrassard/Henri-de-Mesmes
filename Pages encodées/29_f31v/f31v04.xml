@@ -36,7 +36,7 @@
                     </subst> d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>un sy grand prince aporte a<choice>
+                    </choice><roleName ref="Q53448">un sy grand prince</roleName> aporte a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec soy et de fa<choice>

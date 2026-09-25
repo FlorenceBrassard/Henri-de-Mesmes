@@ -71,10 +71,10 @@
                         </choice>u<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ergne</placeName> puys <metamark facs="#f24r11_i_metamark_01" function="insert"
-                        target="#f24r11_retournames_vers">^</metamark><add facs="#f24r11_i_retournames_vers"
-                        xml:id="f24r11_retournames_vers"> retournames vers</add> le <roleName
-                        ref="Q134309">Roy</roleName>
+                        </choice>ergne</placeName> puys <metamark facs="#f24r11_i_metamark_01"
+                        function="insert" target="#f24r11_retournames_vers">^</metamark><add
+                        facs="#f24r11_i_retournames_vers" xml:id="f24r11_retournames_vers">
+                        retournames vers</add> le <roleName ref="Q134309">Roy</roleName>
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -108,16 +108,18 @@
                         <orig>u</orig>
                         <reg>ù</reg>
                     </choice>
-                    <metamark facs="#f24r11_i_metamark_02" function="insert" target="#f24r11_nous_et">^</metamark><add facs="#f24r11_i_nous_et"
+                    <metamark facs="#f24r11_i_metamark_02" function="insert"
+                        target="#f24r11_nous_et">^</metamark><add facs="#f24r11_i_nous_et"
                         xml:id="f24r11_nous_et"><metamark>^</metamark> nous luy menasme les <roleName>deput<choice>
                                 <orig>e</orig>
                                 <reg>é</reg>
-                            </choice>s des princes</roleName> et </add> la paix <add facs="#f24r11_i_y"
-                        xml:id="f24r11_y">y</add><substJoin target="#f24r11_nous_et #f24r11_y"/> fut conclu<subst>
+                            </choice>s des princes</roleName> et </add> la paix <add
+                        facs="#f24r11_i_y" xml:id="f24r11_y">y</add><substJoin
+                        target="#f24r11_nous_et #f24r11_y"/> fut conclu<subst>
                         <del rend="overwritten">s</del>
                         <add place="superimposed">e</add>
                         <del>e</del>
-                    </subst> et selée. </s></ab>
+                    </subst> et selée.</s></ab>
         </body>
     </text>
 </TEI>

@@ -34,14 +34,14 @@
                         <del rend="overwritten"><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
-                            </choice><add place="superimposed">en</add></del>
-                    </subst>
-                    <date when="1582-09">septembre</date>
+                            </choice></del>
+                        <add place="superimposed">e</add>
+                    </subst>n <date when="1582-09">septembre</date>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi>
                             <hi rend="overlined">vre</hi></abbr>
                         <expan>pour vostre</expan>
-                    </choice> quartier. <choice>
+                    </choice> quartier.<choice>
                         <orig/>
                         <reg> »</reg>
                     </choice></s></ab>

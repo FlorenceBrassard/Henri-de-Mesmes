@@ -41,7 +41,7 @@
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>eusse <del>la</del> charge de la maison <seg facs="#f25v10_i_de_Re">de
-                        la <roleName><choice>
+                        la <roleName ref="Q225411"><choice>
                                 <abbr>R<hi rend="superscript">e</hi></abbr>
                                 <expan>Reyne</expan>
                             </choice></roleName></seg><choice>

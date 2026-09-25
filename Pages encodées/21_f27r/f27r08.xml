@@ -33,13 +33,17 @@
                     </choice>oia le <persName ref="Q136140572"><roleName>procureur <choice>
                                 <abbr rend="overlined">gral</abbr>
                                 <expan>general</expan>
-                            </choice></roleName><surname> <choice>
+                            </choice></roleName><surname>
+                            <choice>
                                 <orig>l</orig>
                                 <reg>L</reg>
                             </choice>a <choice>
                                 <orig>g</orig>
                                 <reg>G</reg>
-                            </choice>uesle</surname>, <genName>pere</genName></persName>, pour sca<choice>
+                            </choice>uesle</surname></persName>, pere, pour s<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                    </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir sy <choice>

@@ -64,7 +64,7 @@
                                 </choice>ois</add></del>
                         <add seq="2" xml:id="f31vop2_sentois">sentois</add>
                     </subst><substJoin target="#f31vop2_sentois_trouuois #f31vop2_trouuois #f31vop2_sentois"/> mon
-                    esprit fondé contre touts les assaults de la fortune. </s></ab>
+                    esprit fondé contre touts les assaults de la fortune.</s></ab>
         </body>
     </text>
 </TEI>

@@ -39,7 +39,8 @@
                     </choice> ny che<choice>
                         <orig>s</orig>
                         <reg>z</reg>
-                    </choice> ma femme.</s></ab>
+                    </choice>
+                    <persName ref="Q225411">ma femme</persName>.</s></ab>
         </body>
     </text>
 </TEI>

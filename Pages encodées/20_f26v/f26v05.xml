@@ -39,7 +39,7 @@
                     </choice>ec elle <del>les apresdisnées</del> bien longuement presens <choice>
                         <abbr>m<hi rend="superscript">r</hi></abbr>
                         <expan>Monsieur</expan>
-                    </choice> le <persName><roleName>conte</roleName>
+                    </choice> le <persName ref="Q109485316"><roleName>conte</roleName>
                         <nameLink>de</nameLink>
                         <surname><choice>
                                 <orig>f</orig>
@@ -48,7 +48,7 @@
                         <abbr>m<hi rend="superscript">e</hi></abbr>
                         <expan>Madame</expan>
                     </choice>
-                    <persName><surname><choice>
+                    <persName ref="Q45112221"><surname><choice>
                                 <orig>d</orig>
                                 <reg>D</reg>
                             </choice>ampierre</surname></persName> o<choice>
@@ -83,7 +83,7 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>une de ses dames</del>
-                       <add><del>e<gap quantity="1" unit="char"/></del> au <choice>
+                        <add><del>e<gap quantity="1" unit="char"/></del> au <choice>
                                 <abbr>ch<hi rend="overlined">apre</hi></abbr>
                                 <expan>chapitre</expan>
                             </choice> de ses dames <choice>
@@ -96,7 +96,8 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>icelles</add>
-                    </subst>. </s><del rend="faded"><add><foreign xml:lang="la">parturient</foreign></add></del></ab>
+                    </subst>. </s><del rend="faded"><add><foreign xml:lang="la"
+                        >parturient</foreign></add></del></ab>
         </body>
     </text>
 </TEI>

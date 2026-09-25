@@ -41,7 +41,7 @@
                     </choice>ornement <add xml:id="f32rop2_et_auantage">et d'a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>antage</add>. <substJoin seq="1"
+                        </choice>antage</add>.<substJoin seq="1"
                         target=" #f32rop2_apostrophe_e #f32rop2_honeur_charge"/><substJoin seq="2"
                         target="#f32rop2_charge #f32rop2_d_apostrophe_e #f32rop2_et #f32rop2_et_auantage"
                     /></s></ab>

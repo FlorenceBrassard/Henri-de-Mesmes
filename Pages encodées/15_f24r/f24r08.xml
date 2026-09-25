@@ -20,7 +20,9 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/823,3398,2904,553/full/0/default.jpg"/>
+        <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/823,3398,2904,553/full/0/default.jpg"
+        />
     </facsimile>
     <text>
         <body>
@@ -37,15 +39,17 @@
                     </choice>il a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit faict vers les princes <persName ref="Q121678672"><nameLink>de</nameLink>
-                        <surname><choice>
+                    </choice>oit faict vers les princes <persName ref="Q121678672"
+                            ><nameLink>de</nameLink>
+                        <placeName ref="Q63021609"><choice>
                                 <abbr>N<hi rend="superscript">re</hi></abbr>
                                 <expan>Navarre</expan>
-                        </choice></surname></persName> et <persName ref="Q316913"><nameLink>de</nameLink>
-                                <surname>Condé</surname></persName> et l<choice>
-                                    <orig/>
-                                    <reg>'</reg>
-                                </choice><roleName ref="Q204975">amiral</roleName>.</s></ab>
+                            </choice></placeName></persName> et <persName ref="Q316913"
+                            ><nameLink>de</nameLink>
+                        <surname>Condé</surname></persName> et l<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice><roleName ref="Q204975">amiral</roleName>.</s></ab>
         </body>
     </text>
 </TEI>

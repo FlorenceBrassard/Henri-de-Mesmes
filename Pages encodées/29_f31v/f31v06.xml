@@ -39,7 +39,7 @@
                     </choice><add xml:id="f31vop7_cest_grand"> c<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>est la grand<del>e</del> crainte. </add>
+                        </choice>est la grand<del>e</del> crainte.</add>
                     <substJoin target="#f31vop7_la_la #f31vop7_cest_grand"/></s></ab>
         </body>
     </text>

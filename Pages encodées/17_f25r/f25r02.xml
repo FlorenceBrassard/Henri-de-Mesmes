@@ -34,10 +34,10 @@
                     </choice>estoit pas asses de le ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ir en son conseil d<choice>
-                        <orig>e</orig>
-                        <reg>'E</reg>
-                    </choice>stat et aux charges <choice>
+                    </choice>ir en son <orgName>conseil d<choice>
+                            <orig>e</orig>
+                            <reg>'E</reg>
+                        </choice>stat</orgName> et aux charges <choice>
                         <abbr>ord<hi rend="superscript">res</hi></abbr>
                         <expan>ordinaires</expan>
                     </choice> qu<choice>

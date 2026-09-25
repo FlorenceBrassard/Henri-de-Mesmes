@@ -21,7 +21,8 @@
     </teiHeader>
     <text>
         <body>
-            <ab><del seq="1"><s>Je ne diray pas icy tout ce qui me semble de ce prince.</s><s><choice>
+            <ab><del seq="1"><s>Je ne diray pas icy tout ce qui me semble de ce <roleName
+                            ref="Q53448">prince</roleName>.</s><s><choice>
                             <orig>c</orig>
                             <reg>C'</reg>
                         </choice>est besoigne de plus longue alene.</s><s><choice>
@@ -112,7 +113,7 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>il sembla <add>me</add> vouloir laisser croire que la <roleName
-                                ref=" http://isni.org/isni/0000000120957473"><choice>
+                                ref="Q131552"><choice>
                                     <abbr>R<hi rend="superscript">e</hi></abbr>
                                     <expan>Reine</expan>
                                 </choice></roleName> sa mere <del rend="unmarked">l</del><del>a<choice>
@@ -149,8 +150,7 @@
                             </choice>e dy soudain<choice>
                                 <orig>, c</orig>
                                 <reg>: « C'</reg>
-                            </choice>est donc la <roleName
-                                ref=" http://isni.org/isni/0000000120957473"><choice>
+                            </choice>est donc la <roleName ref="Q131552"><choice>
                                     <abbr>R<hi rend="superscript">e</hi></abbr>
                                     <expan>Reine</expan>
                                 </choice></roleName>
@@ -317,8 +317,7 @@
                     </choice>en tout cela il ne peut a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir rien du mien.</s>
-            </ab>
+                    </choice>oir rien du mien.</s></ab>
         </body>
     </text>
 </TEI>
