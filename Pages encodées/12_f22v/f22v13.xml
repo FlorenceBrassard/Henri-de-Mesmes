@@ -32,13 +32,13 @@
             <ab><s><choice>
                         <orig>i</orig>
                         <reg>J'</reg>
-                    </choice>estois <roleName><choice>
-                            <abbr>m<hi rend="superscript">e</hi></abbr>
-                            <expan>maistre</expan>
-                        </choice> des <choice>
-                            <abbr>Req<hi rend="superscript">tes</hi></abbr>
-                            <expan>Requestes</expan>
-                        </choice></roleName> et mon de<choice>
+                    </choice>estois <choice>
+                        <abbr>m<hi rend="superscript">e</hi></abbr>
+                        <expan>maistre</expan>
+                    </choice> des <choice>
+                        <abbr>Req<hi rend="superscript">tes</hi></abbr>
+                        <expan>Requestes</expan>
+                    </choice> et mon de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir <subst>

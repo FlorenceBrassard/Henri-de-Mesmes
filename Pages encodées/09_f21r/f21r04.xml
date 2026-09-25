@@ -57,7 +57,7 @@
                </choice><substJoin target="#f21r04_y #f21r04_e #f21r04_a_Rome"/> successeur de <choice>
                   <abbr>m<hi rend="superscript">r</hi></abbr>
                   <expan>monsieur</expan>
-               </choice><persName ref="https://isni.org/isni/0000000061748267"
+               </choice><persName ref="Q3349161"
                      ><nameLink>de</nameLink>
                   <surname>Sel<choice>
                         <orig>u</orig>
@@ -71,14 +71,14 @@
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice></add><substJoin target="#f21r04_qui_estoit #f21r04_la"/><subst>
-                  <del>du <roleName ref="https://isni.org/isni/0000000395001884"
+                     <del>du <roleName ref="Q132545"
                      >Roy</roleName></del>
                   <add>
                      <subst>
                         <add>qui</add>
                         <del>et</del>
                      </subst> retournoit vers le <roleName
-                        ref="https://isni.org/isni/0000000395001884">Roy</roleName></add>
+                        ref="Q132545">Roy</roleName></add>
                </subst><choice>
                   <orig><del>.</del></orig>
                   <reg>.</reg>

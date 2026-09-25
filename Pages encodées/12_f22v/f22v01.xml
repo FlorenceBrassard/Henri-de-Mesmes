@@ -32,8 +32,8 @@
                         <orig>i</orig>
                         <reg>I</reg>
                     </choice>l disoit que <subst>
-                        <del><roleName>son pere</roleName> mon aieul</del>
-                        <add><roleName>mon grand pere</roleName></add>
+                        <del>son pere mon aieul</del>
+                        <add>mon grand pere</add>
                     </subst> s<choice>
                         <orig/>
                         <reg>'</reg>

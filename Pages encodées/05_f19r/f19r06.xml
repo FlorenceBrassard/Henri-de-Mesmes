@@ -136,10 +136,10 @@
                   </choice>oit ouy a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>ec le <roleName><choice>
-                        <abbr>m<hi rend="superscript">al</hi></abbr>
-                        <expan>marechal</expan>
-                     </choice></roleName><persName ref="Q1348795"><nameLink><choice>
+                  </choice>ec le <persName ref="Q1348795"><roleName><choice>
+                           <abbr>m<hi rend="superscript">al</hi></abbr>
+                           <expan>marechal</expan>
+                        </choice></roleName><nameLink><choice>
                            <orig>d</orig>
                            <reg>D</reg>
                         </choice>e</nameLink><surname><choice>
