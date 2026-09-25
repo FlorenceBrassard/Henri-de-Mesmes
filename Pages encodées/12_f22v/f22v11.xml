@@ -21,12 +21,14 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1073,3940,2781,518/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1073,3940,2781,518/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
         <body>
-            <ab><s>En ce temps florissoit en <placeName><choice>
+            <ab><s>En ce temps florissoit en <placeName ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName> le <persName ref="Q551804"
@@ -41,7 +43,8 @@
                     </choice>, et qui traictoit la <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ustice <del>et police</del> du <placeName>Royaume</placeName> a<choice>
+                    </choice>ustice <del>et police</del> du <placeName ref="Q142"
+                        >Royaume</placeName> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec <del>g</del> beaucoup de louange.</s></ab>

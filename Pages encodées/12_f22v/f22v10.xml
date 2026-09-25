@@ -21,7 +21,9 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1073,3635,2781,518/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1073,3635,2781,518/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
@@ -34,7 +36,7 @@
                             <expan>monsieur</expan>
                         </choice> le <persName><roleName>president</roleName>
                             <nameLink>de</nameLink>
-                            <surname>Cuny</surname></persName> le sur<choice>
+                            <surname>Cury</surname></persName> le sur<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>esquit, et est mort apres luy.</del></s></ab>
