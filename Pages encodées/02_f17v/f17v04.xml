@@ -62,11 +62,12 @@
                             </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
                         facs="#f17v04_i_metamark01" function="insert" target="#f17v04_le_ancien"
                         >^</metamark><add facs="#f17v04_i_le_ancien" xml:id="f17v04_le_ancien"
-                            ><del>le</del> plus ancien</add> conseiller du parlement de <placeName
-                        ref="Q90"><choice>
-                            <orig>p</orig>
-                            <reg>P</reg>
-                        </choice>aris</placeName> et president d'<placeName ref="Q181269"><choice>
+                            ><del>le</del> plus ancien</add> conseiller du <orgName ref="Q1242473"
+                        >parlement de <placeName ref="Q90"><choice>
+                                <orig>p</orig>
+                                <reg>P</reg>
+                            </choice>aris</placeName></orgName> et president d'<placeName
+                        ref="Q181269"><choice>
                             <orig>a</orig>
                             <reg>A</reg>
                         </choice>lançon</placeName>
