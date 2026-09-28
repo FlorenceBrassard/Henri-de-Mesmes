@@ -135,7 +135,10 @@
                             </choice>ant medecin</add>. <choice>
                             <orig>a</orig>
                             <reg>A</reg>
-                        </choice>ussy nous voions sou<choice>
+                        </choice>ussy nous vo<choice>
+                            <orig>i</orig>
+                            <reg>yi</reg>
+                        </choice>ons sou<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ent <persName ref="Q3384228"><forename><choice>

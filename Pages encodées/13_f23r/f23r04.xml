@@ -103,7 +103,10 @@
                             </choice>en<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>oioit</add>
+                            </choice>o<choice>
+                                <orig>i</orig>
+                                <reg>y</reg>
+                            </choice>oit</add>
                     </subst><subst>
                         <del>, lesquelles tesmoignent qu<choice>
                                 <orig/>

@@ -24,7 +24,10 @@
             <ab><s><choice>
                         <orig>i</orig>
                         <reg>J</reg>
-                    </choice>e voiois <subst>
+                    </choice>e vo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ois <subst>
                         <del>que</del>
                         <add>aprocher</add>
                     </subst> la ruine de ce ro<choice>
