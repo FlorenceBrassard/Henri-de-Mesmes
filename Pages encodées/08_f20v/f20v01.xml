@@ -40,14 +40,18 @@
                     </subst> vertu, et <subst>
                         <del facs="#f20r03_i_integrité" xml:id="f20v01_integrité">integrité</del>
                         <add facs="#f20r03_i_pu" place="superimposed" xml:id="f20v01_pu">pu</add>
-                        <del facs="#f20r03_i_virgule" rend="overwritten" xml:id="f20v01_virgule">,</del>
+                        <del facs="#f20r03_i_virgule" rend="overwritten" xml:id="f20v01_virgule"
+                            >,</del>
                         <add facs="#f20v01_deur" xml:id="f20v01_deur">deur</add>
                     </subst><substJoin
                         target="#f20v01_integrité #f20v01_virgule #f20v01_pu #f20v01_deur"/>et <subst>
                         <del>a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>ec cela treseloquente</del>
+                            </choice>ec cela tres<choice>
+                                <orig/>
+                                <reg> </reg>
+                            </choice>eloquente</del>
                         <add>qui <choice>
                                 <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                                 <expan>par</expan>

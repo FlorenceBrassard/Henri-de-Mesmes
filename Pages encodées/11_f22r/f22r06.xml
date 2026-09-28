@@ -312,7 +312,10 @@
                     </choice> home sca<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ant et tresbon <choice>
+                    </choice>ant et tres<choice>
+                        <orig/>
+                        <reg> </reg>
+                    </choice>bon <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>usticier plus clair<choice>
