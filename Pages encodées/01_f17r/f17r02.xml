@@ -123,7 +123,10 @@
                                 longue<add facs="#f17r02_i_s2" xml:id="f17r02_s_02">s</add>n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>ont pas moien <del facs="#f17r02_i_de_recomander"
+                            </choice>ont pas mo<choice>
+                                <orig>i</orig>
+                                <reg>y</reg>
+                            </choice>en <del facs="#f17r02_i_de_recomander"
                                 xml:id="f17r02_de_recõmander_del">de se rec<choice>
                                     <abbr>õ</abbr>
                                     <expan>om</expan>

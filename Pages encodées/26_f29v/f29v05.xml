@@ -31,11 +31,14 @@
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
                     </choice> de son pere monsieur le <persName ref="Q1348795"><roleName><choice>
-                            <abbr>Mar<hi rend="superscript">al</hi></abbr>
-                            <expan>Marechal</expan>
-                        </choice></roleName>
+                                <abbr>Mar<hi rend="superscript">al</hi></abbr>
+                                <expan>Marechal</expan>
+                            </choice></roleName>
                         <nameLink>de</nameLink>
-                        <surname>Joieuse</surname></persName>
+                        <surname>Jo<choice>
+                                <orig>i</orig>
+                                <reg>y</reg>
+                            </choice>euse</surname></persName>
                     <choice>
                         <orig/>
                         <reg>,</reg>
@@ -46,7 +49,10 @@
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>ay parlé cy dessus, escrites de sa main, par lesquelles il me remercie
-                    de mes labeurs emploiez <choice>
+                    de mes labeurs emplo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ez <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>
                     </choice> sa maison, m<choice>

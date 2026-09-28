@@ -24,7 +24,10 @@
             <ab><s><metamark function="structure">•</metamark> J<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>ay perdu des moiens qui sembloient a<choice>
+                    </choice>ay perdu des mo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ens qui sembloient a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir beaucoup <del rend="unmarked" xml:id="f32rop2_d_apostrophe_e"

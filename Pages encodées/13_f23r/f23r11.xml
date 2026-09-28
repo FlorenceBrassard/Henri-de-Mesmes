@@ -99,7 +99,10 @@
                     </choice>y en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oier <subst>
+                    </choice>o<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>er <subst>
                         <del>les deux</del>
                         <add>ceulx</add>
                     </subst> que <choice>

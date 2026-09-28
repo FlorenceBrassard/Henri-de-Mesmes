@@ -24,8 +24,11 @@
             <ab><s>Quant <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-            </choice> monsieur <persName ref="Q565927"><nameLink>de</nameLink>
-                        <surname>Joieuse</surname></persName>
+                    </choice> monsieur <persName ref="Q565927"><nameLink>de</nameLink>
+                        <surname>Jo<choice>
+                                <orig>i</orig>
+                                <reg>y</reg>
+                            </choice>euse</surname></persName>
                     <choice>
                         <orig> i</orig>
                         <reg>, j</reg>

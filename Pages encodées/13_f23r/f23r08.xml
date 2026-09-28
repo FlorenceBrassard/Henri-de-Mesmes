@@ -77,7 +77,10 @@
                         <choice>
                             <orig>v</orig>
                             <reg>u</reg>
-                        </choice>n bon citoien</add> d<choice>
+                        </choice>n bon cito<choice>
+                            <orig>i</orig>
+                            <reg>y</reg>
+                        </choice>en</add> d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>estre sy <choice>

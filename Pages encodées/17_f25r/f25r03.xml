@@ -50,7 +50,10 @@
                     </subst>, mais qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il me doneroit le moien d<choice>
+                    </choice>il me doneroit le mo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>en d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>en bien venir <choice>

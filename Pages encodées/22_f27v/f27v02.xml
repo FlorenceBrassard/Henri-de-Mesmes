@@ -71,7 +71,10 @@
                     </choice> la rappeller, faisant estat que sy <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
-                    </choice>ay perdu des moiens qui sembloient a<choice>
+                    </choice>ay perdu des mo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ens qui sembloient a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oir de l<choice>

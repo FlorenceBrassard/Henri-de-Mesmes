@@ -354,7 +354,10 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>our mesme par</add>
-                    </subst> la diligente entremise et moien<add>s</add> de mon beau pere<choice>
+                    </subst> la diligente entremise et mo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>en<add>s</add> de mon beau pere<choice>
                         <orig>,</orig>
                         <reg>.</reg>
                     </choice>
@@ -406,8 +409,8 @@
                                 </choice>estoit point pour le <subst>
                                     <del>regard</del>
                                     <add>respect</add>
-                                </subst> de la <orgName ref="Q3001050">cour des aides</orgName><del rend="unmarked"
-                                    >.</del>
+                                </subst> de la <orgName ref="Q3001050">cour des aides</orgName><del
+                                    rend="unmarked">.</del>
                                 <add>qu<choice>
                                         <orig/>
                                         <reg>'</reg>
