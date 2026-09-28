@@ -32,8 +32,8 @@
                         <orig>i</orig>
                         <reg>I</reg>
                     </choice>l disoit que <subst>
-                        <del>son pere mon aieul</del>
-                        <add>mon grand pere</add>
+                        <del><roleName>son pere mon aieul</roleName></del>
+                        <add><roleName>mon grand pere</roleName></add>
                     </subst> s<choice>
                         <orig/>
                         <reg>'</reg>
@@ -51,8 +51,9 @@
                             </choice>acques</forename></persName> en <placeName ref="Q3908"
                         >Galice</placeName>
                     <add>et laissant <add facs="#f22r01_i_grosse_add" xml:id="f22v01_grosse_add"
-                            >grosse</add> sa femme <del xml:id="f22v01_grosse_del"
-                        >grosse</del></add>
+                            >grosse</add>
+                        <roleName>sa femme</roleName>
+                        <del xml:id="f22v01_grosse_del">grosse</del></add>
                     <substJoin target="#f22v01_grosse_add #f22v01_grosse_del"/><add>qui estoit plus <choice>
                             <orig>i</orig>
                             <reg>j</reg>

@@ -95,7 +95,7 @@
                     </choice> moy de nous metre bien ensemble<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> moy et mon filz.<choice>
+                    </choice> moy et <roleName>mon filz</roleName>.<choice>
                         <orig> </orig>
                         <reg> »</reg>
                     </choice></s></ab>

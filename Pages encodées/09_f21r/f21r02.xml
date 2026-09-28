@@ -166,8 +166,8 @@
                   </choice>embre 155<subst>
                      <del rend="overwritten">5</del>
                      <add place="superimposed">6</add>
-                  </subst></date> et laissay ma femme <del
-                  facs="#f21r02_i_qui_doubtoit #f21r02_i_destre" xml:id="f21r02_qui_destre">qui se
+                  </subst></date> et laissay <roleName>ma femme</roleName>
+               <del facs="#f21r02_i_qui_doubtoit #f21r02_i_destre" xml:id="f21r02_qui_destre">qui se
                   doubtoit d<choice>
                      <orig/>
                      <reg>'</reg>

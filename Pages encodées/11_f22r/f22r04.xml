@@ -124,8 +124,9 @@
                             </choice>ne fille dont</add>
                         <del>que</del>
                     </subst><substJoin
-                        target="#f22r04_pour_particulier #f22r04_ma_d #f22r04_metamark_1"/> ma femme
-                        <metamark facs="#f22r04_i_metamark2" function="insert"
+                        target="#f22r04_pour_particulier #f22r04_ma_d #f22r04_metamark_1"/>
+                    <roleName>ma femme</roleName>
+                    <metamark facs="#f22r04_i_metamark2" function="insert"
                         target="#f22r04_estoit_absent_add">^</metamark><add
                         facs="#f22r04_estoit_absent_add" xml:id="f22r04_estoit_absent_add"
                             ><metamark>^</metamark> estoit acouchée moy absent</add> sept mois apres

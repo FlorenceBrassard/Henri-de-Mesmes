@@ -78,7 +78,8 @@
                     </subst>qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>on <del>y</del> meist ma femme <subst>
+                    </choice>on <del>y</del> meist <roleName>ma femme</roleName>
+                    <subst>
                         <del>pour l<choice>
                                 <orig/>
                                 <reg>'</reg>

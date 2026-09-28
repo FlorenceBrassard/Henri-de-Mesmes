@@ -357,7 +357,7 @@
                                 <reg>à</reg>
                             </choice> coup</add>
                     </subst> me doner <subst>
-                        <del>bientost apres ma fille audit</del>
+                        <del>bientost apres <roleName>ma fille</roleName> audit</del>
                         <add>dens l<choice>
                                 <orig/>
                                 <reg>'</reg>
