@@ -218,7 +218,13 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>our de sa mort fut</add>
-                    </subst> le <date>12. Mars 1557.</date><anchor xml:id="f22r04_1557"/>
+                    </subst> le <date>12<choice>
+                            <orig>/</orig>
+                            <reg/>
+                    </choice> <choice>
+                            <orig>M</orig>
+                            <reg>m</reg>
+                        </choice>ars 1557.</date><anchor xml:id="f22r04_1557"/>
                 </s><s><subst>
                         <del facs="#f22r04_i_et" xml:id="f22r04_et"><choice>
                                 <orig>e</orig>

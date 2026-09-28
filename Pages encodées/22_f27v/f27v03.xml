@@ -27,7 +27,10 @@
                     </choice>s le <date>premier <choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>our de Fe<choice>
+                        </choice>our de <choice>
+                            <orig>F</orig>
+                            <reg>f</reg>
+                        </choice>e<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>rier 158<subst>

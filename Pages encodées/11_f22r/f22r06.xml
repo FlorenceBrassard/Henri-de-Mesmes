@@ -180,8 +180,11 @@
                             <choice>
                                 <abbr>s<hi rend="superscript">t</hi></abbr>
                                 <expan>Sainct</expan>
-                            </choice> Merry 29<hi rend="superscript">e</hi> Aoust <hi
-                                rend="overlined">1559</hi></date></add>
+                            </choice> Merry 29<hi rend="superscript">e</hi>
+                            <choice>
+                                <orig>A</orig>
+                                <reg>a</reg>
+                            </choice>oust <hi rend="overlined">1559</hi></date></add>
                     <supplied cert="high">a</supplied>d<choice>
                         <orig>u</orig>
                         <reg>v</reg>

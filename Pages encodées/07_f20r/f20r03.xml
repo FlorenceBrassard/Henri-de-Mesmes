@@ -55,7 +55,10 @@
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>a reception est du <date>XVI<hi rend="superscript">e</hi>
-                            <del>Jan<choice>
+                            <del><choice>
+                                    <orig>J</orig>
+                                    <reg>j</reg>
+                                </choice>an<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ier <add><hi rend="overlined"
@@ -110,8 +113,10 @@
                         </choice>lement</orgName>
                     <metamark facs="#f20r03_i_metamark2" function="insert">^</metamark><add
                         facs="#f20r03_i_aussy_examen" xml:id="f20r03_aussy_examen"
-                            ><metamark>^</metamark>aussy sens examen</add> le <date>28 Septembre en
-                        la mesme année qu<choice>
+                            ><metamark>^</metamark>aussy sens examen</add> le <date>28 <choice>
+                            <orig>S</orig>
+                            <reg>s</reg>
+                        </choice>eptembre en la mesme année qu<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>on <choice>
@@ -196,15 +201,19 @@
                                     <orig>l</orig>
                                     <reg>L</reg>
                                 </choice>imosin</placeName></del>
-                    </subst><substJoin target="#f20r03_ez_du #f20r03_pais #f20r03_limosin"/>, <roleName>ma
-                        mere</roleName> alla <choice>
+                    </subst><substJoin target="#f20r03_ez_du #f20r03_pais #f20r03_limosin"/>,
+                        <roleName>ma mere</roleName> alla <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
                     <choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ieu le <date>dymanche xiiij<hi rend="superscript">e</hi> Jan<choice>
+                    </choice>ieu le <date>dymanche xiiij<hi rend="superscript">e</hi>
+                        <choice>
+                            <orig>J</orig>
+                            <reg>j</reg>
+                        </choice>an<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ier <del>155</del>
