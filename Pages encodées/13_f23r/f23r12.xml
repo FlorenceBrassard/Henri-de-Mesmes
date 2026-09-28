@@ -60,8 +60,10 @@
                     <choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>urant ce voiage nacquit ma fille
-                        <persName><forename>Judit</forename></persName>
+                    </choice>urant ce vo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>age nacquit ma fille <persName><forename>Judit</forename></persName>
                     <date>le <choice>
                             <orig>i</orig>
                             <reg>j</reg>

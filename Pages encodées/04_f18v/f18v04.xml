@@ -71,7 +71,10 @@
                     </choice>oit <subst>
                         <del>toute sa vie</del>
                         <add>longuement</add>
-                    </subst> voiagé par <subst>
+                    </subst> vo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>agé par <subst>
                         <del>tous les endroits du</del>
                         <add>le</add>
                     </subst> monde <add facs="#f18v04_i_point" xml:id="f18v04_point">.</add>

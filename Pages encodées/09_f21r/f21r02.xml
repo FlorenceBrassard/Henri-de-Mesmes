@@ -62,7 +62,10 @@
                         <orig>a</orig>
                         <reg>à</reg>
                      </choice> ce</add>
-               </subst> voiage me donant la charge sur la <choice>
+               </subst> vo<choice>
+                  <orig>i</orig>
+                  <reg>y</reg>
+               </choice>age me donant la charge sur la <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>ustice <subst>
@@ -95,8 +98,10 @@
                         <orig>e</orig>
                         <reg>'E</reg>
                      </choice>stat</add></orgName><substJoin
-                  target="#f21r02_aux_et #f21r02_au #f21r02_de_lestat"/> en ce voiage pour
-                     <del>a<unclear reason="cancelled">u</unclear></del>
+                  target="#f21r02_aux_et #f21r02_au #f21r02_de_lestat"/> en ce vo<choice>
+                  <orig>i</orig>
+                  <reg>y</reg>
+               </choice>age pour <del>a<unclear reason="cancelled">u</unclear></del>
                <choice>
                   <orig/>
                   <reg>,</reg>

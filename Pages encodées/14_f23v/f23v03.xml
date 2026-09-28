@@ -34,7 +34,10 @@
                     </subst> il alloit alieurs et <addSpan spanTo="#f23v03_parquoy"/>luy faloit <choice>
                         <abbr>fe<hi rend="superscript">r</hi></abbr>
                         <expan>faire</expan>
-                    </choice> autre voiage.</s><s>
+                    </choice> autre vo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>age.</s><s>
                     <choice>
                         <orig>p</orig>
                         <reg>P</reg>

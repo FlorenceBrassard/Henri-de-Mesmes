@@ -30,7 +30,10 @@
                     </choice>en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oia le <persName ref="Q136140572"><roleName>procureur <choice>
+                    </choice>o<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>a le <persName ref="Q136140572"><roleName>procureur <choice>
                                 <abbr rend="overlined">gral</abbr>
                                 <expan>general</expan>
                             </choice></roleName><surname>

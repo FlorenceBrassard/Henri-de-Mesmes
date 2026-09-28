@@ -195,8 +195,11 @@
                                 <reg>v</reg>
                             </choice>ay que</del>
                         <add>Mais son aieule</add>
-                    </subst> ma belle mere estoit morte durant ce voiage, qui se nommoit damoyselle
-                            <persName><forename full="init">I.</forename>
+                    </subst> ma belle mere estoit morte durant ce vo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>age, qui se nommoit damoyselle <persName><forename full="init"
+                            >I.</forename>
                         <surname>Michon</surname></persName><choice>
                         <orig>.</orig>
                         <reg>,</reg>

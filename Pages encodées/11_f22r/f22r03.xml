@@ -45,7 +45,10 @@
                         mon costé, y en<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>oia le <choice>
+                        </choice>o<choice>
+                            <orig>i</orig>
+                            <reg>y</reg>
+                        </choice>a le <choice>
                             <abbr>s<hi rend="superscript">r</hi></abbr>
                             <expan>seigneur</expan>
                         </choice>

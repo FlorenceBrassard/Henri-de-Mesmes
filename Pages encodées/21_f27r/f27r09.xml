@@ -37,8 +37,12 @@
                     </choice>en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oia lendemain <choice>
-                        <orig>ij mil <hi rend="superscript">c<g ref="#livre-glyph">Ł</g>s</hi></orig>
+                    </choice>o<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>a lendemain <choice>
+                        <orig>ij mil <hi rend="superscript">c<g ref="#livre-glyph"
+                            >Ł</g>s</hi></orig>
                         <reg>deux mille cent livres</reg>
                     </choice> pour le pri<choice>
                         <orig>s</orig>

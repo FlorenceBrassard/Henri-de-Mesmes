@@ -41,7 +41,10 @@
                             </choice>en<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>oia demander</del>
+                            </choice>o<choice>
+                                <orig>i</orig>
+                                <reg>y</reg>
+                            </choice>a demander</del>
                         <add>m<choice>
                                 <orig/>
                                 <reg>'</reg>
@@ -57,7 +60,10 @@
                         xml:id="f27rop7_renuoiasse"><metamark>^</metamark>ren<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>oiasse</add>
+                        </choice>o<choice>
+                            <orig>i</orig>
+                            <reg>y</reg>
+                        </choice>asse</add>
                     <substJoin target="#f27rop7_menuoia_luy #f27rop7_renuoiasse"/> les clefs du
                     tresor de ses chartres, <del><add>et quand</add></del>
                     <choice>

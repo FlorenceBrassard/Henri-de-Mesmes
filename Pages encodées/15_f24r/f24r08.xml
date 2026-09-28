@@ -33,7 +33,10 @@
                     </choice>eint peu apres d<subst instant="true">
                         <del rend="overwritten">e</del>
                         <add place="superimposed">u</add>
-                    </subst> voiage qu<choice>
+                    </subst> vo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>age qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il a<choice>

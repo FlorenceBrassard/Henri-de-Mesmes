@@ -44,7 +44,10 @@
                     </choice>y <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> une incroiable <subst>
+                    </choice> une incro<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>able <subst>
                         <del>sub<choice>
                                 <orig>i</orig>
                                 <reg>j</reg>

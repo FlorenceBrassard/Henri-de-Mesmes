@@ -89,7 +89,10 @@
                     </choice>en<choice>
                         <reg>u</reg>
                         <orig>v</orig>
-                    </choice>oia querir <choice>
+                    </choice>o<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>a querir <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>

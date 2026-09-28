@@ -101,7 +101,10 @@
                     </choice>e me disposay apres sa mort <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> moins voiager<metamark facs="#f22r06_i_metamark1" function="insert"
+                    </choice> moins vo<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ager<metamark facs="#f22r06_i_metamark1" function="insert"
                         target="#f22r06_et_courtiser">^</metamark><add facs="#f22r06_i_et_courtiser"
                         xml:id="f22r06_et_courtiser"><metamark>^</metamark><add facs="#f22r06_i_et"
                             xml:id="f22r06_et">et</add> moins courtiser</add>
@@ -312,8 +315,10 @@
                     </choice>usticier plus clair<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oiant de<add facs="#f22r06_i_s_de" xml:id="f22r06_s_de">s yeulx
-                        de</add> l<choice>
+                    </choice>o<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ant de<add facs="#f22r06_i_s_de" xml:id="f22r06_s_de">s yeulx de</add> l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>entendement que de<subst>
