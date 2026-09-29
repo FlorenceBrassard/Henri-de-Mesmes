@@ -22,8 +22,9 @@
    <facsimile>
       <surface>
          <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1050,3134,2756,962/full/0/default.jpg"
-         />
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1058,3272,2720,811/full/0/default.jpg"/>
+         <zone xml:id="f26v06_i_metamark_01" points="2399,468 2333,573 2471,573"/>
+         <zone xml:id="f26v06_i_come_parut" lry="463" lrx="2711" uly="359" ulx="2222"/>
       </surface>
    </facsimile>
    <text>
@@ -63,9 +64,10 @@
                      <orig>f</orig>
                      <reg>F</reg>
                   </choice>rance</placeName>
-               <metamark function="insert" target="#f26rop13_come_parut">^</metamark><add
-                  xml:id="f26rop13_come_parut"><metamark>^</metamark> come il parut</add> en
-                  <placeName ref="Q12892">Anvers</placeName> au periode de son an courant.</s></ab>
+               <metamark facs="#f26v06_i_metamark_01" function="insert" target="#f26v06_come_parut"
+                  >^</metamark><add facs="#f26v06_i_come_parut" xml:id="f26v06_come_parut"
+                     ><metamark>^</metamark> come il parut</add> en <placeName ref="Q12892"
+                  >Anvers</placeName> au periode de son an courant.</s></ab>
       </body>
    </text>
 </TEI>

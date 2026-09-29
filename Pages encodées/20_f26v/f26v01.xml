@@ -22,22 +22,32 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/340,174,3471,2737/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/340,174,3471,2737/full/0/default.jpg"/>
+            <zone xml:id="f26v01_i_Je_heure" points="665,464 671,794 3435,682 3447,376"/>
+            <zone xml:id="f26v01_i_de_q" lry="952" lrx="1241" uly="774" ulx="685"/>
+            <zone xml:id="f26v01_i_De_nest" lry="911" lrx="3383" uly="705" ulx="1235"/>
+            <zone xml:id="f26v01_i_possible_quil" points="3388,1176 712,1205 688,917 3412,852"/>
+            <zone xml:id="f26v01_i_certes_devines" points="100,29 3412,23 3424,382 71,529"/>
+            <zone xml:id="f26v01_i_metamark_01" points="83,2100 106,2223 212,2211 218,2076"/>
+            <zone xml:id="f26v01_i_ce_fidelité" points="18,499 753,482 753,2717 53,2723"/>
+            <zone xml:id="f26v01_i_je_croies" lry="1300" lrx="3294" uly="1185" ulx="738"/>
+            <zone xml:id="f26v01_i_metamark_02" points="2712,1282 2630,1394 2765,1394"/>
+            <zone xml:id="f26v01_i_tant_a" points="2594,1241 2594,1329 2947,1311 2947,1229"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <ab><del seq="1"><s>Je ne diray pas icy tout ce qui me semble de ce <roleName
-                            ref="Q53448">prince</roleName>.</s><s><choice>
+            <ab><del seq="1" facs="#f26v01_i_Je_heure #f26v01_i_de_q" instant="true"><s>Je ne diray
+                        pas icy tout ce qui me semble de ce <roleName ref="Q53448"
+                        >prince</roleName>.</s><s><choice>
                             <orig>c</orig>
                             <reg>C'</reg>
                         </choice>est besoigne de plus longue alene.</s><s><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l me suffira pour ceste heure de dire q</s></del><subst>
-                    <del seq="2" xml:id="f26vop1-8_De_quil"><s>De vous dire icy le fons de ceste
-                            matiere, ce n<choice>
+                    <del seq="2" facs="#f26v01_i_De_nest #f26v01_i_possible_quil" instant="true"
+                        xml:id="f26v01_De_quil"><s>De vous dire icy le fons de ceste matiere, ce n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>est possible pas le lieu <subst>
@@ -101,7 +111,7 @@
                                     <orig/>
                                     <reg>'</reg>
                                 </choice>il</del></s></del>
-                    <add seq="1"><s><choice>
+                    <add seq="1" facs="#f26v01_i_certes_devines #f26v01_i_ce_fidelité"><s><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>ertes <choice>
@@ -243,7 +253,7 @@
                             </choice>amais home n<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>a eu de moy tant de <del><metamark xml:id="f26vop1-8_metamark"
+                            </choice>a eu de moy tant de <del><metamark facs="#f26v01_i_metamark_01" xml:id="f26v01_metamark"
                                     >#</metamark></del> pri<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -276,7 +286,7 @@
                                 <reg> »</reg>
                             </choice></s>
                     </add>
-                </subst><s><add seq="1" xml:id="f26vop1-8_je_croies"><del>je vous <choice>
+                </subst><s><add seq="1" facs="#f26v01_i_je_croies" xml:id="f26v01_je_croies"><del>je vous <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>ure que</del>
@@ -299,7 +309,7 @@
                             <orig>s</orig>
                             <reg>z</reg>
                         </choice></add>
-                    <substJoin target="#f26vop1-8_De_quil #f26vop1-8_je_croies"/>
+                    <substJoin target="#f26v01_De_quil #f26v01_je_croies"/>
                     <del>come</del><choice>
                         <orig/>
                         <reg>–</reg>
@@ -317,8 +327,8 @@
                         <orig/>
                         <reg>–</reg>
                     </choice>
-                    <metamark facs="insert" target=" #f26vop1-8_tant_a">^</metamark>
-                    <add seq="2" xml:id="f26vop1-8_tant_a"><metamark>^</metamark> tant y a</add> qu<choice>
+                    <metamark facs="#f26v01_i_metamark_02" function="insert" target=" #f26v01_tant_a">^</metamark>
+                    <add seq="2" facs="#f26v01_i_tant_a" xml:id="f26v01_tant_a"><metamark>^</metamark> tant y a</add> qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>en tout cela il ne peut a<choice>

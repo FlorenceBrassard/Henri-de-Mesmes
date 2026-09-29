@@ -22,23 +22,42 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/790,2460,3033,2489/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/762,2298,3012,2657/full/0/default.jpg"/>
+            <zone xml:id="f26r06_i_ie_en" points="721,242 726,410 2958,263 2948,136"/>
+            <zone xml:id="f26r06_i_terre_moy" points="107,515 91,1478 2959,1041 2954,289"/>
+            <zone xml:id="f26r06_i_et_moy" points="853,1203 863,1313 1930,1216 1920,1136"/>
+            <zone xml:id="f26r06_i_lors_en" points="800,147 805,273 2974,152 2953,57"/>
+            <zone xml:id="f26r06_i_estoit_dy" points="26,415 21,578 2511,336 2490,215"/>
+            <zone xml:id="f26r06_i_et" points="948,1257 921,1405 1126,1389 1126,1231"/>
+            <zone xml:id="f26r06_i_voila_que" points="1142,1257 2995,1063 2990,1231 1158,1368"/>
+            <zone xml:id="f26r06_i_nous_excepté" points="90,1478 105,1636 2979,1368 2990,1236"/>
+            <zone xml:id="f26r06_i_que_le" points="142,1626 126,1900 579,1721 584,1652"/>
+            <zone xml:id="f26r06_i_ce" lry="1684" lrx="642" uly="1565" ulx="471"/>
+            <zone xml:id="f26r06_i_metamark_01" points="1163,1605 1100,1731 1274,1705"/>
+            <zone xml:id="f26r06_i_vn_peu" lry="1600" lrx="1437" uly="1473" ulx="1092"/>
         </surface>
         <surface>
             <graphic
-                url="https://api.nakala.fr/iiif/10.34847/nkl.2c75pl74/e0c9fe5ba8d68add151559d2c232567b554e3b11/457,277,1383,3638/full/0/default.jpg"
-            />
+                url="https://api.nakala.fr/iiif/10.34847/nkl.2c75pl74/e0c9fe5ba8d68add151559d2c232567b554e3b11/457,277,1383,3638/full/0/default.jpg"/>
+            <zone xml:id="f26r06_i_sire_me" points="565,470 1360,15 1050,3445 35,3620"/>
         </surface>
         <surface>
             <graphic
-                url="https://api.nakala.fr/iiif/10.34847/nkl.cc80u140/19f381b8dfed4382277879e25a2065b10058e9c5/0,624,1421,3537/full/0/default.jpg"
-            />
+                url="https://api.nakala.fr/iiif/10.34847/nkl.cc80u140/19f381b8dfed4382277879e25a2065b10058e9c5/0,624,1421,3537/full/0/default.jpg"/>
+            <zone xml:id="f26r06_i_iustifieray_et" points="469,545 1283,252 793,2550 76,2533"/>
+            <zone xml:id="f26r06_i_monsr" points="55,2702 -9,2935 252,2983 302,2721"/>
+            <zone xml:id="f26r06_i_vous" points="76,2526 55,2697 264,2719 298,2564"/>
+        </surface>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/344,5419,3475,548/full/0/default.jpg"/>
+            <zone xml:id="f26r06_i_vous_stipulée" points="24,141 3383,-5 3412,441 18,505"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <ab><s><delSpan spanTo="#f26rop6-15_moy" xml:id="f26rop6-15_ie_moy"/><choice>
+            <ab><s><delSpan facs="#f26r06_i_ie_en #f26r06_i_terre_moy" spanTo="#f26r06_moy"
+                        xml:id="f26r06_ie_moy"/><choice>
                         <orig>i</orig>
                         <reg>J</reg>
                     </choice>e le suppliay lors <choice>
@@ -76,15 +95,16 @@
                             <abbr>R<hi rend="superscript">e</hi></abbr>
                             <expan>Reyne</expan>
                         </choice></roleName>
-                    <add xml:id="f26rop6-15_et_moy">et m<choice>
+                    <add facs="#f26r06_i_et_moy" xml:id="f26r06_et_moy">et m<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>en veins che<choice>
                             <orig>s</orig>
                             <reg>z</reg>
                         </choice> moy</add>.</s>
-                <s><anchor xml:id="f26rop6-15_moy"/><addSpan spanTo="#f26rop6-15_stipulée"
-                        xml:id="f26rop6-15_lors_stipulée"/><choice>
+                <s><anchor xml:id="f26r06_moy"/><addSpan
+                        facs="#f26r06_i_lors_en #f26r06_i_estoit_dy #f26r06_i_sire_me #f26r06_i_iustifieray_et #f26r06_i_vous_stipulée"
+                        spanTo="#f26r06_stipulée" xml:id="f26r06_lors_stipulée"/><choice>
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>ors <choice>
@@ -219,7 +239,9 @@
                         <reg>z</reg>
                     </choice> quand il vous plaira.</s><s><choice>
                         <orig/>
-                        <reg><lb/></reg>
+                        <reg>
+                            <lb/>
+                        </reg>
                     </choice>Soudain <choice>
                         <orig>i</orig>
                         <reg>j</reg>
@@ -235,14 +257,16 @@
                     </choice>dieu<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice><choice>
-                        <abbr>mons<hi rend="superscript">r</hi></abbr>
-                        <reg>monsieur</reg>
-                    </choice>
+                    </choice><seg facs="#f26r06_i_monsr"><choice>
+                            <abbr>mons<hi rend="superscript">r</hi></abbr>
+                            <reg>monsieur</reg>
+                        </choice></seg>
                     <persName ref="Q55903338"><nameLink>de</nameLink>
                         <placeName ref="Q680463">Roissy</placeName></persName>.</s><s><choice>
                         <orig/>
-                        <reg><lb/></reg>
+                        <reg>
+                            <lb/>
+                        </reg>
                     </choice>Tout cela a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -263,10 +287,11 @@
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
                     </choice>mise et stipulée.</s>
-                <anchor xml:id="f26rop6-15_stipulée"/><substJoin
-                    target="#f26rop6-15_ie_moy #f26rop6-15_lors_stipulée #f26rop6-15_et_ce"
-                        /><s><subst xml:id="f26rop6-15_et_ce">
-                        <del><del><choice>
+                <anchor xml:id="f26r06_stipulée"/><substJoin
+                    target="#f26r06_ie_moy #f26r06_lors_stipulée #f26r06_et_le #f26r06_ce"/><s><subst>
+                        <del
+                            facs="#f26r06_i_et #f26r06_i_voila_que #f26r06_i_nous_excepté #f26r06_i_que_le"
+                            xml:id="f26r06_et_le"><del facs="#f26r06_i_et"><choice>
                                     <orig>e</orig>
                                     <reg>E</reg>
                                 </choice>t</del><choice>
@@ -279,12 +304,13 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e ne change rien excepté que le </del>
-                        <add><choice>
+                        <add facs="#f26r06_i_ce" xml:id="f26r06_ce"><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>e</add>
-                    </subst> colloque fut <metamark function="insert" target="#f26rop5_16_vn_peu"
-                        >^</metamark><add xml:id="f26rop5_16_vn_peu"><metamark>^</metamark><choice>
+                    </subst> colloque fut <metamark facs="#f26r06_i_metamark_01" function="insert"
+                        target="#f26r06_vn_peu">^</metamark><add facs="#f26r06_vn_peu"
+                        xml:id="f26r06_vn_peu"><metamark>^</metamark><choice>
                             <orig>v</orig>
                             <reg>u</reg>
                         </choice>n peu</add> plus long<add>,</add>

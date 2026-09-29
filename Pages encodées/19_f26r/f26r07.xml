@@ -22,8 +22,11 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/856,4561,2786,759/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/856,4561,2786,759/full/0/default.jpg"/>
+            <zone xml:id="f26r07_i_sy" lry="281" lrx="2395" uly="124" ulx="2191"/>
+            <zone xml:id="f26r07_i_quand" lry="186" lrx="2443" uly="40" ulx="2162"/>
+            <zone xml:id="f26r07_i_metamark_01" points="153,610 100,686 219,691"/>
+            <zone xml:id="f26r07_i_er" lry="580" lrx="282" uly="478" ulx="165"/>
         </surface>
     </facsimile>
     <text>
@@ -44,15 +47,15 @@
                     </choice>oit tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ours promis que <subst xml:id="f26rop16_sy_quand">
-                        <del>sy</del>
-                        <add>quand</add>
+                    </choice>ours promis que <subst>
+                        <del facs="#f26r07_i_sy" xml:id="f26r07_sy">sy</del>
+                        <add facs="#f26r07_i_quand" xml:id="f26r07_quand">quand</add>
                     </subst> on luy <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
-                    </choice>l<metamark function="insert" target="#f26rop16_er">^</metamark><add
-                        xml:id="f26rop16_er">er</add>oit <substJoin
-                        target="#f26rop16_sy_quand #f26rop16_er"/>
+                    </choice>l<metamark facs="#f26r07_i_metamark_01" function="insert"
+                        target="#f26r07_er">^</metamark><add facs="#f26r07_i_er" xml:id="f26r07_er"
+                        >er</add>oit <substJoin target="#f26r07_sy #f26r07_quand #f26r07_er"/>
                     <choice>
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>con</expan>

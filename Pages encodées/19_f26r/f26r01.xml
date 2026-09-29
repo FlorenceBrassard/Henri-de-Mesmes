@@ -22,8 +22,9 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/655,873,3131,706/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/655,873,3131,706/full/0/default.jpg"/>
+            <zone xml:id="f26r01_i_metamark_01" points="127,563 37,669 179,674"/>
+            <zone xml:id="f26r01_i_vne_heure" lry="574" lrx="521" uly="453" ulx="40"/>
         </surface>
     </facsimile>
     <text>
@@ -38,8 +39,8 @@
                     </choice>ay trop de cueur et de fidelité pour vi<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>re <metamark function="insert" target="#f26rop1_vne_heure"
-                        >^</metamark><add xml:id="f26rop1_vne_heure"><metamark>^</metamark><choice>
+                    </choice>re <metamark facs="#f26r01_i_metamark_01" function="insert" target="#f26r01_vne_heure"
+                        >^</metamark><add facs="#f26r01_i_vne_heure" xml:id="f26r01_vne_heure"><metamark>^</metamark><choice>
                             <orig>v</orig>
                             <reg>u</reg>
                         </choice>ne heure</add> apres vous a<choice>

@@ -22,9 +22,13 @@
    <facsimile>
       <surface>
          <graphic
-            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1075,2240,2707,470/full/0/default.jpg"
-         />
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1075,2240,2707,470/full/0/default.jpg"/>
+         <zone xml:id="f26v04_i_metamark_01" points="2209,132 2141,214 2241,228"/>
+         <zone xml:id="f26v04_i_sa_femme" lry="96" lrx="2509" uly="10" ulx="2118"/>
+         <zone xml:id="f26v04_i_i_e" points="2332,69 2337,187 2418,182 2405,46"/>
+         <zone xml:id="f26v04_i_me_semb" lry="200" lrx="2692" uly="78" ulx="2400"/>
       </surface>
+      <!--      Prendre une photo de la marge, pour “ie”-->
    </facsimile>
    <text>
       <body>
@@ -41,13 +45,14 @@
                </choice>e pris congé de la <roleName ref="Q225411"><choice>
                      <abbr>R<hi rend="superscript">e</hi></abbr>
                      <expan>Reine</expan>
-                  </choice></roleName>, <metamark function="insert" target="#f26vop11_sa_femme"
-                  >^</metamark><add xml:id="f26vop11_sa_femme"><metamark>^</metamark> sa femme</add>
-                  qu<subst xml:id="f26vop11_i_e">
+                  </choice></roleName>, <metamark facs="#f26v04_i_metamark_01" function="insert"
+                  target="#f26v04_sa_femme">^</metamark><add facs="#f26v04_i_sa_femme"
+                  xml:id="f26v04_sa_femme"><metamark>^</metamark> sa femme</add> qu<subst
+                  facs="#f26v04_i_i_e" xml:id="f26v04_i_e">
                   <del rend="overwritten">i</del>
                   <add place="superimposed">e</add>
-               </subst><del xml:id="f26vop11_me_semb">me semb</del><substJoin
-                  target="#f26vop11_i_e #f26vop11_me_semb"/><choice>
+               </subst><del facs="#f26v04_i_me_semb" instant="true" xml:id="f26v04_me_semb">me
+                  semb</del><substJoin target="#f26v04_i_e #f26v04_me_semb"/><choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e laissay come il me sembla, asses triste.</s></ab>

@@ -22,8 +22,9 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/318,1188,3440,1020/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/318,1188,3440,1020/full/0/default.jpg"/>
+            <zone xml:id="f26r02_i_metamark_01" lry="506" lrx="1876" uly="397" ulx="1694"/>
+            <zone xml:id="f26r02_i_mais_point" lry="1000" lrx="476" uly="541" ulx="27"/>
         </surface>
     </facsimile>
     <text>
@@ -53,8 +54,9 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <metamark function="insert" target="#f26rop2_mais_point">+</metamark><add
-                        xml:id="f26rop2_mais_point"><metamark>+</metamark> mais il y a quel<choice>
+                    <metamark facs="#f26r02_i_metamark_01" function="insert"
+                        target="#f26r02_mais_point">+</metamark><add facs="#f26r02_i_mais_point"
+                        xml:id="f26r02_mais_point"><metamark>+</metamark> mais il y a quel<choice>
                             <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                             <expan>que</expan>
                         </choice>s nuicts que <choice>

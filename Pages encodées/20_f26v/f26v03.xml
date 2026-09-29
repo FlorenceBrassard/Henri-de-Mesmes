@@ -22,8 +22,18 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1041,2014,2730,375/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1041,2014,2730,375/full/0/default.jpg"/>
+            <zone xml:id="f26v03_i_de" points="1137,180 1100,285 1190,295 1225,207"/>
+            <zone xml:id="f26v03_i_s_01" points="1219,196 1157,305 1253,301"/>
+            <zone xml:id="f26v03_i_plus_forts" points="1295,215 1266,343 1752,300 1766,186"/>
+            <zone xml:id="f26v03_i_la" points="1243,172 1214,291 1281,291 1295,167"/>
+            <zone xml:id="f26v03_i_fortune" points="1333,119 1271,234 1728,219 1733,124"/>
+            <zone xml:id="f26v03_i_u_es" points="1024,153 995,248 1090,229 1071,153"/>
+            <zone xml:id="f26v03_i_du_Roy" points="976,134 957,248 1200,205 1209,143"/>
+            <zone xml:id="f26v03_i_s_02" points="1205,129 1290,124 1266,200 1181,210"/>
+            <zone xml:id="f26v03_i_leur" lry="257" lrx="2295" uly="172" ulx="2090"/>
+            <zone xml:id="f26v03_i_luy" points="2190,81 2147,172 2300,196 2305,105"/>
+            <zone xml:id="f26v03_i_uy_eur" points="2243,91 2166,186 2414,191 2409,100"/>
         </surface>
     </facsimile>
     <text>
@@ -49,26 +59,30 @@
                         <abbr><g ref="#que-glyph">ꝙ</g>d</abbr>
                         <expan>quand</expan>
                     </choice> on a faict ce que doit il fault atendre <del seq="2"
-                        xml:id="f26vop10_de">de</del><subst>
-                        <del seq="1">s plus forts</del>
-                        <add seq="1" xml:id="f26vop10_la_fortune_add"><del seq="2"
-                                xml:id="f26vop10_la_fortune_del">la fortune</del></add>
-                        <add seq="2" xml:id="f26vop10_du_roy">d<subst xml:id="f20vop10_u_es">
+                        facs="#f26v03_i_de" xml:id="f26v03_de">de</del><subst>
+                        <del seq="1" facs="#f26v03_i_s_01 #f26v03_i_plus_forts">s plus forts</del>
+                        <add seq="1" facs="#f26v03_i_la #f26v03_i_fortune"
+                            xml:id="f26v03_la_fortune_add"><del seq="2"
+                                facs="#f26v03_i_la #f26v03_i_fortune" xml:id="f26v03_la_fortune_del"
+                                >la fortune</del></add>
+                        <add seq="2" facs="#f26v03_i_du_Roy" xml:id="f26v03_du_roy">d<subst
+                                facs="#f26v03_i_u_es" xml:id="f20vop10_u_es">
                                 <del seq="3" rend="overwritten">u</del>
                                 <add seq="3" place="superimposed">es</add>
-                            </subst> Roy<add seq="3" xml:id="f26vop10_s">s</add></add>
-                    </subst> ce qui <subst xml:id="f26vop10_leur_luy">
-                        <del>leur</del>
-                        <add seq="1">l<subst xml:id="f26vop10_uy_eur">
+                            </subst> Roy<add seq="3" facs="#f26v03_i_s_02" xml:id="f26v03_s_02"
+                                >s</add></add>
+                    </subst> ce qui <subst>
+                        <del facs="#f26v03_i_leur" xml:id="f26v03_leur">leur</del>
+                        <add facs="#f26v03_i_luy" xml:id="f26v03_luy" seq="1">l<subst
+                                facs="#f26v03_i_uy_eur" xml:id="f26v03_uy_eur">
                                 <del rend="overwritten" seq="3">uy</del>
                                 <add place="superimposed" seq="3">eur</add>
                             </subst></add>
                     </subst> plaist. <substJoin seq="1"
-                        target="#f26vop10_la_fortune #f26vop10_leur_luy"/>
-                    <substJoin seq="2"
-                        target="#f26vop10_de #f26vop10_la_fortune_del #f26vop10_du_roy"/>
-                    <substJoin seq="3" target="#f20vop10_u_es #f26vop10_s #f26vop10_uy_eur"/>
-                    <del><metamark function="insert" target="f26vop1-8.xml">#</metamark></del>
+                        target="#f26v03_la_fortune #f26v03_leur #f26v03_luy"/>
+                    <substJoin seq="2" target="#f26v03_de #f26v03_la_fortune_del #f26v03_du_roy"/>
+                    <substJoin seq="3" target="#f20vop10_u_es #f26v03_s #f26v03_uy_eur"/>
+                    <del><metamark function="insert" target="f26v01.xml">#</metamark></del>
                 </s>
             </ab>
         </body>
