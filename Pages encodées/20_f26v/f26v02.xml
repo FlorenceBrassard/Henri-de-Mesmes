@@ -19,6 +19,13 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1039,1533,2746,613/full/0/default.jpg"
+         />
+      </surface>
+   </facsimile>
    <text>
       <body>
          <ab><s><choice>
@@ -50,9 +57,9 @@
                   <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
                </choice>fois <choice>
-            <orig>a</orig>
-            <reg>à</reg>
-            </choice> eulx mesmes.</s></ab>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> eulx mesmes.</s></ab>
       </body>
    </text>
 </TEI>

@@ -19,6 +19,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1041,2014,2730,375/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><del><choice>
@@ -41,8 +48,8 @@
                     </choice>ais <choice>
                         <abbr><g ref="#que-glyph">ꝙ</g>d</abbr>
                         <expan>quand</expan>
-                    </choice> on a faict ce que doit il fault atendre <del seq="2" xml:id="f26vop10_de"
-                        >de</del><subst>
+                    </choice> on a faict ce que doit il fault atendre <del seq="2"
+                        xml:id="f26vop10_de">de</del><subst>
                         <del seq="1">s plus forts</del>
                         <add seq="1" xml:id="f26vop10_la_fortune_add"><del seq="2"
                                 xml:id="f26vop10_la_fortune_del">la fortune</del></add>
@@ -56,8 +63,10 @@
                                 <del rend="overwritten" seq="3">uy</del>
                                 <add place="superimposed" seq="3">eur</add>
                             </subst></add>
-                    </subst> plaist. <substJoin seq="1" target="#f26vop10_la_fortune #f26vop10_leur_luy"/>
-               <substJoin seq="2" target="#f26vop10_de #f26vop10_la_fortune_del #f26vop10_du_roy"/>
+                    </subst> plaist. <substJoin seq="1"
+                        target="#f26vop10_la_fortune #f26vop10_leur_luy"/>
+                    <substJoin seq="2"
+                        target="#f26vop10_de #f26vop10_la_fortune_del #f26vop10_du_roy"/>
                     <substJoin seq="3" target="#f20vop10_u_es #f26vop10_s #f26vop10_uy_eur"/>
                     <del><metamark function="insert" target="f26vop1-8.xml">#</metamark></del>
                 </s>

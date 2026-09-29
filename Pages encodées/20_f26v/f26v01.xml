@@ -19,6 +19,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/340,174,3471,2737/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><del seq="1"><s>Je ne diray pas icy tout ce qui me semble de ce <roleName

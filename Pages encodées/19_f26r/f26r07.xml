@@ -19,6 +19,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/856,4561,2786,759/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><del><choice>
@@ -43,8 +50,9 @@
                     </subst> on luy <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
-                    </choice>l<metamark function="insert" target="#f26rop16_er">^</metamark><add xml:id="f26rop16_er"
-                        >er</add>oit <substJoin target="#f26rop16_sy_quand #f26rop16_er"/>
+                    </choice>l<metamark function="insert" target="#f26rop16_er">^</metamark><add
+                        xml:id="f26rop16_er">er</add>oit <substJoin
+                        target="#f26rop16_sy_quand #f26rop16_er"/>
                     <choice>
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>con</expan>

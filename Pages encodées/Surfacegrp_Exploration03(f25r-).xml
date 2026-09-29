@@ -63,6 +63,34 @@
                 <graphic
                     url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/full/full/0/native.jpg"/>
                 <zone xml:id="f25v15_b" lry="1428" lrx="3815" uly="557" ulx="579"/>
+                <zone xml:id="f26r01" lry="1564" lrx="3793" uly="1057" ulx="637"/>
+                <zone xml:id="f26r02_a" lry="1892" lrx="3750" uly="1192" ulx="743"/>
+                <zone xml:id="f26r02_b" lry="2157" lrx="765" uly="1707" ulx="343"/>
+                <zone xml:id="f26r03" lry="2085" lrx="3765" uly="1535" ulx="750"/>
+                <zone xml:id="f26r04" lry="2435" lrx="3772" uly="1899" ulx="757"/>
+                <zone xml:id="f26r05" lry="2792" lrx="3735" uly="2043" ulx="793"/>
+                <zone xml:id="f26r06_a" lry="4906" lrx="3808" uly="2364" ulx="800"/>
+                <zone xml:id="f26r06_b"
+                    points="343,2828 857,2821 900,5564 3808,5342 3758,5878 343,5928"/>
+                <zone xml:id="f26r07" lry="5314" lrx="3679" uly="4564" ulx="857"/>
+                <zone xml:id="f26r08" lry="5592" lrx="3715" uly="4778" ulx="850"/>
+            </surface>
+            <surface type="20_f26v.json">
+                <graphic
+                    url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/full/full/0/native.jpg"/>
+                <zone xml:id="f26v01_a" lry="1795" lrx="3780" uly="601" ulx="1000"/>
+                <zone xml:id="f26v0a_b"
+                    points="3758,185 3779,621 1007,621 1093,3028 329,3028 336,235"/>
+                <zone xml:id="f26v02" lry="2095" lrx="3750" uly="1590" ulx="1050"/>
+                <zone xml:id="f26v03" lry="2380" lrx="3760" uly="1975" ulx="1040"/>
+                <zone xml:id="f26v04" lry="2680" lrx="3805" uly="2230" ulx="1040"/>
+                <zone xml:id="f26v05_a" lry="3450" lrx="3760" uly="2410" ulx="1090"/>
+                <zone xml:id="f26v05_b" lry="3525" lrx="1050" uly="3350" ulx="520"/>
+                <zone xml:id="f26v06" lry="4085" lrx="3770" uly="3245" ulx="1100"/>
+                <zone xml:id="f26v07" lry="4690" lrx="3780" uly="3800" ulx="1080"/>
+                <zone xml:id="f26v08" lry="4985" lrx="3780" uly="4395" ulx="1080"/>
+                <zone xml:id="f26v09" lry="5740" lrx="3770" uly="4615" ulx="1090"/>
+                <zone xml:id="f26v10" lry="5955" lrx="3780" uly="5485" ulx="1065"/>
             </surface>
         </surfaceGrp>
     </facsimile>

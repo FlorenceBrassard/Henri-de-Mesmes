@@ -19,6 +19,23 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f57/790,2460,3033,2489/full/0/default.jpg"
+            />
+        </surface>
+        <surface>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.2c75pl74/e0c9fe5ba8d68add151559d2c232567b554e3b11/457,277,1383,3638/full/0/default.jpg"
+            />
+        </surface>
+        <surface>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.cc80u140/19f381b8dfed4382277879e25a2065b10058e9c5/0,624,1421,3537/full/0/default.jpg"
+            />
+        </surface>
+    </facsimile>
     <text>
         <body>
             <ab><s><delSpan spanTo="#f26rop6-15_moy" xml:id="f26rop6-15_ie_moy"/><choice>

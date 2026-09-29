@@ -19,6 +19,13 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f58/1074,3817,2695,888/full/0/default.jpg"
+         />
+      </surface>
+   </facsimile>
    <text>
       <body>
          <ab><s>Ja ne me tiens <choice>
@@ -48,8 +55,7 @@
                </choice>fois veu ramener aux homes dens semblables termes les effets de la main de <choice>
                   <orig>d</orig>
                   <reg>D</reg>
-               </choice>ieu.
-            </s></ab>
-         </body>
+               </choice>ieu. </s></ab>
+      </body>
    </text>
 </TEI>
