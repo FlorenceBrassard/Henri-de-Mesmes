@@ -25,7 +25,9 @@
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/891,953,2851,613/full/0/default.jpg"/>
          <zone xml:id="f18r02_i_estant" points="376,96 376,229 85,267 95,124"/>
          <zone xml:id="f18r02_i_estoit" points="857,19 857,143 1104,115 1095,15"/>
-         <zone xml:id="f18r02_i_par_gré" points="4,305 2042,291 2414,638 2838,15"/>
+         <zone xml:id="f18r02_i_par_Roy" lry="243" lrx="2709" uly="39" ulx="1886"/>
+         <zone xml:id="f18r02_i_francoys_contraint" points="90,205 47,357 2728,272 2671,148"/>
+         <zone xml:id="f18r02_i_daccepter_gré" lry="596" lrx="2814" uly="269" ulx="2069"/>
       </surface>
    </facsimile>
    <text>
@@ -42,7 +44,9 @@
             </choice>il de <placeName ref="Q90"><choice>
                   <orig>p</orig>
                   <reg>P</reg>
-               </choice>aris</placeName><add facs="#f18r02_i_par_gré" xml:id="f18r02_par_gré">, par l<choice>
+               </choice>aris</placeName><add
+               facs="#f18r02_i_par_Roy #f18r02_i_francoys_contraint #f18r02_i_daccepter_gré"
+               xml:id="f18r02_par_gré">, par l<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>lection du <persName ref="Q129857"><roleName><choice>

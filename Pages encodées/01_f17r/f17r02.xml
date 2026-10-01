@@ -25,7 +25,10 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/89,1127,3702,1067/full/0/default.jpg"/>
             <zone xml:id="f17r02_i_en_france" lry="164" lrx="2528" uly="40" ulx="2048"/>
             <zone xml:id="f17r02_i_et_guiere" lry="678" lrx="644" uly="366" ulx="110"/>
-            <zone xml:id="f17r02_i_en_guieres" points="1322,266 1292,348 3667,487 3692,182"/>
+            <zone xml:id="f17r02_i_en_les" points="1322,272 1292,354 3678,268 3672,188"/>
+            <zone xml:id="f17r02_i_mesprisent_les" points="2642,224 2630,300 3674,270 3676,190"/>
+            <zone xml:id="f17r02_i_letres_nescriuent" points="2996,286 2996,384 3690,400 3696,300"/>
+            <zone xml:id="f17r02_i_guieres" points="3004,406 3002,490 3314,494 3340,396"/>
             <zone xml:id="f17r02_i_nusent_chapeaus" points="732,464 688,582 2766,446 2746,358"/>
             <zone xml:id="f17r02_i_ceulx_de" points="3052,480 3056,520 3332,526 3324,480"/>
             <zone xml:id="f17r02_i_les01" points="3482,362 3450,437 3690,442 3695,377"/>
@@ -43,8 +46,6 @@
             <zone xml:id="f17r02_i_nont_moyen" points="3117,586 3112,615 3640,628 3650,570"/>
             <zone xml:id="f17r02_i_s3" points="1016,664 952,822 1008,824 1058,690"/>
             <zone xml:id="f17r02_i_s_esleuer" points="1336,696 1302,798 946,826 996,674"/>
-            <zone xml:id="f17r02_i_mesprisent_guieres" points="2642,226 3026,502 3692,384 3676,192"
-            />
         </surface>
     </facsimile>
     <text>
@@ -79,14 +80,16 @@
                                 target="f17r02_et_guiere_add">+</metamark> n'escri<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>ent guiere</add></del><add facs="#f17r02_i_en_guieres"
+                            </choice>ent guiere</add></del><add
+                        facs="#f17r02_i_en_les #f17r02_i_letres_nescriuent #f17r02_i_guieres"
                         xml:id="f17r02_en_guieres">En <placeName ref="Q142"><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
                             </choice>rance</placeName> ceulx qui <subst>
                             <del>manient</del>
                             <add>ont</add>
-                        </subst> les armes, <del facs="#f17r02_i_mesprisent_guieres"
+                        </subst> les armes, <del
+                            facs="#f17r02_i_mesprisent_les #f17r02_i_letres_nescriuent #f17r02_i_guieres"
                             xml:id="f17r02_mesprisent_guieres">mesprisent presque touts les letres,
                             et n<choice>
                                 <orig/>

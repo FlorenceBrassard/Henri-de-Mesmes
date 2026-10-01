@@ -23,7 +23,8 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/199,2173,3558,995/full/0/default.jpg"/>
-            <zone xml:id="f17r04_i_ny_histoire" points="2682,102 2848,421 3550,407 3550,7"/>
+            <zone xml:id="f17r04_i_ny_produits" points="2682,102 2697,202 3562,165 3547,-7"/>
+            <zone xml:id="f17r04_i_dignes_histoire" points="3032,175 2810,390 3510,407 3485,170"/>
             <zone xml:id="f17r04_i_sente" points="2359,620 2335,683 2585,660 2591,610"/>
             <zone xml:id="f17r04_i_recoive" points="2383,533 2361,586 2668,578 2666,520"/>
             <zone xml:id="f17r04_i_ressente" points="2372,583 2368,631 2646,621 2641,573"/>
@@ -47,7 +48,8 @@
                                     <del>memo</del>
                                     <add>grandement mem</add>
                                 </subst></add></del>
-                        <add facs="#f17r04_i_ny_histoire" xml:id="f17r04_ny_histoire">ny ma <choice>
+                        <add facs="#f17r04_i_ny_produits #f17r04_i_dignes_histoire"
+                            xml:id="f17r04_ny_histoire">ny ma <choice>
                                 <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                                 <expan>pro</expan>
                             </choice>fession les a <subst>

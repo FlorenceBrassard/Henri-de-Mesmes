@@ -24,8 +24,8 @@
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/752,632,3147,1671/full/0/default.jpg"/>
             <zone xml:id="f22r03_i_le_viceroy" points="1005,79 1005,205 2989,132 3010,42"/>
-            <zone xml:id="f22r03_i_metamark1" points="1116,195 1094,305 1205,310"/>
-            <zone xml:id="f22r03_i_metamark2" points="3010,47 2989,142 3068,142 3063,32"/>
+            <zone xml:id="f22r03_i_metamark01" points="1116,195 1094,305 1205,310"/>
+            <zone xml:id="f22r03_i_metamark02" points="3010,47 2989,142 3068,142 3063,32"/>
         </surface>
         <surface>
             <graphic
@@ -38,7 +38,7 @@
             <ab><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
-                    </choice>ais <metamark facs="#f22r03_i_metamark1" function="insert"
+                    </choice>ais <metamark facs="#f22r03_i_metamark01" function="insert"
                         target="#f22r03_le_viceroy">^</metamark>
                     <add facs="#f22r03_i_le_viceroy" xml:id="f22r03_le_viceroy"
                             ><metamark>^</metamark> le <roleName ref="Q132545">Roy</roleName> fut de
@@ -64,7 +64,7 @@
                                     <orig>e</orig>
                                     <reg>E</reg>
                                 </choice>sté</surname>
-                        </persName> pour viceroy <metamark facs="#f22r03_i_metamark2"
+                        </persName> pour viceroy <metamark facs="#f22r03_i_metamark02"
                             function="insert" target="#f22r03_et_iustice">#</metamark></add><addSpan
                         facs="#f22r03_i_et_iustice" spanTo="#f22r03_iustice"
                         xml:id="f22r03_et_iustice"/><metamark>#</metamark> et me mainteint a<choice>

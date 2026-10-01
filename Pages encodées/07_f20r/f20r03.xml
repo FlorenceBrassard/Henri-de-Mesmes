@@ -23,7 +23,8 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f45/790,4833,2373,631/full/0/default.jpg"/>
-            <zone xml:id="f20r03_i_ma_1552" points="1208,40 2120,16 872,308 8,336"/>
+            <zone xml:id="f20r03_i_ma_est" points="1208,40 2120,16 2100,108 1124,108"/>
+            <zone xml:id="f20r03_i_du_1552" points="116,224 88,368 1176,240 1372,100"/>
             <zone xml:id="f20r03_i_e_E" points="1216,168 1208,296 1276,296 1296,176"/>
             <zone xml:id="f20r03_i_l_L" points="1440,128 1360,288 1612,296 1436,240"/>
             <zone xml:id="f20r03_i_i_lres" points="776,292 780,380 1152,348 1152,252"/>
@@ -51,7 +52,7 @@
     </facsimile>
     <text>
         <body>
-            <ab><s><del facs="#f20r03_i_ma_1552" xml:id="f20r03_ma_1552"><choice>
+            <ab><s><del facs="#f20r03_i_ma_est #f20r03_i_du_1552" xml:id="f20r03_ma_1552"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>a reception est du <date>XVI<hi rend="superscript">e</hi>

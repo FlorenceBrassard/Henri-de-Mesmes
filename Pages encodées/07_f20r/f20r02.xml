@@ -39,12 +39,15 @@
             <zone xml:id="f20r02_i_afin_fut" points="903,1486 900,1556 1396,1530 1400,1443"/>
             <zone xml:id="f20r02_i_plus_honeur" points="1246,1519 1226,1603 1920,1553 1926,1463"/>
             <zone xml:id="f20r02_i_qui_scauans" points="1415,1452 1400,1540 2370,1485 2352,1400"/>
-            <zone xml:id="f20r02_i_et_cela" points="48,1693 2418,1658 3051,2220 3330,1435"/>
+            <zone xml:id="f20r02_i_et_du" points="459,1641 459,1705 3276,1588 3271,1458"/>
+            <zone xml:id="f20r02_i_metamark04" points="2821,1665 2781,1735 2831,1716"/>
+            <zone xml:id="f20r02_i_corras" points="2750,1575 2730,1655 3020,1645 3015,1570"/>
+            <zone xml:id="f20r02_i_ferrier_cela" points="3276,1599 3253,2017 2494,1999 2512,1588"/>
             <zone xml:id="f20r02_i_et_telle" points="1947,1487 1947,1577 2680,1537 2675,1465"/>
             <zone xml:id="f20r02_i_confiance_qui" points="502,1702 502,1815 1975,1712 1962,1635"/>
             <zone xml:id="f20r02_i_pibrac_et" points="2506,1747 2494,1847 3000,1841 2953,1735"/>
-            <zone xml:id="f20r02_i_et_cela2" points="2553,1852 2559,1994 3288,1970 3265,1829"/>
-            <zone xml:id="f20r02_i_metamark04" points="1700,1822 1637,1910 1775,1897"/>
+            <zone xml:id="f20r02_i_et_cela" points="2547,1852 2553,1994 3282,1970 3259,1829"/>
+            <zone xml:id="f20r02_i_metamark05" points="1700,1822 1637,1910 1775,1897"/>
             <zone xml:id="f20r02_i_soit_nouueaus" points="1500,1727 1467,1807 2247,1772 2237,1695"/>
             <zone xml:id="f20r02_i_l1" points="1692,1902 1650,2035 1717,2037 1725,1892"/>
             <zone xml:id="f20r02_i_dre" points="1795,1895 1777,2017 1872,2020 1872,1900"/>
@@ -52,14 +55,17 @@
             <zone xml:id="f20r02_i_tellement_me" points="502,1985 507,2110 1505,2037 1507,1927"/>
             <zone xml:id="f20r02_i_lendemain1" points="1198,2602 1198,2726 1656,2684 1658,2572"/>
             <zone xml:id="f20r02_i_lendemain2" points="510,2862 510,3028 1142,2962 1124,2862"/>
-            <zone xml:id="f20r02_i_metamark05" points="1360,2766 1360,2856 1486,2846 1476,2763"/>
+            <zone xml:id="f20r02_i_metamark06" points="1360,2766 1360,2856 1486,2846 1476,2763"/>
             <zone xml:id="f20r02_i_auec_eage" points="0,2866 0,3140 373,3150 373,2826"/>
-            <zone xml:id="f20r02_i_metamark6" points="2100,2703 2100,2780 2283,2780 2286,2700"/>
+            <zone xml:id="f20r02_i_metamark07" points="2100,2703 2100,2780 2283,2780 2286,2700"/>
+            <zone xml:id="f20r02_i_diuers" points="2806,3041 2829,3100 3023,3083 3033,3043"/>
             <zone xml:id="f20r02_i_apres_rencontres"
                 points="2526,2683 2583,3156 3330,3133 3350,2660"/>
-            <zone xml:id="f20r02_i_diuers" points="2523,3060 2540,3093 3023,3083 3033,3043"/>
             <zone xml:id="f20r02_i_s" points="3183,3060 3153,3170 3200,3166 3223,3060"/>
-            <zone xml:id="f20r02_i_auec_examiner" points="559,3047 329,3794 3177,3730 2412,2753"/>
+            <zone xml:id="f20r02_i_auec_destre" points="1506,2805 1465,2941 2500,2882 2477,2735"/>
+            <zone xml:id="f20r02_i_examiné_qlq" points="547,3029 2618,2876 2571,3194 471,3370"/>
+            <zone xml:id="f20r02_i_opinion_examiner" points="400,3341 441,3799 3176,3717 2876,3182"
+            />
         </surface>
         <surface>
             <graphic url=""/>
@@ -210,7 +216,8 @@
                                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                                         <expan>con</expan>
                                     </choice>fiance de mes estudes qui</del>
-                                <add facs="#f20r02_i_et_cela" xml:id="f20r02_et_cela"><choice>
+                                <add facs="#f20r02_i_et_du #f20r02_i_ferrier_cela"
+                                    xml:id="f20r02_et_cela"><choice>
                                         <orig>e</orig>
                                         <reg>E</reg>
                                     </choice>t a<choice>
@@ -231,8 +238,9 @@
                                                 <orig>f</orig>
                                                 <reg>F</reg>
                                             </choice>errier</surname></persName>
-                                    <metamark function="insert" target="#f20r02_corras"
-                                        >^</metamark><add xml:id="f20r02_corras"
+                                    <metamark facs="#f20r02_i_metamark04" function="insert"
+                                        target="#f20r02_corras">^</metamark><add
+                                        facs="#f20r02_i_corras" xml:id="f20r02_corras"
                                             ><metamark>^</metamark><choice>
                                             <orig> </orig>
                                             <reg>,</reg>
@@ -261,7 +269,7 @@
                                                 <reg>j</reg>
                                             </choice>as</surname></persName><del rend="unmarked"
                                         >.</del>
-                                    <add facs="#f20r02_i_et_cela2" xml:id="f20r02_et_cela2"> et
+                                    <add facs="#f20r02_i_et_cela" xml:id="f20r02_et_cela02"> et
                                             <persName ref="Q3121749">
                                             <surname><choice>
                                                   <orig>p</orig>
@@ -270,14 +278,14 @@
                                             <orig>c</orig>
                                             <reg>C</reg>
                                         </choice>ela </add><substJoin
-                                        target="#f20r02_pibrac_et #f20r02_et_cela2"/>
+                                        target="#f20r02_pibrac_et #f20r02_et_cela02"/>
                                 </add>
                             </subst> me feit <del
                                 facs="#f20r02_i_desdaigner_moy #f20r02_i_tellement_me"
                                 xml:id="f20r02_desdaigner_me">desdaigner d<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice>en voir six <metamark facs="#f20r02_i_metamark04"
+                                </choice>en voir six <metamark facs="#f20r02_i_metamark05"
                                     function="insert" target="#f20r02_soit_nouueaus">^</metamark>
                                 <add facs="#f20r02_i_soit_nouueaus" xml:id="f20r02_soit_nouueaus"
                                             ><add>soi<unclear cert="medium" reason="cancelled"
@@ -379,7 +387,9 @@
                         <add>dez le</add>
                     </subst> matin <substJoin target="#f20r02_lendemain_1 #f20r02_lendemain_2"/>
                     <subst>
-                        <del facs="#f20r02_i_auec_examiner" xml:id="f20r02_auec_examiner"><del>a<choice>
+                        <del
+                            facs="#f20r02_i_auec_destre #f20r02_i_examiné_qlq #f20r02_i_opinion_examiner"
+                            xml:id="f20r02_auec_examiner"><del>a<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ec offre d<choice>
@@ -420,7 +430,7 @@
                                     </choice>oit voulu m'examiner.</add>
                                 <substJoin target="#f20r02_auec_examiner #f20r03_ma_1552"/>
                             </del></del>
-                        <add seq="2"><metamark facs="#f20r02_i_metamark05" function="insert"
+                        <add seq="2"><metamark facs="#f20r02_i_metamark06" function="insert"
                                 target="f20r02_auec_eage">+</metamark></add>
                         <add seq="2" facs="#f20r02_i_auec_eage" xml:id="f20r02_auec_eage"
                                 ><metamark>+</metamark> a<choice>
@@ -428,7 +438,7 @@
                                 <reg>v</reg>
                             </choice>ec dispense d'eage</add>
                         <add seq="1">et sens examen</add>
-                        <add seq="2"><metamark facs="#f20r02_i_metamark6" function="insert"
+                        <add seq="2"><metamark facs="#f20r02_i_metamark07" function="insert"
                                 target="#f20r02_apres_rencontres">⊸</metamark></add>
                         <add seq="2" facs="#f20r02_i_apres_rencontres"
                             xml:id="f20r02_apres_rencontres"><metamark>⊸</metamark> apres qu'aucuns

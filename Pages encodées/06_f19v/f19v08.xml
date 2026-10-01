@@ -32,7 +32,8 @@
             <zone xml:id="f19v08_i_de1" points="553,347 553,504 724,485 686,347"/>
             <zone xml:id="f19v08_i_a_er" points="1038,357 1038,457 1153,442 1153,342"/>
             <zone xml:id="f19v08_i_et_Bertrandy" points="957,433 934,538 2010,438 2019,338"/>
-            <zone xml:id="f19v08_i_pour_ieu" points="1134,500 538,838 2105,685 2781,395"/>
+            <zone xml:id="f19v08_i_pour_son" points="1134,500 1062,652 2743,509 2781,395"/>
+            <zone xml:id="f19v08_i_office_ieu" points="695,614 691,800 2253,676 2238,547"/>
             <zone xml:id="f19v08_i_pour_fer" points="2095,347 2100,452 2595,409 2610,300"/>
             <zone xml:id="f19v08_i_bertrandy" points="695,495 695,657 1086,647 1086,490"/>
         </surface>
@@ -103,7 +104,7 @@
                                     </subst>trandy</surname></persName></add>
                     </subst>
                     <subst>
-                        <del facs="#f19v08_i_pour_ieu">pour a<choice>
+                        <del facs="#f19v08_i_pour_son #f19v08_i_office_ieu">pour a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oir sur<choice>

@@ -23,7 +23,7 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/841,295,2721,624/full/0/default.jpg"/>
-            <zone xml:id="f21v01_i_metamark1" points="659,314 609,409 736,400"/>
+            <zone xml:id="f21v01_i_metamark01" points="659,314 609,409 736,400"/>
             <zone xml:id="f21v01_i_1557" points="536,159 532,314 809,273 800,127"/>
         </surface>
     </facsimile>
@@ -39,7 +39,7 @@
                     <date><choice>
                             <orig>p</orig>
                             <reg>P</reg>
-                        </choice>asques <metamark facs="#f21v01_i_metamark1" function="insert"
+                        </choice>asques <metamark facs="#f21v01_i_metamark01" function="insert"
                             target="#f21v01_1557">^</metamark><add facs="#f21v01_i_1557"
                             xml:id="f21v01_1557"><metamark>^</metamark>1557</add></date>
                     <choice>

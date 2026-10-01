@@ -23,12 +23,12 @@
       <surface>
          <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f40/218,172,3529,1337/full/0/default.jpg"/>
-         <zone xml:id="f17v01_i_dun_Mammes1" points="1580,234 1580,427 3376,404 3363,207"/>
-         <zone xml:id="f17v01_i_dun_Mammes2" points="1566,224 1570,447 3406,420 3383,174"/>
-         <zone xml:id="f17v01_i_maison1" points="1054,600 1052,696 1374,672 1350,576"/>
-         <zone xml:id="f17v01_i_bone_famille1" points="910,505 910,602 1395,580 1397,485"/>
-         <zone xml:id="f17v01_i_bone_famille2" points="882,487 882,627 1397,597 1392,497"/>
-         <zone xml:id="f17v01_i_maison2" points="1092,675 1092,745 1375,720 1365,655"/>
+         <zone xml:id="f17v01_i_dun_Mammes" points="1580,234 1580,427 3376,404 3363,207"/>
+         <zone xml:id="f17v01_i_de_Mammes" points="2776,183 2764,442 3400,442 3383,174"/>
+         <zone xml:id="f17v01_i_dun_maison" lry="418" lrx="2788" uly="232" ulx="1574"/>
+         <zone xml:id="f17v01_i_maison_del" points="1054,600 1052,696 1374,672 1350,576"/>
+         <zone xml:id="f17v01_i_bone_famille" points="906,483 906,606 1397,597 1392,497"/>
+         <zone xml:id="f17v01_i_maison_add" points="1092,675 1092,745 1375,720 1365,655"/>
          <zone xml:id="f17v01_i_sa" points="794,883 805,1071 852,1077 964,889"/>
       </surface>
    </facsimile>
@@ -36,23 +36,25 @@
       <body>
          <ab><roleName ref="Q107207194">Mon pere</roleName>
             <subst>
-               <del>ainsy né, <del facs=" #f17v01_i_dun_Mammes2" xml:id="f17v01_dun_Mammes2"><add
-                        facs="#f17v01_i_dun_Mammes1" xml:id="f17v01_dun_Mammes1">d<choice>
+               <del>ainsy né, <add facs="#f17v01_i_dun_Mammes" xml:id="f17v01_dun_Mammes_add"
+                        ><del seq="2" facs="#f17v01_i_dun_maison" xml:id="f17v01_dun_maison">d<choice>
                            <orig/>
                            <reg>'</reg>
-                        </choice>un gentilhome de ceste maison de
-                     <surname>Mammes</surname></add></del> et d<choice>
+                        </choice>un gentilhome de ceste maison</del>
+                     <del seq="1" facs="#f17v01_i_de_Mammes" xml:id="f17v01_de_Mammes">de
+                           <surname>Mammes</surname></del></add> et d<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>une damoyselle qui estoit de <surname>Canna</surname>, <subst>
-                     <del facs="#f17v01_i_maison1" xml:id="f17v01_maison1">maison</del>
-                     <del facs="#f17v01_i_bone_famille2" xml:id="f17v01_bone_famille2"><add
-                           facs="#f17v01_i_bone_famille1" xml:id="f17v01_bone_famille1">bone
+                     <del facs="#f17v01_i_maison_del" xml:id="f17v01_maison_del">maison</del>
+                     <del facs="#f17v01_i_bone_famille" xml:id="f17v01_bone_famille_del"><add
+                           facs="#f17v01_i_bone_famille" xml:id="f17v01_bone_famille_add">bone
                            famille</add></del>
-                     <add facs="#f17v01_i_maison2" xml:id="f17v01_maison2">maison</add>
+                     <add facs="#f17v01_i_maison_add" xml:id="f17v01_maison_add">maison</add>
                   </subst><substJoin seq="1"
-                     target=" #f17v01_dun_Mammes1 #f17v01_maison1 #f17v01_bone_famille1"/><substJoin
-                     seq="2" target=" #f17v01_dun_Mammes2 #f17v01_bone_famille2 #f17v01_maison2"/>
+                     target=" #f17v01_dun_Mammes_add #f17v01_maison_del #f17v01_bone_famille_add"
+                     /><substJoin seq="2"
+                     target=" #f17v01_dun_maison #f17v01_bone_famille_del #f17v01_maison_add"/>
                   cognue en <placeName ref="Q191085"><choice>
                         <orig>g</orig>
                         <reg>G</reg>

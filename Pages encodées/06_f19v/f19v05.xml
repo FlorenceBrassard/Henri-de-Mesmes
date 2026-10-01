@@ -23,7 +23,8 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1047,1798,2543,465/full/0/default.jpg"/>
-            <zone xml:id="f19v05_i_a_et2" points="683,413 726,278 526,226 1100,178"/>
+            <zone xml:id="f19v01_metamark_i_01" points="742,272 828,370 674,390"/>
+            <zone xml:id="f19v05_i_a_et" points="1062,224 640,290 632,198 1100,178"/>
             <zone xml:id="f19v05_i_auditoire" points="1552,156 1552,221 1896,208 1917,121"/>
             <zone xml:id="f19v05_i_lassistance" points="1526,100 1530,156 1917,130 1913,91"/>
         </surface>
@@ -41,8 +42,8 @@
             <ab><s><choice>
                         <orig>l</orig>
                         <reg>L</reg>
-                    </choice>e mesme fut en passant <del facs="#f19v05_i_a_et2"
-                        xml:id="f19v05_a_et_2"><metamark function="insert" target="#f19v05_a_et_1"
+                    </choice>e mesme fut en passant <del facs="#f19v05_i_a_et"
+                        xml:id="f19v05_a_et_2"><metamark facs="#f19v01_i_metamark_01" function="insert" target="#f19v05_a_et_1"
                             >^</metamark>
                         <add xml:id="f19v05_a_et_1"><choice>
                                 <orig>a</orig>

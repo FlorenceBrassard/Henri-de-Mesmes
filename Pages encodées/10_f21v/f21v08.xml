@@ -23,7 +23,7 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1035,2532,2558,1139/full/0/default.jpg"/>
-            <zone xml:id="f21v08_i_metamark1" points="1579,309 1496,383 1652,383"/>
+            <zone xml:id="f21v08_i_metamark01" points="1579,309 1496,383 1652,383"/>
             <zone xml:id="f21v08_i_et" points="1570,222 1539,326 1639,296 1679,222"/>
             <zone xml:id="f21v08_i_chef_sur" points="2339,248 2339,322 2548,313 2535,240"/>
             <zone xml:id="f21v08_i_au_Sienois" points="2087,187 2105,274 2552,253 2518,157"/>
@@ -59,7 +59,7 @@
                         <expan>monsieur</expan>
                     </choice>
                     <persName ref="Q28495"><nameLink>de</nameLink> Guise</persName><metamark
-                        facs="#f21v08_i_metamark1" function="insert" target="#f21v08_et"
+                        facs="#f21v08_i_metamark01" function="insert" target="#f21v08_et"
                         >^</metamark><add facs="#f21v08_i_et" xml:id="f21v08_et">et</add>
                     <choice>
                         <orig>i</orig>

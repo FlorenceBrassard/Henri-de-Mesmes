@@ -25,11 +25,11 @@
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/804,3125,3061,1019/full/0/default.jpg"/>
          <zone xml:id="f22r05_i_s_yuy" points="2700,11 2616,169 2916,206 2926,21"/>
          <zone xml:id="f22r05_i_por_suyuy" points="20,322 15,564 689,437 715,290"/>
-         <zone xml:id="f22r05_i_metamark1" points="663,569 595,653 747,648"/>
+         <zone xml:id="f22r05_i_metamark01" points="663,569 595,653 747,648"/>
          <zone xml:id="f22r05_i_le" points="610,427 731,416 731,527 579,542"/>
-         <zone xml:id="f22r05_i_metamark2" points="1426,637 1337,748 1505,737"/>
+         <zone xml:id="f22r05_i_metamark02" points="1426,637 1337,748 1505,737"/>
          <zone xml:id="f22r05_i_depuys_acordée" points="1352,527 1316,663 1910,595 1900,506"/>
-         <zone xml:id="f22r05_i_metamark3" points="1422,837 1347,950 1477,947"/>
+         <zone xml:id="f22r05_i_metamark03" points="1422,837 1347,950 1477,947"/>
          <zone xml:id="f22r05_i_et_luy" points="1607,677 1527,820 2787,752 2760,615"/>
       </surface>
    </facsimile>
@@ -68,12 +68,12 @@
                      <del rend="overwritten">e</del>
                      <add place="superimposed">a</add>
                   </subst>ns</placeName> et <add>ne</add>
-               <metamark facs="#f22r05_i_metamark1" function="insert" target="#f22r05_le"
+               <metamark facs="#f22r05_i_metamark01" function="insert" target="#f22r05_le"
                   >^</metamark><add facs="#f22r05_i_le" xml:id="f22r05_le"><metamark>^</metamark> le
                </add> laissay guiere durant la guerre ny en la res<choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>ouissance de la pais <metamark facs="#f22r05_i_metamark2" function="insert"
+               </choice>ouissance de la pais <metamark facs="#f22r05_i_metamark02" function="insert"
                   target="#f22r05_depuys_acordée">^</metamark><add facs="#f22r05_i_depuys_acordée"
                   xml:id="f22r05_depuys_acordée"><metamark>^</metamark> depuys acordée</add> o<choice>
                   <orig>u i</orig>
@@ -83,7 +83,7 @@
                   <reg>à</reg>
                </choice>
                <placeName ref="Q90">Paris</placeName> du coup dont il mourrut <add seq="2"><metamark
-                     facs=" #f22r05_i_metamark3" function="insert" target="#f22r05_et_luy"
+                     facs=" #f22r05_i_metamark03" function="insert" target="#f22r05_et_luy"
                      >^</metamark></add><add seq="1"><del>et la p</del></add><add
                   facs="#f22r05_i_et_luy" seq="2" xml:id="f22r05_et_luy"><metamark>^</metamark>
                   <choice>

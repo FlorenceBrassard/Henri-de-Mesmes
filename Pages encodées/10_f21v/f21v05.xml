@@ -23,7 +23,7 @@
       <surface>
          <graphic
             url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1034,1884,2561,693/full/0/default.jpg"/>
-         <zone xml:id="f21v05_i_metamark1" points="2104,131 2056,235 2204,226"/>
+         <zone xml:id="f21v05_i_metamark01" points="2104,131 2056,235 2204,226"/>
          <zone xml:id="f21v05_i_de_lestat" points="2074,18 2022,131 2383,104 2387,22"/>
       </surface>
    </facsimile>
@@ -39,7 +39,7 @@
                <choice>
                   <abbr>afe<hi rend="superscript">r</hi>s</abbr>
                   <expan>afaires</expan>
-               </choice><metamark facs="#f21v05_i_metamark1" function="insert"
+               </choice><metamark facs="#f21v05_i_metamark01" function="insert"
                   target="#f21v05_de_lestat">^</metamark><add facs="#f21v05_i_de_lestat"
                   xml:id="f21v05_de_lestat">de l<choice>
                      <orig>e</orig>

@@ -27,7 +27,7 @@
             <zone xml:id="f21v02_i_qui_est" points="652,267 662,391 1000,362 1000,234"/>
             <zone xml:id="f21v02_i_iuge" points="1467,196 1481,296 1691,239 1672,129"/>
             <zone xml:id="f21v02_i_Cest_et" points="638,162 638,272 1290,253 1290,148"/>
-            <zone xml:id="f21v02_i_metamark1" points="1824,824 1743,934 1871,934"/>
+            <zone xml:id="f21v02_i_metamark01" points="1824,824 1743,934 1871,934"/>
             <zone xml:id="f21v02_i_ores_grand" points="1843,729 1786,805 2424,776 2410,705"/>
             <zone xml:id="f21v02_i_vil_grand" points="2414,738 1810,881 1629,891 1748,753"/>
             <zone xml:id="f21v02_i_mais_toutesfois" points="2167,805 2167,915 2752,872 2743,696"/>
@@ -96,7 +96,7 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e feis en quitant ce<del>st</del>
-                    <del facs="#f21v02_i_vil_grand" xml:id="f21v02_vil_grand">vil <metamark facs="#f21v02_i_metamark1" function="insert"
+                    <del facs="#f21v02_i_vil_grand" xml:id="f21v02_vil_grand">vil <metamark facs="#f21v02_i_metamark01" function="insert"
                             target="#f21v02_ores_grand">^</metamark>
                         <add facs="#f21v02_i_ores_grand" xml:id="f21v02_ores_grand">ores que bien grand</add></del> profit,
                         <subst>

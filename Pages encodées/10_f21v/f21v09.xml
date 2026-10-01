@@ -25,12 +25,12 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1054,3338,2553,2346/full/0/default.jpg"/>
             <zone xml:id="f21v09_i_et" points="1100,665 1074,756 1218,721 1218,652"/>
             <zone xml:id="f21v09_i_sr" points="1352,1052 1265,1143 1300,1152 1405,1060"/>
-            <zone xml:id="f21v09_i_metamark1" points="1396,1043 1335,1130 1426,1130"/>
+            <zone xml:id="f21v09_i_metamark01" points="1396,1043 1335,1130 1426,1130"/>
             <zone xml:id="f21v09_i_baron" points="1257,986 1257,1060 1548,1039 1526,947"/>
             <zone xml:id="f21v09_i_vieilles_add" points="505,1600 500,1695 761,1678 787,1586"/>
             <zone xml:id="f21v09_i_vieilles_del" points="1648,1573 1652,1713 2105,1700 2131,1569"/>
-            <zone xml:id="f21v09_i_metamark2" points="474,1691 431,1804 540,1808"/>
-            <zone xml:id="f21v09_i_metamark3" points="439,1839 361,1968 474,1955"/>
+            <zone xml:id="f21v09_i_metamark02" points="474,1691 431,1804 540,1808"/>
+            <zone xml:id="f21v09_i_metamark03" points="439,1839 361,1968 474,1955"/>
             <zone xml:id="f21v09_i_blacons" points="370,1769 379,1865 652,1847 639,1756"/>
             <zone xml:id="f21v09_i_C" points="1770,1721 1705,1882 1805,1882 1852,1726"/>
             <zone xml:id="f21v09_i_aussans_undo" points="2213,1791 2200,1865 1752,1860 1757,1821"/>
@@ -108,7 +108,7 @@
                         facs="#f21v09_i_sr" xml:id="f21v09_sr"><choice>
                             <abbr>s<hi rend="superscript">r</hi></abbr>
                             <expan>seigneur</expan>
-                        </choice></del><metamark facs="#f21v09_i_metamark1" function="insert"
+                        </choice></del><metamark facs="#f21v09_i_metamark01" function="insert"
                         target="#f21v09_baron">^</metamark><add facs="#f21v09_i_baron"
                         xml:id="f21v09_baron"><metamark>^</metamark>baron</add><substJoin
                         target="#f21v09_sr #f21v09_baron"/>
@@ -168,7 +168,7 @@
                     </choice>ec <choice>
                         <abbr>le<hi rend="superscript">rs</hi></abbr>
                         <expan>leurs</expan>
-                    </choice><metamark facs="#f21v09_i_metamark2" function="insert"
+                    </choice><metamark facs="#f21v09_i_metamark02" function="insert"
                         target="#f21v09_vieilles_add">^</metamark>
                     <add facs="#f21v09_i_vieilles_add" xml:id="f21v09_vieilles_add">vieilles</add>
                     <choice>
@@ -185,7 +185,7 @@
                             </choice>ussan</surname></persName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice><metamark facs="#f21v09_i_metamark3" function="insert"
+                    </choice><metamark facs="#f21v09_i_metamark03" function="insert"
                         target="#f21v09_blacons">^</metamark><add facs="#f21v09_i_blacons"
                         xml:id="f21v09_blacons"><metamark>^</metamark><persName><surname><choice>
                                     <orig>b</orig>
