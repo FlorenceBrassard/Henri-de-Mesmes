@@ -81,7 +81,7 @@
                             <orig>c</orig>
                             <reg>C</reg>
                         </choice>icero</persName>, <del facs="#f19r02_i_et_Plato"
-                        xml:id="f19r02_et_plato">et <persName ref="Q859">Plato</persName>. </del>
+                        xml:id="f19r02_et_plato">et <persName ref="Q859">Plato</persName>.</del>
                     <add facs="#f19r02_i_Virgilius_horatius" xml:id="f19r02_virgilius_horatius"
                             ><persName ref="Q1398">Virgili<choice>
                                 <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
@@ -90,8 +90,10 @@
                                 <orig>h</orig>
                                 <reg>H</reg>
                             </choice>oratius</persName></add>
-                    <supplied>.</supplied></s><substJoin target="#f19r02_ou_de_1 #f19r02_et_plato"
-                    /><substJoin
+                    <choice>
+                        <orig/>
+                        <reg>.</reg>
+                    </choice></s><substJoin target="#f19r02_ou_de_1 #f19r02_et_plato"/><substJoin
                     target="#f19r02_de_1 #f19r02_par_ieu #f19r02_de_2 #f19r02_ou_de_2 #f19r02_virgilius_horatius"/>
                 <s>
                     <del><choice>

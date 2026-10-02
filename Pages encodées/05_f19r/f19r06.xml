@@ -170,7 +170,10 @@
                      </choice>estude entre <persName ref="Q2405987"><surname><choice>
                               <orig>f</orig>
                               <reg>F</reg>
-                           </choice>ois</surname></persName><supplied>,</supplied>
+                           </choice>ois</surname></persName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                     </choice> 
                      <del>et</del>
                      <persName ref="Q3121749"><surname><choice>
                               <orig>p</orig>

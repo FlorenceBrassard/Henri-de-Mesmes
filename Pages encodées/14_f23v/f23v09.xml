@@ -80,7 +80,7 @@
                         <del>son</del>
                         <add>cest</add>
                     </subst>
-                    <del><unclear cert="high" reason="cancelled">l</unclear></del> office.</s></ab>
+                    <del><unclear cert="high" reason="deleted">l</unclear></del> office.</s></ab>
         </body>
     </text>
 </TEI>

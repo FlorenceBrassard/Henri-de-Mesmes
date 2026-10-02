@@ -53,32 +53,38 @@
             </choice><placeName ref="Q90"><choice>
                   <orig>p</orig>
                   <reg>P</reg>
-               </choice>aris</placeName> le <date>mardy <del>penu</del> xxx<hi rend="superscript">e</hi>
-            <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>our de <choice>
-               <orig>J</orig>
-               <reg>j</reg>
-            </choice>an<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>ier <hi rend="overlined">153<subst facs="#f18r01_i_1531" xml:id="f18r01_1531">
-                  <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
-                  <del rend="overwritten">2</del>
-                  <add place="superimposed" seq="2">1</add>
-            </subst></hi>
-            <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant"><add seq="1">qui est
-                  33 selon la reduction qu<substJoin target="#f18r01_1531 #f18r01_qui_maintenant"/><choice>
-                     <orig/>
-                     <reg>'</reg>
-                  </choice>on tient maintenant</add></del>
-            <choice>
-               <orig>a</orig>
-               <reg>à</reg>
-            </choice> trois heures du matin</date><supplied>.</supplied><metamark
-               facs="#f18r01_i_qui_prst" function="insert" target="#f18r01_qui_prst"
-               >҂</metamark><add facs="#f18r01_i_qui_prst" xml:id="f18r01_qui_prst"><metamark>҂</metamark><subst>
+               </choice>aris</placeName> le <date>mardy <del>penu</del> xxx<hi rend="superscript"
+                  >e</hi>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>our de <choice>
+                  <orig>J</orig>
+                  <reg>j</reg>
+               </choice>an<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ier <hi rend="overlined">153<subst facs="#f18r01_i_1531"
+                     xml:id="f18r01_1531">
+                     <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
+                     <del rend="overwritten">2</del>
+                     <add place="superimposed" seq="2">1</add>
+                  </subst></hi>
+               <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant"><add seq="1">qui
+                     est 33 selon la reduction qu<substJoin
+                        target="#f18r01_1531 #f18r01_qui_maintenant"/><choice>
+                        <orig/>
+                        <reg>'</reg>
+                     </choice>on tient maintenant</add></del>
+               <choice>
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice> trois heures du matin</date><choice>
+               <orig/>
+               <reg>.</reg> 
+            </choice><metamark facs="#f18r01_i_qui_prst" function="insert" target="#f18r01_qui_prst"
+               >҂</metamark><add facs="#f18r01_i_qui_prst" xml:id="f18r01_qui_prst"
+                  ><metamark>҂</metamark><subst>
                   <del facs="#f18r01_i_qui" xml:id="f18r01_qui">qui</del>
                   <add facs="#f18r01_i_c" xml:id="f18r01_c"><choice>
                         <orig>c</orig>
