@@ -95,10 +95,11 @@
                         </choice><placeName ref="Q22"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
-                            </choice>scosse</placeName></add> né en <placeName ref="Q191085"><choice>
-                            <orig>g</orig>
-                            <reg>G</reg>
-                        </choice>ascoigne</placeName><choice>
+                            </choice>scosse</placeName></add>
+                    <birth>né en <placeName ref="Q191085"><choice>
+                                <orig>g</orig>
+                                <reg>G</reg>
+                            </choice>ascoigne</placeName></birth><choice>
                         <orig>,</orig>
                         <reg>.</reg>
                     </choice>
@@ -157,10 +158,10 @@
                     <persName><forename>Amaneus</forename>
                         <nameLink>de</nameLink>
                         <surname>Mammes</surname></persName>
-                    <del facs="#f17r06_i_qui_01" xml:id="f17r06_qui">qui</del> dez l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>an <date>1200</date> veint prendre terre <del>ferme</del> en <subst>
+                    <del facs="#f17r06_i_qui_01" xml:id="f17r06_qui">qui</del> dez <date>l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>an 1200</date> veint prendre terre <del>ferme</del> en <subst>
                         <del facs="#f17r06_i_Marsan" xml:id="f17r06_Marsan"><placeName
                                 ref="Q3373488">Marsan</placeName></del>
                         <add facs="#f17r06_i_Guiene" xml:id="f17r06_Guiene"><placeName ref="Q849324"
@@ -198,8 +199,8 @@
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>'en</add>
-                        </subst> ay veu le titre, et en ay copie den<subst>
-                            <del rend="overwritten"><gap reason="deleted" quantity="01" unit="char"
+                        </subst> ay veu le titre, et en ay copie den<subst instant="true">
+                            <del rend="overwritten"><gap quantity="01" reason="deleted" unit="char"
                                 /></del>
                             <add place="superimposed">s</add>
                         </subst> mes papiers.</del></s><s>
@@ -289,16 +290,17 @@
                         <subst>
                             <del>qu'en</del>
                             <add>que</add>
-                        </subst><substJoin target="#f17r06_et_del #f17r06_et_add"/> l<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>an <date>1567</date> le gou<choice>
+                        </subst><substJoin target="#f17r06_et_del #f17r06_et_add"/>
+                        <date>l<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>an 1567</date> le gou<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>erneur <subst>
+                        </choice>erneur <subst instant="true">
                             <del>du pais</del>
-                            <add>de la ville</add>
-                        </subst> se nommoit <del facs="#f17r06_i_lors_01" xml:id="f17r06_lors"
+                            <add>de la</add>
+                        </subst> ville se nommoit <del facs="#f17r06_i_lors_01" xml:id="f17r06_lors"
                             >lors</del><undo rend="underlined" target="#f17r06_lors"/><redo
                             cert="low" rend="striked" target="#f17r06_lors"/>
                         <subst>
@@ -383,13 +385,13 @@
                         xml:id="f17r06_metamark_04">^</metamark><add facs="#f17r06_i_et_ville"
                         xml:id="f17r06_et_ville">et de la ville</add> portoit <subst>
                         <del>ancore</del>
-                        <add><del>anc<gap reason="deleted" quantity="01" unit="char"/></del></add>
+                        <add><del>anc<gap quantity="01" reason="deleted" unit="char"/></del></add>
                     </subst>
                     <choice>
                         <abbr rend="overlined">nre</abbr>
                         <expan>nostre</expan>
                     </choice> nom <del facs="#f17r06_i_et_03" xml:id="f17r06_et_03">et <unclear
-                            reason="deleted"><choice>
+                            cert="medium" reason="deleted"><choice>
                                 <orig>nr</orig>
                                 <reg>nostre</reg>
                             </choice></unclear></del>
@@ -430,16 +432,62 @@
                         <del><subst>
                                 <del>ceste</del>
                                 <add facs="#f17r06_i_ce_01" xml:id="f17r06_ce_01">ce</add>
-                            </subst>mesme <subst>
-                                <del>lig</del>
+                            </subst> mesme <subst>
+                                <del instant="true">lig</del>
                                 <del><add>famille</add></del>
                                 <add facs="#f17r06_i_nom_armes" xml:id="f17r06_nom_armes">nom et
                                     armes</add>
                             </subst></del>
                         <add>cete maison</add>
                     </subst><substJoin target="#f17r06_ce_01 #f17r06_nom_armes"/>. <anchor
-                        xml:id="f17r06_maison"/></s>
-            </ab>
+                        xml:id="f17r06_maison"/></s></ab>
+            <note resp="AV" type="genetic">Le récit des origines est un des passages les plus
+                retravaillés et des plus raturés du manuscrit. Les hésitations dont témoigne
+                l’analyse génétique ainsi que le contenu même des passages supprimés paraissent
+                trahir les incertitudes du mémorialiste, qui cherche à doter sa famille d’origines
+                prestigieuses.<lb/> La première partie du récit fait l’objet de quelques
+                reformulations. Parmi les plus remarquables, on note l’hésitation quant à la bonne
+                manière de souligner l’origine écossaise d’un père pourtant né en Gascogne ; on fait
+                l’hypothèse que le <seg>soulignement de « mais »</seg>, plutôt que de signifier un
+                rétablissement, pourrait valoir comme une marque d’emphase. La <seg
+                    facs="#f17r06_i_issu_descosse">mention de l’Écosse</seg> est finalement déplacée
+                en amont de celle de la Gascogne, certainement pour mieux accorder à cette terre
+                lointaine et prestigieuse la priorité.<lb/> On remarque également la suppression de
+                la référence aux « <seg>guerres de la Guienne</seg> » (XIII<hi rend="superscript"
+                    >e</hi> siècle), qui auraient expliqué l’implantation du supposé chevalier
+                écossais de Mammes au sein d’un fief du roi d’Angleterre, alors convoité par la
+                France. Le mémorialiste fait également disparaître la formule par laquelle il
+                attestait disposer d’une <seg>« copie » du « titre » de son ancêtre « dens [s]es
+                    papiers »</seg>, tout en maintenant avoir pu consulter un tel document et en
+                ajoutant une <seg>allusion aux armes de sa famille</seg>, présentes dans une
+                chapelle de Mont-de-Marsan. La preuve matérielle des origines se trouve ainsi à la
+                fois dédoublée (« titre » et « armes ») et affaiblie – document vu plutôt que
+                conservé et donc encore consultable ; armoiries en Gascogne, sans possibilité de
+                démontrer un quelconque lien avec l’Écosse.<lb/> La deuxième partie du récit des
+                origines, allant de « <seg>ce cheualier estoit de berrwich</seg> » à « <seg>mesmes
+                    armes</seg> », est entièrement supprimée par des traits obliques. Le propos est
+                partiellement reformulé dans un <seg>long ajout</seg> placé en bas de la page et
+                dans la marge de gauche : le mémorialiste évoque dans les deux cas une enquête qui
+                lui aurait permis de retrouver la trace de sa famille en Écosse, en la personne du
+                gouverneur de « Berwich ». Henri de Mesmes supprime définitivement la <seg>mention
+                    d’une certaine mademoiselle de Saint-Mesmes Albanie</seg>, dont l’intégration à
+                la syntaxe paraît très hésitante, et ajoute des <seg>précisions topographiques</seg>
+                au sujet de « Berwich », dans un passage qui n’est pas entièrement
+                déchiffrable.<lb/> Pour finir, on fait l’hypothèse que le premier ajout marginal de
+                gauche (« <seg>en la recerche que ien fey en lan 1567 pour</seg> ») est inabouti et
+                rayé, en même temps que « <seg>les</seg> », comme le suggère le trait continu. Cette
+                suppression est relayée par un aspect du retravail de la phrase principale, à savoir
+                la suppression de « <seg>bone information</seg> » au profit de « <seg>fey la
+                    recerche</seg> ». Un signe d’insertion paraît avoir été placé au-dessus de
+                    « <seg>en</seg> », mais n’est pas visible du fait de la reliure. Il pourrait
+                être similaire à celui placé devant « <seg>a present</seg> », si l’on accepte
+                l’hypothèse, comme nous avons choisi de le faire, que le second ajout marginal de
+                gauche vient se substituer au premier. </note>
+            <note resp="AV" type="critic">Les manuscrits Français 18617 et Duschene 57 ne donnent
+                pas « Amaneus de Mannes », mais des formules comparables qui n’ont guère de sens :
+                « Vn ancien cheualier Escossois de Beruich ammena de Mammes des lan 1200 » pour le
+                premier (f. 3r°) ; « vn ancien cheualier Escossois, de Beruich ammena de de [<hi
+                    rend="italic">sic</hi>] Mammes des lan 1200 » pour le second (f. 56v°).</note>
         </body>
     </text>
 </TEI>

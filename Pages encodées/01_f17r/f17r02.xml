@@ -148,18 +148,41 @@
                         xml:id="f17r02_recommandables_memorables">
                         <del>recommandables</del>
                         <add facs="#f17r02_i_memorables">memorables</add>
-                    </subst>.</s>
-            </ab>
+                    </subst>.</s></ab>
+            <note resp="AV" type="genetic">On fait l’hypothèse que l’ajout « <seg>en france</seg> »
+                a été raturé au moment de l’addition, dans la marge de gauche, de la formule
+                affirmant que la noblesse de robe écrit peu ses Mémoires (« <seg><hi rend="italic"
+                        >et ceulx qui ont les armes en France, n’escrivent
+                guiere</hi></seg> »).<lb/> La seconde proposition du premier jet (« <seg>Aussi ne
+                    vois ie pas…</seg> »), qui en constituait la majeure partie, est presque
+                entièrement supprimée, de même que l’ajout de la marge de gauche. Le tout est
+                remplacé par un ajout plus haut dans la phrase, qui reprend et développe le même
+                propos que l’ajout marginal supprimé – mépris de la noblesse d’épée pour les lettres
+                et l’activité d’écriture. Nous faisons l’hypothèse que « <seg><hi rend="italic">et
+                        ie ne voy pas les gens de robe longue</hi></seg> » est ajouté dans le même
+                temps, et notamment de manière concomitante à l’ajout du « <seg><hi rend="italic"
+                        >s’</hi></seg> » devant « eslever » (« <seg><hi rend="italic">et ie ne voy
+                        pas les gens de robe longue</hi></seg> […] <seg>s’eslever par faicts
+                    recommendables » </seg>). <lb/> Henri de Mesmes retravaille ensuite nettement la
+                formulation pour mieux souligner le fait que la noblesse d’épée n’écrit pas : il
+                remplace une partie de ce qu’il a ajouté par la formule « <seg><hi rend="italic"
+                        >n’usent guiere de plumes qu’à leurs chapeaus</hi></seg> ». Par ailleurs, il
+                trouve une autre manière de formuler son propos sur la noblesse de robe, qui formait
+                le cœur du premier jet. Plutôt que de simplement constater que les robins ne
+                s’élèvent pas, il souligne l’impuissance à laquelle ils sont réduits (« <seg><hi
+                        rend="italic">ceulx de robe longue nont pas moyen de se recommander par
+                        faits mémorables</hi></seg> »), après avoir renoncé à une première tentative
+                        (« <seg><hi rend="italic">et ie ne voy pas come les gens de robe
+                    longue</hi></seg> »).<lb/> La phrase passe ainsi d’un constat sur les seuls
+                robins – intégralement supprimé dans sa version initiale – à une mise en regard de
+                la noblesse de robe et de la noblesse d’épée.<lb/> Continuent de poser question ce
+                que nous interprétons comme deux signes d’insertion : <seg>l’un après « Royaume »,
+                    raturé</seg>, et <seg>l’autre dans la marge de gauche</seg>, placé devant « <hi
+                    rend="italic">n’escriuent</hi>  », mais introduisant <hi rend="italic">a
+                    priori</hi> l’ensemble de l’ajout qui débute avec « <hi rend="italic">et
+                    ceulx</hi> ». Ces deux signes pourraient avoir la même forme mais ne constituent
+                pas un système cohérent sur le plan syntaxique.</note>
         </body>
-        <note>Nous percevons trois principales étapes de rédaction, qui permettent d’aller d’une
-            première proposition raturée, suivie d’un ajout lui aussi raturé, à une phrase
-            comportant deux propositions coordonnées qui reprennent, sur le plan sémantique, le
-            propos des deux étapes antérieures : Henri de Mesmes associe en effet deux constats
-            complémentaires, la noblesse d’épée, qui aurait de grands faits à raconter, écrit peu
-            tandis que la noblesse de robe, qui manie la plume, n’a rien d’honorable à transmettre.
-            [à creuser ; ajouter possiblement un commentaire sur la référence à la mode? elle
-            concerne d’abord une pratique d’écriture qu’avaient les « homes de valeur », puis
-            l’instrument de cette écriture, la plume, est relégué au rang d’accessoire
-            vestimentaire...]</note>
+
     </text>
 </TEI>
