@@ -71,10 +71,11 @@
                     </subst><choice>
                         <orig>,</orig>
                         <reg> :</reg>
-                    </choice> elle n'atend pas de <subst>
-                        <del rend="unmarked">contenter</del>
-                        <add>remplir</add>
-                    </subst> noz apetits<choice>
+                    </choice> elle n'atend pas de <!-- A évaluer -->
+                    <seg xml:id="f32r5_contenter">contenter</seg>
+                    <add xml:id="f32r5_remplir">remplir</add>
+                    <alt mode="incl" target="#f32r5_contenter #f32r5_remplir"/>
+                    <!-- A évaluer --> noz apetits<choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> elle assou<choice>
