@@ -87,7 +87,7 @@
                 <del><choice>
                         <orig>t</orig>
                         <reg>T</reg>
-                    </choice>respr<unclear cert="high" reason="cancelled">u</unclear>
+                    </choice>respr<unclear cert="high" reason="deleted">u</unclear>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>

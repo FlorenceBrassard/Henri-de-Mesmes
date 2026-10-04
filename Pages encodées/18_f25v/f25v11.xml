@@ -64,7 +64,7 @@
                         </choice></seg> me fut <metamark facs="#f25v11_i_metamark_02"
                         function="insert" target="#f25v11_lors_aussy">^</metamark><add
                         facs="#f25v11_i_lors_aussy" xml:id="f25v11_lors_aussy"
-                            ><metamark>^</metamark>lors <del><unclear cert="high" reason="cancelled"
+                            ><metamark>^</metamark>lors <del><unclear cert="high" reason="deleted"
                                 >au</unclear>ssy</del></add> baillé <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>

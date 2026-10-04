@@ -32,8 +32,10 @@
          <ab><s><del>Aussy tost que <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>e fu ches moy</del> Le Jugement du <roleName ref="Q53448">Roy</roleName>
-               que <choice>
+                  </choice>e fu che<choice>
+                     <orig>s</orig>
+                     <reg>z</reg>
+                  </choice> moy</del> Le Jugement du <roleName ref="Q53448">Roy</roleName> que <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e viens de dire fut ainsy doné sur moy sens m<choice>

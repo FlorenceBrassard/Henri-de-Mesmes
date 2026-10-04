@@ -42,8 +42,11 @@
                             </choice>assistance <choice>
                                 <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                                 <expan>con</expan>
-                            </choice>tinuelle du maistre <unclear cert="medium" reason="reliure"
-                                >toutesfois</unclear></add></del>
+                            </choice>tinuelle du maistre tres<choice>
+                                <orig/>
+                                <reg> </reg>
+                            </choice>soi<unclear cert="medium" reason="reliure"
+                            >gneux</unclear></add></del>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
@@ -73,7 +76,7 @@
                     </subst>ris la vie frugale de la scolarité, et <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice>regler mes heures. </s></ab>
+                    </choice>regler mes heures.</s></ab>
         </body>
     </text>
 </TEI>

@@ -60,13 +60,13 @@
                     </subst> tant <del xml:id="f31vop12_de">de</del><substJoin
                         target="#f31vop12_vaudra_naura #f31vop12_bien_leurs #f31vop12_de"/>
                         laborieus<subst xml:id="f31vop12_occupations_trauaulx">
-                        <del>es occupations.</del>
+                        <del>es occupations</del>
                         <add>tra<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>aulx</add>
                     </subst><substJoin target="#f31vop12_trauaux #f31vop12_occupations_trauaulx"
-                        /><supplied>.</supplied></s></ab>
+                    />.</s></ab>
         </body>
     </text>
 </TEI>

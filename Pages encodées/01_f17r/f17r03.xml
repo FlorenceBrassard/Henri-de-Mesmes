@@ -33,77 +33,83 @@
     </facsimile>
     <text>
         <body>
-            <ab><subst>
-                    <del>Mais</del>
-                    <add><del facs="#f17r03_i_et" xml:id="f17r03_et">Et</del></add>
-                </subst> que s<choice>
-                    <orig>c</orig>
-                    <reg>ç</reg>
-                </choice>auroit faire de grand <choice>
-                    <orig>v</orig>
-                    <reg>u</reg>
-                </choice>n home seul <metamark facs="#f17r03_i_metamark_01" function="insert"
-                    target="#f17r03_ne_famille" xml:id="f17r03_metamark_03-01">°¯</metamark>
-                <add facs="#f17r03_i_ne_famille" xml:id="f17r03_ne_famille"
-                    ><metamark>°¯</metamark>ne commendant <subst>
-                        <del>qu'</del>
-                        <add>qu'<choice>
-                                <orig>a</orig>
-                                <reg>à</reg>
-                            </choice> poine</add>
-                    </subst>
-                    <add><del>ceans</del></add> en sa <del>petite</del> famille</add> sens mains
-                synon pour oster son bonet, sens langue sy ce n<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>est pour flater ? <add facs="#f17r03_i_et_serviteur" seq="01"
-                    xml:id="f17r03_et_serviteur">Et en fin de compte pour tout <choice>
-                        <orig>E</orig>
-                        <reg>e</reg>
-                    </choice>loge, <add>c<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>est domage</add><choice>
-                        <orig/>
-                        <reg>, </reg>
-                    </choice>
-                    <choice>
-                        <orig>C</orig>
-                        <reg>c</reg>
-                    </choice><choice>
+            <ab><s><subst>
+                        <del>Mais</del>
+                        <add><del facs="#f17r03_i_et" xml:id="f17r03_et">Et</del></add>
+                    </subst> que s<choice>
+                        <orig>c</orig>
+                        <reg>ç</reg>
+                    </choice>auroit faire de grand <choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>n home seul <metamark facs="#f17r03_i_metamark_01" function="insert"
+                        target="#f17r03_ne_famille" xml:id="f17r03_metamark_03-01">°¯</metamark>
+                    <add facs="#f17r03_i_ne_famille" xml:id="f17r03_ne_famille"
+                            ><metamark>°¯</metamark>ne commendant <subst>
+                            <del>qu'</del>
+                            <add>qu'<choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                                </choice> poine</add>
+                        </subst>
+                        <add><del>ceans</del></add> en sa <del>petite</del> famille</add> sens mains
+                    synon pour oster son bonet, sens langue sy ce n<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>estoit un bon serviteur.</add>
+                    </choice>est pour flater ?</s><s><add facs="#f17r03_i_et_serviteur" seq="01"
+                        xml:id="f17r03_et_serviteur">Et en fin de compte pour tout <choice>
+                            <orig>E</orig>
+                            <reg>e</reg>
+                        </choice>loge, <add>c<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>est domage</add><choice>
+                            <orig/>
+                            <reg>, </reg>
+                        </choice>
+                        <choice>
+                            <orig>C</orig>
+                            <reg>c</reg>
+                        </choice><choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>estoit un bon ser<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>iteur.</add></s>
                 <substJoin target="#f17r03_et #f17r03_et_serviteur"/>
-                <metamark facs="#f17r03_i_metamark_02" function="insert"
-                    target="#f17r03_certes_soymesmes" xml:id="f17r03_metamark_03_02">+</metamark>
-                <add facs="#f17r03_i_certes_soymesmes" seq="02" xml:id="f17r03_certes_soymesmes"
-                        ><metamark>+</metamark> Certes mieulx vaudroit avoir <del>apris <gap
-                            quantity="02" unit="char"/></del> esté bien maistre de soymesmes<choice>
-                        <orig/>
-                        <reg>.</reg>
-                    </choice></add><note resp="AV" type="génétique">Les hésitations du premier ajout
-                    principal (« ne commendant <hi rend="italic">qu’a poine ceans</hi> qu’en sa
-                    petite famille ») montrent une alternative entre l’atténuation de la faiblesse
-                    de l’énonciateur (« <seg>ne commendant qu’en sa petite famille</seg> ») et
-                    l’insistance sur celle-ci (« <seg>ne commendant <hi rend="italic">qu’a
-                            poine</hi> en sa famille</seg> »). Le choix de cette deuxième variante
-                    conforte un raisonnement <hi rend="italic">a fortiori</hi> : impuissant dans sa
-                    propre famille, que pourrait faire le serviteur au sein de la vie publique ? La
-                    suppression du déictique « <seg><hi rend="italic">ceans</hi></seg> » (<hi
-                        rend="italic">ici</hi>, <hi rend="italic">dans ce lieu</hi>) permet de
-                    conférer au propos une portée plus générale, conforme à l’absence de première
-                    personne. Elle suggère également peut-être le fait qu’au moment de la rédaction,
-                    après la disgrâce, Henri de Mesmes a recouvré son autorité paternelle.<lb/> Les
-                    ajouts permettent de faire allusion à la reconnaissance acquise à la fin de la
-                    carrière, voire de manière posthume – la formule « <seg>c’est domage » </seg>
-                    pouvant déplorer le renvoi ou le décès. L’image de « <seg>bon serviteur</seg> »
-                    ne compense pas une triple dépossession : de l’autorité familiale, de la
-                    capacité d’action, de la liberté de parole. L’<seg
-                        facs="#f17r03_i_certes_soymesmes">ultime ajout</seg> offre un modèle
-                    compensatoire – celui de la maîtrise de soi –, qui paraît alors encore
-                    inaccessible. </note>
-            </ab>
+                <s><metamark facs="#f17r03_i_metamark_02" function="insert"
+                        target="#f17r03_certes_soymesmes" xml:id="f17r03_metamark_03_02"
+                        >+</metamark>
+                    <add facs="#f17r03_i_certes_soymesmes" seq="02" xml:id="f17r03_certes_soymesmes"
+                            ><metamark>+</metamark> Certes mieulx vaudroit a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oir <del>apris <gap quantity="02" reason="deleted" unit="char"
+                            /></del> esté bien maistre de soymesmes<choice>
+                            <orig/>
+                            <reg>.</reg>
+                        </choice></add></s></ab>
+            <note resp="AV" type="genetic">Les hésitations du premier ajout principal (« ne
+                commendant <hi rend="italic">qu’a poine ceans</hi> qu’en sa petite famille »)
+                montrent une alternative entre l’atténuation de la faiblesse de l’énonciateur
+                    (« <seg>ne commendant qu’en sa petite famille</seg> ») et l’insistance sur
+                celle-ci (« <seg>ne commendant <hi rend="italic">qu’a poine</hi> en sa
+                famille</seg> »). Le choix de cette deuxième variante conforte un raisonnement <hi
+                    rend="italic">a fortiori</hi> : impuissant dans sa propre famille, que pourrait
+                faire le serviteur au sein de la vie publique ? La suppression du déictique
+                        « <seg><hi rend="italic">ceans</hi></seg> » (<hi rend="italic">ici</hi>, <hi
+                    rend="italic">dans ce lieu</hi>) permet de conférer au propos une portée plus
+                générale, conforme à l’absence de première personne. Elle suggère également
+                peut-être le fait qu’au moment de la rédaction, après la disgrâce, Henri de Mesmes a
+                recouvré son autorité paternelle.<lb/> Les ajouts permettent de faire allusion à la
+                reconnaissance acquise à la fin de la carrière, voire de manière posthume – la
+                formule « <seg>c’est domage</seg> » pouvant déplorer le renvoi ou le décès. L’image
+                de « <seg>bon serviteur</seg> » ne compense pas une triple dépossession : de
+                l’autorité familiale, de la capacité d’action, de la liberté de parole. L’<seg
+                    facs="#f17r03_i_certes_soymesmes">ultime ajout</seg> offre un modèle
+                compensatoire – celui de la maîtrise de soi –, qui paraît alors encore
+                inaccessible.</note>
         </body>
     </text>
 </TEI>
