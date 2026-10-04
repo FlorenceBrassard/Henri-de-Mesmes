@@ -96,19 +96,25 @@
                     </choice>a preser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>é. <note resp="AV" type="génétique">Le projet est d’abord présenté par
-                        la négative : Henri de Mesmes dit ce qu’il n’a pas l’intention de faire,
-                        pour mieux préciser ensuite son projet. Rhétorique de la modestie. Petits
-                        mémoires vs grands mémoires comme « chronique » des « gestes », au sens de
-                        res gestae, les « choses accomplies », la geste (dimension héroïque).
-                        L’ajout « ma profession » vient fournir une explication au projet repoussé
-                        dans la première proposition : si Henri de Mesmes ne peut pas écrire de
-                        « grands » mémoires, c’est du fait de sa « profession », au sens d’office et
-                        de tâches concrètement accomplies au quotidien. Le terme « mémorable » est
-                        deux fois esquissé dans l’ajout, deux fois raturé. Il est finalement
-                        remplacé par la formule « dignes de grande histoire » [à creuser]. Le tout
-                        rejoue l’opposition noblesse de robe/noblesse d’épée établie plus
-                        haut.</note></s></ab>
+                    </choice>é. <note resp="AV" type="génétique">Le projet mémorialiste est d’abord
+                        présenté par la négative : Henri de Mesmes dit ce qu’il n’a pas l’intention
+                        d’écrire, pour mieux préciser ensuite son intention. Il use d’une rhétorique
+                        de la modestie, en opposant ses « <seg>petits mémoires</seg> » aux récits
+                        historiques (« <seg>chroniques » </seg>) célébrant des acteurs de premier
+                        plan. L’ajout de « <seg><hi rend="italic">ma profession</hi></seg> » vient
+                        fournir une explication : si Henri de Mesmes ne peut pas écrire un « grand »
+                        récit, c’est du fait de l’office qu’il a occupé. L’adjectif « <seg>mémorable
+                            » </seg> est deux fois esquissé dans l’ajout, puis deux fois raturé,
+                        avant d’être remplacé par la formule « <seg>dignes de grande histoire</seg>
+                        » : peut-être cette substitution est-elle une manière de revaloriser
+                        discrètement la « petite » histoire, en ne la privant pas de son caractère
+                        mémorable. Le tout rejoue l’opposition entre noblesse de robe et noblesse
+                        d’épée établie plus haut : la noblesse de robe ne saurait prétendre à
+                        l’héroïsme.<lb/> On note pour finir le maintien de la tournure pronominale :
+                        la suppression de « <seg>me</seg> » devant « ramentevant » est concomitante
+                        de l’ajout de « <hi rend="italic">me represente</hi> ». Le mémorialiste
+                        entend d’abord présenter son projet comme lui étant destiné.
+                </note></s></ab>
         </body>
     </text>
 </TEI>

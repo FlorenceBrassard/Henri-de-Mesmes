@@ -82,7 +82,7 @@
                         target="#f26v03_la_fortune #f26v03_leur #f26v03_luy"/>
                     <substJoin seq="2" target="#f26v03_de #f26v03_la_fortune_del #f26v03_du_roy"/>
                     <substJoin seq="3" target="#f20vop10_u_es #f26v03_s #f26v03_uy_eur"/>
-                    <del><metamark function="insert" target="f26v01.xml">#</metamark></del>
+                    <del><metamark cert="medium" function="insert" target="f26v01.xml">#</metamark></del>
                 </s>
             </ab>
         </body>

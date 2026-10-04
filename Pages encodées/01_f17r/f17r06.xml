@@ -438,7 +438,55 @@
                             </subst></del>
                         <add>cete maison</add>
                     </subst><substJoin target="#f17r06_ce_01 #f17r06_nom_armes"/>. <anchor
-                        xml:id="f17r06_maison"/></s>
+                        xml:id="f17r06_maison"/></s><note resp="AV" type="génétique">La première
+                    partie du récit fait l’objet de quelques reformulations. Parmi les plus
+                    remarquables, on note l’hésitation quant à la bonne manière de souligner
+                    l’origine écossaise d’un père pourtant né en Gascogne ; on fait l’hypothèse que
+                    le <seg>soulignement de « mais »</seg>, plutôt que de signifier un
+                    rétablissement, pourrait valoir comme une marque d’emphase. La <seg
+                        facs="#f17r06_i_issu_descosse">mention de l’Écosse</seg> est finalement
+                    déplacée en amont de celle de la Gascogne, certainement pour mieux accorder à
+                    cette terre lointaine et prestigieuse la priorité.<lb/>On remarque également la
+                    suppression de la référence aux « <seg>guerres de la Guienne</seg> » (XIII<hi
+                        rend="superscript">e</hi>  siècle), qui auraient expliqué l’implantation du
+                    supposé chevalier écossais de Mammes au sein d’un fief du roi d’Angleterre,
+                    alors convoité par la France. Le mémorialiste fait également disparaître la
+                    formule par laquelle il attestait disposer d’une <seg>« copie » du « titre » de
+                        son ancêtre « dens [s]es papiers »</seg>, tout en maintenant avoir pu
+                    consulter un tel document et en ajoutant une <seg>allusion aux armes de sa
+                        famille</seg>, présentes dans une chapelle de Mont-de-Marsan. La preuve
+                    matérielle des origines se trouve ainsi à la fois dédoublée (« titre » et «
+                    armes ») et affaiblie – document vu plutôt que conservé et donc encore
+                    consultable ; armoiries en Gascogne, sans possibilité de démontrer un quelconque
+                    lien avec l’Écosse.<lb/>La deuxième partie du récit des origines, allant de «
+                        <seg>ce cheualier estoit de berrwich</seg> » à « <seg>mesmes armes</seg> »,
+                    est entièrement supprimée par des traits obliques. Le propos est partiellement
+                    reformulé dans un <seg>long ajout</seg> placé en bas de la page et dans la marge
+                    de gauche : le mémorialiste évoque dans les deux cas une enquête qui lui aurait
+                    permis de retrouver la trace de sa famille en Écosse, en la personne du
+                    gouverneur de « Berwich ». Henri de Mesmes supprime définitivement la
+                        <seg>mention d’une certaine mademoiselle de Saint-Mesmes Albanie</seg>, dont
+                    l’intégration à la syntaxe paraît très hésitante, et ajoute des <seg>précisions
+                        topographiques</seg> au sujet de « Berwich », dans un passage qui n’est pas
+                    entièrement déchiffrable.<lb/>Pour finir, on fait l’hypothèse que le premier
+                    ajout marginal de gauche (« <seg>en la recerche que ien fey en lan 1567
+                        pour</seg> ») est inabouti et rayé, en même temps que « <seg>les</seg> »,
+                    comme le suggère le trait continu. Cette suppression est relayée par un aspect
+                    du retravail de la phrase principale, à savoir la suppression de « <seg>bone
+                        information</seg> » au profit de « <seg>fey la recerche</seg> ». Un signe
+                    d’insertion paraît avoir été placé au-dessus de « <seg>en</seg> », mais n’est
+                    pas visible du fait de la reliure. Il pourrait être similaire à celui placé
+                    devant « <seg>a present</seg> », si l’on accepte l’hypothèse, comme nous avons
+                    choisi de le faire, que le second ajout marginal de gauche vient se substituer
+                    au premier. </note>
+                <note resp="AV" type="critique">Les manuscrits Français 18617 et Duschene 57 ne
+                    donnent pas « Amaneus de Mannes », mais des formules comparables qui n’ont guère
+                    de sens : « Vn ancien cheualier Escossois de Beruich ammena de Mammes des lan
+                    1200 » pour le premier (f. 3r°) ; « vn ancien cheualier Escossois, de Beruich
+                    ammena de de [<hi rend="italic">sic</hi>] Mammes des lan 1200 » pour le second
+                    (f. 56v°). Le nom propre n’a donc pas été interprété comme tel ; il le sera en
+                    revanche par Le Laboureur (éd. <hi rend="italic">Memoires de M. de
+                        Castelnau</hi>, « Additions », 1659, t. II, p. 848).</note>
             </ab>
         </body>
     </text>
