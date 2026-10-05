@@ -25,10 +25,18 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f39/93,1693,3702,1051/full/0/default.jpg"/>
             <zone xml:id="f17r03_i_et" points="2595,0 2569,88 2750,75 2800,0"/>
             <zone xml:id="f17r03_i_metamark_01" points="2253,185 2254,258 2414,238 2436,182"/>
+            <zone xml:id="f17r03_i_qu" points="3119,307 3088,419 3219,407 3238,307"/>
+            <zone xml:id="f17r03_i_ceans" points="3040,280 3046,343 3190,340 3186,286"/>
             <zone xml:id="f17r03_i_ne_famille" points="2722,386 3388,544 3664,252 3016,227"/>
             <zone xml:id="f17r03_i_et_serviteur" points="660,598 670,690 2823,600 2840,494"/>
             <zone xml:id="f17r03_i_certes_soymesmes" points="114,588 131,1015 650,1014 597,568"/>
             <zone xml:id="f17r03_i_metamark_02" points="2833,477 2833,544 2920,550 2927,492"/>
+            <zone xml:id="f17r03_i_ne_commendant" points="3150,238 3150,300 3657,344 3663,269"/>
+            <zone xml:id="f17r03_i_sa_petite" points="3257,319 3232,413 3569,407 3557,325"/>
+            <zone xml:id="f17r03_i_famille" points="3088,357 3038,507 3375,500 3363,363"/>
+            <zone xml:id="f17r03_i_qu_poine" points="2806,303 2796,406 3090,403 3093,330"/>
+            <zone xml:id="f17r03_i_bon_seruiteur" lry="596" lrx="2836" uly="493" ulx="2326"/>
+            <zone xml:id="f17r03_i_c_domage" lry="555" lrx="2140" uly="493" ulx="1737"/>
         </surface>
     </facsimile>
     <text>
@@ -45,22 +53,25 @@
                     </choice>n home seul <metamark facs="#f17r03_i_metamark_01" function="insert"
                         target="#f17r03_ne_famille" xml:id="f17r03_metamark_03-01">°¯</metamark>
                     <add facs="#f17r03_i_ne_famille" xml:id="f17r03_ne_famille"
-                            ><metamark>°¯</metamark>ne commendant <subst>
-                            <del>qu'</del>
-                            <add>qu'<choice>
+                            ><metamark>°¯</metamark><seg xml:id="f17r03_ne_commendant">ne
+                            commendant</seg>
+                        <subst>
+                            <del xml:id="f17r03_qu">qu'</del>
+                            <add xml:id="f17r03_qu_poine">qu'<choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
                                 </choice> poine</add>
                         </subst>
-                        <add><del>ceans</del></add> en sa <del>petite</del> famille</add> sens mains
-                    synon pour oster son bonet, sens langue sy ce n<choice>
+                        <add><del xml:id="f17r03_ceans">ceans</del></add>
+                        <seg xml:id="f17r03_en_famille">en sa <del>petite</del> famille</seg></add>
+                    sens mains synon pour oster son bonet, sens langue sy ce n<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>est pour flater ?</s><s><add facs="#f17r03_i_et_serviteur" seq="01"
                         xml:id="f17r03_et_serviteur">Et en fin de compte pour tout <choice>
                             <orig>E</orig>
                             <reg>e</reg>
-                        </choice>loge, <add>c<choice>
+                        </choice>loge, <add xml:id="f17r03_c_domage">c<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>est domage</add><choice>
@@ -73,10 +84,10 @@
                         </choice><choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>estoit un bon ser<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>iteur.</add></s>
+                        </choice>estoit un <seg xml:id="f17r03_bon_seruiteur">bon ser<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>iteur</seg>.</add></s>
                 <substJoin target="#f17r03_et #f17r03_et_serviteur"/>
                 <s><metamark facs="#f17r03_i_metamark_02" function="insert"
                         target="#f17r03_certes_soymesmes" xml:id="f17r03_metamark_03_02"
@@ -91,25 +102,32 @@
                             <reg>.</reg>
                         </choice></add></s></ab>
             <note resp="AV" type="genetic">Les hésitations du premier ajout principal (« ne
-                commendant <hi rend="italic">qu’a poine ceans</hi> qu’en sa petite famille »)
+                commendant <hi rend="italic">qu’a poine ceans</hi> qu'en sa petite famille »)
                 montrent une alternative entre l’atténuation de la faiblesse de l’énonciateur
-                    (« <seg>ne commendant qu’en sa petite famille</seg> ») et l’insistance sur
-                celle-ci (« <seg>ne commendant <hi rend="italic">qu’a poine</hi> en sa
-                famille</seg> »). Le choix de cette deuxième variante conforte un raisonnement <hi
-                    rend="italic">a fortiori</hi> : impuissant dans sa propre famille, que pourrait
-                faire le serviteur au sein de la vie publique ? La suppression du déictique
-                        « <seg><hi rend="italic">ceans</hi></seg> » (<hi rend="italic">ici</hi>, <hi
-                    rend="italic">dans ce lieu</hi>) permet de conférer au propos une portée plus
-                générale, conforme à l’absence de première personne. Elle suggère également
-                peut-être le fait qu’au moment de la rédaction, après la disgrâce, Henri de Mesmes a
-                recouvré son autorité paternelle.<lb/> Les ajouts permettent de faire allusion à la
-                reconnaissance acquise à la fin de la carrière, voire de manière posthume – la
-                formule « <seg>c’est domage</seg> » pouvant déplorer le renvoi ou le décès. L’image
-                de « <seg>bon serviteur</seg> » ne compense pas une triple dépossession : de
-                l’autorité familiale, de la capacité d’action, de la liberté de parole. L’<seg
-                    facs="#f17r03_i_certes_soymesmes">ultime ajout</seg> offre un modèle
-                compensatoire – celui de la maîtrise de soi –, qui paraît alors encore
-                inaccessible.</note>
+                    (« <seg corresp="#f17r03_ne_commendant #f17r03_qu #f17r03_en_famille"
+                    facs="#f17r03_i_ne_commendant #f17r03_i_qu #f17r03_i_sa_petite #f17r03_i_famille"
+                    >ne commendant qu’en sa petite famille</seg> ») et l’insistance sur celle-ci
+                    (« <seg corresp="#f17r03_ne_commendant #f17r03_qu_poine #f17r03_en_famille"
+                    facs="#f17r03_i_ne_commendant #f17r03_i_qu_poine #f17r03_i_sa_petite #f17r03_i_famille"
+                    >ne commendant <hi rend="italic">qu’a poine</hi> en sa famille</seg> »). Le
+                choix de cette deuxième variante conforte un raisonnement <hi rend="italic">a
+                    fortiori</hi> : impuissant dans sa propre famille, que pourrait faire le
+                serviteur au sein de la vie publique ? La suppression du déictique « <seg
+                    corresp="#f17r03_ceans" facs="#f17r03_i_ceans"><hi rend="italic"
+                    >ceans</hi></seg> » (<hi rend="italic">ici</hi>, <hi rend="italic">dans ce
+                    lieu</hi>) permet de conférer au propos une portée plus générale, conforme à
+                l’absence de première personne. Elle suggère également peut-être le fait qu’au
+                moment de la rédaction, après la disgrâce, Henri de Mesmes a recouvré son autorité
+                paternelle.<lb/> Les ajouts permettent de faire allusion à la reconnaissance acquise
+                à la fin de la carrière, voire de manière posthume – la formule « <seg
+                    corresp="#f17r03_c_domage" facs="#f17r03_i_c_domage">c’est domage</seg> »
+                pouvant déplorer le renvoi ou le décès. L’image de « <seg
+                    corresp="#f17r03_bon_seruiteur" facs="#f17r03_i_bon_seruiteur">bon
+                    seruiteur</seg> » ne compense pas une triple dépossession : de l’autorité
+                familiale, de la capacité d’action, de la liberté de parole. L’<seg
+                    corresp="#f17r03_certes_soymesmes" facs="#f17r03_i_certes_soymesmes">ultime
+                    ajout</seg> offre un modèle compensatoire – celui de la maîtrise de soi –, qui
+                paraît alors encore inaccessible.</note>
         </body>
     </text>
 </TEI>

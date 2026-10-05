@@ -29,7 +29,14 @@
             <zone xml:id="f17r04_i_recoive" points="2383,533 2361,586 2668,578 2666,520"/>
             <zone xml:id="f17r04_i_ressente" points="2372,583 2368,631 2646,621 2641,573"/>
             <zone xml:id="f17r04_i_soulignement" points="2338,720 2339,690 2565,663 2566,690"/>
+            <zone xml:id="f17r04_i_memo" lry="284" lrx="2164" uly="232" ulx="1912"/>
+            <zone xml:id="f17r04_i_mem" lry="258" lrx="2968" uly="206" ulx="2750"/>
             <zone xml:id="f17r04_i_ma_mem" points="550,255 564,376 3013,281 3042,191"/>
+            <zone xml:id="f17r04_i_petits_memoires" lry="370" lrx="2788" uly="263" ulx="2019"/>
+            <zone xml:id="f17r04_i_croniquer" lry="244" lrx="2175" uly="112" ulx="1787"/>
+            <zone xml:id="f17r04_i_ma_profession" lry="188" lrx="3169" uly="69" ulx="2813"/>
+            <zone xml:id="f17r04_i_me" lry="606" lrx="1136" uly="516" ulx="988"/>
+            <zone xml:id="f17r04_i_me_represente" lry="458" lrx="2558" uly="348" ulx="2178"/>
         </surface>
     </facsimile>
     <text>
@@ -37,7 +44,8 @@
             <ab><s>Je n<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>ay donc pas intention de croniquer mes gestes, <subst>
+                    </choice>ay donc pas intention de <seg xml:id="f17r04_croniquer">croniquer</seg>
+                    mes gestes, <subst>
                         <del facs="#f17r04_i_ma_mem"><add>ma profession n<choice>
                                     <orig/>
                                     <reg>'</reg>
@@ -45,24 +53,27 @@
                                     <del>esté</del>
                                     <add>pas servi</add>
                                 </subst> de les rendre <subst>
-                                    <del instant="true">memo</del>
-                                    <add instant="true">grandement mem</add>
+                                    <del instant="true" xml:id="f17r04_memo">memo</del>
+                                    <add instant="true">grandement <seg xml:id="f17r04_mem"
+                                            >mem</seg></add>
                                 </subst></add></del>
                         <add facs="#f17r04_i_ny_produits #f17r04_i_dignes_histoire"
-                            xml:id="f17r04_ny_histoire">ny ma <choice>
-                                <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
-                                <expan>pro</expan>
-                            </choice>fession les a <subst>
+                            xml:id="f17r04_ny_histoire">ny <seg xml:id="f17r04_ma_profession">ma <choice>
+                                    <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                                    <expan>pro</expan>
+                                </choice>fession</seg> les a <subst>
                                 <del>soufferts</del>
                                 <add>produits</add>
-                            </subst> dignes de grande histoire<choice>
+                            </subst>
+                            <seg xml:id="f17r04_dignes_histoire">dignes de grande histoire</seg><choice>
                                 <orig/>
                                 <reg>,</reg>
                             </choice></add>
                     </subst> seulement ay <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e remis par ordre ces petits memoires, afin qu'en <del>me</del> ramente<choice>
+                    </choice>e remis par ordre ces <seg xml:id="f17r04_petits_memoires">petits
+                        memoires</seg>, afin qu'en <del xml:id="f17r04_me">me</del> ramente<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ant le passé <choice>
@@ -70,7 +81,7 @@
                         <reg>j</reg>
                     </choice>e <subst>
                         <del>gouste ancore</del>
-                        <add>me re<choice>
+                        <add xml:id="f17r04_me_represente">me re<choice>
                                 <abbr rend="overlined">pnte</abbr>
                                 <expan>présente</expan>
                             </choice></add>
@@ -100,19 +111,25 @@
             <note resp="AV" type="genetic">Le projet mémorialiste est d’abord présenté par la
                 négative : Henri de Mesmes dit ce qu’il n’a pas l’intention d’écrire, pour mieux
                 préciser ensuite son intention. Il use d’une rhétorique de la modestie, en opposant
-                ses « <seg>petits mémoires</seg> » aux récits historiques (« <seg>chroniques »
-                </seg>) célébrant des acteurs de premier plan. L’ajout de « <seg><hi rend="italic"
-                        >ma profession</hi></seg> » vient fournir une explication : si Henri
-                de Mesmes ne peut pas écrire un « grand » récit, c’est du fait de l’office qu’il a
-                occupé. L’adjectif « <seg>mémorable » </seg> est deux fois esquissé dans l’ajout,
-                puis deux fois raturé, avant d’être remplacé par la formule « <seg>dignes de grande
-                    histoire</seg> » : peut-être cette substitution est-elle une manière de
-                revaloriser discrètement la « petite » histoire, en ne la privant pas de son
-                caractère mémorable. Le tout rejoue l’opposition entre noblesse de robe et noblesse
-                d’épée établie plus haut : la noblesse de robe ne saurait prétendre à
-                l’héroïsme.<lb/> On note pour finir le maintien de la tournure pronominale : la
-                suppression de « <seg>me</seg> » devant « ramentevant » est concomitante de l’ajout
-                de « <hi rend="italic">me represente</hi> ». Le mémorialiste entend d’abord
+                ses « <seg corresp="#f17r04_petits_memoires" facs="#f17r04_i_petits_memoires">petits
+                    mémoires</seg> » aux récits historiques (« <seg corresp="#f17r04_croniquer"
+                    facs="#f17r04_i_croniquer">chroniques</seg> » ) célébrant des acteurs de premier
+                plan. L’ajout de « <seg corresp=" #f17r04_ma_profession"
+                    facs="#f17r04_i_ma_profession"><hi rend="italic">ma profession</hi></seg> »
+                vient fournir une explication : si Henri de Mesmes ne peut pas écrire un « grand »
+                récit, c’est du fait de l’office qu’il a occupé. L’adjectif « <seg
+                    corresp="#f17r04_memo #f17r04_mem" facs="#f17r04_i_memo #f17r04_i_mem"
+                    >mémorable</seg> » est deux fois esquissé dans l’ajout, puis deux fois raturé,
+                avant d’être remplacé par la formule « <seg corresp="#f17r04_dignes_histoire"
+                    facs="#f17r04_i_dignes_histoire">dignes de grande histoire</seg> » : peut-être
+                cette substitution est-elle une manière de revaloriser discrètement la « petite »
+                histoire, en ne la privant pas de son caractère mémorable. Le tout rejoue
+                l’opposition entre noblesse de robe et noblesse d’épée établie plus haut : la
+                noblesse de robe ne saurait prétendre à l’héroïsme.<lb/> On note pour finir le
+                maintien de la tournure pronominale : la suppression de « <seg corresp="#f17r04_me"
+                    facs="#f17r04_i_me">me</seg> » devant « ramentevant » est concomitante de
+                l’ajout de « <seg corresp="#f17r04_me_represente" facs="#f17r04_i_me_represente"><hi
+                        rend="italic">me represente</hi></seg> ». Le mémorialiste entend d’abord
                 présenter son projet comme lui étant destiné.</note>
         </body>
     </text>

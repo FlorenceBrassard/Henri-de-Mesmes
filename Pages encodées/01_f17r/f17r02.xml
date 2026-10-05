@@ -46,12 +46,18 @@
             <zone xml:id="f17r02_i_nont_moyen" points="3117,586 3112,615 3640,628 3650,570"/>
             <zone xml:id="f17r02_i_s3" points="1016,664 952,822 1008,824 1058,690"/>
             <zone xml:id="f17r02_i_s_esleuer" points="1336,696 1302,798 946,826 996,674"/>
+            <zone xml:id="f17r02_i_recommendables" lry="750" lrx="2516" uly="633" ulx="1790"/>
+            <zone xml:id="f17r02_i_par_faicts" lry="840" lrx="1796" uly="643" ulx="1323"/>
+            <zone xml:id="f17r02_i_metamark01" lry="563" lrx="1488" uly="425" ulx="1350"/>
+            <zone xml:id="f17r02_i_Aussy_norrys" points="1350,325 1313,450 2969,375 2957,288"/>
+            <zone xml:id="f17r02_i_en_puissent" points="719,531 700,656 3025,531 3007,413"/>
+            <zone xml:id="f17r02_i_guiere" lry="863" lrx="1025" uly="713" ulx="669"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <ab><s><del facs="#f17r02_i_en_france" xml:id="f17r02_en_france"><add>en <placeName
-                                ref="Q142"><choice>
+            <ab><s><del facs="#f17r02_i_en_france" xml:id="f17r02_en_france_del"><add
+                            xml:id="f17r02_en_france_add">en <placeName ref="Q142"><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>rance</placeName></add></del>
@@ -62,22 +68,23 @@
                         <orig>,.</orig>
                         <reg>;</reg>
                     </choice>
-                    <del>Aussy ne voy <choice>
+                    <del xml:id="f17r02_Aussy_guiere">Aussy ne voy <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>e pas que les esprits norrys en un <choice>
                             <orig>R</orig>
                             <reg>r</reg>
-                        </choice>oyaume <unclear cert="medium" reason="deleted"
-                                    ><del><metamark>+</metamark></del></unclear>, mesmement en robe
-                        longue, se puissent guiere</del>
+                        </choice>oyaume <unclear cert="medium" reason="deleted"><del><metamark
+                                    xml:id="f17r02_metamark01">+</metamark></del></unclear>,
+                        mesmement en robe longue, se puissent guiere</del>
                     <del facs="#f17r02_i_et_guiere" xml:id="f17r02_et_guiere_del"><add
                             xml:id="f17r02_et_guiere_add">et ceulx qui ont les armes en <placeName
                                 ref="Q142"><choice>
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>rance</placeName>, <metamark function="insert"
-                                target="f17r02_et_guiere_add">+</metamark> n'escri<choice>
+                                target="f17r02_et_guiere_add" xml:id="f17r02_metamark02"
+                                >+</metamark> n'escri<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ent guiere</add></del><add
@@ -105,12 +112,14 @@
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice>leurs chapeaus</add>
-                    <substJoin seq="01" target="#f17r02_en_france #f17r02_et_guiere_add"/>
+                    <substJoin seq="01" target="#f17r02_en_france_del #f17r02_et_guiere_add"/>
                     <substJoin seq="02" target="#f17r02_et_guiere_del #f17r02_en_guieres"/>
-                    <substJoin seq="03" target="#f17r02_mesprisent_guieres #f17r02_nusent_chapeaus"
-                    /> et <subst>
-                        <del facs="#f17r02_i_je_ne #f17r02_i_voy_come #f17r02_i_les_robe"><add
-                                seq="01" xml:id="f17r02_ie_longue"><choice>
+                    <substJoin seq="03" target="#f17r02_mesprisent_guieres #f17r02_nusent_chapeaus"/>
+                    <seg facs="#f17r02_i_et_1" xml:id="f17r02_et">et</seg>
+                    <subst>
+                        <del
+                            facs="#f17r02_i_je_ne #f17r02_i_voy_come #f17r02_i_les_robe #f17r02_i_longue"
+                                ><add seq="01" xml:id="f17r02_ie_longue"><choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>e ne voy pas <add seq="02" xml:id="f17r02_come">come</add>
@@ -136,52 +145,72 @@
                                 </choice>mander</del></add>
                     </subst>
                     <substJoin target="#f17r02_ceulx_de #f17r02_les01 #f17r02_s_01 #f17r02_s_02"/>
-                    <del facs=" #f17r02_i_s_esleuer" xml:id="f17r02_s_eslever"><add
-                            facs="#f17r02_i_s3" seq="02" xml:id="f17r02_s_03">s'</add>eslever</del>
+                    <del facs=" #f17r02_i_s_esleuer" xml:id="f17r02_s_eslever_del"><seg
+                            xml:id="f17r02_s_eslever"><add facs="#f17r02_i_s3" seq="02"
+                                xml:id="f17r02_s_03">s'</add>esle<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>er</seg></del>
                     <substJoin seq="4" target="#f17r02_ie_longue #f17r02_s_03"/>
                     <substJoin seq="5"
-                        target=" #f17r02_ceulx_recõmander #f17r02_s_eslever #f17r02_recommandables_memorables"/>
+                        target=" #f17r02_ceulx_recõmander #f17r02_s_eslever #f17r02_recommendables #f17r02_i_memorables "/>
                     <substJoin seq="06"
                         target="#f17r02_de_recõmander_del #f17r02_de_recommander_add"/>
                     <add facs="#f17r02_i_de_recommander" xml:id="f17r02_de_recommander_add">de se
-                        recommander</add> par faicts <subst
-                        xml:id="f17r02_recommandables_memorables">
-                        <del>recommandables</del>
-                        <add facs="#f17r02_i_memorables">memorables</add>
+                        recommander</add>
+                    <seg xml:id="f17r02_par_faicts">par faicts</seg>
+                    <subst>
+                        <del facs="#f17r02_recommendables">recommendables</del>
+                        <add facs="#f17r02_i_memorables" xml:id="f17r02_memorables">memorables</add>
                     </subst>.</s></ab>
-            <note resp="AV" type="genetic">On fait l’hypothèse que l’ajout « <seg>en france</seg> »
-                a été raturé au moment de l’addition, dans la marge de gauche, de la formule
-                affirmant que la noblesse de robe écrit peu ses Mémoires (« <seg><hi rend="italic"
-                        >et ceulx qui ont les armes en France, n’escrivent
-                guiere</hi></seg> »).<lb/> La seconde proposition du premier jet (« <seg>Aussi ne
+            <note resp="AV" type="genetic">On fait l’hypothèse que l’ajout « <seg
+                    corresp="#f17r02_en_france_add" facs="#f17r02_i_en_france">en france</seg> » a
+                été raturé au moment de l’addition, dans la marge de gauche, de la formule affirmant
+                que la noblesse de robe écrit peu ses Mémoires (« <seg
+                    corresp="#f17r02_et_guiere_add" facs="#f17r02_i_et_guiere"><hi rend="italic">et
+                        ceulx qui ont les armes en France, n’escrivent guiere</hi></seg> »).<lb/> La
+                seconde proposition du premier jet (« <seg corresp="#f17r02_Aussy_guiere"
+                    facs=" #f17r02_i_Aussy_norrys #f17r02_i_en_puissent #f17r02_i_guiere">Aussy ne
                     vois ie pas…</seg> »), qui en constituait la majeure partie, est presque
                 entièrement supprimée, de même que l’ajout de la marge de gauche. Le tout est
                 remplacé par un ajout plus haut dans la phrase, qui reprend et développe le même
                 propos que l’ajout marginal supprimé – mépris de la noblesse d’épée pour les lettres
-                et l’activité d’écriture. Nous faisons l’hypothèse que « <seg><hi rend="italic">et
-                        ie ne voy pas les gens de robe longue</hi></seg> » est ajouté dans le même
-                temps, et notamment de manière concomitante à l’ajout du « <seg><hi rend="italic"
-                        >s’</hi></seg> » devant « eslever » (« <seg><hi rend="italic">et ie ne voy
-                        pas les gens de robe longue</hi></seg> […] <seg>s’eslever par faicts
-                    recommendables » </seg>). <lb/> Henri de Mesmes retravaille ensuite nettement la
-                formulation pour mieux souligner le fait que la noblesse d’épée n’écrit pas : il
-                remplace une partie de ce qu’il a ajouté par la formule « <seg><hi rend="italic"
-                        >n’usent guiere de plumes qu’à leurs chapeaus</hi></seg> ». Par ailleurs, il
-                trouve une autre manière de formuler son propos sur la noblesse de robe, qui formait
-                le cœur du premier jet. Plutôt que de simplement constater que les robins ne
-                s’élèvent pas, il souligne l’impuissance à laquelle ils sont réduits (« <seg><hi
-                        rend="italic">ceulx de robe longue nont pas moyen de se recommander par
+                et l’activité d’écriture. Nous faisons l’hypothèse que « <seg
+                    corresp="#f17r02_et #f17r02_ie_longue"
+                    facs="#f17r02_i_et_1 #f17r02_i_je_ne #f17r02_i_voy_come #f17r02_i_les_robe #f17r02_i_longue"
+                        ><hi rend="italic">et ie ne voy pas les gens de robe longue</hi></seg> » est
+                ajouté dans le même temps, et notamment de manière concomitante à l’ajout du « <seg
+                    corresp="#f17r02_s_03" facs="#f17r02_i_s3"><hi rend="italic">s’</hi></seg> »
+                devant « eslever » (« <seg corresp="#f17r02_et #f17r02_ie_longue"
+                    facs="#f17r02_i_et_1 #f17r02_i_je_ne #f17r02_i_voy_come #f17r02_i_les_robe #f17r02_i_longue"
+                        ><hi rend="italic">et ie ne voy pas les gens de robe longue</hi></seg> […]
+                    <seg corresp="#f17r02_s_eslever #f17r02_par_faicts #f17r02_recommendables"
+                    facs="#f17r02_i_s_esleuer #f17r02_i_par_faicts #f17r02_i_recommendables "
+                    >s’esleuer par faicts recommendables » </seg>). <lb/> Henri de Mesmes
+                retravaille ensuite nettement la formulation pour mieux souligner le fait que la
+                noblesse d’épée n’écrit pas : il remplace une partie de ce qu’il a ajouté par la
+                formule « <seg corresp="#f17r02_nusent_chapeaus" facs="#f17r02_i_nusent_chapeaus"
+                        ><hi rend="italic">n’usent guiere de plumes qu’à leurs
+                chapeaus</hi></seg> ». Par ailleurs, il trouve une autre manière de formuler son
+                propos sur la noblesse de robe, qui formait le cœur du premier jet. Plutôt que de
+                simplement constater que les robins ne s’élèvent pas, il souligne l’impuissance à
+                laquelle ils sont réduits (« <seg corresp="#f17r02_ceulx_recõmander"
+                    facs=" #f17r02_i_ceulx_de #f17r02_i_robes_longues #f17r02_i_nont_moyen #f17r02_i_de_recomander"
+                        ><hi rend="italic">ceulx de robe longue nont pas moyen de se recommander par
                         faits mémorables</hi></seg> »), après avoir renoncé à une première tentative
-                        (« <seg><hi rend="italic">et ie ne voy pas come les gens de robe
-                    longue</hi></seg> »).<lb/> La phrase passe ainsi d’un constat sur les seuls
-                robins – intégralement supprimé dans sa version initiale – à une mise en regard de
-                la noblesse de robe et de la noblesse d’épée.<lb/> Continuent de poser question ce
-                que nous interprétons comme deux signes d’insertion : <seg>l’un après « Royaume »,
-                    raturé</seg>, et <seg>l’autre dans la marge de gauche</seg>, placé devant « <hi
-                    rend="italic">n’escriuent</hi> » <!-- Ajouter une photo sur nakala-->, mais
-                introduisant <hi rend="italic">a priori</hi> l’ensemble de l’ajout qui débute avec
-                    « <hi rend="italic">et ceulx</hi> ». Ces deux signes pourraient avoir la même
-                forme mais ne constituent pas un système cohérent sur le plan syntaxique.</note>
+                    (« <seg corresp="#f17r02_et #f17r02_ie_longue"
+                    facs="#f17r02_i_et_1 #f17r02_i_je_ne #f17r02_i_voy_come #f17r02_i_les_robe #f17r02_i_longue"
+                        ><hi rend="italic">et ie ne voy pas come les gens de robe
+                longue</hi></seg> »).<lb/> La phrase passe ainsi d’un constat sur les seuls robins –
+                intégralement supprimé dans sa version initiale – à une mise en regard de la
+                noblesse de robe et de la noblesse d’épée.<lb/> Continuent de poser question ce que
+                nous interprétons comme deux signes d’insertion : <seg corresp="#f17r02_metamark01"
+                    >l’un après « Royaume », raturé</seg>, et <seg corresp="#f17r02_metamark02"
+                    facs="">l’autre dans la marge de gauche</seg>, placé devant « <hi rend="italic"
+                    >n’escriuent</hi> » <!-- Ajouter une photo sur nakala-->, mais introduisant <hi
+                    rend="italic">a priori</hi> l’ensemble de l’ajout qui débute avec « <hi
+                    rend="italic">et ceulx</hi> ». Ces deux signes pourraient avoir la même forme
+                mais ne constituent pas un système cohérent sur le plan syntaxique.</note>
         </body>
     </text>
 </TEI>

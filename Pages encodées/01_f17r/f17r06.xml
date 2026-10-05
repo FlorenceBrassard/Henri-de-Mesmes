@@ -43,7 +43,7 @@
             <zone xml:id="f17r06_i_en_marsan" points="2157,505 2147,592 2532,595 2552,490"/>
             <zone xml:id="f17r06_i_de_ancestres" points="2903,770 2895,822 3435,842 3510,797"/>
             <zone xml:id="f17r06_i_ce_berruich" points="494,960 494,1072 1663,1022 1675,910"/>
-            <zone xml:id="f17r06_i_iay_trouué" lry="995" lrx="3235" uly="850" ulx="2770"/>
+            <zone xml:id="f17r06_i_iay_trouué" lry="985" lrx="3235" uly="840" ulx="2770"/>
             <zone xml:id="f17r06_i_que_noble" points="470,1075 462,1182 2432,1082 2425,972"/>
             <zone xml:id="f17r06_i_et_01" points="2565,1077 2542,1185 2652,1162 2639,1068"/>
             <zone xml:id="f17r06_i_et_02" lry="1407" lrx="500" uly="1331" ulx="405"/>
@@ -68,6 +68,22 @@
             <zone xml:id="f17r06_i_ce_01" points="2625,1694 2644,1775 2738,1788 2760,1707"/>
             <zone xml:id="f17r06_i_nom_armes" points="3013,1694 2994,1750 3469,1763 3488,1694"/>
             <zone xml:id="f17r06_i_une_la" points="3031,725 3025,794 3200,794 3182,694"/>
+            <zone xml:id="f17r06_i_mais" lry="240" lrx="2638" uly="205" ulx="2373"/>
+            <zone xml:id="f17r06_i_guerres_Guiene" points="921,660 901,751 1700,681 1696,605"/>
+            <zone xml:id="f17r06_i_titre_papiers" lry="878" lrx="2840" uly="750" ulx="1482"/>
+            <zone xml:id="f17r06_i_ien" lry="714" lrx="1880" uly="666" ulx="1776"/>
+            <zone xml:id="f17r06_i_ay_titres" lry="782" lrx="2526" uly="674" ulx="1874"/>
+            <zone xml:id="f17r06_i_les_armes" lry="726" lrx="3488" uly="604" ulx="3158"/>
+            <zone xml:id="f17r06_i_ce_armes" points="456,912 3244,856 2962,1481 369,1525"/>
+            <zone xml:id="f17r06_i_bone_information" lry="1712" lrx="3435" uly="1585" ulx="2902"/>
+            <zone xml:id="f17r06_i_pareilles_maison" points="0,1519 -6,2050 3519,2031 3500,1531"/>
+            <zone xml:id="f17r06_i_madame_Albanie" lry="950" lrx="2830" uly="822" ulx="1850"/>
+        </surface>
+        <surface>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.dabd54zs/32136f6a227c0382be31f3bf744137e7cd6475d4/full/1080,/0/default.jpg"/>
+            <zone xml:id="f17r06_i_metamark_04" lry="274" lrx="306" uly="212" ulx="173"/>
+            <zone xml:id="f17r06_i_metamark_05" lry="203" lrx="313" uly="83" ulx="203"/>
         </surface>
     </facsimile>
     <text>
@@ -105,8 +121,8 @@
                     </choice>
                     <del facs="#f17r06_i_extraict" xml:id="f17r06_extraict">extraict</del>
                     <del facs="#f17r06_i_mais_extraict" xml:id="f17r06_mais_extraict_del"><add
-                            xml:id="f17r06_mais_extraict_add"><hi rend="underlined">mais
-                            e</hi>xtraict</add></del>
+                            xml:id="f17r06_mais_extraict_add"><hi rend="underlined"
+                                xml:id="f17r06_mais">mais e</hi>xtraict</add></del>
                     <del facs="#f17r06_i_issu_toutefois" xml:id="f17r06_issu_toutesfois_del"><add
                             xml:id="f17r06_issu_toutefois_add">issu toutesfois</add></del>
                     <del facs="#f17r06_i_descosse" xml:id="f17r06_descosse_del"><add
@@ -179,11 +195,11 @@
                                     facs="#f17r06_i_aux" rend="unmarked" xml:id="f17r06_aux_del"
                                     >aux</del></add>
                         </subst>
-                        <substJoin target="#f17r06_p_moien #f17r06_par #f17r06_aux_add"/> guerres de
-                        la <placeName ref="Q849324">Guiene</placeName> et</del><del
-                        facs="#f17r06_i_y_01" xml:id="f17r06_y">y</del> espousa<add
-                        facs="#f17r06_i_en_marsan" xml:id="f17r06_en_marsan"> en
-                            <placeName>Marsan</placeName></add>
+                        <substJoin target="#f17r06_p_moien #f17r06_par #f17r06_aux_add"/>
+                        <seg xml:id="f17r06_guerres_Guiene">guerres de la <placeName ref="Q849324"
+                                >Guiene</placeName></seg> et</del><del facs="#f17r06_i_y_01"
+                        xml:id="f17r06_y">y</del> espousa<add facs="#f17r06_i_en_marsan"
+                        xml:id="f17r06_en_marsan"> en <placeName>Marsan</placeName></add>
                     <substJoin
                         target="#f17r06_pendant_Guiene #f17r06_y #f17r06_en_marsan #f17r06_Marsan_Guiene"/>
                     <choice>
@@ -199,11 +215,12 @@
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>'en</add>
-                        </subst> ay veu le titre, et en ay copie den<subst instant="true">
-                            <del rend="overwritten"><gap quantity="01" reason="deleted" unit="char"
-                                /></del>
-                            <add place="superimposed">s</add>
-                        </subst> mes papiers.</del></s><s>
+                        </subst> ay veu le <seg xml:id="f17r06_titre_papiers">titre, et en ay copie
+                                den<subst instant="true">
+                                <del rend="overwritten"><gap quantity="01" reason="deleted"
+                                        unit="char"/></del>
+                                <add place="superimposed">s</add>
+                            </subst> mes papiers</seg>.</del></s><s>
                     <add xml:id="f17r06_et_Marsan">. <choice>
                             <orig>e</orig>
                             <reg>E</reg>
@@ -218,11 +235,13 @@
                                     <orig>i</orig>
                                     <reg>j'</reg>
                                 </choice></del>
-                            <add><choice>
+                            <add xml:id="f17r06_ien"><choice>
                                     <orig>i</orig>
                                     <reg>j'</reg>
                                 </choice>en</add>
-                        </subst> ay veu les titres, et en sont ancore les armes en <subst
+                        </subst>
+                        <seg xml:id="f17r06_ay_titres">ay veu les titres</seg>, et en sont ancore
+                            <seg xml:id="f17r06_les_armes">les armes</seg> en <subst
                             facs="#f17r06_i_une_la" xml:id="f17r06_une_la">
                             <del>une</del>
                             <add>la</add>
@@ -231,92 +250,95 @@
                             target="#f17r06_une_la #f17r06_de_ancestres"/> au <placeName
                             ref="Q188033">mont de Marsan</placeName></add>
                     <substJoin target="#f17r06_dont_papiers #f17r06_et_Marsan"/>
-                    <del facs="#f17r06_i_ce_berruich" xml:id="f17r06_ce_berruich"><choice>
-                            <orig>c</orig>
-                            <reg>. C</reg>
-                        </choice>e che<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>alier estoit de <placeName ref="Q504678"><choice>
-                                <orig>b</orig>
-                                <reg>B</reg>
-                            </choice>erruich</placeName>.</del><substJoin
-                        target="#f17r06_nommé_berruich #f17r06_ce_berruich"/>
-                    <del><choice>
-                            <orig> e</orig>
-                            <reg> E</reg>
-                        </choice>t <subst>
-                            <del><add><choice>
-                                        <abbr>mad<hi rend="superscript">e</hi></abbr>
-                                        <expan>madame</expan>
-                                    </choice>
-                                    <persName><nameLink>de</nameLink>
-                                        <forename><choice>
-                                                <abbr>s<hi rend="superscript">te</hi></abbr>
-                                                <expan>sainte</expan>
-                                            </choice> Mesmes Albanie</forename></persName></add> y a<choice>
-                                    <orig>i</orig>
-                                    <reg>y</reg>
-                                </choice>ant faict recerche de sa maison <choice>
-                                    <orig>i</orig>
-                                    <reg>j'</reg>
-                                </choice>ay trouvé qu<choice>
+                    <seg xml:id="f17r06_ce_armes"><del facs="#f17r06_i_ce_berruich"
+                            xml:id="f17r06_ce_berruich"><choice>
+                                <orig>c</orig>
+                                <reg>. C</reg>
+                            </choice>e che<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>alier estoit de <placeName ref="Q504678"><choice>
+                                    <orig>b</orig>
+                                    <reg>B</reg>
+                                </choice>erruich</placeName>.</del><substJoin
+                            target="#f17r06_nommé_berruich #f17r06_ce_berruich"/>
+                        <del><choice>
+                                <orig> e</orig>
+                                <reg> E</reg>
+                            </choice>t <subst>
+                                <del xml:id="f17r06_madame_Albanie"><add><choice>
+                                            <abbr>mad<hi rend="superscript">e</hi></abbr>
+                                            <expan>madame</expan>
+                                        </choice>
+                                        <persName><nameLink>de</nameLink>
+                                            <forename><choice>
+                                                  <abbr>s<hi rend="superscript">te</hi></abbr>
+                                                  <expan>sainte</expan>
+                                                </choice> Mesmes Albanie</forename></persName></add>
+                                    y a<choice>
+                                        <orig>i</orig>
+                                        <reg>y</reg>
+                                    </choice>ant faict recerche de sa maison <choice>
+                                        <orig>i</orig>
+                                        <reg>j'</reg>
+                                    </choice>ay trouvé qu<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>elle y est ancore entiere</del>
+                                <add facs="#f17r06_i_iay_trouué #f17r06_i_que_noble"
+                                    xml:id="f17r06_iay_noble"><choice>
+                                        <orig>i</orig>
+                                        <reg>j'</reg>
+                                    </choice>ay trouvé que <subst>
+                                        <del><subst>
+                                                <del>la</del>
+                                                <add>ceste</add>
+                                            </subst></del>
+                                        <add><choice>
+                                                <abbr>nre</abbr>
+                                                <expan>notre</expan>
+                                            </choice></add>
+                                    </subst> famille <del>dont il estoit</del> y <subst>
+                                        <del>dure</del>
+                                        <add>est</add>
+                                    </subst> ancore, bone, et noble </add>
+                            </subst>
+                            <del facs="#f17r06_i_et_01" rend="unmarked" xml:id="f17r06_et_del">et </del>
+                            <del><subst>
+                                    <del>fort p</del>
+                                    <add>de beaucoup d'homes</add>
+                                </subst></del><add facs="#f17r06_i_et_02" xml:id="f17r06_et_add">et </add>
+                            <subst>
+                                <del>qu'en</del>
+                                <add>que</add>
+                            </subst><substJoin target="#f17r06_et_del #f17r06_et_add"/>
+                            <date>l<choice>
                                     <orig/>
                                     <reg>'</reg>
-                                </choice>elle y est ancore entiere</del>
-                            <add facs="#f17r06_i_iay_trouué #f17r06_i_que_noble"
-                                xml:id="f17r06_iay_noble"><choice>
-                                    <orig>i</orig>
-                                    <reg>j'</reg>
-                                </choice>ay trouvé que <subst>
-                                    <del><subst>
-                                            <del>la</del>
-                                            <add>ceste</add>
-                                        </subst></del>
-                                    <add><choice>
-                                            <abbr>nre</abbr>
-                                            <expan>notre</expan>
-                                        </choice></add>
-                                </subst> famille <del>dont il estoit</del> y <subst>
-                                    <del>dure</del>
-                                    <add>est</add>
-                                </subst> ancore, bone, et noble </add>
-                        </subst>
-                        <del facs="#f17r06_i_et_01" rend="unmarked" xml:id="f17r06_et_del">et </del>
-                        <del><subst>
-                                <del>fort p</del>
-                                <add>de beaucoup d'homes</add>
-                            </subst></del><add facs="#f17r06_i_et_02" xml:id="f17r06_et_add">et </add>
-                        <subst>
-                            <del>qu'en</del>
-                            <add>que</add>
-                        </subst><substJoin target="#f17r06_et_del #f17r06_et_add"/>
-                        <date>l<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>an 1567</date> le gou<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>erneur <subst instant="true">
-                            <del>du pais</del>
-                            <add>de la</add>
-                        </subst> ville se nommoit <del facs="#f17r06_i_lors_01" xml:id="f17r06_lors"
-                            >lors</del><undo rend="underlined" target="#f17r06_lors"/><redo
-                            cert="low" rend="striked" target="#f17r06_lors"/>
-                        <subst>
-                            <del>du mesme</del>
-                            <add>de <subst>
-                                    <del> mon</del>
-                                    <add><choice>
-                                            <abbr rend="overlined">nre</abbr>
-                                            <expan>notre</expan>
-                                        </choice></add>
-                                </subst></add>
-                        </subst> nom<add cert="medium">,</add> et portoit <subst>
-                            <del>les</del>
-                            <add>les</add>
-                        </subst> mesmes armes. </del>
-                    <addSpan spanTo="#f17r06_maison"/><choice>
+                                </choice>an 1567</date> le gou<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>erneur <subst instant="true">
+                                <del>du pais</del>
+                                <add>de la</add>
+                            </subst> ville se nommoit <del facs="#f17r06_i_lors_01"
+                                xml:id="f17r06_lors">lors</del><undo rend="underlined"
+                                target="#f17r06_lors"/><redo cert="low" rend="striked"
+                                target="#f17r06_lors"/>
+                            <subst>
+                                <del>du mesme</del>
+                                <add>de <subst>
+                                        <del> mon</del>
+                                        <add><choice>
+                                                <abbr rend="overlined">nre</abbr>
+                                                <expan>notre</expan>
+                                            </choice></add>
+                                    </subst></add>
+                            </subst> nom<add cert="medium">,</add> et portoit <subst>
+                                <del xml:id="f17r06_les">les</del>
+                                <add>les</add>
+                            </subst> mesmes armes. </del></seg>
+                    <addSpan spanTo="#f17r06_maison" xml:id="f17r06_pareilles_maison"/><choice>
                         <abbr><g ref="#f17r06_par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>eilles <add>armes</add>
@@ -335,12 +357,16 @@
                         >+</metamark><add facs="#f17r06_i_a_1567"><metamark>+</metamark>
                         <subst>
                             <del facs="#f17r06_i_en_1567" instant="true" xml:id="f17r06_en_1567_del"
-                                    ><add xml:id="f17r06_en_1567_add"><metamark>+</metamark> en la
-                                    recerche que <choice>
+                                    ><add xml:id="f17r06_en_1567_add"><metamark
+                                        facs="#f17r06_i_metamark_04" xml:id="f17r06_metamark_04"
+                                        >+</metamark> en la recerche que <choice>
                                         <orig>i</orig>
                                         <reg>j'</reg>
                                     </choice>en fey en l'an <date>1567</date> pour</add></del>
-                            <add facs="#f17r06_i_a_escosse" xml:id="f17r06_a_escosse"><choice>
+                            <add facs="#f17r06_i_a_escosse" xml:id="f17r06_a_escosse"><metamark
+                                    facs="#f17r06_i_metamark_05" cert="medium"
+                                    xml:id="f17r06_metamark_05"><unclear reason="reliure"
+                                        >=</unclear></metamark><choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
                                 </choice> present limite d<choice>
@@ -408,10 +434,10 @@
                             >voulu a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>oir bone inform<choice>
-                                <abbr rend="overlined">on</abbr>
-                                <expan>ation</expan>
-                            </choice></del>
+                            </choice>oir <seg xml:id="f17r06_bone_information">bone inform<choice>
+                                    <abbr rend="overlined">on</abbr>
+                                    <expan>ation</expan>
+                                </choice></seg></del>
                         <add facs="#f17r06_i_fey_recerche" xml:id="f17r06_fey_recerche">fey la
                             recerche</add>
                     </subst><del facs="#f17r06_i_qui_fut" xml:id="f17r06_qui_fut">qui fut</del><date><choice>
@@ -448,41 +474,55 @@
                 prestigieuses.<lb/> La première partie du récit fait l’objet de quelques
                 reformulations. Parmi les plus remarquables, on note l’hésitation quant à la bonne
                 manière de souligner l’origine écossaise d’un père pourtant né en Gascogne ; on fait
-                l’hypothèse que le <seg>soulignement de « mais »</seg>, plutôt que de signifier un
-                rétablissement, pourrait valoir comme une marque d’emphase. La <seg
+                l’hypothèse que le <seg corresp="#f17r06_mais" facs="#f17r06_i_mais">soulignement de
+                    « mais »</seg>, plutôt que de signifier un rétablissement, pourrait valoir comme
+                une marque d’emphase. La <seg corresp="#f17r06_issu_descosse"
                     facs="#f17r06_i_issu_descosse">mention de l’Écosse</seg> est finalement déplacée
                 en amont de celle de la Gascogne, certainement pour mieux accorder à cette terre
                 lointaine et prestigieuse la priorité.<lb/> On remarque également la suppression de
-                la référence aux « <seg>guerres de la Guienne</seg> » (XIII<hi rend="superscript"
-                    >e</hi> siècle), qui auraient expliqué l’implantation du supposé chevalier
-                écossais de Mammes au sein d’un fief du roi d’Angleterre, alors convoité par la
-                France. Le mémorialiste fait également disparaître la formule par laquelle il
-                attestait disposer d’une <seg>« copie » du « titre » de son ancêtre « dens [s]es
-                    papiers »</seg>, tout en maintenant avoir pu consulter un tel document et en
-                ajoutant une <seg>allusion aux armes de sa famille</seg>, présentes dans une
-                chapelle de Mont-de-Marsan. La preuve matérielle des origines se trouve ainsi à la
-                fois dédoublée (« titre » et « armes ») et affaiblie – document vu plutôt que
-                conservé et donc encore consultable ; armoiries en Gascogne, sans possibilité de
-                démontrer un quelconque lien avec l’Écosse.<lb/> La deuxième partie du récit des
-                origines, allant de « <seg>ce cheualier estoit de berrwich</seg> » à « <seg>mesmes
-                    armes</seg> », est entièrement supprimée par des traits obliques. Le propos est
-                partiellement reformulé dans un <seg>long ajout</seg> placé en bas de la page et
-                dans la marge de gauche : le mémorialiste évoque dans les deux cas une enquête qui
-                lui aurait permis de retrouver la trace de sa famille en Écosse, en la personne du
-                gouverneur de « Berwich ». Henri de Mesmes supprime définitivement la <seg>mention
-                    d’une certaine mademoiselle de Saint-Mesmes Albanie</seg>, dont l’intégration à
-                la syntaxe paraît très hésitante, et ajoute des <seg>précisions topographiques</seg>
-                au sujet de « Berwich », dans un passage qui n’est pas entièrement
-                déchiffrable.<lb/> Pour finir, on fait l’hypothèse que le premier ajout marginal de
-                gauche (« <seg>en la recerche que ien fey en lan 1567 pour</seg> ») est inabouti et
-                rayé, en même temps que « <seg>les</seg> », comme le suggère le trait continu. Cette
-                suppression est relayée par un aspect du retravail de la phrase principale, à savoir
-                la suppression de « <seg>bone information</seg> » au profit de « <seg>fey la
-                    recerche</seg> ». Un signe d’insertion paraît avoir été placé au-dessus de
-                    « <seg>en</seg> », mais n’est pas visible du fait de la reliure. Il pourrait
-                être similaire à celui placé devant « <seg>a present</seg> », si l’on accepte
-                l’hypothèse, comme nous avons choisi de le faire, que le second ajout marginal de
-                gauche vient se substituer au premier. </note>
+                la référence aux « <seg corresp="#f17r06_guerres_Guiene"
+                    facs="#f17r06_i_guerres_Guiene">guerres de la Guiene</seg> » (XIII<hi
+                    rend="superscript">e</hi> siècle), qui auraient expliqué l’implantation du
+                supposé chevalier écossais de Mammes au sein d’un fief du roi d’Angleterre, alors
+                convoité par la France. Le mémorialiste fait également disparaître la formule par
+                laquelle il attestait disposer d’une <seg corresp="#f17r06_titre_papiers"
+                    facs="#f17r06_i_titre_papiers">« copie » du « titre » de son ancêtre « dens
+                    [s]es papiers »</seg>, tout en maintenant <seg
+                    corresp="#f17r06_ien #f17r06_ay_titres" facs="#f17r06_i_ien #f17r06_i_ay_titres"
+                    >avoir pu consulter un tel document</seg> et en ajoutant une <seg
+                    corresp="#f17r06_les_armes" facs="#f17r06_i_les_armes">allusion aux armes de sa
+                    famille</seg>, présentes dans une chapelle de Mont-de-Marsan. La preuve
+                matérielle des origines se trouve ainsi à la fois dédoublée (« titre » et « armes »)
+                et affaiblie – document vu plutôt que conservé et donc encore consultable ;
+                armoiries en Gascogne, sans possibilité de démontrer un quelconque lien avec
+                l’Écosse.<lb/> La deuxième partie du récit des origines, allant de <seg
+                    corresp="#f17r06_ce_armes" facs="f17r06_i_ce_armes">« ce cheualier estoit de
+                    berrwich » à « mesmes armes</seg> », est entièrement supprimée par des traits
+                obliques. Le propos est partiellement reformulé dans un <seg
+                    corresp="#f17r06_pareilles_maison" facs="#f17r06_i_pareilles_maison">long
+                    ajout</seg> placé en bas de la page et dans la marge de gauche : le mémorialiste
+                évoque dans les deux cas une enquête qui lui aurait permis de retrouver la trace de
+                sa famille en Écosse, en la personne du gouverneur de « Berwich ». Henri de Mesmes
+                supprime définitivement la <seg corresp="#f17r06_madame_Albanie"
+                    facs="#f17r06_i_madame_Albanie">mention d’une certaine madame de Sainte-Mesmes
+                    Albanie</seg>, dont l’intégration à la syntaxe paraît très hésitante, et ajoute
+                des <seg corresp="#f17r06_a_escosse" facs="#f17r06_i_a_escosse">précisions
+                    topographiques</seg> au sujet de « Berwich », dans un passage qui n’est pas
+                entièrement déchiffrable.<lb/> Pour finir, on fait l’hypothèse que le premier ajout
+                marginal de gauche (« <seg corresp="#f17r06_en_1567_add" facs="#f17r06_i_en_1567">en
+                    la recerche que ien fey en lan 1567 pour</seg> ») est inabouti et rayé, en même
+                temps que « <seg corresp="#f17r06_les" facs="#f17r06_i_les_01">les</seg> », comme le
+                suggère le trait continu. Cette suppression est relayée par un aspect du retravail
+                de la phrase principale, à savoir la suppression de « <seg
+                    corresp="#f17r06_bone_information" facs="#f17r06_i_bone_information">bone
+                    information</seg> » au profit de « <seg corresp="#f17r06_fey_recerche"
+                    facs="#f17r06_i_fey_recerche">fey la recerche</seg> ». Un <seg
+                    corresp="f17r06_metamark_04" facs="#f17r06_i_metamark_04">signe
+                    d’insertion</seg> paraît avoir été placé au-dessus de « en », mais n’est pas
+                visible du fait de la reliure. Il pourrait être similaire à <seg
+                    corresp="#f17r06_metamark_05" facs="#f17r06_i_metamark_05">celui placé devant
+                    « a present »</seg>, si l’on accepte l’hypothèse, comme nous avons choisi de le
+                faire, que le second ajout marginal de gauche vient se substituer au premier. </note>
             <note resp="AV" type="critic">Les manuscrits Français 18617 et Duschene 57 ne donnent
                 pas « Amaneus de Mannes », mais des formules comparables qui n’ont guère de sens :
                 « Vn ancien cheualier Escossois de Beruich ammena de Mammes des lan 1200 » pour le
