@@ -231,6 +231,17 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> son trespas.</s></ab>
+            <note resp="AV" type="genetic"><p>La <seg>date de l’entrée d’Henri de Mesmes au Grand
+                        Conseil</seg> est supprimée avec le reste du passage (voir f. 20r<hi
+                        rend="superscript">o</hi>, seg. 2). Dans la marge, le mémorialiste ajoute
+                    une <seg>précision sur l’âge</seg> auquel il est reçu au Parlement de Paris pour
+                    souligner de nouveau sa précocité et surtout pour insister sur la
+                        <seg>reconnaissance dont il bénéficie de la part
+                d’Henri II</seg>.</p></note>
+            <note resp="AV" type="critic"><p>Le Français 18617 et le Duchesne 57 donnent toutes deux
+                    « sa suruiuance » (f. 9r° et f. 59r<hi rend="superscript">o</hi>). La présence
+                    d’un « l » (« <seg>la survivance</seg> ») ne semble pourtant pas faire de doute
+                    sur l’autographe.</p></note>
         </body>
     </text>
 </TEI>

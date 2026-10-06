@@ -55,24 +55,33 @@
                             <ptr target="#f23v10_seuerement"/>
                             <ptr target="#f23v10_rudement"/>
                         </transpose>
-                    </listTranspose><substJoin target="#f23v10_aussy #f23v10_et #f23v10_que #f23v10_line"/>
-                    luy contesta qu<choice>
+                    </listTranspose><substJoin
+                        target="#f23v10_aussy #f23v10_et #f23v10_que #f23v10_line"/> luy contesta qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>il ne faisoit pas bien de <del facs="#f23v10_i_le" xml:id="f23v10_le">le</del> despouiller
-                        <add facs="#f23v10_i_son_officier" xml:id="f23v10_son_officier">son officier</add><substJoin
+                    </choice>il ne faisoit pas bien de <del facs="#f23v10_i_le" xml:id="f23v10_le"
+                        >le</del> despouiller <add facs="#f23v10_i_son_officier"
+                        xml:id="f23v10_son_officier">son officier</add><substJoin
                         target="#f23v10_le #f23v10_son_officier"/> sens crime, et que l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>office ne pou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit <metamark facs="#f23v10_i_metamark01" function="insert" target="#f23v10_luy_viuant"
-                        >^</metamark>
-                    <add facs="#f23v10_i_luy_viuant" xml:id="f23v10_luy_viuant"><metamark>^</metamark> luy vi<choice>
+                    </choice>oit <metamark facs="#f23v10_i_metamark01" function="insert"
+                        target="#f23v10_luy_viuant">^</metamark>
+                    <add facs="#f23v10_i_luy_viuant" xml:id="f23v10_luy_viuant"
+                            ><metamark>^</metamark> luy vi<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant</add> autrement vacquer.</s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à dramatiser le récit : les
+                    deux adverbes sont intervertis pour valoriser la sévérité, et surtout coordonnés
+                    de manière plus expressive ; Rusé est par ailleurs requalifié en
+                        « <seg>officier</seg> » ; la tournure « <seg>luy vivant</seg> », enfin,
+                    annonce la formule « gratter la terre aux dents » (voir f. 23v<hi
+                        rend="superscript">o</hi>, seg. 13) et fait du refus de cette proposition
+                    royale un point d’honneur.</p></note>
         </body>
     </text>
 </TEI>

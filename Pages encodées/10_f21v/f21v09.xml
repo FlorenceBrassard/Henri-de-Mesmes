@@ -241,8 +241,23 @@
                     </add>.<del><choice>
                             <orig>q</orig>
                             <reg>Q</reg>
-                        </choice>ui est celuy qui</del>
-                </s></ab>
+                        </choice>ui est celuy qui</del></s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute quelques précisions à cette
+                    longue phrase qui célèbre sa prétendue action militaire : emplacement du Palazzo
+                    Altesi, titre de La Serre (« <seg>baron</seg> ») ou encore nom des seigneurs
+                        <seg>de Blacons et de La Môle</seg>. La page se termine sur une nouvelle
+                    phrase inachevée (« <seg>qui est celuy qui</seg> »).</p></note>
+            <note resp="AV" type="critic"><p>Les copies comportent des transcriptions <hi
+                        rend="italic">a priori</hi> fautives et par ailleurs incomplètes de la fin
+                    de la phrase principale : le Français 18617 donne « le sieur de la Mole
+                    Agresselle pour … » (f. 12v<hi rend="superscript">o</hi>) et le Duchesne 57 « le
+                    sieur de la Mole Agressette pour … » (f. 60v<hi rend="superscript">o</hi>). Les
+                    mentions de la ville (« <seg>a grossetto</seg> ») et de la région (« <seg>por la
+                        Marem</seg> ») n’ont pas été comprises. É. Frémy, pour sa part, donne « … et
+                    de La Môle à Grosseto pour le Martine (<hi rend="italic">sic</hi>) » (éd. des
+                        <hi rend="italic">Mémoires</hi>, p. 158). La mention « <hi rend="italic"
+                        >sic</hi> » témoigne bien du fait qu’il n’est pas convaincu de sa
+                    transcription.</p></note>
         </body>
     </text>
 </TEI>

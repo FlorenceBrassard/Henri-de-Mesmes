@@ -172,6 +172,16 @@
                             <orig/>
                             <reg>'</reg>
                         </choice>il</del> ny luy en son election.</s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes procède à un <seg>ajout</seg> visant à
+                    souligner l’appui dont il estime avoir bénéficié de la part d’Henri II : à la
+                    nomination de Francesco d’Este en lieu et place de Blaise de Monluc
+                    s’ajouteraient des lettres témoignant de la satisfaction du
+                souverain.</p></note>
+            <note resp="AV" type="critic"><p>Les copies comportent, comme c’est souvent le cas pour
+                    les noms propres, des transcriptions imprécises du nom de Francesco d’Este,
+                    désigné comme « Francisco Dest » (voir Français 18617, f. 12v<hi
+                        rend="superscript">o</hi> et Duchesne 57, f. 60v<hi rend="superscript"
+                        >o</hi>).</p></note>
         </body>
     </text>
 </TEI>

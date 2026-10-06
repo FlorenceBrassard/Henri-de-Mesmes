@@ -28,9 +28,8 @@
     </facsimile>
     <text>
         <body>
-            <ab><metamark facs="#f19v09_i_metamark_bon" function="undo"
-                    target="#f19v09_la_de">bon</metamark><undo
-                    target="#f19v09_la_de"/><del xml:id="f19v09_la_de"><s><choice>
+            <ab><metamark facs="#f19v09_i_metamark_bon" function="undo" target="#f19v09_la_de"
+                    >bon</metamark><undo target="#f19v09_la_de"/><del xml:id="f19v09_la_de"><s><choice>
                             <orig>la</orig>
                             <reg>Là</reg>
                         </choice>
@@ -52,8 +51,7 @@
                         <add>agé de <choice>
                                 <orig>xx</orig>
                                 <reg>20</reg>
-                            </choice> ans ou peu plus</add>.
-                </s><s>
+                            </choice> ans ou peu plus</add>. </s><s>
                         <choice>
                             <orig>e</orig>
                             <reg>E</reg>
@@ -64,16 +62,16 @@
                             </choice>ars</date> ensuy<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                            </choice>ant mes articles de mariage furent accordez puys le <date>lundy 13 <choice>
+                        </choice>ant mes articles de mariage furent accordez puys le <date>lundy 13 <choice>
                                 <orig>J</orig>
                                 <reg>j</reg>
                             </choice>uin aussy ensuy<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>ant qu<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>on disoit <hi rend="overlined">1552</hi></date>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ant qu<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>on disoit <hi rend="overlined">1552</hi></date>
                         <choice>
                             <orig>i</orig>
                             <reg>j</reg>
@@ -115,6 +113,18 @@
                             <del>, et de</del>
                             <add>.</add>
                         </subst></s></del></ab>
+            <note resp="AV" type="genetic"><p>L’intégralité du passage débutant avec « La je fus »
+                    et allant jusqu’au bas de la page est biffée d’un large trait de plume. Ce
+                    propos évoquant le mariage d’Henri de Mesmes et de Jeanne Hennequin, qui n’a pas
+                    d’équivalent par la suite, paraît être rétabli par la mention «
+                    <seg>bon</seg> », inscrite dans la marge de droite. Le retravail de la dernière
+                    proposition, qui vient saluer les qualités d’Oudart Hennequin, demeure
+                    inachevé.</p></note>
+            <note resp="AV" type="critic"><p>Le Français 18617 (f. 8v<hi rend="superscript">o</hi>)
+                    et le Duchesne 57 (f. 58v<hi rend="superscript">o</hi>-59r<hi rend="superscript"
+                        >o</hi>) rétablissent toutes deux le passage concerné par la mention « bon
+                    ». É. Frémy fait de même (éd. des <hi rend="italic">Mémoires</hi>, p.
+                    147-148).</p></note>
         </body>
     </text>
 </TEI>

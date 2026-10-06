@@ -49,10 +49,11 @@
                               <abbr>p<hi rend="superscript">r</hi></abbr>
                               <expan>premier</expan>
                            </choice> president</roleName> en la</add>
-                  </subst> <orgName ref="Q2948401">chambre des <choice>
-                     <abbr><g ref="#con-glyph">ꝯ</g>ptes</abbr>
-                     <expan>comptes</expan>
-                  </choice></orgName> et sa seur <choice>
+                  </subst>
+                  <orgName ref="Q2948401">chambre des <choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g>ptes</abbr>
+                        <expan>comptes</expan>
+                     </choice></orgName> et sa seur <choice>
                      <abbr>mad<hi rend="superscript">elle</hi></abbr>
                      <expan>mademoiselle</expan>
                   </choice> la <roleName><choice>
@@ -64,6 +65,8 @@
                            <orig>b</orig>
                            <reg>B</reg>
                         </choice>oulancourt</surname></persName>.</del></s></ab>
+         <note resp="AV" type="genetic"><p>Voir f. 22v<hi rend="superscript">o</hi>,
+            seg. 9.</p></note>
       </body>
    </text>
 </TEI>

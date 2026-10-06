@@ -467,6 +467,41 @@
                                 xml:id="f20r02_s">s</add>. <substJoin
                                 target="#f20r02_diuers #f20r02_s"/></add>
                     </subst></s></ab>
+            <note resp="AV" type="genetic"><p>Ce long passage, qui fait l’objet d’un premier
+                    retravail, est presque entièrement supprimé par deux larges ratures. Le propos,
+                    assez confus, laisse entrevoir un conflit entre les usages de l’université de
+                    Toulouse et les attentes des institutions parisiennes. Henri de Mesmes a
+                    privilégié des activités de lecture publique, plus prestigieuses selon lui, et
+                    au même titre que d’autres figures éminentes (Ferrier, Coras, Cujas…) : il
+                    détient, de ce fait, moins de « lettres de licence » (preuves de diplôme) que
+                    d’autres et se voit relégué. Vexé, il envisage d’abandonner cet office, avant
+                    que n’interviennent son beau-père et son père, qui parviennent à accélérer son
+                    entrée en fonction. Henri de Mesmes ne conserve aucune trace de toute cette
+                    procédure et de sa propre hésitation pour n’insister que sur le soutien actif de
+                    ces deux figures paternelles, ainsi que sur sa bonne réputation et sa
+                    précocité.</p>
+                <p>Le <seg>premier ajout marginal de droite</seg> est entamé en amont de la grande
+                    rature verticale, comme le suggère la position du signe d’insertion, dans le
+                    corps du texte. Il est maintenu et prolongé pour se substituer à toute la partie
+                    supprimée (« <seg>[<hi rend="italic">ce qui me fut expedié ce iour mesme
+                            par</hi>… la diligente entremise et moiens de mon beau pere</seg> »). Le
+                        <seg>second ajout marginal de droite</seg>, en revanche, n’a plus de sens
+                    une fois la rature opérée et doit être considéré comme supprimé lui aussi.</p>
+                <p>Les deux derniers ajouts marginaux, à droite et à gauche, ont été effectués en
+                    même temps que l’ajout de « et sens examen » dans le corps du texte, comme le
+                    suggère la position de leurs marques d’insertion, de part et d’autre du
+                    syntagme. Ils sont très probablement concomitants de la seconde grande rature.
+                    L’ajout de « <seg>et sens examen</seg> » viendrait en effet relayer la
+                    suppression de « <seg>receurent sens examen</seg> ».</p>
+            </note>
+            <note resp="AV" type="critic"><p>É. Frémy intègre « par M<hi rend="superscript">rs</hi>
+                    Du Ferrier, Corras, du Bourg, Cujas et Pibrac, cela » (éd. des <hi rend="italic"
+                        >Mémoires</hi>, p. 149), ajoute un second « par » pour rendre la phrase intelligible
+                    et fait de ce que nous lisons comme le nom « diligence » un adjectif (« cela par
+                    la diligente entremise et moyens… », <hi rend="italic">ibid</hi>.). Les copies
+                    manuscrites n’ont pas effectué de tels choix (voir Français 18617, f. 8v<hi
+                        rend="superscript">o</hi> et Duchesne 57, f. 59r<hi rend="superscript"
+                        >o</hi>).</p></note>
         </body>
     </text>
 </TEI>

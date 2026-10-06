@@ -88,6 +88,13 @@
                     <substJoin cert="high" seq="3"
                         target="#f22v05_en_eage #f22v05_a_fin #f22v05_dont_mourir"/><del
                         rend="unmarked">.</del></s></ab>
+            <note resp="AV" type="genetic"><p>Le retravail de cette phrase en forme d’hommage et de
+                    prière vient conforter la valeur exemplaire de la mort de Renée de Mesmes, dont
+                    le modèle doit toutefois être adapté en fonction du genre et de l’âge. Les
+                    termes « <seg>pieté</seg> » et « <seg>deuotion</seg> » ont visiblement été
+                    perçus comme redondants. L’ajout entre les lignes inscrit le propos dans la
+                    perspective de la mort du mémorialiste lui-même, en évoquant explicitement sa
+                        « <seg>fin</seg> ».</p></note>
         </body>
     </text>
 </TEI>

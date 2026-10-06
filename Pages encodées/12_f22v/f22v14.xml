@@ -21,7 +21,9 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1094,4564,2765,672/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1094,4564,2765,672/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
@@ -52,6 +54,10 @@
                             <del>pour le regard du public</del>
                             <add>en mon estat</add>
                         </subst>.</del></s></ab>
+            <note resp="AV" type="genetic"><p>Le passage raturé est empli d’une charge affective
+                    remarquable : le mémorialiste laisse en-tendre qu’il entretenait une relation
+                    filiale avec ce très grand homme d’État. Peut-être est-ce du fait même de cette
+                    intensité émotionnelle que la phrase est finalement supprimée ?</p></note>
         </body>
     </text>
 </TEI>

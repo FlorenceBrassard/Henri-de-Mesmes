@@ -115,6 +115,14 @@
                             </choice> la <roleName ref="Q131552">Reyne</roleName></del>
                         <add>pour cela</add>
                     </subst>.</s></ab>
+            <note resp="AV" type="genetic"><p>Le mémorialiste ajoute des <seg>précisions</seg>
+                    concernant la mission vers l’empereur Maximilien II et les princes d’Allemagne.
+                    La mention des noms de Foix et de Pibrac rappelle que les trois hommes partagent
+                    les mêmes qualifications, tout en mettant en valeur Henri de Mesmes.
+                    Conformément à la rhétorique de l’élection et de la réticence déployée dans les
+                        <hi rend="italic">Mémoires</hi>, ce dernier précise qu’il est choisi pour
+                    effectuer la mission, mais qu’il la remplit sans enthousiasme et sans effectuer
+                    le voyage.</p></note>
         </body>
     </text>
 </TEI>

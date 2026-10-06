@@ -83,7 +83,17 @@
                         ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
-                        </choice>rance</placeName>. </s></ab>
+                        </choice>rance</placeName>.</s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime la référence à
+                        « <seg>monsieur de Lansac</seg> », laissant ainsi un flou quant à la
+                    personne grâce à laquelle il a appris la décision prise par Catherine de Médicis
+                    de confier à Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes la fonction
+                    de chancelier. L’information paraît pourtant crédible – Louis de Saint-Gelais,
+                    seigneur de Lansac, est un proche de la reine mère – et une telle substitution
+                    affaiblit son propos. Peut-être a-t-il jugé cette précision superflue ? Ou bien
+                    a-t-il eu un doute sur l’identité de ce témoin et n’a-t-il pas voulu prendre de
+                    risque ? Lansac meurt en 1589 et était potentiellement encore vivant au moment
+                    de la rédaction de ce passage.</p></note>
         </body>
     </text>
 </TEI>

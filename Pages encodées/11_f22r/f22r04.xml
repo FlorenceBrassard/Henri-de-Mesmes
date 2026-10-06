@@ -221,7 +221,8 @@
                     </subst> le <date>12<choice>
                             <orig>/</orig>
                             <reg/>
-                    </choice> <choice>
+                        </choice>
+                        <choice>
                             <orig>M</orig>
                             <reg>m</reg>
                         </choice>ars 1557.</date><anchor xml:id="f22r04_1557"/>
@@ -260,6 +261,28 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>année precedente.</s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute une allusion à des lettres de
+                    la République de Sienne, qui doivent prouver la qualité de son service. Il
+                    supprime par ailleurs la formule « <seg>pour mon ꝑticulier</seg> », faisant
+                    pendant à « <seg>quant au public</seg> », qui demeure plus bas : la séparation
+                    entre affaires publiques et préoccupations familiales paraît ainsi moins
+                    nette.</p>
+                <p>L’évocation de ces affaires est elle-même retravaillée. La référence à la
+                    naissance de Renée de Mesmes est modifiée dans le corps du texte, sans grande
+                    incidence toutefois sur le sens. Dans la <seg>marge</seg>, le mémorialiste
+                    fournit des indications très précises sur la date et l’heure de la venue au
+                    monde de sa fille aînée. Les Mémoires se rapprochent alors du modèle du livre de
+                    raison, qui conserve avec soin la mémoire des événements familiaux importants.
+                    Dans la même dynamique, Henri de Mesmes ajoute un <seg>hommage posthume à sa
+                        belle-mère, Jeanne Michon</seg>.</p></note>
+            <note resp="AV" type="critic"><p>Le Français 18617 ne donne pas le complément « d’une
+                    fille » et propose une transcription incertaine du mois de Mars (« Marie » ?)
+                    (f. 13v<hi rend="superscript">o</hi>). Ces deux éléments aliment l’hypothèse
+                    selon laquelle le Duchesne 57 n’a pas été établi à partir du Français 18617,
+                    mais à partir d’une autre copie.</p>
+                <p>É. Frémy donne « II heures » pour l’heure de naissance de Renée de Mesmes (éd.
+                    des <hi rend="italic">Mémoires</hi>, p. 160), ce qui est une transcription peu
+                    convaincante.</p></note>
         </body>
     </text>
 </TEI>

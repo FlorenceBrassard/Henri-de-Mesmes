@@ -21,7 +21,9 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1032,1655,2787,487/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1032,1655,2787,487/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
@@ -50,6 +52,15 @@
                             <orig>j</orig>
                             <reg>i</reg>
                         </choice></date>.</s></ab>
+            <note resp="AV" type="critic"><p>Les copies manuscrites, comme É. Frémy, donnent le
+                    « 30e » jour d’avril, et non le 3 avril, chiffre qui paraît bien lisible et qui
+                    concorde avec le calcul du temps de vie de la jeune enfant (voir Français 18617,
+                    f. 15v<hi rend="superscript">o</hi> ; Duchesne 57, f. 62r<hi rend="superscript"
+                        >o</hi> ; éd. des <hi rend="italic">Mémoires</hi>, p. 164). De fait, d’après
+                    les autres informations fournies par Henri de Mesmes, Renée de Mesmes est née le
+                    30 juin 1557 et a vécu « 4 ans, neuf mois, deux jours, 22 heures et demi ».
+                    Entre le 30 juin 1557 et le 3 avril 1562, il y a 4 ans, 9 mois et 5 jours : le
+                    calcul est donc presque exact.</p></note>
         </body>
     </text>
 </TEI>

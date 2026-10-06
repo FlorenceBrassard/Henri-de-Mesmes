@@ -182,6 +182,23 @@
                      <reg>v</reg>
                   </choice>iron deux mois</add><substJoin
                   target="#f21r02_qui_destre #f21r02_denuiron_mois"/>.</s></ab>
+         <note resp="AV" type="genetic"><p>La première version de ce passage coordonne les
+                     « <seg>afe<hi rend="superscript">r</hi>s destat</seg> » et le « <seg>conseil
+                  estroit</seg> ». Une telle formule ne paraît pas recouper une distinction entre le
+               Grand Conseil et le Conseil des affaires, mais plutôt désigner ce dernier à la
+               manière d’un binôme synonymique. Henri de Mesmes retravaille ce passage pour
+               conserver une formule plus condensée (« conseil estroit de l’estat ».</p>
+            <p>Comme souvent, le mémorialiste hésite sur la date, pour retenir l’année
+                  <seg>1556</seg>, qui est la bonne. Il modifie également la manière de désigner sa
+               destination au sein de <seg>l’ajout marginal</seg> : cette hésitation s’explique par
+               le fait que l’élite de la République siennoise s’est exilée à Montalcino à la suite
+               de sa capitulation, en avril 1555. La ville se situe à une quarantaine de kilomètres
+               au sud de Sienne.</p>
+            <p>On remarquera pour finir la suppression de la modalisation au sujet de la grossesse
+               de Jeanne Hennequin : l’allusion à la certitude de l’épouse du mémorialiste
+                  (« <seg>qui se doubtoit destre grosse</seg> ») est supprimée au profit d’une
+               formule à la fois plus assertive et plus précise (« <seg>grosse d’enuiron deux
+                  mois</seg> »).</p></note>
       </body>
    </text>
 </TEI>

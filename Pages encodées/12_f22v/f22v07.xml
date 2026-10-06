@@ -48,7 +48,9 @@
                     </choice>eunes <choice>
                         <abbr><g ref="#que-glyph">ꝙ</g>d</abbr>
                         <expan>quand</expan>
-                    </choice> il luy plaist. </s></ab>
+                    </choice> il luy plaist.</s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute une <seg>mention à Dieu</seg>,
+                    qui explicite le référent des pronoms « ses » et « il ».</p></note>
         </body>
     </text>
 </TEI>

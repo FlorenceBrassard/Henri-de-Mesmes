@@ -47,7 +47,8 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>ustice<choice>
-                        <orig><del facs="#f21v02_i_virgule" rend="unmarked" xml:id="f21v02_virgule">,</del></orig>
+                        <orig><del facs="#f21v02_i_virgule" rend="unmarked" xml:id="f21v02_virgule"
+                                >,</del></orig>
                         <reg>.</reg>
                     </choice>
                     <subst>
@@ -96,24 +97,40 @@
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e feis en quitant ce<del>st</del>
-                    <del facs="#f21v02_i_vil_grand" xml:id="f21v02_vil_grand">vil <metamark facs="#f21v02_i_metamark01" function="insert"
+                    <del facs="#f21v02_i_vil_grand" xml:id="f21v02_vil_grand">vil <metamark
+                            facs="#f21v02_i_metamark01" function="insert"
                             target="#f21v02_ores_grand">^</metamark>
-                        <add facs="#f21v02_i_ores_grand" xml:id="f21v02_ores_grand">ores que bien grand</add></del> profit,
-                        <subst>
-                            <del facs="#f21v02_i_mais_toutesfois #f21v02_i_fort_casuel" xml:id="f21v02_mais_casuel">mais gros <add>toutesfois</add> et fort casuel</del>
-                        <add facs="#f21v02_i_bien_vil" xml:id="f21v02_bien_vil">bien grand et bien vil</add>
+                        <add facs="#f21v02_i_ores_grand" xml:id="f21v02_ores_grand">ores que bien
+                            grand</add></del> profit, <subst>
+                        <del facs="#f21v02_i_mais_toutesfois #f21v02_i_fort_casuel"
+                            xml:id="f21v02_mais_casuel">mais gros <add>toutesfois</add> et fort
+                            casuel</del>
+                        <add facs="#f21v02_i_bien_vil" xml:id="f21v02_bien_vil">bien grand et bien
+                            vil</add>
                     </subst><substJoin target="#f21v02_vil_grand #f21v02_mais_casuel"/>, que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e demouray sou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>erain en tout. <choice>
-                        <orig/>
-                        <reg/>
-                    </choice>
-                </s></ab>
-            <p/>
+                    </choice>erain en tout.</s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à mettre en valeur son office
+                    en remplaçant la relative qualificative « <seg>qui est souuerain</seg> » par la
+                    formule « <seg>le premier et souuerain juge</seg> », qui fait l’objet d’une
+                    nouvelle phrase, introduite par une tournure présentative.</p>
+                <p>Le mémorialiste entend également faire valoir sa probité et le sacrifice
+                    financier qu’implique le fait de ne plus accaparer les confiscations – lui qui a
+                    rappelé précédemment qu’il n’avait pas les moyens de devenir ambassadeur à Rome.
+                    L’expression « <seg>vil profit, mais gros et fort casuel</seg> » est <hi
+                        rend="italic">a priori</hi> d’abord modulée grâce à la substitution de
+                    « mais » par « <seg><hi rend="italic">toutefois</hi></seg> ». Ensuite, « gros
+                    toutefois et fort casuel » est remplacé par « <seg><hi rend="italic">ores que
+                            bien grand</hi></seg> ». Ce sont finalement les qualificatifs « <seg><hi
+                            rend="italic">bien grand et bien vil</hi></seg> » qui viennent
+                    supplanter le tout. L’insistance sur l’opportunité que pouvaient représenter les
+                    confiscations est ainsi atténuée. L’idée portée par l’adjectif casuel, qui
+                    renvoie au caractère variable et aléatoire des biens, est quant à elle
+                    supprimée.</p></note>
         </body>
     </text>
 </TEI>

@@ -50,12 +50,14 @@
                <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>e disputay <metamark facs="#f19v07_i_metamark1" function="insert" target="#f19v07_publiquement"
-                  >^</metamark><add facs="#f19v07_i_publiquement" xml:id="f19v07_publiquement">publiquement</add> e<subst>
+               </choice>e disputay <metamark facs="#f19v07_i_metamark1" function="insert"
+                  target="#f19v07_publiquement">^</metamark><add facs="#f19v07_i_publiquement"
+                  xml:id="f19v07_publiquement">publiquement</add> e<subst>
                   <del rend="overwritten">n</del>
                   <add place="superimposed">z</add>
-               </subst> escoles de decret <metamark facs="#f19v07_i_metamark2" function="insert" target="#f19v07_en_parlement"
-                  >+</metamark><add facs="#f19v07_en_parlement" xml:id="f19v07_en_parlement"><metamark>+</metamark>en grande <subst>
+               </subst> escoles de decret <metamark facs="#f19v07_i_metamark2" function="insert"
+                  target="#f19v07_en_parlement">+</metamark><add facs="#f19v07_en_parlement"
+                  xml:id="f19v07_en_parlement"><metamark>+</metamark>en grande <subst>
                      <del>assemblée</del>
                      <add><choice>
                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
@@ -64,8 +66,9 @@
                   </subst><del>pour estre cogneu de la plus</del>
                   <add><del>du</del> presque de tout le parlement</add>
                </add>
-               <del>po</del> et <metamark facs="#f19v07_i_metamark3" function="insert" target="#f19v07_trois_ie"
-                  >^</metamark><add facs="#f19v07_i_trois_ie" xml:id="f19v07_trois_ie"><metamark>^</metamark>trois <choice>
+               <del>po</del> et <metamark facs="#f19v07_i_metamark3" function="insert"
+                  target="#f19v07_trois_ie">^</metamark><add facs="#f19v07_i_trois_ie"
+                  xml:id="f19v07_trois_ie"><metamark>^</metamark>trois <choice>
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>ours apres <choice>
@@ -80,7 +83,10 @@
                </subst> ou leus publicquement un an <del>et p</del> ou en<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>iron. </s></ab>
+               </choice>iron.</s></ab>
+         <note resp="AV" type="genetic"><p>Henri de Mesmes, dans la continuité des ajouts des
+               phrases précédentes, souligne dans la marge l’ampleur de son public pour conforter
+               l’importance de son entrée dans le monde de la robe parisienne.</p></note>
       </body>
    </text>
 </TEI>

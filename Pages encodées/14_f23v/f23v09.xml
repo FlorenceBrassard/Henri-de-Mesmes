@@ -81,6 +81,13 @@
                         <add>cest</add>
                     </subst>
                     <del><unclear cert="high" reason="deleted">l</unclear></del> office.</s></ab>
+            <note resp="AV" type="genetic"><p>La substitution du complément « <seg>du Roy</seg> »
+                    par le possessif « <seg>son</seg> » permet de mieux embrasser le point de vue de
+                    François I<hi rend="superscript">er</hi> et de mieux ménager l’effet de surprise
+                    provoqué par la réplique de Jean-Jacques I<hi rend="superscript">er</hi> de
+                    Mesmes. D’après le souverain, Rusé est « son aduocat », qu’il peut révoquer
+                    comme il l’entend ; d’après le père du mémorialiste, il est celui « du Roy », au
+                    service de la monarchie.</p></note>
         </body>
     </text>
 </TEI>

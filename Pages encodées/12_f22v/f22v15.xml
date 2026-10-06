@@ -45,8 +45,8 @@
                             <ptr target="#f22v15_souuent"/>
                             <ptr target="#f22v15_il_faisoit"/>
                         </transpose>
-                    </listTranspose> tenir la chancellerie, <del>pour</del> en
-                    son lieu dedens sa sale, et seler en plein seau, <subst>
+                    </listTranspose> tenir la chancellerie, <del>pour</del> en son lieu dedens sa
+                    sale, et seler en plein seau, <subst>
                         <del>ce qui est peu acoustumé</del>
                         <add>quand il perdoit son sang et ne pou<choice>
                                 <orig>u</orig>
@@ -55,8 +55,15 @@
                     </subst></s><s><del>J<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>estois</del></s>
-            </ab>
+                        </choice>estois</del></s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes modifie la place de l’adverbe
+                        « <seg>souvent</seg> », qui passe en tête de phrase. Il supprime la formule
+                        « <seg>ce qui est peu accoustumé</seg> », qui insistait sur le caractère
+                    exceptionnel de la délégation permise par Michel de L’Hôpital, qui témoignait
+                    d’une forme de confiance particulière. On peut estimer qu’elle est remplacée,
+                    plus discrètement, par l’adjectif « <seg>seul</seg> ». Le mémorialiste ajoute
+                    une description de la maladie du chancelier, qui vient expliquer cette
+                    configuration inhabituelle.</p></note>
         </body>
     </text>
 </TEI>

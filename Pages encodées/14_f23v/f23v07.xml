@@ -38,8 +38,9 @@
                     </choice>oit <add><choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice></add> trois <metamark facs="#f23v07_i_metamark01" function="insert" target="#f23v07_diuerses"
-                        >^</metamark><add facs="#f23v07_i_diuerses" xml:id="f23v07_diuerses">di<choice>
+                        </choice></add> trois <metamark facs="#f23v07_i_metamark01"
+                        function="insert" target="#f23v07_diuerses">^</metamark><add
+                        facs="#f23v07_i_diuerses" xml:id="f23v07_diuerses">di<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>erses</add> fois en sa vie gardé les seaus de <placeName ref="Q142"><choice>
@@ -70,8 +71,14 @@
                                 <orig>i</orig>
                                 <reg>j'</reg>
                             </choice></del>
-                    </subst> ay encore les cofres <add>des seaulx</add> pour merque de cest honeur.
-                </s></ab>
+                    </subst> ay encore les cofres <add>des seaulx</add> pour merque de cest
+                    honeur.</s></ab>
+            <note resp="AV" type="critic"><p>Le mémorialiste ajoute une <seg>formule</seg> qui vient
+                    renforcer l’importance du rôle de son père, dont on se souvient qu’il aurait pu
+                    être nommé chancelier juste avant sa mort, d’après les <hi rend="italic"
+                        >Mémoires</hi>. Garde des sceaux, Jean-Jacques I<hi rend="superscript"
+                        >er</hi> de Mesmes a joué le rôle de chancelier sans en avoir le
+                titre.</p></note>
         </body>
     </text>
 </TEI>

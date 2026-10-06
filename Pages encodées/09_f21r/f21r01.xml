@@ -133,6 +133,24 @@
                         <orig/>
                         <reg>.</reg>
                     </choice></s></ab>
+            <note resp="AV" type="genetic"><p><hi rend="italic">Nota bene : Le début du f. 21r<hi
+                            rend="superscript">o</hi> a été transcrit et encodé avec la fin du f.
+                            20v<hi rend="superscript">o</hi>, dont il dépend.</hi></p>
+                <p>La portée du commentaire raturé « <seg>mais ce fut en vain</seg> » n’est pas tout
+                    à fait claire : c’est moins l’entreprise du mémorialiste qui semble réduite à
+                    néant – ce dernier considérant, comme il le dira plus tard, avoir effectué sa
+                    mission auprès de la République de Sienne avec succès – que la volonté d’Henri
+                    II d’exercer davantage de contrôle sur les juges, « à la mode d’Italie ».</p>
+                <p>Plus surprenant, Henri de Mesmes semble hésiter quant aux intentions du roi : le
+                    premier jet donne en effet « <seg>resolu au secours des colonois et ligue</seg>
+                    », ce qui apparaît comme un contre-sens historique. La famille Colonna, soutien
+                    de l’Espagne, est en effet l’adversaire du pape Paul IV, qui est lui-même à
+                    l’initiative de l’alliance avec la France. Cette interprétation est confortée
+                    par la correction suivante, qui remplace « <seg>des</seg> » par « <seg>aux</seg>
+                    » devant « colonois ». Une substitution permet finalement d’établir que le
+                    secours est bien accordé « <seg>au » pape et « contre</seg> » la famille
+                    pro-espagnole.</p>
+            </note>
         </body>
     </text>
 </TEI>

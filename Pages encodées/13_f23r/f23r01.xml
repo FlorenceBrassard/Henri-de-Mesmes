@@ -75,6 +75,11 @@
                                     </choice>il</add></del>
                             <add seq="2">quand il</add>
                         </subst> ne perdoit plus de sang</del>.</s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes précise sa pensée – « <seg>ce</seg> »
+                    est remplacé par « <seg>les difficultez</seg> » – tout en atténuant la portée
+                    pathétique de la fin de la phrase : il supprime en effet « <seg>en son mal et ne
+                        perdoit plus de sang</seg> » et les deux ajouts associés (« <seg>quand
+                        il</seg> », « <seg>quil</seg> »).</p></note>
         </body>
     </text>
 </TEI>

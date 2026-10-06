@@ -129,6 +129,25 @@
                             <reg>E</reg>
                         </choice>spaignols</del><substJoin
                         target="#f21v08_que_auoient #f21v08_par_espaignols"/>.</s></ab>
+            <note resp="AV" type="genetic"><p>La rivalité d’Henri de Mesmes avec Monluc et le désir
+                    de s’attribuer les mérites des actions entreprises par ce dernier paraissent
+                    guider le retravail de ce passage.</p>
+                <p>Le mémorialiste remplace la désignation de « <seg>viceroy</seg> » par celle de
+                        « <seg>lieutenant du Roy</seg> », qui est plus juste ; il usera peu après du
+                    premier terme pour qualifier la fonction de Fransceco d’Este, qui devient
+                    lieutenant général en Toscane en janvier 1558, à la suite de Monluc. Le <seg>nom
+                        de ce dernier</seg> pourrait avoir été ajouté ultérieurement ; le capitaine
+                    était pourtant bien présent à Montalcino pendant une bonne partie du séjour
+                    d’Henri de Mesmes et a dirigé les opérations sur les châteaux évoqués
+                    ensuite.</p>
+                <p>La formule « <seg>chef sur les armes</seg> », quant à elle, est remplacée par le
+                    complément « <seg>auec toute autorité absolue, mesme sur les armes</seg> », qui
+                    laisse entendre, de manière emphatique, que le jeune juriste est seul aux
+                    commandes. Enfin, le mémorialiste ajoute « <seg>sorty en campaigne</seg> » pour
+                    s’auréoler de gloire militaire.</p></note>
+            <note resp="AV" type="critic"><p>É. Frémy donne « mesmes au Sienois » à la fin de la
+                    phrase (éd. des <hi rend="italic">Mémoires</hi>, p. 157) plutôt que « mesme sur
+                    les armes », ne tenant pas compte de la modification.</p></note>
         </body>
     </text>
 </TEI>
