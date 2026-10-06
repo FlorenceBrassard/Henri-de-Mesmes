@@ -36,8 +36,8 @@
       <body>
          <ab><roleName ref="Q107207194">Mon pere</roleName>
             <subst>
-               <del>ainsy né, <add facs="#f17v01_i_dun_Mammes" xml:id="f17v01_dun_Mammes_add"
-                        ><del seq="2" facs="#f17v01_i_dun_maison" xml:id="f17v01_dun_maison">d<choice>
+               <del>ainsy né, <add facs="#f17v01_i_dun_Mammes" xml:id="f17v01_dun_Mammes_add"><del
+                        seq="2" facs="#f17v01_i_dun_maison" xml:id="f17v01_dun_maison">d<choice>
                            <orig/>
                            <reg>'</reg>
                         </choice>un gentilhome de ceste maison</del>
@@ -102,7 +102,21 @@
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>eunesse.</add>
-            </subst></ab><note resp="AV" type="genetic"><p></p></note>
+            </subst></ab>
+         <note resp="AV" type="genetic"><p>Le premier jet et son retravail sont intégralement
+               supprimés, à l’exception du sujet de la phrase, « <seg>Mon pere</seg> ». Henri de
+               Mesmes fait disparaître la mention de ses grands-parents, <seg>Georges de
+                  Mesmes</seg> et <seg>Marguerite de Cauna</seg>, qu’il évoquera plus loin (voir
+               f. 22v<hi rend="superscript">o</hi>, seg. 1), pour mieux renforcer, dans <seg>l’ajout marginal</seg>, l’évocation
+               des spécificités de la venue au monde de son père, Jean-Jacques I<hi
+                  rend="superscript">er</hi> de Mesmes, en mai 1490. Que celui-ci ait survécu à sa
+               grande prématurité, dans un contexte de forte mortalité infantile, en fait un
+               miraculé. L’ajout amorce également la représentation paradoxale de la carrière du
+               père, placée tant sous le signe de l’obéissance que de la réticence : si ce dernier
+               se montre très tôt doué pour les lettres, cette orientation est moins un choix qu’une
+               conséquence de sa fragilité. Plus robuste, Jean-Jacques I<hi rend="superscript"
+                  >er</hi> de Mesmes aurait peut-être été incité à embrasser une carrière
+               militaire.</p></note>
       </body>
    </text>
 </TEI>
