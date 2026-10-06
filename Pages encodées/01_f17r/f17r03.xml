@@ -101,33 +101,34 @@
                             <orig/>
                             <reg>.</reg>
                         </choice></add></s></ab>
-            <note resp="AV" type="genetic">Les hésitations du premier ajout principal (« ne
-                commendant <hi rend="italic">qu’a poine ceans</hi> qu'en sa petite famille »)
-                montrent une alternative entre l’atténuation de la faiblesse de l’énonciateur
-                    (« <seg corresp="#f17r03_ne_commendant #f17r03_qu #f17r03_en_famille"
-                    facs="#f17r03_i_ne_commendant #f17r03_i_qu #f17r03_i_sa_petite #f17r03_i_famille"
-                    >ne commendant qu’en sa petite famille</seg> ») et l’insistance sur celle-ci
-                    (« <seg corresp="#f17r03_ne_commendant #f17r03_qu_poine #f17r03_en_famille"
-                    facs="#f17r03_i_ne_commendant #f17r03_i_qu_poine #f17r03_i_sa_petite #f17r03_i_famille"
-                    >ne commendant <hi rend="italic">qu’a poine</hi> en sa famille</seg> »). Le
-                choix de cette deuxième variante conforte un raisonnement <hi rend="italic">a
-                    fortiori</hi> : impuissant dans sa propre famille, que pourrait faire le
-                serviteur au sein de la vie publique ? La suppression du déictique « <seg
-                    corresp="#f17r03_ceans" facs="#f17r03_i_ceans"><hi rend="italic"
-                    >ceans</hi></seg> » (<hi rend="italic">ici</hi>, <hi rend="italic">dans ce
-                    lieu</hi>) permet de conférer au propos une portée plus générale, conforme à
-                l’absence de première personne. Elle suggère également peut-être le fait qu’au
-                moment de la rédaction, après la disgrâce, Henri de Mesmes a recouvré son autorité
-                paternelle.<lb/> Les ajouts permettent de faire allusion à la reconnaissance acquise
-                à la fin de la carrière, voire de manière posthume – la formule « <seg
-                    corresp="#f17r03_c_domage" facs="#f17r03_i_c_domage">c’est domage</seg> »
-                pouvant déplorer le renvoi ou le décès. L’image de « <seg
-                    corresp="#f17r03_bon_seruiteur" facs="#f17r03_i_bon_seruiteur">bon
-                    seruiteur</seg> » ne compense pas une triple dépossession : de l’autorité
-                familiale, de la capacité d’action, de la liberté de parole. L’<seg
-                    corresp="#f17r03_certes_soymesmes" facs="#f17r03_i_certes_soymesmes">ultime
-                    ajout</seg> offre un modèle compensatoire – celui de la maîtrise de soi –, qui
-                paraît alors encore inaccessible.</note>
+            <note resp="AV" type="genetic"><p>Les hésitations du premier ajout principal (« ne
+                    commendant <hi rend="italic">qu’a poine ceans</hi> qu'en sa petite famille »)
+                    montrent une alternative entre l’atténuation de la faiblesse de l’énonciateur
+                        (« <seg corresp="#f17r03_ne_commendant #f17r03_qu #f17r03_en_famille"
+                        facs="#f17r03_i_ne_commendant #f17r03_i_qu #f17r03_i_sa_petite #f17r03_i_famille"
+                        >ne commendant qu’en sa petite famille</seg> ») et l’insistance sur celle-ci
+                        (« <seg corresp="#f17r03_ne_commendant #f17r03_qu_poine #f17r03_en_famille"
+                        facs="#f17r03_i_ne_commendant #f17r03_i_qu_poine #f17r03_i_sa_petite #f17r03_i_famille"
+                        >ne commendant <hi rend="italic">qu’a poine</hi> en sa famille</seg> »). Le
+                    choix de cette deuxième variante conforte un raisonnement <hi rend="italic">a
+                        fortiori</hi> : impuissant dans sa propre famille, que pourrait faire le
+                    serviteur au sein de la vie publique ? La suppression du déictique « <seg
+                        corresp="#f17r03_ceans" facs="#f17r03_i_ceans"><hi rend="italic"
+                        >ceans</hi></seg> » (<hi rend="italic">ici</hi>, <hi rend="italic">dans ce
+                        lieu</hi>) permet de conférer au propos une portée plus générale, conforme à
+                    l’absence de première personne. Elle suggère également peut-être le fait qu’au
+                    moment de la rédaction, après la disgrâce, Henri de Mesmes a recouvré son
+                    autorité paternelle.</p>
+                <p>Les ajouts permettent de faire allusion à la reconnaissance acquise à la fin de
+                    la carrière, voire de manière posthume – la formule « <seg
+                        corresp="#f17r03_c_domage" facs="#f17r03_i_c_domage">c’est domage</seg> »
+                    pouvant déplorer le renvoi ou le décès. L’image de « <seg
+                        corresp="#f17r03_bon_seruiteur" facs="#f17r03_i_bon_seruiteur">bon
+                        seruiteur</seg> » ne compense pas une triple dépossession : de l’autorité
+                    familiale, de la capacité d’action, de la liberté de parole. L’<seg
+                        corresp="#f17r03_certes_soymesmes" facs="#f17r03_i_certes_soymesmes">ultime
+                        ajout</seg> offre un modèle compensatoire – celui de la maîtrise de soi –,
+                    qui paraît alors encore inaccessible.</p></note>
         </body>
     </text>
 </TEI>

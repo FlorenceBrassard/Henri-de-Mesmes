@@ -51,28 +51,31 @@
                         <quote rend="unmarked" source="Q47154" xml:lang="la">E terra magnum alterius
                             spectare laborem.</quote>
                     </s></del></ab>
-            <note resp="AV" type="genetic">La formule « <seg corresp="#f17r05_preuoir_accidens"
-                    facs="#f17r05_i_preuoir_accidens">preuoir les accidens</seg> » est remplacée par
-                    « <seg corresp="#f17r05_mespriser_fortune" facs="#f17r05_i_mespriser_fortune"
-                    >mespriser la fortune</seg> ». La modification du verbe paraît signifier
-                l’impossibilité à anticiper les imprévus ; seul demeure envisageable un mépris de
-                l’adversité, une disposition intérieure conforme aux impératifs néo-stoïciens. La
-                modification du substantif permet, quant à elle, l’emploi d’un terme fréquent chez
-                Sénèque, désignant une figure spécifique et potentiellement dotée d’une capacité
-                d’action, comme ce sera le cas à la fin des Mémoires.<lb/> Dans la marge, <seg
-                    corresp=" #f17r05_e_laborem" facs="#f17r05_i_e_laborem">une citation
-                    latine</seg>, tirée du <hi rend="italic">De rerum natura</hi> de Lucrèce
-                (II, v. 1-2), est raturée. Elle paraît correspondre à une manchette (note marginale)
-                supprimée plutôt qu’à un ajout qui n’aurait finalement pas été intégré. S’il est
-                difficile d’expliquer cette suppression, le lien entre ces deux célèbres vers de
-                Lucrèce et la fin du discours préfaciel des <hi rend="italic">Mémoires</hi> est
-                facile à établir. « Il est doux, quand le vent gonfle au large les flots, /
-                D’assister du rivage aux efforts des marins » (trad. Sers, 2012, p. 101), écrit le
-                poète romain : le précepte, qui vante la position de retrait du sage spectateur
-                d’une tempête, permet à plusieurs auteurs du XVI<hi rend="superscript">e</hi> siècle
-                de penser leur propre conduite par temps de guerre civile (Lestringant, 2010 ;
-                Ballestra-Puech, 2017). Il définit une posture de distance d’inspiration
-                néo-stoïcienne qu’Henri de Mesmes n’a pu embrasser qu’après sa disgrâce. </note>
+            <note resp="AV" type="genetic"><p>La formule « <seg corresp="#f17r05_preuoir_accidens"
+                        facs="#f17r05_i_preuoir_accidens">preuoir les accidens</seg> » est remplacée
+                    par « <seg corresp="#f17r05_mespriser_fortune"
+                        facs="#f17r05_i_mespriser_fortune">mespriser la fortune</seg> ». La
+                    modification du verbe paraît signifier l’impossibilité à anticiper les
+                    imprévus ; seul demeure envisageable un mépris de l’adversité, une disposition
+                    intérieure conforme aux impératifs néo-stoïciens. La modification du substantif
+                    permet, quant à elle, l’emploi d’un terme fréquent chez Sénèque, désignant une
+                    figure spécifique et potentiellement dotée d’une capacité d’action, comme ce
+                    sera le cas à la fin des Mémoires.</p>
+                <p>Dans la marge, <seg corresp=" #f17r05_e_laborem" facs="#f17r05_i_e_laborem">une
+                        citation latine</seg>, tirée du <hi rend="italic">De rerum natura</hi> de
+                    Lucrèce (II, v. 1-2), est raturée. Elle paraît correspondre à une manchette
+                    (note marginale) supprimée plutôt qu’à un ajout qui n’aurait finalement pas été
+                    intégré. S’il est difficile d’expliquer cette suppression, le lien entre ces
+                    deux célèbres vers de Lucrèce et la fin du discours préfaciel des <hi
+                        rend="italic">Mémoires</hi> est facile à établir. « Il est doux, quand le
+                    vent gonfle au large les flots, / D’assister du rivage aux efforts des marins »
+                    (trad. Sers, 2012, p. 101), écrit le poète romain : le précepte, qui vante la
+                    position de retrait du sage spectateur d’une tempête, permet à plusieurs auteurs
+                    du XVI<hi rend="superscript">e</hi> siècle de penser leur propre conduite par
+                    temps de guerre civile (Lestringant, 2010 ; Ballestra-Puech, 2017). Il définit
+                    une posture de distance d’inspiration néo-stoïcienne qu’Henri de Mesmes n’a pu
+                    embrasser qu’après sa disgrâce.</p>
+            </note>
         </body>
     </text>
 </TEI>

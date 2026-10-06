@@ -467,67 +467,73 @@
                         <add>cete maison</add>
                     </subst><substJoin target="#f17r06_ce_01 #f17r06_nom_armes"/>. <anchor
                         xml:id="f17r06_maison"/></s></ab>
-            <note resp="AV" type="genetic">Le récit des origines est un des passages les plus
-                retravaillés et des plus raturés du manuscrit. Les hésitations dont témoigne
-                l’analyse génétique ainsi que le contenu même des passages supprimés paraissent
-                trahir les incertitudes du mémorialiste, qui cherche à doter sa famille d’origines
-                prestigieuses.<lb/> La première partie du récit fait l’objet de quelques
-                reformulations. Parmi les plus remarquables, on note l’hésitation quant à la bonne
-                manière de souligner l’origine écossaise d’un père pourtant né en Gascogne ; on fait
-                l’hypothèse que le <seg corresp="#f17r06_mais" facs="#f17r06_i_mais">soulignement de
-                    « mais »</seg>, plutôt que de signifier un rétablissement, pourrait valoir comme
-                une marque d’emphase. La <seg corresp="#f17r06_issu_descosse"
-                    facs="#f17r06_i_issu_descosse">mention de l’Écosse</seg> est finalement déplacée
-                en amont de celle de la Gascogne, certainement pour mieux accorder à cette terre
-                lointaine et prestigieuse la priorité.<lb/> On remarque également la suppression de
-                la référence aux « <seg corresp="#f17r06_guerres_Guiene"
-                    facs="#f17r06_i_guerres_Guiene">guerres de la Guiene</seg> » (XIII<hi
-                    rend="superscript">e</hi> siècle), qui auraient expliqué l’implantation du
-                supposé chevalier écossais de Mammes au sein d’un fief du roi d’Angleterre, alors
-                convoité par la France. Le mémorialiste fait également disparaître la formule par
-                laquelle il attestait disposer d’une <seg corresp="#f17r06_titre_papiers"
-                    facs="#f17r06_i_titre_papiers">« copie » du « titre » de son ancêtre « dens
-                    [s]es papiers »</seg>, tout en maintenant <seg
-                    corresp="#f17r06_ien #f17r06_ay_titres" facs="#f17r06_i_ien #f17r06_i_ay_titres"
-                    >avoir pu consulter un tel document</seg> et en ajoutant une <seg
-                    corresp="#f17r06_les_armes" facs="#f17r06_i_les_armes">allusion aux armes de sa
-                    famille</seg>, présentes dans une chapelle de Mont-de-Marsan. La preuve
-                matérielle des origines se trouve ainsi à la fois dédoublée (« titre » et « armes »)
-                et affaiblie – document vu plutôt que conservé et donc encore consultable ;
-                armoiries en Gascogne, sans possibilité de démontrer un quelconque lien avec
-                l’Écosse.<lb/> La deuxième partie du récit des origines, allant de <seg
-                    corresp="#f17r06_ce_armes" facs="f17r06_i_ce_armes">« ce cheualier estoit de
-                    berrwich » à « mesmes armes</seg> », est entièrement supprimée par des traits
-                obliques. Le propos est partiellement reformulé dans un <seg
-                    corresp="#f17r06_pareilles_maison" facs="#f17r06_i_pareilles_maison">long
-                    ajout</seg> placé en bas de la page et dans la marge de gauche : le mémorialiste
-                évoque dans les deux cas une enquête qui lui aurait permis de retrouver la trace de
-                sa famille en Écosse, en la personne du gouverneur de « Berwich ». Henri de Mesmes
-                supprime définitivement la <seg corresp="#f17r06_madame_Albanie"
-                    facs="#f17r06_i_madame_Albanie">mention d’une certaine madame de Sainte-Mesmes
-                    Albanie</seg>, dont l’intégration à la syntaxe paraît très hésitante, et ajoute
-                des <seg corresp="#f17r06_a_escosse" facs="#f17r06_i_a_escosse">précisions
-                    topographiques</seg> au sujet de « Berwich », dans un passage qui n’est pas
-                entièrement déchiffrable.<lb/> Pour finir, on fait l’hypothèse que le premier ajout
-                marginal de gauche (« <seg corresp="#f17r06_en_1567_add" facs="#f17r06_i_en_1567">en
-                    la recerche que ien fey en lan 1567 pour</seg> ») est inabouti et rayé, en même
-                temps que « <seg corresp="#f17r06_les" facs="#f17r06_i_les_01">les</seg> », comme le
-                suggère le trait continu. Cette suppression est relayée par un aspect du retravail
-                de la phrase principale, à savoir la suppression de « <seg
-                    corresp="#f17r06_bone_information" facs="#f17r06_i_bone_information">bone
-                    information</seg> » au profit de « <seg corresp="#f17r06_fey_recerche"
-                    facs="#f17r06_i_fey_recerche">fey la recerche</seg> ». Un <seg
-                    corresp="f17r06_metamark_04" facs="#f17r06_i_metamark_04">signe
-                    d’insertion</seg> paraît avoir été placé au-dessus de « en », mais n’est pas
-                visible du fait de la reliure. Il pourrait être similaire à <seg
-                    corresp="#f17r06_metamark_05" facs="#f17r06_i_metamark_05">celui placé devant
-                    « a present »</seg>, si l’on accepte l’hypothèse, comme nous avons choisi de le
-                faire, que le second ajout marginal de gauche vient se substituer au premier. </note>
-            <note resp="AV" type="critic">Les manuscrits Français 18617 et Duschene 57 ne donnent
-                pas « Amaneus de Mannes », mais des formules comparables qui n’ont guère de sens :
-                « Vn ancien cheualier Escossois de Beruich ammena de Mammes des lan 1200 » pour le
-                premier (f. 3r°) ; « vn ancien cheualier Escossois, de Beruich ammena de de [<hi
-                    rend="italic">sic</hi>] Mammes des lan 1200 » pour le second (f. 56v°).</note>
+            <note resp="AV" type="genetic"><p>Le récit des origines est un des passages les plus
+                    retravaillés et des plus raturés du manuscrit. Les hésitations dont témoigne
+                    l’analyse génétique ainsi que le contenu même des passages supprimés paraissent
+                    trahir les incertitudes du mémorialiste, qui cherche à doter sa famille
+                    d’origines prestigieuses.</p>
+                <p>La première partie du récit fait l’objet de quelques reformulations. Parmi les
+                    plus remarquables, on note l’hésitation quant à la bonne manière de souligner
+                    l’origine écossaise d’un père pourtant né en Gascogne ; on fait l’hypothèse que
+                    le <seg corresp="#f17r06_mais" facs="#f17r06_i_mais">soulignement de
+                        « mais »</seg>, plutôt que de signifier un rétablissement, pourrait valoir
+                    comme une marque d’emphase. La <seg corresp="#f17r06_issu_descosse"
+                        facs="#f17r06_i_issu_descosse">mention de l’Écosse</seg> est finalement
+                    déplacée en amont de celle de la Gascogne, certainement pour mieux accorder à
+                    cette terre lointaine et prestigieuse la priorité.</p>
+                <p>On remarque également la suppression de la référence aux « <seg
+                        corresp="#f17r06_guerres_Guiene" facs="#f17r06_i_guerres_Guiene">guerres de
+                        la Guiene</seg> » (XIII<hi rend="superscript">e</hi> siècle), qui auraient
+                    expliqué l’implantation du supposé chevalier écossais de Mammes au sein d’un
+                    fief du roi d’Angleterre, alors convoité par la France. Le mémorialiste fait
+                    également disparaître la formule par laquelle il attestait disposer d’une <seg
+                        corresp="#f17r06_titre_papiers" facs="#f17r06_i_titre_papiers">« copie » du
+                        « titre » de son ancêtre « dens [s]es papiers »</seg>, tout en maintenant
+                        <seg corresp="#f17r06_ien #f17r06_ay_titres"
+                        facs="#f17r06_i_ien #f17r06_i_ay_titres">avoir pu consulter un tel
+                        document</seg> et en ajoutant une <seg corresp="#f17r06_les_armes"
+                        facs="#f17r06_i_les_armes">allusion aux armes de sa famille</seg>, présentes
+                    dans une chapelle de Mont-de-Marsan. La preuve matérielle des origines se trouve
+                    ainsi à la fois dédoublée (« titre » et « armes ») et affaiblie – document vu
+                    plutôt que conservé et donc encore consultable ; armoiries en Gascogne, sans
+                    possibilité de démontrer un quelconque lien avec l’Écosse.</p>
+                <p>La deuxième partie du récit des origines, allant de <seg
+                        corresp="#f17r06_ce_armes" facs="f17r06_i_ce_armes">« ce cheualier estoit de
+                        berrwich » à « mesmes armes</seg> », est entièrement supprimée par des
+                    traits obliques. Le propos est partiellement reformulé dans un <seg
+                        corresp="#f17r06_pareilles_maison" facs="#f17r06_i_pareilles_maison">long
+                        ajout</seg> placé en bas de la page et dans la marge de gauche : le
+                    mémorialiste évoque dans les deux cas une enquête qui lui aurait permis de
+                    retrouver la trace de sa famille en Écosse, en la personne du gouverneur de
+                    « Berwich ». Henri de Mesmes supprime définitivement la <seg
+                        corresp="#f17r06_madame_Albanie" facs="#f17r06_i_madame_Albanie">mention
+                        d’une certaine madame de Sainte-Mesmes Albanie</seg>, dont l’intégration à
+                    la syntaxe paraît très hésitante, et ajoute des <seg corresp="#f17r06_a_escosse"
+                        facs="#f17r06_i_a_escosse">précisions topographiques</seg> au sujet de
+                    « Berwich », dans un passage qui n’est pas entièrement déchiffrable.</p>
+                <p>Pour finir, on fait l’hypothèse que le premier ajout marginal de gauche (« <seg
+                        corresp="#f17r06_en_1567_add" facs="#f17r06_i_en_1567">en la recerche que
+                        ien fey en lan 1567 pour</seg> ») est inabouti et rayé, en même temps que
+                        « <seg corresp="#f17r06_les" facs="#f17r06_i_les_01">les</seg> », comme le
+                    suggère le trait continu. Cette suppression est relayée par un aspect du
+                    retravail de la phrase principale, à savoir la suppression de « <seg
+                        corresp="#f17r06_bone_information" facs="#f17r06_i_bone_information">bone
+                        information</seg> » au profit de « <seg corresp="#f17r06_fey_recerche"
+                        facs="#f17r06_i_fey_recerche">fey la recerche</seg> ». Un <seg
+                        corresp="f17r06_metamark_04" facs="#f17r06_i_metamark_04">signe
+                        d’insertion</seg> paraît avoir été placé au-dessus de « en », mais n’est pas
+                    visible du fait de la reliure. Il pourrait être similaire à <seg
+                        corresp="#f17r06_metamark_05" facs="#f17r06_i_metamark_05">celui placé
+                        devant « a present »</seg>, si l’on accepte l’hypothèse, comme nous avons
+                    choisi de le faire, que le second ajout marginal de gauche vient se substituer
+                    au premier.</p>
+            </note>
+            <note resp="AV" type="critic"><p>Les manuscrits Français 18617 et Duschene 57 ne donnent
+                    pas « Amaneus de Mannes », mais des formules comparables qui n’ont guère de
+                    sens : « Vn ancien cheualier Escossois de Beruich ammena de Mammes des lan
+                    1200 » pour le premier (f. 3r<hi rend="superscript">o</hi>) ; « vn ancien
+                    cheualier Escossois, de Beruich ammena de de [<hi rend="italic">sic</hi>] Mammes
+                    des lan 1200 » pour le second (f. 56v<hi rend="superscript">o</hi>).</p></note>
         </body>
     </text>
 </TEI>

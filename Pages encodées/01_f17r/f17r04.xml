@@ -108,29 +108,31 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>é.</s></ab>
-            <note resp="AV" type="genetic">Le projet mémorialiste est d’abord présenté par la
-                négative : Henri de Mesmes dit ce qu’il n’a pas l’intention d’écrire, pour mieux
-                préciser ensuite son intention. Il use d’une rhétorique de la modestie, en opposant
-                ses « <seg corresp="#f17r04_petits_memoires" facs="#f17r04_i_petits_memoires">petits
-                    mémoires</seg> » aux récits historiques (« <seg corresp="#f17r04_croniquer"
-                    facs="#f17r04_i_croniquer">chroniques</seg> » ) célébrant des acteurs de premier
-                plan. L’ajout de « <seg corresp=" #f17r04_ma_profession"
-                    facs="#f17r04_i_ma_profession"><hi rend="italic">ma profession</hi></seg> »
-                vient fournir une explication : si Henri de Mesmes ne peut pas écrire un « grand »
-                récit, c’est du fait de l’office qu’il a occupé. L’adjectif « <seg
-                    corresp="#f17r04_memo #f17r04_mem" facs="#f17r04_i_memo #f17r04_i_mem"
-                    >mémorable</seg> » est deux fois esquissé dans l’ajout, puis deux fois raturé,
-                avant d’être remplacé par la formule « <seg corresp="#f17r04_dignes_histoire"
-                    facs="#f17r04_i_dignes_histoire">dignes de grande histoire</seg> » : peut-être
-                cette substitution est-elle une manière de revaloriser discrètement la « petite »
-                histoire, en ne la privant pas de son caractère mémorable. Le tout rejoue
-                l’opposition entre noblesse de robe et noblesse d’épée établie plus haut : la
-                noblesse de robe ne saurait prétendre à l’héroïsme.<lb/> On note pour finir le
-                maintien de la tournure pronominale : la suppression de « <seg corresp="#f17r04_me"
-                    facs="#f17r04_i_me">me</seg> » devant « ramentevant » est concomitante de
-                l’ajout de « <seg corresp="#f17r04_me_represente" facs="#f17r04_i_me_represente"><hi
-                        rend="italic">me represente</hi></seg> ». Le mémorialiste entend d’abord
-                présenter son projet comme lui étant destiné.</note>
+            <note resp="AV" type="genetic"><p>Le projet mémorialiste est d’abord présenté par la
+                    négative : Henri de Mesmes dit ce qu’il n’a pas l’intention d’écrire, pour mieux
+                    préciser ensuite son intention. Il use d’une rhétorique de la modestie, en
+                    opposant ses « <seg corresp="#f17r04_petits_memoires"
+                        facs="#f17r04_i_petits_memoires">petits mémoires</seg> » aux récits
+                    historiques (« <seg corresp="#f17r04_croniquer" facs="#f17r04_i_croniquer"
+                        >chroniques</seg> » ) célébrant des acteurs de premier plan. L’ajout de
+                        « <seg corresp=" #f17r04_ma_profession" facs="#f17r04_i_ma_profession"><hi
+                            rend="italic">ma profession</hi></seg> » vient fournir une explication :
+                    si Henri de Mesmes ne peut pas écrire un « grand » récit, c’est du fait de
+                    l’office qu’il a occupé. L’adjectif « <seg corresp="#f17r04_memo #f17r04_mem"
+                        facs="#f17r04_i_memo #f17r04_i_mem">mémorable</seg> » est deux fois esquissé
+                    dans l’ajout, puis deux fois raturé, avant d’être remplacé par la formule « <seg
+                        corresp="#f17r04_dignes_histoire" facs="#f17r04_i_dignes_histoire">dignes de
+                        grande histoire</seg> » : peut-être cette substitution est-elle une manière
+                    de revaloriser discrètement la « petite » histoire, en ne la privant pas de son
+                    caractère mémorable. Le tout rejoue l’opposition entre noblesse de robe et
+                    noblesse d’épée établie plus haut : la noblesse de robe ne saurait prétendre à
+                    l’héroïsme.</p>
+                <p>On note pour finir le maintien de la tournure pronominale : la suppression de
+                        « <seg corresp="#f17r04_me" facs="#f17r04_i_me">me</seg> » devant
+                    « ramentevant » est concomitante de l’ajout de « <seg
+                        corresp="#f17r04_me_represente" facs="#f17r04_i_me_represente"><hi
+                            rend="italic">me represente</hi></seg> ». Le mémorialiste entend d’abord
+                    présenter son projet comme lui étant destiné.</p></note>
         </body>
     </text>
 </TEI>

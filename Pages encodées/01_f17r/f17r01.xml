@@ -119,7 +119,8 @@
                <substJoin seq="02"
                   target="#f17r01_t #f17r01_ent #f17r01_s_03 #f17r01_s_05 #f17r01_s_07"/> actions :
                et apres eulx, enseignemens pour bien faire.</s>
-            <note resp="AV" type="génétique">La première version de ce passage dissocie la rédaction
+         </ab>
+         <note resp="AV" type="génétique"><p>La première version de ce passage dissocie la rédaction
                d’une biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi («
                   <seg corresp="#f17r01_la_propre">la leur propre</seg> »). La première pratique
                serait motivée par un lien affectif ( « <seg
@@ -134,7 +135,7 @@
                cruciale dans la construction d’une identité nobiliaire. Dans les deux cas toutefois,
                les scripteurs partagent des qualités morales – ils sont des « <seg
                   corresp="#f17r01_honnestes_homes" facs="#f17r01_i_honnestes_homes">honestes
-                  homes</seg> » – et une même visée : l’exemplarité.<lb/> La seconde version
+                  homes</seg> » – et une même visée : l’exemplarité.</p><p> La seconde version
                rapproche ces deux pratiques en une formule (« <seg
                   corresp="#f17r01_leurs #f17r01_vie_de #f17r01_ceulx"
                   facs="#f17r01_i_leurs #f17r01_i_vies_ceulx #f17r01_i_ou">leurs vies ou de
@@ -158,7 +159,8 @@
                   <hi rend="italic">remarquable</hi>. La troisième substitution, enfin, comme la
                première, efface la prédominance de la qualité morale (honnêteté, vertu) au profit
                d’une mise en valeur plus abstraite (« belles », au sens de <hi rend="italic"
-                  >satisfaisantes</hi>, <hi rend="italic">admirables</hi>). </note></ab>
+                  >satisfaisantes</hi>, <hi rend="italic">admirables</hi>).</p>
+         </note>
          <p/>
       </body>
    </text>
