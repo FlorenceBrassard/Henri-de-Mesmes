@@ -75,6 +75,20 @@
                     </choice><del facs="#f18v05_i_s1" xml:id="f18v05_s1">s</del> bien<del
                         facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del>. <substJoin
                         target="#f18v05_s1 #f18v05_s2"/></s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime la mention « <seg>à
+                        pied</seg> », qui venait souligner la modeste condition du serviteur, se
+                    déplaçant par ses propres moyens plutôt qu’à cheval. Il ajoute par ailleurs que
+                    ce dernier est mort de vieillesse, ce qui suggère qu’il a été bien
+                traité.</p></note>
+            <note resp="AV" type="critic"><p>Le Français 18617 (f. 6r<hi rend="superscript">o</hi>)
+                    et le Duschene 57 (f. 57v<hi rend="superscript">o</hi>) placent le complément de
+                    lieu « a Thoulouse » au terme de cette phrase, conférant une localisation au
+                    bien offert à Hugues Raymond. Sur le manuscrit autographe, la position du point
+                    est pourtant très claire.</p>
+                <p>Le Laboureur supprime ce passage dans son édition du texte, considérant
+                    probablement que l’allusion à un simple serviteur est peu éclairante dans le
+                    cadre de sa biographie d’Henri de Mesmes et peu pertinente pour documenter la
+                    période (<hi rend="italic">Mémoires</hi>, 1659, t. II, p. 838). </p></note>
         </body>
     </text>
 </TEI>

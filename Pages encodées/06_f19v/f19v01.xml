@@ -83,7 +83,27 @@
             <substJoin seq="1" target="#f19v01_et1 #f19v01_de1 #f19v01_de2"/>
             <substJoin seq="2" target=" #f19v01_et2 #f19v01_et3 #f19v01_maiesté"/>
             <substJoin seq="3" target="#f19v01_et_celebrité #f19v01_et_frequence"/>
-            <p/>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à rendre hommage à Ferretti et
+                    à signaler le prestige dont ce dernier bénéficie. Le mémorialiste conforte ainsi
+                    indirectement son propre éloge, puisque le juriste italien lui propose, comme
+                    les <hi rend="italic">Mémoires</hi> le racontent ensuite, de lire « en sa place
+                    » et rédige une lettre de compliments à l’attention de Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes.</p>
+                <p>On peut faire l’hypothèse que la fin de la phrase est retravaillée de la manière
+                    suivante : ajout du « <seg>de</seg> » devant « <seg>maiesté</seg> », ensuite
+                    supprimé en même temps que le « <seg>et de</seg> » devant « <seg>frequence</seg>
+                    », pour garantir un rythme ternaire (« apparat », « frequence », « maieste ») ;
+                        <seg>rétablissement de la coordination</seg> et retour à un rythme binaire
+                    (« apparat » et « frequence ») ; double substitution, de « frequence » par «
+                        <seg>celebrité</seg> », puis de « celebrité » par « <seg>reputation</seg> ».
+                    Ce dernier terme paraît condenser l’idée initiale de « majesté » (grandeur, qui
+                    vaut la reconnaissance) et de « frequence », si on entend ce dernier terme en
+                    son sens étymologique d’affluence, de vaste auditoire (<hi rend="italic"
+                        >frequentia</hi> en latin : <hi rend="italic">foule</hi>). « Frequence »
+                    peut toutefois aussi s’entendre en son sens actuel ; il souligne alors le nombre
+                    et la régularité des leçons. Le terme « <seg>temps</seg> », quant à lui, est
+                    d’abord remplacé par « <seg>siecle </seg>», pour être finalement rétabli.</p>
+            </note>
         </body>
     </text>
 </TEI>

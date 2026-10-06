@@ -188,7 +188,15 @@
                                 </choice></add>
                         </subst><supplied>.</supplied>
                     </add>
-                    <substJoin target=" #f18v03_de_ce #f18v03_du #f18v03_la_ou  #f18v03_la_et"/></s></ab>
+                    <substJoin target=" #f18v03_de_ce #f18v03_du #f18v03_la_ou  #f18v03_la_et"
+                /></s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes prolonge la description de son œuvre
+                    enfantine dans un <seg>long ajout marginal</seg>. Il tient à signaler que la
+                    récitation de l’œuvre d’Homère lui ouvre les portes des grands hellénistes
+                    parisiens, dont il fournit les noms. Le mémorialiste supprime toutefois
+                        <seg>l’allusion à l’existence de relations amicales entre lui et ces
+                        humanistes chevronnés</seg>, plus âgés que lui d’environ trente ans,
+                    certainement parce qu’elle lui a parue excessive.</p></note>
         </body>
     </text>
 </TEI>

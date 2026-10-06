@@ -74,6 +74,17 @@
                             <reg>j</reg>
                         </choice>ourduy</del>. <substJoin
                         target="#f18v06_ceulx_maintenant #f18v06_aujourduy"/></s></ab>
+            <note resp="AV" type="genetic"><p>L’ajout d’« <seg>estroite</seg> », ainsi que les
+                    substitutions touchant le verbe (« <seg>faire</seg> », «
+                    <seg>practiquer</seg> », « <seg>suporter</seg> ») et les compléments («
+                        <seg>dautres</seg> », « <seg>ceulx de maintenant</seg> », «
+                        <seg>auiourduy</seg> ») visent à insister sur la pénibilité de la formation
+                    à Toulouse et sur l’existence d’un fossé générationnel. Selon Henri de Mesmes,
+                    l’université était plus stricte à son époque, et la jeunesse s’est depuis
+                    ramollie !</p></note>
+            <note resp="AV" type="critic"><p>É. Frémy donne, de manière erronée, « travaux » à la
+                    place d’« estudes » (éd. des <hi rend="italic">Mémoires</hi>,
+                p. 139).</p></note>
         </body>
     </text>
 </TEI>

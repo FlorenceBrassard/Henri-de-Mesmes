@@ -93,6 +93,7 @@
                             quantity="2"/>
                         <supplied cert="high">it</supplied></add><substJoin
                         target="#f19v05_a_et_2 #f19v05_car_vaquoit"/>.</s></ab>
+            <note resp="AV" type="genetic"><p></p></note>
         </body>
     </text>
 </TEI>
