@@ -30,16 +30,24 @@
    </facsimile>
    <text>
       <body>
-         <ab>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere
-            <del>dame <persName><forename>Nicole</forename>
-                  <surname>Hennequin</surname></persName></del>
-            <add>l'une</add> des meilleures femmes et des meilleures <subst>
-               <del facs="#f18r03_i_meres_monde" xml:id="f18r03_meres_monde">meres du monde.</del>
-               <add facs="#f18r03_i_meres" seq="1" xml:id="f18r03_meres">meres<del rend="unmarked"
-                     >.</del></add>
-               <add facs="#f18r03_i_de_temps" seq="2" xml:id="f18r03_de_temps">de son temps.</add>
-            </subst></ab>
-         <p/>
+         <ab><s>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere <del>dame
+                        <persName><forename>Nicole</forename>
+                     <surname>Hennequin</surname></persName></del>
+               <add>l'une</add> des meilleures femmes et des meilleures <subst>
+                  <del facs="#f18r03_i_meres_monde" xml:id="f18r03_meres_monde">meres du
+                     monde.</del>
+                  <add facs="#f18r03_i_meres" seq="1" xml:id="f18r03_meres">meres<del
+                        rend="unmarked">.</del></add>
+                  <add facs="#f18r03_i_de_temps" seq="2" xml:id="f18r03_de_temps">de son
+                     temps.</add>
+               </subst></s></ab>
+         <note resp="AV" type="genetic"><p>Henri de Mesmes <seg>supprime le nom de sa mère</seg>,
+               certainement parce qu’il s’est souvenu qu’il l’a déjà donné peu avant. Le superlatif
+               passe de « <seg>meilleures » femmes et mère « du monde</seg> » – évaluation selon un
+               empan géographique – à « <seg>meilleures de son temps</seg> » – évaluation selon un
+               empan temporel. Peut-être faut-il y voir l’atténuation d’une formule moins crédible ?
+               Dans les deux cas, le mémorialiste entend célébrer les vertus de celle qui a veillé
+               avec soin sur ses jeunes années.</p></note>
       </body>
    </text>
 </TEI>

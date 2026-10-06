@@ -73,8 +73,17 @@
                </choice>oit <choice>
                   <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                   <expan>con</expan>
-               </choice>traint d'accepter ceste charge contre son gré.</add>
-         </ab>
+               </choice>traint d'accepter ceste charge contre son gré.</add></ab>
+         <note resp="AV" type="genetic"><p>Sous sa forme initiale, cette phrase forme une
+               proposition dépendante de la phrase suivante : le jeune Henri de Mesmes est placé
+               sous la responsabilité de sa mère du fait de la fonction de son père. La phrase
+               devient autonome quand « <seg>estant</seg> » est remplacé par « <seg>estoit</seg> »,
+               probablement après <seg>l’ajout</seg> qui vient la prolonger nettement :
+               l’allongement du propos aurait incité le mémorialiste à constituer une nouvelle
+               phrase. Cet ajout alimente le récit de l’ascension forcée du père, que le
+               mémorialiste adoptera également pour raconter sa propre carrière. Elle contribue en
+               outre à l’éloge de la figure paternelle, privilégiée par François I<hi
+                  rend="superscript">er</hi>.</p></note>
       </body>
    </text>
 </TEI>

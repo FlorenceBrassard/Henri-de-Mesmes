@@ -48,8 +48,9 @@
                <add seq="1"><del facs="#f18r09_i_police" seq="2" xml:id="f18r09_police"><undo
                         facs="#f18r09_i_rétablissement2" rend="underlined" seq="2"
                         target="#f18r09_police"/><del seq="4">police</del></del></add>
-               <add facs="#f18r09_i_au_regle" seq="2" xml:id="f18r09_au_regle"><del facs="#f18r09_i_au_regle2" seq="5"
-                     xml:id="f18r09_au_regle2">au regle</del></add>
+               <add facs="#f18r09_i_au_regle" seq="2" xml:id="f18r09_au_regle"><del
+                     facs="#f18r09_i_au_regle2" seq="5" xml:id="f18r09_au_regle2">au
+                  regle</del></add>
             </subst><substJoin target="#f18r09_au_regle #f18r09_en_la"/>
             <del seq="5" xml:id="f18r09_de_vie">de la vie</del><add seq="3"
                xml:id="f18r09_a_discipline"><choice>
@@ -75,6 +76,8 @@
                   <orig/>
                   <reg>'</reg>
                </choice></del>eau courante.</ab>
+         <note resp="AV" type="critic"><p>É. Frémy ne donne pas « en partie » (éd. des <hi
+                  rend="italic">Mémoires</hi>, p. 136).</p></note>
       </body>
    </text>
 </TEI>

@@ -91,6 +91,16 @@
                                 <reg>à</reg>
                             </choice></del></add>
                 </subst><del>quelque petit nombre</del>.</ab>
+            <note resp="AV" type="genetic"><p>L’adverbe « <seg>neantmoins</seg> » est raturé et
+                    souligné : on fait l’hypothèse que ce soulignement n’est pas le signe d’une
+                    volonté de rétablissement, mais d’une première rature maladroite, dans la
+                    continuité de celle du début de la ligne, passant sous la formule « <seg>la vie
+                        du college</seg> ».</p></note>
+            <note resp="AV" type="critic"><p>É. Frémy donne « conservation de la jeunesse gaie et
+                    innocente » (éd. des <hi rend="italic">Mémoires</hi>, p. 136), ce qui est très
+                    peu convaincant sur le plan de la graphie et par ailleurs contradictoire sur le
+                    fond, le mémorialiste précisant que Jean-Jacques I<hi rend="superscript">er</hi>
+                    de Mesmes cherche à faire grandir ses deux fils. </p></note>
         </body>
     </text>
 </TEI>
