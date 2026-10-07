@@ -39,10 +39,10 @@
         <body>
             <ab><del seq="1" facs="#f26v01_i_Je_heure #f26v01_i_de_q" instant="true"><s>Je ne diray
                         pas icy tout ce qui me semble de ce <roleName ref="Q53448"
-                        >prince</roleName>.</s><s><choice>
+                        >prince</roleName>.</s> <s><choice>
                             <orig>c</orig>
                             <reg>C'</reg>
-                        </choice>est besoigne de plus longue alene.</s><s><choice>
+                        </choice>est besoigne de plus longue alene.</s> <s><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l me suffira pour ceste heure de dire q</s></del><subst>
@@ -95,7 +95,7 @@
                                         <orig/>
                                         <reg>.</reg>
                                     </choice></add>
-                            </subst></s><s><choice>
+                            </subst></s> <s><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>
                             </choice>ien diray <choice>
@@ -161,7 +161,7 @@
                             </choice>erois pas<choice>
                                 <orig/>
                                 <reg> »</reg>
-                            </choice>.</s><s><choice>
+                            </choice>.</s> <s><choice>
                                 <orig>j</orig>
                                 <reg>J</reg>
                             </choice>e dy soudain<choice>
@@ -198,7 +198,7 @@
                             </choice> dire.<choice>
                                 <orig/>
                                 <reg> »</reg>
-                            </choice></s><s><choice>
+                            </choice></s> <s><choice>
                                 <orig>i</orig>
                                 <reg>J</reg>
                             </choice>e luy dy soudain un <choice>
@@ -216,7 +216,7 @@
                             </choice>antage d<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>eux deux.</s><s><choice>
+                            </choice>eux deux.</s> <s><choice>
                                 <orig>i</orig>
                                 <reg>I</reg>
                             </choice>l respondit <choice>
@@ -232,7 +232,7 @@
                             </choice>e dy<choice>
                                 <orig> n</orig>
                                 <reg> : « N</reg>
-                            </choice>on sur ma vie.</s><s><choice>
+                            </choice>on sur ma vie.</s> <s><choice>
                                 <orig>a</orig>
                                 <reg>A</reg>
                             </choice>lons <choice>
@@ -244,7 +244,7 @@
                             </choice>ant vous, et le maintiendray.<choice>
                                 <orig/>
                                 <reg> »</reg>
-                            </choice></s><s><choice>
+                            </choice></s> <s><choice>
                                 <orig>i</orig>
                                 <reg>I</reg>
                             </choice>l me dit en partant <choice>
@@ -266,7 +266,7 @@
                             </choice>aura.<choice>
                                 <orig/>
                                 <reg> »</reg>
-                            </choice></s><s><choice>
+                            </choice></s> <s><choice>
                                 <orig>j</orig>
                                 <reg>« J</reg>
                             </choice>e n<choice>

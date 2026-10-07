@@ -51,7 +51,8 @@
                         <add>agé de <choice>
                                 <orig>xx</orig>
                                 <reg>20</reg>
-                            </choice> ans ou peu plus</add>. </s><s>
+                            </choice> ans ou peu plus</add>.</s>
+                    <s>
                         <choice>
                             <orig>e</orig>
                             <reg>E</reg>
@@ -106,7 +107,8 @@
                         </choice>ptes<choice>
                             <orig>.</orig>
                             <reg>,</reg>
-                        </choice></s><s><choice>
+                        </choice></s>
+                    <s><choice>
                             <orig>h</orig>
                             <reg>H</reg>
                         </choice>ome de singuliere probité <subst>
