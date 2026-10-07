@@ -45,8 +45,8 @@
             <ab><s><choice>
                         <orig>a</orig>
                         <reg>A</reg>
-                    </choice>pres disner <del>ou <unclear reason="deleted">no</unclear></del> nous
-                    lisions <subst>
+                    </choice>pres disner <del instant="true">ou <unclear cert="high"
+                            reason="deleted">no</unclear></del> nous lisions <subst>
                         <del seq="1" facs="#f19r02_i_demie_de" xml:id="f19r02_demie_de">demie heure
                             de</del>
                         <del seq="2" facs="#f19r02_i_de1" xml:id="f19r02_de_1"><add seq="1"
@@ -106,10 +106,9 @@
                     <choice>
                         <orig>a</orig>
                         <reg>À</reg>
-                    </choice> une heure aux estudes<supplied>,</supplied>
-                    <choice>
+                    </choice> une heure aux estudes <choice>
                         <orig>a</orig>
-                        <reg>à</reg>
+                        <reg>, à</reg>
                     </choice> cinq au logis <metamark facs="#f19r02_i_metamark1" function="insert"
                         target="#f19r02_a">^</metamark>
                     <add facs="#f19r02_i_a" xml:id="f19r02_a"><choice>

@@ -111,15 +111,15 @@
                                     <reg>j'</reg>
                                 </choice>estois</add>
                         </subst>
-                        <del>me m</del><subst>
-                            <del seq="1"><choice>
+                        <del instant="true">me m</del><subst>
+                            <del instant="true" seq="1"><choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>e fus fort pri<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>é des</del>
-                            <del seq="2"><add seq="1">sou<choice>
+                            <del instant="true" seq="2"><add seq="1">sou<choice>
                                         <orig>u</orig>
                                         <reg>v</reg>
                                     </choice>ant appellé et <choice>
@@ -157,8 +157,8 @@
                         </subst>
                         <subst>
                             <del seq="1">qui estoient</del>
-                            <del seq="2"><add seq="1"><unclear reason="deleted">ainsy</unclear>
-                                    come</add></del>
+                            <del seq="2"><add seq="1"><unclear cert="medium" reason="deleted"
+                                        >ainsy</unclear> come</add></del>
                             <add seq="2">vers</add>
                             <add seq="3">chez</add>
                         </subst>
@@ -179,7 +179,7 @@
                         <subst>
                             <del><del><gap quantity="2" reason="deleted" unit="word"/></del> nous
                                 estions</del>
-                            <add>avec honeur, et progrez e<subst>
+                            <add>avec honeur, et progrez e<subst instant="true">
                                     <del rend="overwritten">n</del>
                                     <add place="superimposed">z</add>
                                 </subst><choice>

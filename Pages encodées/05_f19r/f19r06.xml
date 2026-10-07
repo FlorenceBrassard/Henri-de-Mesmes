@@ -51,7 +51,15 @@
                </choice> une apres disnée a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>ec catedran<supplied>,</supplied> la ii<hi rend="superscript">e</hi> iii <choice>
+               </choice>ec catedran<supplied>,</supplied> la <choice>
+                  <orig>ii<hi rend="superscript">e</hi></orig>
+                  <reg>deuxieme</reg>
+               </choice>
+               <choice>
+                  <orig>iii</orig>
+                  <reg>trois</reg>
+               </choice>
+               <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>ours entiers <subst>
@@ -74,8 +82,8 @@
                   <del facs="#f19r06_i_cueur" xml:id="f19r06_cueur">cueur</del>
                   <add facs="#f19r06_i_confidance" xml:id="f19r06_confidance">confidance</add>
                </subst><substJoin
-                  target=" #f19r06_force #f19r06_suffisance #f19r06_cueur #f19r06_confidance"/>.
-               </s><metamark facs="#f19r06_i_metamark" function="insert" target="#f19r06_en_france"
+                  target=" #f19r06_force #f19r06_suffisance #f19r06_cueur #f19r06_confidance"/>.</s>
+            <metamark facs="#f19r06_i_metamark" function="insert" target="#f19r06_en_france"
                >++</metamark>
             <add xml:id="f19r06_en_france"><metamark>++</metamark><s>
                   <choice>
@@ -116,7 +124,8 @@
                         </choice>ourg</surname></persName> et <persName ref="Q3121749"><surname><choice>
                            <orig>p</orig>
                            <reg>P</reg>
-                        </choice>ibrac</surname></persName>.</s><s><choice>
+                        </choice>ibrac</surname></persName>.</s>
+               <s><choice>
                      <orig>a</orig>
                      <reg>A</reg>
                   </choice>pres moy <choice>
@@ -155,13 +164,14 @@
                   </choice>esque d<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice><placeName><choice>
+                  </choice><placeName ref="Q173787"><choice>
                         <orig>a</orig>
                         <reg>A</reg>
                      </choice>let</placeName>, prit mon heure et leut <del>en</del> quel<choice>
                      <abbr><g ref="que-glyph">ꝙ</g></abbr>
                      <expan>que</expan>
-                  </choice> temps. </s><s><add><choice>
+                  </choice> temps.</s>
+               <s><add><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                      </choice>t voila les premieres compaignées d<choice>
@@ -183,12 +193,15 @@
                         <expan>con</expan>
                      </choice>tinué aux estats et <metamark function="insert" target="#f19r06_aux"
                         >^</metamark><add facs="#f19r06_i_aux" xml:id="f19r06_aux">aux</add> afaires
-                        <add facs="#f19r06_i_de_france" xml:id="f19r06_de_france">de la <choice>
-                           <orig>f</orig>
-                           <reg>F</reg>
-                        </choice>rance</add>
-                     <substJoin target="#f19r06_aux #f19r06_de_france"
-                  /><supplied>.</supplied></add></s></add></ab>
+                        <add facs="#f19r06_i_de_france" xml:id="f19r06_de_france">de la <placeName
+                           ref="Q142"><choice>
+                              <orig>f</orig>
+                              <reg>F</reg>
+                           </choice>rance</placeName></add>
+                     <substJoin target="#f19r06_aux #f19r06_de_france"/><choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice></add></s></add></ab>
          <note resp="AV" type="genetic"><p>Le mémorialiste retravaille quelque peu la phrase pour
                éviter <seg>la répétition de « catedran</seg> » et pour améliorer la formulation de
                la dernière expression (« <seg>suffisance</seg> »/» <seg>confidance</seg> » formant

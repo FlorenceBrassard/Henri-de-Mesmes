@@ -45,11 +45,15 @@
                </choice>l<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>escole des <choice>
-                  <orig>i</orig>
-                  <reg>I</reg>
-               </choice>nstitutes.</s><s><subst>
-                  <del facs="#f19r05_i_mais" xml:id="f19r05_mais">mais</del>
+               </choice><orgName>escole des <choice>
+                     <orig>i</orig>
+                     <reg>I</reg>
+                  </choice>nstitutes</orgName>.</s><s>
+               <subst>
+                  <del facs="#f19r05_i_mais" xml:id="f19r05_mais"><choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                     </choice>ais</del>
                   <add facs="#f19r05_i_et_an" xml:id="f19r05_et_an_add"><del facs="#f19r05_i_et_an"
                         xml:id="f19r05_et_an_del">et demy an</del></add>
                </subst>
@@ -65,8 +69,9 @@
                   </choice>uys</add> nous <subst>
                   <del>primes</del>
                   <add>eumes noz</add>
-               </subst> heures pour lire aux grandes escoles, et leumes les autres trois ans
-               entiers. </s><s><choice>
+               </subst> heures pour lire aux <orgName>grandes escoles</orgName>, et leumes les
+               autres trois ans entiers.</s>
+            <s><choice>
                   <orig>p</orig>
                   <reg>P</reg>
                </choice>endant lesquels nous fre<choice>
