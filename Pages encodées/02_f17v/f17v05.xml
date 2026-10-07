@@ -71,7 +71,7 @@
                   </subst><substJoin target="#f17v05_e_a #f17v05_iour #f17v05_nuict"/> que <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>e fus <seg facs="#f17v05_i_conceu_1531">conceu precedente le <date><choice>
+                  </choice>e fus <seg facs="#f17v05_i_conceu_1531">conceu precedente <date>le <choice>
                            <abbr>p<hi rend="superscript">r</hi></abbr>
                            <expan>premier</expan>
                         </choice>
@@ -94,8 +94,8 @@
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
-                  <placeName ref="Q90">Paris</placeName> le <date>mardy <del>pen</del> xxix<hi
-                        rend="superscript">e</hi><choice>
+                  <placeName ref="Q90">Paris</placeName>
+                  <date>le mardy <del instant="true">pen</del> xxix<hi rend="superscript">e</hi><choice>
                         <orig>J</orig>
                         <reg>j</reg>
                      </choice>anvier <hi rend="trait_suscrit">1531</hi>

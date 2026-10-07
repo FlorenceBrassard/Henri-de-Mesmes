@@ -73,7 +73,11 @@
                </add> laissay guiere durant la guerre ny en la res<choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>ouissance de la pais <metamark facs="#f22r05_i_metamark02" function="insert"
+               </choice>ouissance de la pai<choice>
+                  <orig>s</orig>
+                  <reg>x</reg>
+               </choice>
+               <metamark facs="#f22r05_i_metamark02" function="insert"
                   target="#f22r05_depuys_acordée">^</metamark><add facs="#f22r05_i_depuys_acordée"
                   xml:id="f22r05_depuys_acordée"><metamark>^</metamark> depuys acordée</add> o<choice>
                   <orig>u i</orig>

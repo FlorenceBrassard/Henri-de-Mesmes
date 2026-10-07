@@ -34,10 +34,10 @@
    </facsimile>
    <text>
       <body>
-         <ab><roleName ref="Q107207194">Mon pere</roleName>
-            <subst>
-               <del>ainsy né, <add facs="#f17v01_i_dun_Mammes" xml:id="f17v01_dun_Mammes_add"><del
-                        seq="2" facs="#f17v01_i_dun_maison" xml:id="f17v01_dun_maison">d<choice>
+         <ab><s><roleName ref="Q107207194">Mon pere</roleName>
+               <del xml:id="f17v01_ainsy_ieunesse">ainsy né, <add facs="#f17v01_i_dun_Mammes"
+                     xml:id="f17v01_dun_Mammes_add"><del seq="2" facs="#f17v01_i_dun_maison"
+                        xml:id="f17v01_dun_maison">d<choice>
                            <orig/>
                            <reg>'</reg>
                         </choice>un gentilhome de ceste maison</del>
@@ -45,7 +45,7 @@
                            <surname>Mammes</surname></del></add> et d<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>une damoyselle qui estoit de <surname>Canna</surname>, <subst>
+                  </choice>une damoyselle qui estoit de <surname ref="Q105701217">Canna</surname>, <subst>
                      <del facs="#f17v01_i_maison_del" xml:id="f17v01_maison_del">maison</del>
                      <del facs="#f17v01_i_bone_famille" xml:id="f17v01_bone_famille_del"><add
                            facs="#f17v01_i_bone_famille" xml:id="f17v01_bone_famille_add">bone
@@ -72,51 +72,52 @@
                   <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>eunesse.</del>
-               <add><gap unit="char" quantity="1"/><supplied cert="high">a</supplied> sa naissance n<choice>
-                     <orig> </orig>
-                     <reg>'</reg>
-                  </choice>a<choice>
-                     <orig>u</orig>
-                     <reg>v</reg>
-                  </choice>oit <gap unit="char" quantity="1"/><supplied cert="high">q</supplied>ue
-                  sept mois. <choice>
-                     <orig>e</orig>
-                     <reg>E</reg>
-                  </choice>t pource <gap unit="char" quantity="1"/><supplied cert="high"
-                     >q</supplied>u<choice>
-                     <orig/>
-                     <reg>'</reg>
-                  </choice>il ne prometoit pas <subst>
-                     <del seq="1">longue vie il fut</del>
-                     <del seq="2"><add seq="1">gra<gap reason="deleted"/></add></del>
-                     <add seq="2">grande force, il fut</add>
-                  </subst><subst>
-                     <del>norry</del>
-                     <add>dedié</add>
-                  </subst> aux <choice>
-                     <abbr rend="overlined">lres</abbr>
-                     <expan>letres</expan>
-                  </choice> estant fort delié en <del>sa</del>
-                  <choice>
-                     <orig>i</orig>
-                     <reg>j</reg>
-                  </choice>eunesse.</add>
-            </subst></ab>
+                  </choice>eunesse.</del></s><s>
+               <addSpan spanTo="#f17v01_ieunesse" xml:id="f17v01_a_ieunesse"/><gap quantity="1"
+                  reason="margin" unit="char"/><supplied cert="high">a</supplied> sa naissance n<choice>
+                  <orig> </orig>
+                  <reg>'</reg>
+               </choice>a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oit <gap quantity="1" reason="margin" unit="char"/><supplied cert="high"
+                  >q</supplied>ue sept mois.<choice>
+                  <orig>e</orig>
+                  <reg>E</reg>
+               </choice>t pource <gap quantity="1" reason="margin" unit="char"/><supplied
+                  cert="high">q</supplied>u<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>il ne prometoit pas <subst instant="true">
+                  <del seq="1">longue vie il fut</del>
+                  <del seq="2"><add seq="1">gra<gap reason="deleted"/></add></del>
+                  <add seq="2">grande force, il fut</add>
+               </subst><subst>
+                  <del>norry</del>
+                  <add>dedié</add>
+               </subst> aux <choice>
+                  <abbr rend="overlined">lres</abbr>
+                  <expan>letres</expan>
+               </choice> estant fort delié en <del>sa</del>
+               <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>eunesse.<anchor xml:id="f17v01_ieunesse"/></s>
+            <substJoin target="#f17v01_ainsy_ieunesse #f17v01_a_ieunesse"/></ab>
          <note resp="AV" type="genetic"><p>Le premier jet et son retravail sont intégralement
                supprimés, à l’exception du sujet de la phrase, « <seg>Mon pere</seg> ». Henri de
                Mesmes fait disparaître la mention de ses grands-parents, <seg>Georges de
                   Mesmes</seg> et <seg>Marguerite de Cauna</seg>, qu’il évoquera plus loin (voir
-               f. 22v<hi rend="superscript">o</hi>, seg. 1), pour mieux renforcer, dans <seg>l’ajout marginal</seg>, l’évocation
-               des spécificités de la venue au monde de son père, Jean-Jacques I<hi
-                  rend="superscript">er</hi> de Mesmes, en mai 1490. Que celui-ci ait survécu à sa
-               grande prématurité, dans un contexte de forte mortalité infantile, en fait un
-               miraculé. L’ajout amorce également la représentation paradoxale de la carrière du
-               père, placée tant sous le signe de l’obéissance que de la réticence : si ce dernier
-               se montre très tôt doué pour les lettres, cette orientation est moins un choix qu’une
-               conséquence de sa fragilité. Plus robuste, Jean-Jacques I<hi rend="superscript"
-                  >er</hi> de Mesmes aurait peut-être été incité à embrasser une carrière
-               militaire.</p></note>
+                  f. 22v<hi rend="superscript">o</hi>, seg. 1), pour mieux renforcer, dans
+                  <seg>l’ajout marginal</seg>, l’évocation des spécificités de la venue au monde de
+               son père, Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes, en mai 1490. Que
+               celui-ci ait survécu à sa grande prématurité, dans un contexte de forte mortalité
+               infantile, en fait un miraculé. L’ajout amorce également la représentation paradoxale
+               de la carrière du père, placée tant sous le signe de l’obéissance que de la réticence
+               : si ce dernier se montre très tôt doué pour les lettres, cette orientation est moins
+               un choix qu’une conséquence de sa fragilité. Plus robuste, Jean-Jacques I<hi
+                  rend="superscript">er</hi> de Mesmes aurait peut-être été incité à embrasser une
+               carrière militaire.</p></note>
       </body>
    </text>
 </TEI>
