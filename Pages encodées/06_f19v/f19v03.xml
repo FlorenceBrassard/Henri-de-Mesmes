@@ -33,8 +33,12 @@
          <ab><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
-               </choice>t que je fey <del facs="#f19v03_i_et" xml:id="f19v03_et">et</del><add facs="#f19v03_i_prenant" xml:id="f19v03_prenant"
-                  >prenant</add><del facs="#f19v03_i_leu_pris" xml:id="f19v03_leu_pris">leu ce qu<choice>
+               </choice>t que <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>e fey <del facs="#f19v03_i_et" xml:id="f19v03_et">et</del><add
+                  facs="#f19v03_i_prenant" xml:id="f19v03_prenant">prenant</add><del instant="true"
+                  facs="#f19v03_i_leu_pris" xml:id="f19v03_leu_pris">leu ce qu<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>il</del>
