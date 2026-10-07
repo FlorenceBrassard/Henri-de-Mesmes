@@ -30,9 +30,13 @@
    </facsimile>
    <text>
       <body>
-         <ab><s>mes premiers ans passerent soubs la garde d<del>'</del>e ma mere <del>dame
-                        <persName><forename>Nicole</forename>
-                     <surname>Hennequin</surname></persName></del>
+         <ab><s><choice>
+                  <orig>m</orig>
+                  <reg>M</reg>
+               </choice>es premiers ans passerent soubs la garde d<del>'</del>e <roleName>ma
+                  mere</roleName>
+               <del>dame <persName><forename>Nicole</forename>
+                     <surname ref="Q21493029">Hennequin</surname></persName></del>
                <add>l'une</add> des meilleures femmes et des meilleures <subst>
                   <del facs="#f18r03_i_meres_monde" xml:id="f18r03_meres_monde">meres du
                      monde.</del>

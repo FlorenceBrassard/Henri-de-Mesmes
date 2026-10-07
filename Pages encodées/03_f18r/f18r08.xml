@@ -31,66 +31,69 @@
     </facsimile>
     <text>
         <body>
-            <ab><del>et</del>
-                <roleName ref="Q107207194"><choice>
-                        <orig>m</orig>
-                        <reg>M</reg>
-                    </choice>on pere</roleName> disoit <subst>
-                    <del facs="#f18r08_i_que_nestimant #f18r08_i_beaucoup_college"
-                        xml:id="f18r08_que_college">que n<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>estimant beaucoup la vie du college</del>
-                    <add facs="#f18r08_i_quen_college" xml:id="f18r08_quen_college">qu<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>en ceste <del>vie</del> norriture du college</add>
-                </subst> il a<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>oit <del facs="#f18r08_i_neantmoins" xml:id="f18r08_neantmoins"
-                    >neantmoins</del>
-                <substJoin target="#f18r08_que_college #f18r08_quen_college #f18r08_neantmoins"/>
-                <add>eu</add> deux regards, l'un <choice>
-                    <orig>a</orig>
-                    <reg>à</reg>
-                </choice> la con<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>ersation <del>et <choice>
-                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                        <expan>com</expan>
-                    </choice>manceme<choice>
-                        <abbr><g ref="#nt-glyph">Ƭ</g></abbr>
-                        <expan>nt</expan>
-                    </choice> de frequenta<choice>
-                        <abbr><hi rend="overlined">on</hi></abbr>
-                        <expan>tion</expan>
-                    </choice></del> de la <choice>
-                    <orig>i</orig>
-                    <reg>j</reg>
-                </choice>eunesse <subst seq="2">
-                    <del>bien norrie</del>
-                    <add>gaie et innocen<add><surplus>n</surplus>te</add></add>
-                </subst><subst seq="1">
-                    <del>, car en la tourbe il s<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>y en trou<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>oit</del>
-                    <add><del>dont il <del>s<choice>
-                                    <orig/>
-                                    <reg>'</reg>
-                                </choice>y</del> y a<choice>
+            <ab><s><del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t</del>
+                    <roleName ref="Q107207194"><choice>
+                            <orig>m</orig>
+                            <reg>M</reg>
+                        </choice>on pere</roleName> disoit <subst>
+                        <del facs="#f18r08_i_que_nestimant #f18r08_i_beaucoup_college"
+                            xml:id="f18r08_que_college">que n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>estimant beaucoup la vie du college</del>
+                        <add facs="#f18r08_i_quen_college" xml:id="f18r08_quen_college">qu<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>en ceste <del>vie</del> norriture du college</add>
+                    </subst> il a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>oit <del facs="#f18r08_i_neantmoins" xml:id="f18r08_neantmoins"
+                        >neantmoins</del>
+                    <substJoin target="#f18r08_que_college #f18r08_quen_college #f18r08_neantmoins"/>
+                    <add>eu</add> deux regards, l'un <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> la con<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ersation <del>et <choice>
+                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                            <expan>com</expan>
+                        </choice>manceme<choice>
+                            <abbr><g ref="#nt-glyph">Ƭ</g></abbr>
+                            <expan>nt</expan>
+                        </choice> de frequenta<choice>
+                            <abbr><hi rend="overlined">on</hi></abbr>
+                            <expan>tion</expan>
+                        </choice></del> de la <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eunesse <subst seq="2">
+                        <del>bien norrie</del>
+                        <add>gaie et innocen<add instant="true"><surplus>n</surplus>te</add></add>
+                    </subst><subst seq="1">
+                        <del>, car en la tourbe il s<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>y en trou<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>oit <del>lors</del> l<choice>
-                                <orig>a</orig>
-                                <reg>à</reg>
-                            </choice></del></add>
-                </subst><del>quelque petit nombre</del>.</ab>
+                            </choice>oit</del>
+                        <add><del>dont il <del>s<choice>
+                                        <orig/>
+                                        <reg>'</reg>
+                                    </choice>y</del> y a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>oit <del>lors</del> l<choice>
+                                    <orig>a</orig>
+                                    <reg>à</reg>
+                                </choice></del></add>
+                    </subst><del>quelque petit nombre</del>.</s></ab>
             <note resp="AV" type="genetic"><p>L’adverbe « <seg>neantmoins</seg> » est raturé et
                     souligné : on fait l’hypothèse que ce soulignement n’est pas le signe d’une
                     volonté de rétablissement, mais d’une première rature maladroite, dans la

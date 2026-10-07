@@ -32,48 +32,54 @@
    </facsimile>
    <text>
       <body>
-         <ab><del facs="#f18r02_i_estant" xml:id="f18r02_estant">estant</del> lors <roleName
-               ref="Q107207194">mon pere</roleName>
-            <add facs="#f18r02_i_estoit" xml:id="f18r02_estoit">estoit</add><substJoin
-               target="#f18r02_estant #f18r02_estoit #f18r02_par_gré"/><choice>
-               <abbr>lieut<hi>t</hi></abbr>
-               <expan>lieutenant</expan>
-            </choice> ci<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>il de <placeName ref="Q90"><choice>
-                  <orig>p</orig>
-                  <reg>P</reg>
-               </choice>aris</placeName><add
-               facs="#f18r02_i_par_Roy #f18r02_i_francoys_contraint #f18r02_i_daccepter_gré"
-               xml:id="f18r02_par_gré">, par l<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>lection du <persName ref="Q129857"><roleName><choice>
-                        <orig>R</orig>
-                        <reg>r</reg>
-                     </choice>oy</roleName><forename><choice>
-                        <orig>f</orig>
-                        <reg>F</reg>
-                     </choice>ran<choice>
-                        <orig>c</orig>
-                        <reg>ç</reg>
-                     </choice>oys</forename></persName> qui pour son s<choice>
-                  <orig>c</orig>
-                  <reg>ç</reg>
-               </choice>a<choice>
+         <ab><s><del facs="#f18r02_i_estant" xml:id="f18r02_estant"><choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>stant</del>
+               <choice>
+                  <orig>l</orig>
+                  <reg>L</reg>
+               </choice>ors <roleName ref="Q107207194">mon pere</roleName>
+               <add facs="#f18r02_i_estoit" xml:id="f18r02_estoit">estoit</add><substJoin
+                  target="#f18r02_estant #f18r02_estoit #f18r02_par_gré"/><choice>
+                  <abbr>lieut<hi>t</hi></abbr>
+                  <expan>lieutenant</expan>
+               </choice> ci<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oir et preudhomie l<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>a<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>oit <choice>
-                  <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                  <expan>con</expan>
-               </choice>traint d'accepter ceste charge contre son gré.</add></ab>
+               </choice>il de <placeName ref="Q90"><choice>
+                     <orig>p</orig>
+                     <reg>P</reg>
+                  </choice>aris</placeName><add
+                  facs="#f18r02_i_par_Roy #f18r02_i_francoys_contraint #f18r02_i_daccepter_gré"
+                  xml:id="f18r02_par_gré">, par l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>lection du <persName ref="Q129857"><roleName><choice>
+                           <orig>R</orig>
+                           <reg>r</reg>
+                        </choice>oy</roleName><forename><choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>ran<choice>
+                           <orig>c</orig>
+                           <reg>ç</reg>
+                        </choice>oys</forename></persName> qui pour son s<choice>
+                     <orig>c</orig>
+                     <reg>ç</reg>
+                  </choice>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oir et preudhomie l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>a<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>oit <choice>
+                     <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                     <expan>con</expan>
+                  </choice>traint d'accepter ceste charge contre son gré.</add></s></ab>
          <note resp="AV" type="genetic"><p>Sous sa forme initiale, cette phrase forme une
                proposition dépendante de la phrase suivante : le jeune Henri de Mesmes est placé
                sous la responsabilité de sa mère du fait de la fonction de son père. La phrase
