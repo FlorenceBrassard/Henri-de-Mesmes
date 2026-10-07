@@ -53,8 +53,8 @@
             </choice><placeName ref="Q90"><choice>
                   <orig>p</orig>
                   <reg>P</reg>
-               </choice>aris</placeName> le <date>mardy <del>penu</del> xxx<hi rend="superscript"
-                  >e</hi>
+               </choice>aris</placeName> le <date>mardy <del>penu</del>
+               <seg xml:id="f18r01_30">xxx</seg><hi rend="superscript">e</hi>
                <choice>
                   <orig>i</orig>
                   <reg>j</reg>
@@ -64,15 +64,15 @@
                </choice>an<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>ier <hi rend="overlined">153<subst facs="#f18r01_i_1531"
-                     xml:id="f18r01_1531">
-                     <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
-                     <del rend="overwritten">2</del>
-                     <add place="superimposed" seq="2">1</add>
-                  </subst></hi>
-               <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant"><add seq="1">qui
-                     est 33 selon la reduction qu<substJoin
-                        target="#f18r01_1531 #f18r01_qui_maintenant"/><choice>
+               </choice>ier <seg xml:id="f18r01_153121"><hi rend="overlined">153<subst
+                        facs="#f18r01_i_1531" xml:id="f18r01_1531">
+                        <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
+                        <del rend="overwritten">2</del>
+                        <add place="superimposed" seq="2">1</add>
+                     </subst></hi></seg>
+               <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant_del"><add seq="1"
+                     xml:id="f18r01_qui_maintenant_add">qui est 33 selon la reduction qu<substJoin
+                        target="#f18r01_1531 #f18r01_qui_maintenant_del"/><choice>
                         <orig/>
                         <reg>'</reg>
                      </choice>on tient maintenant</add></del>
@@ -123,18 +123,21 @@
          <note resp="AV" type="genetic"><p>Le premier jet entame de nouveau le récit de la naissance
                et reprend ce qui a été supprimé au bas du f. 17v<hi rend="superscript">o</hi>. Henri
                de Mesmes modifie le jour de sa venue au monde (29 sur le f. 17v<hi
-                  rend="superscript">o</hi>, <seg>30</seg> ici) et se met surtout à hésiter sur
-                  <seg>l’année</seg> (1531 sur le f. 17v<hi rend="superscript">o</hi>). Étant né en
-               janvier, son année de naissance est, de fait, modifiée par l’édit de Roussillon de
-               1564 (voir f. 17v<hi rend="superscript">o</hi>, seg. 5) : de 1531 en « ancien style
-               », elle devient 1532 en « nouveau style ».</p>
+                  rend="superscript">o</hi>, <seg corresp="#f18r01_30">30</seg> ici) et se met
+               surtout à hésiter sur <seg corresp="#f18r01_153121" facs="">l’année</seg> (1531 sur
+               le f. 17v<hi rend="superscript">o</hi>). Étant né en janvier, son année de naissance
+               est, de fait, modifiée par l’édit de Roussillon de 1564 (voir f. 17v<hi
+                  rend="superscript">o</hi>, seg. 5) : de 1531 en « ancien style », elle devient
+               1532 en « nouveau style ».</p>
             <p>Certainement le mémorialiste a-t-il d’abord écrit « 1532 », date en « nouveau style »
                ; puis il a estimé après coup que 1532 était en fait la date en « ancien style », et
-               a précisé, dans un ajout qu’elle équivalait à <seg>1533 en « nouveau style</seg> ».
-               Il a ensuite compris que cette correction était une erreur : il a, de ce fait,
-               supprimé l’ajout comportant « 1533 » et a corrigé « 1532 » en « 1531 ». Dans
-                  <seg>l’ajout marginal</seg>, il a finalement précisé que 1532 est bien la date en
-               « nouveau style ».</p></note>
+               a précisé, dans un ajout qu’elle équivalait à <seg
+                  corresp="#f18r01_qui_maintenant_add" facs="#f18r01_i_qui_maintenant">1533 en «
+                  nouveau style</seg> ». Il a ensuite compris que cette correction était une erreur
+               : il a, de ce fait, supprimé l’ajout comportant « 1533 » et a corrigé « 1532 » en «
+               1531 ». Dans <seg corresp="#f18r01_qui_prst" facs="#f18r01_i_qui_prst">l’ajout
+                  marginal</seg>, il a finalement précisé que 1532 est bien la date en « nouveau
+               style ».</p></note>
       </body>
    </text>
 </TEI>

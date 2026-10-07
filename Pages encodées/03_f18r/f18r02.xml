@@ -77,13 +77,16 @@
          <note resp="AV" type="genetic"><p>Sous sa forme initiale, cette phrase forme une
                proposition dépendante de la phrase suivante : le jeune Henri de Mesmes est placé
                sous la responsabilité de sa mère du fait de la fonction de son père. La phrase
-               devient autonome quand « <seg>estant</seg> » est remplacé par « <seg>estoit</seg> »,
-               probablement après <seg>l’ajout</seg> qui vient la prolonger nettement :
-               l’allongement du propos aurait incité le mémorialiste à constituer une nouvelle
-               phrase. Cet ajout alimente le récit de l’ascension forcée du père, que le
-               mémorialiste adoptera également pour raconter sa propre carrière. Elle contribue en
-               outre à l’éloge de la figure paternelle, privilégiée par François I<hi
-                  rend="superscript">er</hi>.</p></note>
+               devient autonome quand « <seg corresp="#f18r02_estant" facs="#f18r02_i_estant"
+                  >estant</seg> » est remplacé par « <seg corresp="#f18r02_estoit"
+                  facs="#f18r02_i_estoit">estoit</seg> », probablement après <seg
+                  corresp="#f18r02_par_gré"
+                  facs="#f18r02_i_par_Roy #f18r02_i_francoys_contraint #f18r02_i_daccepter_gré"
+                  >lf18r’ajout</seg> qui vient la prolonger nettement : l’allongement du propos aurait
+               incité le mémorialiste à constituer une nouvelle phrase. Cet ajout alimente le récit
+               de l’ascension forcée du père, que le mémorialiste adoptera également pour raconter
+               sa propre carrière. Elle contribue en outre à l’éloge de la figure paternelle,
+               privilégiée par François I<hi rend="superscript">er</hi>.</p></note>
       </body>
    </text>
 </TEI>

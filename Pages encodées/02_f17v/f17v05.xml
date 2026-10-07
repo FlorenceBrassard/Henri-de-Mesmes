@@ -35,7 +35,7 @@
    </facsimile>
    <text>
       <body>
-         <ab><s><add><subst>
+         <ab><s><add xml:id="f17v05_Mais_1531"><subst>
                      <del>toutesfois</del>
                      <add>Mais</add>
                   </subst> sa mort <subst>
@@ -90,7 +90,7 @@
                         <add xml:id="f17v05_date_1531"><hi rend="trait_suscrit"
                         >1531</hi></add></date>
                      <substJoin target="#f17v05_date_15312 #f17v05_date_1531"/></seg>
-               </add><del>Je nacquis <choice>
+               </add><del xml:id="f17v05_Je_matin">Je nacquis <choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
@@ -104,11 +104,13 @@
                         <reg>à</reg>
                      </choice> trois heures du matin</date>.</del></s></ab>
          <note resp="AV" type="genetic"><p>Le récit de la naissance est repoussé au feuillet
-               suivant : <seg>la phrase initialement rédigée est supprimée</seg> et remplacée par un
-                  <seg>ajout</seg> qui permet de placer Henri de Mesmes dans la lignée de son
-               grand-père maternel, en plus de celle de son père. Comme ce sera le cas à de très
-               nombreuses reprises, le mémorialiste hésite sur la date de la mort d’Oudart
-               Hennequin, concomitante de sa propre conception (<seg>1531 ou 1532</seg> ?), comme il
+               suivant : <seg corresp="#f17v05_Je_matin" facs="">la phrase initialement rédigée est
+                  supprimée</seg> et remplacée par un <seg corresp="#f17v05_Mais_1531" facs=""
+                  >ajout</seg> qui permet de placer Henri de Mesmes dans la lignée de son grand-père
+               maternel, en plus de celle de son père. Comme ce sera le cas à de très nombreuses
+               reprises, le mémorialiste hésite sur la date de la mort d’Oudart Hennequin,
+               concomitante de sa propre conception (<seg
+                  corresp="#f17v05_date_15312 #f17v05_date_1531" facs="">1531 ou 1532</seg> ?), comme il
                hésitera sur sa propre date de naissance (voir f. 18r<hi rend="superscript">o</hi>,
                seg. 1). Cette hésitation paraît imputable aux modifications du calendrier opérées au
                cours du XVI<hi rend="superscript">e</hi> siècle : uniformisation du début de l’année

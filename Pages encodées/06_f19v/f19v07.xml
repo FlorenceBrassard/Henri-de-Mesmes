@@ -85,8 +85,9 @@
                   <reg>v</reg>
                </choice>iron.</s></ab>
          <note resp="AV" type="genetic"><p>Henri de Mesmes, dans la continuité des ajouts des
-               phrases précédentes, souligne dans la marge l’ampleur de son public pour conforter
-               l’importance de son entrée dans le monde de la robe parisienne.</p></note>
+               phrases précédentes, souligne <seg corresp="#f19v07_en_parlement"
+                  facs="#f19v07_en_parlement">dans la marge</seg> l’ampleur de son public pour
+               conforter l’importance de son entrée dans le monde de la robe parisienne.</p></note>
       </body>
    </text>
 </TEI>

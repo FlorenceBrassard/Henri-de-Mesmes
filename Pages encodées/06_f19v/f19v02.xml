@@ -88,10 +88,11 @@
                     </subst>.</s></ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute des détails sur les
                     circonstances de la rencontre avec Ferretti : le propos recomposé met davantage
-                    en valeur <seg facs="#f19v02_nous_larriuée #f19v02_i_et_bon">la cordialité des
+                    en valeur <seg corresp="#f19v02_i_nous_arriuée #f19v02_et_bon"
+                        facs="#f19v02_nous_larriuée #f19v02_i_et_bon">la cordialité des
                         échanges</seg> et offre une plus grande précision temporelle – <seg
-                        facs="#f19v02_matin_françoys">jour de la Saint-François</seg>, soit le 4
-                    octobre 1550.</p></note>
+                        corresp="#f19v02_matin_françoys" facs="#f19v02_matin_françoys">jour de la
+                        Saint-François</seg>, soit le 4 octobre 1550.</p></note>
             <note resp="AV" type="critic"><p>Le Français 18617 et le Duchesne 57 donnent « ce que je
                     fis » (f. 7v<hi rend="superscript">o</hi>) ou « ce que je feis » (f. 58v<hi
                         rend="superscript">o</hi>), qui est plus satisfaisant sur le plan syntaxique

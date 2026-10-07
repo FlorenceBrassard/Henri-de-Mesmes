@@ -51,11 +51,12 @@
                </choice> une apres disnée a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>ec catedran<supplied>,</supplied> la ii<hi rend="superscript">e</hi> iii <choice>
+               </choice>ec <seg xml:id="f19r06_catedran">catedran</seg><supplied>,</supplied> la
+                  ii<hi rend="superscript">e</hi> iii <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>ours entiers <subst>
-                  <del>sens catedran</del>
+                  <del xml:id="f19r06_sens_catedran">sens catedran</del>
                   <add>et seuls</add>
                </subst>
                <supplied>,</supplied> a<choice>
@@ -190,22 +191,25 @@
                      <substJoin target="#f19r06_aux #f19r06_de_france"
                   /><supplied>.</supplied></add></s></add></ab>
          <note resp="AV" type="genetic"><p>Le mémorialiste retravaille quelque peu la phrase pour
-               éviter <seg>la répétition de « catedran</seg> » et pour améliorer la formulation de
-               la dernière expression (« <seg>suffisance</seg> »/» <seg>confidance</seg> » formant
-               une homéotéleute). Il ajoute surtout, comme il l’a déjà fait précédemment, une
-               évocation des hommes en compagnie desquels il évolue à Toulouse, et souligne son
-               amitié avec Guy du Faur Pibrac et Paul de Foix. Henri de Mesmes continue ainsi de
-               mettre en valeur son réseau.</p></note>
+               éviter <seg corresp="#f19r06_catedran #f19r06_sens_catedran" facs="">la répétition de
+                  « catedran »</seg> et pour améliorer la formulation de la dernière expression
+                  (« <seg corresp="#f19r06_suffisance" facs="#f19r06_i_suffisance"
+                  >suffisance</seg> »/« <seg corresp="#f19r06_confidance"
+                  facs="#f19r06_i_confidance">confidance</seg> » formant une homéotéleute). Il
+               ajoute surtout, comme il l’a déjà fait précédemment, une évocation des hommes en
+               compagnie desquels il évolue à Toulouse, et souligne son amitié avec Guy du Faur
+               Pibrac et Paul de Foix. Henri de Mesmes continue ainsi de mettre en valeur son
+               réseau.</p></note>
          <note resp="AV" type="critic"><p>Le Français 18617 (f. 7r<hi rend="superscript">o</hi>) et
                le Duchesne 57 (f. 58r<hi rend="superscript">o</hi>) n’ont <hi rend="italic">a
                   priori</hi> pas identifié Jean de Corras, dont le nom est orthographié dans les
-               deux cas « Carras ».</p>
+               deux cas « Carras ».</p>
             <p>É. Frémy ponctue différemment l’énumération des noms des collègues juristes d’Henri
-               de Mesmes, ce qui en infléchit le sens : « … aussy Perrery et Fernandy et, des
+               de Mesmes, ce qui en infléchit le sens : « … aussy Perrery et Fernandy et, des
                jeunes, du Bourg et Pibrac, après, moy. » (éd. des <hi rend="italic">Mémoires</hi>,
                p. 143-144). Sur le manuscrit autographe, pourtant, aucune virgule ne se trouve
-                  <seg>entre « ieunes » et « du bourg</seg> » et un <seg>point</seg> est bien
-               lisible entre « pibrac » et « apres moy ». </p></note>
+                  <seg>entre « ieunes » et « du bourg</seg> » et un <seg>point</seg> est bien
+               lisible entre « pibrac » et « apres moy ». </p></note>
       </body>
    </text>
 </TEI>

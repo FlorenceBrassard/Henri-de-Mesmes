@@ -27,7 +27,7 @@
             <zone xml:id="f19v01_i_et_celebrité" points="2627,164 2627,382 1963,300 1959,232"/>
             <zone xml:id="f19v01_i_et2" points="13,537 4,673 118,673 118,550"/>
             <zone xml:id="f19v01_i_de1" points="159,519 154,664 290,664 304,500"/>
-            <zone xml:id="f19v01_i_et_frequence" points="731,496 740,609 13,669 13,491"/>
+            <zone xml:id="f19v01_i_et_frequence" points="731,496 740,609 -9,669 13,491"/>
             <zone xml:id="f19v01_i_et3" points="759,523 768,605 877,605 886,509"/>
             <zone xml:id="f19v01_i_de2" points="818,423 818,532 959,537 954,432"/>
             <zone xml:id="f19v01_i_maiesté" points="881,519 881,609 1245,596 1263,459"/>
@@ -62,47 +62,55 @@
                             </choice>a</add>
                     </subst>pparat <del seq="1" facs="#f19v01_i_et1" xml:id="f19v01_et1">et</del>
                     <add seq="3" facs="#f19v01_i_et_celebrité" xml:id="f19v01_et_celebrité">et de <subst>
-                            <del>celebrité</del>
-                            <add>reputation</add>
+                            <del xml:id="f19v01_celebrité">celebrité</del>
+                            <add xml:id="f19v01_reputation">reputation</add>
                         </subst></add>
-                    <del seq="3" facs="#f19v01_i_et_frequence"><add seq="2" facs="#f19v01_et2"
-                            xml:id="f19v01_et2">et</add></del><del seq="1" facs="#f19v01_i_de1"
-                        xml:id="f19v01_de1">de</del>
-                    <del>frequence</del>
+                    <del seq="3" facs="#f19v01_i_et_frequence" xml:id="f19v01_et_frequence"><add
+                            seq="2" facs="#f19v01_i_et2" xml:id="f19v01_et2">et</add><del seq="1"
+                            facs="#f19v01_i_de1" xml:id="f19v01_de1">de</del>
+                        <seg xml:id="f19v01_frequence">frequence</seg></del>
                     <del seq="2" facs="#f19v01_i_et3" xml:id="f19v01_et3">et</del>
                     <del seq="1" facs="#f19v01_i_de2" xml:id="f19v01_de2"><add seq="1"
-                        >de</add></del>
+                            xml:id="f19v01_de2_add">de</add></del>
                     <del seq="2" facs="#f19v01_i_maiesté" xml:id="f19v01_maiesté">ma<choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>esté</del> que lecteur de son <subst>
-                        <del seq="1">temps</del>
-                        <del seq="2"><add seq="1">siecle</add></del>
-                        <add seq="2">temps</add>
+                        <del seq="1" xml:id="f19v01_temps1">temps</del>
+                        <del seq="2"><add seq="1" xml:id="f19v01_siecle">siecle</add></del>
+                        <add seq="2" xml:id="f19v01_temps2">temps</add>
                     </subst>.</s></ab>
             <substJoin seq="1" target="#f19v01_et1 #f19v01_de1 #f19v01_de2"/>
             <substJoin seq="2" target=" #f19v01_et2 #f19v01_et3 #f19v01_maiesté"/>
             <substJoin seq="3" target="#f19v01_et_celebrité #f19v01_et_frequence"/>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à rendre hommage à Ferretti et
-                    à signaler le prestige dont ce dernier bénéficie. Le mémorialiste conforte ainsi
-                    indirectement son propre éloge, puisque le juriste italien lui propose, comme
-                    les <hi rend="italic">Mémoires</hi> le racontent ensuite, de lire « en sa place
-                    » et rédige une lettre de compliments à l’attention de Jean-Jacques I<hi
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes cherche à rendre hommage à Ferretti et à signaler le prestige
+                    dont ce dernier bénéficie. Le mémorialiste conforte ainsi indirectement son
+                    propre éloge, puisque le juriste italien lui propose, comme les <hi
+                        rend="italic">Mémoires</hi> le racontent ensuite, de lire « en sa place » et
+                    rédige une lettre de compliments à l’attention de Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes.</p>
                 <p>On peut faire l’hypothèse que la fin de la phrase est retravaillée de la manière
-                    suivante : ajout du « <seg>de</seg> » devant « <seg>maiesté</seg> », ensuite
-                    supprimé en même temps que le « <seg>et de</seg> » devant « <seg>frequence</seg>
-                    », pour garantir un rythme ternaire (« apparat », « frequence », « maieste ») ;
-                        <seg>rétablissement de la coordination</seg> et retour à un rythme binaire
-                    (« apparat » et « frequence ») ; double substitution, de « frequence » par «
-                        <seg>celebrité</seg> », puis de « celebrité » par « <seg>reputation</seg> ».
-                    Ce dernier terme paraît condenser l’idée initiale de « majesté » (grandeur, qui
-                    vaut la reconnaissance) et de « frequence », si on entend ce dernier terme en
-                    son sens étymologique d’affluence, de vaste auditoire (<hi rend="italic"
-                        >frequentia</hi> en latin : <hi rend="italic">foule</hi>). « Frequence »
-                    peut toutefois aussi s’entendre en son sens actuel ; il souligne alors le nombre
-                    et la régularité des leçons. Le terme « <seg>temps</seg> », quant à lui, est
-                    d’abord remplacé par « <seg>siecle </seg>», pour être finalement rétabli.</p>
+                    suivante : ajout du « <seg corresp="#f19v01_de2_add" facs="#f19v01_i_de2"
+                        >de</seg> » devant « <seg corresp="#f19v01_maiesté" facs="#f19v01_i_maiesté"
+                        >maiesté</seg> », ensuite supprimé en même temps que le « <seg
+                        corresp="#f19v01_et1 #f19v01_de1" facs="#f19v01_i_et1 #f19v01_i_de1">et
+                        de</seg> » devant « <seg corresp="#f19v01_frequence" facs=""
+                    >frequence</seg> », pour garantir un rythme ternaire (« apparat », «
+                    frequence », « maieste ») ; <seg corresp="#f19v01_et2" facs="#f19v01_i_et2"
+                        >rétablissement de la coordination</seg> et retour à un rythme binaire («
+                    apparat » et « frequence ») ; double substitution, de « frequence » par « <seg
+                        corresp="#f19v01_celebrité" facs="">celebrité</seg> », puis de « celebrité »
+                    par « <seg corresp="#f19v01_reputation" facs="">reputation</seg> ». Ce dernier
+                    terme paraît condenser l’idée initiale de « majesté » (grandeur, qui vaut la
+                    reconnaissance) et de « frequence », si on entend ce dernier terme en son sens
+                    étymologique d’affluence, de vaste auditoire (<hi rend="italic">frequentia</hi>
+                    en latin : <hi rend="italic">foule</hi>). « Frequence » peut toutefois aussi
+                    s’entendre en son sens actuel ; il souligne alors le nombre et la régularité des
+                    leçons. Le terme « <seg corresp="#f19v01_temps1" facs="">temps</seg> », quant à
+                    lui, est d’abord remplacé par « <seg corresp="#f19v01_siecle" facs=""
+                        >siecle</seg> », pour être finalement <seg corresp="#f19v01_temps2" facs=""
+                        >rétabli</seg>.</p>
             </note>
         </body>
     </text>

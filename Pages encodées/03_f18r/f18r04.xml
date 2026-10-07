@@ -61,7 +61,7 @@
                 <choice>
                     <orig>L</orig>
                     <reg>l</reg>
-                </choice>imosin, <del><choice>
+                </choice>imosin, <del xml:id="f18r04_ieune_home"><choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>eune home</del><del rend="unmarked">,</del> disciple de <del><choice>
@@ -70,7 +70,7 @@
                     </choice></del><persName ref="Q714921"><surname><choice>
                             <orig>d</orig>
                             <reg>D</reg>
-                        </choice>orat</surname></persName>,<add>home </add><add>sca<choice>
+                        </choice>orat</surname></persName>,<add xml:id="f18r04_home_scauant">home </add><add>sca<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ant</add> choisy <add facs="#f18r04_i_pour_et">pour sa vie innocente
@@ -143,7 +143,8 @@
                     <reg>'</reg>
                 </choice>enseigner.</ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes renforce l’éloge de Jean Maledent, qui
-                    passe de « <seg>ieune home</seg> » à « <seg>home scavant</seg> » dans une
+                    passe de « <seg corresp="#f18r04_ieune_home" facs="">ieune home</seg> » à « <seg
+                        corresp="#f18r04_home_scauant" facs="">home scavant</seg> » dans une
                     substitution, et dont la « <seg>vie innocente</seg> » est saluée dans un
                     ajout.</p></note>
         </body>

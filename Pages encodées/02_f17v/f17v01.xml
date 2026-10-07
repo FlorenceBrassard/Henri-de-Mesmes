@@ -34,7 +34,7 @@
    </facsimile>
    <text>
       <body>
-         <ab><roleName ref="Q107207194">Mon pere</roleName>
+         <ab><roleName ref="Q107207194" xml:id="f17v01_Mon_pere">Mon pere</roleName>
             <subst>
                <del>ainsy né, <add facs="#f17v01_i_dun_Mammes" xml:id="f17v01_dun_Mammes_add"><del
                         seq="2" facs="#f17v01_i_dun_maison" xml:id="f17v01_dun_maison">d<choice>
@@ -45,7 +45,8 @@
                            <surname>Mammes</surname></del></add> et d<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>une damoyselle qui estoit de <surname>Canna</surname>, <subst>
+                  </choice><seg xml:id="f17v01_une_Cauna">une damoyselle qui estoit de
+                        <surname>Cauna</surname></seg>, <subst>
                      <del facs="#f17v01_i_maison_del" xml:id="f17v01_maison_del">maison</del>
                      <del facs="#f17v01_i_bone_famille" xml:id="f17v01_bone_famille_del"><add
                            facs="#f17v01_i_bone_famille" xml:id="f17v01_bone_famille_add">bone
@@ -73,7 +74,9 @@
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>eunesse.</del>
-               <add><gap unit="char" quantity="1"/><supplied cert="high">a</supplied> sa naissance n<choice>
+               <add xml:id="f17v01_a_ieunesse"><gap unit="char" quantity="1"/><supplied cert="high"
+                     >a</supplied> sa naissance n<choice>
+                     <!--                     « a » sa naissance : supplied, mais faudrait-il régulariser ?-->
                      <orig> </orig>
                      <reg>'</reg>
                   </choice>a<choice>
@@ -104,19 +107,20 @@
                   </choice>eunesse.</add>
             </subst></ab>
          <note resp="AV" type="genetic"><p>Le premier jet et son retravail sont intégralement
-               supprimés, à l’exception du sujet de la phrase, « <seg>Mon pere</seg> ». Henri de
-               Mesmes fait disparaître la mention de ses grands-parents, <seg>Georges de
-                  Mesmes</seg> et <seg>Marguerite de Cauna</seg>, qu’il évoquera plus loin (voir
-               f. 22v<hi rend="superscript">o</hi>, seg. 1), pour mieux renforcer, dans <seg>l’ajout marginal</seg>, l’évocation
-               des spécificités de la venue au monde de son père, Jean-Jacques I<hi
-                  rend="superscript">er</hi> de Mesmes, en mai 1490. Que celui-ci ait survécu à sa
-               grande prématurité, dans un contexte de forte mortalité infantile, en fait un
-               miraculé. L’ajout amorce également la représentation paradoxale de la carrière du
-               père, placée tant sous le signe de l’obéissance que de la réticence : si ce dernier
-               se montre très tôt doué pour les lettres, cette orientation est moins un choix qu’une
-               conséquence de sa fragilité. Plus robuste, Jean-Jacques I<hi rend="superscript"
-                  >er</hi> de Mesmes aurait peut-être été incité à embrasser une carrière
-               militaire.</p></note>
+               supprimés, à l’exception du sujet de la phrase, « <seg corresp="#f17v01_Mon_pere" facs="">Mon
+                  pere</seg> ». Henri de Mesmes fait disparaître la mention de ses grands-parents,
+                  <seg corresp="#f17v01_dun_maison" facs="">Georges de Mesmes</seg> et <seg
+                  corresp="#f17v01_une_Cauna" facs="">Marguerite de Cauna</seg>, qu’il évoquera plus loin
+               (voir f. 22v<hi rend="superscript">o</hi>, seg. 1), pour mieux renforcer, dans <seg
+                  corresp="#f17v01_a_ieunesse" facs="">l’ajout marginal</seg>, l’évocation des spécificités
+               de la venue au monde de son père, Jean-Jacques I<hi rend="superscript">er</hi>
+               de Mesmes, en mai 1490. Que celui-ci ait survécu à sa grande prématurité, dans un
+               contexte de forte mortalité infantile, en fait un miraculé. L’ajout amorce également
+               la représentation paradoxale de la carrière du père, placée tant sous le signe de
+               l’obéissance que de la réticence : si ce dernier se montre très tôt doué pour les
+               lettres, cette orientation est moins un choix qu’une conséquence de sa fragilité.
+               Plus robuste, Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes aurait peut-être
+               été incité à embrasser une carrière militaire.</p></note>
       </body>
    </text>
 </TEI>

@@ -58,11 +58,13 @@
                     xml:id="f17v03_ou_xx">ou xx</add><substJoin
                     target="#xii_ou #f17v03_metamark_1 #f17v03_ou_xx"/> ans, <subst>
                     <del>et</del>
-                    <add>collegue <metamark facs="#f17v03_i_metamark_2" function="insert"
+                    <add xml:id="f17v02_collegue_faisoient">collegue <metamark
+                            facs="#f17v03_i_metamark_2" function="insert"
                             target="f17v03_et_compaignon" xml:id="f17v03_metamark_2"
                             >^</metamark><add facs="#f17v03_i_et_compaignon"
-                            xml:id="f17v03_et_compaignon"><metamark>^</metamark>et compaignon</add>
-                        de <persName ref="Q3745175"><forename>Philippus</forename>
+                            xml:id="f17v03_et_compaignon"><metamark>^</metamark>et <seg
+                                xml:id="f17v02_compaignon">compaignon</seg></add> de <persName
+                            ref="Q3745175"><forename>Philippus</forename>
                             <surname>Decius</surname></persName> et d'<persName ref="Q464471"
                                 ><forename full="abb"><choice>
                                     <abbr>Andr.</abbr>
@@ -104,8 +106,9 @@
                     ceste <choice>
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
-                    </choice>fession <del>et se perpetuer par ses escrits il</del></add> fut requis
-                par la <persName ref="Q236896"><roleName>Reyne</roleName>
+                    </choice>fession <del><seg xml:id="f17v02_et_escrits">et se perpetuer par ses
+                            escrits</seg> il</del></add> fut requis par la <persName ref="Q236896"
+                        ><roleName>Reyne</roleName>
                     <forename>Caterine</forename>
                     <nameLink>de</nameLink>
                     <surname>Navarre</surname></persName> de venir en <placeName><choice>
@@ -131,16 +134,17 @@
                     <orig/>
                     <reg>'</reg>
                 </choice>une autre forme de vie.</ab>
-            <note resp="AV" type="genetic"><p>La formule « <seg>et se perpetuer par ses
-                        escrits</seg> », finalement raturée, laisse entendre que Jean-Jacques I<hi
-                        rend="superscript">er</hi> de Mesmes aurait pu produire une œuvre savante à
-                    même de le faire entrer dans l’histoire s’il n’avait pas été « requis » par
-                    Catherine de Navarre. Cette suppression paraît compensée par le contenu de
-                        <seg>l’ajout marginal</seg> : celui-ci met en effet en valeur des liens du
-                    père du mémorialiste avec des humanistes et juristes italiens de grande renommée
-                    (Andrea Alciato, Filippo Decio). Le terme « <seg>compaignon</seg> » permet de
-                    souligner la dimension affective et non seulement intellectuelle de ces
-                    relations.</p></note>
+            <note resp="AV" type="genetic"><p>La formule « <seg corresp="#f17v02_et_escrits" facs=""
+                        >et se perpetuer par ses escrits</seg> », finalement raturée, laisse
+                    entendre que Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes aurait pu
+                    produire une œuvre savante à même de le faire entrer dans l’histoire s’il
+                    n’avait pas été « requis » par Catherine de Navarre. Cette suppression paraît
+                    compensée par le contenu de <seg corresp="#f17v02_collegue_faisoient" facs=""
+                        >l’ajout marginal</seg> : celui-ci met en effet en valeur des liens du père
+                    du mémorialiste avec des humanistes et juristes italiens de grande renommée
+                    (Andrea Alciato, Filippo Decio). Le terme « <seg corresp="#f17v02_compaignon"
+                        facs="">compaignon</seg> » permet de souligner la dimension affective et non
+                    seulement intellectuelle de ces relations.</p></note>
         </body>
     </text>
 </TEI>

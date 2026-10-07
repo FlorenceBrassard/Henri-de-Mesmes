@@ -145,10 +145,13 @@
                                 xml:id="f19r02_pres_de">pres de</add> sept</del>
                         <add facs="#f19r02_i_apres_six">apres six.</add>
                     </subst><del rend="unmarked">.</del></s></ab>
-            <note resp="AV" type="genetic"><p>Le mémorialiste supprime <seg>l’allusion à
-                        Platon</seg>, pour la remplacer par une <seg>mention de Virgile et
-                        d’Horace</seg>. La liste des lectures, d’abord centrée sur l’éloquence
-                    politique et philosophie, s’ouvre ainsi à la poésie.</p></note>
+            <note resp="AV" type="genetic"><p>Le mémorialiste supprime <seg
+                        corresp="#f19r02_et_plato" facs="#f19r02_i_et_Plato">l’allusion à
+                        Platon</seg>, pour la remplacer par une <seg
+                        corresp="#f19r02_virgilius_horatius" facs="#f19r02_i_Virgilius_horatius"
+                        >mention de Virgile et d’Horace</seg>. La liste des lectures, d’abord
+                    centrée sur l’éloquence politique et philosophie, s’ouvre ainsi à la
+                poésie.</p></note>
         </body>
     </text>
 </TEI>

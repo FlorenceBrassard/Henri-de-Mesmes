@@ -56,14 +56,15 @@
                         </choice>our</add>
                     <subst>
                         <del seq="2" facs="#f19r04_i_nous_lut #f19r04_i_lisions_lres"
-                            xml:id="f19r04_nous_lres">nous aprenions du lut lisions des bones <choice>
+                            xml:id="f19r04_nous_lres"><seg xml:id="f19r04_nous_lut">nous aprenions
+                                du lut</seg> lisions des bones <choice>
                                 <abbr rend="overlined">lres</abbr>
                                 <expan>lettres</expan>
                             </choice>,</del>
-                        <add facs="#f19r04_i_vn_promenoir"><choice>
-                                <orig>v</orig>
-                                <reg>u</reg>
-                            </choice>n peu de musique et de promenoir</add>
+                        <add facs="#f19r04_i_vn_promenoir"><seg xml:id="f19r04_vn_musique"><choice>
+                                    <orig>v</orig>
+                                    <reg>u</reg>
+                                </choice>n peu de musique</seg> et de promenoir</add>
                     </subst><del seq="1"> et</del> quelquefois <add facs="#f19r04_i_nous"
                         xml:id="f19r04_nous">nous</add><substJoin
                         target="#f19r04_nous_lres #f19r04_nous"/> alions disner chez <subst seq="2">
@@ -156,10 +157,12 @@
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>aber</surname></persName>.</add></s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime <seg>l’allusion à
+            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime <seg
+                        corresp="#f19r04_i_nous_lut" facs="#f19r04_i_nous_lut">l’allusion à
                         l’apprentissage du luth</seg> pour la remplacer par la mention plus vague
-                    d’« <seg>un peu de musique</seg> ». Il prolonge surtout l’évocation de ses
-                    relations privilégiées avec les « amis » de son père par <seg>l’ajout
+                    d’« <seg corresp="#f19r04_vn_musique" facs="">un peu de musique</seg> ». Il
+                    prolonge surtout l’évocation de ses relations privilégiées avec les « amis » de
+                    son père par <seg corresp="#f19r04_le_faber" facs="#f19r04_i_le_faber">l’ajout
                         marginal</seg>, dans lequel il fournit les noms latinisés de ces
                     derniers.</p></note>
             <note resp="AV" type="critic"><p>Le Français 18617 (f. 6v<hi rend="superscript">o</hi>)

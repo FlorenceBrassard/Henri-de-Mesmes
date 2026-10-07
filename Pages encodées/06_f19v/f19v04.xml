@@ -40,7 +40,7 @@
     <text>
         <body>
             <ab><s><subst>
-                        <del><choice>
+                        <del xml:id="f19v04_il_y"><choice>
                                 <orig>i</orig>
                                 <reg>I</reg>
                             </choice>l voulut y</del>
@@ -50,13 +50,15 @@
                                 </choice> quoy</del> il <del facs="#f19v04_i_daigna"
                                 xml:id="f19v04_daigna">daigna </del><add facs="#f19v04_i_y"
                                 xml:id="f19v04_y">y</add></add>
-                    </subst> assist<subst facs="#f19v04_er_a" xml:id="f19v04_er_a">
-                        <del rend="overwritten">er</del>
-                        <add place="superimposed">a</add>
-                    </subst><substJoin target="#f19v04_a_quoy #f19v04_daigna #f19v04_y #f19v04_er_a"
-                        /><add>luymesme <subst>
+                    </subst>
+                    <seg xml:id="f19v04_assista">assist<subst facs="#f19v04_er_a"
+                            xml:id="f19v04_er_a">
+                            <del rend="overwritten">er</del>
+                            <add place="superimposed">a</add>
+                        </subst></seg><substJoin
+                        target="#f19v04_a_quoy #f19v04_daigna #f19v04_y #f19v04_er_a"/><add>luymesme <subst>
                             <del>et</del>
-                            <add>a<choice>
+                            <add xml:id="f19v04_auec_escole">a<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ec</add>
@@ -89,12 +91,15 @@
                         <reg>v</reg>
                     </choice>oit pas pris desplaisir.</s></ab>
             <note resp="AV" type="genetic"><p>Outre le retravail du verbe – suppression de la
-                    modalisation induite par « <seg>vouloir</seg> » et « <seg>daigner</seg> », au
-                    profit du seul « <seg>assister</seg> » –, on notera l’ajout des formules «
-                        <seg>auec toute lescole</seg> », qui signale l’importance accordée à la
-                    leçon du jeune Henri, ainsi que « <seg>de sa main</seg> », qui précise que la
-                    missive envoyée à Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes est
-                    autographe, ce qui en accroit la valeur.</p></note>
+                    modalisation induite par « <seg corresp="#f19v04_il_y" facs="">vouloir</seg> »
+                    et « <seg corresp="#f19v04_daigna" facs="#f19v04_i_daigna">daigner</seg> », au
+                    profit du seul « <seg corresp="#f19v04_assista" facs="">assister</seg> » –, on
+                    notera l’ajout des formules « <seg corresp="#f19v04_auec_escole" facs="">auec
+                        toute lescole</seg> », qui signale l’importance accordée à la leçon du jeune
+                    Henri, ainsi que « <seg corresp="#f19v04_de_main" facs="#f19v04_i_de_main">de sa
+                        main</seg> », qui précise que la missive envoyée à Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes est autographe, ce qui en accroit la
+                    valeur.</p></note>
         </body>
     </text>
 </TEI>
