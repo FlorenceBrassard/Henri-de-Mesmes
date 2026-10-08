@@ -43,10 +43,26 @@
             <graphic
                 url="https://api.nakala.fr/iiif/10.34847/nkl.e38d0o8w/b5f099044d046c0a07d7b227523f6fa406196f11/439,279,888,3629/full/0/default.jpg"/>
             <zone xml:id="f25r01_i_Le" points="257,428 342,389 365,541 261,579"/>
-            <zone xml:id="f25r01_i_ie" lry="723" lrx="328" uly="607" ulx="240"/>
+            <zone xml:id="f25r01_i_ie01" lry="723" lrx="328" uly="607" ulx="240"/>
             <zone xml:id="f25r01_i_conseil" points="230,738 236,889 448,758 421,629"/>
             <zone xml:id="f25r01_i_Et" points="221,922 204,1064 312,999 307,904"/>
-            <zone xml:id="f25r01_i_de_la" points="174,1047 180,1192 355,1116 327,1007"/>
+            <zone xml:id="f25r01_i_de_la01" points="174,1047 180,1192 355,1116 327,1007"/>
+            <zone xml:id="f25r01_i_ce" lry="1300" lrx="255" uly="1230" ulx="189"/>
+            <zone xml:id="f25r01_i_ancore" points="186,1355 380,1264 391,1349 194,1438"/>
+            <zone xml:id="f25r01_i_bien" lry="1538" lrx="300" uly="1438" ulx="174"/>
+            <zone xml:id="f25r01_i_par_la" lry="1707" lrx="321" uly="1549" ulx="155"/>
+            <zone xml:id="f25r01_i_de_la02" lry="1798" lrx="324" uly="1670" ulx="153"/>
+            <zone xml:id="f25r01_i_quelque" points="157,1782 365,1758 371,1835 152,1900"/>
+            <zone xml:id="f25r01_i_diminution" points="149,1847 149,1976 542,1879 515,1734"/>
+            <zone xml:id="f25r01_i_qui" lry="2191" lrx="288" uly="1962" ulx="122"/>
+            <zone xml:id="f25r01_i_auoir" lry="2271" lrx="328" uly="2117" ulx="125"/>
+            <zone xml:id="f25r01_i_dentremise" lry="2420" lrx="534" uly="2210" ulx="121"/>
+            <zone xml:id="f25r01_i_ie02" lry="2570" lrx="180" uly="2455" ulx="99"/>
+            <zone xml:id="f25r01_i_de_seruir" lry="2805" lrx="380" uly="2598" ulx="83"/>
+            <zone xml:id="f25r01_i_sy" lry="3017" lrx="155" uly="2801" ulx="59"/>
+            <zone xml:id="f25r01_i_voulut" lry="3138" lrx="362" uly="2941" ulx="69"/>
+            <zone xml:id="f25r01_i_a" lry="3294" lrx="152" uly="3169" ulx="59"/>
+            <zone xml:id="f25r01_i_estant" lry="3532" lrx="427" uly="3315" ulx="47"/>
         </surface>
     </facsimile>
     <text>
@@ -115,7 +131,7 @@
                     </choice> ses <choice>
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
-                    </choice> disant <seg facs="#f25r01_i_ie"><choice>
+                    </choice> disant <seg facs="#f25r01_i_ie01"><choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>e</seg> viens vous querir <choice>
@@ -177,23 +193,23 @@
                     </choice>eau <choice>
                         <abbr>regl<hi rend="overlined">t</hi></abbr>
                         <expan>reglements</expan>
-                    </choice>ancore que <choice>
+                    </choice><seg facs="#f25r01_i_ancore">ancore</seg> que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e vey bien que c<choice>
+                    </choice>e vey <seg facs="#f25r01_i_bien">bien</seg> que c<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>estoit <choice>
-                        <abbr><g ref="#par-glyph">ꝑ</g></abbr>
-                        <expan>par</expan>
-                    </choice> la multiplicité de la troupe, <subst>
+                    </choice>estoit <seg facs="#f25r01_i_par_la"><choice>
+                            <abbr><g ref="#par-glyph">ꝑ</g></abbr>
+                            <expan>par</expan>
+                        </choice> la</seg> multiplicité de la troupe, <subst>
                         <del>grosse</del>
-                        <add>quelque</add>
+                        <add facs="#f25r01_i_quelque">quelque</add>
                     </subst>
-                    <choice>
-                        <abbr>dimin<hi rend="overlined">on</hi></abbr>
-                        <expan>diminution</expan>
-                    </choice>
+                    <seg facs="#f25r01_i_diminution"><choice>
+                            <abbr>dimin<hi rend="overlined">on</hi></abbr>
+                            <expan>diminution</expan>
+                        </choice></seg>
                     <add>de dignit<choice>
                             <orig>e</orig>
                             <reg>é</reg>
@@ -201,37 +217,44 @@
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> ceulx qui souloient y a<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>oir plus d<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>entremise.</s><s> Depuys <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e <choice>
+                    </choice> ceulx <seg facs="#f25r01_i_qui">qui</seg> souloient y <seg
+                        facs="#f25r01_i_auoir">a<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oir</seg> plus <seg facs="#f25r01_i_dentremise">d<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>entremise</seg>.</s><s> Depuys <seg facs="#f25r01_i_ie02"><choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e</seg>
+                    <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                         <expan>con</expan>
                     </choice>tinuay tous<choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ours de servir tant et sy peu que l<choice>
+                    </choice>ours <seg facs="#f25r01_i_de_seruir">de ser<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ir</seg> tant et <seg facs="#f25r01_i_sy">sy</seg> peu que l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>on voulut <choice>
+                    </choice>on <seg facs="#f25r01_i_voulut">voulut</seg>
+                    <choice>
                         <orig>i</orig>
                         <reg>, j</reg>
                     </choice>us<choice>
                         <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                         <expan>qu</expan>
-                    </choice>es <choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice> ce que le <roleName ref="Q53448">Roy</roleName><choice>
+                    </choice>es <seg facs="#f25r01_i_a"><choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice></seg> ce que le <roleName ref="Q53448">Roy</roleName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> estant<anchor xml:id="f25r01_estant"/>
+                    </choice>
+                    <seg facs="#f25r01_i_estant">estant</seg><anchor xml:id="f25r01_estant"/>
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -308,4 +331,3 @@
         </body>
     </text>
 </TEI>
-<?oxy_options track_changes="on"?>
