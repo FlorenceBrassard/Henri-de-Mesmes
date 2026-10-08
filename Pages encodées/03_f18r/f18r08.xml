@@ -31,7 +31,10 @@
     </facsimile>
     <text>
         <body>
-            <ab><del>et</del>
+            <ab><s><del><choice>
+                            <orig>e</orig>
+                            <reg>E</reg>
+                        </choice>t</del>
                 <roleName ref="Q107207194"><choice>
                         <orig>m</orig>
                         <reg>M</reg>
@@ -72,7 +75,7 @@
                     <reg>j</reg>
                 </choice>eunesse <subst seq="2">
                     <del>bien norrie</del>
-                    <add>gaie et innocen<add><surplus>n</surplus>te</add></add>
+                    <add>gaie et innocen<add instant="true"><surplus>n</surplus>te</add></add>
                 </subst><subst seq="1">
                     <del>, car en la tourbe il s<choice>
                             <orig/>
@@ -91,7 +94,7 @@
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice></del></add>
-                </subst><del>quelque petit nombre</del>.</ab>
+                </subst><del>quelque petit nombre</del>.</s></ab>
             <note resp="AV" type="genetic"><p>L’adverbe « <seg corresp="#f18r08_neantmoins"
                         facs="#f18r08_i_neantmoins">neantmoins</seg> » est raturé et souligné : on
                     fait l’hypothèse que ce soulignement n’est pas le signe d’une volonté de

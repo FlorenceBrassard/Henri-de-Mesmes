@@ -55,9 +55,10 @@
                                 dix</del></add>
                     </subst>ses <metamark facs="#f17v02_i_metamark_1" function="insert"
                         target="#f17v02_dix" xml:id="f17v02_metamark_1">^</metamark><add
-                        facs="#f17v02_i_dix" xml:id="f17v02_dix">dix></add><substJoin
-                        target=" #f17v02_huict_dix #f17v02_metamark_1 #f17v02_dix"/> freres qui sont
-                    presque touts morts a<subst xml:id="f17v02_a_la_aux">
+                        facs="#f17v02_i_dix" xml:id="f17v02_dix">dix</add><substJoin
+                        target=" #f17v02_huict_dix #f17v02_metamark_1 #f17v02_dix"/>
+                    <roleName>freres</roleName> qui sont presque touts morts a<subst
+                        xml:id="f17v02_a_la_aux">
                         <add facs="#f17v02_i_ux">ux</add>
                         <del facs="#f17v02_i_la">la</del>
                     </subst> guerre<add facs="#f17v02_i_s1" xml:id="f17v02_s1">s</add>

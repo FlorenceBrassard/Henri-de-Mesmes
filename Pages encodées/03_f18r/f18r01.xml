@@ -43,83 +43,87 @@
    </facsimile>
    <text>
       <body>
-         <ab><choice>
-               <orig>I</orig>
-               <reg>J</reg>
-            </choice>e nacquis <del>donc</del>
-            <choice>
-               <orig>a</orig>
-               <reg>à</reg>
-            </choice><placeName ref="Q90"><choice>
-                  <orig>p</orig>
-                  <reg>P</reg>
-               </choice>aris</placeName> le <date>mardy <del>penu</del>
-               <seg xml:id="f18r01_30">xxx</seg><hi rend="superscript">e</hi>
+         <ab><s><choice>
+                  <orig>I</orig>
+                  <reg>J</reg>
+               </choice>e nacquis <del>donc</del>
                <choice>
-                  <orig>i</orig>
-                  <reg>j</reg>
-               </choice>our de <choice>
-                  <orig>J</orig>
-                  <reg>j</reg>
-               </choice>an<choice>
-                  <orig>u</orig>
-                  <reg>v</reg>
-               </choice>ier <seg xml:id="f18r01_153121"><hi rend="overlined">153<subst
-                        facs="#f18r01_i_1531" xml:id="f18r01_1531">
+                  <orig>a</orig>
+                  <reg>à</reg>
+               </choice><placeName ref="Q90"><choice>
+                     <orig>p</orig>
+                     <reg>P</reg>
+                  </choice>aris</placeName>
+               <date>le mardy <del instant="true">penu</del>
+                  <seg xml:id="f18r01_30"><choice>
+                     <orig>xxx</orig>
+                     <reg>30</reg>
+                  </choice></seg><hi rend="superscript">e</hi>
+                  <choice>
+                     <orig>i</orig>
+                     <reg>j</reg>
+                  </choice>our de <choice>
+                     <orig>J</orig>
+                     <reg>j</reg>
+                  </choice>an<choice>
+                     <orig>u</orig>
+                     <reg>v</reg>
+                  </choice>ier <seg xml:id="f18r01_153121"><hi rend="overlined">153<subst facs="#f18r01_i_1531"
+                        xml:id="f18r01_1531">
                         <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
                         <del rend="overwritten">2</del>
                         <add place="superimposed" seq="2">1</add>
                      </subst></hi></seg>
-               <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant_del"><add seq="1"
-                     xml:id="f18r01_qui_maintenant_add">qui est 33 selon la reduction qu<substJoin
-                        target="#f18r01_1531 #f18r01_qui_maintenant_del"/><choice>
-                        <orig/>
-                        <reg>'</reg>
-                     </choice>on tient maintenant</add></del>
-               <choice>
-                  <orig>a</orig>
-                  <reg>à</reg>
-               </choice> trois heures du matin</date><choice>
-               <orig/>
-               <reg>.</reg>
-            </choice><metamark facs="#f18r01_i_qui_prst" function="insert" target="#f18r01_qui_prst"
-               >҂</metamark><add facs="#f18r01_i_qui_prst" xml:id="f18r01_qui_prst"
-                  ><metamark>҂</metamark><subst>
-                  <del facs="#f18r01_i_qui" xml:id="f18r01_qui">qui</del>
-                  <add facs="#f18r01_i_c" xml:id="f18r01_c"><choice>
-                        <orig>c</orig>
-                        <reg>C</reg>
-                     </choice>'</add>
-               </subst>estoit <add facs="#f18r01_i_le" xml:id="f18r01_le">le</add><substJoin
-                  target="#f18r01_qui_c #f18r01_le"/> c<choice>
-                  <abbr>õ</abbr>
-                  <expan>om</expan>
-               </choice>mancement de l<choice>
-                  <orig/>
-                  <reg>'</reg>
-               </choice>année <date><hi rend="overlined">1532</hi></date>
-               <subst>
-                  <del facs="#f18r01_i_mode" xml:id="f18r01_a_mode"><choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                     </choice> la mode</del>
-                  <add facs="#f18r01_i_au #f18r01_i_compte" xml:id="f18r01_au_compte">au
-                     compte</add>
-               </subst>
-               <choice>
-                  <orig>R</orig>
-                  <reg>r</reg>
-               </choice>omain<del facs="#f18r01_i_e_la" xml:id="f18r01_e_la">e la</del>que<del
-                  facs="#f18r01_i_lle" xml:id="f18r01_lle">lle</del> nous tenons <hi
-                  rend="overlined"><choice>
+                  <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant_del"><add seq="1"
+                        >qui est 33 selon la reduction qu<substJoin
+                           target="#f18r01_1531 #f18r01_qui_maintenant_del"/><choice>
+                           <orig/>
+                           <reg>'</reg>
+                        </choice>on tient maintenant</add></del>
+                  <choice>
                      <orig>a</orig>
                      <reg>à</reg>
-                  </choice>
+                  </choice> trois heures du matin</date><choice>
+                  <orig/>
+                  <reg>.</reg>
+               </choice><metamark facs="#f18r01_i_qui_prst" function="insert"
+                  target="#f18r01_qui_prst">҂</metamark><add facs="#f18r01_i_qui_prst"
+                  xml:id="f18r01_qui_prst"><metamark>҂</metamark><subst>
+                     <del facs="#f18r01_i_qui" xml:id="f18r01_qui">qui</del>
+                     <add facs="#f18r01_i_c" xml:id="f18r01_c"><choice>
+                           <orig>c</orig>
+                           <reg>C</reg>
+                        </choice>'</add>
+                  </subst>estoit <add facs="#f18r01_i_le" xml:id="f18r01_le">le</add><substJoin
+                     target="#f18r01_qui_c #f18r01_le"/> c<choice>
+                     <abbr>õ</abbr>
+                     <expan>om</expan>
+                  </choice>mancement de l<choice>
+                     <orig/>
+                     <reg>'</reg>
+                  </choice>année <date><hi rend="overlined">1532</hi></date>
+                  <subst>
+                     <del facs="#f18r01_i_mode" xml:id="f18r01_a_mode"><choice>
+                           <orig>a</orig>
+                           <reg>à</reg>
+                        </choice> la mode</del>
+                     <add facs="#f18r01_i_au #f18r01_i_compte" xml:id="f18r01_au_compte">au
+                        compte</add>
+                  </subst>
                   <choice>
-                     <abbr>prst</abbr>
-                     <expan>present</expan>
-                  </choice></hi>.<substJoin
-                  target="#f18r01_a_mode #f18r01_au_compte #f18r01_e_la #f18r01_lle"/></add></ab>
+                     <orig>R</orig>
+                     <reg>r</reg>
+                  </choice>omain<del facs="#f18r01_i_e_la" xml:id="f18r01_e_la">e la</del>que<del
+                     facs="#f18r01_i_lle" xml:id="f18r01_lle">lle</del> nous tenons <hi
+                     rend="overlined"><choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                     </choice>
+                     <choice>
+                        <abbr>prst</abbr>
+                        <expan>present</expan>
+                     </choice></hi>.</add></s><substJoin
+               target="#f18r01_a_mode #f18r01_au_compte #f18r01_e_la #f18r01_lle"/></ab>
          <note resp="AV" type="genetic"><p>Le premier jet entame de nouveau le récit de la naissance
                et reprend ce qui a été supprimé au bas du f. 17v<hi rend="superscript">o</hi>. Henri
                de Mesmes modifie le jour de sa venue au monde (29 sur le f. 17v<hi
@@ -127,17 +131,17 @@
                surtout à hésiter sur <seg corresp="#f18r01_153121" facs="">l’année</seg> (1531 sur
                le f. 17v<hi rend="superscript">o</hi>). Étant né en janvier, son année de naissance
                est, de fait, modifiée par l’édit de Roussillon de 1564 (voir f. 17v<hi
-                  rend="superscript">o</hi>, seg. 5) : de 1531 en « ancien style », elle devient
-               1532 en « nouveau style ».</p>
-            <p>Certainement le mémorialiste a-t-il d’abord écrit « 1532 », date en « nouveau style »
-               ; puis il a estimé après coup que 1532 était en fait la date en « ancien style », et
+                  rend="superscript">o</hi>, seg. 5) : de 1531 en « ancien style », elle devient
+               1532 en « nouveau style ».</p>
+            <p>Certainement le mémorialiste a-t-il d’abord écrit « 1532 », date en « nouveau style »
+               ; puis il a estimé après coup que 1532 était en fait la date en « ancien style », et
                a précisé, dans un ajout qu’elle équivalait à <seg
                   corresp="#f18r01_qui_maintenant_add" facs="#f18r01_i_qui_maintenant">1533 en «
-                  nouveau style</seg> ». Il a ensuite compris que cette correction était une erreur
-               : il a, de ce fait, supprimé l’ajout comportant « 1533 » et a corrigé « 1532 » en «
-               1531 ». Dans <seg corresp="#f18r01_qui_prst" facs="#f18r01_i_qui_prst">l’ajout
-                  marginal</seg>, il a finalement précisé que 1532 est bien la date en « nouveau
-               style ».</p></note>
+                  nouveau style</seg> ». Il a ensuite compris que cette correction était une erreur
+               : il a, de ce fait, supprimé l’ajout comportant « 1533 » et a corrigé « 1532 » en «
+               1531 ». Dans <seg corresp="#f18r01_qui_prst" facs="#f18r01_i_qui_prst">l’ajout
+                  marginal</seg>, il a finalement précisé que 1532 est bien la date en « nouveau
+               style ».</p></note>
       </body>
    </text>
 </TEI>

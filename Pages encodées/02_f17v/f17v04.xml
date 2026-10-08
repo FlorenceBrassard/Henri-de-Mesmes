@@ -38,8 +38,14 @@
     <text>
         <body>
             <ab><s><subst>
-                        <del facs="#f17v04_i_or" xml:id="f17v04_or">or</del>
-                        <add facs="#f17v04_i_icy_add" xml:id="f17v04_icy_add">icy</add>
+                        <del facs="#f17v04_i_or" xml:id="f17v04_or"><choice>
+                                <orig>o</orig>
+                                <reg>O</reg>
+                            </choice>r</del>
+                        <add facs="#f17v04_i_icy_add" xml:id="f17v04_icy_add"><choice>
+                                <orig>i</orig>
+                                <reg>I</reg>
+                            </choice>cy</add>
                     </subst>
                     <subst>
                         <del facs="#f17v04_i_il" xml:id="f17v04_il">il</del>
@@ -50,20 +56,21 @@
                     </subst>
                     <del facs="#f17v04_icy_del" xml:id="f17v04_icy_del">icy</del>
                     <substJoin target="#f17v04_or #f17v04_icy_add #f17v04_icy_del"/>
-                    <substJoin target="#f17v04_il #f17v04_aiant #f17v04_é_a"/> feu ma mere
-                            <add><del>d</del> dame</add>
+                    <substJoin target="#f17v04_il #f17v04_aiant #f17v04_é_a"/> feu ma mere <add><del
+                            instant="true">d</del> dame</add>
                     <persName><forename>Nicole</forename>
-                        <surname>Hennequin</surname></persName><choice>
+                        <surname ref="Q21493029">Hennequin</surname></persName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> fille de messire <persName><forename><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
-                            </choice>hristofle</forename><surname>Hennequin</surname></persName><metamark
-                        facs="#f17v04_i_metamark01" function="insert" target="#f17v04_le_ancien"
-                        >^</metamark><add facs="#f17v04_i_le_ancien" xml:id="f17v04_le_ancien"
-                            ><del>le</del> plus ancien</add> conseiller du <orgName ref="Q1242473"
-                        >parlement de <placeName ref="Q90"><choice>
+                            </choice>hristofle</forename><surname ref="Q21493029"
+                            >Hennequin</surname></persName><metamark facs="#f17v04_i_metamark01"
+                        function="insert" target="#f17v04_le_ancien">^</metamark><add
+                        facs="#f17v04_i_le_ancien" xml:id="f17v04_le_ancien"><del>le</del> plus
+                        ancien</add> conseiller du <orgName ref="Q1242473">parlement de <placeName
+                            ref="Q90"><choice>
                                 <orig>p</orig>
                                 <reg>P</reg>
                             </choice>aris</placeName></orgName> et president d'<placeName
@@ -95,7 +102,7 @@
                         </choice>uisse</placeName> et <metamark facs="#f17v04_i_metamark02"
                         function="insert" target="#f17v04_depuys">^</metamark><add
                         facs="#f17v04_i_depuys" xml:id="f17v04_depuys">depuys</add> en autres
-                    grandes charges.<choice>
+                    grandes charges.</s><s><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                     </choice>t l<choice>

@@ -35,7 +35,7 @@
     </facsimile>
     <text>
         <body>
-            <ab>Il <subst>
+            <ab><s>Il <subst>
                     <del>fut</del>
                     <add seq="2">se rendit</add>
                 </subst>
@@ -75,7 +75,7 @@
                                     <expan>us</expan>
                                 </choice></surname></persName>
                         <choice>
-                            <abbr>desquls></abbr>
+                            <abbr>desquls</abbr>
                             <expan>desquels</expan>
                         </choice><choice>
                             <orig>i</orig>
@@ -111,7 +111,7 @@
                         ><roleName>Reyne</roleName>
                     <forename>Caterine</forename>
                     <nameLink>de</nameLink>
-                    <surname>Navarre</surname></persName> de venir en <placeName><choice>
+                    <placeName ref="Q111628725">Navarre</placeName></persName> de venir en <placeName ref="Q142"><choice>
                         <orig>f</orig>
                         <reg>F</reg>
                     </choice>rance</placeName> pour assister ses <del>grands</del> a<choice>
@@ -123,7 +123,7 @@
                 </subst>le <persName ref="Q317506"><roleName>Roy</roleName>
                     <forename>Henry</forename>
                     <nameLink>de</nameLink>
-                    <surname>Navarre</surname></persName> son filz. <choice>
+                    <placeName ref="Q111628725">Navarre</placeName></persName> son filz.<s></s> <choice>
                     <orig>q</orig>
                     <reg>Q</reg>
                 </choice>ui <add>luy</add> fut <del>le</del>
@@ -133,17 +133,17 @@
                 </choice>mancement d<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>une autre forme de vie.</ab>
-            <note resp="AV" type="genetic"><p>La formule « <seg corresp="#f17v02_et_escrits" facs=""
-                        >et se perpetuer par ses escrits</seg> », finalement raturée, laisse
+                </choice>une autre forme de vie.</s></ab>
+            <note resp="AV" type="genetic"><p>La formule « <seg corresp="#f17v02_et_escrits" facs=""
+                        >et se perpetuer par ses escrits</seg> », finalement raturée, laisse
                     entendre que Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes aurait pu
                     produire une œuvre savante à même de le faire entrer dans l’histoire s’il
-                    n’avait pas été « requis » par Catherine de Navarre. Cette suppression paraît
+                    n’avait pas été « requis » par Catherine de Navarre. Cette suppression paraît
                     compensée par le contenu de <seg corresp="#f17v02_collegue_faisoient" facs=""
                         >l’ajout marginal</seg> : celui-ci met en effet en valeur des liens du père
                     du mémorialiste avec des humanistes et juristes italiens de grande renommée
-                    (Andrea Alciato, Filippo Decio). Le terme « <seg corresp="#f17v02_compaignon"
-                        facs="">compaignon</seg> » permet de souligner la dimension affective et non
+                    (Andrea Alciato, Filippo Decio). Le terme « <seg corresp="#f17v02_compaignon"
+                        facs="">compaignon</seg> » permet de souligner la dimension affective et non
                     seulement intellectuelle de ces relations.</p></note>
         </body>
     </text>

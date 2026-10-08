@@ -28,52 +28,52 @@
     </facsimile>
     <text>
         <body>
-            <ab><subst>
-                    <del seq="1">et</del>
-                    <del seq="2"><add seq="1">Mais</add></del>
-                    <add seq="2">Puys</add>
-                </subst><del>aussy tost que <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e sceu lire et escrire <choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>e fu <del>mis</del> don</del>
-                <roleName ref="Q107207194">mon pere</roleName>
-                <subst>
-                    <del>meut</del>
-                    <del>a<choice>
+            <ab><s><subst>
+                        <del seq="1">et</del>
+                        <del seq="2"><add seq="1">Mais</add></del>
+                        <add seq="2">Puys</add>
+                    </subst><del>aussy tost que <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e sceu lire et escrire <choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>e fu <del instant="true">mis don</del></del>
+                    <roleName ref="Q107207194">mon pere</roleName>
+                    <subst instant="true">
+                        <del>meut</del>
+                        <del>a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ec</del>
+                        <add>me</add>
+                    </subst> dona pour precepteur <del><choice>
+                            <abbr>m<hi>e</hi></abbr>
+                            <expan>maître</expan>
+                        </choice></del>
+                    <persName><choice>
+                            <abbr><forename full="init">J.</forename></abbr>
+                            <expan><forename>Jean</forename></expan>
+                        </choice><surname>Mal<subst>
+                                <del rend="unmarked">edent</del>
+                                <add>udan</add>
+                            </subst></surname></persName>
+                    <choice>
+                        <orig>L</orig>
+                        <reg>l</reg>
+                    </choice>imosin, <del><choice>
+                            <orig>i</orig>
+                            <reg>j</reg>
+                        </choice>eune home</del><del rend="unmarked">,</del> disciple de <del><choice>
+                            <abbr>m<hi>e</hi></abbr>
+                            <expan>maître</expan>
+                        </choice></del><persName ref="Q714921"><surname><choice>
+                                <orig>d</orig>
+                                <reg>D</reg>
+                            </choice>orat</surname></persName>,<add>home </add><add>sca<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ec</del>
-                    <add>me</add>
-                </subst> dona pour precepteur <del><choice>
-                        <abbr>m<hi>e</hi></abbr>
-                        <expan>maître</expan>
-                    </choice></del>
-                <persName><choice>
-                        <abbr><forename full="init">J.</forename></abbr>
-                        <expan><forename>Jean</forename></expan>
-                    </choice><surname>Mal<subst>
-                            <del rend="unmarked">edent</del>
-                            <add>udan</add>
-                        </subst></surname></persName>
-                <choice>
-                    <orig>L</orig>
-                    <reg>l</reg>
-                </choice>imosin, <del xml:id="f18r04_ieune_home"><choice>
-                        <orig>i</orig>
-                        <reg>j</reg>
-                    </choice>eune home</del><del rend="unmarked">,</del> disciple de <del><choice>
-                        <abbr>m<hi>e</hi></abbr>
-                        <expan>maître</expan>
-                    </choice></del><persName ref="Q714921"><surname><choice>
-                            <orig>d</orig>
-                            <reg>D</reg>
-                        </choice>orat</surname></persName>,<add xml:id="f18r04_home_scauant">home </add><add>sca<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>ant</add> choisy <add facs="#f18r04_i_pour_et">pour sa vie innocente
+                        </choice>ant</add> choisy <add facs="#f18r04_i_pour_et">pour sa vie innocente
                     et</add> d'eage con<choice>
                     <orig>u</orig>
                     <reg>v</reg>
@@ -141,11 +141,16 @@
                 </subst> il estoit requis pour m<choice>
                     <orig/>
                     <reg>'</reg>
-                </choice>enseigner.</ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes renforce l’éloge de Jean Maledent, qui
-                    passe de « <seg corresp="#f18r04_ieune_home" facs="">ieune home</seg> » à « <seg
-                        corresp="#f18r04_home_scauant" facs="">home scavant</seg> » dans une
-                    substitution, et dont la « <seg>vie innocente</seg> » est saluée dans un
+                </choice>enseigner.</s></ab>
+            <note resp="AV" type="genetic"><p>On fait l’hypothèse que les corrections du début de la
+                    phrase (« <del>mis don</del> », « <del>meut auec</del> ») sont effectuées dès le
+                    premier jet. Henri de Mesmes hésite sur la forme verbale adéquate : « fus
+                    mis » et « fus donné » (inachevé) sont des tournures passives ; la forme
+                    retenue, active (« mon pere me donna »), met en valeur la prise de décision
+                    paternelle. Le mémorialiste renforce par ailleurs l’éloge de Jean Maledent, qui
+                    passe de « <seg corresp="#f18r04_ieune_home" facs="">ieune home</seg> » à « <seg
+                        corresp="#f18r04_home_scauant" facs="">home scavant</seg> » dans une
+                    substitution, et dont la « <seg>vie innocente</seg> » est saluée dans un
                     ajout.</p></note>
         </body>
     </text>
