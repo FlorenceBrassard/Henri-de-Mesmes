@@ -96,13 +96,15 @@
             <note resp="AV" type="genetic"><p>À nouveau, Henri de Mesmes étoffe son propos pour
                     souligner l’engouement qu’il suscite sur le chemin du retour vers Paris. Le
                     traitement réservé au bref séjour à Poitiers mérite qu’on s’y attarde. Le
-                    mémorialiste <seg>ajoute le nom de la ville, puis le raye</seg>. L’explication
-                    fournie à la fin de l’ajout marginal (« <seg>car a poitiers nous trouuäsmes que
-                        lescole vaquoit</seg> ») n’est compréhensible que si l’on tient compte de la
-                    genèse du propos. La proposition vient en effet expliquer pourquoi Henri de
-                    Mesmes a renoncé à établir un rapprochement entre Orléans – où l’accueil fut
-                    chaleureux – et Poitiers, où il ne se passa rien, non par manque d’intérêt pour
-                    le jeune juriste, mais parce que les cours étaient suspendus.</p></note>
+                    mémorialiste <seg corresp="#f19v05_a_et_2" facs="#f19v05_i_a_et">ajoute le nom
+                        de la ville, puis le raye</seg>. L’explication fournie à la fin de l’ajout
+                    marginal (« <seg corresp="#f19v05_car_vaquoit" facs="#f19v05_i_car_vaquoit">car
+                        a poitiers nous trouuäsmes que lescole vaquoit</seg> ») n’est compréhensible
+                    que si l’on tient compte de la genèse du propos. La proposition vient en effet
+                    expliquer pourquoi Henri de Mesmes a renoncé à établir un rapprochement entre
+                    Orléans – où l’accueil fut chaleureux – et Poitiers, où il ne se passa rien, non
+                    par manque d’intérêt pour le jeune juriste, mais parce que les cours étaient
+                    suspendus.</p></note>
         </body>
     </text>
 </TEI>

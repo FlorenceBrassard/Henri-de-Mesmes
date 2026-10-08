@@ -104,16 +104,17 @@
                                     </subst>trandy</surname></persName></add>
                     </subst>
                     <subst>
-                        <del facs="#f19v08_i_pour_son #f19v08_i_office_ieu">pour a<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>oir sur<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>i<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>ance de son office de <choice>
+                        <del facs="#f19v08_i_pour_son #f19v08_i_office_ieu"><seg
+                                xml:id="f19v08_pour_office">pour a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>oir sur<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>i<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ance de son office</seg> de <choice>
                                 <abbr>m<hi rend="superscript">e</hi></abbr>
                                 <expan>maistre</expan>
                             </choice> des <choice>
@@ -127,8 +128,8 @@
                                 <abbr>f<hi rend="superscript">er</hi></abbr>
                                 <expan>faire</expan>
                             </choice> cognoistre au <roleName ref="Q132545">Roy</roleName> et <subst>
-                                <del>aspirer</del>
-                                <add>tendre</add>
+                                <del xml:id="f19v08_aspirer">aspirer</del>
+                                <add xml:id="f19v08_tendre">tendre</add>
                             </subst>
                             <choice>
                                 <orig>a</orig>
@@ -174,9 +175,11 @@
                     marge. L’amplification du propos n’en modifie pas fondamentalement la teneur. On
                     notera néanmoins l’ajout d’une référence au roi : il ne s’agit pas seulement de
                     se rapprocher de Jean Bertrand, mais d’être reconnu par Henri II. La seconde
-                    formulation est par ailleurs plus prudente : « <seg>pour avoir suruiuance de son
-                        office</seg> » devient « <seg>aspirer</seg> », puis « <seg>tendre</seg> a la
-                    succession de son office ».</p></note>
+                    formulation est par ailleurs plus prudente : « <seg
+                        corresp="#f19v08_pour_office" facs="">pour avoir suruiuance de son
+                        office</seg> » devient « <seg corresp="#f19v08_aspirer" facs="">aspirer</seg> »,
+                    puis « <seg corresp="#f19v08_tendre" facs="">tendre</seg> a la succession de son office
+                    ».</p></note>
         </body>
     </text>
 </TEI>

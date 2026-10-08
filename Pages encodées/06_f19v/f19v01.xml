@@ -31,6 +31,12 @@
             <zone xml:id="f19v01_i_et3" points="759,523 768,605 877,605 886,509"/>
             <zone xml:id="f19v01_i_de2" points="818,423 818,532 959,537 954,432"/>
             <zone xml:id="f19v01_i_maiesté" points="881,519 881,609 1245,596 1263,459"/>
+            <zone xml:id="f19v01_i_frequence" lry="646" lrx="727" uly="509" ulx="282"/>
+            <zone xml:id="f19v01_i_celebrité" points="2090,182 2104,337 2504,269 2468,123"/>
+            <zone xml:id="f19v01_i_reputation" points="2272,255 2286,369 2645,350 2613,237"/>
+            <zone xml:id="f19v01_i_temps01" points="131,732 136,828 463,814 454,714"/>
+            <zone xml:id="f19v01_i_siecle" lry="747" lrx="406" uly="660" ulx="163"/>
+            <zone xml:id="f19v01_i_temps02" lry="723" lrx="606" uly="644" ulx="380"/>
         </surface>
     </facsimile>
     <text>
@@ -76,9 +82,9 @@
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>esté</del> que lecteur de son <subst>
-                        <del seq="1" xml:id="f19v01_temps1">temps</del>
+                        <del seq="1" xml:id="f19v01_temps01">temps</del>
                         <del seq="2"><add seq="1" xml:id="f19v01_siecle">siecle</add></del>
-                        <add seq="2" xml:id="f19v01_temps2">temps</add>
+                        <add seq="2" xml:id="f19v01_temps02">temps</add>
                     </subst>.</s></ab>
             <substJoin seq="1" target="#f19v01_et1 #f19v01_de1 #f19v01_de2"/>
             <substJoin seq="2" target=" #f19v01_et2 #f19v01_et3 #f19v01_maiesté"/>
@@ -87,29 +93,31 @@
                 <p>Henri de Mesmes cherche à rendre hommage à Ferretti et à signaler le prestige
                     dont ce dernier bénéficie. Le mémorialiste conforte ainsi indirectement son
                     propre éloge, puisque le juriste italien lui propose, comme les <hi
-                        rend="italic">Mémoires</hi> le racontent ensuite, de lire « en sa place » et
+                        rend="italic">Mémoires</hi> le racontent ensuite, de lire « en sa place » et
                     rédige une lettre de compliments à l’attention de Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes.</p>
                 <p>On peut faire l’hypothèse que la fin de la phrase est retravaillée de la manière
-                    suivante : ajout du « <seg corresp="#f19v01_de2_add" facs="#f19v01_i_de2"
-                        >de</seg> » devant « <seg corresp="#f19v01_maiesté" facs="#f19v01_i_maiesté"
-                        >maiesté</seg> », ensuite supprimé en même temps que le « <seg
+                    suivante : ajout du « <seg corresp="#f19v01_de2_add" facs="#f19v01_i_de2"
+                        >de</seg> » devant « <seg corresp="#f19v01_maiesté" facs="#f19v01_i_maiesté"
+                        >maiesté</seg> », ensuite supprimé en même temps que le « <seg
                         corresp="#f19v01_et1 #f19v01_de1" facs="#f19v01_i_et1 #f19v01_i_de1">et
-                        de</seg> » devant « <seg corresp="#f19v01_frequence" facs=""
-                    >frequence</seg> », pour garantir un rythme ternaire (« apparat », «
-                    frequence », « maieste ») ; <seg corresp="#f19v01_et2" facs="#f19v01_i_et2"
-                        >rétablissement de la coordination</seg> et retour à un rythme binaire («
-                    apparat » et « frequence ») ; double substitution, de « frequence » par « <seg
-                        corresp="#f19v01_celebrité" facs="">celebrité</seg> », puis de « celebrité »
-                    par « <seg corresp="#f19v01_reputation" facs="">reputation</seg> ». Ce dernier
-                    terme paraît condenser l’idée initiale de « majesté » (grandeur, qui vaut la
-                    reconnaissance) et de « frequence », si on entend ce dernier terme en son sens
-                    étymologique d’affluence, de vaste auditoire (<hi rend="italic">frequentia</hi>
-                    en latin : <hi rend="italic">foule</hi>). « Frequence » peut toutefois aussi
-                    s’entendre en son sens actuel ; il souligne alors le nombre et la régularité des
-                    leçons. Le terme « <seg corresp="#f19v01_temps1" facs="">temps</seg> », quant à
-                    lui, est d’abord remplacé par « <seg corresp="#f19v01_siecle" facs=""
-                        >siecle</seg> », pour être finalement <seg corresp="#f19v01_temps2" facs=""
+                        de</seg> » devant « <seg corresp="#f19v01_frequence"
+                        facs="#f19v01_i_frequence">frequence</seg> », pour garantir un rythme
+                    ternaire (« apparat », « frequence », « maieste ») ; <seg corresp="#f19v01_et2"
+                        facs="#f19v01_i_et2">rétablissement de la coordination</seg> et retour à un
+                    rythme binaire (« apparat » et « frequence ») ; double substitution, de «
+                    frequence » par « <seg corresp="#f19v01_celebrité" facs="#f19v01_i_celebrité"
+                        >celebrité</seg> », puis de « celebrité » par « <seg
+                        corresp="#f19v01_reputation" facs="#f19v01_i_reputation">reputation</seg> ».
+                    Ce dernier terme paraît condenser l’idée initiale de « majesté » (grandeur, qui
+                    vaut la reconnaissance) et de « frequence », si on entend ce dernier terme en
+                    son sens étymologique d’affluence, de vaste auditoire (<hi rend="italic"
+                        >frequentia</hi> en latin : <hi rend="italic">foule</hi>). « Frequence »
+                    peut toutefois aussi s’entendre en son sens actuel ; il souligne alors le nombre
+                    et la régularité des leçons. Le terme « <seg corresp="#f19v01_temps01"
+                        facs="#f19v01_i_temps01">temps</seg> », quant à lui, est d’abord remplacé
+                    par « <seg corresp="#f19v01_siecle" facs="#f19v01_i_siecle">siecle</seg> », pour
+                    être finalement <seg corresp="#f19v01_temps02" facs="#f19v01_i_temps02"
                         >rétabli</seg>.</p>
             </note>
         </body>
