@@ -34,9 +34,9 @@
    </facsimile>
    <text>
       <body>
-         <ab><roleName ref="Q107207194" xml:id="f17v01_Mon_pere">Mon pere</roleName>
+         <ab><roleName ref="Q107207194" xml:id="f17v01_Mon_pere>Mon pere</roleName>
             <subst>
-               <del>ainsy né, <add facs="#f17v01_i_dun_Mammes" xml:id="f17v01_dun_Mammes_add"><del
+               <del xml:id="f17v01_ainsy_ieunesse">ainsy né, <add facs="#f17v01_i_dun_Mammes" xml:id="f17v01_dun_Mammes_add"><del
                         seq="2" facs="#f17v01_i_dun_maison" xml:id="f17v01_dun_maison">d<choice>
                            <orig/>
                            <reg>'</reg>
@@ -46,7 +46,7 @@
                      <orig/>
                      <reg>'</reg>
                   </choice><seg xml:id="f17v01_une_Cauna">une damoyselle qui estoit de
-                        <surname>Cauna</surname></seg>, <subst>
+                        <surname ref="Q105701217">Cauna</surname></seg>, <subst>
                      <del facs="#f17v01_i_maison_del" xml:id="f17v01_maison_del">maison</del>
                      <del facs="#f17v01_i_bone_famille" xml:id="f17v01_bone_famille_del"><add
                            facs="#f17v01_i_bone_famille" xml:id="f17v01_bone_famille_add">bone
@@ -73,10 +73,9 @@
                   <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>eunesse.</del>
-               <add xml:id="f17v01_a_ieunesse"><gap unit="char" quantity="1"/><supplied cert="high"
-                     >a</supplied> sa naissance n<choice>
-                     <!--                     « a » sa naissance : supplied, mais faudrait-il régulariser ?-->
+                  </choice>eunesse.</del></s><s>
+               <addSpan spanTo="#f17v01_ieunesse" xml:id="f17v01_a_ieunesse"/><gap quantity="1"
+                  reason="margin" unit="char"/><supplied cert="high">a</supplied> sa naissance n<choice>
                      <orig> </orig>
                      <reg>'</reg>
                   </choice>a<choice>
@@ -86,11 +85,11 @@
                   sept mois. <choice>
                      <orig>e</orig>
                      <reg>E</reg>
-                  </choice>t pource <gap unit="char" quantity="1"/><supplied cert="high"
+                  </choice>t pource <gap quantity="1" reason="margin" unit="char"/><supplied cert="high"
                      >q</supplied>u<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>il ne prometoit pas <subst>
+                  </choice>il ne prometoit pas <subst instant="true">
                      <del seq="1">longue vie il fut</del>
                      <del seq="2"><add seq="1">gra<gap reason="deleted"/></add></del>
                      <add seq="2">grande force, il fut</add>
@@ -104,7 +103,7 @@
                   <choice>
                      <orig>i</orig>
                      <reg>j</reg>
-                  </choice>eunesse.</add>
+                  </choice>eunesse.<anchor xml:id="f17v01_ieunesse"/></s>
             </subst></ab>
          <note resp="AV" type="genetic"><p>Le premier jet et son retravail sont intégralement
                supprimés, à l’exception du sujet de la phrase, « <seg corresp="#f17v01_Mon_pere" facs="">Mon
