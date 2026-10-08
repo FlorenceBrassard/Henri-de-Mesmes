@@ -5,7 +5,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,14 +36,17 @@
    </facsimile>
    <text>
       <body>
-         <ab><s>
-               <choice>
+         <ab><s><choice>
                   <orig>n</orig>
                   <reg>N</reg>
                </choice>ous estions debout <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> iiii heures, et <metamark facs="#f18v07_i_metamark1" function="insert"
+               </choice>
+               <choice>
+                  <orig>iiii</orig>
+                  <reg>quatre</reg>
+               </choice> heures, et <metamark facs="#f18v07_i_metamark1" function="insert"
                   target="#f18v07_aians_dieu">^</metamark><add facs="#f18v07_i_aians_dieu"
                   xml:id="f18v07_aians_dieu"><metamark>^</metamark>aians prié <choice>
                      <orig>d</orig>
@@ -69,9 +72,9 @@
                         <orig/>
                         <reg>'</reg>
                      </choice></del>
-               </subst>escritoire<add facs="#f18v07_i_s" xml:id="f18v07_s">s</add><metamark facs="#f18v07_i_metamark3"
-                  function="insert" target="#f18v07_et_chandeliers">^</metamark><add
-                  facs="#f18v07_i_et_chandeliers" xml:id="f18v07_et_chandeliers"
+               </subst>escritoire<add facs="#f18v07_i_s" xml:id="f18v07_s">s</add><metamark
+                  facs="#f18v07_i_metamark3" function="insert" target="#f18v07_et_chandeliers"
+                  >^</metamark><add facs="#f18v07_i_et_chandeliers" xml:id="f18v07_et_chandeliers"
                      ><metamark>^</metamark>et noz chandeliers</add><substJoin
                   target="#f18v07_et #f18v07_les #f18v07_s #f18v07_et_chandeliers"/>
                <choice>

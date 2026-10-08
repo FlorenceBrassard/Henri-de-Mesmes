@@ -35,8 +35,10 @@
             <ab><s><date><choice>
                             <orig>l</orig>
                             <reg>L'</reg>
-                        </choice>an mil v<hi rend="superscript">c</hi> xlv au mois de
-                        septembre</date>
+                        </choice>an <choice>
+                            <orig>mil v<hi rend="superscript">c</hi> xlv</orig>
+                            <reg>1545</reg>
+                        </choice> au mois de septembre</date>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
@@ -53,13 +55,15 @@
                     </placeName> pour estudier en lois, a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec mon precepteur et mon frere<choice>
+                    </choice>ec <roleName>mon precepteur</roleName> et <roleName>mon
+                        frere</roleName><choice>
                         <orig><del rend="unmarked">.</del></orig>
                         <reg>,</reg>
-                    </choice><del> nous estions bien <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>eunes. et fumes mis en</del>
+                    </choice><delSpan spanTo="#f18v04_en" xml:id="f18v04_nous_en"/> nous estions
+                    bien <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eunes.</s><s> et fumes mis en<anchor xml:id="f18v04_en"/>
                     <metamark facs="#f18v04_i_metamark1" function="insert" target="#f18v04_soubs"
                         >^</metamark><add facs="#f18v04_i_soubs" xml:id="f18v04_soubs"
                             ><metamark>^</metamark>soubs</add> la conduite d<choice>
@@ -77,7 +81,7 @@
                     </choice>agé par <subst>
                         <del>tous les endroits du</del>
                         <add>le</add>
-                    </subst> monde <add facs="#f18v04_i_point" xml:id="f18v04_point">.</add>
+                    </subst> monde <add facs="#f18v04_i_point" xml:id="f18v04_point">.</add></s><s>
                     <subst>
                         <del facs="#f18v04_i_nommé" xml:id="f18v04_nommé">nommé</del>
                         <add facs="#f18v04_i_cestoit" xml:id="f18v04_cestoit"><choice>
@@ -85,13 +89,15 @@
                                 <reg>C'</reg>
                             </choice>estoit</add>
                     </subst><substJoin target="#f18v04_point #f18v04_nommé #f18v04_cestoit"/>
-                    monsieur <persName><nameLink>de</nameLink><surname>Gude</surname></persName> l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>un des freres puisn<choice>
-                        <orig>e</orig>
-                        <reg>é</reg>
-                    </choice>s de mon pere.</s></ab>
+                    monsieur <persName><nameLink>de</nameLink><surname>Gude</surname></persName>
+                    <roleName>l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>un des freres puisn<choice>
+                            <orig>e</orig>
+                            <reg>é</reg>
+                        </choice>s</roleName> de <roleName ref="Q107207194">mon
+                pere</roleName>.</s></ab>
         </body>
     </text>
 </TEI>

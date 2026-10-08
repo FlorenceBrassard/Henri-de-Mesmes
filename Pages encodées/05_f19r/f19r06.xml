@@ -51,8 +51,14 @@
                </choice> une apres disnée a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>ec <seg xml:id="f19r06_catedran">catedran</seg><supplied>,</supplied> la
-                  ii<hi rend="superscript">e</hi> iii <choice>
+               </choice>ec <seg xml:id="f19r06_catedran">catedran</seg><supplied>,</supplied> la <choice>
+                  <orig>ii<hi rend="superscript">e</hi></orig>
+                  <reg>deuxieme</reg>
+               </choice>
+               <choice>
+                  <orig>iii</orig>
+                  <reg>trois</reg>
+               </choice> <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>ours entiers <subst>
@@ -75,8 +81,8 @@
                   <del facs="#f19r06_i_cueur" xml:id="f19r06_cueur">cueur</del>
                   <add facs="#f19r06_i_confidance" xml:id="f19r06_confidance">confidance</add>
                </subst><substJoin
-                  target=" #f19r06_force #f19r06_suffisance #f19r06_cueur #f19r06_confidance"/>.
-               </s><metamark facs="#f19r06_i_metamark" function="insert" target="#f19r06_en_france"
+                  target=" #f19r06_force #f19r06_suffisance #f19r06_cueur #f19r06_confidance"/>.</s>
+            <metamark facs="#f19r06_i_metamark" function="insert" target="#f19r06_en_france"
                >++</metamark>
             <add xml:id="f19r06_en_france"><metamark>++</metamark><s>
                   <choice>
@@ -117,7 +123,8 @@
                         </choice>ourg</surname></persName> et <persName ref="Q3121749"><surname><choice>
                            <orig>p</orig>
                            <reg>P</reg>
-                        </choice>ibrac</surname></persName>.</s><s><choice>
+                        </choice>ibrac</surname></persName>.</s>
+               <s><choice>
                      <orig>a</orig>
                      <reg>A</reg>
                   </choice>pres moy <choice>
@@ -156,13 +163,14 @@
                   </choice>esque d<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice><placeName><choice>
+                  </choice><placeName ref="Q173787"><choice>
                         <orig>a</orig>
                         <reg>A</reg>
                      </choice>let</placeName>, prit mon heure et leut <del>en</del> quel<choice>
                      <abbr><g ref="que-glyph">ꝙ</g></abbr>
                      <expan>que</expan>
-                  </choice> temps. </s><s><add><choice>
+                  </choice> temps.</s>
+               <s><add><choice>
                         <orig>e</orig>
                         <reg>E</reg>
                      </choice>t voila les premieres compaignées d<choice>
@@ -184,18 +192,21 @@
                         <expan>con</expan>
                      </choice>tinué aux estats et <metamark function="insert" target="#f19r06_aux"
                         >^</metamark><add facs="#f19r06_i_aux" xml:id="f19r06_aux">aux</add> afaires
-                        <add facs="#f19r06_i_de_france" xml:id="f19r06_de_france">de la <choice>
-                           <orig>f</orig>
-                           <reg>F</reg>
-                        </choice>rance</add>
-                     <substJoin target="#f19r06_aux #f19r06_de_france"
-                  /><supplied>.</supplied></add></s></add></ab>
+                        <add facs="#f19r06_i_de_france" xml:id="f19r06_de_france">de la <placeName
+                           ref="Q142"><choice>
+                              <orig>f</orig>
+                              <reg>F</reg>
+                           </choice>rance</placeName></add>
+                     <substJoin target="#f19r06_aux #f19r06_de_france"/><choice>
+                        <orig/>
+                        <reg>.</reg>
+                     </choice></add></s></add></ab>
          <note resp="AV" type="genetic"><p>Le mémorialiste retravaille quelque peu la phrase pour
                éviter <seg corresp="#f19r06_catedran #f19r06_sens_catedran" facs="">la répétition de
                   « catedran »</seg> et pour améliorer la formulation de la dernière expression
                   (« <seg corresp="#f19r06_suffisance" facs="#f19r06_i_suffisance"
                   >suffisance</seg> »/« <seg corresp="#f19r06_confidance"
-                  facs="#f19r06_i_confidance">confidance</seg> » formant une homéotéleute). Il
+                  facs="#f19r06_i_confidance">confidance</seg> » formant une homéotéleute). Il
                ajoute surtout, comme il l’a déjà fait précédemment, une évocation des hommes en
                compagnie desquels il évolue à Toulouse, et souligne son amitié avec Guy du Faur
                Pibrac et Paul de Foix. Henri de Mesmes continue ainsi de mettre en valeur son
@@ -203,13 +214,13 @@
          <note resp="AV" type="critic"><p>Le Français 18617 (f. 7r<hi rend="superscript">o</hi>) et
                le Duchesne 57 (f. 58r<hi rend="superscript">o</hi>) n’ont <hi rend="italic">a
                   priori</hi> pas identifié Jean de Corras, dont le nom est orthographié dans les
-               deux cas « Carras ».</p>
+               deux cas « Carras ».</p>
             <p>É. Frémy ponctue différemment l’énumération des noms des collègues juristes d’Henri
                de Mesmes, ce qui en infléchit le sens : « … aussy Perrery et Fernandy et, des
-               jeunes, du Bourg et Pibrac, après, moy. » (éd. des <hi rend="italic">Mémoires</hi>,
+               jeunes, du Bourg et Pibrac, après, moy. » (éd. des <hi rend="italic">Mémoires</hi>,
                p. 143-144). Sur le manuscrit autographe, pourtant, aucune virgule ne se trouve
-                  <seg>entre « ieunes » et « du bourg</seg> » et un <seg>point</seg> est bien
-               lisible entre « pibrac » et « apres moy ». </p></note>
+                  <seg>entre « ieunes » et « du bourg</seg> » et un <seg>point</seg> est bien
+               lisible entre « pibrac » et « apres moy ». </p></note>
       </body>
    </text>
 </TEI>

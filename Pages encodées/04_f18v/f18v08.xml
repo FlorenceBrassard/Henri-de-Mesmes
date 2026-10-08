@@ -43,7 +43,14 @@
                </choice>s <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> x heures <add>sonées sens intermission</add>.</s></ab>
+               </choice>
+               <choice>
+                  <orig>x</orig>
+                  <reg>dix</reg>
+               </choice> heures <add>sonées sens intermission</add>.</s></ab>
+         <note resp="AV" type="genetic"><p><hi rend="italic">Nota bene : La fin du f. 18v<hi
+                     rend="superscript">o</hi> a été transcrite et encodée avec le début du f.
+                     19r<hi rend="superscript">o</hi>, dont elle dépend.</hi></p></note>
       </body>
    </text>
 </TEI>

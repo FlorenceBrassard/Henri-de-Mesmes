@@ -33,7 +33,10 @@
     </facsimile>
     <text>
         <body>
-            <ab><s><del>car <metamark facs="#f18v02_i_metamark" function="insert"
+            <ab><s><del><choice>
+                            <orig>c</orig>
+                            <reg>C</reg>
+                        </choice>ar <metamark facs="#f18v02_i_metamark" function="insert"
                             target="#f18v02_ne_toutesfois">+</metamark><add
                             facs="#f18v02_i_ne_toutesfois" xml:id="f18v02_ne_toutesfois"
                                 ><metamark>+</metamark>ne pouvant gaster mes meurs pour l<choice>
@@ -49,7 +52,7 @@
                             >gneux</unclear></add></del>
                     <choice>
                         <orig>i</orig>
-                        <reg>j</reg>
+                        <reg>J</reg>
                     </choice>'apris <choice>
                         <orig>a</orig>
                         <reg>à</reg>

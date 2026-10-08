@@ -21,12 +21,18 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/923,4713,2388,584/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/923,4713,2388,584/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
       <body>
-         <ab><s><del>nous partismes donc</del><choice>
+         <ab><s><del><choice>
+                     <orig>n</orig>
+                     <reg>N</reg>
+                  </choice>ous partismes donc</del>
+               <choice>
                   <orig>a</orig>
                   <reg>A</reg>
                </choice>pres cela et noz degrez <add>pris</add> de docteurs en droict ci<choice>
@@ -35,7 +41,7 @@
                </choice>il et canon, nous primes le chemin pour retourner <choice>
                   <orig>a</orig>
                   <reg>à</reg>
-               </choice> la maison. </s></ab>
+               </choice> la maison.</s></ab>
       </body>
    </text>
 </TEI>

@@ -43,8 +43,8 @@
                         <orig>l</orig>
                         <reg>L</reg>
                     </choice>es festes <metamark facs="#f19r04_i_metamark1" function="insert"
-                        rend="unclear" target="#f19r04_a_iour">^</metamark><add
-                        facs="#f19r04_i_a_iour" xml:id="f19r04_a_iour"><metamark>^</metamark><choice>
+                        target="#f19r04_a_iour">^</metamark><add facs="#f19r04_i_a_iour"
+                        xml:id="f19r04_a_iour"><metamark>^</metamark><choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> la grand messe et vespres<choice>
@@ -159,10 +159,77 @@
                                 </choice>aber</surname></persName>.</add></s></ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes supprime <seg
                         corresp="#f19r04_i_nous_lut" facs="#f19r04_i_nous_lut">l’allusion à
+                        target="#f19r04_le_faber">+</metamark><addSpan facs="#f19r04_i_le_faber"
+                        spanTo="#f19r04_faber" xml:id="f19r04_le_faber"/><metamark>+</metamark><choice>
+                        <orig>l</orig>
+                        <reg>L</reg>
+                    </choice>e reste du <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>our aux li<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>res.</s><s>
+                    <choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                    </choice>t a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ions ordinaires a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ec nous <persName ref="Q376210"><forename>Hadrianus</forename>
+                        <surname>Turnebus</surname></persName><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <persName ref="Q1187482"><forename>Dionysius</forename>
+                        <surname>Lambinus</surname></persName>, <persName><forename>Honorat<choice>
+                                <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
+                                <expan>us</expan>
+                            </choice></forename>
+                        <surname><choice>
+                                <orig>c</orig>
+                                <reg>C</reg>
+                            </choice>astellanus</surname></persName> depuys medecin du Roy et
+                            <persName><forename>Simon</forename>
+                        <surname>Tomas</surname></persName>
+                    <add>lors tres<choice>
+                            <orig/>
+                            <reg> </reg>
+                        </choice>sca<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ant medecin</add>.</s><s>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>ussy nous vo<choice>
+                        <orig>i</orig>
+                        <reg>yi</reg>
+                    </choice>ons sou<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ent <persName ref="Q3384228"><forename><choice>
+                                <orig>p</orig>
+                                <reg>P</reg>
+                            </choice>etrus</forename>
+                        <surname>Bunellus</surname></persName> et son <persName ref="Q3121749"><forename><choice>
+                                <orig>v</orig>
+                                <reg>V</reg>
+                            </choice>idus</forename>
+                        <surname><choice>
+                                <orig>f</orig>
+                                <reg>F</reg>
+                            </choice>aber</surname></persName>.<anchor xml:id="f19r04_faber"
+                /></s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime <seg>l’allusion à
                         l’apprentissage du luth</seg> pour la remplacer par la mention plus vague
-                    d’« <seg corresp="#f19r04_vn_musique" facs="">un peu de musique</seg> ». Il
-                    prolonge surtout l’évocation de ses relations privilégiées avec les « amis » de
-                    son père par <seg corresp="#f19r04_le_faber" facs="#f19r04_i_le_faber">l’ajout
+                    d’« <seg corresp="#f19r04_vn_musique" facs="">un peu de musique</seg> ». Il semble que « a la grand messe et vespres
+                    au reste du iour » devait d’abord compléter « nous aprenions du lut », comme
+                    tend à l’indiquer la marque d’insertion. Le mémorialiste prolonge surtout l’évocation de ses
+                    relations privilégiées avec les « amis » de son père par <seg corresp="#f19r04_le_faber" facs="#f19r04_i_le_faber">l’ajout
                         marginal</seg>, dans lequel il fournit les noms latinisés de ces
                     derniers.</p></note>
             <note resp="AV" type="critic"><p>Le Français 18617 (f. 6v<hi rend="superscript">o</hi>)

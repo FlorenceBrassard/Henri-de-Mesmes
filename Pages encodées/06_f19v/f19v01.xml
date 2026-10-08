@@ -54,7 +54,7 @@
                             </choice>erretus</surname></persName> qui lors lisoit a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec plus d<subst>
+                    </choice>ec plus d<subst instant="true">
                         <del rend="overwritten">e</del>
                         <add place="superimposed"><choice>
                                 <orig/>

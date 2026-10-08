@@ -73,8 +73,8 @@
                         <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                         <expan>que</expan>
                     </choice><del facs="#f18v05_i_s1" xml:id="f18v05_s1">s</del> bien<del
-                        facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del>. <substJoin
-                        target="#f18v05_s1 #f18v05_s2"/></s></ab>
+                        facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del>.</s>
+                <substJoin target="#f18v05_s1 #f18v05_s2"/></ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes supprime la mention « <seg>à
                         pied</seg> », qui venait souligner la modeste condition du serviteur, se
                     déplaçant par ses propres moyens plutôt qu’à cheval. Il ajoute par ailleurs que

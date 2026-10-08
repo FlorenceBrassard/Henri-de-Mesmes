@@ -76,7 +76,8 @@
                     </choice>estre gardées pour la dignité d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>icelles.</s><s><choice>
+                    </choice>icelles.</s>
+                <s><choice>
                         <orig>i</orig>
                         <reg>J</reg>
                     </choice>e fu<anchor xml:id="f22r04_fu"/><del facs="#f22r04_i_ie_fuss"
@@ -206,7 +207,8 @@
                     </choice> femme certes toute de <choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ieu et tres chaste.</s><s><subst>
+                    </choice>ieu et tres chaste.</s>
+                <s><subst>
                         <del><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
@@ -225,8 +227,8 @@
                         <choice>
                             <orig>M</orig>
                             <reg>m</reg>
-                        </choice>ars 1557.</date><anchor xml:id="f22r04_1557"/>
-                </s><s><subst>
+                        </choice>ars 1557.</date><anchor xml:id="f22r04_1557"/></s>
+                <s><subst>
                         <del facs="#f22r04_i_et" xml:id="f22r04_et"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
