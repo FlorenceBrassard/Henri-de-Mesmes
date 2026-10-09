@@ -122,12 +122,9 @@
                             <reg>v</reg>
                         </choice>ec </del>
                     <del instant="true">autre</del>
-                    <del facs="#f25v13_i_plus_respect" xml:id="f25v13_le_respect"><subst>
+                    <del facs="#f25v13_i_plus_respect" xml:id="f25v13_le_respect"><subst cert="medium">
                             <del facs="#f25v13_i_plus_de">plus de</del>
-                            <!--                            Ajouter @instant pour “add” de “le” ? Ce qui expliquerait que “de respect” ≠ modifié ; puis
-                        la rature continue de “plus_respect”. N'est-ce pas plutôt le "del" qui est @instant ? Le "le" peut bien avoir été ajouté après le premier jet, non ?
-                            Ah oui, tout à fait ! En même temps, comme il est raturé en même temps que le reste, est-ce qu'on ajoute un <del> spécial pour ça ? -->
-                            <add facs="#f25v13_i_le">le</add>
+                            <add facs="#f25v13_i_le"><del instant="true">le</del></add>
                         </subst> secret et de respect</del><add facs="#f25v13_i_quil_desiré"
                         xml:id="f25v13_quil_desiré_add"><del facs="#f25v13_i_quil_desiré"
                             xml:id="f25v13_quil_desiré_del">qu<subst>
