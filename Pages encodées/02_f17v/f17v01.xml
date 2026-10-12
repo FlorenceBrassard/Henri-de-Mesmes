@@ -74,7 +74,7 @@
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>eunesse.</del></s>
-            <s><addSpan spanTo="#f17v01_ieunesse" xml:id="f17v01_a_ieunesse"/><gap quantity="1"
+            <s><addSpan spanTo="#f17v01_ieunesse" xml:id="f17v01_a_ieunesse"/><gap quantity="01"
                   unit="char" reason="illegible" agent="margin"/><supplied cert="high">À</supplied>
                sa naissance n<choice>
                   <orig> </orig>
@@ -82,17 +82,17 @@
                </choice>a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oit <gap quantity="1" unit="char" reason="illegible" agent="margin"
+               </choice>oit <gap quantity="01" unit="char" reason="illegible" agent="margin"
                   /><supplied cert="high">q</supplied>ue sept mois. <choice>
                   <orig>e</orig>
                   <reg>E</reg>
-               </choice>t pource <gap quantity="1" unit="char" reason="illegible" agent="margin"
+               </choice>t pource <gap quantity="01" unit="char" reason="illegible" agent="margin"
                   /><supplied cert="high">q</supplied>u<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>il ne prometoit pas <subst instant="true">
                   <del seq="1">longue vie il fut</del>
-                  <del seq="2"><add seq="1">gra<gap quantity="3" unit="char" reason="illegible"
+                  <del seq="2"><add seq="1">gra<gap quantity="03" unit="char" reason="illegible"
                            agent="ink"/><supplied cert="high">nde</supplied></add></del>
                   <add seq="2">grande force, il fut</add>
                </subst><subst>

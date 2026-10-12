@@ -45,7 +45,7 @@
                                 </choice>ugé capable</add>
                             <add seq="2"> le</add>
                         </subst>
-                        <date>17<hi rend="superscript">e</hi> fe<choice>
+                        <date when="1552-02-17">17<hi rend="superscript">e</hi> fe<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>rier <hi rend="overlined">1551</hi></date>
@@ -57,14 +57,15 @@
                         <choice>
                             <orig>e</orig>
                             <reg>E</reg>
-                        </choice>t le <date>V<hi rend="superscript">e</hi>
+                        </choice>t <date when="1552-03-05">le V<hi rend="superscript">e</hi>
                             <choice>
                                 <orig>m</orig>
                                 <reg>M</reg>
                             </choice>ars</date> ensuy<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ant mes articles de mariage furent accordez puys le <date>lundy 13 <choice>
+                        </choice>ant mes articles de mariage furent accordez puys <date
+                            when="1552-06-13">le lundy 13 <choice>
                                 <orig>J</orig>
                                 <reg>j</reg>
                             </choice>uin aussy ensuy<choice>
@@ -77,14 +78,15 @@
                         <choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>e fu <del><add>me</add></del> marié et espousay ma femme damoyselle <persName>
+                        </choice>e fu <del instant="true"><add>me</add></del> marié et espousay ma
+                        femme damoyselle <persName>
                             <forename><choice>
                                     <abbr>I.</abbr>
                                     <expan><choice>
                                             <orig>I</orig>
                                             <reg>J</reg>
                                         </choice>eanne</expan>
-                                </choice></forename><surname><choice>
+                                </choice></forename><surname ref="Q21493029"><choice>
                                     <abbr>H.</abbr>
                                     <expan>Hennequin</expan>
                                 </choice></surname></persName> fille de <choice>
@@ -95,7 +97,7 @@
                                     <orig>o</orig>
                                     <reg>O</reg>
                                 </choice>udart</forename>
-                            <surname>Hennequin</surname></persName>
+                            <surname ref="Q21493029">Hennequin</surname></persName>
                         <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>con</expan>
@@ -112,7 +114,7 @@
                     <s><choice>
                             <orig>h</orig>
                             <reg>H</reg>
-                        </choice>ome de singuliere probité <subst>
+                        </choice>ome de singuliere probité<subst instant="true">
                             <del>, et de</del>
                             <add>.</add>
                         </subst></s></del></ab>
