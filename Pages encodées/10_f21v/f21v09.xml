@@ -226,7 +226,8 @@
                                         <orig>l</orig>
                                         <reg>L</reg>
                                     </choice>a</add> Mole</surname></persName>
-                        <del>per <gap quantity="1" unit="char"/></del>
+                        <del><unclear cert="high" reason="deleted" agent="author">per</unclear>
+                            <gap quantity="01" unit="char" reason="deleted" agent="author"/></del>
                         <choice>
                             <orig>a</orig>
                             <reg>à</reg>

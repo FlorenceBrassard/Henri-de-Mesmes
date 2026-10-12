@@ -88,9 +88,10 @@
                         </choice>äsmes que l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>esc<gap agent="reliure" unit="char" quantity="3"/>
-                        <supplied cert="high">ole</supplied> vaquo<gap agent="reliure" unit="char"
-                            quantity="2"/>
+                        </choice>esc<gap quantity="03" unit="char" reason="illegible"
+                            agent="reliure"/>
+                        <supplied cert="high">ole</supplied> vaquo<gap quantity="02" unit="char"
+                            reason="illegible" agent="reliure"/>
                         <supplied cert="high">it</supplied></add><substJoin
                         target="#f19v05_a_et_2 #f19v05_car_vaquoit"/>.</s></ab>
             <note resp="AV" type="genetic"><p>À nouveau, Henri de Mesmes étoffe son propos pour

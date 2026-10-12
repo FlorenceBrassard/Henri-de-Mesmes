@@ -42,8 +42,9 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>la mode de<subst>
-                        <del><unclear cert="medium" reason="illegible">c <gap quantity="1"
-                                    unit="char"/> e</unclear></del>
+                        <del><unclear cert="medium" reason="illegible">c <gap quantity="01"
+                                    unit="char" reason="illegible" agent="author"/>
+                            e</unclear></del>
                         <add>ce</add>
                     </subst> temps <undo rend="underlined" target="f24r02_prs"/><del
                         xml:id="f24r02_prs"><choice>
@@ -74,8 +75,10 @@
                             <orig/>
                             <reg>.</reg>
                         </choice>
-                        <metamark facs="#f24r02_i_metamark01" function="insert" target="#f24r02_pleust_touts">҂</metamark><add facs="#f24r02_i_pleust_touts"
-                            xml:id="f24r02_pleust_touts"><metamark>҂</metamark>pleust <choice>
+                        <metamark facs="#f24r02_i_metamark01" function="insert"
+                            target="#f24r02_pleust_touts">҂</metamark><add
+                            facs="#f24r02_i_pleust_touts" xml:id="f24r02_pleust_touts"
+                                ><metamark>҂</metamark>pleust <choice>
                                 <orig>a d</orig>
                                 <reg>à D</reg>
                             </choice>ieu que ce bon <subst>

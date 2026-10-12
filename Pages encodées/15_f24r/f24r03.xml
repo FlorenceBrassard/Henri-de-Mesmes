@@ -49,8 +49,8 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName ref="Q38380">Angers</placeName>, qui <del>me rete<gap quantity="1"
-                            unit="char"/></del> lendemain me feit <choice>
+                    <placeName ref="Q38380">Angers</placeName>, qui <del>me rete<gap quantity="01"
+                            unit="char" reason="illegible" agent="author"/></del> lendemain me feit <choice>
                         <abbr>fe<hi rend="superscript">r</hi></abbr>
                         <expan>faire</expan>
                     </choice> le serment de <choice>

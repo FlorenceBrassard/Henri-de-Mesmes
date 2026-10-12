@@ -80,7 +80,8 @@
                     </choice>tenoient <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> cest <gap quantity="3" unit="char"/> office les poines et <choice>
+                    </choice> cest <gap quantity="03" unit="char" reason="deleted" agent="author"/>
+                    office les poines et <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g>fisc<hi rend="overlined">ons</hi></abbr>
                         <expan>confiscations</expan>
                     </choice> qu<choice>

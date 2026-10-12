@@ -96,8 +96,8 @@
                             ><metamark>+</metamark> Certes mieulx vaudroit a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>oir <del>apris <gap quantity="02" reason="deleted" unit="char"
-                            /></del> esté bien maistre de soymesmes<choice>
+                        </choice>oir <del>apris <gap quantity="02" unit="char" reason="deleted"
+                                agent="author"/></del> esté bien maistre de soymesmes<choice>
                             <orig/>
                             <reg>.</reg>
                         </choice></add></s></ab>

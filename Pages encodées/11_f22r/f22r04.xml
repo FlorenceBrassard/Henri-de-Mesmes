@@ -245,7 +245,8 @@
                     </subst> rele<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>é de la <del>g<gap quantity="3" unit="char"/></del> perte faiste <choice>
+                    </choice>é de la <del>g<gap quantity="03" unit="char" reason="illegible"
+                            agent="author"/></del> perte faiste <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> la <date><choice>

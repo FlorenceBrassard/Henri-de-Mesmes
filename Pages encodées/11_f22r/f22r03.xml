@@ -124,7 +124,8 @@
                         <reg>tion</reg>
                     </choice>
                     <subst>
-                        <del>par <gap reason="deleted" quantity="2" unit="char"/> les vois de</del>
+                        <del>par <gap quantity="02" unit="char" reason="deleted" agent="author"/>
+                            les vois de</del>
                         <add>de l<choice>
                                 <orig/>
                                 <reg>'</reg>

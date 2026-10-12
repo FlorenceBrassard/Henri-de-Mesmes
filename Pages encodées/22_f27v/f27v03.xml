@@ -77,7 +77,8 @@
                     </choice>a <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>amais <del>ou <gap unit="char" quantity="1"/></del> v<choice>
+                    </choice>amais <del>ou <gap quantity="01" unit="char" reason="illegible"
+                            agent="author"/></del> v<choice>
                         <orig>eu</orig>
                         <reg>u</reg>
                     </choice> en six mois de douleur ny <choice>

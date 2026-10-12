@@ -217,8 +217,8 @@
                                 </choice>'en</add>
                         </subst> ay veu le <seg xml:id="f17r06_titre_papiers">titre, et en ay copie
                                 den<subst instant="true">
-                                <del rend="overwritten"><gap quantity="01" reason="deleted"
-                                        unit="char"/></del>
+                                <del rend="overwritten"><gap quantity="01" unit="char"
+                                        reason="deleted" agent="author"/></del>
                                 <add place="superimposed">s</add>
                             </subst> mes papiers</seg>.</del></s><s>
                     <add xml:id="f17r06_et_Marsan">. <choice>
@@ -411,7 +411,8 @@
                         xml:id="f17r06_metamark_04">^</metamark><add facs="#f17r06_i_et_ville"
                         xml:id="f17r06_et_ville">et de la ville</add> portoit <subst>
                         <del>ancore</del>
-                        <add><del>anc<gap quantity="01" reason="deleted" unit="char"/></del></add>
+                        <add><del>anc<gap quantity="01" unit="char" reason="deleted" agent="author"
+                                /></del></add>
                     </subst>
                     <choice>
                         <abbr rend="overlined">nre</abbr>

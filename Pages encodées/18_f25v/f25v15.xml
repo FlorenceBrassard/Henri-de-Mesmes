@@ -85,7 +85,8 @@
                         <reg>vez</reg>
                     </choice>
                     <del>en faute</del> c<subst>
-                        <del rend="overwritten"><gap quantity="2" unit="char"/></del>
+                        <del rend="overwritten"><gap quantity="02" unit="char" reason="illegible"
+                                agent="author"/></del>
                         <add place="superimposed">ou</add>
                     </subst>lpable, <choice>
                         <orig>i</orig>
