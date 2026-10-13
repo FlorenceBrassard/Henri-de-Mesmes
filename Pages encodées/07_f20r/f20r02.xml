@@ -83,7 +83,7 @@
                             function="insert" target="#f20r02_et_installation">^</metamark>
                         <add facs="#f20r02_i_et_installation" xml:id="f20r02_et_installation">
                             <metamark>^</metamark> et installation</add>
-                        <subst facs="#f20r02_i_et_fut">
+                        <subst facs="#f20r02_i_et_fut" instant="true">
                             <del rend="overwritten">et</del>
                             <add place="superimposed">fut</add>
                         </subst> a<choice>
@@ -92,8 +92,10 @@
                         </choice>ec touts mes <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>com</expan>
-                        </choice>paignons le <date>XX<hi rend="superscript">e</hi> decembre <hi
-                                rend="overlined">1552</hi></date>
+                        </choice>paignons le <date when="1552-12-20"><choice>
+                                <orig>XX<hi rend="superscript">e</hi></orig>
+                                <reg>20</reg>
+                            </choice> decembre <hi rend="overlined">1552</hi></date>
                         <metamark facs="#f20r02_i_metamark02" function="insert"
                             target="#f20r02_mais_conseil 
                      #f20r02_ce_par">+</metamark></del>
@@ -103,14 +105,18 @@
                             <reg>é</reg>
                         </choice>
                         <subst>
-                            <del>ii f<unclear cert="medium" reason="canceled">oi</unclear></del>
+                            <del>ii f<unclear cert="medium" reason="deleted" agent="author"
+                                    >oi</unclear></del>
                             <add>aux <orgName ref="Q3001050">aides</orgName> deux</add>
                         </subst> matinées <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>e me resolu <metamark function="insert" target="#f20r02_le_iour"
                             >^</metamark>
-                        <add xml:id="f20r02_le_iour">le iii<hi rend="superscript">e</hi>
+                        <add xml:id="f20r02_le_iour">le <choice>
+                                <orig>iii<hi rend="superscript">e</hi></orig>
+                                <reg>troisieme</reg>
+                            </choice>
                             <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
@@ -145,7 +151,7 @@
                     </choice> de licence car <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e<del>n</del> n<choice>
+                    </choice>e<del instant="true">n</del> n<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>en a<choice>
@@ -285,8 +291,8 @@
                         </choice>en voir six <metamark facs="#f20r02_i_metamark05" function="insert"
                             target="#f20r02_soit_nouueaus">^</metamark>
                         <add facs="#f20r02_i_soit_nouueaus" xml:id="f20r02_soit_nouueaus"
-                                    ><add>soi<unclear cert="medium" reason="deleted"
-                                >t</unclear></add>
+                                    ><add>soi<unclear cert="medium" reason="deleted" agent="author"
+                                    >t</unclear></add>
                             <metamark>^</metamark> des nou<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -362,7 +368,7 @@
                     <substJoin target="f20r02_et_par f20r02_ce_par"/> la diligente entremise et mo<choice>
                         <orig>i</orig>
                         <reg>y</reg>
-                    </choice>en<add>s</add> de mon beau pere<choice>
+                    </choice>en<add>s</add> de <roleName>mon beau pere</roleName><choice>
                         <orig>,</orig>
                         <reg>.</reg>
                     </choice>
@@ -399,7 +405,7 @@
                             </choice> opinion qu<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>il leur sembla prendre de <subst>
+                            </choice>i<del instant="true">l</del> leur sembla prendre de <subst>
                                 <del>moy</del>
                                 <add>mes estudes</add>
                             </subst>
@@ -436,7 +442,8 @@
                     <add seq="2"><metamark facs="#f20r02_i_metamark07" function="insert"
                             target="#f20r02_apres_rencontres">⊸</metamark></add>
                     <add seq="2" facs="#f20r02_i_apres_rencontres" xml:id="f20r02_apres_rencontres"
-                            ><metamark>⊸</metamark> apres qu'aucuns du conseil eurent tesmoign<choice>
+                            ><metamark>⊸</metamark> apres qu'aucuns du <orgName>conseil</orgName>
+                        eurent tesmoign<choice>
                             <orig>e</orig>
                             <reg>é</reg>
                         </choice> de mes disputes et lectures <add><choice>
