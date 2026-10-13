@@ -45,8 +45,8 @@
                      <orig>e</orig>
                      <reg>'E</reg>
                   </choice>stat</add> du <roleName ref="Q132545">Roy</roleName>
-               <del>a<unclear cert="low" reason="illegible">u</unclear> pais</del>
-               <del><choice>
+               <del>a<unclear cert="low" reason="illegible" agent="author">u</unclear> pais</del>
+               <del instant="true"><choice>
                      <orig>i</orig>
                      <reg>j'</reg>
                   </choice>en</del>
@@ -63,8 +63,8 @@
                         <reg>v</reg>
                      </choice>oir</add>
                </subst>
-               <subst>
-                  <del><unclear cert="high">e</unclear>n la</del>
+               <subst instant="true">
+                  <del><unclear cert="high" reason="illegible" agent="author">e</unclear>n la</del>
                   <add>et seul</add>
                </subst> la su<choice>
                   <abbr><g ref="#par-glyph">ꝑ</g></abbr>

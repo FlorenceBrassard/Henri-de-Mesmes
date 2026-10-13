@@ -64,13 +64,13 @@
                         <orig>i</orig>
                         <reg>y</reg>
                     </choice>age nacquit ma fille <persName><forename>Judit</forename></persName>
-                    <date>le <choice>
+                    <date when="1568-10-09">le <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>our <persName ref="Q244380">st Denys</persName>
                         <choice>
                             <orig>ix</orig>
-                            <reg>IX</reg>
+                            <reg>9</reg>
                         </choice><hi rend="superscript">e</hi>
                         <choice>
                             <abbr>8<hi rend="superscript">bre</hi></abbr>

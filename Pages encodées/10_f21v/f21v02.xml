@@ -65,7 +65,8 @@
                             <reg>j</reg>
                         </choice>uge</add><substJoin
                         target="#f21v02_virgule #f21v02_qui_et #f21v02_iuge"/> ez matieres
-                    criminelles. <choice>
+                    criminelles.</s>
+                <s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
                     </choice>ais come a<choice>
@@ -97,7 +98,7 @@
                     appel, <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e feis en quitant ce<del>st</del>
+                    </choice>e feis en quitant ce<del instant="true">st</del>
                     <del facs="#f21v02_i_vil_grand" xml:id="f21v02_vil_grand">vil <metamark
                             facs="#f21v02_i_metamark01" function="insert"
                             target="#f21v02_ores_grand">^</metamark>

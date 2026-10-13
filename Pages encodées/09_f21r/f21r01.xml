@@ -45,7 +45,7 @@
                         </choice>ais ce fut en vain.</del></s>
                 <s><add facs="#f21r01_i_Tellement_quaiant" xml:id="f21r01_Tellement_quaiant"
                         >Tellement qu'aiant</add>
-                    <del>s<choice>
+                    <del instant="true">s<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>estans</del> peu apres <subst>
@@ -103,7 +103,7 @@
                     <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
-                    </choice>estois lors <del>pour</del> par son <choice>
+                    </choice>estois lors <del instant="true">pour</del> par son <choice>
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>com</expan>
                     </choice>mandement <metamark facs="#f21r01_i_metamark2" function="insert"
@@ -134,8 +134,8 @@
                         <reg>.</reg>
                     </choice></s></ab>
             <note resp="AV" type="genetic"><p><hi rend="italic">Nota bene : Le début du f. 21r<hi
-                            rend="superscript">o</hi> a été transcrit et encodé avec la fin du f.
-                            20v<hi rend="superscript">o</hi>, dont il dépend.</hi></p>
+                            rend="superscript">o</hi> a été transcrit et encodé avec la fin du
+                            f. 20v<hi rend="superscript">o</hi>, dont il dépend.</hi></p>
                 <p>La portée du commentaire raturé « <seg>mais ce fut en vain</seg> » n’est pas tout
                     à fait claire : c’est moins l’entreprise du mémorialiste qui semble réduite à
                     néant – ce dernier considérant, comme il le dira plus tard, avoir effectué sa

@@ -114,9 +114,9 @@
                         </choice>e me resolu <metamark function="insert" target="#f20r02_le_iour"
                             >^</metamark>
                         <add xml:id="f20r02_le_iour">le <choice>
-                                <orig>iii<hi rend="superscript">e</hi></orig>
-                                <reg>troisieme</reg>
-                            </choice>
+                                <orig>iii</orig>
+                                <reg>3</reg>
+                            </choice><hi rend="superscript">e</hi>
                             <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>

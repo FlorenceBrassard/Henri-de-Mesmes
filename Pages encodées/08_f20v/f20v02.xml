@@ -53,7 +53,8 @@
                   <orig/>
                   <reg>'</reg>
                </choice>il <subst>
-                  <del seq="1">estoit <unclear reason="faded">c</unclear></del>
+                  <del instant="true" seq="1">estoit <unclear cert="high" reason="illegible"
+                        agent="authour">c</unclear></del>
                   <add><del seq="2">de</del></add>
                </subst> cognoissoit chaste mais ce fut tout.</s></ab>
       </body>

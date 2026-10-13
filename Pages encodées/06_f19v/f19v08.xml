@@ -78,7 +78,11 @@
                         <del rend="overwritten">a</del>
                         <add place="superimposed">er</add>
                     </subst>
-                    <substJoin target="#f19v08_il_a #f19v08_de1 #f19v08_a_er"/> a la cour a<choice>
+                    <substJoin target="#f19v08_il_a #f19v08_de1 #f19v08_a_er"/>
+                    <choice>
+                        <orig>a</orig>
+                        <reg>à</reg>
+                    </choice> la cour a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec le garde des seaus <subst>
@@ -174,11 +178,11 @@
                                 <reg>'</reg>
                             </choice>y entray que <choice>
                                 <orig>ii</orig>
-                                <reg>deux</reg>
+                                <reg>2</reg>
                             </choice> matinées et la <choice>
-                                <orig>iii<hi rend="superscript">e</hi></orig>
-                                <reg>troisieme</reg>
-                            </choice></add></del>.</s></ab>
+                                <orig>iii</orig>
+                                <reg>3</reg>
+                            </choice><hi rend="superscript">e</hi></add></del>.</s></ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes substitue à une première explication
                     de la décision de son père une seconde, plus longue, qui se prolonge dans la
                     marge. L’amplification du propos n’en modifie pas fondamentalement la teneur. On

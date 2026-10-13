@@ -73,7 +73,8 @@
                         <orig/>
                         <reg>'</reg>
                      </choice>armée et <subst>
-                        <del>place hau<unclear reason="deleted">t</unclear></del>
+                        <del>place hau<unclear cert="high" reason="deleted" agent="author"
+                              >t</unclear></del>
                         <add>seance</add>
                      </subst></add>
                   <del>et</del>
@@ -101,7 +102,8 @@
                   target="#f21r02_aux_et #f21r02_au #f21r02_de_lestat"/> en ce vo<choice>
                   <orig>i</orig>
                   <reg>y</reg>
-               </choice>age pour <del>a<unclear reason="deleted">u</unclear></del>
+               </choice>age pour <del>a<unclear cert="high" reason="deleted" agent="author"
+                     >u</unclear></del>
                <choice>
                   <orig/>
                   <reg>,</reg>
@@ -132,7 +134,7 @@
                <substJoin target="#f21r02_u #f21r02_montalcin #f21r02_sienois"/>
                <subst>
                   <del>en ma</del>
-                  <del> et y <choice>
+                  <del instant="true"> et y <choice>
                         <abbr>fe<hi rend="superscript">r</hi></abbr>
                         <expan>faire</expan>
                      </choice> la <choice>
@@ -162,7 +164,7 @@
                </choice>ous partismes <subst>
                   <del>au mois</del>
                   <add>en fin</add>
-               </subst> de <date><choice>
+               </subst> de <date when="1555-10"><choice>
                      <orig>N</orig>
                      <reg>n</reg>
                   </choice>o<choice>

@@ -35,9 +35,9 @@
                     </choice><choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ieu deux ans apres, qui fut le <date>ii<choice>
-                            <orig>j</orig>
-                            <reg>i</reg>
+                    </choice>ieu deux ans apres, qui fut le <date when="1541-04-03"><choice>
+                            <orig>iij</orig>
+                            <reg>3</reg>
                         </choice><hi rend="superscript">e</hi>
                         <choice>
                             <orig>i</orig>

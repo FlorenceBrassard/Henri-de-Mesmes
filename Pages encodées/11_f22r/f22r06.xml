@@ -173,7 +173,7 @@
                         /><metamark>+</metamark>en<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>iron ce temps <add>et le <date><choice>
+                    </choice>iron ce temps <add>et le <date when="1559-08-29"><choice>
                                 <abbr>io<hi rend="superscript">r</hi></abbr>
                                 <expan>jour</expan>
                             </choice>

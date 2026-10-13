@@ -45,7 +45,7 @@
     </facsimile>
     <text>
         <body>
-            <ab><s><del>En</del>
+            <ab><s><del instant="true">En</del>
                     <del><choice>
                             <orig>l</orig>
                             <reg>L</reg>
@@ -62,7 +62,7 @@
                         <del seq="1">m<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>aimer, et</del>
+                            </choice>aimer, et </del>
                         <add facs="f20v04_i_me" seq="2" xml:id="f20v04_me">me</add>
                         <add seq="1">gouster <del facs="f20v04_i_quelque #f20v04_i_essay_estudes"
                                 seq="2" xml:id="f20v04_quelque_estudes">quelque essay de mes <choice>
@@ -119,7 +119,7 @@
                                 <orig>i</orig>
                                 <reg>I</reg>
                             </choice>l <metamark function="unknown">–</metamark> eut</add>
-                    </subst> volonté de rendre les <del>baillys</del>
+                    </subst> volonté de rendre les <del instant="true">baillys</del>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
@@ -169,7 +169,7 @@
                     <choice>
                         <orig>s</orig>
                         <reg>S</reg>
-                    </choice>ienois <del>o<choice>
+                    </choice>ienois <del instant="true">o<choice>
                             <orig>u</orig>
                             <reg>ù</reg>
                         </choice> il me <choice>
@@ -231,7 +231,7 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>en vouloit <subst>
-                        <del><damage agent="stain">fier</damage></del>
+                        <del><damage rend="stain" agent="ink">fier</damage></del>
                         <add>fier</add>
                     </subst> en moy sens rece<choice>
                         <orig>u</orig>
@@ -244,7 +244,7 @@
                             facs="#f20v04_de_mon" xml:id="f20v04_de_mon">de mon </add></del> peu d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>experiance pour<del><add>o</add></del> gou<choice>
+                    </choice>experiance pour<del instant="true"><add>o</add></del> gou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>erner <choice>
@@ -266,8 +266,8 @@
             <note resp="AV" type="genetic"><p>Henri de Mesmes retravaille en particulier le passage
                     dans lequel il évoque la faveur d’Henri II : « <seg>me faisoit cest honeur de
                         maimer</seg> » laisse place à « <seg>cest honeur de <hi rend="italic"
-                            >gouster quelque essay de mes ieunes estudes</hi></seg> », puis à «
-                        <seg>me gouster et fauoriser mon auancement</seg> ». Il s’agit de dire au
+                            >gouster quelque essay de mes ieunes estudes</hi></seg> », puis à
+                        « <seg>me gouster et fauoriser mon auancement</seg> ». Il s’agit de dire au
                     mieux l’intérêt porté à sa personne et par conséquent à sa carrière. Le terme
                         « <seg>essay</seg> », ajouté puis supprimé, réapparaît plus bas à deux
                     reprises, dans le premier jet « <seg>den f<hi rend="superscript">er</hi> lessay
@@ -279,7 +279,7 @@
                     que le mémorialiste souhaitait ajouter une date qu’il n’avait pas en mémoire au
                     moment de la rédaction du passage. Peut-être espérait-il trouver l’information
                     dans ses papiers, <hi rend="italic">a posteriori</hi> ; la rature indique que la
-                    recherche a été vaine. </p></note>
+                    recherche a été vaine.</p></note>
         </body>
     </text>
 </TEI>

@@ -51,7 +51,7 @@
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
-                  <placeName>Rome</placeName></add><choice>
+                  <placeName ref="Q220">Rome</placeName></add><choice>
                   <orig/>
                   <reg>,</reg>
                </choice><substJoin target="#f21r04_y #f21r04_e #f21r04_a_Rome"/> successeur de <choice>

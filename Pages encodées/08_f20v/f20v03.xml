@@ -21,7 +21,9 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/1089,4433,2114,467/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f46/1089,4433,2114,467/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
@@ -30,13 +32,13 @@
                         <orig>c</orig>
                         <reg>C</reg>
                     </choice>e marriage fut celebré <add>le</add>
-                    <date><choice>
+                    <date when="1555-09-22"><choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>eudy xi<choice>
-                            <orig>j</orig>
-                            <reg>i</reg>
-                        </choice><hi rend="superscript">e</hi>
+                        </choice>eudy <choice>
+                            <orig>xij<hi rend="superscript">e</hi></orig>
+                            <reg>22</reg>
+                        </choice>
                         <choice>
                             <abbr>7<hi rend="superscript">bre</hi></abbr>
                             <expan>septembre</expan>

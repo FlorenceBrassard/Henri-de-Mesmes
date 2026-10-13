@@ -55,7 +55,10 @@
             <ab><s><del facs="#f20r03_i_ma_est #f20r03_i_du_1552" xml:id="f20r03_ma_1552"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
-                        </choice>a reception est du <date>XVI<hi rend="superscript">e</hi>
+                        </choice>a reception est du <date when="1553-01-16"><choice>
+                                <orig>XVI<hi rend="superscript">e</hi></orig>
+                                <reg>16</reg>
+                            </choice>
                             <del><choice>
                                     <orig>J</orig>
                                     <reg>j</reg>
@@ -73,7 +76,7 @@
                         <del rend="overwritten">l</del>
                         <add place="superimposed">L</add>
                     </subst>e <substJoin seq="2" target="#f20r03_Et #f20r03_l_L"/>
-                    <date>27<hi rend="superscript">e</hi> aoust <subst>
+                    <date when="1553-08-27">27<hi rend="superscript">e</hi> aoust <subst>
                             <del>ensuy<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
@@ -114,7 +117,8 @@
                         </choice>lement</orgName>
                     <metamark facs="#f20r03_i_metamark2" function="insert">^</metamark><add
                         facs="#f20r03_i_aussy_examen" xml:id="f20r03_aussy_examen"
-                            ><metamark>^</metamark>aussy sens examen</add> le <date>28 <choice>
+                            ><metamark>^</metamark>aussy sens examen</add> le <date
+                        when="1553-09-28">28 <choice>
                             <orig>S</orig>
                             <reg>s</reg>
                         </choice>eptembre en la mesme année qu<choice>
@@ -127,7 +131,10 @@
                     <add>n<choice>
                             <orig> </orig>
                             <reg>'</reg>
-                        </choice>aiant pas ancore xxii ans</add><add facs="#f20r03_i_mais_estudes"
+                        </choice>aiant pas ancore <choice>
+                            <orig>xxii</orig>
+                            <reg>22</reg>
+                        </choice> ans</add><add facs="#f20r03_i_mais_estudes"
                         xml:id="f20r03_mais_estudes">mais le <persName ref="Q132545"
                                 ><roleName>Roy</roleName><forename>Henry</forename></persName> mon
                         bon <choice>
@@ -210,10 +217,9 @@
                     <choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ieu le <date>dymanche xiiij<hi rend="superscript">e</hi>
-                        <choice>
-                            <orig>J</orig>
-                            <reg>j</reg>
+                    </choice>ieu le <date when="1553-01-14">dymanche <choice>
+                            <orig>xiiij<hi rend="superscript">e</hi> J</orig>
+                            <reg>14 j</reg>
                         </choice>an<choice>
                             <orig>u</orig>
                             <reg>v</reg>
@@ -224,7 +230,16 @@
                     </choice>l elle a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit eu VI enfans masles et V filles dont les V masles et 3 femelles vi<choice>
+                    </choice>oit eu <choice>
+                        <orig>VI</orig>
+                        <reg>6</reg>
+                    </choice> enfans masles et <choice>
+                        <orig>V</orig>
+                        <reg>5</reg>
+                    </choice> filles dont les <choice>
+                        <orig>V</orig>
+                        <reg>5</reg>
+                    </choice> masles et 3 femelles vi<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oient <choice>

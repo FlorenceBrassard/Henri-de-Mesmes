@@ -52,13 +52,14 @@
                   <orig>u</orig>
                   <reg>v</reg>
                </choice>ec <seg xml:id="f19r06_catedran">catedran</seg><supplied>,</supplied> la <choice>
-                  <orig>ii<hi rend="superscript">e</hi></orig>
-                  <reg>deuxieme</reg>
-               </choice>
+                  <orig>ii</orig>
+                  <reg>2</reg>
+               </choice><hi rend="superscript">e</hi>
                <choice>
                   <orig>iii</orig>
-                  <reg>trois</reg>
-               </choice> <choice>
+                  <reg>3</reg>
+               </choice>
+               <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>ours entiers <subst>
