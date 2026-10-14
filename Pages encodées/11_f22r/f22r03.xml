@@ -79,7 +79,8 @@
                     </choice>ay les <choice>
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
-                    </choice> en bon nombre.</s><s><choice>
+                    </choice> en bon nombre.</s>
+                <s><choice>
                         <orig>q</orig>
                         <reg>Q</reg>
                     </choice>uant <choice>
@@ -94,13 +95,14 @@
                     </choice>e m<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>exposay apres x<choice>
-                        <orig>iiij</orig>
-                        <reg>iv</reg>
+                    </choice>exposay apres <choice>
+                        <orig>xiiij</orig>
+                        <reg>14</reg>
                     </choice> mois de ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ice au sindicat acoustumé selon les statuts de <placeName ref="Q2751">
+                    </choice>ice au <orgName>sindicat</orgName> acoustumé selon les statuts de
+                        <placeName ref="Q2751">
                         <choice>
                             <orig>s</orig>
                             <reg>S</reg>
@@ -169,7 +171,7 @@
                     </choice>e n'a <choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ois pas failly en ma charge <del>et qu<choice>
+                    </choice>ois pas failly en ma charge <del instant="true">et qu<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>il</del> ny luy en son election.</s></ab>

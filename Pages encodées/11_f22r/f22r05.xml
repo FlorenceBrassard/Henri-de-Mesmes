@@ -58,7 +58,7 @@
                         <orig>p</orig>
                         <reg>P</reg>
                      </choice>icardie</placeName></add>
-               <del>en L</del> en ceste grosse armée d<choice>
+               <del instant="true">en L</del> en ceste grosse armée d<choice>
                   <orig/>
                   <reg>'</reg>
                </choice><placeName ref="Q41604"><choice>
@@ -88,7 +88,7 @@
                </choice>
                <placeName ref="Q90">Paris</placeName> du coup dont il mourrut <add seq="2"><metamark
                      facs=" #f22r05_i_metamark03" function="insert" target="#f22r05_et_luy"
-                     >^</metamark></add><add seq="1"><del>et la p</del></add><add
+                     >^</metamark></add><add seq="1"><del instant="true">et la p</del></add><add
                   facs="#f22r05_i_et_luy" seq="2" xml:id="f22r05_et_luy"><metamark>^</metamark>
                   <choice>
                      <orig>E</orig>
@@ -102,7 +102,7 @@
                      </choice>rance</placeName> a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>ec luy</add> en <date>fin de <choice>
+                  </choice>ec luy</add> en <date when="1559-07">fin de <choice>
                      <orig>J</orig>
                      <reg>j</reg>
                   </choice>uillet 1559.</date></s></ab>

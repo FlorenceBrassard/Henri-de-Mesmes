@@ -91,7 +91,7 @@
                     <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
-                        </choice>aris</placeName> le <date>18 juillet 155<subst>
+                        </choice>aris</placeName> le <date when="1558-07-18">18 juillet 155<subst>
                             <del rend="overwritten">7</del>
                             <add>8</add>
                         </subst></date>
@@ -149,7 +149,7 @@
                         </choice>est <choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice> dire qui fut le <date><choice>
+                        </choice> dire qui fut le <date when="1557-06-30"><choice>
                                 <abbr rend="overlined">dr</abbr>
                                 <expan>dernier</expan>
                             </choice>
@@ -183,7 +183,8 @@
                     </subst></s>
                 <metamark facs="#f22r04_i_metamark05" function="insert" target="#f22r04_aussy_1557"
                     >π</metamark><addSpan facs="#f22r04_i_aussy_1557" spanTo="#f22r04_1557"
-                    xml:id="f22r04_aussy_1557"/><s><metamark>π</metamark>
+                    xml:id="f22r04_aussy_1557"/>
+                <s><metamark>π</metamark>
                     <subst>
                         <del><choice>
                                 <orig>a</orig>
@@ -209,7 +210,7 @@
                         <reg>D</reg>
                     </choice>ieu et tres chaste.</s>
                 <s><subst>
-                        <del><choice>
+                        <del instant="true"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
                             </choice>lle estoit morte</del>
@@ -220,7 +221,7 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>our de sa mort fut</add>
-                    </subst> le <date>12<choice>
+                    </subst> le <date when="1557-03-12">12<choice>
                             <orig>/</orig>
                             <reg/>
                         </choice>
@@ -249,7 +250,7 @@
                             agent="author"/></del> perte faiste <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> la <date><choice>
+                    </choice> la <date when="1557-08-10"><choice>
                             <abbr>s<hi rend="superscript">t</hi>
                             </abbr>
                             <expan>Sainct</expan>

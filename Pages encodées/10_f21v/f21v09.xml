@@ -56,8 +56,8 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName ref="Q91208">Montalcino</placeName> et <del>nous</del> empeschoit
-                    tout secours de vi<choice>
+                    <placeName ref="Q91208">Montalcino</placeName> et <del instant="true">nous</del>
+                    empeschoit tout secours de vi<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>res<choice>
@@ -101,7 +101,7 @@
                     </choice>eulx qui m<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>accompaignerent en ce<subst>
+                    </choice>accompaignerent en ce<subst instant="true">
                         <del rend="overwritten">s</del>
                         <add place="superimposed">s</add>
                     </subst><del rend="unmarked">t</del> expeditions militaires furent le <del
@@ -139,7 +139,7 @@
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>ec</add>
-                    </subst> gens de pied les <del>comperio</del>
+                    </subst> gens de pied les <del instant="true">comperio</del>
                     <subst>
                         <del><choice>
                                 <abbr>cap.<hi rend="superscript">nes</hi></abbr>
@@ -209,7 +209,7 @@
                         target="#f21v09_C #f21v09_ussans_undo"/>, et autres<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> demourant <del>en</del> le <choice>
+                    </choice> demourant <del instant="true">en</del> le <choice>
                         <abbr>Cap<hi rend="superscript">nes</hi></abbr>
                         <expan>capitaine</expan>
                     </choice>
@@ -226,7 +226,8 @@
                                         <orig>l</orig>
                                         <reg>L</reg>
                                     </choice>a</add> Mole</surname></persName>
-                        <del><unclear cert="high" reason="deleted" agent="author">per</unclear>
+                        <del instant="true"><unclear cert="high" reason="deleted" agent="author"
+                                >per</unclear>
                             <gap quantity="01" unit="char" reason="deleted" agent="author"/></del>
                         <choice>
                             <orig>a</orig>
@@ -235,11 +236,12 @@
                         <placeName ref="Q6716"><choice>
                                 <orig>g</orig>
                                 <reg>G</reg>
-                            </choice>rossetto</placeName>placeName> <choice>
+                            </choice>rossetto</placeName>
+                        <choice>
                             <abbr>po<hi rend="superscript">r</hi></abbr>
                             <expan>pour</expan>
                         </choice> la <placeName ref="Q1233184">Marem</placeName>
-                    </add>.<del><choice>
+                    </add>.<del instant="true"><choice>
                             <orig>q</orig>
                             <reg>Q</reg>
                         </choice>ui est celuy qui</del></s></ab>
