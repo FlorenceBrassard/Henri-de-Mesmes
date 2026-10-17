@@ -55,7 +55,7 @@
             <ab><s><del facs="#f20r03_i_ma_est #f20r03_i_du_1552" xml:id="f20r03_ma_1552"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
-                        </choice>a reception est du <date when="1553-01-16"><choice>
+                        </choice>a reception est du <date when="1553-01-16" xml:id="f20r03_XVI_1552"><choice>
                                 <orig>XVI<hi rend="superscript">e</hi></orig>
                                 <reg>16</reg>
                             </choice>
@@ -128,7 +128,7 @@
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>com</expan>
                         </choice>ptoit <hi rend="overlined">1553</hi></date>
-                    <add>n<choice>
+                    <add xml:id="f20r03_naiant_ans">n<choice>
                             <orig> </orig>
                             <reg>'</reg>
                         </choice>aiant pas ancore <choice>
@@ -246,13 +246,13 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> son trespas.</s></ab>
-            <note resp="AV" type="genetic"><p>La <seg>date de l’entrée d’Henri de Mesmes au Grand
-                        Conseil</seg> est supprimée avec le reste du passage (voir f. 20r<hi
-                        rend="superscript">o</hi>, seg. 2). Dans la marge, le mémorialiste ajoute
-                    une <seg>précision sur l’âge</seg> auquel il est reçu au Parlement de Paris pour
-                    souligner de nouveau sa précocité et surtout pour insister sur la
-                        <seg>reconnaissance dont il bénéficie de la part
-                d’Henri II</seg>.</p></note>
+            <note resp="AV" type="genetic"><p>La <seg corresp="#f20r03_XVI_1552" facs="">date de
+                        l’entrée d’Henri de Mesmes au Grand Conseil</seg> est supprimée avec le
+                    reste du passage (voir f. 20r<hi rend="superscript">o</hi>, seg. 2). Dans la
+                    marge, le mémorialiste ajoute une <seg corresp="#f20r03_naiant_ans" facs="">précision sur l’âge</seg> auquel il est
+                    reçu au Parlement de Paris pour souligner de nouveau sa précocité et surtout
+                    pour insister sur la <seg corresp="#f20r03_mais_estudes" facs="#f20r03_i_mais_estudes">reconnaissance dont il bénéficie de la part
+                        d’Henri II</seg>.</p></note>
             <note resp="AV" type="critic"><p>Le Français 18617 et le Duchesne 57 donnent toutes deux
                     « sa suruiuance » (f. 9r° et f. 59r<hi rend="superscript">o</hi>). La présence
                     d’un « l » (« <seg>la survivance</seg> ») ne semble pourtant pas faire de doute
