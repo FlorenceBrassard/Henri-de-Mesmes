@@ -80,22 +80,24 @@
                   <del>et</del>
                </subst>
                <subst>
-                  <del facs="#f21r02_i_aux #f21r02_i_afers_et" xml:id="f21r02_aux_et">aux <choice>
-                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
-                        <expan>afaires</expan>
-                     </choice> d<choice>
-                        <orig>e</orig>
-                        <reg>'E</reg>
-                     </choice>stat et</del>
+                  <del facs="#f21r02_i_aux #f21r02_i_afers_et" xml:id="f21r02_aux_et">aux <seg
+                        xml:id="f21r02_afers_destat"><choice>
+                           <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                           <expan>afaires</expan>
+                        </choice> d<choice>
+                           <orig>e</orig>
+                           <reg>'E</reg>
+                        </choice>stat</seg> et</del>
                   <add facs="#f21r02_i_au" xml:id="f21r02_au">au</add>
                </subst>
                <orgName>
-                  <choice>
-                     <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                     <expan>con</expan>
-                  </choice>seil estroit <metamark facs="#f21r02_i_metamark1" function="insert"
-                     target="#f21r02_de_lestat">^</metamark><add facs="#f21r02_i_de_lestat"
-                     xml:id="f21r02_de_lestat"><metamark>^</metamark>de l<choice>
+                  <seg xml:id="f21r02_conseil_estroit"><choice>
+                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                        <expan>con</expan>
+                     </choice>seil estroit</seg>
+                  <metamark facs="#f21r02_i_metamark1" function="insert" target="#f21r02_de_lestat"
+                     >^</metamark><add facs="#f21r02_i_de_lestat" xml:id="f21r02_de_lestat"
+                        ><metamark>^</metamark>de l<choice>
                         <orig>e</orig>
                         <reg>'E</reg>
                      </choice>stat</add></orgName><substJoin
@@ -170,37 +172,43 @@
                   </choice>o<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>embre 155<subst>
-                     <del rend="overwritten">5</del>
-                     <add place="superimposed">6</add>
-                  </subst></date> et laissay <roleName>ma femme</roleName>
+                  </choice>embre <seg xml:id="f21r02_1556">155<subst>
+                        <del rend="overwritten">5</del>
+                        <add place="superimposed">6</add>
+                     </subst></seg></date> et laissay <roleName>ma femme</roleName>
                <del facs="#f21r02_i_qui_doubtoit #f21r02_i_destre" xml:id="f21r02_qui_destre">qui se
                   doubtoit d<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>estre</del> grosse <add facs="#f21r02_i_denuiron_mois"
-                  xml:id="f21r02_denuiron_mois">d'en<choice>
+                  </choice>estre</del>
+               <seg xml:id="f21r02_grosse">grosse</seg>
+               <add facs="#f21r02_i_denuiron_mois" xml:id="f21r02_denuiron_mois">d'en<choice>
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>iron deux mois</add><substJoin
                   target="#f21r02_qui_destre #f21r02_denuiron_mois"/>.</s></ab>
-         <note resp="AV" type="genetic"><p>La première version de ce passage coordonne les
-                     « <seg>afe<hi rend="superscript">r</hi>s destat</seg> » et le « <seg>conseil
+         <note resp="AV" type="genetic"><p>La première version de ce passage coordonne les « <seg
+                  corresp="#f21r02_afers_destat" facs="">afe<hi rend="superscript">r</hi>s
+                  destat</seg> » et le « <seg corresp="#f21r02_conseil_estroit" facs="">conseil
                   estroit</seg> ». Une telle formule ne paraît pas recouper une distinction entre le
                Grand Conseil et le Conseil des affaires, mais plutôt désigner ce dernier à la
                manière d’un binôme synonymique. Henri de Mesmes retravaille ce passage pour
-               conserver une formule plus condensée (« conseil estroit de l’estat ».</p>
-            <p>Comme souvent, le mémorialiste hésite sur la date, pour retenir l’année
-                  <seg>1556</seg>, qui est la bonne. Il modifie également la manière de désigner sa
-               destination au sein de <seg>l’ajout marginal</seg> : cette hésitation s’explique par
-               le fait que l’élite de la République siennoise s’est exilée à Montalcino à la suite
-               de sa capitulation, en avril 1555. La ville se situe à une quarantaine de kilomètres
-               au sud de Sienne.</p>
+               conserver une formule plus condensée (« <seg
+                  corresp="#f21r02_conseil_estroit #f21r02_de_lestat" facs="">conseil estroit de
+                  l’estat</seg> ».</p>
+            <p>Comme souvent, le mémorialiste hésite sur la date, pour retenir l’année <seg
+                  corresp="#f21r02_1556" facs="">1556</seg>, qui est la bonne. Il modifie également
+               la manière de <seg corresp="#f21r02_montalcin f21r02_sienois"
+                  facs="#f21r02_i_montalcin #f21r02_i_sienois">désigner sa destination au sein de
+                  l’ajout marginal</seg> : cette hésitation s’explique par le fait que l’élite de la
+               République siennoise s’est exilée à Montalcino à la suite de sa capitulation, en
+               avril 1555. La ville se situe à une quarantaine de kilomètres au sud de Sienne.</p>
             <p>On remarquera pour finir la suppression de la modalisation au sujet de la grossesse
-               de Jeanne Hennequin : l’allusion à la certitude de l’épouse du mémorialiste
-                  (« <seg>qui se doubtoit destre grosse</seg> ») est supprimée au profit d’une
-               formule à la fois plus assertive et plus précise (« <seg>grosse d’enuiron deux
-                  mois</seg> »).</p></note>
+               de Jeanne Hennequin : l’allusion à la certitude de l’épouse du mémorialiste (« <seg
+                  corresp="#f21r02_qui_destre #f21r02_grosse" facs="">qui se doubtoit destre
+                  grosse</seg> ») est supprimée au profit d’une formule à la fois plus assertive et
+               plus précise (« <seg corresp="#f21r02_grosse #f21r02_denuiron_mois" facs="">grosse
+                  d’enuiron deux mois</seg> »).</p></note>
       </body>
    </text>
 </TEI>

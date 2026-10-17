@@ -39,7 +39,7 @@
     </facsimile>
     <text>
         <body>
-            <ab><s><del><choice>
+            <ab><s><del xml:id="f21r01_mais_vain"><choice>
                             <orig>m</orig>
                             <reg>M</reg>
                         </choice>ais ce fut en vain.</del></s>
@@ -49,29 +49,33 @@
                             <orig/>
                             <reg>'</reg>
                         </choice>estans</del> peu apres <subst>
-                        <del>resolu au</del>
+                        <del xml:id="f21r01_resolu_au">resolu au</del>
                         <add facs="#f21r01_i_conclud_doner" xml:id="f21r01_conclud_doner">conclud
                                 <add>de</add> doner</add>
                     </subst><substJoin seq="1"
                         target="#f21r01_Tellement_quaiant #f21r01_conclud_doner #f21r01_des #f21r01_aux #f21r01_acorder_la #f21r01_point_add"
-                    />secours <subst>
+                        /><seg xml:id="f21r01_secours">secours</seg>
+                    <subst>
                         <del facs="#f21r01_i_des" xml:id="f21r01_des">des</del>
                         <add facs="#f21r01_i_aux" xml:id="f21r01_aux"><del><metamark
-                                    function="insert">+</metamark></del> au<del facs="#f21r01_i_x"
+                                    function="insert">+</metamark></del>
+                            <seg xml:id="f21r01_au">au</seg><del facs="#f21r01_i_x"
                                 xml:id="f21r01_x">x</del></add>
                     </subst>
                     <substJoin target="#f21r01_conclud-doner #f21r01_aux"/>
-                    <add xml:id="f21r01_pape_les"><roleName ref="Q101430">Pape</roleName> contre
-                        les</add>
-                    <substJoin target="#f21r01_x #f21r01_pape_les"/><persName ref="Q327202"><surname><choice>
-                                <orig>c</orig>
-                                <reg>C</reg>
-                            </choice>olonois</surname></persName> et <metamark
+                    <add xml:id="f21r01_pape_les"><seg xml:id="f21r01_Pape_contre"><roleName
+                                ref="Q101430">Pape</roleName> contre</seg> les</add>
+                    <substJoin target="#f21r01_x #f21r01_pape_les"/><seg xml:id="f21r01_colonois_et"
+                            ><persName ref="Q327202"><surname><choice>
+                                    <orig>c</orig>
+                                    <reg>C</reg>
+                                </choice>olonois</surname></persName> et </seg><metamark
                         facs="#f21r01_i_metamark1" function="insert" target="#f21r01_acorder_la"
                         >^</metamark><add facs="#f21r01_i_acorder_la" xml:id="f21r01_acorder_la"
-                            ><metamark>^</metamark>acorder la</add> ligue <add
-                        facs="#f21r01_i_saincte_aportée" xml:id="f21r01_saincte_aportée">saincte qui
-                        luy fut aportée</add><add xml:id="f21r01_point_add"><del
+                            ><metamark>^</metamark>acorder la</add>
+                    <seg xml:id="f21r01_ligue">ligue</seg>
+                    <add facs="#f21r01_i_saincte_aportée" xml:id="f21r01_saincte_aportée">saincte
+                        qui luy fut aportée</add><add xml:id="f21r01_point_add"><del
                             facs="#f21r01_i_point_del" rend="unmarked" xml:id="f21r01_point_del"
                             >.</del>
                     </add><substJoin seq="2" target="#f21r01_saincte_aportée #f21r01_point_del"/> d<choice>
@@ -136,20 +140,24 @@
             <note resp="AV" type="genetic"><p><hi rend="italic">Nota bene : Le début du f. 21r<hi
                             rend="superscript">o</hi> a été transcrit et encodé avec la fin du
                             f. 20v<hi rend="superscript">o</hi>, dont il dépend.</hi></p>
-                <p>La portée du commentaire raturé « <seg>mais ce fut en vain</seg> » n’est pas tout
-                    à fait claire : c’est moins l’entreprise du mémorialiste qui semble réduite à
-                    néant – ce dernier considérant, comme il le dira plus tard, avoir effectué sa
-                    mission auprès de la République de Sienne avec succès – que la volonté d’Henri
-                    II d’exercer davantage de contrôle sur les juges, « à la mode d’Italie ».</p>
+                <p>La portée du commentaire raturé « <seg corresp="#f21r01_mais_vain" facs="">mais
+                        ce fut en vain</seg> » n’est pas tout à fait claire : c’est moins
+                    l’entreprise du mémorialiste qui semble réduite à néant – ce dernier
+                    considérant, comme il le dira plus tard, avoir effectué sa mission auprès de la
+                    République de Sienne avec succès – que la volonté d’Henri II d’exercer davantage
+                    de contrôle sur les juges, « à la mode d’Italie ».</p>
                 <p>Plus surprenant, Henri de Mesmes semble hésiter quant aux intentions du roi : le
-                    premier jet donne en effet « <seg>resolu au secours des colonois et ligue</seg>
-                    », ce qui apparaît comme un contre-sens historique. La famille Colonna, soutien
-                    de l’Espagne, est en effet l’adversaire du pape Paul IV, qui est lui-même à
-                    l’initiative de l’alliance avec la France. Cette interprétation est confortée
-                    par la correction suivante, qui remplace « <seg>des</seg> » par « <seg>aux</seg>
+                    premier jet donne en effet « <seg
+                        corresp="#f21r01_resolu_au #f21r01_secours #f21r01_des #f21r01_colonois_et #f21r01_ligue"
+                        facs="">resolu au secours des colonois et ligue</seg> », ce qui apparaît
+                    comme un contre-sens historique. La famille Colonna, soutien de l’Espagne, est
+                    en effet l’adversaire du pape Paul IV, qui est lui-même à l’initiative de
+                    l’alliance avec la France. Cette interprétation est confortée par la correction
+                    suivante, qui remplace « <seg corresp="#f21r01_des" facs="#f21r01_i_des"
+                        >des</seg> » par « <seg corresp="#f21r01_aux" facs="#f21r01_i_aux">aux</seg>
                     » devant « colonois ». Une substitution permet finalement d’établir que le
-                    secours est bien accordé « <seg>au » pape et « contre</seg> » la famille
-                    pro-espagnole.</p>
+                    secours est bien accordé « <seg corresp="#f21r01_au f21r01_Pape_contre" facs=""
+                        >au » pape et « contre</seg> » la famille pro-espagnole.</p>
             </note>
         </body>
     </text>
