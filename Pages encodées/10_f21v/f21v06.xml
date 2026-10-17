@@ -39,11 +39,11 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <del instant="true"><choice>
+                    <del instant="true" xml:id="f21v06_mr_de"><choice>
                             <abbr>m<hi rend="superscript">r</hi></abbr>
                             <expan>monsieur</expan>
                         </choice> d</del>
-                    <add><choice>
+                    <add xml:id="f21v06_mr_auec"><choice>
                             <abbr>m<hi rend="superscript">r</hi></abbr>
                             <expan>monsieur</expan>
                         </choice>
@@ -52,12 +52,13 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ec</add>
-                    <choice>
-                        <abbr>n<hi rend="overlined">re</hi></abbr>
-                        <expan>nostre</expan>
-                    </choice> armée <metamark facs="#f21v06_i_metamark1" function="insert"
-                        target="#f21v06_venue">^</metamark><add facs="#f21v06_i_venue"
-                        xml:id="f21v06_venue"><metamark>^</metamark><del facs="#f21v06_i_venue_del"
+                    <seg xml:id="f21v06_nre_armée"><choice>
+                            <abbr>n<hi rend="overlined">re</hi></abbr>
+                            <expan>nostre</expan>
+                        </choice> armée</seg>
+                    <metamark facs="#f21v06_i_metamark1" function="insert" target="#f21v06_venue"
+                        >^</metamark><add facs="#f21v06_i_venue" xml:id="f21v06_venue"
+                            ><metamark>^</metamark><del facs="#f21v06_i_venue_del"
                             xml:id="f21v06_venue_del">venue</del></add>
                     <subst>
                         <del facs="#f21v06_i_de_france" xml:id="f21v06_de_france">de <placeName
@@ -65,22 +66,25 @@
                                     <orig>f</orig>
                                     <reg>F</reg>
                                 </choice>rance</placeName></del>
-                        <add facs="#f21v06_i_de_ste" xml:id="f21v06_de_ste">de la ligue <choice>
-                                <abbr>s<hi rend="superscript">te</hi></abbr>
-                                <expan>saincte</expan>
-                            </choice></add>
+                        <add facs="#f21v06_i_de_ste" xml:id="f21v06_de_ste">de la <seg
+                                xml:id="f21v06_ligue_ste">ligue <choice>
+                                    <abbr>s<hi rend="superscript">te</hi></abbr>
+                                    <expan>saincte</expan>
+                                </choice></seg></add>
                     </subst> assiegea <placeName ref="Q51440">Ci<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>itella</placeName>.</s></ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes semble avoir hésité quant au sujet du
-                    verbe « assiegea » : « <seg>m<hi rend="superscript">r</hi> d</seg> » pourrait
-                    être le début de « <seg> m<hi rend="superscript">r</hi> de Guyse</seg> »,
-                    d’abord rayé au profit de « <seg> afe<hi rend="overlined">nre</hi>
-                    armée</seg> », avant d’être rétabli sous la forme « <seg> m<hi
-                            rend="superscript">r</hi> de Guyse auec</seg> ». Le mémorialiste choisit
-                    également de rappeler que l’armée française agit dans le cadre de la « sainte
-                    ligue » formée avec le pape.</p></note>
+                    verbe « assiegea » : « <seg corresp="#f21v06_mr_de" facs="">m<hi
+                            rend="superscript">r</hi> d</seg> » pourrait être le début de « m<hi
+                        rend="superscript">r</hi> de Guyse », d’abord rayé au profit de « <seg
+                        corresp="#f21v06_nre_armée" facs=""> n<hi rend="overlined">re</hi>
+                        armée</seg> », avant d’être rétabli sous la forme « <seg
+                        corresp="#f21v06_mr_auec" facs=""> m<hi rend="superscript">r</hi> de Guyse
+                        auec</seg> ». Le mémorialiste choisit également de rappeler que l’armée
+                    française agit dans le cadre de la « <seg corresp="#f21v06_ligue_ste" facs=""
+                        >sainte ligue</seg> » formée avec le pape.</p></note>
         </body>
     </text>
 </TEI>

@@ -47,12 +47,13 @@
                         <del>o<choice>
                                 <orig>u</orig>
                                 <reg>ù</reg>
-                            </choice> le viceroy de la</del>
-                        <add><persName ref="Q378025"><surname>Monluc</surname></persName>
-                            <choice>
-                                <abbr>lieut<hi rend="superscript">t</hi></abbr>
-                                <expan>lieutenant</expan>
-                            </choice> du <roleName ref="Q132545">Roy</roleName> en</add>
+                            </choice> le <seg xml:id="f21v08_viceroy">viceroy</seg> de la</del>
+                        <add><persName ref="Q378025" xml:id="f21v08_Monluc"
+                                    ><surname>Monluc</surname></persName>
+                            <seg xml:id="f21v08_lieut_Roy"><choice>
+                                    <abbr>lieut<hi rend="superscript">t</hi></abbr>
+                                    <expan>lieutenant</expan>
+                                </choice> du <roleName ref="Q132545">Roy</roleName></seg> en</add>
                     </subst>
                     <placeName ref="Q1273">Toscane</placeName> ala vers <choice>
                         <abbr>m<hi rend="superscript">r</hi></abbr>
@@ -67,11 +68,14 @@
                     </choice>e demourray <subst>
                         <del facs="#f21v08_i_chef_sur" xml:id="f21v08_chef_sur">chef sur</del>
                         <add facs="#f21v08_i_au_Sienois #f21v08_i_toute_sur" xml:id="f21v08_au_sur"
-                            >au <placeName ref="Q16275">Sienois</placeName> a<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>ec toute autorité absolue, mesme sur</add>
-                    </subst> les armes <del xml:id="f21v08_mesme">mesme</del>
+                            >au <placeName ref="Q16275">Sienois</placeName>
+                            <seg xml:id="f21v08_auec_sur">a<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>ec toute autorité absolue, mesme sur</seg></add>
+                    </subst>
+                    <seg xml:id="f21v08_les_armes">les armes</seg>
+                    <del xml:id="f21v08_mesme">mesme</del>
                     <del instant="true"><unclear cert="high">e</unclear>n</del>
                     <del facs="#f21v08_i_au_et" xml:id="f21rop8_au_et">au <placeName ref="Q16275"
                             >Sienois</placeName> et</del>
@@ -103,7 +107,7 @@
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e</del>
-                        <add><choice>
+                        <add xml:id="f21v08_sorty_campaigne"><choice>
                                 <orig/>
                                 <reg>,</reg>
                             </choice> sorty en campaigne et</add>
@@ -132,19 +136,22 @@
             <note resp="AV" type="genetic"><p>La rivalité d’Henri de Mesmes avec Monluc et le désir
                     de s’attribuer les mérites des actions entreprises par ce dernier paraissent
                     guider le retravail de ce passage.</p>
-                <p>Le mémorialiste remplace la désignation de « <seg>viceroy</seg> » par celle de
-                        « <seg>lieutenant du Roy</seg> », qui est plus juste ; il usera peu après du
-                    premier terme pour qualifier la fonction de Fransceco d’Este, qui devient
-                    lieutenant général en Toscane en janvier 1558, à la suite de Monluc. Le <seg>nom
-                        de ce dernier</seg> pourrait avoir été ajouté ultérieurement ; le capitaine
-                    était pourtant bien présent à Montalcino pendant une bonne partie du séjour
-                    d’Henri de Mesmes et a dirigé les opérations sur les châteaux évoqués
-                    ensuite.</p>
-                <p>La formule « <seg>chef sur les armes</seg> », quant à elle, est remplacée par le
-                    complément « <seg>auec toute autorité absolue, mesme sur les armes</seg> », qui
-                    laisse entendre, de manière emphatique, que le jeune juriste est seul aux
-                    commandes. Enfin, le mémorialiste ajoute « <seg>sorty en campaigne</seg> » pour
-                    s’auréoler de gloire militaire.</p></note>
+                <p>Le mémorialiste remplace la désignation de « <seg corresp="#f21v08_viceroy"
+                        facs="">viceroy</seg> » par celle de « <seg corresp="#f21v08_lieut_Roy"
+                        facs="">lieutenant du Roy</seg> », qui est plus juste ; il usera peu après
+                    du premier terme pour qualifier la fonction de Fransceco d’Este, qui devient
+                    lieutenant général en Toscane en janvier 1558, à la suite de Monluc. Le <seg
+                        corresp="#f21v08_Monluc" facs="">nom de ce dernier</seg> pourrait avoir été
+                    ajouté ultérieurement ; le capitaine était pourtant bien présent à Montalcino
+                    pendant une bonne partie du séjour d’Henri de Mesmes et a dirigé les opérations
+                    sur les châteaux évoqués ensuite.</p>
+                <p>La formule « <seg corresp="#f21v08_chef_sur #f21v08_les_armes" facs="">chef sur
+                        les armes</seg> », quant à elle, est remplacée par le complément « <seg
+                        corresp="#f21v08_auec_sur #f21v08_les_armes" facs="">auec toute autorité
+                        absolue, mesme sur les armes</seg> », qui laisse entendre, de manière
+                    emphatique, que le jeune juriste est seul aux commandes. Enfin, le mémorialiste
+                    ajoute « <seg corresp="#f21v08_sorty_campaigne" facs="">sorty en campaigne</seg>
+                    » pour s’auréoler de gloire militaire.</p></note>
             <note resp="AV" type="critic"><p>É. Frémy donne « mesmes au Sienois » à la fin de la
                     phrase (éd. des <hi rend="italic">Mémoires</hi>, p. 157) plutôt que « mesme sur
                     les armes », ne tenant pas compte de la modification.</p></note>

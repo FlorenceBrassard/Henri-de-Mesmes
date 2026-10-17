@@ -219,7 +219,7 @@
                     </choice>icelle come gou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>erneur <add>et le <choice>
+                    </choice>erneur <add xml:id="f21v09_et_Mole">et le <choice>
                             <abbr>s<hi rend="superscript">r</hi></abbr>
                             <expan>seigneur</expan>
                         </choice><persName ref="Q1924885"><add><nameLink>de </nameLink></add><surname><add><choice>
@@ -229,38 +229,43 @@
                         <del instant="true"><unclear cert="high" reason="deleted" agent="author"
                                 >per</unclear>
                             <gap quantity="01" unit="char" reason="deleted" agent="author"/></del>
-                        <choice>
-                            <orig>a</orig>
-                            <reg>à</reg>
-                        </choice>
-                        <placeName ref="Q6716"><choice>
-                                <orig>g</orig>
-                                <reg>G</reg>
-                            </choice>rossetto</placeName>
-                        <choice>
-                            <abbr>po<hi rend="superscript">r</hi></abbr>
-                            <expan>pour</expan>
-                        </choice> la <placeName ref="Q1233184">Marem</placeName>
-                    </add>.<del instant="true"><choice>
+                        <seg xml:id="f21v09_a_grossetto"><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>
+                            <placeName ref="Q6716"><choice>
+                                    <orig>g</orig>
+                                    <reg>G</reg>
+                                </choice>rossetto</placeName></seg>
+                        <seg xml:id="f21v09_por_Marem"><choice>
+                                <abbr>po<hi rend="superscript">r</hi></abbr>
+                                <expan>pour</expan>
+                            </choice> la <placeName ref="Q1233184">Marem</placeName></seg>
+                    </add>.<del instant="true" xml:id="f21v09_qui_qui"><choice>
                             <orig>q</orig>
                             <reg>Q</reg>
                         </choice>ui est celuy qui</del></s></ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute quelques précisions à cette
                     longue phrase qui célèbre sa prétendue action militaire : emplacement du Palazzo
-                    Altesi, titre de La Serre (« <seg>baron</seg> ») ou encore nom des seigneurs
-                        <seg>de Blacons et de La Môle</seg>. La page se termine sur une nouvelle
-                    phrase inachevée (« <seg>qui est celuy qui</seg> »).</p></note>
+                    Altesi, titre de La Serre (« <seg corresp="#f21v09_baron" facs="#f21v09_i_baron"
+                        >baron</seg> ») ou encore nom des seigneurs <seg
+                        corresp="#f21v09_blacons #f21v09_et_Mole" facs="#f21v09_i_blacons">de
+                        <!--                            Ajouter mole dans facs ci-haut--> Blacons et
+                        de La Môle</seg>. La page se termine sur une nouvelle phrase inachevée («
+                        <seg corresp="#f21v09_qui_qui" facs="">qui est celuy qui</seg>
+                »).</p></note>
             <note resp="AV" type="critic"><p>Les copies comportent des transcriptions <hi
                         rend="italic">a priori</hi> fautives et par ailleurs incomplètes de la fin
                     de la phrase principale : le Français 18617 donne « le sieur de la Mole
                     Agresselle pour … » (f. 12v<hi rend="superscript">o</hi>) et le Duchesne 57 « le
                     sieur de la Mole Agressette pour … » (f. 60v<hi rend="superscript">o</hi>). Les
-                    mentions de la ville (« <seg>a grossetto</seg> ») et de la région (« <seg>por la
-                        Marem</seg> ») n’ont pas été comprises. É. Frémy, pour sa part, donne « … et
-                    de La Môle à Grosseto pour le Martine (<hi rend="italic">sic</hi>) » (éd. des
-                        <hi rend="italic">Mémoires</hi>, p. 158). La mention « <hi rend="italic"
-                        >sic</hi> » témoigne bien du fait qu’il n’est pas convaincu de sa
-                    transcription.</p></note>
+                    mentions de la ville (« <seg corresp="#f21v09_a_grossetto" facs="">a
+                        grossetto</seg> ») et de la région (« <seg corresp="#f21v09_por_Marem"
+                        facs="">por la Marem</seg> ») n’ont pas été comprises. É. Frémy, pour sa
+                    part, donne « … et de La Môle à Grosseto pour le Martine (<hi rend="italic"
+                        >sic</hi>) » (éd. des <hi rend="italic">Mémoires</hi>, p. 158). La mention «
+                        <hi rend="italic">sic</hi> » témoigne bien du fait qu’il n’est pas convaincu
+                    de sa transcription.</p></note>
         </body>
     </text>
 </TEI>
