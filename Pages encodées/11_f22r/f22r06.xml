@@ -51,6 +51,7 @@
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/275,691,942,4641/full/0/default.jpg"
                 xml:id="f22r06_i_enuiron_nacquites"/>
+            <!--            Transférer l'xml:id ci-dessus dans une zone-->
             <zone xml:id="f22r06_i_charite_et" points="468,1066 470,1120 749,1112 755,1060"/>
             <zone xml:id="f22r06_i_et_charite" points="70,1203 70,1307 508,1280 509,1193"/>
             <zone xml:id="f22r06_i_son" points="139,2085 257,2092 246,2176 108,2192"/>
@@ -107,35 +108,37 @@
                     </choice>ager<metamark facs="#f22r06_i_metamark1" function="insert"
                         target="#f22r06_et_courtiser">^</metamark><add facs="#f22r06_i_et_courtiser"
                         xml:id="f22r06_et_courtiser"><metamark>^</metamark><add facs="#f22r06_i_et"
-                            xml:id="f22r06_et">et</add> moins courtiser</add>
-                    <del facs="#f22r06_i_et_ciuile" xml:id="f22r06_et_ciuile">et ne me pas <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>eter aux troubles pource que <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>e n<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>ai<supplied cert="high">may</supplied>
-                        <choice>
-                            <orig>i</orig>
-                            <reg>j</reg>
-                        </choice>amais la <subst>
-                            <del facs="#f22r06_i_violance" xml:id="f22r06_violance"><undo
-                                    rend="underlined" target=" #f22r06_violance"/>violance</del>
-                            <add><del>guerre ci<choice>
-                                        <orig>u</orig>
-                                        <reg>v</reg>
-                                    </choice>ile</del></add>
-                        </subst><substJoin target="#f22r06_et f22r06_et_ciuile"/></del> et trou<choice>
+                            xml:id="f22r06_et">et</add> moins <seg xml:id="f22r06_courtiser"
+                            >courtiser</seg></add>
+                    <del facs="#f22r06_i_et_ciuile" xml:id="f22r06_et_ciuile">et <seg
+                            xml:id="f22r06_ne_ciuile">ne me pas <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>eter aux troubles pource que <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>e n<choice>
+                                <orig/>
+                                <reg>'</reg>
+                            </choice>ai<supplied cert="high">may</supplied>
+                            <choice>
+                                <orig>i</orig>
+                                <reg>j</reg>
+                            </choice>amais la <subst>
+                                <del facs="#f22r06_i_violance" xml:id="f22r06_violance"><undo
+                                        rend="underlined" target=" #f22r06_violance"/>violance</del>
+                                <add><del>guerre ci<choice>
+                                            <orig>u</orig>
+                                            <reg>v</reg>
+                                        </choice>ile</del></add>
+                            </subst></seg><substJoin target="#f22r06_et f22r06_et_ciuile"/></del> et trou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ois qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il valoit mieulx me tenir <metamark facs="#f22r06_i_metamark2"
-                        function="insert" target=" #f22r06_a_et">^</metamark><add
+                        function="insert" target="#f22r06_a_et">^</metamark><add
                         facs="#f22r06_i_a_et" xml:id="f22r06_a_et"><choice>
                             <orig>a</orig>
                             <reg>à</reg>
@@ -167,8 +170,8 @@
                         <reg>'</reg>
                     </choice><placeName ref="Q38">Italie</placeName>, <metamark
                         facs="#f22r06_i_metamark3" function="insert"
-                        target="#f22r06_enuiron_nacquites">+</metamark><del>et a mes
-                    estudes</del>.</s>
+                        target="#f22r06_enuiron_nacquites">+</metamark><del
+                        xml:id="f22r06_et_estudes">et a mes estudes</del>.</s>
                 <s><addSpan facs="#f22r06_i_enuiron_nacquites" spanTo="#f22r06_nacquites"
                         xml:id="f22r06_enuiron_nacquites"/><metamark>+</metamark>en<choice>
                         <orig>u</orig>
@@ -398,8 +401,9 @@
                             <reg>LX</reg>
                         </choice>
                     </date> entre cinq et six heures du soir, et beaucoup plus pres de six que de
-                    cinq <del xml:id="f22r06_vous_nacquites">vous <roleName ref="Q94908007">mon
-                            filz</roleName>, nacquites</del><substJoin
+                    cinq <del xml:id="f22r06_vous_nacquites"><seg xml:id="f22r06_vous_filz">vous
+                                <roleName ref="Q94908007">mon filz</roleName></seg>, <seg
+                            xml:id="f22r06_nacquites">nacquites</seg></del><substJoin
                         target="#f22r06_vous_nacquites #f22r06_enuiron_nacquites"/> futes baptisé <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -428,18 +432,23 @@
             <note resp="AV" type="genetic"><p>La substitution du bas du f. 22r<hi rend="superscript"
                         >o</hi> est particulièrement intéressante. Henri de Mesmes présente d’abord
                     sa relative prise de distance d’avec les affaires royales comme une manière de
-                    ne pas « <seg>se ieter aux troubles</seg> », parce qu’il « <seg>nai[may] iamais
-                        la violance</seg> », ou la « <seg>guerre ciuile</seg> ». Cette évocation de
+                    ne pas « <seg corresp="#f22r06_ne_ciuile" facs="">[s]e ieter aux troubles »,
+                        parce qu’il « nai[may] iamais la violance », ou la « guerre ciuile</seg> ».
+                    Cette évocation de
+                    <!--                    j'ai mis [s] entre crochets droits, considérer p-ê le retirer des guillemets ? ; faudrait-il revoir la conjugaison de naimay pour l'accorder avec “il” ?-->
                     la brutalité des troubles encore à venir, brève mais explicite, est finalement
-                    remplacée par un unique verbe, « <seg>courtiser</seg> ». La formulation, plus
-                    courte, paraît fortement euphémisante : elle transforme un refus de la violence
-                    armée en un refus de la fréquentation de la cour. Le mémorialiste réaménage
-                    également la description de ses nouvelles occupations, en remontant la référence
-                    à ses « <seg>liuvres</seg> », qui remplace celle à ses « <seg>estudes</seg> » et
+                    remplacée par un unique verbe, « <seg corresp="#f22r06_courtiser" facs=""
+                        >courtiser</seg> ». La formulation, plus courte, paraît fortement
+                    euphémisante : elle transforme un refus de la violence armée en un refus de la
+                    fréquentation de la cour. Le mémorialiste réaménage également la description de
+                    ses nouvelles occupations, en remontant la référence à ses « <seg
+                        corresp="#f22r06_a_et" facs="#f22r06_i_a_et">liuvres</seg> », qui remplace
+                    celle à ses « <seg corresp="#f22r06_et_estudes" facs="">estudes</seg> » et
                     dessine la perspective heureuse du loisir lettré.</p>
-                <p>En haut du f. 22v<hi rend="superscript">o</hi>, Henri de Mesmes <seg>ajoute un
-                        long passage dans la marge de gauche</seg>, qui lui permet de prolonger
-                    l’évocation de sa vie familiale (voir f. 22r°, seg. 4). Cet ajout est
+                <p>En haut du f. 22v<hi rend="superscript">o</hi>, Henri de Mesmes <seg
+                        corresp="#f22r06_enuiron_nacquites" facs="#f22r06_i_enuiron_nacquites"
+                        >ajoute un long passage dans la marge de gauche</seg>, qui lui permet de
+                    prolonger l’évocation de sa vie familiale (voir f. 22r°, seg. 4). Cet ajout est
                     concomitant de la suppression, dans la seconde moitié du même folio, d’un
                     passage traitant de la mort d’Oudart Hennequin et de sa famille (voir f. 22v<hi
                         rend="superscript">o</hi>, seg. 8-10), venant à la suite de l’évocation du
@@ -447,8 +456,10 @@
                     Cette opération permet au mémorialiste de présenter la naissance de son
                     destinataire, désormais intercalé entre deux hommages posthumes, comme un
                     bienfait qui vient compenser une période de deuil. Les suppressions dans le
-                    corps du texte, notamment celle de l’apostrophe (« <seg>vous mon filz</seg> »)
-                    et du verbe (« <seg>nacquites</seg> »), découlent de ce retravail.</p></note>
+                    corps du texte, notamment celle de l’apostrophe (« <seg
+                        corresp="#f22r06_vous_fils" facs="">vous mon filz</seg> ») et du verbe («
+                        <seg corresp="#f22r06_nacquites" facs="">nacquites</seg> »), découlent de ce
+                    retravail.</p></note>
         </body>
     </text>
 </TEI>

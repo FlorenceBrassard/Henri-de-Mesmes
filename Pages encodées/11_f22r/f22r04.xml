@@ -143,7 +143,7 @@
                     </choice>
                     <metamark facs="#f22r04_i_metamark04" function="insert"
                         target="#f22r04_cest_soir">+</metamark>
-                    <add xml:id="f22r04_cest_soir"><metamark>+</metamark> c<choice>
+                    <add xml:id="f22r04_cest_soir" facs=""><metamark>+</metamark> c<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>est <choice>
@@ -237,7 +237,8 @@
                         <add facs="#f22r04_i_Quant" xml:id="f22r04_Quant">Quant</add>
                     </subst><substJoin
                         target="#f22r04_aussy_1557 #f22r04_et #f22r04_Quant #f22r04_virgule_point"/>
-                    au public le <roleName ref="Q132545">Roy</roleName> a<choice>
+                    <seg xml:id="f22r04_au_public">au public</seg> le <roleName ref="Q132545"
+                        >Roy</roleName> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit remis sus de grosses forces et sembloit <subst>
@@ -267,18 +268,21 @@
                     </choice>année precedente.</s></ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute une allusion à des lettres de
                     la République de Sienne, qui doivent prouver la qualité de son service. Il
-                    supprime par ailleurs la formule « <seg>pour mon ꝑticulier</seg> », faisant
-                    pendant à « <seg>quant au public</seg> », qui demeure plus bas : la séparation
-                    entre affaires publiques et préoccupations familiales paraît ainsi moins
-                    nette.</p>
+                    supprime par ailleurs la formule « <seg corresp="#f22r04_pour_particulier"
+                        facs="#f22r04_i_pour_particulier">pour mon ꝑticulier</seg> », faisant
+                    pendant à « <seg corresp="#f22r04_Quant #f22r04_au_public"
+                        facs="#f22r04_i_Quant">quant au public</seg> », qui demeure plus bas : la
+                    <!--                    Ajouter facs “au public”--> séparation entre affaires
+                    publiques et préoccupations familiales paraît ainsi moins nette.</p>
                 <p>L’évocation de ces affaires est elle-même retravaillée. La référence à la
                     naissance de Renée de Mesmes est modifiée dans le corps du texte, sans grande
-                    incidence toutefois sur le sens. Dans la <seg>marge</seg>, le mémorialiste
-                    fournit des indications très précises sur la date et l’heure de la venue au
-                    monde de sa fille aînée. Les Mémoires se rapprochent alors du modèle du livre de
-                    raison, qui conserve avec soin la mémoire des événements familiaux importants.
-                    Dans la même dynamique, Henri de Mesmes ajoute un <seg>hommage posthume à sa
-                        belle-mère, Jeanne Michon</seg>.</p></note>
+                    incidence toutefois sur le sens. Dans la <seg corresp="#f22r04_cest_soir"
+                        facs="">marge</seg>, le mémorialiste fournit des indications très précises
+                    sur la date et l’heure de la venue au monde de sa fille aînée. Les Mémoires se
+                    rapprochent alors du modèle du livre de raison, qui conserve avec soin la
+                    mémoire des événements familiaux importants. Dans la même dynamique, Henri de
+                    Mesmes ajoute un <seg corresp="#f22r04_aussy_1557" facs="#f22r04_i_aussy_1557"
+                        >hommage posthume à sa belle-mère, Jeanne Michon</seg>.</p></note>
             <note resp="AV" type="critic"><p>Le Français 18617 ne donne pas le complément « d’une
                     fille » et propose une transcription incertaine du mois de Mars (« Marie » ?)
                     (f. 13v<hi rend="superscript">o</hi>). Ces deux éléments aliment l’hypothèse
