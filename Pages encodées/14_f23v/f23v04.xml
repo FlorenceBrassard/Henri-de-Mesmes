@@ -42,8 +42,8 @@
                                 <orig>p</orig>
                                 <reg>P</reg>
                             </choice>uys</add>
-                    </subst> trespassa les <date>19 septembre <hi rend="overlined">1569</hi></date>
-                    aussy crestienement come il a<choice>
+                    </subst> trespassa les <date when="1569-09-19">19 septembre <hi rend="overlined"
+                            >1569</hi></date> aussy crestienement come il a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit vescu, et a<choice>
@@ -52,16 +52,17 @@
                     </choice>ec tesmoignage public de <subst>
                         <del>sa</del>
                         <add>tres</add>
-                    </subst> bone renomée.</s><s><metamark facs="#f23v04_i_metamark01"
-                        function="insert" target="#f23v04_il_ans">+</metamark><add
-                        facs="#f23v04_i_il_ans" xml:id="f23v04_il_ans"><metamark>+</metamark>
+                    </subst> bone renomée.</s>
+                <s><metamark facs="#f23v04_i_metamark01" function="insert" target="#f23v04_il_ans"
+                        >+</metamark><add facs="#f23v04_i_il_ans" xml:id="f23v04_il_ans"
+                            ><metamark>+</metamark>
                         <choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l estoit né l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>an <date rend="overlined">1410</date> et entroit en l<choice>
+                        </choice>an <date rend="overlined" when="1490">1410</date> et entroit en l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>eage de 80 ans.</add></s></ab>

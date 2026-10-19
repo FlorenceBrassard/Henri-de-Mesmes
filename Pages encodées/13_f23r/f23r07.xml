@@ -32,14 +32,18 @@
             <ab><s>Au commancement de l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>an <date>mil V<hi rend="superscript">c</hi><subst>
+                    </choice>an <date when="1568"><choice>
+                            <orig>mil V<hi rend="superscript">c</hi></orig>
+                            <reg>15</reg>
+                        </choice><subst>
                             <del><choice>
-                                    <orig>lvix</orig>
-                                    <reg>LVIX</reg>
+                                    <orig>l<unclear cert="high" reason="illegible" agent="author"
+                                            >x</unclear>ix</orig>
+                                    <reg>69</reg>
                                 </choice></del>
                             <add><choice>
-                                    <orig>lviij</orig>
-                                    <reg>LVIII</reg>
+                                    <orig>Lviij</orig>
+                                    <reg>58</reg>
                                 </choice></add>
                         </subst></date> apres la reprise des armes et renou<choice>
                         <orig>u</orig>

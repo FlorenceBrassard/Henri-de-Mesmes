@@ -46,7 +46,7 @@
                     </choice>t <del facs="#f23r04_i_iay01" xml:id="f23r04_iay01"><choice>
                             <orig>i</orig>
                             <reg>j'</reg>
-                        </choice>ay</del> entr<subst>
+                        </choice>ay</del> entr<subst instant="true">
                         <del rend="overwritten">e</del>
                         <add facs="#f23r04_i_e" place="superimposed" xml:id="f23r04_e">e</add>
                     </subst>
@@ -122,9 +122,9 @@
                                 <add facs="#f23r04_cognoissables_nom"
                                     xml:id="f23r04_cognoissables_nom"
                                     ><metamark>≠</metamark>cognoissables <unclear cert="high"
-                                        reason="margin">s</unclear>ens son nom <substJoin
-                                        target="#f23r04_asses_nom #f23r04_iay02_del"/><anchor
-                                        xml:id="f23r04_nom"/></add>
+                                        reason="illegible" agent="margin">s</unclear>ens son nom
+                                        <substJoin target="#f23r04_asses_nom #f23r04_iay02_del"
+                                        /><anchor xml:id="f23r04_nom"/></add>
                                 <del facs=" #f23r04_i_digne_qui #f23r04_i_nauoit_bien"
                                     xml:id="f23r04_dignes_bien">dignes d<choice>
                                         <orig/>

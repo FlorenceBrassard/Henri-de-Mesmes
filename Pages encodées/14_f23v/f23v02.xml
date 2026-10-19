@@ -41,7 +41,7 @@
                     pleura <add>de</add> ceste nou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>elle <del>qu</del> et dit <subst>
+                    </choice>elle <del instant="true">qu</del> et dit <subst>
                         <del xml:id="f23v02_a_lansac"><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>

@@ -46,7 +46,7 @@
                         </choice>ieu entremesle les honeurs et les douleurs</add><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> au mois de <date><choice>
+                    </choice> au mois de <date when="1569-09"><choice>
                             <orig>S</orig>
                             <reg>s</reg>
                         </choice>eptembre</date>
@@ -96,7 +96,8 @@
                     qui estoit lors <choice>
                         <orig>C</orig>
                         <reg>c</reg>
-                    </choice>onseiller du Conseil du <roleName ref="Q53448">Roy</roleName> et l<choice>
+                    </choice>onseiller du <orgName>Conseil du <roleName ref="Q53448"
+                        >Roy</roleName></orgName> et l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>un de ceulx qu<choice>

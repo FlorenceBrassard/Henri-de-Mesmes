@@ -41,7 +41,7 @@
                     <choice>
                         <orig>v</orig>
                         <reg>u</reg>
-                    </choice>n <del>e diete</del> vo<choice>
+                    </choice>n<del instant="true">e diete</del> vo<choice>
                         <orig>i</orig>
                         <reg>y</reg>
                     </choice>age vers l<choice>
@@ -80,7 +80,8 @@
                                 </choice>ibrac</surname></persName> remis <choice>
                             <orig>a</orig>
                             <reg>à</reg>
-                        </choice> autre employ.</add></s><s><del>mais</del>
+                        </choice> autre employ.</add></s>
+                <s><del>mais</del>
                     <choice>
                         <orig>i</orig>
                         <reg>J</reg>

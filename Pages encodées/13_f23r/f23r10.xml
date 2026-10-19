@@ -40,7 +40,7 @@
                     </choice>e fu<choice>
                         <orig><metamark function="divide">/</metamark></orig>
                         <reg> </reg>
-                    </choice>tant batu <del>au</del>
+                    </choice>tant batu <del instant="true">au</del>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>

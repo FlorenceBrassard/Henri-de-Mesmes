@@ -38,7 +38,7 @@
                   </choice>oit veu mourir a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>ant luy <subst>
+                  </choice>ant luy <subst instant="true">
                      <del>ses deux freres, qui estoient</del>
                      <add>son frere <choice>
                            <abbr>m<hi rend="superscript">r</hi></abbr>
@@ -65,9 +65,10 @@
                            <orig>b</orig>
                            <reg>B</reg>
                         </choice>oulancourt</surname></persName>.</del></s></ab>
-         <note resp="AV" type="genetic"><p>Voir f. 22v<hi rend="superscript">o</hi>,
-            seg. 9.</p></note>
-<!--         Cette note me semble erronée ; elle renvoie à ce même segment...-->
+         <note resp="AV" type="genetic"><p>Henri de Mesmes supprime cette phrase, la précédente
+               ainsi que la suivante par deux traits de plume. Le propos est repris dans le long
+               ajout marginal du haut de la page (voir f. 22r<hi rend="superscript">o</hi>,
+               seg. 6).</p></note>
       </body>
    </text>
 </TEI>

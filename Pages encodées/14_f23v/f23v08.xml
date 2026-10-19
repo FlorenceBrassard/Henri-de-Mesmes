@@ -31,9 +31,9 @@
             <ab><s><choice>
                         <orig>i</orig>
                         <reg>I</reg>
-                    </choice>l a <subst>
+                    </choice>l a <subst instant="true">
                         <del rend="overwritten"><unclear cert="high" reason="illegible"
-                            >m</unclear></del>
+                                agent="author">m</unclear></del>
                         <add place="superimposed">la</add>
                     </subst>issé en ses <subst>
                         <del>coffres</del>
@@ -87,13 +87,14 @@
                     </subst> qu<choice>
                         <orig>a</orig>
                         <reg>'à</reg>
-                    </choice> force l'honeur <del>du</del> de l<choice>
+                    </choice> force l'honeur <del instant="true">du</del> de l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>estat du <choice>
-                        <abbr><g ref="#con-glyph">ꝯ</g></abbr>
-                        <expan>con</expan>
-                    </choice>seil <add>pri<choice>
+                    </choice>estat du <orgName><choice>
+                            <abbr><g ref="#con-glyph">ꝯ</g></abbr>
+                            <expan>con</expan>
+                        </choice>seil</orgName>
+                    <add>pri<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>é</add> qui n<choice>
@@ -111,7 +112,7 @@
                                 <reg>C</reg>
                             </choice>harles</forename></persName> replicqua<choice>
                         <orig>, c</orig>
-                        <reg> : « C'</reg>
+                        <reg> : « C'</reg>
                     </choice> est ce qui me faict vous prier d<choice>
                         <orig/>
                         <reg>'</reg>
@@ -131,13 +132,13 @@
                 </s><del xml:id="f23v08_il_ans"><s><choice>
                             <orig>i</orig>
                             <reg>I</reg>
-                        </choice>l <del>a<choice>
+                        </choice>l <del instant="true">a<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oit</del> estoit né l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>an <date><choice>
+                        </choice>an <date when="1490"><choice>
                                 <orig>mil iiij<hi rend="superscript">c</hi> x</orig>
                                 <reg>1410</reg>
                             </choice>

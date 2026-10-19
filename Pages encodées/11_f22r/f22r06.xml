@@ -194,7 +194,7 @@
                     </choice>eint aussy la mort de mon beau pere<choice>
                         <abbr>m<hi rend="superscript">r</hi>.</abbr>
                         <expan>monsieur</expan>
-                    </choice><del>H</del>
+                    </choice><del instant="true">H</del>
                     <choice>
                         <abbr>m<hi rend="superscript">e</hi></abbr>
                         <expan>maistre</expan>
@@ -203,7 +203,7 @@
                                 <orig>o</orig>
                                 <reg>O</reg>
                             </choice>udard</forename>
-                        <surname>Hennequin</surname></persName><choice>
+                        <surname ref="Q21493029">Hennequin</surname></persName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice><choice>
@@ -236,8 +236,8 @@
                     </choice>n miroir et vray exemple de modestie <choice>
                         <orig>C</orig>
                         <reg>c</reg>
-                    </choice>hrestiene et de toute <del>s<unclear reason="deleted"
-                        >e</unclear>mp</del><add facs="#f22r06_i_charite_et"
+                    </choice>hrestiene et de toute <del instant="true">s<unclear reason="deleted"
+                            >e</unclear>mp</del><add facs="#f22r06_i_charite_et"
                         xml:id="f22r06_charite_et">charite et</add> rondeur <del
                         facs="#f22r06_et_charite" xml:id="f22r06_et_charite">et
                         charité</del><substJoin target="#f22r06_charite_et #f22r06_et_charite"
@@ -248,8 +248,8 @@
                     </choice>l estoit l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>aisné des <persName ref="Q21493029"
-                        ><surname>Hennequins</surname></persName> de sa branche et a<choice>
+                    </choice>aisné des <persName><surname ref="Q21493029"
+                        >Hennequins</surname></persName> de sa branche et a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit veu mourir a<choice>
@@ -334,10 +334,9 @@
                     </choice>entendement que de<subst>
                         <del facs="#f22r06_i_s_yeulx" xml:id="f22r06_s_yeulx">s yeulx</del>
                         <add facs="#f22r06_i_ceulx" xml:id="f22r06_ceulx">ceulx</add>
-                    </subst> de son corps.</s>
-                <s>
-                    <substJoin target="#f22r06_s_de #f22r06_s_yeulx #f22r06_ceulx"/>
-                    <choice>
+                    </subst> de son corps.<substJoin
+                        target="#f22r06_s_de #f22r06_s_yeulx #f22r06_ceulx"/></s>
+                <s><choice>
                         <orig>a</orig>
                         <reg>A</reg>
                     </choice>insy mon beau père ne vesquit que en<choice>
@@ -389,21 +388,22 @@
                             ><roleName ref="Q94908007">mon filz</roleName></add>, <substJoin
                         target="#f22r06_filz #f22r06_second_enfant
                     #f22r06_mon_filz"/> qui nacquites<anchor
-                        xml:id="f22r06_nacquites"/> le <date>XXV<choice>
-                            <orig>ij</orig>
-                            <reg>II</reg>
+                        xml:id="f22r06_nacquites"/> le <date when="1560-07-27"><choice>
+                            <orig>xxvij</orig>
+                            <reg>27</reg>
                         </choice><hi rend="superscript">e</hi>
                         <choice>
                             <orig>J</orig>
                             <reg>j</reg>
-                        </choice>uillet V<hi rend="superscript">c</hi><choice>
-                            <orig>lx</orig>
-                            <reg>LX</reg>
+                        </choice>uillet <choice>
+                            <orig>V<hi rend="superscript">c</hi>lx</orig>
+                            <reg>1560</reg>
                         </choice>
                     </date> entre cinq et six heures du soir, et beaucoup plus pres de six que de
-                    cinq <del xml:id="f22r06_vous_nacquites"><seg xml:id="f22r06_vous_filz">vous
-                                <roleName ref="Q94908007">mon filz</roleName></seg>, <seg
-                            xml:id="f22r06_nacquites">nacquites</seg></del><substJoin
+                    cinq <del instant="true" xml:id="f22r06_vous_nacquites"><seg
+                            xml:id="f22r06_vous_filz">vous <roleName ref="Q94908007">mon
+                                filz</roleName></seg>, <seg xml:id="f22r06_nacquites"
+                            >nacquites</seg></del><substJoin
                         target="#f22r06_vous_nacquites #f22r06_enuiron_nacquites"/> futes baptisé <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -432,10 +432,10 @@
             <note resp="AV" type="genetic"><p>La substitution du bas du f. 22r<hi rend="superscript"
                         >o</hi> est particulièrement intéressante. Henri de Mesmes présente d’abord
                     sa relative prise de distance d’avec les affaires royales comme une manière de
-                    ne pas « <seg corresp="#f22r06_ne_ciuile" facs="">[s]e ieter aux troubles »,
-                        parce qu’il « nai[may] iamais la violance », ou la « guerre ciuile</seg> ».
-                    Cette évocation de
-                    <!--                    j'ai mis [s] entre crochets droits, considérer p-ê le retirer des guillemets ? ; faudrait-il revoir la conjugaison de naimay pour l'accorder avec “il” ?-->
+                    ne pas se <seg corresp="#f22r06_ne_ciuile" facs="">« ieter aux troubles », parce
+                        qu’il « nai[mait] iamais la violance », ou la « guerre ciuile</seg> ». Cette
+                    évocation de
+                    <!-- j'ai enlever [s] des guillemets et revu la conjugaison de naimay, merci beaucoup !-->
                     la brutalité des troubles encore à venir, brève mais explicite, est finalement
                     remplacée par un unique verbe, « <seg corresp="#f22r06_courtiser" facs=""
                         >courtiser</seg> ». La formulation, plus courte, paraît fortement
@@ -457,9 +457,9 @@
                     destinataire, désormais intercalé entre deux hommages posthumes, comme un
                     bienfait qui vient compenser une période de deuil. Les suppressions dans le
                     corps du texte, notamment celle de l’apostrophe (« <seg
-                        corresp="#f22r06_vous_fils" facs="">vous mon filz</seg> ») et du verbe («
-                        <seg corresp="#f22r06_nacquites" facs="">nacquites</seg> »), découlent de ce
-                    retravail.</p></note>
+                        corresp="#f22r06_vous_fils" facs="">vous mon filz</seg> ») et du verbe
+                        (« <seg corresp="#f22r06_nacquites" facs="">nacquites</seg> »), découlent de
+                    ce retravail.</p></note>
         </body>
     </text>
 </TEI>

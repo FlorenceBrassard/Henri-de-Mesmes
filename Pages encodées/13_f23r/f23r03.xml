@@ -42,7 +42,8 @@
                             </choice>'estimois beaucoup cest honeur qui venoit de <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
-                            </choice>ugement et non pas de la fortune.</s><s><choice>
+                            </choice>ugement et non pas de la fortune.</s>
+                        <s><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
                             </choice>t mesme du <choice>
@@ -51,7 +52,8 @@
                             </choice>ugement d<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>un tel censeur.</s></add></del><s><subst>
+                            </choice>un tel censeur.</s></add></del>
+                <s><subst>
                         <del><choice>
                                 <orig>p</orig>
                                 <reg>P</reg>
@@ -108,8 +110,9 @@
                         function="insert" target="#f23r03_apres_pere">^</metamark><add
                         facs="#f23r03_i_apres_pere" xml:id="f23r03_apres_pere"
                             ><metamark>^</metamark>apres celle de <roleName ref="Q107207194">mon
-                            pere</roleName></add> qu'en <del>autre</del> autre <del>de et <unclear
-                            cert="low" reason="illegible">t</unclear></del> o<choice>
+                            pere</roleName></add> qu'en <del instant="true">autre</del> autre <del
+                        instant="true">de et <unclear cert="low" reason="illegible"
+                        >t</unclear></del> o<choice>
                         <orig>u i</orig>
                         <reg>ù j'</reg>
                     </choice>aie esté de mes <choice>

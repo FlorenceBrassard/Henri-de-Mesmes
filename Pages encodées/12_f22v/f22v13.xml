@@ -37,7 +37,10 @@
                         <expan>maistre</expan>
                     </choice> des <choice>
                         <abbr>Req<hi rend="superscript">tes</hi></abbr>
-                        <expan>Requestes</expan>
+                        <expan><choice>
+                                <orig>R</orig>
+                                <reg>r</reg>
+                            </choice>equestes</expan>
                     </choice> et mon de<choice>
                         <orig>u</orig>
                         <reg>v</reg>

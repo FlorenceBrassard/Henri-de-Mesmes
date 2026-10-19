@@ -28,9 +28,9 @@
     </facsimile>
     <text>
         <body>
-            <ab><s><choice>
+            <ab><s><said direct="true"><choice>
                         <orig>m</orig>
-                        <reg>« M</reg>
+                        <reg><lb/>— M</reg>
                     </choice>ais c<choice>
                         <orig/>
                         <reg>'</reg>
@@ -58,10 +58,7 @@
                     </choice> que les <subst>
                         <del xml:id="f23v11_autres">autres</del>
                         <add xml:id="f23v11_moindres">moindres</add>
-                    </subst> ?<choice>
-                        <orig/>
-                        <reg> »</reg>
-                    </choice></s></ab>
+                    </subst> ?</said></s></ab>
             <note resp="AV" type="genetic"><p>La substitution d’« <seg corresp="#f23v11_autres"
                         facs="">autres</seg> » par « <seg corresp="#f23v11_moindres" facs=""
                         >moindres</seg> » vient renforcer l’indignation de François I<hi

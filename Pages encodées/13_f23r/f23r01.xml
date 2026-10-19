@@ -85,9 +85,9 @@
                     phrase : il supprime en effet « <seg
                         corresp="#f23r01_en_mal #f23r01_et #f23r01_ne_sang" facs="">en son mal et ne
                         perdoit plus de sang</seg> » et les deux ajouts associés (« <seg
-                        corresp="#f23r01_quand_il" facs="">quand il</seg> », « <seg
-                        corresp="#f23r01_quil" facs="">quil</seg> »).</p></note>
-            <!--            Considérer inverser “quand il” et “quil” pour suivre l'ordre des ajouts ?-->
+                        corresp="#f23r01_quil" facs="">quil</seg> », « <seg
+                        corresp="#f23r01_quand_il" facs="">quand il</seg> »).</p></note>
+            <!--            Considérer inverser “quand il” et “quil” pour suivre l'ordre des ajouts : c'est fait, merci ! -->
         </body>
     </text>
 </TEI>

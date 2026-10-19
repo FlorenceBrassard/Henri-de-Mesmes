@@ -38,7 +38,10 @@
                         </choice>l <add>me</add> monstroit tant d<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>amour et de respect en mon éage bien <choice>
+                        </choice>amour et de respect en mon <choice>
+                            <orig>é</orig>
+                            <reg>e</reg>
+                        </choice>age bien <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>eune au pri<choice>

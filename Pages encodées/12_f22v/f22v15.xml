@@ -45,8 +45,9 @@
                             <ptr target="#f22v15_souuent"/>
                             <ptr target="#f22v15_il_faisoit"/>
                         </transpose>
-                    </listTranspose> tenir la chancellerie, <del>pour</del> en son lieu dedens sa
-                    sale, et seler <add xml:id="f22v15_seul">seul</add> en plein seau, <subst>
+                    </listTranspose> tenir la <orgName>chancellerie</orgName>, <del instant="true"
+                        >pour</del> en son lieu dedens sa sale, et seler <add xml:id="f22v15_seul"
+                        >seul</add> en plein seau, <subst>
                         <del xml:id="f22v15_ce_acoustumé">ce qui est peu acoustumé</del>
                         <add xml:id="f22v15_quant_seoir">quand il perdoit son sang et ne pou<choice>
                                 <orig>u</orig>

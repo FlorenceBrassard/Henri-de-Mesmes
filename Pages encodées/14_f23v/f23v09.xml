@@ -68,7 +68,7 @@
                             </choice>aris</placeName></orgName><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> il manda mon <roleName ref="Q107207194">pere</roleName>
+                    </choice> il manda <roleName ref="Q107207194">mon pere</roleName>
                     <add>lors freschement venu <choice>
                             <orig>a</orig>
                             <reg>à</reg>
@@ -76,18 +76,20 @@
                         <placeName ref="Q90"><choice>
                                 <orig>p</orig>
                                 <reg>P</reg>
-                            </choice>aris</placeName></add> pour <del>le</del> luy doner <subst>
+                            </choice>aris</placeName></add> pour <del instant="true">le</del> luy
+                    doner <subst>
                         <del>son</del>
                         <add>cest</add>
                     </subst>
-                    <del><unclear cert="high" reason="deleted">l</unclear></del> office.</s></ab>
+                    <del instant="true"><unclear cert="high" reason="deleted" agent="author"
+                            >l</unclear></del> office.</s></ab>
             <note resp="AV" type="genetic"><p>La substitution du complément « <seg
                         corresp="#f23v09_du_Roy" facs="#f23v09_i_du_Roy">du Roy</seg> » par le
                     possessif « <seg corresp="#f23v09_son" facs="#f23v09_i_son">son</seg> » permet
                     de mieux embrasser le point de vue de François I<hi rend="superscript">er</hi>
                     et de mieux ménager l’effet de surprise provoqué par la réplique de Jean-Jacques
-                        I<hi rend="superscript">er</hi> de Mesmes. D’après le souverain, Rusé est «
-                    son aduocat », qu’il peut révoquer comme il l’entend ; d’après le père du
+                        I<hi rend="superscript">er</hi> de Mesmes. D’après le souverain, Rusé est
+                    « son aduocat », qu’il peut révoquer comme il l’entend ; d’après le père du
                     mémorialiste, il est celui « du Roy », au service de la monarchie.</p></note>
         </body>
     </text>

@@ -31,7 +31,7 @@
     </facsimile>
     <text>
         <body>
-            <ab><s><add facs="#f23v06_i_il_gre" xml:id="f23v06_il_gre"><choice>
+            <ab><s><add facs="#f23v06_i_il_gre" instant="true" xml:id="f23v06_il_gre"><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l a<choice>
@@ -51,13 +51,13 @@
                     une <choice>
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
-                    </choice>messe d<subst facs="#f23v06_i_e_un" xml:id="f23v06_e_un">
+                    </choice>messe d<subst facs="#f23v06_i_e_un" instant="true" xml:id="f23v06_e_un">
                         <del rend="overwritten">e</del>
                         <add place="superimposed"><choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>un</add>
-                    </subst> plus <add facs="#f23v06_i_grand" xml:id="f23v06_grand"
+                    </subst> plus <add facs="#f23v06_i_grand" instant="true" xml:id="f23v06_grand"
                         >grand</add><substJoin target="#f23v06_e_un #f23v06_grand"/> il s<choice>
                         <orig/>
                         <reg>'</reg>
@@ -74,6 +74,19 @@
                         <abbr>req<hi rend="superscript">tes</hi></abbr>
                         <expan>requestes</expan>
                     </choice>.</s></ab>
+            <note resp="AV" type="genetic"><p> Henri de Mesmes élabore deux versions de cette
+                    épisode important de la carrière de son père. D'après le premier jet,
+                    Jean-Jacques de Mesmes a quitté son office de lieutenant civil dans l'espoir
+                    d'une meilleure position, celle de maître des requêtes, qu'il a dû attendre.
+                    Dans la seconde version, cette nouvelle fonction ne paraît pas correspondre à
+                    celle qui était tant attendue, du fait de l'ajout de « cependant ». L'adverbe
+                    est doté d'une valeur adversative - le père du mémorialiste espérait mieux - et
+                    d'une valeur temporelle - il a continué d'attendre mieux. Henri de Mesmes
+                    suggère ainsi plus nettement l'ampleur des promesses (non tenues) de la
+                    monarchie et la fidélité de celui qui « se contant[e] » d'une position qui
+                    aurait dû être temporaire. Le début de l'hommage posthume et la phrase suivante
+                    permettent d'établir que cet office « plus grand » était celui de chancelier
+                    (voir f. 23v<hi rend="superscript">o</hi>, seg. 2 et seg. 7).</p></note>
         </body>
     </text>
 </TEI>

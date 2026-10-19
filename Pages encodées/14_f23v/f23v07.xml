@@ -59,7 +59,8 @@
                         </choice>ision de l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>office.</add></s><s><subst>
+                        </choice>office.</add></s>
+                <s><subst>
                         <add><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
@@ -76,9 +77,10 @@
             <note resp="AV" type="genetic"><p>Le mémorialiste ajoute une <seg
                         corresp="#f23v07_faisant_office" facs="">formule</seg> qui vient renforcer
                     l’importance du rôle de son père, dont on se souvient qu’il aurait pu être nommé
-                    chancelier juste avant sa mort, d’après les <hi rend="italic">Mémoires</hi>.
-                    Garde des sceaux, Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes a joué
-                    le rôle de chancelier sans en avoir le titre.</p></note>
+                    chancelier juste avant sa mort, d’après les <hi rend="italic">Mémoires</hi>
+                    (voir f. 23v<hi rend="superscript">o</hi>, seg. 2). Garde des sceaux,
+                    Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes a joué le rôle de
+                    chancelier sans en avoir le titre.</p></note>
         </body>
     </text>
 </TEI>

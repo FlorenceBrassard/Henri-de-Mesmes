@@ -28,9 +28,9 @@
     </facsimile>
     <text>
         <body>
-            <ab><s><choice>
+            <ab><s><said direct="true"><choice>
                         <orig/>
-                        <reg>« </reg>
+                        <reg><lb/>— </reg>
                     </choice>C<choice>
                         <orig/>
                         <reg>'</reg>
@@ -58,7 +58,7 @@
                     </choice> son de<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir.</s></ab>
+                    </choice>oir.</said></s></ab>
         </body>
     </text>
 </TEI>

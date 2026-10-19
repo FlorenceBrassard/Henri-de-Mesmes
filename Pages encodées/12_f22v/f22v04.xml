@@ -21,33 +21,36 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1038,2199,2793,331/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1038,2199,2793,331/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
       <body>
          <ab><s>Ainsy elle n<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>a vescu que <choice>
-               <orig>iiij</orig>
-               <reg>IV</reg>
-            </choice> ans<choice>
-               <orig/>
-               <reg>,</reg>
-            </choice> neuf mois<choice>
-               <orig/>
-               <reg>,</reg>
-            </choice> deux <choice>
-               <orig>i</orig>
-               <reg>j</reg>
-            </choice>ours<choice>
-               <orig/>
-               <reg>,</reg>
-            </choice> xxi<choice>
-               <orig>j</orig>
-               <reg>i</reg>
-            </choice> heures et demie.</s></ab>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>a vescu que <choice>
+                  <orig>iiij</orig>
+                  <reg>4</reg>
+               </choice> ans<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> neuf mois<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice> deux <choice>
+                  <orig>i</orig>
+                  <reg>j</reg>
+               </choice>ours<choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice>
+               <choice>
+                  <orig>xxij</orig>
+                  <reg>22</reg>
+               </choice> heures et demie.</s></ab>
       </body>
    </text>
 </TEI>

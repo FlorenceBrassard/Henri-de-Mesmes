@@ -35,7 +35,7 @@
                     </choice><choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ieu deux ans apres, qui fut le <date when="1541-04-03"><choice>
+                    </choice>ieu deux ans apres, qui fut le <date when="1562-04-03"><choice>
                             <orig>iij</orig>
                             <reg>3</reg>
                         </choice><hi rend="superscript">e</hi>
@@ -48,9 +48,9 @@
                         </choice>a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ril mil V<hi rend="superscript">c</hi>lxi<choice>
-                            <orig>j</orig>
-                            <reg>i</reg>
+                        </choice>ril <choice>
+                            <orig>mil V<hi rend="superscript">c</hi>lxij</orig>
+                            <reg>1562</reg>
                         </choice></date>.</s></ab>
             <note resp="AV" type="critic"><p>Les copies manuscrites, comme É. Frémy, donnent le
                     « 30e » jour d’avril, et non le 3 avril, chiffre qui paraît bien lisible et qui
