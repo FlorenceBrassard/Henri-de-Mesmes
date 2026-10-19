@@ -36,13 +36,13 @@
                         function="insert" target="#f22v12_et_religion">^</metamark><add
                         facs="#f22v12_i_et_religion" xml:id="f22v12_et_religion"
                             ><metamark>^</metamark>et religion</add> on en <subst>
-                        <del>debatoit et disputoit</del>
-                        <add>parloit</add>
+                        <del xml:id="f22v12_debatoit_disputoit">debatoit et disputoit</del>
+                        <add xml:id="f22v12_parloit">parloit</add>
                     </subst> di<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ersement.</s>
-                <s><del><add><choice>
+                <s><del><add xml:id="f22v12_ie_mauuais"><choice>
                                 <orig>i</orig>
                                 <reg>J</reg>
                             </choice>e n<choice>
@@ -61,11 +61,13 @@
             <note resp="AV" type="genetic"><p>Henri de Mesmes évoque de manière très allusive les
                     controverses entourant les prises de position et les décisions de Michel de
                     L’Hôpital, accusé par ses détracteurs de soutenir le camp protestant. L’ajout de
-                    « <seg>et religion</seg> » vient rappeler la portée des débats. Le remplacement
-                    du doublon « <seg>debatoit et disputoit</seg> » par « <seg>parloit</seg> » vise
-                    à amoindrir la virulence des critiques. L’ajout de la phrase à la première
-                    personne, qui venait conforter l’action du chancelier, est toutefois supprimé.
-                </p></note>
+                    « <seg corresp="#f22v12_et_religion" facs="#f22v12_i_et_religion">et
+                        religion</seg> » vient rappeler la portée des débats. Le remplacement du
+                    doublon « <seg corresp="#f22v12_debatoit_disputoit" facs="">debatoit et
+                        disputoit</seg> » par « <seg corresp="#f22v12_parloit" facs=""
+                    >parloit</seg> » vise à amoindrir la virulence des critiques. L’ajout de la <seg
+                        corresp="#f22v12_ie_mauuais" facs="">phrase à la première personne</seg>,
+                    qui venait conforter l’action du chancelier, est toutefois supprimé. </p></note>
         </body>
     </text>
 </TEI>

@@ -43,7 +43,7 @@
                         <reg>v</reg>
                     </choice>oir <subst>
                         <del>portoit</del>
-                        <add>m<choice>
+                        <add xml:id="f22v13_mobligeoit">m<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>obligeoit</add>
@@ -71,7 +71,8 @@
                     </choice></s></ab>
             <note resp="AV" type="genetic"><p>Henri de Mesmes reformule la seconde partie de son
                     propos, peut-être pour insister davantage sur le caractère impérieux de son
-                    devoir à l’aide du verbe « <seg>obligeoit</seg> ».</p></note>
+                    devoir à l’aide du verbe « <seg corresp="#f22v13_mobligeoit" facs=""
+                        >obligeoit</seg> ».</p></note>
         </body>
     </text>
 </TEI>
