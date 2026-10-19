@@ -31,13 +31,15 @@
             <ab><s><subst>
                         <del>Or</del>
                         <add>Mais</add>
-                    </subst> il alloit alieurs et <addSpan spanTo="#f23v03_parquoy"/>luy faloit <choice>
-                        <abbr>fe<hi rend="superscript">r</hi></abbr>
-                        <expan>faire</expan>
-                    </choice> autre vo<choice>
-                        <orig>i</orig>
-                        <reg>y</reg>
-                    </choice>age.</s><s>
+                    </subst>
+                    <seg xml:id="f23v03_il_alieurs">il alloit alieurs</seg> et <addSpan
+                        spanTo="#f23v03_parquoy"/><seg xml:id="f23v03_luy_voiage">luy faloit <choice>
+                            <abbr>fe<hi rend="superscript">r</hi></abbr>
+                            <expan>faire</expan>
+                        </choice> autre vo<choice>
+                            <orig>i</orig>
+                            <reg>y</reg>
+                        </choice>age</seg>.</s><s>
                     <choice>
                         <orig>p</orig>
                         <reg>P</reg>
@@ -79,7 +81,7 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> moy seul, <subst>
-                        <del>laquelle <choice>
+                        <del xml:id="f23v03_laquelle_lire">laquelle <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e mis <choice>
@@ -106,13 +108,14 @@
                             </choice> la luy lire</del>
                         <add>de touts les siens</add>
                     </subst>.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute la formule euphémisante
-                            « <seg><hi rend="italic">luy faloit fe<hi rend="superscript">r</hi>
-                            autre voiage</hi></seg> », qui redouble « <seg>il alloit
-                    aileurs</seg> ». Il supprime surtout des détails au sujet de la rédaction des
-                    dernières volontés de son père, qu’Henri de Mesmes a recueillies par écrit <hi
-                        rend="italic">in extremis</hi>. Ces éléments ont peut-être semblé trop
-                    anecdotiques, ou trop intimes.</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute la formule euphémisante « <seg
+                        corresp="#f23v03_luy_voiage" facs=""><hi rend="italic">luy faloit fe<hi
+                                rend="superscript">r</hi> autre voiage</hi></seg> », qui redouble «
+                        <seg corresp="#f23v03_il_alieurs" facs="">il alloit aileurs</seg> ». Il
+                    supprime surtout des <seg corresp="#f23v03_laquelle_lire">détails au sujet de la
+                        rédaction des dernières volontés de son père</seg>, qu’Henri de Mesmes a
+                    recueillies par écrit <hi rend="italic">in extremis</hi>. Ces éléments ont
+                    peut-être semblé trop anecdotiques, ou trop intimes.</p></note>
         </body>
     </text>
 </TEI>

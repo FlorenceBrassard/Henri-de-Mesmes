@@ -65,12 +65,12 @@
                             <orig/>
                             <reg>'</reg>
                         </choice>eage de 80 ans.</add></s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute, en marge, des
-                        <seg>précisions</seg> qui s’avèrent en partie erronées : Jean-Jacques I<hi
-                        rend="superscript">er</hi> de Mesmes n’est bien sûr pas né en 1410, mais en
-                    1490. Cet ajout est très certainement concomitant de la suppression des mêmes
-                    informations dans le corps du texte (voir f. 23v<hi rend="superscript">o</hi>,
-                    seg. 8). </p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute, en marge, des <seg
+                        corresp="#f23v04_il_ans" facs="#f23v04_i_il_ans">précisions</seg> qui
+                    s’avèrent en partie erronées : Jean-Jacques I<hi rend="superscript">er</hi> de
+                    Mesmes n’est bien sûr pas né en 1410, mais en 1490. Cet ajout est très
+                    certainement concomitant de la suppression des mêmes informations dans le corps
+                    du texte (voir f. 23v<hi rend="superscript">o</hi>, seg. 8). </p></note>
             <note resp="AV" type="critic"><p>Les copies manuscrites ne donnent pas « aussy
                     crestienement come il avoit vescu, et avec tesmoignage public de <hi
                         rend="italic">tres</hi> bone renomée. <hi rend="italic">Il estoit né l’an

@@ -128,7 +128,7 @@
                         <orig/>
                         <reg> »</reg>
                     </choice>
-                </s><del><s><choice>
+                </s><del xml:id="f23v08_il_ans"><s><choice>
                             <orig>i</orig>
                             <reg>I</reg>
                         </choice>l <del>a<choice>
@@ -148,9 +148,10 @@
                             <orig>iiij xx</orig>
                             <reg>80</reg>
                         </choice> ans<del rend="unmarked">.</del></s></del></ab>
-            <note resp="AV" type="genetic"><p>La <seg>suppression</seg> de la dernière phrase est
-                    très certainement concomitante de l’ajout des mêmes informations plus haut, dans
-                    la marge (voir f. 23v<hi rend="superscript">o</hi>, seg. 4).</p></note>
+            <note resp="AV" type="genetic"><p>La <seg corresp="#f23v08_il_ans" facs=""
+                        >suppression</seg> de la dernière phrase est très certainement concomitante
+                    de l’ajout des mêmes informations plus haut, dans la marge (voir f. 23v<hi
+                        rend="superscript">o</hi>, seg. 4).</p></note>
             <note resp="AV" type="critic"><p>Les copies manuscrites ne donnent pas l’ajout « <hi
                         rend="italic">a diverses fois</hi> » (Duchesne 57, f. 63v<hi
                         rend="superscript">o</hi> ; Français 18617, f. 19r<hi rend="superscript"

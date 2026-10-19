@@ -47,7 +47,7 @@
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName>
-                    <add>faisant l<choice>
+                    <add xml:id="f23v07_faisant_office">faisant l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>estat de <choice>
@@ -73,12 +73,12 @@
                             </choice></del>
                     </subst> ay encore les cofres <add>des seaulx</add> pour merque de cest
                     honeur.</s></ab>
-            <note resp="AV" type="critic"><p>Le mémorialiste ajoute une <seg>formule</seg> qui vient
-                    renforcer l’importance du rôle de son père, dont on se souvient qu’il aurait pu
-                    être nommé chancelier juste avant sa mort, d’après les <hi rend="italic"
-                        >Mémoires</hi>. Garde des sceaux, Jean-Jacques I<hi rend="superscript"
-                        >er</hi> de Mesmes a joué le rôle de chancelier sans en avoir le
-                titre.</p></note>
+            <note resp="AV" type="genetic"><p>Le mémorialiste ajoute une <seg
+                        corresp="#f23v07_faisant_office" facs="">formule</seg> qui vient renforcer
+                    l’importance du rôle de son père, dont on se souvient qu’il aurait pu être nommé
+                    chancelier juste avant sa mort, d’après les <hi rend="italic">Mémoires</hi>.
+                    Garde des sceaux, Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes a joué
+                    le rôle de chancelier sans en avoir le titre.</p></note>
         </body>
     </text>
 </TEI>

@@ -56,14 +56,15 @@
                         <abbr><g ref="#con-glyph">ꝯ</g>dion</abbr>
                         <expan>condition</expan>
                     </choice> que les <subst>
-                        <del>autres</del>
-                        <add>moindres</add>
+                        <del xml:id="f23v11_autres">autres</del>
+                        <add xml:id="f23v11_moindres">moindres</add>
                     </subst> ?<choice>
                         <orig/>
                         <reg> »</reg>
                     </choice></s></ab>
-            <note resp="AV" type="genetic"><p>La substitution d’« <seg>autres</seg> » par
-                        « <seg>moindres</seg> » vient renforcer l’indignation de François I<hi
+            <note resp="AV" type="genetic"><p>La substitution d’« <seg corresp="#f23v11_autres"
+                        facs="">autres</seg> » par « <seg corresp="#f23v11_moindres" facs=""
+                        >moindres</seg> » vient renforcer l’indignation de François I<hi
                         rend="superscript">er</hi> : ce dernier n’est plus seulement ravalé au rang
                     d’individu lambda, mais au statut de moins que rien.</p></note>
         </body>
