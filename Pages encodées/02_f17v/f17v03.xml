@@ -32,6 +32,7 @@
             <zone xml:id="f17v03_i_cheuer" points="594,356 594,420 822,410 822,358"/>
             <zone xml:id="f17v03_i_continuer" points="562,316 564,360 834,380 824,316"/>
         </surface>
+        <surface><graphic url="f17v02.jpg"></graphic></surface>
     </facsimile>
     <text>
         <body>

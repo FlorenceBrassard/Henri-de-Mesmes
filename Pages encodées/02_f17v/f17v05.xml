@@ -27,6 +27,7 @@
          <zone xml:id="f17v05_i_iour" points="1587,240 1582,315 1825,315 1825,247"/>
          <zone xml:id="f17v05_i_nuict" points="1607,202 1607,255 1827,262 1855,197"/>
       </surface>
+      <surface><graphic url="f17v05.jpg"></graphic></surface>
       <surface>
          <graphic
             url="https://api.nakala.fr/iiif/10.34847/nkl.fbb3jw1m/78d4a6d6c0d4b99210b68eeb9f5ec952e5fcb307/0,1756,1986,1480/full/0/default.jpg"/>
