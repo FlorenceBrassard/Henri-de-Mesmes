@@ -68,18 +68,26 @@
                         <reg>'</reg>
                     </choice>il sentoit <metamark facs="#f23r01_i_metamark" function="insert"
                         target="#f23r01_quelque">^</metamark>
-                    <add xml:id="f23r01_quelque">quelque</add> allegement <del>en son mal <subst>
-                            <del>et<add seq="1">qu<choice>
+                    <add xml:id="f23r01_quelque">quelque</add> allegement <del><seg
+                            xml:id="f23r01_en_mal">en son mal</seg>
+                        <subst>
+                            <del><seg xml:id="f23r01_et">et</seg><add seq="1" xml:id="f23r01_quil">qu<choice>
                                         <orig/>
                                         <reg>'</reg>
                                     </choice>il</add></del>
-                            <add seq="2">quand il</add>
-                        </subst> ne perdoit plus de sang</del>.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes précise sa pensée – « <seg>ce</seg> »
-                    est remplacé par « <seg>les difficultez</seg> » – tout en atténuant la portée
-                    pathétique de la fin de la phrase : il supprime en effet « <seg>en son mal et ne
-                        perdoit plus de sang</seg> » et les deux ajouts associés (« <seg>quand
-                        il</seg> », « <seg>quil</seg> »).</p></note>
+                            <add seq="2" xml:id="f23r01_quand_il">quand il</add>
+                        </subst>
+                        <seg xml:id="f23r01_ne_sang">ne perdoit plus de sang</seg></del>.</s></ab>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes précise sa pensée – « <seg
+                        corresp="#f23r01_ce" facs="#f23r01_i_ce">ce</seg> » est remplacé par « <seg
+                        corresp="f23r01_les_difficultez" facs="#f23r01_i_les_difficultez">les
+                        difficultez</seg> » – tout en atténuant la portée pathétique de la fin de la
+                    phrase : il supprime en effet « <seg
+                        corresp="#f23r01_en_mal #f23r01_et #f23r01_ne_sang" facs="">en son mal et ne
+                        perdoit plus de sang</seg> » et les deux ajouts associés (« <seg
+                        corresp="#f23r01_quand_il" facs="">quand il</seg> », « <seg
+                        corresp="#f23r01_quil" facs="">quil</seg> »).</p></note>
+            <!--            Considérer inverser “quand il” et “quil” pour suivre l'ordre des ajouts ?-->
         </body>
     </text>
 </TEI>
