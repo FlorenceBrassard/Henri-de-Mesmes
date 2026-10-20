@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s>C<choice>
+            <ab><pb n="f28v"/><s>C<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>est que la <roleName ref="Q131552">Reyne mere du <roleName ref="Q53448"

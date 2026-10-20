@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><choice>
+            <ab><pb n="f32r"/><s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
                     </choice>on esprit s<choice>

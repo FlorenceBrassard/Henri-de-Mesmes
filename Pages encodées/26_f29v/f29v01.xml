@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s>Quant <choice>
+            <ab><pb n="f29v"/><s>Quant <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> monsieur <persName ref="Q565927"><nameLink>de</nameLink>

@@ -100,8 +100,8 @@
                     </choice>i<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ance <pb/><metamark facs="#f20r03_i_metamark1" function="insert"
-                        target="#f20r03_de_reqtes">^</metamark>
+                    </choice>ance <pb n="f20v"/><metamark facs="#f20r03_i_metamark1"
+                        function="insert" target="#f20r03_de_reqtes">^</metamark>
                     <add facs="#f20r03_i_de_reqtes" xml:id="f20r03_de_reqtes">
                         <metamark>^</metamark>de <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
@@ -249,10 +249,11 @@
             <note resp="AV" type="genetic"><p>La <seg corresp="#f20r03_XVI_1552" facs="">date de
                         l’entrée d’Henri de Mesmes au Grand Conseil</seg> est supprimée avec le
                     reste du passage (voir f. 20r<hi rend="superscript">o</hi>, seg. 2). Dans la
-                    marge, le mémorialiste ajoute une <seg corresp="#f20r03_naiant_ans" facs="">précision sur l’âge</seg> auquel il est
-                    reçu au Parlement de Paris pour souligner de nouveau sa précocité et surtout
-                    pour insister sur la <seg corresp="#f20r03_mais_estudes" facs="#f20r03_i_mais_estudes">reconnaissance dont il bénéficie de la part
-                        d’Henri II</seg>.</p></note>
+                    marge, le mémorialiste ajoute une <seg corresp="#f20r03_naiant_ans" facs=""
+                        >précision sur l’âge</seg> auquel il est reçu au Parlement de Paris pour
+                    souligner de nouveau sa précocité et surtout pour insister sur la <seg
+                        corresp="#f20r03_mais_estudes" facs="#f20r03_i_mais_estudes">reconnaissance
+                        dont il bénéficie de la part d’Henri II</seg>.</p></note>
             <note resp="AV" type="critic"><p>Le Français 18617 et le Duchesne 57 donnent toutes deux
                     « sa suruiuance » (f. 9r° et f. 59r<hi rend="superscript">o</hi>). La présence
                     d’un « l » (« <seg>la survivance</seg> ») ne semble pourtant pas faire de doute

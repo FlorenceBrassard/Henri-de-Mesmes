@@ -21,30 +21,34 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/1712,5155,924,224/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f42/1712,5155,924,224/full/0/default.jpg"
+         />
       </surface>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/917,565,2151,409/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f43/917,565,2151,409/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
       <body>
          <ab><s><choice>
-               <orig>p</orig>
-            <reg>P</reg>
-            </choice>uys <del>nous</del> venions <pb/>disner apres a<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>oir en haste conferé demie heure ce qu<choice>
-               <orig/>
-               <reg>'</reg>
-            </choice>a<choice>
-               <orig>u</orig>
-               <reg>v</reg>
-            </choice>ions escrit des lectures.</s></ab>
+                  <orig>p</orig>
+                  <reg>P</reg>
+               </choice>uys <del>nous</del> venions <pb n="f19r"/>disner apres a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>oir en haste conferé demie heure ce qu<choice>
+                  <orig/>
+                  <reg>'</reg>
+               </choice>a<choice>
+                  <orig>u</orig>
+                  <reg>v</reg>
+               </choice>ions escrit des lectures.</s></ab>
          <note resp="AV" type="genetic"><p><hi rend="italic">Nota bene : La fin du f. 18v<hi
-                     rend="superscript">o</hi> est ici transcrite et encodée avec le début du f. 19r<hi
-                        rend="superscript">o</hi>, dont elle dépend.</hi></p></note>
+                     rend="superscript">o</hi> est ici transcrite et encodée avec le début du
+                     f. 19r<hi rend="superscript">o</hi>, dont elle dépend.</hi></p></note>
       </body>
    </text>
 </TEI>

@@ -21,7 +21,8 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s style="writing-mode: vertical-lr; text-orientation: sideways-right">Memoires de ma vie</s></ab>
+            <ab><pb n="f30v"/><s style="writing-mode: vertical-lr; text-orientation: sideways-right"
+                    >Memoires de ma vie</s></ab>
         </body>
     </text>
 </TEI>

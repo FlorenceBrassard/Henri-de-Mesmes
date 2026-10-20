@@ -67,7 +67,7 @@
     </facsimile>
     <text>
         <body>
-            <ab><addSpan facs="#f25r01_i_Le_estant" xml:id="f25r01_Le_estant"
+            <ab><pb n="f25r"/><addSpan facs="#f25r01_i_Le_estant" xml:id="f25r01_Le_estant"
                     spanTo="#f25r01_estant"/><s><seg facs="#f25r01_i_Le">Le</seg>
                     <roleName ref="Q53448">Roy</roleName> en l<choice>
                         <orig/>

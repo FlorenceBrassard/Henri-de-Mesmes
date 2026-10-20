@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <ab><s><metamark function="structure">•</metamark><choice>
+            <ab><pb n="f31v"/><s><metamark function="structure">•</metamark><choice>
                         <orig>d</orig>
                         <reg>D</reg>
                     </choice>e cete faulse felicité que le<subst xml:id="f31vop1_monde_autres">
