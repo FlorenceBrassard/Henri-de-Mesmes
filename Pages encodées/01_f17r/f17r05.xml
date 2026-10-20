@@ -33,7 +33,7 @@
             <ab><s>Puys apres moy, que vous <roleName full="init" ref="Q94908007"><choice>
                             <abbr>m. f.</abbr>
                             <expan>mon fils</expan>
-                        </choice></roleName><anchor xml:id="f17r05_note_01"/> par la lecture de ma
+                        </choice></roleName><anchor xml:id="f17r05_comment_01"/> par la lecture de ma
                     vie a<choice>
                         <orig>i</orig>
                         <reg>y</reg>
@@ -47,11 +47,11 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>oir les accidens,</del> et <seg xml:id="f17r05_mespriser_fortune"
-                        >mespriser la fortune</seg><anchor xml:id="f17r05_note_02"/>.</s>
+                        >mespriser la fortune</seg><anchor xml:id="f17r05_comment_02"/>.</s>
                 <del facs="#f17r05_i_e_laborem" xml:id="f17r05_e_laborem"><s>
                         <quote rend="unmarked" source="Q47154" xml:lang="la">E terra magnum alterius
                             spectare laborem.</quote></s></del></ab>
-            <note resp="AV" type="genetic" target="#f17r05_note_01"><p>Le mémorialiste s’adresse à
+            <note resp="AV" type="genetic" target="#f17r05_comment_01"><p>Le mémorialiste s’adresse à
                     son fils aîné Jean-Jacques II de Mesmes (1560-1642), seigneur de Roissy et comte
                     d’Avaux, premier destinataire de l’œuvre, qui sera régulièrement interpellé au
                     fil du récit. Celui-ci est reçu au Grand Conseil en novembre 1585, fait maître
@@ -60,7 +60,7 @@
                     et recommandables services rendus à ses couronnes de France et de Navarre par
                     les défunts seigneurs de Mesmes, tant dedans que dehors le royaume » (Trani,
                     1991, p. 187-188).</p></note>
-            <note resp="AV" type="genetic" target="#f17r05_note_02"><p>La portée réduite de
+            <note resp="AV" type="genetic" target="#f17r05_comment_02"><p>La portée réduite de
                     l’exemplarité (« domestique ») conforte la modestie du projet énoncée en amont.
                     Le programme proposé par le mémorialiste se place à la convergence de valeurs
                     chrétiennes (foi en Dieu, tempérance), nobiliaire (« vertu » comme qualité

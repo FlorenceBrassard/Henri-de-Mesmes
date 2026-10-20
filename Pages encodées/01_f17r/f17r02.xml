@@ -163,8 +163,8 @@
                     <subst>
                         <del facs="#f17r02_recommendables">recommendables</del>
                         <add facs="#f17r02_i_memorables" xml:id="f17r02_memorables">memorables</add>
-                    </subst>.<anchor xml:id="f17r02_note_01"/></s></ab>
-            <note resp="AV" type="comment" target="#f17r02_note_01">Henri de Mesmes oppose le passé
+                    </subst>.<anchor xml:id="f17r02_comment_01"/></s></ab>
+            <note resp="AV" type="comment" target="#f17r02_comment_01">Henri de Mesmes oppose le passé
                 idéalisé des récits exemplaires à un présent doublement insatisfaisant : la noblesse
                 d’épée, qui aurait de grands faits à raconter, écrirait désormais fort peu, tandis
                 que la noblesse de robe, pour qui l’écriture est une activité centrale, n’aurait

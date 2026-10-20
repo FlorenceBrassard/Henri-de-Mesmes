@@ -78,8 +78,7 @@
                   <metamark facs="#f17r01_i_metamark02" function="insert" target="#f17r01_ou"
                      xml:id="f17r01_metamark_02">^</metamark><add facs="#f17r01_i_ou"
                      xml:id="f17r01_ou">ou</add> de</seg>
-               <seg xml:id="f17r01_ceulx">ceulx</seg><note resp="AV" type="vocabulaire">Ou celle de
-                  ceux</note>
+               <seg xml:id="f17r01_ceulx">ceulx</seg><anchor xml:id="f17r01_gloss_01"/>
                <seg xml:id="f17r01_quilz_aimez">qu<choice>
                      <orig/>
                      <reg>'</reg>
@@ -106,9 +105,9 @@
                   <del facs="#f17r01_i_louanges" xml:id="f17r01_louanges">louange<add
                         facs="#f17r01_i_s04" xml:id="f17r01_s_04">s</add></del>
                   <add facs="#f17r01_i_remerque" xml:id="f17r01_remerque">remerque</add>
-               </subst><add facs="#f17r01_i_s05" xml:id="f17r01_s_05">s</add><note resp="AV"
-                  type="vocabulaire">Mises en valeur</note> de <del facs="#f17r01_i_s06"
-                  xml:id="f17r01_s_06">s</del>
+               </subst><add facs="#f17r01_i_s05" xml:id="f17r01_s_05">s</add><anchor
+                  xml:id="f17r01_gloss_02"/> de <del facs="#f17r01_i_s06" xml:id="f17r01_s_06"
+                  >s</del>
                <add xml:id="f17r01_s_07">s</add>
                <subst>
                   <del facs="#f17r01_i_vertueuses" xml:id="f17r01_vertueuses">vertueuses</del>
@@ -118,9 +117,15 @@
                   target="#f17r01_en #f17r01_s_02 #s_06 #f17r01_louanges #f17r01_remerque #f17r01_vertueuses_belles"/>
                <substJoin seq="02"
                   target="#f17r01_t #f17r01_ent #f17r01_s_03 #f17r01_s_05 #f17r01_s_07"/> actions :
-               et apres eulx, enseignemens pour bien faire<anchor xml:id="note_f17r01_01"/>.</s>
+               et apres eulx, enseignemens pour bien faire<anchor xml:id="f17r01_comment_01"/>.</s>
          </ab>
-         <note resp="AV" type="comment" target="note_f17r01_01"><p>Henri de Mesmes établit une
+      </body>
+      <back>
+         <div type="glossary">
+            <note resp="AV" type="gloss" target="f17r01_gloss_01"><p>Ou celles de ceux.</p></note>
+            <note resp="AV" type="gloss" target="f17r01_gloss_02"><p>Mises en valeur.</p></note>
+         </div>
+         <note resp="AV" type="comment" target="f17r01_comment_01"><p>Henri de Mesmes établit une
                équivalence entre récit de soi et biographie, pratiques qui toutes deux s’inscrivent
                dans le cadre d’une conception de l’histoire comme « maîtresse de vie » (<hi
                   rend="italic">historia magistra vitae</hi>) (Cicéron, <hi rend="italic">De
@@ -172,7 +177,6 @@
                première, efface la prédominance de la qualité morale (honnêteté, vertu) au profit
                d’une mise en valeur plus abstraite (« belles », au sens de <hi rend="italic"
                   >satisfaisantes</hi>, <hi rend="italic">admirables</hi>).</p></note>
-         <p/>
-      </body>
+      </back>
    </text>
 </TEI>
