@@ -33,7 +33,8 @@
             <ab><s>Puys apres moy, que vous <roleName full="init" ref="Q94908007"><choice>
                             <abbr>m. f.</abbr>
                             <expan>mon fils</expan>
-                        </choice></roleName> par la lecture de ma vie a<choice>
+                        </choice></roleName><anchor xml:id="f17r05_note_01"/> par la lecture de ma
+                    vie a<choice>
                         <orig>i</orig>
                         <reg>y</reg>
                     </choice>e<choice>
@@ -46,10 +47,32 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>oir les accidens,</del> et <seg xml:id="f17r05_mespriser_fortune"
-                        >mespriser la fortune</seg>.</s>
+                        >mespriser la fortune</seg><anchor xml:id="f17r05_note_02"/>.</s>
                 <del facs="#f17r05_i_e_laborem" xml:id="f17r05_e_laborem"><s>
                         <quote rend="unmarked" source="Q47154" xml:lang="la">E terra magnum alterius
                             spectare laborem.</quote></s></del></ab>
+            <note resp="AV" type="genetic" target="#f17r05_note_01"><p>Le mémorialiste s’adresse à
+                    son fils aîné Jean-Jacques II de Mesmes (1560-1642), seigneur de Roissy et comte
+                    d’Avaux, premier destinataire de l’œuvre, qui sera régulièrement interpellé au
+                    fil du récit. Celui-ci est reçu au Grand Conseil en novembre 1585, fait maître
+                    des requêtes en novembre 1595, puis conseiller d’État en 1602. En 1638,
+                    Louis XIII érige la seigneurie d’Avaux en comté, « en considération des grands
+                    et recommandables services rendus à ses couronnes de France et de Navarre par
+                    les défunts seigneurs de Mesmes, tant dedans que dehors le royaume » (Trani,
+                    1991, p. 187-188).</p></note>
+            <note resp="AV" type="genetic" target="#f17r05_note_02"><p>La portée réduite de
+                    l’exemplarité (« domestique ») conforte la modestie du projet énoncée en amont.
+                    Le programme proposé par le mémorialiste se place à la convergence de valeurs
+                    chrétiennes (foi en Dieu, tempérance), nobiliaire (« vertu » comme qualité
+                    morale distinctive) et stoïcienne (constance comme mépris de l’adversité,
+                    représentée ici par la fortune), caractéristiques du néo-stoïcisme. Dans la
+                    marge de gauche (voir éd. numérique, f. 17ro, seg. 5), est inscrit le vers latin
+                    « <hi rend="italic">E terra magnum alterius spectare laborem</hi> », tiré de la
+                    première phrase du livre II du De rerum natura de Lucrèce : « <hi rend="italic"
+                        >Suaue, mari magno turbantibus aequora uentis / E terra magnum alterius
+                        spectare laborem</hi> », « Il est doux, quand le vent gonfle au large les
+                    flots, / D’assister du rivage aux efforts des marins » (trad. Sers, 2012,
+                    p. 101) (voir <hi rend="italic">supra</hi>, introduction, p. #).</p></note>
             <note resp="AV" type="genetic"><p>La formule « <seg corresp="#f17r05_preuoir_accidens"
                         facs="#f17r05_i_preuoir_accidens">preuoir les accidens</seg> » est remplacée
                     par « <seg corresp="#f17r05_mespriser_fortune"
