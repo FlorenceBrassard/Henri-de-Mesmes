@@ -55,7 +55,7 @@
                      <orig>p</orig>
                      <reg>P</reg>
                   </choice>aris</placeName>
-               <date>le mardy <del instant="true">penu</del>
+               <date when="1531-01-30">le mardy <del instant="true">penu</del>
                   <seg xml:id="f18r01_30"><choice>
                         <orig>xxx</orig>
                         <reg>30</reg>
@@ -102,7 +102,7 @@
                   </choice>mancement de l<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>année <date><hi rend="overlined">1532</hi></date>
+                  </choice>année <date when="1532"><hi rend="overlined">1532</hi></date>
                   <subst>
                      <del facs="#f18r01_i_mode" xml:id="f18r01_a_mode"><choice>
                            <orig>a</orig>

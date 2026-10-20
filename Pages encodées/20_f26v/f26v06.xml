@@ -35,16 +35,19 @@
                   </choice>e fu che<choice>
                      <orig>s</orig>
                      <reg>z</reg>
-                  </choice> moy</del> Le Jugement du <roleName ref="Q53448">Roy</roleName> que <choice>
+                  </choice> moy</del> Le <choice>
+                  <orig>J</orig>
+                  <reg>j</reg>
+               </choice>ugement du <roleName ref="Q53448">Roy</roleName> que <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e viens de dire fut ainsy doné sur moy sens m<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>ouyr le <date>xvi<choice>
-                     <orig>j</orig>
-                     <reg>i</reg>
-                  </choice><hi rend="superscript">e</hi>
+               </choice>ouyr le <date when="1582-01-17"><choice>
+                     <orig>xvij<hi rend="superscript">e</hi></orig>
+                     <reg>17</reg>
+                  </choice>
                   <choice>
                      <orig>J</orig>
                      <reg>j</reg>

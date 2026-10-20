@@ -40,7 +40,7 @@
                     </choice>office de Conseiller en icelluy, qui fut d<choice>
                         <orig>ez</orig>
                         <reg>ès</reg>
-                    </choice> le <date>mois de <add>aoust</add>
+                    </choice> le <date when="1583-08">mois de <add>aoust</add>
                         <hi rend="overlined">1583</hi></date> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -73,7 +73,7 @@
                     <choice>
                         <abbr rend="overlined">vre</abbr>
                         <expan>vostre</expan>
-                    </choice> heureus mariage <del>en</del> au <date>mesme mois l<choice>
+                    </choice> heureus mariage <del>en</del> au <date when="1582-08">mesme mois l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>an re<choice>
@@ -83,13 +83,13 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec <choice>
-                            <orig>v</orig>
-                            <reg>u</reg>
-                        </choice>ne damo<subst>
-                            <del rend="overwritten">i</del>
-                            <add place="superimposed">y</add>
-                        </subst>selle d'honeur, de bon lieu, et de force et santé
-                        <del>pour</del> autant que l<choice>
+                        <orig>v</orig>
+                        <reg>u</reg>
+                    </choice>ne damo<subst>
+                        <del rend="overwritten">i</del>
+                        <add place="superimposed">y</add>
+                    </subst>selle d'honeur, de bon lieu, et de force et santé <del>pour</del> autant
+                    que l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>eussions sceu desirer.</s></ab>

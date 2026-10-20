@@ -28,7 +28,8 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <add>accreu</add> et fortifié de deux beaux garsons en <date><choice>
+                    <add>accreu</add> et <birth>fortifié</birth> de deux beaux garsons en <date
+                        when="1586-03"><choice>
                             <orig>M</orig>
                             <reg>m</reg>
                         </choice>ars 86</date><choice>
@@ -40,7 +41,7 @@
                         </choice>uin 87</date><choice>
                         <orig>.</orig>
                         <reg>,</reg>
-                    </choice> puys d'une fille en <date><choice>
+                    </choice> puys d'une fille en <date when="1588-10"><choice>
                             <abbr>8<hi rend="superscript">bre</hi></abbr>
                             <expan>octobre</expan>
                         </choice> 88</date><choice>

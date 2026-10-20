@@ -76,7 +76,7 @@
                         <abbr rend="overlined">a</abbr>
                         <expan>an</expan>
                     </choice>
-                    <date rend="overlined">1575</date>
+                    <date rend="overlined" when="1575">1575</date>
                     <subst>
                         <del facs="#f25r01_i_veint01" xml:id="f25r01_veint01">veint</del>
                         <add facs="#f25r01_i_venant">venant</add>

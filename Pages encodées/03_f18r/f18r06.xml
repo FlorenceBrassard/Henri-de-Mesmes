@@ -49,7 +49,7 @@
                <add>dez</add>
             </subst>
             <del instant="true">le</del>
-            <date>l<choice>
+            <date when="1542">l<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>an <hi rend="trait_suscrit">1542</hi></date>

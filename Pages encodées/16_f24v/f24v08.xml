@@ -96,7 +96,7 @@
                     </choice> qui mourut en l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>an <date rend="overlined">1574</date><choice>
+                    </choice>an <date rend="overlined" when="1574">1574</date><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> m<choice>

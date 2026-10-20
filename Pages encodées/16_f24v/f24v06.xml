@@ -54,24 +54,27 @@
                     </choice>elemy<choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> qui fut le <date>24 <choice>
+                    </choice> qui fut le <date when="1572-08-24">24 <choice>
                             <orig>a</orig>
                             <reg>A</reg>
                         </choice>oust <hi rend="overlined">1572</hi></date><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> le <roleName ref="Q134309">Roy</roleName> <seg facs="#f24v06_i_me">me</seg> forsa de prendre la
-                    charge du <roleName ref="Q936976">Roy <nameLink>de</nameLink>
+                    </choice> le <roleName ref="Q134309">Roy</roleName>
+                    <seg facs="#f24v06_i_me">me</seg> forsa de prendre la charge du <roleName
+                        ref="Q936976">Roy <nameLink>de</nameLink>
                         <placeName ref="Q111628725"><choice>
                                 <abbr>N<hi rend="superscript">re</hi></abbr>
                                 <expan>Na<choice>
                                         <orig>u</orig>
                                         <reg>v</reg>
                                     </choice>arre</expan>
-                            </choice></placeName></roleName> et de ses <seg facs="#f24v06_i_afers_de"><choice>
-                        <abbr>afe<hi rend="superscript">r</hi>s</abbr>
-                        <expan>afaires</expan>
-                    </choice> et de</seg> la <roleName ref="Q220845">Reyne <nameLink>de</nameLink>
+                            </choice></placeName></roleName> et de ses <seg
+                        facs="#f24v06_i_afers_de"><choice>
+                            <abbr>afe<hi rend="superscript">r</hi>s</abbr>
+                            <expan>afaires</expan>
+                        </choice> et de</seg> la <roleName ref="Q220845">Reyne
+                            <nameLink>de</nameLink>
                         <placeName ref="Q111628725">Na<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -81,7 +84,8 @@
                     </choice> ainsy que le contient le <choice>
                         <abbr><g ref="#bre-glyph">ƀ</g></abbr>
                         <expan>bre</expan>
-                    </choice>vet <seg facs="#f24v06_i_du_forcé">du forcé</seg> <choice>
+                    </choice>vet <seg facs="#f24v06_i_du_forcé">du forcé</seg>
+                    <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g>mand<hi rend="superscript">t</hi></abbr>
                         <expan>commandement</expan>
                     </choice> qu<choice>
@@ -103,10 +107,12 @@
                         </choice>tient mes longs refus et <choice>
                             <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                             <expan>con</expan>
-                        </choice>testations et <seg facs="#f24v06_i_le_Roy">le <roleName ref="Q134309">Roy</roleName></seg><metamark facs="#f24v06_i_metamark_02"
-                            function="insert" target="#f24v06_desclara_cestoit">=</metamark></add>
-                    <addSpan facs="#f24v06_i_desclara_cestoit" spanTo="#f24v06_cestoit" xml:id="f24v06_desclara_cestoit"
-                        /><metamark>=</metamark>desclara qu<choice>
+                        </choice>testations et <seg facs="#f24v06_i_le_Roy">le <roleName
+                                ref="Q134309">Roy</roleName></seg><metamark
+                            facs="#f24v06_i_metamark_02" function="insert"
+                            target="#f24v06_desclara_cestoit">=</metamark></add>
+                    <addSpan facs="#f24v06_i_desclara_cestoit" spanTo="#f24v06_cestoit"
+                        xml:id="f24v06_desclara_cestoit"/><metamark>=</metamark>desclara qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il le vouloit et le me <choice>
@@ -119,8 +125,8 @@
                     </choice>t que c<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>estoit <anchor xml:id="f24v06_cestoit"/><del facs="#f24v06_i_et_fut" xml:id="f24v06_et_fut">et
-                        ce fut</del>
+                    </choice>estoit <anchor xml:id="f24v06_cestoit"/><del facs="#f24v06_i_et_fut"
+                        xml:id="f24v06_et_fut">et ce fut</del>
                     <substJoin cert="medium" target="#f24v06_desclara_cestoit #f24v06_et_fut"/>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>

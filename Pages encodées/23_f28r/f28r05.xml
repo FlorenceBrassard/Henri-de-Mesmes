@@ -24,7 +24,7 @@
             <ab><s>Je ne veulx pas oublier qu<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>en <date>fin de la mesme année 88</date><choice>
+                    </choice>en <date when="1588">fin de la mesme année 88</date><choice>
                         <orig>. i</orig>
                         <reg>, j'</reg>
                     </choice>ay esté sy heureus d<choice>

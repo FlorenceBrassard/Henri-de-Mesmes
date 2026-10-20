@@ -174,7 +174,7 @@
                     <persName><forename>Amaneus</forename>
                         <nameLink>de</nameLink>
                         <surname>Mammes</surname></persName>
-                    <del facs="#f17r06_i_qui_01" xml:id="f17r06_qui">qui</del> dez <date>l<choice>
+                    <del facs="#f17r06_i_qui_01" xml:id="f17r06_qui">qui</del> dez <date when="1200">l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>an 1200</date> veint prendre terre <del>ferme</del> en <subst>
@@ -312,7 +312,7 @@
                                 <del>qu'en</del>
                                 <add>que</add>
                             </subst><substJoin target="#f17r06_et_del #f17r06_et_add"/>
-                            <date>l<choice>
+                            <date when="1567">l<choice>
                                     <orig/>
                                     <reg>'</reg>
                                 </choice>an 1567</date> le gou<choice>
@@ -362,7 +362,8 @@
                                         >+</metamark> en la recerche que <choice>
                                         <orig>i</orig>
                                         <reg>j'</reg>
-                                    </choice>en fey en l'an <date>1567</date> pour</add></del>
+                                    </choice>en fey en <date when="1567">l'an 1567</date>
+                                pour</add></del>
                             <add facs="#f17r06_i_a_escosse" xml:id="f17r06_a_escosse"><metamark
                                     facs="#f17r06_i_metamark_05" cert="medium"
                                     xml:id="f17r06_metamark_05"><unclear reason="reliure"
@@ -441,7 +442,8 @@
                                 </choice></seg></del>
                         <add facs="#f17r06_i_fey_recerche" xml:id="f17r06_fey_recerche">fey la
                             recerche</add>
-                    </subst><del facs="#f17r06_i_qui_fut" xml:id="f17r06_qui_fut">qui fut</del><date><choice>
+                    </subst><del facs="#f17r06_i_qui_fut" xml:id="f17r06_qui_fut">qui fut</del><date
+                        when="1567"><choice>
                             <orig rend="overlined">.1567.</orig>
                             <reg>(1567).</reg>
                         </choice></date><substJoin seq="05"
