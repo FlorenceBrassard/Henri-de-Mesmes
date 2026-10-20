@@ -101,7 +101,8 @@
                             <orig>q</orig>
                             <reg>Q</reg>
                         </choice>ui fut cause que <subst>
-                            <del>depuys <unclear cert="low" reason="deleted">ce</unclear></del>
+                            <del>depuys <unclear cert="low" reason="deleted" agent="author"
+                                    >ce</unclear></del>
                             <del><add>d<choice>
                                         <orig>e</orig>
                                         <reg>è</reg>
@@ -158,7 +159,7 @@
                         <subst>
                             <del seq="1">qui estoient</del>
                             <del seq="2"><add seq="1"><unclear cert="medium" reason="deleted"
-                                        >ainsy</unclear> come</add></del>
+                                        agent="author">ainsy</unclear> come</add></del>
                             <add seq="2">vers</add>
                             <add seq="3">chez</add>
                         </subst>
@@ -167,7 +168,7 @@
                                 ><surname>Tussanus</surname>
                         </persName><supplied>,</supplied><persName ref="Q3174686"
                                 ><surname>Strazelius</surname></persName>
-                        <del><unclear cert="low" reason="deleted">et</unclear></del>
+                        <del><unclear cert="low" reason="deleted" agent="author">et</unclear></del>
                         <choice>
                             <orig/>
                             <reg>,</reg>

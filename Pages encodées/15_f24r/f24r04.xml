@@ -42,8 +42,8 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <del><unclear cert="medium" reason="illegible">B</unclear></del><persName
-                        ref="Q590316"><surname>Pel<choice>
+                    <del><unclear cert="medium" reason="illegible" agent="author"
+                        >B</unclear></del><persName ref="Q590316"><surname>Pel<choice>
                                 <orig>ue</orig>
                                 <reg>vé</reg>
                             </choice></surname></persName><choice>

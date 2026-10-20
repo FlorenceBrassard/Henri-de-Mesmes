@@ -111,8 +111,8 @@
                         facs="#f23r03_i_apres_pere" xml:id="f23r03_apres_pere"
                             ><metamark>^</metamark>apres celle de <roleName ref="Q107207194">mon
                             pere</roleName></add> qu'en <del instant="true">autre</del> autre <del
-                        instant="true">de et <unclear cert="low" reason="illegible"
-                        >t</unclear></del> o<choice>
+                        instant="true">de et <unclear cert="low" reason="illegible" agent="author"
+                            >t</unclear></del> o<choice>
                         <orig>u i</orig>
                         <reg>ù j'</reg>
                     </choice>aie esté de mes <choice>

@@ -55,8 +55,9 @@
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName> par congé du <roleName ref="Q53448"
-                    >Roy</roleName>, <del><unclear cert="low" reason="illegible">en</unclear>
-                            a<unclear cert="low" reason="illegible">u</unclear>s</del>
+                    >Roy</roleName>, <del><unclear cert="low" reason="illegible" agent="author"
+                            >en</unclear> a<unclear cert="low" reason="illegible" agent="author"
+                            >u</unclear>s</del>
                     <add seq="1">ores que ce fust</add> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -80,7 +81,8 @@
                             </choice></placeName></roleName> qui ne me peurent retenir da<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>antage<unclear cert="high" reason="margin">.</unclear></s></ab>
+                    </choice>antage<unclear cert="high" reason="illegible" agent="margin"
+                        >.</unclear></s></ab>
         </body>
     </text>
 </TEI>

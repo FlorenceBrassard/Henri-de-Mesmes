@@ -91,8 +91,8 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>une de ses dames</del>
-                        <add><del>e<unclear quantity="01" unit="char" reason="deleted" agent="author"
-                                    cert="medium">n</unclear></del> au <choice>
+                        <add><del>e<unclear cert="medium" reason="deleted" agent="author"
+                                    >n</unclear></del> au <choice>
                                 <abbr>ch<hi rend="overlined">apre</hi></abbr>
                                 <expan>chapitre</expan>
                             </choice> de ses dames <choice>

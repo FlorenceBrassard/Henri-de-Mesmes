@@ -366,8 +366,8 @@
                                 pour</add></del>
                             <add facs="#f17r06_i_a_escosse" xml:id="f17r06_a_escosse"><metamark
                                     facs="#f17r06_i_metamark_05" cert="medium"
-                                    xml:id="f17r06_metamark_05"><unclear reason="reliure"
-                                        >=</unclear></metamark><choice>
+                                    xml:id="f17r06_metamark_05"><unclear cert="low"
+                                        reason="illegible" agent="margin">=</unclear></metamark><choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
                                 </choice> present limite d<choice>
@@ -419,7 +419,7 @@
                         <abbr rend="overlined">nre</abbr>
                         <expan>nostre</expan>
                     </choice> nom <del facs="#f17r06_i_et_03" xml:id="f17r06_et_03">et <unclear
-                            cert="medium" reason="deleted"><choice>
+                            cert="medium" reason="deleted" agent="author"><choice>
                                 <orig>nr</orig>
                                 <reg>nostre</reg>
                             </choice></unclear></del>

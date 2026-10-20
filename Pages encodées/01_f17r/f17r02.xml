@@ -74,9 +74,10 @@
                         </choice>e pas que les esprits norrys en un <choice>
                             <orig>R</orig>
                             <reg>r</reg>
-                        </choice>oyaume <unclear cert="medium" reason="deleted"><del><metamark
-                                    xml:id="f17r02_metamark01">+</metamark></del></unclear>,
-                        mesmement en robe longue, se puissent guiere</del>
+                        </choice>oyaume <unclear cert="medium" reason="deleted" agent="author"
+                                    ><del><metamark xml:id="f17r02_metamark01"
+                            >+</metamark></del></unclear>, mesmement en robe longue, se puissent
+                        guiere</del>
                     <del facs="#f17r02_i_et_guiere" xml:id="f17r02_et_guiere_del"><add
                             xml:id="f17r02_et_guiere_add">et ceulx qui ont les armes en <placeName
                                 ref="Q142"><choice>

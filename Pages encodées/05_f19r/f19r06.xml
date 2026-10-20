@@ -101,7 +101,8 @@
                      <abbr>m<hi rend="superscript">rs</hi></abbr>
                      <expan>messieurs</expan>
                   </choice>
-                  <persName ref="Q2412465"><surname><unclear agent="reliure" reason="illegible"><choice>
+                  <persName ref="Q2412465"><surname><unclear cert="high" reason="illegible"
+                           agent="margin"><choice>
                               <orig>c</orig>
                               <reg>C</reg>
                            </choice></unclear>orras</surname></persName> et <persName ref="Q691362"
@@ -157,8 +158,8 @@
                         </choice>o<choice>
                            <orig>i</orig>
                            <reg>y</reg>
-                        </choice>euse</surname></persName> lors <unclear agent="reliure"
-                     reason="illegible">e</unclear><choice>
+                        </choice>euse</surname></persName> lors <unclear cert="high"
+                     reason="illegible" agent="margin">e</unclear><choice>
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>esque d<choice>

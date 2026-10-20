@@ -46,7 +46,7 @@
                         <orig>a</orig>
                         <reg>A</reg>
                     </choice>pres disner <del instant="true">ou <unclear cert="high"
-                            reason="deleted">no</unclear></del> nous lisions <subst>
+                            reason="deleted" agent="author">no</unclear></del> nous lisions <subst>
                         <del seq="1" facs="#f19r02_i_demie_de" xml:id="f19r02_demie_de">demie heure
                             de</del>
                         <del seq="2" facs="#f19r02_i_de1" xml:id="f19r02_de_1"><add seq="1"
@@ -74,8 +74,8 @@
                             <reg>D</reg>
                         </choice>emosthene<add>s</add></persName>
                     <del facs="#f19r02_i_ou_de2" xml:id="f19r02_ou_de_2"><add
-                            facs="#f19r02_i_ou_de1" xml:id="f19r02_ou_de_1"><unclear
-                                reason="deleted">ou</unclear> de</add></del>
+                            facs="#f19r02_i_ou_de1" xml:id="f19r02_ou_de_1"><unclear cert="high"
+                                reason="deleted" agent="author">ou</unclear> de</add></del>
                     <supplied>,</supplied>
                     <persName ref="Q1541"><choice>
                             <orig>c</orig>

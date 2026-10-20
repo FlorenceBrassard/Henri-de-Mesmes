@@ -237,10 +237,10 @@
                     </choice>n miroir et vray exemple de modestie <choice>
                         <orig>C</orig>
                         <reg>c</reg>
-                    </choice>hrestiene et de toute <del instant="true">s<unclear reason="deleted"
-                            >e</unclear>mp</del><add facs="#f22r06_i_charite_et"
-                        xml:id="f22r06_charite_et">charite et</add> rondeur <del
-                        facs="#f22r06_et_charite" xml:id="f22r06_et_charite">et
+                    </choice>hrestiene et de toute <del instant="true">s<unclear cert="medium"
+                            reason="deleted" agent="author">e</unclear>mp</del><add
+                        facs="#f22r06_i_charite_et" xml:id="f22r06_charite_et">charite et</add>
+                    rondeur <del facs="#f22r06_et_charite" xml:id="f22r06_et_charite">et
                         charité</del><substJoin target="#f22r06_charite_et #f22r06_et_charite"
                     />.</s>
                 <s><choice>

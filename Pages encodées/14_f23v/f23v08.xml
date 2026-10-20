@@ -64,7 +64,8 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>il refusa <subst>
-                        <del><add>en p<unclear cert="low" reason="illegible">l</unclear>s <choice>
+                        <del><add>en p<unclear cert="low" reason="illegible" agent="author"
+                                    >l</unclear>s <choice>
                                     <orig>i</orig>
                                     <reg>j</reg>
                                 </choice>ours</add></del>
@@ -120,7 +121,8 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>iter le <subst>
-                        <del>deshoneu<unclear cert="high" reason="margin">r</unclear></del>
+                        <del>deshoneu<unclear cert="high" reason="illegible" agent="margin"
+                                >r</unclear></del>
                         <add>blasme</add>
                     </subst> que ce me seroit sy vous mourries sens <subst>
                         <del>ceste merque</del>

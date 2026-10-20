@@ -76,7 +76,7 @@
                     </subst>
                     <seg xml:id="f21v08_les_armes">les armes</seg>
                     <del xml:id="f21v08_mesme">mesme</del>
-                    <del instant="true"><unclear cert="high">e</unclear>n</del>
+                    <del instant="true"><unclear cert="high" reason="deleted" agent="author">e</unclear>n</del>
                     <del facs="#f21v08_i_au_et" xml:id="f21rop8_au_et">au <placeName ref="Q16275"
                             >Sienois</placeName> et</del>
                     <substJoin target="#f21v08_chef_sur #f21v08_mesme #f21v08_au_et #f21v08_point"/><choice>
