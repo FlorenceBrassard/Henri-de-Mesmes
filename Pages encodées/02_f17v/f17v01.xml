@@ -31,7 +31,7 @@
          <zone xml:id="f17v01_i_maison_add" points="1092,675 1092,745 1375,720 1365,655"/>
          <zone xml:id="f17v01_i_sa" points="794,883 805,1071 852,1077 964,889"/>
       </surface>
-      <graphic url="f17v01.jpg"></graphic>
+      <graphic url="f17v01.jpg"/>
    </facsimile>
    <text>
       <body>
@@ -63,7 +63,8 @@
                      </choice>ascoigne</placeName>, fut neantmoins instruit aux letres pource qu<choice>
                      <orig/>
                      <reg>'</reg>
-                  </choice>il estoit né <choice>
+                  </choice>il estoit <birth>né</birth>
+                  <choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice> sept mois et fort <subst>

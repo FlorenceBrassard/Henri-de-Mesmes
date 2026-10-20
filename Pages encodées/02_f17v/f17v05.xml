@@ -27,7 +27,9 @@
          <zone xml:id="f17v05_i_iour" points="1587,240 1582,315 1825,315 1825,247"/>
          <zone xml:id="f17v05_i_nuict" points="1607,202 1607,255 1827,262 1855,197"/>
       </surface>
-      <surface><graphic url="f17v05.jpg"></graphic></surface>
+      <surface>
+         <graphic url="f17v05.jpg"/>
+      </surface>
       <surface>
          <graphic
             url="https://api.nakala.fr/iiif/10.34847/nkl.fbb3jw1m/78d4a6d6c0d4b99210b68eeb9f5ec952e5fcb307/0,1756,1986,1480/full/0/default.jpg"/>
@@ -39,7 +41,9 @@
          <ab><s><add xml:id="f17v05_Mais_1531"><subst>
                      <del>toutesfois</del>
                      <add>Mais</add>
-                  </subst> sa mort <subst>
+                  </subst>
+                  <death>sa mort</death>
+                  <subst>
                      <del>prevint ce</del>
                      <add><subst>
                            <del>empescha</del>
@@ -60,7 +64,8 @@
                   </choice>o<choice>
                      <orig>i</orig>
                      <reg>y</reg>
-                  </choice>al et mourut l<subst facs="#f17v05_i_e_a" xml:id="f17v05_e_a">
+                  </choice>al et <death>mourut</death> l<subst facs="#f17v05_i_e_a"
+                     xml:id="f17v05_e_a">
                      <del rend="overwritten">e</del>
                      <add place="superimposed">a</add>
                   </subst> propre <subst>
@@ -91,7 +96,8 @@
                         <add xml:id="f17v05_date_1531"><hi rend="trait_suscrit"
                         >1531</hi></add></date>
                      <substJoin target="#f17v05_date_15312 #f17v05_date_1531"/></seg>
-               </add><del xml:id="f17v05_Je_matin">Je nacquis <choice>
+               </add><del xml:id="f17v05_Je_matin">Je <birth>nacquis</birth>
+                  <choice>
                      <orig>a</orig>
                      <reg>à</reg>
                   </choice>
@@ -116,14 +122,14 @@
                maternel, en plus de celle de son père. Comme ce sera le cas à de très nombreuses
                reprises, le mémorialiste hésite sur la date de la mort d’Oudart Hennequin,
                concomitante de sa propre conception (<seg
-                  corresp="#f17v05_date_15312 #f17v05_date_1531" facs="">1531 ou 1532</seg> ?), comme il
-               hésitera sur sa propre date de naissance (voir f. 18r<hi rend="superscript">o</hi>,
-               seg. 1). Cette hésitation paraît imputable aux modifications du calendrier opérées au
-               cours du XVI<hi rend="superscript">e</hi> siècle : uniformisation du début de l’année
-               calendaire, au 1er janvier et non en mars (Annonciation) ou en avril (Pâques), par
-               l’édit de Roussillon en 1564 ; passage du calendrier julien au calendrier grégorien
-               en 1582 (en France, le 9 décembre 1582 est immédiatement suivi du 20
-            décembre).</p></note>
+                  corresp="#f17v05_date_15312 #f17v05_date_1531" facs="">1531 ou 1532</seg> ?),
+               comme il hésitera sur sa propre date de naissance (voir f. 18r<hi rend="superscript"
+                  >o</hi>, seg. 1). Cette hésitation paraît imputable aux modifications du
+               calendrier opérées au cours du XVI<hi rend="superscript">e</hi> siècle :
+               uniformisation du début de l’année calendaire, au 1er janvier et non en mars
+               (Annonciation) ou en avril (Pâques), par l’édit de Roussillon en 1564 ; passage du
+               calendrier julien au calendrier grégorien en 1582 (en France, le 9 décembre 1582 est
+               immédiatement suivi du 20 décembre).</p></note>
       </body>
    </text>
 </TEI>

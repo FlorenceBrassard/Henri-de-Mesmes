@@ -46,7 +46,8 @@
          <ab><s><choice>
                   <orig>I</orig>
                   <reg>J</reg>
-               </choice>e nacquis <del>donc</del>
+               </choice>e <birth>nacquis</birth>
+               <del>donc</del>
                <choice>
                   <orig>a</orig>
                   <reg>à</reg>
@@ -56,9 +57,9 @@
                   </choice>aris</placeName>
                <date>le mardy <del instant="true">penu</del>
                   <seg xml:id="f18r01_30"><choice>
-                     <orig>xxx</orig>
-                     <reg>30</reg>
-                  </choice></seg><hi rend="superscript">e</hi>
+                        <orig>xxx</orig>
+                        <reg>30</reg>
+                     </choice></seg><hi rend="superscript">e</hi>
                   <choice>
                      <orig>i</orig>
                      <reg>j</reg>
@@ -68,14 +69,14 @@
                   </choice>an<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>ier <seg xml:id="f18r01_153121"><hi rend="overlined">153<subst facs="#f18r01_i_1531"
-                        xml:id="f18r01_1531">
-                        <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
-                        <del rend="overwritten">2</del>
-                        <add place="superimposed" seq="2">1</add>
-                     </subst></hi></seg>
-                  <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant_del"><add seq="1"
-                        >qui est 33 selon la reduction qu<substJoin
+                  </choice>ier <seg xml:id="f18r01_153121"><hi rend="overlined">153<subst
+                           facs="#f18r01_i_1531" xml:id="f18r01_1531">
+                           <add cert="low" seq="3"><hi rend="superscript">1</hi></add>
+                           <del rend="overwritten">2</del>
+                           <add place="superimposed" seq="2">1</add>
+                        </subst></hi></seg>
+                  <del facs="#f18r01_i_qui_maintenant" xml:id="f18r01_qui_maintenant_del"><add
+                        seq="1">qui est 33 selon la reduction qu<substJoin
                            target="#f18r01_1531 #f18r01_qui_maintenant_del"/><choice>
                            <orig/>
                            <reg>'</reg>

@@ -33,13 +33,13 @@
                         <add>Mais</add>
                     </subst>
                     <seg xml:id="f23v03_il_alieurs">il alloit alieurs</seg> et <addSpan
-                        spanTo="#f23v03_parquoy"/><seg xml:id="f23v03_luy_voiage">luy faloit <choice>
-                            <abbr>fe<hi rend="superscript">r</hi></abbr>
-                            <expan>faire</expan>
-                        </choice> autre vo<choice>
-                            <orig>i</orig>
-                            <reg>y</reg>
-                        </choice>age</seg>.</s>
+                        spanTo="#f23v03_parquoy"/><death><seg xml:id="f23v03_luy_voiage">luy faloit <choice>
+                                <abbr>fe<hi rend="superscript">r</hi></abbr>
+                                <expan>faire</expan>
+                            </choice> autre vo<choice>
+                                <orig>i</orig>
+                                <reg>y</reg>
+                            </choice>age</seg></death>.</s>
                 <s>
                     <choice>
                         <orig>p</orig>
@@ -60,7 +60,8 @@
                     </listTranspose> pres de luy il <del instant="true">me <choice>
                             <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                             <expan>com</expan>
-                        </choice>manda</del> declara mourrir <choice>
+                        </choice>manda</del> declara <death>mourrir</death>
+                    <choice>
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>con</expan>
                     </choice>tant puys qu<choice>

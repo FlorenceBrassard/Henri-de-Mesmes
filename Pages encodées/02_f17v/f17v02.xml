@@ -57,7 +57,7 @@
                         target="#f17v02_dix" xml:id="f17v02_metamark_1">^</metamark><add
                         facs="#f17v02_i_dix" xml:id="f17v02_dix">dix</add><substJoin
                         target=" #f17v02_huict_dix #f17v02_metamark_1 #f17v02_dix"/>
-                    <roleName>freres</roleName> qui sont presque touts morts a<subst
+                    <roleName>freres</roleName> qui sont presque touts <death>morts</death> a<subst
                         xml:id="f17v02_a_la_aux">
                         <add facs="#f17v02_i_ux">ux</add>
                         <del facs="#f17v02_i_la">la</del>

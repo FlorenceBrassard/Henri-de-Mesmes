@@ -86,11 +86,11 @@
                   <orig>a</orig>
                   <reg>à</reg>
                </choice>
-               <placeName ref="Q90">Paris</placeName> du coup dont il mourrut <add seq="2"><metamark
-                     facs=" #f22r05_i_metamark03" function="insert" target="#f22r05_et_luy"
-                     >^</metamark></add><add seq="1"><del instant="true" xml:id="f22r05_et_p">et la
-                     p</del></add><add facs="#f22r05_i_et_luy" seq="2" xml:id="f22r05_et_luy"
-                     ><metamark>^</metamark>
+               <placeName ref="Q90">Paris</placeName> du coup dont il <death>mourrut</death>
+               <add seq="2"><metamark facs=" #f22r05_i_metamark03" function="insert"
+                     target="#f22r05_et_luy">^</metamark></add><add seq="1"><del instant="true"
+                     xml:id="f22r05_et_p">et la p</del></add><add facs="#f22r05_i_et_luy" seq="2"
+                  xml:id="f22r05_et_luy"><metamark>^</metamark>
                   <seg xml:id="f22r05_Et_le"><choice>
                         <orig>E</orig>
                         <reg>e</reg>

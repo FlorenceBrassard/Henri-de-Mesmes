@@ -29,13 +29,13 @@
     <text>
         <body>
             <ab><s>Or vous ne futes pas long temps puisné car
-                        <persName><forename>Renée</forename></persName> ma fille alla <choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice><choice>
-                        <orig>d</orig>
-                        <reg>D</reg>
-                    </choice>ieu deux ans apres, qui fut le <date when="1562-04-03"><choice>
+                        <persName><forename>Renée</forename></persName> ma fille <death>alla <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice><choice>
+                            <orig>d</orig>
+                            <reg>D</reg>
+                        </choice>ieu</death> deux ans apres, qui fut le <date when="1562-04-03"><choice>
                             <orig>iij</orig>
                             <reg>3</reg>
                         </choice><hi rend="superscript">e</hi>

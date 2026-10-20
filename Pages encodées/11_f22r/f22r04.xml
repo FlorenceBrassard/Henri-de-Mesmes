@@ -130,8 +130,8 @@
                     <metamark facs="#f22r04_i_metamark03" function="insert"
                         target="#f22r04_estoit_absent_add">^</metamark><add
                         facs="#f22r04_estoit_absent_add" xml:id="f22r04_estoit_absent_add"
-                            ><metamark>^</metamark> estoit acouchée moy absent</add> sept mois apres
-                    mon <choice>
+                            ><metamark>^</metamark>
+                        <birth>estoit acouchée</birth> moy absent</add> sept mois apres mon <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
                     </choice>tement de <placeName ref="Q142"><choice>
@@ -161,8 +161,8 @@
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> XI heures et 1 quart du soir </add>
-                    <del facs="#f22r04_i_estoit_absent_del" xml:id="f22r04_estoit_absent_del">estoit
-                        acouchée moy absent</del><substJoin
+                    <del facs="#f22r04_i_estoit_absent_del" xml:id="f22r04_estoit_absent_del"
+                            ><birth>estoit acouchée</birth> moy absent</del><substJoin
                         target="#f22r04_estoit_absent_add #f22r04_estoit_absent_del"/> et <del
                         facs="#f22r04_i_l" xml:id="f22r04_l">l<choice>
                             <orig/>
@@ -197,7 +197,7 @@
                                 <reg>v</reg>
                             </choice>ay que</del>
                         <add>Mais son aieule</add>
-                    </subst> ma belle mere estoit morte durant ce vo<choice>
+                    </subst> ma belle mere <death>estoit morte</death> durant ce vo<choice>
                         <orig>i</orig>
                         <reg>y</reg>
                     </choice>age, qui se nommoit damoyselle <persName><forename full="init"
@@ -213,14 +213,14 @@
                         <del instant="true"><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
-                            </choice>lle estoit morte</del>
+                            </choice>lle <death>estoit morte</death></del>
                         <add><choice>
                                 <orig>l</orig>
                                 <reg>L</reg>
                             </choice>e <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
-                            </choice>our de sa mort fut</add>
+                            </choice>our de <death>sa mort</death> fut</add>
                     </subst> le <date when="1557-03-12">12<choice>
                             <orig>/</orig>
                             <reg/>

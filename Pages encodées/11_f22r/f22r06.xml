@@ -99,7 +99,8 @@
                     </choice>emens, <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e me disposay apres sa mort <choice>
+                    </choice>e me disposay apres <death>sa mort</death>
+                    <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> moins vo<choice>
@@ -191,7 +192,7 @@
                     <supplied cert="high">a</supplied>d<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>eint aussy la mort de mon beau pere<choice>
+                    </choice>eint aussy <death>la mort</death> de mon beau pere<choice>
                         <abbr>m<hi rend="superscript">r</hi>.</abbr>
                         <expan>monsieur</expan>
                     </choice><del instant="true">H</del>
@@ -252,7 +253,7 @@
                         >Hennequins</surname></persName> de sa branche et a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit veu mourir a<choice>
+                    </choice>oit <death>veu mourir</death> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ant luy son frere <choice>
@@ -387,8 +388,9 @@
                     </subst> qui estes vous <add facs="#f22r06_i_mon_filz" xml:id="f22r06_mon_filz"
                             ><roleName ref="Q94908007">mon filz</roleName></add>, <substJoin
                         target="#f22r06_filz #f22r06_second_enfant
-                    #f22r06_mon_filz"/> qui nacquites<anchor
-                        xml:id="f22r06_nacquites"/> le <date when="1560-07-27"><choice>
+                        #f22r06_mon_filz"/> qui
+                        <birth>nacquites</birth><anchor xml:id="f22r06_nacquites"/> le <date
+                        when="1560-07-27"><choice>
                             <orig>xxvij</orig>
                             <reg>27</reg>
                         </choice><hi rend="superscript">e</hi>
