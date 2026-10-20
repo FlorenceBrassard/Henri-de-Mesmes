@@ -71,9 +71,13 @@
                         xml:id="f17r03_et_serviteur">Et en fin de compte pour tout <choice>
                             <orig>E</orig>
                             <reg>e</reg>
-                        </choice>loge, <add xml:id="f17r03_c_domage">c<choice>
-                                <orig/>
-                                <reg>'</reg>
+                        </choice>loge<choice>
+                            <orig>,</orig>
+                            <reg> : « </reg>
+                        </choice>
+                        <add xml:id="f17r03_c_domage"><choice>
+                                <orig>c</orig>
+                                <reg>C'</reg>
                             </choice>est domage</add><choice>
                             <orig/>
                             <reg>, </reg>
@@ -87,7 +91,7 @@
                         </choice>estoit un <seg xml:id="f17r03_bon_seruiteur">bon ser<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>iteur</seg>.</add></s>
+                            </choice>iteur</seg>. »</add></s>
                 <substJoin target="#f17r03_et #f17r03_et_serviteur"/>
                 <s><metamark facs="#f17r03_i_metamark_02" function="insert"
                         target="#f17r03_certes_soymesmes" xml:id="f17r03_metamark_03_02"
