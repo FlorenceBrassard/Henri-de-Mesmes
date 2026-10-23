@@ -57,7 +57,7 @@
                         </choice><surname>Mal<subst>
                                 <del rend="unmarked">edent</del>
                                 <add>udan</add>
-                            </subst></surname></persName>
+                            </subst></surname></persName><anchor xml:id="f18r04_comment_01"/>
                     <choice>
                         <orig>L</orig>
                         <reg>l</reg>
@@ -70,78 +70,93 @@
                         </choice></del><persName ref="Q714921"><surname><choice>
                                 <orig>d</orig>
                                 <reg>D</reg>
-                            </choice>orat</surname></persName>,<add>home </add><add>sca<choice>
+                            </choice>orat</surname></persName><anchor xml:id="f18r04_comment_02"
+                        />,<add>home </add><add>sca<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ant</add> choisy <add facs="#f18r04_i_pour_et">pour sa vie innocente
-                    et</add> d'eage con<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>enable <subst>
-                    <del>pour diriger</del>
-                    <add><choice>
-                            <orig>a</orig>
-                            <reg>à</reg>
-                        </choice>
-                        <choice>
-                            <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                            <expan>con</expan>
-                        </choice>duire</add>
-                </subst> ma <choice>
-                    <orig>i</orig>
-                    <reg>j</reg>
-                </choice>eunesse <choice>
-                    <orig>i</orig>
-                    <reg>j</reg>
-                </choice>usques <subst>
-                    <del>aux lois</del>
-                    <add><subst>
-                            <del>au temps de me sca<choice>
-                                    <orig>u</orig>
-                                    <reg>v</reg>
-                                </choice>oir</del>
-                            <add>a tant que <choice>
-                                    <orig>i</orig>
-                                    <reg>j</reg>
-                                </choice>e me sceusse</add>
-                        </subst> go<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>erner moy<choice>
-                            <orig/>
-                            <reg>-</reg>
-                        </choice>mesme</add>
-                </subst>, come il feit, car il a<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>anca tellement ses estudes par veilles et tra<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>aulx incro<choice>
-                    <orig>i</orig>
-                    <reg>y</reg>
-                </choice>ables qu<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>il alla tous<choice>
-                    <orig>i</orig>
-                    <reg>j</reg>
-                </choice>ours <subst>
-                    <del>de<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>ant moy autant qu</del>
-                    <add>aussy a<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>ant de<choice>
-                            <orig>u</orig>
-                            <reg>v</reg>
-                        </choice>ant moy come</add>
-                </subst> il estoit requis pour m<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>enseigner.</s></ab>
+                        </choice>ant</add> choisy <add facs="#f18r04_i_pour_et">pour sa vie
+                        innocente et</add> d'eage con<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>enable <subst>
+                        <del>pour diriger</del>
+                        <add><choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>
+                            <choice>
+                                <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                                <expan>con</expan>
+                            </choice>duire</add>
+                    </subst> ma <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>eunesse <choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>usques <subst>
+                        <del>aux lois</del>
+                        <add><subst>
+                                <del>au temps de me sca<choice>
+                                        <orig>u</orig>
+                                        <reg>v</reg>
+                                    </choice>oir</del>
+                                <add>a tant que <choice>
+                                        <orig>i</orig>
+                                        <reg>j</reg>
+                                    </choice>e me sceusse</add>
+                            </subst> go<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>erner moy<choice>
+                                <orig/>
+                                <reg>-</reg>
+                            </choice>mesme</add>
+                    </subst>, come il feit, car il a<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>anca tellement ses estudes par veilles et tra<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>aulx incro<choice>
+                        <orig>i</orig>
+                        <reg>y</reg>
+                    </choice>ables qu<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>il alla tous<choice>
+                        <orig>i</orig>
+                        <reg>j</reg>
+                    </choice>ours <subst>
+                        <del>de<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ant moy autant qu</del>
+                        <add>aussy a<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ant de<choice>
+                                <orig>u</orig>
+                                <reg>v</reg>
+                            </choice>ant moy come</add>
+                    </subst> il estoit requis pour m<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>enseigner.</s></ab>
+            <note resp="AV" type="comment" target="f18r04_comment_01"><p>Jean Maledent
+                    (v. 1519-1563), humaniste limousin. Proche de Jean Dorat, il entre avec ce
+                    dernier à la faculté des arts de l’université de Paris en 1537. Diplômé en 1539,
+                    il est ensuite nommé précepteur d’Henri de Mesmes et de son frère cadet,
+                    Jean-Jacques, ce qui constitue « une incontestable promotion » (Letrouit, 2001,
+                    p. 68).</p></note>
+            <note resp="AV" type="comment" target="f18r04_comment_02"><p>Jean Dorat (1508-1588),
+                    humaniste lui aussi originaire du Limousin. Il devient, en 1544, précepteur de
+                    Guillaume de Baïf et de Pierre de Ronsard. Helléniste émérite et poète, il
+                    exerce une influence déterminante sur la Pléiade. Il dira, dans un poème adressé
+                    en 1573 à Jean-Jacques II de Mesmes, avoir été à l’origine de la nomination de
+                    Maledent. Ce rôle pourrait expliquer, outre les onze années d’écart entre les
+                    deux hommes, qu’Henri de Mesmes considère son précepteur comme un disciple de
+                    Dorat (Letrouit, 2001, p. 68, note 6).</p></note>
             <note resp="AV" type="genetic"><p>On fait l’hypothèse que les corrections du début de la
                     phrase (« <del>mis don</del> », « <del>meut auec</del> ») sont effectuées dès le
                     premier jet. Henri de Mesmes hésite sur la forme verbale adéquate : « fus

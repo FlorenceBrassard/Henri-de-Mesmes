@@ -33,8 +33,11 @@
          <ab><s><choice>
                   <orig>m</orig>
                   <reg>M</reg>
-               </choice>es premiers ans passerent soubs la garde d<del>'</del>e <roleName>ma
-                  mere</roleName>
+               </choice>es premiers ans passerent soubs la garde d<del>'</del>e ma mere<anchor
+                  xml:id="f18r03_comment_01"/><choice>
+                  <orig/>
+                  <reg>,</reg>
+               </choice>
                <del xml:id="f18r03_dame_Hennequin">dame <persName><forename>Nicole</forename>
                      <surname ref="Q21493029">Hennequin</surname></persName></del>
                <add>l'une</add> des meilleures femmes et des meilleures <subst>
@@ -45,6 +48,9 @@
                   <add facs="#f18r03_i_de_temps" seq="2" xml:id="f18r03_de_temps">de son
                      temps.</add>
                </subst></s></ab>
+         <note resp="AV" type="comment" target="f18r03_comment_01"><p>Henri de Mesmes semble
+               suggérer qu’il n’a pas été placé en nourrice, pratique pourtant très courante au
+                  XVI<hi rend="superscript">e</hi> siècle (Minvielle, 2010, p. 119-120).</p></note>
          <note resp="AV" type="genetic"><p>Henri de Mesmes <seg corresp="#f18r03_dame_Hennequin"
                   facs="">supprime le nom de sa mère</seg>, certainement parce qu’il s’est souvenu
                qu’il l’a déjà donné peu avant. Le superlatif passe de « <seg

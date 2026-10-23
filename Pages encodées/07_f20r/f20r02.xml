@@ -129,7 +129,7 @@
                         </choice>entrer au <orgName>grand <choice>
                                 <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                                 <expan>con</expan>
-                            </choice>seil</orgName>
+                            </choice>seil</orgName><anchor xml:id="f20r02_comment_01"/>
                     </add>.</s>
                 <s><delSpan spanTo="#f20r02_par" xml:id="f20r02_et_par"/><choice>
                         <orig>e</orig>
@@ -399,8 +399,8 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>estre</del>
-                        <del>examiné sur le champ qui ne fut acceptée et me <seg xml:id="f20r02_receurent_examen">receurent sens examen</seg>
-                            sur <choice>
+                        <del>examiné sur le champ qui ne fut acceptée et me <seg
+                                xml:id="f20r02_receurent_examen">receurent sens examen</seg> sur <choice>
                                 <abbr><g ref="#que-glyph">ꝙ</g>l<g ref="#que-glyph">ꝙ</g></abbr>
                                 <expan>quelque</expan>
                             </choice> opinion qu<choice>
@@ -471,6 +471,17 @@
                         target="#f20r02_auec_examiner #f20r02_auec_eage #f20r02_et_examen #f20r02_apres_rencontres"
                     />
                 </s></ab>
+            <note resp="AV" type="comment" target="f20r01_comment_01"><p>Le Conseil du roi constitue
+                    l’organe décisionnel majeur de la monarchie (Michon, 2020, chap. 11 ; Barbiche,
+                    2012, chap. 16). À la fin du XV<hi rend="superscript">e</hi> siècle, une section
+                    s’en détache : le Grand Conseil (Barbiche, 2012, p. 107 ; Trani, 1991).
+                    Spécialisé à l’origine dans la gestion des affaires judiciaire, il gagne en
+                    autonomie tout en demeurant au service du roi. Il gère en particulier les cas
+                    que le roi souhaite soustraire aux parlements, à l’instar du procès évoqué peu
+                    après par le mémorialiste. Henri de Mesmes entre au Grand Conseil par lettres de
+                    provision données à Paris en janvier 1552 (BnF, ms. fr. 32989, f. 177) ; il
+                    prête serment devant le chancelier le 14 janvier (ms. fr. 32990, p. 152) et est
+                    reçu le 16 (ms. fr. 14015, f. 33) (Trani, 1991, p. 186).</p></note>
             <note resp="AV" type="genetic"><p>Ce long passage, qui fait l’objet d’un premier
                     retravail, est presque entièrement supprimé par deux larges ratures. Le propos,
                     assez confus, laisse entrevoir un conflit entre les usages de l’université de
@@ -506,8 +517,9 @@
                         corresp="#f20r02_et_examen" facs="">et sens examen</seg> » dans le corps du
                     texte, comme le suggère la position de leurs marques d’insertion, de part et
                     d’autre du syntagme. Ils sont très probablement concomitants de la seconde
-                    grande rature. L’ajout de « et sens examen » viendrait en effet
-                    relayer la suppression de « <seg corresp="#f20r02_receurent_examen" facs="">receurent sens examen</seg> ».</p>
+                    grande rature. L’ajout de « et sens examen » viendrait en effet relayer la
+                    suppression de « <seg corresp="#f20r02_receurent_examen" facs="">receurent sens
+                        examen</seg> ».</p>
             </note>
             <note resp="AV" type="critic"><p>É. Frémy intègre « par M<hi rend="superscript">rs</hi>
                     Du Ferrier, Corras, du Bourg, Cujas et Pibrac, cela » (éd. des <hi rend="italic"

@@ -114,7 +114,7 @@
                     /> receu au <orgName ref="Q1242473"><choice>
                             <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                             <expan>par</expan>
-                        </choice>lement</orgName>
+                        </choice>lement</orgName><anchor xml:id="f20r03_comment_01"/>
                     <metamark facs="#f20r03_i_metamark2" function="insert">^</metamark><add
                         facs="#f20r03_i_aussy_examen" xml:id="f20r03_aussy_examen"
                             ><metamark>^</metamark>aussy sens examen</add> le <date
@@ -140,7 +140,8 @@
                         bon <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
                             <expan>maistre</expan>
-                        </choice> le voulust <add>ainsy</add> et dit qu<choice>
+                        </choice><anchor xml:id="f20r03_comment_02"/> le voulust <add>ainsy</add> et
+                        dit qu<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice>il a<choice>
@@ -204,7 +205,8 @@
                         <add place="superimposed">u</add>
                     </subst>
                     <subst>
-                        <add facs="#f20r03_i_pais" xml:id="f20r03_pais">pais</add>
+                        <add facs="#f20r03_i_pais" xml:id="f20r03_pais">pais<anchor
+                                xml:id="f20r03_comment_03"/></add>
                         <del facs="#f20r03_i_limosin" xml:id="f20r03_limosin"><placeName ref="Q1190"><choice>
                                     <orig>l</orig>
                                     <reg>L</reg>
@@ -245,7 +247,25 @@
                     </choice>oient <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> son trespas.</s></ab>
+                    </choice> son trespas<anchor xml:id="f20r03_comment_04"/>.</s></ab>
+            <note resp="AV" type="comment" target="f20r01_comment_01"><p>Voir <hi rend="italic"
+                        >supra</hi>, note 22.</p></note>
+            <note resp="AV" type="comment" target="f20r01_comment_02"><p>Henri II (1519-1559), roi
+                    de France à partir de 1547. Par la formule « mon bon maistre », le mémorialiste
+                    prépare le caractère tragique du décès du souverain et le portrait moins
+                    favorable d’Henri III.</p></note>
+            <note resp="AV" type="comment" target="f20r01_comment_03"><p>Il s’agit probablement du
+                    procès intenté contre François de Pontbriant, sénéchal du Limousin (Frémy, 1881,
+                    p. 16), suspecté de malversations financières. Une commission en date du 1er
+                    février 1553 (1554 en « nouveau style ») est signée par le « vicomte de Roissy »
+                    (Archives nationales, 1554-02-01/1).</p></note>
+            <note resp="AV" type="comment" target="f20r01_comment_04"><p>Parmi ces onze enfants, on
+                    connaît Jean-Jacques de Mesmes, seigneur d’Arches et de Langle, avec qui le
+                    mémorialiste a été éduqué ; Jean-Gabriel de Mesmes, conseiller au Parlement de
+                    Paris ; Antoinette de Mesmes, épouse de François d’Elbène, seigneur de L’Épine ;
+                    Adrienne de Mesmes (Moreri <hi rend="italic">et al.</hi>, 1759 t. VII, p. 495),
+                    épouse de Philippe Le Sueur, seigneur d’Osny ; Marguerite de Mesmes, épouse de
+                    François Barquin, puis de Pierre de Masparault.</p></note>
             <note resp="AV" type="genetic"><p>La <seg corresp="#f20r03_XVI_1552" facs="">date de
                         l’entrée d’Henri de Mesmes au Grand Conseil</seg> est supprimée avec le
                     reste du passage (voir f. 20r<hi rend="superscript">o</hi>, seg. 2). Dans la

@@ -48,7 +48,7 @@
                </choice><orgName>escole des <choice>
                      <orig>i</orig>
                      <reg>I</reg>
-                  </choice>nstitutes</orgName>.</s><s>
+                  </choice>nstitutes</orgName><anchor xml:id="f19r05_comment_01"/>.</s><s>
                <subst>
                   <del facs="#f19r05_i_mais" xml:id="f19r05_mais"><choice>
                         <orig>m</orig>
@@ -69,15 +69,16 @@
                   </choice>uys</add> nous <subst>
                   <del>primes</del>
                   <add>eumes noz</add>
-               </subst> heures pour lire aux <orgName>grandes escoles</orgName>, et leumes les
-               autres trois ans entiers.</s>
+               </subst> heures pour lire aux <orgName>grandes escoles</orgName><anchor
+                  xml:id="f19r05_comment_02"/>, et leumes les autres trois ans entiers.</s>
             <s><choice>
                   <orig>p</orig>
                   <reg>P</reg>
                </choice>endant lesquels nous fre<choice>
                   <abbr><g ref="que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
-               </choice>ntions aux festes les disputes publiques, et <choice>
+               </choice>ntions aux festes les disputes publiques<anchor xml:id="f19r05_comment_03"
+               />, et <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e n<choice>
@@ -90,6 +91,22 @@
                      <del>estudes</del>
                      <add>debiles forces</add>
                   </subst></add>.</s></ab>
+         <note resp="AV" type="comment" target="f19r05_comment_01"><p>L’école des <hi rend="italic"
+                  >Institutes</hi>, du nom du manuel de droit romain rédigé à la demande de
+               Justinien I<hi rend="superscript">er</hi> (VI<hi rend="superscript">e</hi> s.), est
+               créée à la demande du conseil municipal de Toulouse, dans un local fourni par la
+               faculté de droit. Elle permet à des étudiants ou anciens étudiants d’y donner des
+               leçons publiques. Le célèbre juriste Jacques Cujas (1520-1590) y professe entre 1547
+               et 1554 (Mouranche, 2010, p. 175) ; Henri de Mesmes y débute dans les mêmes années.
+               Il est alors fréquent, à Toulouse, que les meilleurs étudiants assurent des cours, en
+               renfort des professeurs titulaires, dit docteurs régents (Gilles, 1992,
+            p. 215).</p></note>
+         <note resp="AV" type="comment" target="f19r05_comment_02"><p>Au sein même de l’université,
+               par opposition à l’école des <hi rend="italic">Institutes</hi>.</p></note>
+         <note resp="AV" type="comment" target="f19r05_comment_03"><p>Contrairement aux lectures
+               – qui accordent d’abord la parole à une personne –, les disputes ont pour vocation
+               d’opposer des voix et des arguments contradictoires. Elles sont formatrices tant sur
+               le fond que sur la forme (Périgot, 2005).</p></note>
       </body>
    </text>
 </TEI>

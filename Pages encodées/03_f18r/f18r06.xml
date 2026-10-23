@@ -36,14 +36,14 @@
                      <abbr>I. I.</abbr>
                      <expan>Jean-Jacques</expan>
                   </choice></forename>
-               <add><surname>de Mesmes</surname></add></persName>
+               <add><surname>de Mesmes</surname></add></persName><anchor xml:id="f18r06_comment_01"/>
             <choice>
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu mis au <orgName ref="Q1109997">college de <choice>
                   <orig>b</orig>
                   <reg>B</reg>
-               </choice>ourgoigne</orgName>
+               </choice>ourgoigne</orgName><anchor xml:id="f18r06_comment_02"/>
             <subst>
                <del>en</del>
                <add>dez</add>
@@ -54,7 +54,24 @@
                   <reg>'</reg>
                </choice>an <hi rend="trait_suscrit">1542</hi></date>
             <del>et</del>
-            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe.</ab>
+            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe<anchor
+               xml:id="f18r06_comment_03"/>.</ab>
+         <note resp="AV" type="comment" target="f18r06_comment_01"><p>Jean-Jacques de Mesmes,
+               seigneur des Arches. Il entre au Grand Conseil en avril 1556, devient maître des
+               requêtes en novembre 1565 – charge qu’il résigne en 1575 –, puis président au Grand
+               Conseil en février 1573 (Trani, 1991, p. 187).</p></note>
+         <note resp="AV" type="comment" target="f18r06_comment_02"><p>Le collège de Bourgogne, situé
+               rue des Cordeliers (actuelle rue de l’École-de-Médecine), est fondé en 1330 par
+               Jeanne II de Bourgogne. Il vise d’abord à offrir des bourses et à loger des élèves
+               scolarisés à l’université de Paris. Investis par les humanistes, les collèges
+               deviennent au XVI<hi rend="superscript">e</hi> siècle des lieux de formation à part
+               entière et se trouvent au cœur d’un important renouveau pédagogique (Grafton et
+               Jardine, 1986 ; Castagnet-Lars, 2018). Jean Maledent est lui aussi logé au collège de
+               Bourgogne.</p></note>
+         <note resp="AV" type="comment" target="f18r06_comment_03"><p>Les collèges parisiens mettent
+               en place une structuration en degrés successifs, de huit à un (Castagnet-Lars, 2018,
+               § 15). Henri de Mesmes commence en troisième classe et entre ensuite en première
+               classe, ce qui signale l’excellence de son parcours.</p></note>
          <note resp="AV" type="critic"><p>Le Français 18617 place « avec luy e[t] mon frere puisné
                Iean Iacques de Mesmes » (f. 4v<hi rend="superscript">o</hi>) à la fin de la phrase
                précédente, ce qui ne paraît guère avoir de sens, tandis que le Duchesne 57 use de

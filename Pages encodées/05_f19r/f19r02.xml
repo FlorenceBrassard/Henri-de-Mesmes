@@ -63,7 +63,7 @@
                             <orig>a</orig>
                             <reg>A</reg>
                         </choice>ristophanes</persName> ou <persName ref="Q48305"
-                            >Euripide<add>s</add></persName> et <subst>
+                            >Euripide<add>s</add></persName><anchor xml:id="f19r02_comment_01"/> et <subst>
                         <del>depuys</del>
                         <add>quelquefois</add>
                     </subst>
@@ -89,7 +89,7 @@
                             </choice></persName> ou <persName ref="Q6197"><choice>
                                 <orig>h</orig>
                                 <reg>H</reg>
-                            </choice>oratius</persName></add>
+                            </choice>oratius</persName><anchor xml:id="f19r02_comment_02"/></add>
                     <choice>
                         <orig/>
                         <reg>.</reg>
@@ -144,6 +144,12 @@
                                 xml:id="f19r02_pres_de">pres de</add> sept</del>
                         <add facs="#f19r02_i_apres_six">apres six.</add>
                     </subst><del rend="unmarked">.</del></s></ab>
+            <note resp="AV" type="comment" target="f19r06_comment_01"><p>Sophocle, Euripide et
+                    Aristophane, dont les œuvres tragiques se prêtent à la mise en voix, voire à la
+                    mise en scène. Les collèges humanistes sont un lieu privilégié d’activités
+                    théâtrales (Mazouer, 2014).</p></note>
+            <note resp="AV" type="comment" target="f19r06_comment_02"><p>Démosthène, Cicéron,
+                    Virgile et Horace.</p></note>
             <note resp="AV" type="genetic"><p>Le mémorialiste supprime <seg
                         corresp="#f19r02_et_plato" facs="#f19r02_i_et_Plato">l’allusion à
                         Platon</seg>, pour la remplacer par une <seg

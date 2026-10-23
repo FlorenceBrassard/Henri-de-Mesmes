@@ -89,7 +89,8 @@
                         <del facs="#f19v08_i_bertrandy"><persName ref="Q3175280"><surname><choice>
                                         <abbr><g ref="#ber-glyph">ƀ</g></abbr>
                                         <expan>Ber</expan>
-                                    </choice>trandy</surname></persName></del>
+                                    </choice>trandy</surname></persName><anchor
+                                xml:id="f19v08_comment_01"/></del>
                         <add facs="#f19v08_i_et_Bertrandy"><del>et <choice>
                                     <abbr><g ref="#qui-glyph">ꝙ</g></abbr>
                                     <expan>qui</expan>
@@ -148,7 +149,7 @@
                                         <orig>R</orig>
                                         <reg>r</reg>
                                     </choice>equestes</expan>
-                            </choice></add>
+                            </choice><anchor xml:id="f19v08_comment_02"/></add>
                     </subst><subst>
                         <del>, puys</del>
                         <add><choice>
@@ -158,7 +159,8 @@
                     </subst> il me feit prendre un office de conseiller <del>et <choice>
                             <abbr rend="overlined">gral</abbr>
                             <expan>general</expan>
-                        </choice></del> en la <orgName>cour des aides</orgName> pource que <choice>
+                        </choice></del> en la <orgName>cour des aides</orgName><anchor
+                        xml:id="f19v08_comment_03"/> pource que <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
                     </choice>estois sy <choice>
@@ -170,7 +172,8 @@
                     </choice>on ne m<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>eust pas admis alieurs <del><add>aussy <choice>
+                    </choice>eust pas admis alieurs<anchor xml:id="f19v08_comment_04"/>
+                    <del><add>aussy <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
                             </choice>e n<choice>
@@ -183,6 +186,28 @@
                                 <orig>iii</orig>
                                 <reg>3</reg>
                             </choice><hi rend="superscript">e</hi></add></del>.</s></ab>
+            <note resp="AV" type="comment" target="f19v08_comment_01"><p>Jean (de) Bertrand, dit
+                    également Bertrandi (1482-1560), homme d’État et ecclésiastique d’origine
+                    toulousaine, nommé garde des sceaux en 1551, cardinal en 1557. La fonction de
+                    garde des sceaux est traditionnellement confiée au chancelier de France, chef de
+                    la justice et des conseils du roi, inamovible. Quand celui-ci tombe en disgrâce
+                    ou ne peut plus exercer ses fonctions, il se voit parfois retirer cette
+                    prérogative au profit d’un garde des sceaux, qui remplit alors ses diverses
+                    fonctions (Barbiche, 1993). En 1551, François Olivier, malade et en défaveur,
+                    est ainsi suppléé par Jean Bertrand.</p></note>
+            <note resp="AV" type="comment" target="f19v08_comment_02"><p>Les maîtres des requêtes
+                    ordinaires de l’hôtel du roi sont des « agents polyvalents de la monarchie »
+                    (Barbiche, 2012, p. 117). À l’origine chargés d’administrer la justice au sein
+                    de la maison du roi, ils voient leurs compétences élargies au XVI<hi
+                        rend="superscript">e</hi> siècle, et exercent des fonctions judiciaires,
+                    financières et diplomatiques à l’échelle du royaume (Bély, 2013, p. 36). Les
+                    maîtres des requêtes sont de proches collaborateurs du chancelier, d’où la
+                    volonté de Jean-Jacques Ier de Mesmes de rapprocher le jeune Henri de Jean
+                    Bertrand.</p></note>
+            <note resp="AV" type="comment" target="f19v08_comment_03"><p>La Cour des aides est une
+                    institution judiciaire prenant en charge les affaires relatives aux impôts
+                    (Béguin, Bonzon et Grenier, 2003, p. 156).</p></note>
+            <note resp="AV" type="comment" target="f19v08_comment_04"><p>.</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes substitue à une première explication
                     de la décision de son père une seconde, plus longue, qui se prolonge dans la
                     marge. L’amplification du propos n’en modifie pas fondamentalement la teneur. On

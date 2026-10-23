@@ -89,8 +89,10 @@
                                 </choice>ran<choice>
                                     <orig>c</orig>
                                     <reg>ç</reg>
-                                </choice>oys</date></add>
+                                </choice>oys</date><anchor xml:id="f19v02_comment_01"/></add>
                     </subst>.</s></ab>
+            <note resp="AV" type="comment" target="f19v02_comment_01"><p>Le 4 octobre
+                1551.</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute des détails sur les
                     circonstances de la rencontre avec Ferretti : le propos recomposé met davantage
                     en valeur <seg corresp="#f19v02_i_nous_arriuée #f19v02_et_bon"

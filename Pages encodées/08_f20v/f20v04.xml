@@ -113,7 +113,9 @@
                             ref="Q3158358"><surname><choice>
                                     <orig>b</orig>
                                     <reg>B</reg>
-                                </choice>ourdin</surname></persName><del>du <space/></del></seg><choice>
+                                </choice>ourdin</surname></persName><anchor
+                            xml:id="f20v04_comment_01"/>
+                        <del>du <space/></del></seg><choice>
                         <orig/>
                         <reg>.</reg>
                     </choice><subst>
@@ -147,7 +149,7 @@
                     </choice><placeName ref="Q38"><choice>
                             <orig>i</orig>
                             <reg>I</reg>
-                        </choice>talie</placeName>, <subst>
+                        </choice>talie</placeName><anchor xml:id="f20v04_comment_02"/>, <subst>
                         <del>deliberer <seg xml:id="f20v04_den_essay">d<choice>
                                     <orig/>
                                     <reg>'</reg>
@@ -269,7 +271,29 @@
                     </choice>ée que ceste l<choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice>.</s></ab>
+                    </choice><anchor xml:id="f20v04_comment_03"/>.</s></ab>
+            <note resp="AV" type="comment" target="f20v04_comment_01"><p>Jacques Bourdin († 1567),
+                    secrétaire des finances à partir de 1549.</p></note>
+            <note resp="AV" type="comment" target="f20v04_comment_02"><p>Henri II cherche à limiter,
+                    par diverses réformes, le pouvoir des instances provinciales au sein de son
+                    royaume (Bély, 2013, p. 156-157). Henri de Mesmes semble suggérer que le roi
+                    entend alors appliquer en France un régime de nomination annuelle des juges
+                    provinciaux – plutôt que leur accorder un statut perpétuel – et une obligation à
+                    rendre des comptes auprès d’une commission de magistrats. Cette procédure du
+                    sindacato a cours en Italie depuis la fin du XII<hi rend="superscript">e</hi>
+                    siècle (Romera, 2022).</p></note>
+            <note resp="AV" type="comment" target="f20v04_comment_03"><p>Henri de Mesmes participe à
+                    la fin des guerres d’Italie (Le Fur, 2018, p. 169-192). En juillet 1552 et avec
+                    l’appui de troupes françaises, Sienne se soulève contre l’armée d’occupation de
+                    Charles Quint, qui réplique par un siège qu’elle entame en 1544, avec le soutien
+                    de Florence. La ville capitule en avril 1555, après une éprouvante résistance
+                    conduite par Blaise de Monluc. L’élite siennoise s’installe alors à Montalcino
+                    et tente de reconstituer une constitution politique en exil, sous protection
+                    française. Henri II a la prérogative de désigner un capitaine de justice pour un
+                    mandat renouvelable de deux ans et des agents contrôlant les finances. Henri de
+                    Mesmes cumule ces deux fonctions : il est nommé, par lettres patentes du 22
+                    avril 1557, « capitaine de justice et surintendant des finances de la république
+                    de Montalcino » (Antoine, 1982, p. 785).</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes retravaille en particulier le passage
                     dans lequel il évoque la faveur d’Henri II : « <seg
                         corresp="#f20v04_me_de #f20v04_maimer" facs="">me faisoit cest honeur de

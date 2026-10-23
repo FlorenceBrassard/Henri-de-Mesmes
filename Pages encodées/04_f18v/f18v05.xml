@@ -73,8 +73,15 @@
                         <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                         <expan>que</expan>
                     </choice><del facs="#f18v05_i_s1" xml:id="f18v05_s1">s</del> bien<del
-                        facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del>.</s>
+                        facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del><anchor
+                        xml:id="f18v05_comment_01"/>.</s>
                 <substJoin target="#f18v05_s1 #f18v05_s2"/></ab>
+            <note resp="AV" type="comment" target="f18v05_comment_01"><p>Hugues Raymond, serviteur
+                    originaire de Bourgogne, n’a pas laissé d’autres traces dans les archives. Ce
+                    bref portrait croisé du serviteur exemplaire et du maître reconnaissant
+                    esquisse, en mode mineur, un modèle de relation auquel contreviendra Henri III
+                    (voir <hi rend="italic">supra</hi>, introduction, p. # ; voir <hi rend="italic"
+                        >infra</hi>, p. #).</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes supprime la mention « <seg>à
                         pied</seg> », qui venait souligner la modeste condition du serviteur, se
                     déplaçant par ses propres moyens plutôt qu’à cheval. Il ajoute par ailleurs que

@@ -56,7 +56,16 @@
                   <del instant="true" seq="1">estoit <unclear cert="high" reason="illegible"
                         agent="author">c</unclear></del>
                   <add><del seq="2">de</del></add>
-               </subst> cognoissoit chaste mais ce fut tout.</s></ab>
+               </subst> cognoissoit chaste mais ce fut tout<anchor xml:id="f20v02_comment_01"
+            />.</s></ab>
+         <note resp="AV" type="comment" target="f20v02_comment_01"><p>Jean-Jacques I<hi
+                  rend="superscript">er</hi> de Mesmes épouse en secondes noces Jeanne Le Père, avec
+               qui il n’a pas d’enfants (Moreri <hi rend="italic">et al.</hi>, 1759, t. VII, p.
+               495). Le père de cette dernière, Gérard Le Père, seigneur de Saint-Marc et de
+               Leau-en-Valois, est avocat au Parlement (Frémy, éd. des <hi rend="italic"
+                  >Mémoires</hi>, p. 151, note 1). Henri de Mesmes tient à marquer la différence
+               entre sa propre mère et cette seconde épouse, pour qui il a visiblement peu
+               d’affection, voire peu d’estime.</p></note>
       </body>
    </text>
 </TEI>

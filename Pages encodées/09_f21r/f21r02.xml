@@ -87,7 +87,7 @@
                         </choice> d<choice>
                            <orig>e</orig>
                            <reg>'E</reg>
-                        </choice>stat</seg> et</del>
+                        </choice>stat<anchor xml:id="f21r02_comment_01"/></seg> et</del>
                   <add facs="#f21r02_i_au" xml:id="f21r02_au">au</add>
                </subst>
                <orgName>
@@ -187,6 +187,13 @@
                      <reg>v</reg>
                   </choice>iron deux mois</add><substJoin
                   target="#f21r02_qui_destre #f21r02_denuiron_mois"/>.</s></ab>
+         <note resp="AV" type="comment" target="f21r02_comment_01"><p>Le Conseil « étroit » désigne
+               le Conseil des affaires, le plus restreint des groupes de conseillers du roi ; Henri
+               de Mesmes l’appelle plus loin le « conseil du matin », parce qu’il se tient plus
+               volontiers à ce moment de la journée. Organisation informelle, sans procédure établie
+               et sans archive, il rassemble « les personnes qui, dans une conjoncture donnée,
+               jouiss[e]nt de la faveur particulière du souverain » (Barbiche, 2012,
+            p. 286).</p></note>
          <note resp="AV" type="genetic"><p>La première version de ce passage coordonne les « <seg
                   corresp="#f21r02_afers_destat" facs="">afe<hi rend="superscript">r</hi>s
                   destat</seg> » et le « <seg corresp="#f21r02_conseil_estroit" facs="">conseil
