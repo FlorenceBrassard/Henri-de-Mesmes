@@ -59,18 +59,22 @@
                     <substJoin target="#f17v04_il #f17v04_aiant #f17v04_é_a"/> feu ma mere <add><del
                             instant="true">d</del> dame</add>
                     <persName><forename>Nicole</forename>
-                        <surname ref="Q21493029">Hennequin</surname></persName><choice>
+                        <surname ref="Q21493029">Hennequin</surname></persName><anchor
+                        xml:id="f17v04_comment_01"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> fille de messire <persName><forename><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>hristofle</forename><surname ref="Q21493029"
-                            >Hennequin</surname></persName><metamark facs="#f17v04_i_metamark01"
-                        function="insert" target="#f17v04_le_ancien">^</metamark><add
-                        facs="#f17v04_i_le_ancien" xml:id="f17v04_le_ancien"><del>le</del> plus
-                        ancien</add> conseiller du <orgName ref="Q1242473">parlement de <placeName
-                            ref="Q90"><choice>
+                            >Hennequin</surname></persName><anchor xml:id="f17v04_comment_02"/><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
+                    <metamark facs="#f17v04_i_metamark01" function="insert"
+                        target="#f17v04_le_ancien">^</metamark><add facs="#f17v04_i_le_ancien"
+                        xml:id="f17v04_le_ancien"><del>le</del> plus ancien</add> conseiller du
+                        <orgName ref="Q1242473">parlement de <placeName ref="Q90"><choice>
                                 <orig>p</orig>
                                 <reg>P</reg>
                             </choice>aris</placeName></orgName> et president d'<placeName
@@ -114,7 +118,7 @@
                     </choice>oit designé premier president de <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
-                        </choice>aris</placeName> pour ce qu<choice>
+                        </choice>aris</placeName><anchor xml:id="f17v04_comment_03"/> pour ce qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il s<choice>
@@ -124,6 +128,19 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit bien faire et bien dire.</s></ab>
+            <note resp="AV" type="comment" target="f17r06_comment_01"><p>Nicole Hennequin épouse
+                    Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes en 1530. Elle meurt en
+                    janvier 1554 (Moreri <hi rend="italic">et al.</hi>, 1759, t. VII, p. 495 ; voir
+                        <hi rend="italic">infra</hi>, p. #).</p></note>
+            <note resp="AV" type="comment" target="f17r06_comment_02"><p>Christophe Hennequin,
+                    seigneur de Dammartin, conseiller au Parlement de Paris et chancelier de
+                    François d’Alençon (Moreri <hi rend="italic">et al.</hi>, 1759, t. V, p. 578).
+                    Il exerce également en tant qu’ambassadeur du roi de France en Suisse.
+                    Jean-Jacques Ier de Mesmes, par son mariage, prend place dans le cercle des
+                    robins parisiens (Le Flem, 1972, p. 132).</p></note>
+            <note resp="AV" type="comment" target="f17r06_comment_03"><p>François I<hi
+                        rend="superscript">er</hi> (1494-1547), roi de France à partir de
+                1515.</p></note>
         </body>
     </text>
 </TEI>

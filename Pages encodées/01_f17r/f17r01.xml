@@ -138,10 +138,10 @@
                (Kuperty-Tsur, 1991 ; Harari, 2004), à l’instar de Robert de La Marck, maréchal de
                Florange, ou des Du Bellay (Piettre, 2022).</p></note>
          <note resp="AV" type="genetic"><p>La première version de ce passage dissocie la rédaction
-               d’une biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi («
-                  <seg corresp="#f17r01_la_propre">la leur propre</seg> »). La première pratique
-               serait motivée par un lien affectif ( « <seg
-                  corresp="#f17r01_ceulx #f17r01_quilz_aimez">ceulx quilz avoient aimez</seg> » )
+               d’une biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi
+                  (« <seg corresp="#f17r01_la_propre">la leur propre</seg> »). La première pratique
+               serait motivée par un lien affectif (« <seg
+                  corresp="#f17r01_ceulx #f17r01_quilz_aimez">ceulx quilz avoient aimez</seg> »)
                <!--               Préférable de séparer en deux <seg>, ou un seul renvoyant à deux identifiants comme j'ai fait ici ?-->
                plutôt que par la seule appartenance familiale. Elle semble à la fois fréquente,
                aisée et plaisante (« <seg corresp="#f17r01_volontiers" facs="#f17r01_i_volontiers"
@@ -163,9 +163,9 @@
                par « <seg corresp="#f17r01_de_valeur" facs="#f17r01_i_de_valeur">de valeur</seg> » ;
                dans la proposition centrale (« <seg corresp="#f17r01_cestoit_moins"
                   facs="#f17r01_i_cestoit_moins">c’estoit au moins… </seg> »), « <seg
-                  corresp="#f17r01_louanges" facs="#f17r01_i_louanges">louanges</seg> » devient «
-                  <seg corresp="#f17r01_remerque" facs="#f17r01_i_remerque">remerque</seg> », « <seg
-                  corresp="#f17r01_vertueuses" facs="#f17r01_i_vertueuses">vertueuses</seg> »
+                  corresp="#f17r01_louanges" facs="#f17r01_i_louanges">louanges</seg> » devient
+                  « <seg corresp="#f17r01_remerque" facs="#f17r01_i_remerque">remerque</seg> », «
+                  <seg corresp="#f17r01_vertueuses" facs="#f17r01_i_vertueuses">vertueuses</seg> »
                devient « <seg corresp="#f17r01_belles" facs="#f17r01_i_belles">belles</seg> ». La
                première substitution déplace la qualité des scripteurs de l’« honnêteté » vers la
                « valeur » : ce dernier terme, <hi rend="italic">a priori</hi> plus polysémique,

@@ -101,7 +101,7 @@
                             <expan><forename>Jean-Jacques</forename>
                                 <nameLink>de</nameLink>
                                 <surname>Mesmes</surname></expan>
-                        </choice></persName>
+                        </choice></persName><anchor xml:id="f17r06_comment_01"/>
                     <metamark facs="#f17r06_i_metamark_01" function="insert"
                         target="#f17r06_issu_descosse" xml:id="f17r06_metamark_01">^</metamark><add
                         facs="#f17r06_i_issu_descosse" xml:id="f17r06_issu_descosse"
@@ -170,10 +170,13 @@
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ich</placeName></add>
-                    </subst>
+                    </subst><anchor xml:id="f17r06_comment_02"/><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice>
                     <persName><forename>Amaneus</forename>
                         <nameLink>de</nameLink>
-                        <surname>Mammes</surname></persName>
+                        <surname>Mammes</surname></persName><anchor xml:id="f17r06_comment_03"/>
                     <del facs="#f17r06_i_qui_01" xml:id="f17r06_qui">qui</del> dez <date when="1200">l<choice>
                             <orig/>
                             <reg>'</reg>
@@ -199,7 +202,8 @@
                         <seg xml:id="f17r06_guerres_Guiene">guerres de la <placeName ref="Q849324"
                                 >Guiene</placeName></seg> et</del><del facs="#f17r06_i_y_01"
                         xml:id="f17r06_y">y</del> espousa<add facs="#f17r06_i_en_marsan"
-                        xml:id="f17r06_en_marsan"> en <placeName>Marsan</placeName></add>
+                        xml:id="f17r06_en_marsan"> en <placeName>Marsan</placeName><anchor
+                            xml:id="f17r06_comment_04"/></add>
                     <substJoin
                         target="#f17r06_pendant_Guiene #f17r06_y #f17r06_en_marsan #f17r06_Marsan_Guiene"/>
                     <choice>
@@ -241,8 +245,9 @@
                                 </choice>en</add>
                         </subst>
                         <seg xml:id="f17r06_ay_titres">ay veu les titres</seg>, et en sont ancore
-                            <seg xml:id="f17r06_les_armes">les armes</seg> en <subst
-                            facs="#f17r06_i_une_la" xml:id="f17r06_une_la">
+                            <seg xml:id="f17r06_les_armes">les armes</seg><anchor
+                            xml:id="f17r06_comment_05"/> en <subst facs="#f17r06_i_une_la"
+                            xml:id="f17r06_une_la">
                             <del>une</del>
                             <add>la</add>
                         </subst> chappelle<add facs="#f17r06_i_de_ancestres"
@@ -470,11 +475,68 @@
                         <add>cete maison</add>
                     </subst><substJoin target="#f17r06_ce_01 #f17r06_nom_armes"/>. <anchor
                         xml:id="f17r06_maison"/></s></ab>
+            <note resp="AV" type="comment" target="f17r06_comment_01"><p>Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes (1490-1569), père du mémorialiste, est
+                    issu d’une famille béarnaise aux origines obscures, relevant probablement de la
+                    petite bourgeoisie marchande (Le Flem, 1972, p. 130-153). Il étudie le droit
+                    jusqu’au doctorat à l’université de Toulouse, puis y enseigne. À partir de 1516,
+                    il entre au service de la Navarre et finit par y occuper un office de conseiller
+                    et d’intendant des maisons et des affaires du roi ; il participe notamment,
+                    d’après Sainte-Marthe, à la signature du traité de Noyon (<hi rend="italic"
+                        >Éloges</hi>, 1644, p. 438). Il rejoint ensuite Paris, certainement dans les
+                    années 1528-1529, puis épouse Nicole Hennequin. Au moment du baptême d’Henri de
+                    Mesmes (1532), Jean-Jacques Ier de Mesmes est avocat du Parlement de Paris. En
+                    1537, il fait l’acquisition d’une première partie de la seigneurie de Roissy. Il
+                    devient par la suite lieutenant civil de la prévôté de Paris (1532), puis maître
+                    des requêtes (1544). En 1545, il est envoyé comme ambassadeur extraordinaire
+                    auprès de Charles Quint. En 1548, il aurait assisté au mariage de Jeanne
+                    d’Albret et d’Antoine de Bourbon, qu’il a contribué à négocier. En 1558, il est
+                    l’auteur d’une remontrance en faveur des prétentions territoriales de la Navarre
+                    contre l’Espagne, dans le cadre de la négociation du traité du Cateau-Cambrésis
+                    (Imízcoz, 2011, p. 611-613). En 1559, il devient conseiller d’État ordinaire.
+                    Soucieux de la survivance de ses fonctions et de l’ascension sociale de sa
+                    famille, il prend grand soin de l’éducation de son fils, comme on le verra (voir
+                        <hi rend="italic">infra</hi>, p. #).</p></note>
+            <note resp="AV" type="comment" target="f17r06_comment_02"><p>Très certainement
+                    Berwick-upon-Tweed, aussi connue sous le nom de Berwick. Située à la frontière
+                    entre l’Écosse et l’Angleterre, et de ce fait particulièrement disputée, la
+                    ville passe définitivement aux mains des Anglais en 1482.</p></note>
+            <note resp="AV" type="comment" target="f17r06_comment_03"><p>La mention de ce supposé
+                    ancêtre écossais est au cœur des « prétentions généalogiques » de la famille
+                    Mesmes (Le Flem, 1972, p. 129). Le mémorialiste cherche à anoblir sa lignée par
+                    ce récit en forme de mythe, selon une tendance partagée à l’Époque moderne
+                    (Solignac, 2016 ; Deguin, 2020). La mise en scène de la découverte des origines,
+                    à laquelle la mention d’une date et d’un document confère de l’autorité, permet
+                    à Henri de Mesmes de se réclamer d’une identité ancienne et chevaleresque
+                    (Deruelle, 2015), tant collective qu’individuelle, dans un contexte où
+                    l’ensemble de la noblesse se préoccupe de généalogie (Pinet, 2025). Mais la
+                    distance entre le XIII<hi rend="superscript">e</hi> et le XVI<hi
+                        rend="superscript">e</hi> siècle est certainement au moins aussi grande que
+                    celle entre l’histoire et ce récit. Celui-ci paraît très tôt suspect : Jean Le
+                    Laboureur (éd. 1659, t. II, p. 848) estime qu’Amaneus de Mammes serait
+                    originaire non pas d’Écosse mais de Gascogne, comme toute la famille Mesmes. En
+                    1647, François Blanchard fait remonter la lignée à Pierre de Mesmes, qui aurait
+                    vécu au XIIIe siècle (Blanchard, 1647, p. 389). Le duc de Saint-Simon,
+                    particulièrement sensible aux revendications nobiliaires douteuses, estimera
+                    pour sa part que « ces Mesmes sont des paysans de Mont-de-Marsan », dont la
+                    généalogie, qu’ils ont fait « insérer partout », vise à « abuser le monde » (éd.
+                    Coirault, t. IV, p. 377-378, cité par Le Flem, 1972, p. 129).</p></note>
+            <note resp="AV" type="comment" target="f17r06_comment_04"><p>Le pays de Marsan,
+                    territoire des Landes actuelles, dont la capitale était déjà
+                Mont-de-Marsan.</p></note>
+            <note resp="AV" type="comment" target="f17r06_comment_05"><p>Édouard Frémy décrit ainsi
+                    les armoiries de la famille du mémorialiste : « Les de Mesmes portaient :
+                    écartelé au 1<hi rend="superscript">er</hi> d’or au croissant de sable, aux 2 et
+                    3 d’or, à deux lions léopardés de gueules, armés et lampassés d’azur, qui est de
+                    Bigorre ; au 4 d’or, à la pointe ondée d’azur surmontée d’une étoile de sable
+                    qui est Lassuis » (éd. Frémy, 1886, p. 129). Les armoiries font partie
+                    intégrante du capital social d’une famille et d’un individu au XVI<hi
+                        rend="superscript">e</hi> siècle (Couhault, 2021).</p></note>
             <note resp="AV" type="genetic"><p>Le récit des origines est un des passages les plus
-                    retravaillés et des plus raturés du manuscrit. Les hésitations dont témoigne
-                    l’analyse génétique ainsi que le contenu même des passages supprimés paraissent
-                    trahir les incertitudes du mémorialiste, qui cherche à doter sa famille
-                    d’origines prestigieuses.</p>
+                    retravaillés et raturés du manuscrit. Les hésitations dont témoigne l’analyse
+                    génétique ainsi que le contenu même des passages supprimés paraissent trahir les
+                    incertitudes du mémorialiste, qui cherche à doter sa famille d’origines
+                    prestigieuses.</p>
                 <p>La première partie du récit fait l’objet de quelques reformulations. Parmi les
                     plus remarquables, on note l’hésitation quant à la bonne manière de souligner
                     l’origine écossaise d’un père pourtant né en Gascogne ; on fait l’hypothèse que
@@ -540,3 +602,4 @@
         </body>
     </text>
 </TEI>
+<?oxy_options track_changes="on"?>

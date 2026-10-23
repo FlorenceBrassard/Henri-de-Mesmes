@@ -32,109 +32,136 @@
             <zone xml:id="f17v03_i_cheuer" points="594,356 594,420 822,410 822,358"/>
             <zone xml:id="f17v03_i_continuer" points="562,316 564,360 834,380 824,316"/>
         </surface>
-        <surface><graphic url="f17v02.jpg"></graphic></surface>
+        <surface>
+            <graphic url="f17v02.jpg"/>
+        </surface>
     </facsimile>
     <text>
         <body>
             <ab><s>Il <subst>
-                    <del>fut</del>
-                    <add seq="2">se rendit</add>
-                </subst>
-                <subst>
-                    <del>en ses</del>
-                    <add seq="1">dez <del>les</del></add>
-                    <add>ses</add>
-                </subst> premiers ans fort celebre <subst>
-                    <del>pour ses</del>
-                    <add>ez</add>
-                </subst>lectures <subst>
-                    <del>en</del>
-                    <add>du</add>
-                </subst> droict ci<choice>
-                    <orig>u</orig>
-                    <reg>v</reg>
-                </choice>il durant <del facs="#f17v03_xii_ou" xml:id="f17v03_xii_ou">xii ou</del> xv
-                    <metamark facs="#f17v03_i_metamark_1" function="insert" target="#f17v03_ou_xx"
-                    xml:id="f17v03_metamark_1">^</metamark><add facs="#f17v03_i_ou_xx"
-                    xml:id="f17v03_ou_xx">ou xx</add><substJoin
-                    target="#xii_ou #f17v03_metamark_1 #f17v03_ou_xx"/> ans, <subst>
-                    <del>et</del>
-                    <add xml:id="f17v02_collegue_faisoient">collegue <metamark
-                            facs="#f17v03_i_metamark_2" function="insert"
-                            target="f17v03_et_compaignon" xml:id="f17v03_metamark_2"
-                            >^</metamark><add facs="#f17v03_i_et_compaignon"
-                            xml:id="f17v03_et_compaignon"><metamark>^</metamark>et <seg
-                                xml:id="f17v02_compaignon">compaignon</seg></add> de <persName
-                            ref="Q3745175"><forename>Philippus</forename>
-                            <surname>Decius</surname></persName> et d'<persName ref="Q464471"
-                                ><forename full="abb"><choice>
-                                    <abbr>Andr.</abbr>
-                                    <expan>Andreas</expan>
-                                </choice></forename>
-                            <surname full="abb">Alciat<choice>
-                                    <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
-                                    <expan>us</expan>
-                                </choice></surname></persName>
-                        <choice>
-                            <abbr>desquls</abbr>
-                            <expan>desquels</expan>
-                        </choice><choice>
-                            <orig>i</orig>
-                            <reg>j'</reg>
-                        </choice>ay veu maint tesmoignage de l'honeur qu<choice>
-                            <orig/>
-                            <reg>'</reg>
-                        </choice>ilz luy <subst>
-                            <del>rendoient</del>
-                            <add>faisoient</add>
-                        </subst></add>
-                </subst><add>mais au lieu d<subst xml:id="f17v03_a_e">
-                        <del rend="overwritten"><choice>
+                        <del>fut</del>
+                        <add seq="2">se rendit</add>
+                    </subst>
+                    <subst>
+                        <del>en ses</del>
+                        <add seq="1">dez <del>les</del></add>
+                        <add>ses</add>
+                    </subst> premiers ans fort celebre <subst>
+                        <del>pour ses</del>
+                        <add>ez</add>
+                    </subst>lectures <subst>
+                        <del>en</del>
+                        <add>du</add>
+                    </subst> droict ci<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>il durant <del facs="#f17v03_xii_ou" xml:id="f17v03_xii_ou">xii
+                        ou</del> xv <metamark facs="#f17v03_i_metamark_1" function="insert"
+                        target="#f17v03_ou_xx" xml:id="f17v03_metamark_1">^</metamark><add
+                        facs="#f17v03_i_ou_xx" xml:id="f17v03_ou_xx">ou xx</add><substJoin
+                        target="#xii_ou #f17v03_metamark_1 #f17v03_ou_xx"/> ans<anchor
+                        xml:id="f17v03_comment_01"/>, <subst>
+                        <del>et</del>
+                        <add xml:id="f17v02_collegue_faisoient">collegue <metamark
+                                facs="#f17v03_i_metamark_2" function="insert"
+                                target="f17v03_et_compaignon" xml:id="f17v03_metamark_2"
+                                >^</metamark><add facs="#f17v03_i_et_compaignon"
+                                xml:id="f17v03_et_compaignon"><metamark>^</metamark>et <seg
+                                    xml:id="f17v02_compaignon">compaignon</seg></add> de <persName
+                                ref="Q3745175"><forename>Philippus</forename>
+                                <surname>Decius</surname></persName><anchor
+                                xml:id="f17r06_comment_02"/> et d'<persName ref="Q464471"><forename
+                                    full="abb"><choice>
+                                        <abbr>Andr.</abbr>
+                                        <expan>Andreas</expan>
+                                    </choice></forename>
+                                <surname full="abb">Alciat<choice>
+                                        <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
+                                        <expan>us</expan>
+                                    </choice></surname></persName><anchor xml:id="f17r06_comment_03"/>
+                            <choice>
+                                <abbr>desquls</abbr>
+                                <expan>desquels</expan>
+                            </choice><choice>
+                                <orig>i</orig>
+                                <reg>j'</reg>
+                            </choice>ay veu maint tesmoignage de l'honeur qu<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>a</del>
-                        <add place="superimposed">e</add>
-                    </subst><subst>
-                        <del facs="#f17v03_i_cheuer" xml:id="f17v03_cheuer">che<choice>
-                                <orig>u</orig>
-                                <reg>v</reg>
-                            </choice>er</del>
-                        <add facs="#f17v03_i_continuer" xml:id="f17v03_continuer"><choice>
-                                <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                                <expan>con</expan>
-                            </choice>tinuer</add>
-                    </subst><substJoin target=" #f17v03_a_e #f17v03_cheuer #f17v03_continuer"/>
-                    ceste <choice>
-                        <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
-                        <expan>pro</expan>
-                    </choice>fession <del><seg xml:id="f17v02_et_escrits">et se perpetuer par ses
-                            escrits</seg> il</del></add> fut requis par la <persName ref="Q236896"
-                        ><roleName>Reyne</roleName>
-                    <forename>Caterine</forename>
-                    <nameLink>de</nameLink>
-                    <placeName ref="Q111628725">Navarre</placeName></persName> de venir en <placeName ref="Q142"><choice>
-                        <orig>f</orig>
-                        <reg>F</reg>
-                    </choice>rance</placeName> pour assister ses <del>grands</del> a<choice>
-                    <abbr>fe<hi rend="superscript">r</hi></abbr>
-                    <expan>faire</expan>
-                </choice>s <subst>
-                    <add>et acompaigner</add>
-                    <del>avec</del>
-                </subst>le <persName ref="Q317506"><roleName>Roy</roleName>
-                    <forename>Henry</forename>
-                    <nameLink>de</nameLink>
-                    <placeName ref="Q111628725">Navarre</placeName></persName> son filz.<s></s> <choice>
-                    <orig>q</orig>
-                    <reg>Q</reg>
-                </choice>ui <add>luy</add> fut <del>le</del>
-                <choice>
-                    <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
-                    <expan>com</expan>
-                </choice>mancement d<choice>
-                    <orig/>
-                    <reg>'</reg>
-                </choice>une autre forme de vie.</s></ab>
+                            </choice>ilz luy <subst>
+                                <del>rendoient</del>
+                                <add>faisoient</add>
+                            </subst></add>
+                    </subst><add>mais au lieu d<subst xml:id="f17v03_a_e">
+                            <del rend="overwritten"><choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>a</del>
+                            <add place="superimposed">e</add>
+                        </subst><subst>
+                            <del facs="#f17v03_i_cheuer" xml:id="f17v03_cheuer">che<choice>
+                                    <orig>u</orig>
+                                    <reg>v</reg>
+                                </choice>er</del>
+                            <add facs="#f17v03_i_continuer" xml:id="f17v03_continuer"><choice>
+                                    <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                                    <expan>con</expan>
+                                </choice>tinuer</add>
+                        </subst><substJoin target=" #f17v03_a_e #f17v03_cheuer #f17v03_continuer"/>
+                        ceste <choice>
+                            <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
+                            <expan>pro</expan>
+                        </choice>fession <del><seg xml:id="f17v02_et_escrits">et se perpetuer par
+                                ses escrits</seg> il</del></add> fut requis par la <persName
+                        ref="Q236896"><roleName>Reyne</roleName>
+                        <forename>Caterine</forename>
+                        <nameLink>de</nameLink>
+                        <placeName ref="Q111628725">Navarre</placeName></persName><anchor
+                        xml:id="f17r06_comment_04"/> de venir en <placeName ref="Q142"><choice>
+                            <orig>f</orig>
+                            <reg>F</reg>
+                        </choice>rance</placeName> pour assister ses <del>grands</del> a<choice>
+                        <abbr>fe<hi rend="superscript">r</hi></abbr>
+                        <expan>faire</expan>
+                    </choice>s <subst>
+                        <add>et acompaigner</add>
+                        <del>avec</del>
+                    </subst>le <persName ref="Q317506"><roleName>Roy</roleName>
+                        <forename>Henry</forename>
+                        <nameLink>de</nameLink>
+                        <placeName ref="Q111628725">Navarre</placeName></persName> son filz<anchor
+                        xml:id="f17r06_comment_05"/>.<s/>
+                    <choice>
+                        <orig>q</orig>
+                        <reg>Q</reg>
+                    </choice>ui <add>luy</add> fut <del>le</del>
+                    <choice>
+                        <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
+                        <expan>com</expan>
+                    </choice>mancement d<choice>
+                        <orig/>
+                        <reg>'</reg>
+                    </choice>une autre forme de vie.</s></ab>
+            <note resp="AV" type="comment" target="f17v03_comment_01"><p>Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes enseigne à l’université de Toulouse (Le
+                    Flem, 1972, p. 130).</p></note>
+            <note resp="AV" type="comment" target="f17v03_comment_02"><p>Filippo Decio, dit Philippe
+                    Dèce (1454-1535), éminent juriste italien. Il enseigne à l’université de Valence
+                    entre 1513 et 1515.</p></note>
+            <note resp="AV" type="comment" target="f17v03_comment_03"><p>Andrea Alciato, dit André
+                    Alciat (1492-1550), autre éminent juriste italien, par ailleurs auteur d’un
+                    fameux recueil d’emblèmes. Il enseigne à plusieurs reprises en France : à
+                    Avignon de 1518 à 1522, puis de 1527 à 1529, et à Bourges entre 1529 et 1532,
+                    avant de repartir vers l’Italie jusqu’à sa mort (Jouanna, Hamon <hi
+                        rend="italic">et al.</hi>, 2001, p. 573-574).</p></note>
+            <note resp="AV" type="comment" target="f17v03_comment_04"><p>Catherine de Foix
+                    (1468-1517), reine de Navarre de 1483 à 1517. Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes entre à son service à partir de 1516
+                    (Le Flem, 1972, p. 130).</p></note>
+            <note resp="AV" type="comment" target="f17v03_comment_05"><p>Henri II de Navarre, ou
+                    Henri d’Albret (1503-1555), mari de la célèbre Marguerite de Navarre et de ce
+                    fait beau-frère de François I<hi rend="superscript">er</hi>. Il succède à sa
+                    mère Catherine de Foix sur le trône de Navarre en 1517.</p></note>
             <note resp="AV" type="genetic"><p>La formule « <seg corresp="#f17v02_et_escrits" facs=""
                         >et se perpetuer par ses escrits</seg> », finalement raturée, laisse
                     entendre que Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes aurait pu
