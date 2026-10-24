@@ -30,8 +30,19 @@
          <zone xml:id="f17v01_i_bone_famille" points="906,483 906,606 1397,597 1392,497"/>
          <zone xml:id="f17v01_i_maison_add" points="1092,675 1092,745 1375,720 1365,655"/>
          <zone xml:id="f17v01_i_sa" points="794,883 805,1071 852,1077 964,889"/>
+         <zone xml:id="f17v01_i_Mon_pere" lry="559" lrx="1170" uly="379" ulx="720"/>
+         <zone xml:id="f17v01_i_une_de" lry="524" lrx="3047" uly="362" ulx="1800"/>
+         <zone xml:id="f17v01_i_Cauna" lry="730" lrx="1011" uly="585" ulx="697"/>
+         <zone xml:id="f17v01_i_a_ieunesse" lry="1318" lrx="688" uly="450" ulx="3"/>
       </surface>
-      <graphic url="f17v01.jpg"/>
+      <!--      surface ci-dessous à supprimer (vise à pallier le bug de connexion d'oXygen à Gallica)-->
+      <surface>
+         <graphic url="f17v01.jpg"/>
+         <zone xml:id="f17v01_i_Mon_pere" lry="559" lrx="1170" uly="379" ulx="720"/>
+         <zone xml:id="f17v01_i_une_de" lry="524" lrx="3047" uly="362" ulx="1800"/>
+         <zone xml:id="f17v01_i_Cauna" lry="730" lrx="1011" uly="585" ulx="697"/>
+         <zone xml:id="f17v01_i_a_ieunesse" lry="1318" lrx="688" uly="450" ulx="3"/>
+      </surface>
    </facsimile>
    <text>
       <body>
@@ -111,25 +122,29 @@
                   <reg>j</reg>
                </choice>eunesse.<anchor xml:id="f17v01_ieunesse"/>
                <substJoin target="f17v01_ainsy_ieunesse 17v01_a_ieunesse"/></s></ab>
-         <note resp="AV" type="comment" target="f17r06_comment_01"><p>Jean-Jacques I<hi
-                  rend="superscript">er</hi> de Mesmes serait né en mai 1490 à Roquefort (Le Flem,
-               1972, p. 130).</p></note>
-         <note resp="AV" type="genetic"><p>Le premier jet et son retravail sont intégralement
-               supprimés, à l’exception du sujet de la phrase, « <seg corresp="#f17v01_Mon_pere"
-                  facs="">Mon pere</seg> ». Henri de Mesmes fait disparaître la mention de ses
-               grands-parents, <seg corresp="#f17v01_dun_maison" facs="">Georges de Mesmes</seg> et
-                  <seg corresp="#f17v01_une_Cauna" facs="">Marguerite de Cauna</seg>, qu’il évoquera
+         <note resp="AV" type="comment" target="f17r06_comment_01">
+            <p>Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes serait né en mai 1490 à
+               Roquefort (Le Flem, 1972, p. 130).</p>
+         </note>
+         <note resp="AV" type="genetic">
+            <p>Le premier jet et son retravail sont intégralement supprimés, à l’exception du sujet
+               de la phrase, « <seg corresp="#f17v01_Mon_pere" facs="#f17v01_i_Mon_pere">Mon
+                  pere</seg> ». Henri de Mesmes fait disparaître la mention de ses grands-parents,
+                  <seg corresp="#f17v01_dun_maison #f17v01_de_Mammes" facs="#f17v01_i_dun_Mammes"
+                  >Georges de Mesmes</seg> et <seg corresp="#f17v01_une_Cauna"
+                  facs="#f17v01_i_une_de #f17v01_i_Cauna">Marguerite de Cauna</seg>, qu’il évoquera
                plus loin (voir f. 22v<hi rend="superscript">o</hi>, seg. 1), pour mieux renforcer,
-               dans <seg corresp="#f17v01_a_ieunesse" facs="">l’ajout marginal</seg>, l’évocation
-               des spécificités de la venue au monde de son père, Jean-Jacques I<hi
-                  rend="superscript">er</hi> de Mesmes, en mai 1490. Que celui-ci ait survécu à sa
-               grande prématurité, dans un contexte de forte mortalité infantile, en fait un
-               miraculé. L’ajout amorce également la représentation paradoxale de la carrière du
-               père, placée tant sous le signe de l’obéissance que de la réticence : si ce dernier
-               se montre très tôt doué pour les lettres, cette orientation est moins un choix qu’une
-               conséquence de sa fragilité. Plus robuste, Jean-Jacques I<hi rend="superscript"
-                  >er</hi> de Mesmes aurait peut-être été incité à embrasser une carrière
-               militaire.</p></note>
+               dans <seg corresp="#f17v01_a_ieunesse" facs="#f17v01_i_a_ieunesse">l’ajout
+                  marginal</seg>, l’évocation des spécificités de la venue au monde de son père,
+               Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes, en mai 1490. Que celui-ci ait
+               survécu à sa grande prématurité, dans un contexte de forte mortalité infantile, en
+               fait un miraculé. L’ajout amorce également la représentation paradoxale de la
+               carrière du père, placée tant sous le signe de l’obéissance que de la réticence : si
+               ce dernier se montre très tôt doué pour les lettres, cette orientation est moins un
+               choix qu’une conséquence de sa fragilité. Plus robuste, Jean-Jacques I<hi
+                  rend="superscript">er</hi> de Mesmes aurait peut-être été incité à embrasser une
+               carrière militaire.</p>
+         </note>
       </body>
    </text>
 </TEI>

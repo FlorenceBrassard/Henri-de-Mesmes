@@ -31,9 +31,15 @@
             <zone xml:id="f17v03_i_a_e" points="524,366 518,434 590,432 584,374"/>
             <zone xml:id="f17v03_i_cheuer" points="594,356 594,420 822,410 822,358"/>
             <zone xml:id="f17v03_i_continuer" points="562,316 564,360 834,380 824,316"/>
+            <zone xml:id="f17v03_i_et_escrits" lry="400" lrx="2272" uly="272" ulx="1264"/>
+            <zone xml:id="f17v03_i_collegue_faisoient" points="2814,14 2824,719 2319,662 2153,95"/>
+            <zone xml:id="f17v03_i_compaignon" lry="114" lrx="2795" uly="7" ulx="2445"/>
         </surface>
         <surface>
-            <graphic url="f17v02.jpg"/>
+            <graphic url="f17v03.jpg"/>
+            <zone xml:id="f17v03_i_et_escrits" lry="400" lrx="2272" uly="272" ulx="1264"/>
+            <zone xml:id="f17v03_i_collegue_faisoient" points="2814,14 2824,719 2319,662 2153,95"/>
+            <zone xml:id="f17v03_i_compaignon" lry="114" lrx="2795" uly="7" ulx="2445"/>
         </surface>
     </facsimile>
     <text>
@@ -62,12 +68,12 @@
                         target="#xii_ou #f17v03_metamark_1 #f17v03_ou_xx"/> ans<anchor
                         xml:id="f17v03_comment_01"/>, <subst>
                         <del>et</del>
-                        <add xml:id="f17v02_collegue_faisoient">collegue <metamark
+                        <add xml:id="f17v03_collegue_faisoient">collegue <metamark
                                 facs="#f17v03_i_metamark_2" function="insert"
                                 target="f17v03_et_compaignon" xml:id="f17v03_metamark_2"
                                 >^</metamark><add facs="#f17v03_i_et_compaignon"
                                 xml:id="f17v03_et_compaignon"><metamark>^</metamark>et <seg
-                                    xml:id="f17v02_compaignon">compaignon</seg></add> de <persName
+                                    xml:id="f17v03_compaignon">compaignon</seg></add> de <persName
                                 ref="Q3745175"><forename>Philippus</forename>
                                 <surname>Decius</surname></persName><anchor
                                 xml:id="f17r06_comment_02"/> et d'<persName ref="Q464471"><forename
@@ -111,7 +117,7 @@
                         ceste <choice>
                             <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                             <expan>pro</expan>
-                        </choice>fession <del><seg xml:id="f17v02_et_escrits">et se perpetuer par
+                        </choice>fession <del><seg xml:id="f17v03_et_escrits">et se perpetuer par
                                 ses escrits</seg> il</del></add> fut requis par la <persName
                         ref="Q236896"><roleName>Reyne</roleName>
                         <forename>Caterine</forename>
@@ -142,37 +148,44 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>une autre forme de vie.</s></ab>
-            <note resp="AV" type="comment" target="f17v03_comment_01"><p>Jean-Jacques I<hi
-                        rend="superscript">er</hi> de Mesmes enseigne à l’université de Toulouse (Le
-                    Flem, 1972, p. 130).</p></note>
-            <note resp="AV" type="comment" target="f17v03_comment_02"><p>Filippo Decio, dit Philippe
-                    Dèce (1454-1535), éminent juriste italien. Il enseigne à l’université de Valence
-                    entre 1513 et 1515.</p></note>
-            <note resp="AV" type="comment" target="f17v03_comment_03"><p>Andrea Alciato, dit André
-                    Alciat (1492-1550), autre éminent juriste italien, par ailleurs auteur d’un
-                    fameux recueil d’emblèmes. Il enseigne à plusieurs reprises en France : à
-                    Avignon de 1518 à 1522, puis de 1527 à 1529, et à Bourges entre 1529 et 1532,
-                    avant de repartir vers l’Italie jusqu’à sa mort (Jouanna, Hamon <hi
-                        rend="italic">et al.</hi>, 2001, p. 573-574).</p></note>
-            <note resp="AV" type="comment" target="f17v03_comment_04"><p>Catherine de Foix
-                    (1468-1517), reine de Navarre de 1483 à 1517. Jean-Jacques I<hi
+            <note resp="AV" type="comment" target="f17v03_comment_01">
+                <p>Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes enseigne à l’université de
+                    Toulouse (Le Flem, 1972, p. 130).</p>
+            </note>
+            <note resp="AV" type="comment" target="f17v03_comment_02">
+                <p>Filippo Decio, dit Philippe Dèce (1454-1535), éminent juriste italien. Il
+                    enseigne à l’université de Valence entre 1513 et 1515.</p>
+            </note>
+            <note resp="AV" type="comment" target="f17v03_comment_03">
+                <p>Andrea Alciato, dit André Alciat (1492-1550), autre éminent juriste italien, par
+                    ailleurs auteur d’un fameux recueil d’emblèmes. Il enseigne à plusieurs reprises
+                    en France : à Avignon de 1518 à 1522, puis de 1527 à 1529, et à Bourges entre
+                    1529 et 1532, avant de repartir vers l’Italie jusqu’à sa mort (Jouanna, Hamon
+                        <hi rend="italic">et al.</hi>, 2001, p. 573-574).</p>
+            </note>
+            <note resp="AV" type="comment" target="f17v03_comment_04">
+                <p>Catherine de Foix (1468-1517), reine de Navarre de 1483 à 1517. Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes entre à son service à partir de 1516
-                    (Le Flem, 1972, p. 130).</p></note>
-            <note resp="AV" type="comment" target="f17v03_comment_05"><p>Henri II de Navarre, ou
-                    Henri d’Albret (1503-1555), mari de la célèbre Marguerite de Navarre et de ce
-                    fait beau-frère de François I<hi rend="superscript">er</hi>. Il succède à sa
-                    mère Catherine de Foix sur le trône de Navarre en 1517.</p></note>
-            <note resp="AV" type="genetic"><p>La formule « <seg corresp="#f17v02_et_escrits" facs=""
-                        >et se perpetuer par ses escrits</seg> », finalement raturée, laisse
-                    entendre que Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes aurait pu
-                    produire une œuvre savante à même de le faire entrer dans l’histoire s’il
-                    n’avait pas été « requis » par Catherine de Navarre. Cette suppression paraît
-                    compensée par le contenu de <seg corresp="#f17v02_collegue_faisoient" facs=""
+                    (Le Flem, 1972, p. 130).</p>
+            </note>
+            <note resp="AV" type="comment" target="f17v03_comment_05">
+                <p>Henri II de Navarre, ou Henri d’Albret (1503-1555), mari de la célèbre Marguerite
+                    de Navarre et de ce fait beau-frère de François I<hi rend="superscript">er</hi>.
+                    Il succède à sa mère Catherine de Foix sur le trône de Navarre en 1517.</p>
+            </note>
+            <note resp="AV" type="genetic">
+                <p>La formule « <seg corresp="#f17v03_et_escrits" facs="#f17v03_i_et_escrits">et se
+                        perpetuer par ses escrits</seg> », finalement raturée, laisse entendre que
+                    Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes aurait pu produire une
+                    œuvre savante à même de le faire entrer dans l’histoire s’il n’avait pas été
+                    « requis » par Catherine de Navarre. Cette suppression paraît compensée par le
+                    contenu de <seg corresp="#f17v03_collegue_faisoient" facs="#f17v03_i_compaignon"
                         >l’ajout marginal</seg> : celui-ci met en effet en valeur des liens du père
                     du mémorialiste avec des humanistes et juristes italiens de grande renommée
-                    (Andrea Alciato, Filippo Decio). Le terme « <seg corresp="#f17v02_compaignon"
-                        facs="">compaignon</seg> » permet de souligner la dimension affective et non
-                    seulement intellectuelle de ces relations.</p></note>
+                    (Andrea Alciato, Filippo Decio). Le terme « <seg corresp="#f17v03_compaignon"
+                        facs="#f17v03_i_compaignon">compaignon</seg> » permet de souligner la
+                    dimension affective et non seulement intellectuelle de ces relations.</p>
+            </note>
         </body>
     </text>
 </TEI>

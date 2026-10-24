@@ -26,14 +26,21 @@
          <zone xml:id="f17v05_i_e_a" points="1247,255 1220,327 1287,335 1300,267"/>
          <zone xml:id="f17v05_i_iour" points="1587,240 1582,315 1825,315 1825,247"/>
          <zone xml:id="f17v05_i_nuict" points="1607,202 1607,255 1827,262 1855,197"/>
+         <zone xml:id="f17v05_i_Je_matin" points="62,391 2281,286 2281,624 24,686"/>
+         <zone xml:id="f17v05_i_mais_ce" points="967,72 2472,5 2481,176 957,243"/>
+         <zone xml:id="f17v05_i_jugement_fus" points="67,305 62,405 2338,310 2324,176"/>
       </surface>
       <surface>
          <graphic url="f17v05.jpg"/>
+         <zone xml:id="f17v05_i_Je_matin" points="62,391 2281,286 2281,624 24,686"/>
+         <zone xml:id="f17v05_i_mais_ce" points="967,72 2472,5 2481,176 957,243"/>
+         <zone xml:id="f17v05_i_jugement_fus" points="67,305 62,405 2338,310 2324,176"/>
       </surface>
       <surface>
          <graphic
             url="https://api.nakala.fr/iiif/10.34847/nkl.fbb3jw1m/78d4a6d6c0d4b99210b68eeb9f5ec952e5fcb307/0,1756,1986,1480/full/0/default.jpg"/>
          <zone xml:id="f17v05_i_conceu_1531" points="410,470 393,1343 1816,1316 1813,453"/>
+         <zone xml:id="f17v05_i_1532_1531" lry="1326" lrx="1653" uly="899" ulx="376"/>
       </surface>
    </facsimile>
    <text>
@@ -116,21 +123,24 @@
                         <orig>a</orig>
                         <reg>à</reg>
                      </choice> trois heures du matin</date>.</del></s></ab>
-         <note resp="AV" type="genetic"><p>Le récit de la naissance est repoussé au feuillet
-               suivant : <seg corresp="#f17v05_Je_matin" facs="">la phrase initialement rédigée est
-                  supprimée</seg> et remplacée par un <seg corresp="#f17v05_Mais_1531" facs=""
-                  >ajout</seg> qui permet de placer Henri de Mesmes dans la lignée de son grand-père
-               maternel, en plus de celle de son père. Comme ce sera le cas à de très nombreuses
-               reprises, le mémorialiste hésite sur la date de la mort d’Oudart Hennequin,
-               concomitante de sa propre conception (<seg
-                  corresp="#f17v05_date_15312 #f17v05_date_1531" facs="">1531 ou 1532</seg> ?),
-               comme il hésitera sur sa propre date de naissance (voir f. 18r<hi rend="superscript"
-                  >o</hi>, seg. 1). Cette hésitation paraît imputable aux modifications du
-               calendrier opérées au cours du XVI<hi rend="superscript">e</hi> siècle :
-               uniformisation du début de l’année calendaire, au 1er janvier et non en mars
-               (Annonciation) ou en avril (Pâques), par l’édit de Roussillon en 1564 ; passage du
-               calendrier julien au calendrier grégorien en 1582 (en France, le 9 décembre 1582 est
-               immédiatement suivi du 20 décembre).</p></note>
+         <note resp="AV" type="genetic">
+            <p>Le récit de la naissance est repoussé au feuillet suivant : <seg
+                  corresp="#f17v05_Je_matin" facs="#f17v05_i_Je_matin">la phrase initialement
+                  rédigée est supprimée</seg> et remplacée par un <seg corresp="#f17v05_Mais_1531"
+                  facs="#f17v05_i_mais_ce #f17v05_i_jugement_fus #f17v05_i_conceu_1531">ajout</seg>
+               qui permet de placer Henri de Mesmes dans la lignée de son grand-père maternel, en
+               plus de celle de son père. Comme ce sera le cas à de très nombreuses reprises, le
+               mémorialiste hésite sur la date de la mort d’Oudart Hennequin, concomitante de sa
+               propre conception (<seg corresp="#f17v05_date_15312 #f17v05_date_1531"
+                  facs="#f17v05_i_1532_1531">1531 ou 1532</seg> ?), comme il hésitera sur sa propre
+               date de naissance (voir f. 18r<hi rend="superscript">o</hi>, seg. 1). Cette
+               hésitation paraît imputable aux modifications du calendrier opérées au cours
+                  du XVI<hi rend="superscript">e</hi> siècle : uniformisation du début de l’année
+               calendaire, au 1<hi rend="superscript">er</hi> janvier et non en mars (Annonciation)
+               ou en avril (Pâques), par l’édit de Roussillon en 1564 ; passage du calendrier julien
+               au calendrier grégorien en 1582 (en France, le 9 décembre 1582 est immédiatement
+               suivi du 20 décembre).</p>
+         </note>
       </body>
    </text>
 </TEI>
