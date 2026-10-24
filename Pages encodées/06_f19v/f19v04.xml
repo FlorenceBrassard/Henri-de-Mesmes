@@ -30,6 +30,15 @@
             <zone xml:id="f19v04_i_tesmoigna" points="1978,126 1982,222 2374,213 2361,108"/>
             <zone xml:id="f19v04_i_de_main" points="752,278 747,365 1195,343 1191,256"/>
             <zone xml:id="f19v04_i_il_pere" points="821,339 800,456 2100,365 2091,265"/>
+            <zone xml:id="f19v04_i_voulut" lry="287" lrx="1317" uly="181" ulx="1016"/>
+            <zone xml:id="f19v04_i_assista" lry="256" lrx="1782" uly="146" ulx="1459"/>
+            <zone xml:id="f19v04_i_auec_escole" points="2008,8 2026,135 2478,113 2469,0"/>
+        </surface>
+        <surface>
+            <graphic url="f19v04.jpg"/>
+            <zone xml:id="f19v04_i_voulut" lry="287" lrx="1317" uly="181" ulx="1016"/>
+            <zone xml:id="f19v04_i_assista" lry="256" lrx="1782" uly="146" ulx="1459"/>
+            <zone xml:id="f19v04_i_auec_escole" points="2008,8 2026,135 2478,113 2469,0"/>
         </surface>
         <surface>
             <graphic
@@ -90,16 +99,19 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit pas pris desplaisir.</s></ab>
-            <note resp="AV" type="genetic"><p>Outre le retravail du verbe – suppression de la
-                    modalisation induite par « <seg corresp="#f19v04_il_y" facs="">vouloir</seg> »
-                    et « <seg corresp="#f19v04_daigna" facs="#f19v04_i_daigna">daigner</seg> », au
-                    profit du seul « <seg corresp="#f19v04_assista" facs="">assister</seg> » –, on
-                    notera l’ajout des formules « <seg corresp="#f19v04_auec_escole" facs="">auec
-                        toute lescole</seg> », qui signale l’importance accordée à la leçon du jeune
-                    Henri, ainsi que « <seg corresp="#f19v04_de_main" facs="#f19v04_i_de_main">de sa
-                        main</seg> », qui précise que la missive envoyée à Jean-Jacques I<hi
-                        rend="superscript">er</hi> de Mesmes est autographe, ce qui en accroit la
-                    valeur.</p></note>
+            <note resp="AV" type="genetic">
+                <p>Outre le retravail du verbe – suppression de la modalisation induite par « <seg
+                        corresp="#f19v04_il_y" facs="#f19v04_i_voulut">vouloir</seg> » et « <seg
+                        corresp="#f19v04_daigna" facs="#f19v04_i_daigna">daigner</seg> », au profit
+                    du seul « <seg corresp="#f19v04_assista" facs="#f19v04_i_assista"
+                    >assister</seg> » –, on notera l’ajout des formules « <seg
+                        corresp="#f19v04_auec_escole" facs="#f19v04_i_auec_escole">auec toute
+                        lescole</seg> », qui signale l’importance accordée à la leçon du jeune
+                    Henri, ainsi que « <seg corresp="#f19v04_de_main" facs="#f19v04_i_de_main">de sa
+                        main</seg> », qui précise que la missive envoyée à Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes est autographe, ce qui en accroit la
+                    valeur.</p>
+            </note>
         </body>
     </text>
 </TEI>
