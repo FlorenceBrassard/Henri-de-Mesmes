@@ -24,6 +24,15 @@
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f41/673,1680,2567,1744/full/0/default.jpg"/>
             <zone xml:id="f18r04_i_pour_et" points="522,717 522,830 1352,752 1352,647"/>
+            <zone xml:id="f18r04_i_ieune_home" lry="686" lrx="1274" uly="547" ulx="711"/>
+            <zone xml:id="f18r04_i_home" lry="600" lrx="2526" uly="507" ulx="2298"/>
+            <zone xml:id="f18r04_i_scauant" lry="909" lrx="322" uly="794" ulx="76"/>
+        </surface>
+        <surface>
+            <graphic url="f18r04.jpg"/>
+            <zone xml:id="f18r04_i_ieune_home" lry="686" lrx="1274" uly="547" ulx="711"/>
+            <zone xml:id="f18r04_i_home" lry="600" lrx="2526" uly="507" ulx="2298"/>
+            <zone xml:id="f18r04_i_scauant" lry="909" lrx="322" uly="794" ulx="76"/>
         </surface>
     </facsimile>
     <text>
@@ -143,30 +152,34 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>enseigner.</s></ab>
-            <note resp="AV" type="comment" target="f18r04_comment_01"><p>Jean Maledent
-                    (v. 1519-1563), humaniste limousin. Proche de Jean Dorat, il entre avec ce
-                    dernier à la faculté des arts de l’université de Paris en 1537. Diplômé en 1539,
-                    il est ensuite nommé précepteur d’Henri de Mesmes et de son frère cadet,
-                    Jean-Jacques, ce qui constitue « une incontestable promotion » (Letrouit, 2001,
-                    p. 68).</p></note>
-            <note resp="AV" type="comment" target="f18r04_comment_02"><p>Jean Dorat (1508-1588),
-                    humaniste lui aussi originaire du Limousin. Il devient, en 1544, précepteur de
-                    Guillaume de Baïf et de Pierre de Ronsard. Helléniste émérite et poète, il
-                    exerce une influence déterminante sur la Pléiade. Il dira, dans un poème adressé
-                    en 1573 à Jean-Jacques II de Mesmes, avoir été à l’origine de la nomination de
-                    Maledent. Ce rôle pourrait expliquer, outre les onze années d’écart entre les
-                    deux hommes, qu’Henri de Mesmes considère son précepteur comme un disciple de
-                    Dorat (Letrouit, 2001, p. 68, note 6).</p></note>
-            <note resp="AV" type="genetic"><p>On fait l’hypothèse que les corrections du début de la
-                    phrase (« <del>mis don</del> », « <del>meut auec</del> ») sont effectuées dès le
-                    premier jet. Henri de Mesmes hésite sur la forme verbale adéquate : « fus
-                    mis » et « fus donné » (inachevé) sont des tournures passives ; la forme
-                    retenue, active (« mon pere me donna »), met en valeur la prise de décision
-                    paternelle. Le mémorialiste renforce par ailleurs l’éloge de Jean Maledent, qui
-                    passe de « <seg corresp="#f18r04_ieune_home" facs="">ieune home</seg> » à « <seg
-                        corresp="#f18r04_home_scauant" facs="">home scavant</seg> » dans une
-                    substitution, et dont la « <seg>vie innocente</seg> » est saluée dans un
-                    ajout.</p></note>
+            <note resp="AV" type="comment" target="f18r04_comment_01">
+                <p>Jean Maledent (v. 1519-1563), humaniste limousin. Proche de Jean Dorat, il entre
+                    avec ce dernier à la faculté des arts de l’université de Paris en 1537. Diplômé
+                    en 1539, il est ensuite nommé précepteur d’Henri de Mesmes et de son frère
+                    cadet, Jean-Jacques, ce qui constitue « une incontestable promotion » (Letrouit,
+                    2001, p. 68).</p>
+            </note>
+            <note resp="AV" type="comment" target="f18r04_comment_02">
+                <p>Jean Dorat (1508-1588), humaniste lui aussi originaire du Limousin. Il devient,
+                    en 1544, précepteur de Guillaume de Baïf et de Pierre de Ronsard. Helléniste
+                    émérite et poète, il exerce une influence déterminante sur la Pléiade. Il dira,
+                    dans un poème adressé en 1573 à Jean-Jacques II de Mesmes, avoir été à l’origine
+                    de la nomination de Maledent. Ce rôle pourrait expliquer, outre les onze années
+                    d’écart entre les deux hommes, qu’Henri de Mesmes considère son précepteur comme
+                    un disciple de Dorat (Letrouit, 2001, p. 68, note 6).</p>
+            </note>
+            <note resp="AV" type="genetic">
+                <p>On fait l’hypothèse que les corrections du début de la phrase (« <del>mis
+                        don</del> », « <del>meut auec</del> ») sont effectuées dès le premier jet.
+                    Henri de Mesmes hésite sur la forme verbale adéquate : « fus mis » et « fus
+                    donné » (inachevé) sont des tournures passives ; la forme retenue, active (« mon
+                    pere me donna »), met en valeur la prise de décision paternelle. Le mémorialiste
+                    renforce par ailleurs l’éloge de Jean Maledent, qui passe de « <seg
+                        corresp="#f18r04_ieune_home" facs="#f18r04_i_ieune_home">ieune home</seg> »
+                    à « <seg corresp="#f18r04_home_scauant" facs="#f18r04_i_home #f18r04_i_scauant"
+                        >home scavant</seg> » dans une substitution, et dont la « <seg>vie
+                        innocente</seg> » est saluée dans un ajout.</p>
+            </note>
         </body>
     </text>
 </TEI>
