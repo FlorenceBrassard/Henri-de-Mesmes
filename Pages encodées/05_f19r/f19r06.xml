@@ -32,11 +32,17 @@
          <zone xml:id="f19r06_i_de_france" points="2420,1760 2410,1860 2840,1870 2845,1740"/>
          <zone xml:id="f19r06_i_catedran" lry="435" lrx="2325" uly="285" ulx="1810"/>
          <zone xml:id="f19r06_i_sens_catedran" points="1445,510 2070,505 2070,605 1390,640"/>
+         <zone xml:id="f19r06_i_entre_ieunes_du" lry="1405" lrx="340" uly="1290" ulx="200"/>
+         <zone xml:id="f19r06_i_point_entre_pibrac_apres" lry="1485" lrx="280" uly="1405" ulx="195"
+         />
       </surface>
       <surface>
          <graphic url="f19r06.jpg"/>
          <zone xml:id="f19r06_i_catedran" lry="435" lrx="2325" uly="285" ulx="1810"/>
          <zone xml:id="f19r06_i_sens_catedran" points="1445,510 2070,505 2070,605 1390,640"/>
+         <zone xml:id="f19r06_i_entre_ieunes_du" lry="1405" lrx="340" uly="1290" ulx="200"/>
+         <zone xml:id="f19r06_i_point_entre_pibrac_apres" lry="1485" lrx="280" uly="1405" ulx="195"
+         />
       </surface>
       <surface>
          <graphic
@@ -295,9 +301,10 @@
             <p>É. Frémy ponctue différemment l’énumération des noms des collègues juristes d’Henri
                de Mesmes, ce qui en infléchit le sens : « … aussy Perrery et Fernandy et, des
                jeunes, du Bourg et Pibrac, après, moy. » (éd. des <hi rend="italic">Mémoires</hi>,
-               p. 143-144). Sur le manuscrit autographe, pourtant, aucune virgule ne se trouve
-                  <seg>entre « ieunes » et « du bourg</seg> » et un <seg>point</seg> est bien
-               lisible entre « pibrac » et « apres moy ». </p>
+               p. 143-144). Sur le manuscrit autographe, pourtant, aucune virgule ne se trouve <seg
+                  facs="#f19r06_i_entre_ieunes_du">entre « ieunes » et « du bourg</seg> » et un <seg
+                  facs="#f19r06_i_point_entre_pibrac_apres">point</seg> est bien lisible entre
+               « pibrac » et « apres moy ». </p>
          </note>
       </body>
    </text>
