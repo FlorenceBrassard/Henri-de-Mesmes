@@ -26,8 +26,18 @@
             <zone xml:id="f20v04_i_me" lry="244" lrx="2500" uly="183" ulx="2377"/>
             <zone xml:id="f20v04_i_quelque" lry="300" lrx="2990" uly="165" ulx="2730"/>
             <zone xml:id="f20v04_i_essay_estudes" points="425,440 400,575 1445,470 1450,375"/>
-            <zone xml:id="f20v04_i_favoriser_avancement"
-                points="2372,300 2377,505 2950,516 2983,300"/>
+            <zone xml:id="f20v04_i_et_auancement" points="2372,300 2377,505 2950,516 2983,300"/>
+            <zone xml:id="f20v04_i_me_de" points="1106,267 1096,397 2410,340 2406,234"/>
+            <zone xml:id="f20v04_i_maimer" lry="633" lrx="946" uly="520" ulx="484"/>
+            <zone xml:id="f20v04_i_gouster" lry="333" lrx="2705" uly="205" ulx="2428"/>
+            <zone xml:id="f20v04_i_essay01" lry="577" lrx="655" uly="455" ulx="450"/>
+        </surface>
+        <surface>
+            <graphic url="f20v04a.jpg"/>
+            <zone xml:id="f20v04_i_me_de" points="1106,267 1096,397 2410,340 2406,234"/>
+            <zone xml:id="f20v04_i_maimer" lry="633" lrx="946" uly="520" ulx="484"/>
+            <zone xml:id="f20v04_i_gouster" lry="333" lrx="2705" uly="205" ulx="2428"/>
+            <zone xml:id="f20v04_i_essay01" lry="577" lrx="655" uly="455" ulx="450"/>
         </surface>
         <surface>
             <graphic
@@ -41,6 +51,19 @@
             <zone xml:id="f20v04_i_t_ent" points="2448,1000 2448,1117 2671,1117 2659,988"/>
             <zone xml:id="f20v04_i_metamark3" points="748,1782 677,1912 824,1912"/>
             <zone xml:id="f20v04_i_de_mon" points="995,1700 995,1806 742,1812 742,1706"/>
+            <zone xml:id="f20v04_i_den_pays" lry="1017" lrx="2671" uly="862" ulx="1515"/>
+            <zone xml:id="f20v04_i_Pour_essay" lry="941" lrx="1848" uly="788" ulx="914"/>
+            <zone xml:id="f20v04_i_signée_bourdin" lry="335" lrx="2577" uly="161" ulx="1689"/>
+            <zone xml:id="f20v04_i_du" lry="570" lrx="753" uly="432" ulx="380"/>
+            <zone xml:id="f20v04_i_zone_blanc" lry="536" lrx="1448" uly="406" ulx="753"/>
+        </surface>
+        <surface>
+            <graphic url="f20v04b.jpg"/>
+            <zone xml:id="f20v04_i_den_pays" lry="1017" lrx="2671" uly="862" ulx="1515"/>
+            <zone xml:id="f20v04_i_Pour_essay" lry="941" lrx="1848" uly="788" ulx="914"/>
+            <zone xml:id="f20v04_i_signée_bourdin" lry="335" lrx="2577" uly="161" ulx="1689"/>
+            <zone xml:id="f20v04_i_du" lry="570" lrx="753" uly="432" ulx="380"/>
+            <zone xml:id="f20v04_i_zone_blanc" lry="536" lrx="1448" uly="406" ulx="753"/>
         </surface>
     </facsimile>
     <text>
@@ -272,52 +295,62 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice><anchor xml:id="f20v04_comment_03"/>.</s></ab>
-            <note resp="AV" type="comment" target="f20v04_comment_01"><p>Jacques Bourdin († 1567),
-                    secrétaire des finances à partir de 1549.</p></note>
-            <note resp="AV" type="comment" target="f20v04_comment_02"><p>Henri II cherche à limiter,
-                    par diverses réformes, le pouvoir des instances provinciales au sein de son
-                    royaume (Bély, 2013, p. 156-157). Henri de Mesmes semble suggérer que le roi
-                    entend alors appliquer en France un régime de nomination annuelle des juges
-                    provinciaux – plutôt que leur accorder un statut perpétuel – et une obligation à
-                    rendre des comptes auprès d’une commission de magistrats. Cette procédure du
-                    sindacato a cours en Italie depuis la fin du XII<hi rend="superscript">e</hi>
-                    siècle (Romera, 2022).</p></note>
-            <note resp="AV" type="comment" target="f20v04_comment_03"><p>Henri de Mesmes participe à
-                    la fin des guerres d’Italie (Le Fur, 2018, p. 169-192). En juillet 1552 et avec
-                    l’appui de troupes françaises, Sienne se soulève contre l’armée d’occupation de
-                    Charles Quint, qui réplique par un siège qu’elle entame en 1544, avec le soutien
-                    de Florence. La ville capitule en avril 1555, après une éprouvante résistance
-                    conduite par Blaise de Monluc. L’élite siennoise s’installe alors à Montalcino
-                    et tente de reconstituer une constitution politique en exil, sous protection
-                    française. Henri II a la prérogative de désigner un capitaine de justice pour un
-                    mandat renouvelable de deux ans et des agents contrôlant les finances. Henri de
-                    Mesmes cumule ces deux fonctions : il est nommé, par lettres patentes du 22
-                    avril 1557, « capitaine de justice et surintendant des finances de la république
-                    de Montalcino » (Antoine, 1982, p. 785).</p></note>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes retravaille en particulier le passage
-                    dans lequel il évoque la faveur d’Henri II : « <seg
-                        corresp="#f20v04_me_de #f20v04_maimer" facs="">me faisoit cest honeur de
-                        maimer</seg> » laisse place à « <seg
-                        corresp="#f20v04_cest_de #f20v04_gouster #f20v04_quelque_estudes" facs=""
-                        >cest honeur de <hi rend="italic">gouster quelque essay de mes ieunes
-                            estudes</hi></seg> », puis à « <seg
-                        corresp="#f20v04_me #f20v04_gouster #f20v04_et_auancement" facs="">me
-                        gouster et fauoriser mon auancement</seg> ». Il s’agit de dire au mieux
-                    l’intérêt porté à sa personne et par conséquent à sa carrière. Le terme « <seg
-                        corresp="#f20v04_essay01" facs="">essay</seg> », ajouté puis supprimé,
-                    réapparaît plus bas à deux reprises, dans le premier jet « <seg
-                        corresp="#f20v04_den_essay #f20v04_au_pays" facs="">den f<hi
-                            rend="superscript">er</hi> lessay au pays</seg> », puis dans l’ajout «
-                        <seg corresp="#f20v04_Pour_essay" facs="">pour en f<hi rend="superscript"
-                            >er</hi> vn essay</seg> » : la formule permet de signaler la volonté
-                    d’une expérimentation politique – la nomination des juges pour une année
-                    seulement –, qui passe par la mise à l’épreuve des qualités du jeune Henri.</p>
-                <p>La zone laissée en blanc après « <seg corresp="#f20v04_signée_du" facs="">signée
-                        bourdin du</seg> » laisse imaginer que le mémorialiste souhaitait ajouter
-                    une date qu’il n’avait pas en mémoire au moment de la rédaction du passage.
-                    Peut-être espérait-il trouver l’information dans ses papiers, <hi rend="italic"
-                        >a posteriori</hi> ; la rature indique que la recherche a été
-                vaine.</p></note>
+            <note resp="AV" type="comment" target="f20v04_comment_01">
+                <p>Jacques Bourdin († 1567), secrétaire des finances à partir de 1549.</p>
+            </note>
+            <note resp="AV" type="comment" target="f20v04_comment_02">
+                <p>Henri II cherche à limiter, par diverses réformes, le pouvoir des instances
+                    provinciales au sein de son royaume (Bély, 2013, p. 156-157). Henri de Mesmes
+                    semble suggérer que le roi entend alors appliquer en France un régime de
+                    nomination annuelle des juges provinciaux – plutôt que leur accorder un statut
+                    perpétuel – et une obligation à rendre des comptes auprès d’une commission de
+                    magistrats. Cette procédure du sindacato a cours en Italie depuis la fin du
+                        XII<hi rend="superscript">e</hi> siècle (Romera, 2022).</p>
+            </note>
+            <note resp="AV" type="comment" target="f20v04_comment_03">
+                <p>Henri de Mesmes participe à la fin des guerres d’Italie (Le Fur, 2018,
+                    p. 169-192). En juillet 1552 et avec l’appui de troupes françaises, Sienne se
+                    soulève contre l’armée d’occupation de Charles Quint, qui réplique par un siège
+                    qu’elle entame en 1544, avec le soutien de Florence. La ville capitule en
+                    avril 1555, après une éprouvante résistance conduite par Blaise de Monluc.
+                    L’élite siennoise s’installe alors à Montalcino et tente de reconstituer une
+                    constitution politique en exil, sous protection française. Henri II a la
+                    prérogative de désigner un capitaine de justice pour un mandat renouvelable de
+                    deux ans et des agents contrôlant les finances. Henri de Mesmes cumule ces deux
+                    fonctions : il est nommé, par lettres patentes du 22 avril 1557, « capitaine de
+                    justice et surintendant des finances de la république de Montalcino » (Antoine,
+                    1982, p. 785).</p>
+            </note>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes retravaille en particulier le passage dans lequel il évoque la
+                    faveur d’Henri II : « <seg corresp="#f20v04_me_de #f20v04_maimer"
+                        facs="#f20v04_i_me_de #f20v04_i_maimer">me faisoit cest honeur de
+                        maimer</seg> » laisse place à « <seg
+                        corresp="#f20v04_cest_de #f20v04_gouster #f20v04_quelque_estudes"
+                        facs="#f20v04_i_quelque #f20v04_i_gouster #f20v04_i_essay_estudes">cest
+                        honeur de <hi rend="italic">gouster quelque essay de mes ieunes
+                        estudes</hi></seg> », puis à « <seg
+                        corresp="#f20v04_me #f20v04_gouster #f20v04_et_auancement"
+                        facs="#f20v04_i_me #f20v04_i_et_auancement">me gouster et fauoriser mon
+                        auancement</seg> ». Il s’agit de dire au mieux l’intérêt porté à sa personne
+                    et par conséquent à sa carrière. Le terme « <seg corresp="#f20v04_essay01"
+                        facs="#f20v04_i_essay01">essay</seg> », ajouté puis supprimé, réapparaît
+                    plus bas à deux reprises, dans le premier jet « <seg
+                        corresp="#f20v04_den_essay #f20v04_au_pays" facs="#f20v04_i_den_pays">den
+                            f<hi rend="superscript">er</hi> lessay au pays</seg> », puis dans
+                    l’ajout « <seg corresp="#f20v04_Pour_essay" facs="#f20v04_i_Pour_essay">pour en
+                            f<hi rend="superscript">er</hi> vn essay</seg> » : la formule permet de
+                    signaler la volonté d’une expérimentation politique – la nomination des juges
+                    pour une année seulement –, qui passe par la mise à l’épreuve des qualités du
+                    jeune Henri.</p>
+                <p>La <seg facs="#f20v04_i_zone_blanc">zone laissée en blanc</seg> après « <seg
+                        corresp="#f20v04_signée_du" facs="#f20v04_i_signée_bourdin #f20v04_i_du"
+                        >signée bourdin du</seg> » laisse imaginer que le mémorialiste souhaitait
+                    ajouter une date qu’il n’avait pas en mémoire au moment de la rédaction du
+                    passage. Peut-être espérait-il trouver l’information dans ses papiers, <hi
+                        rend="italic">a posteriori</hi> ; la rature indique que la recherche a été
+                    vaine.</p>
+            </note>
         </body>
     </text>
 </TEI>
