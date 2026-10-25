@@ -30,6 +30,15 @@
             <zone xml:id="f20r03_i_i_lres" points="776,292 780,380 1152,348 1152,252"/>
             <zone xml:id="f20r03_i_ie_expedié" points="692,356 700,516 1348,484 1312,324"/>
             <zone xml:id="f20r03_i_Et" points="1380,176 1340,332 1196,300 1236,160"/>
+            <zone xml:id="f20r03_i_XVI_Januier" lry="384" lrx="1100" uly="188" ulx="288"/>
+            <zone xml:id="f20r03_i_1552" points="1080,108 1084,204 1340,192 1340,100"/>
+            <zone xml:id="f20r03_i_la_suruiuance" lry="416" lrx="2352" uly="276" ulx="1456"/>
+        </surface>
+        <surface>
+            <graphic url="f20r03.jpg"/>
+            <zone xml:id="f20r03_i_XVI_Januier" lry="384" lrx="1100" uly="188" ulx="288"/>
+            <zone xml:id="f20r03_i_1552" points="1080,108 1084,204 1340,192 1340,100"/>
+            <zone xml:id="f20r03_i_la_suruiuance" lry="416" lrx="2352" uly="276" ulx="1456"/>
         </surface>
         <surface>
             <graphic
@@ -48,6 +57,11 @@
             <zone xml:id="f20r03_i_ez_u" points="2095,1500 2095,1504 2054,1650 2200,1640 2200,1504"/>
             <zone xml:id="f20r03_i_pais" points="2254,1504 2195,1668 2495,1677 2495,1522"/>
             <zone xml:id="f20r03_i_limosin" points="218,1790 204,1954 595,1922 600,1786"/>
+            <zone xml:id="f20r03_i_naiant_ans" points="2100,295 2113,509 2686,545 2682,277"/>
+        </surface>
+        <surface>
+            <graphic url="f20r03b.jpg"/>
+            <zone xml:id="f20r03_i_naiant_ans" points="2100,295 2113,509 2686,545 2682,277"/>
         </surface>
     </facsimile>
     <text>
@@ -94,14 +108,15 @@
                                 <abbr rend="overlined">lres</abbr>
                                 <expan>letres</expan>
                             </choice></add>
-                    </subst> de la sur<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>i<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>ance <pb n="f20v"/><metamark facs="#f20r03_i_metamark1"
-                        function="insert" target="#f20r03_de_reqtes">^</metamark>
+                    </subst> de <seg xml:id="f20r03_la_suruiuance">la sur<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>i<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ance</seg>
+                    <pb n="f20v"/><metamark facs="#f20r03_i_metamark1" function="insert"
+                        target="#f20r03_de_reqtes">^</metamark>
                     <add facs="#f20r03_i_de_reqtes" xml:id="f20r03_de_reqtes">
                         <metamark>^</metamark>de <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
@@ -248,36 +263,49 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> son trespas<anchor xml:id="f20r03_comment_04"/>.</s></ab>
-            <note resp="AV" type="comment" target="f20r01_comment_01"><p>Voir <hi rend="italic"
-                        >supra</hi>, note 22.</p></note>
-            <note resp="AV" type="comment" target="f20r01_comment_02"><p>Henri II (1519-1559), roi
-                    de France à partir de 1547. Par la formule « mon bon maistre », le mémorialiste
-                    prépare le caractère tragique du décès du souverain et le portrait moins
-                    favorable d’Henri III.</p></note>
-            <note resp="AV" type="comment" target="f20r01_comment_03"><p>Il s’agit probablement du
-                    procès intenté contre François de Pontbriant, sénéchal du Limousin (Frémy, 1881,
-                    p. 16), suspecté de malversations financières. Une commission en date du 1er
-                    février 1553 (1554 en « nouveau style ») est signée par le « vicomte de Roissy »
-                    (Archives nationales, 1554-02-01/1).</p></note>
-            <note resp="AV" type="comment" target="f20r01_comment_04"><p>Parmi ces onze enfants, on
-                    connaît Jean-Jacques de Mesmes, seigneur d’Arches et de Langle, avec qui le
-                    mémorialiste a été éduqué ; Jean-Gabriel de Mesmes, conseiller au Parlement de
-                    Paris ; Antoinette de Mesmes, épouse de François d’Elbène, seigneur de L’Épine ;
-                    Adrienne de Mesmes (Moreri <hi rend="italic">et al.</hi>, 1759 t. VII, p. 495),
-                    épouse de Philippe Le Sueur, seigneur d’Osny ; Marguerite de Mesmes, épouse de
-                    François Barquin, puis de Pierre de Masparault.</p></note>
-            <note resp="AV" type="genetic"><p>La <seg corresp="#f20r03_XVI_1552" facs="">date de
-                        l’entrée d’Henri de Mesmes au Grand Conseil</seg> est supprimée avec le
-                    reste du passage (voir f. 20r<hi rend="superscript">o</hi>, seg. 2). Dans la
-                    marge, le mémorialiste ajoute une <seg corresp="#f20r03_naiant_ans" facs=""
-                        >précision sur l’âge</seg> auquel il est reçu au Parlement de Paris pour
-                    souligner de nouveau sa précocité et surtout pour insister sur la <seg
-                        corresp="#f20r03_mais_estudes" facs="#f20r03_i_mais_estudes">reconnaissance
-                        dont il bénéficie de la part d’Henri II</seg>.</p></note>
-            <note resp="AV" type="critic"><p>Le Français 18617 et le Duchesne 57 donnent toutes deux
-                    « sa suruiuance » (f. 9r° et f. 59r<hi rend="superscript">o</hi>). La présence
-                    d’un « l » (« <seg>la survivance</seg> ») ne semble pourtant pas faire de doute
-                    sur l’autographe.</p></note>
+            <note resp="AV" type="comment" target="f20r01_comment_01">
+                <p>Voir <hi rend="italic">supra</hi>, note 22.</p>
+            </note>
+            <note resp="AV" type="comment" target="f20r01_comment_02">
+                <p>Henri II (1519-1559), roi de France à partir de 1547. Par la formule « mon bon
+                    maistre », le mémorialiste prépare le caractère tragique du décès du souverain
+                    et le portrait moins favorable d’Henri III.</p>
+            </note>
+            <note resp="AV" type="comment" target="f20r01_comment_03">
+                <p>Il s’agit probablement du procès intenté contre François de Pontbriant, sénéchal
+                    du Limousin (Frémy, 1881, p. 16), suspecté de malversations financières. Une
+                    commission en date du 1<hi rend="superscript">er</hi> février 1553 (1554 en
+                    « nouveau style ») est signée par le « vicomte de Roissy » (Archives nationales,
+                    1554-02-01/1).</p>
+            </note>
+            <note resp="AV" type="comment" target="f20r01_comment_04">
+                <p>Parmi ces onze enfants, on connaît Jean-Jacques de Mesmes, seigneur d’Arches et
+                    de Langle, avec qui le mémorialiste a été éduqué ; Jean-Gabriel de Mesmes,
+                    conseiller au Parlement de Paris ; Antoinette de Mesmes, épouse de François
+                    d’Elbène, seigneur de L’Épine ; Adrienne de Mesmes (Moreri <hi rend="italic">et
+                        al.</hi>, 1759 t. VII, p. 495), épouse de Philippe Le Sueur, seigneur
+                    d’Osny ; Marguerite de Mesmes, épouse de François Barquin, puis de Pierre
+                    de Masparault.</p>
+            </note>
+            <note resp="AV" type="genetic">
+                <p>La <seg corresp="#f20r03_XVI_1552" facs="#f20r03_i_XVI_Januier #f20r03_i_1552"
+                        >date de l’entrée d’Henri de Mesmes au Grand Conseil</seg> est supprimée
+                    avec le reste du passage (voir f. 20r<hi rend="superscript">o</hi>, seg. 2).
+                    Dans la marge, le mémorialiste ajoute une <seg corresp="#f20r03_naiant_ans"
+                        facs="#f20r03_i_naiant_ans">précision sur l’âge</seg> auquel il est reçu au
+                    Parlement de Paris pour souligner de nouveau sa précocité et surtout pour
+                    insister sur la <seg corresp="#f20r03_mais_estudes"
+                        facs="#f20r03_i_mais_estudes">reconnaissance dont il bénéficie de la part
+                        d’Henri II</seg>.</p>
+            </note>
+            <note resp="AV" type="critic">
+                <p>Le Français 18617 et le Duchesne 57 donnent tous deux « sa suruiuance » (f. 9r°
+                    et f. 59r<hi rend="superscript">o</hi>). La présence
+                    <!--                    dans la citation entre parenthèses: la suruiuance ou la survivance ?-->
+                    d’un « l » (« <seg corresp="#f20r03_la_suruiuance"
+                        facs="#f20r03_i_la_suruiuance">la survivance</seg> ») ne semble pourtant pas
+                    faire de doute sur l’autographe.</p>
+            </note>
         </body>
     </text>
 </TEI>

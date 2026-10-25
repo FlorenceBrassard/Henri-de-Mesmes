@@ -52,7 +52,7 @@
             <zone xml:id="f20r02_i_l1" points="1692,1902 1650,2035 1717,2037 1725,1892"/>
             <zone xml:id="f20r02_i_dre" points="1795,1895 1777,2017 1872,2020 1872,1900"/>
             <zone xml:id="f20r02_i_desdaigner_moy" points="515,1847 515,1942 2422,1832 2407,1730"/>
-            <zone xml:id="f20r02_i_tellement_me" points="502,1985 507,2110 1505,2037 1507,1927"/>
+            <zone xml:id="f20r02_i_tellement_me" points="502,1985 507,2110 1505,2037 1507,1927"/>
             <zone xml:id="f20r02_i_lendemain1" points="1198,2602 1198,2726 1656,2684 1658,2572"/>
             <zone xml:id="f20r02_i_lendemain2" points="510,2862 510,3028 1142,2962 1124,2862"/>
             <zone xml:id="f20r02_i_metamark06" points="1360,2766 1360,2856 1486,2846 1476,2763"/>
@@ -64,8 +64,18 @@
             <zone xml:id="f20r02_i_s" points="3183,3060 3153,3170 3200,3166 3223,3060"/>
             <zone xml:id="f20r02_i_auec_destre" points="1506,2805 1465,2941 2500,2882 2477,2735"/>
             <zone xml:id="f20r02_i_examiné_qlq" points="547,3029 2618,2876 2571,3194 471,3370"/>
-            <zone xml:id="f20r02_i_opinion_examiner" points="400,3341 441,3799 3176,3717 2876,3182"
-            />
+            <zone xml:id="f20r02_i_opinion_examiner" points="400,3341 441,3799 3176,3717 2876,3182"/>
+            <zone xml:id="f20r02_i_et_examen" lry="2841" lrx="2082" uly="2720" ulx="1467"/>
+            <zone xml:id="f20r02_i_receurent_examen" lry="3282" lrx="2183" uly="3112" ulx="885"/>
+            <zone xml:id="f20r02_i_la_mon" points="559,2547 2571,2429 2571,2582 512,2700"/>
+            <zone xml:id="f20r02_i_beau_pere" lry="2859" lrx="1111" uly="2720" ulx="532"/>
+        </surface>
+        <surface>
+            <graphic url="f20r02.jpg"/>
+            <zone xml:id="f20r02_i_et_examen" lry="2841" lrx="2082" uly="2720" ulx="1467"/>
+            <zone xml:id="f20r02_i_receurent_examen" lry="3282" lrx="2183" uly="3112" ulx="885"/>
+            <zone xml:id="f20r02_i_la_mon" points="559,2547 2571,2429 2571,2582 512,2700"/>
+            <zone xml:id="f20r02_i_beau_pere" lry="2859" lrx="1111" uly="2720" ulx="532"/>
         </surface>
         <surface>
             <graphic url=""/>
@@ -471,40 +481,41 @@
                         target="#f20r02_auec_examiner #f20r02_auec_eage #f20r02_et_examen #f20r02_apres_rencontres"
                     />
                 </s></ab>
-            <note resp="AV" type="comment" target="f20r01_comment_01"><p>Le Conseil du roi constitue
-                    l’organe décisionnel majeur de la monarchie (Michon, 2020, chap. 11 ; Barbiche,
-                    2012, chap. 16). À la fin du XV<hi rend="superscript">e</hi> siècle, une section
-                    s’en détache : le Grand Conseil (Barbiche, 2012, p. 107 ; Trani, 1991).
-                    Spécialisé à l’origine dans la gestion des affaires judiciaire, il gagne en
-                    autonomie tout en demeurant au service du roi. Il gère en particulier les cas
-                    que le roi souhaite soustraire aux parlements, à l’instar du procès évoqué peu
-                    après par le mémorialiste. Henri de Mesmes entre au Grand Conseil par lettres de
-                    provision données à Paris en janvier 1552 (BnF, ms. fr. 32989, f. 177) ; il
-                    prête serment devant le chancelier le 14 janvier (ms. fr. 32990, p. 152) et est
-                    reçu le 16 (ms. fr. 14015, f. 33) (Trani, 1991, p. 186).</p></note>
-            <note resp="AV" type="genetic"><p>Ce long passage, qui fait l’objet d’un premier
-                    retravail, est presque entièrement supprimé par deux larges ratures. Le propos,
-                    assez confus, laisse entrevoir un conflit entre les usages de l’université de
-                    Toulouse et les attentes des institutions parisiennes. Henri de Mesmes a
-                    privilégié des activités de lecture publique, plus prestigieuses selon lui, et
-                    au même titre que d’autres figures éminentes (Ferrier, Coras, Cujas…) : il
-                    détient, de ce fait, moins de « lettres de licence » (preuves de diplôme) que
-                    d’autres et se voit relégué. Vexé, il envisage d’abandonner cet office, avant
-                    que n’interviennent son beau-père et son père, qui parviennent à accélérer son
-                    entrée en fonction. Henri de Mesmes ne conserve aucune trace de toute cette
-                    procédure et de sa propre hésitation pour n’insister que sur le soutien actif de
-                    ces deux figures paternelles, ainsi que sur sa bonne réputation et sa
-                    précocité.</p>
+            <note resp="AV" type="comment" target="f20r01_comment_01">
+                <p>Le Conseil du roi constitue l’organe décisionnel majeur de la monarchie (Michon,
+                    2020, chap. 11 ; Barbiche, 2012, chap. 16). À la fin du XV<hi rend="superscript"
+                        >e</hi> siècle, une section s’en détache : le Grand Conseil (Barbiche, 2012,
+                    p. 107 ; Trani, 1991). Spécialisé à l’origine dans la gestion des affaires
+                    judiciaires, il gagne en autonomie tout en demeurant au service du roi. Il gère
+                    en particulier les cas que le roi souhaite soustraire aux parlements, à l’instar
+                    du procès évoqué peu après par le mémorialiste. Henri de Mesmes entre au Grand
+                    Conseil par lettres de provision données à Paris en janvier 1552 (BnF, ms.
+                    fr. 32989, f. 177) ; il prête serment devant le chancelier le 14 janvier (ms.
+                    fr. 32990, p. 152) et est reçu le 16 (ms. fr. 14015, f. 33) (Trani, 1991,
+                    p. 186).</p>
+            </note>
+            <note resp="AV" type="genetic">
+                <p>Ce long passage, qui fait l’objet d’un premier retravail, est presque entièrement
+                    supprimé par deux larges ratures. Le propos, assez confus, laisse entrevoir un
+                    conflit entre les usages de l’université de Toulouse et les attentes des
+                    institutions parisiennes. Henri de Mesmes a privilégié des activités de lecture
+                    publique, plus prestigieuses selon lui, et au même titre que d’autres figures
+                    éminentes (Ferrier, Coras, Cujas…) : il détient, de ce fait, moins de « lettres
+                    de licence » (preuves de diplôme) que d’autres et se voit relégué. Vexé, il
+                    envisage d’abandonner cet office, avant que n’interviennent son beau-père et son
+                    père, qui parviennent à accélérer son entrée en fonction. Henri de Mesmes ne
+                    conserve aucune trace de toute cette procédure et de sa propre hésitation pour
+                    n’insister que sur le soutien actif de ces deux figures paternelles, ainsi que
+                    sur sa bonne réputation et sa précocité.</p>
                 <p>Le <seg corresp="#f20r02_mais_conseil" facs="#f20r02_i_mais_conseil">premier
                         ajout marginal de droite</seg> est entamé en amont de la grande rature
                     verticale, comme le suggère la position du signe d’insertion, dans le corps du
                     texte. Il est maintenu et prolongé pour se substituer à toute la partie
-                    supprimée (« <seg corresp="#f20r02_ce_par #f20r02_la_pere"
-                        facs="#f20r02_i_ce_par ">[<hi rend="italic">ce
-                            <!--                            Ajouter facs pour la_pere--> qui me fut
-                            expedié ce iour mesme
+                    supprimée (« <seg corresp="#f20r02_ce_par #f20r02_la_pere"
+                        facs="#f20r02_i_ce_par #f20r02_i_la_mon #f20r02_i_beau_pere">[<hi
+                            rend="italic">ce qui me fut expedié ce iour mesme
                             <!--                            Il y a une parenthèse carrée errante ; est-ce qu'elle est superflue, ou est-ce qu'il manque sa contrepartie fermante ?-->
-                            par</hi>… la diligente entremise et moiens de mon beau pere</seg> »). Le
+                            par</hi>… la diligente entremise et moiens de mon beau pere</seg> »). Le
                         <seg corresp="#f20r02_et_cela" facs="#f20r02_i_et_du #f20r02_i_ferrier_cela"
                         >second ajout marginal de droite</seg>, en revanche, n’a plus de sens une
                     fois la rature opérée et doit être considéré comme supprimé lui aussi.</p>
@@ -513,22 +524,25 @@
                         facs="#f20r02_i_apres_rencontres" corresp="f20r02_apres_rencontres"
                         >droite</seg>,
                     <!--                    J'ai inversé gauche et droite, pour suivre le sens de la lecture-->
-                    ont été effectués en même temps que l’ajout de « <seg
-                        corresp="#f20r02_et_examen" facs="">et sens examen</seg> » dans le corps du
-                    texte, comme le suggère la position de leurs marques d’insertion, de part et
-                    d’autre du syntagme. Ils sont très probablement concomitants de la seconde
-                    grande rature. L’ajout de « et sens examen » viendrait en effet relayer la
-                    suppression de « <seg corresp="#f20r02_receurent_examen" facs="">receurent sens
-                        examen</seg> ».</p>
+                    ont été effectués en même temps que l’ajout de « <seg
+                        corresp="#f20r02_et_examen" facs="#f20r02_i_et_examen">et sens
+                    examen</seg> » dans le corps du texte, comme le suggère la position de leurs
+                    marques d’insertion, de part et d’autre du syntagme. Ils sont très probablement
+                    concomitants de la seconde grande rature. L’ajout de « et sens examen »
+                    viendrait en effet relayer la suppression de « <seg
+                        corresp="#f20r02_receurent_examen" facs="#f20r02_i_receurent_examen"
+                        >receurent sens examen</seg> ».</p>
             </note>
-            <note resp="AV" type="critic"><p>É. Frémy intègre « par M<hi rend="superscript">rs</hi>
-                    Du Ferrier, Corras, du Bourg, Cujas et Pibrac, cela » (éd. des <hi rend="italic"
-                        >Mémoires</hi>, p. 149), ajoute un second « par » pour rendre la phrase
-                    intelligible et fait de ce que nous lisons comme le nom « diligence » un
-                    adjectif (« cela par la diligente entremise et moyens… », <hi rend="italic"
-                        >ibid</hi>.). Les copies manuscrites n’ont pas effectué de tels choix (voir
-                    Français 18617, f. 8v<hi rend="superscript">o</hi> et Duchesne 57, f. 59r<hi
-                        rend="superscript">o</hi>).</p></note>
+            <note resp="AV" type="critic">
+                <p>É. Frémy intègre « par M<hi rend="superscript">rs</hi> Du Ferrier, Corras,
+                    du Bourg, Cujas et Pibrac, cela » (éd. des <hi rend="italic">Mémoires</hi>,
+                    p. 149), ajoute un second « par » pour rendre la phrase intelligible et fait de
+                    ce que nous lisons comme le nom « diligence » un adjectif (« cela par la
+                    diligente entremise et moyens… », <hi rend="italic">ibid</hi>.). Les copies
+                    manuscrites n’ont pas effectué de tels choix (voir Français 18617, f. 8v<hi
+                        rend="superscript">o</hi> et Duchesne 57, f. 59r<hi rend="superscript"
+                        >o</hi>).</p>
+            </note>
         </body>
     </text>
 </TEI>
