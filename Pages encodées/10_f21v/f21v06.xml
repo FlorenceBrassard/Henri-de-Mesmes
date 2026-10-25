@@ -29,6 +29,9 @@
             <zone xml:id="f21v06_i_de_ste" points="682,331 668,413 1096,363 1109,250"/>
             <zone xml:id="f21v06_i_de_france" points="500,381 482,490 896,495 909,377"/>
         </surface>
+        <surface>
+            <graphic url="f21v06.jpg"/>
+        </surface>
     </facsimile>
     <text>
         <body>
@@ -75,16 +78,16 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>itella</placeName>.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes semble avoir hésité quant au sujet du
-                    verbe « assiegea » : « <seg corresp="#f21v06_mr_de" facs="">m<hi
-                            rend="superscript">r</hi> d</seg> » pourrait être le début de « m<hi
-                        rend="superscript">r</hi> de Guyse », d’abord rayé au profit de « <seg
+            <note resp="AV" type="genetic"><p>Henri de Mesmes semble avoir hésité quant au sujet du
+                    verbe « assiegea » : « <seg corresp="#f21v06_mr_de" facs="">m<hi
+                            rend="superscript">r</hi> d</seg> » pourrait être le début de « m<hi
+                        rend="superscript">r</hi> de Guyse », d’abord rayé au profit de « <seg
                         corresp="#f21v06_nre_armée" facs=""> n<hi rend="overlined">re</hi>
-                        armée</seg> », avant d’être rétabli sous la forme « <seg
-                        corresp="#f21v06_mr_auec" facs=""> m<hi rend="superscript">r</hi> de Guyse
-                        auec</seg> ». Le mémorialiste choisit également de rappeler que l’armée
-                    française agit dans le cadre de la « <seg corresp="#f21v06_ligue_ste" facs=""
-                        >sainte ligue</seg> » formée avec le pape.</p></note>
+                        armée</seg> », avant d’être rétabli sous la forme « <seg
+                        corresp="#f21v06_mr_auec" facs=""> m<hi rend="superscript">r</hi> de Guyse
+                        auec</seg> ». Le mémorialiste choisit également de rappeler que l’armée
+                    française agit dans le cadre de la « <seg corresp="#f21v06_ligue_ste" facs=""
+                        >sainte ligue</seg> » formée avec le pape.</p></note>
         </body>
     </text>
 </TEI>

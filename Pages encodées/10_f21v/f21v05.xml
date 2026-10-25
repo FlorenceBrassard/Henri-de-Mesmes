@@ -26,6 +26,9 @@
          <zone xml:id="f21v05_i_metamark01" points="2104,131 2056,235 2204,226"/>
          <zone xml:id="f21v05_i_de_lestat" points="2074,18 2022,131 2383,104 2387,22"/>
       </surface>
+      <surface>
+         <graphic url="f21v05.jpg"/>
+      </surface>
    </facsimile>
    <text>
       <body>
@@ -72,15 +75,15 @@
                   <expan>per</expan>
                </choice>intendance sur <del>toutes</del> les finances.</s></ab>
          <note resp="AV" type="genetic"><p>De nouveau, les modifications garantissent une mise en
-               valeur du rôle joué par Henri : l’ajout du complément « <seg
-                  corresp="#f21v05_de_lestat" facs="#f21v05_i_de_lestat">de lestat</seg> » ne
-               s’accompagne pas d’une suppression de « <seg corresp="#f21v05_du_Roy" facs="">du
-                  Roy</seg> », alors que tous deux paraissent former une formule redondante (les
+               valeur du rôle joué par Henri : l’ajout du complément « <seg
+                  corresp="#f21v05_de_lestat" facs="#f21v05_i_de_lestat">de lestat</seg> » ne
+               s’accompagne pas d’une suppression de « <seg corresp="#f21v05_du_Roy" facs="">du
+                  Roy</seg> », alors que tous deux paraissent former une formule redondante (les
                   « <seg corresp="#f21v05_afers #f21v05_de_lestat #f21v05_du_Roy" facs="">afe<hi
-                     rend="superscript">r</hi>s de lestat du Roy</seg> ») ; à « <seg
-                  corresp="#f21v05_charge" facs="">la charge</seg> », est préféré « <seg
-                  corresp="#f21v05_pouuoir" facs="">le pouuoir</seg> », terme qui semble plus
-               flatteur et que vient souligner l’ajout de « <seg corresp="#f21v05_et_seul" facs=""
+                     rend="superscript">r</hi>s de lestat du Roy</seg> ») ; à « <seg
+                  corresp="#f21v05_charge" facs="">la charge</seg> », est préféré « <seg
+                  corresp="#f21v05_pouuoir" facs="">le pouuoir</seg> », terme qui semble plus
+               flatteur et que vient souligner l’ajout de « <seg corresp="#f21v05_et_seul" facs=""
                   >et seul</seg> », en hyperbate.</p></note>
       </body>
    </text>

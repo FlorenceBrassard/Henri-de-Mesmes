@@ -24,14 +24,17 @@
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1035,2532,2558,1139/full/0/default.jpg"/>
             <zone xml:id="f21v08_i_metamark01" points="1579,309 1496,383 1652,383"/>
-            <zone xml:id="f21v08_i_et" points="1570,222 1539,326 1639,296 1679,222"/>
+            <zone xml:id="f21v08_i_et" points="1570,222 1539,326 1639,296 1679,222"/>
             <zone xml:id="f21v08_i_chef_sur" points="2339,248 2339,322 2548,313 2535,240"/>
             <zone xml:id="f21v08_i_au_Sienois" points="2087,187 2105,274 2552,253 2518,157"/>
             <zone xml:id="f21v08_i_toute_sur" points="39,444 39,540 1496,457 1487,370"/>
             <zone xml:id="f21v08_i_mesme" points="587,496 583,605 874,583 879,474"/>
             <zone xml:id="f21v08_i_au_et" points="1100,474 1100,574 1813,526 1805,418"/>
-            <zone xml:id="f21v08_i_que_auoient" points="1513,700 1513,835 2505,731 2483,622"/>
+            <zone xml:id="f21v08_i_que_auoient" points="1513,700 1513,835 2505,731 2483,622"/>
             <zone xml:id="f21v08_i_par_espaignols" points="492,974 465,1140 1452,1057 1461,918"/>
+        </surface>
+        <surface>
+            <graphic url="f21v08.jpg"/>
         </surface>
     </facsimile>
     <text>
@@ -76,7 +79,8 @@
                     </subst>
                     <seg xml:id="f21v08_les_armes">les armes</seg>
                     <del xml:id="f21v08_mesme">mesme</del>
-                    <del instant="true"><unclear cert="high" reason="deleted" agent="author">e</unclear>n</del>
+                    <del instant="true"><unclear cert="high" reason="deleted" agent="author"
+                            >e</unclear>n</del>
                     <del facs="#f21v08_i_au_et" xml:id="f21rop8_au_et">au <placeName ref="Q16275"
                             >Sienois</placeName> et</del>
                     <substJoin target="#f21v08_chef_sur #f21v08_mesme #f21v08_au_et #f21v08_point"/><choice>
@@ -133,28 +137,28 @@
                             <reg>E</reg>
                         </choice>spaignols</del><substJoin
                         target="#f21v08_que_auoient #f21v08_par_espaignols"/>.</s></ab>
-            <note resp="AV" type="genetic"><p>La rivalité d’Henri de Mesmes avec Monluc et le désir
+            <note resp="AV" type="genetic"><p>La rivalité d’Henri de Mesmes avec Monluc et le désir
                     de s’attribuer les mérites des actions entreprises par ce dernier paraissent
                     guider le retravail de ce passage.</p>
-                <p>Le mémorialiste remplace la désignation de « <seg corresp="#f21v08_viceroy"
-                        facs="">viceroy</seg> » par celle de « <seg corresp="#f21v08_lieut_Roy"
-                        facs="">lieutenant du Roy</seg> », qui est plus juste ; il usera peu après
+                <p>Le mémorialiste remplace la désignation de « <seg corresp="#f21v08_viceroy"
+                        facs="">viceroy</seg> » par celle de « <seg corresp="#f21v08_lieut_Roy"
+                        facs="">lieutenant du Roy</seg> », qui est plus juste ; il usera peu après
                     du premier terme pour qualifier la fonction de Fransceco d’Este, qui devient
-                    lieutenant général en Toscane en janvier 1558, à la suite de Monluc. Le <seg
+                    lieutenant général en Toscane en janvier 1558, à la suite de Monluc. Le <seg
                         corresp="#f21v08_Monluc" facs="">nom de ce dernier</seg> pourrait avoir été
-                    ajouté ultérieurement ; le capitaine était pourtant bien présent à Montalcino
-                    pendant une bonne partie du séjour d’Henri de Mesmes et a dirigé les opérations
+                    ajouté ultérieurement ; le capitaine était pourtant bien présent à Montalcino
+                    pendant une bonne partie du séjour d’Henri de Mesmes et a dirigé les opérations
                     sur les châteaux évoqués ensuite.</p>
-                <p>La formule « <seg corresp="#f21v08_chef_sur #f21v08_les_armes" facs="">chef sur
-                        les armes</seg> », quant à elle, est remplacée par le complément « <seg
+                <p>La formule « <seg corresp="#f21v08_chef_sur #f21v08_les_armes" facs="">chef sur
+                        les armes</seg> », quant à elle, est remplacée par le complément « <seg
                         corresp="#f21v08_auec_sur #f21v08_les_armes" facs="">auec toute autorité
-                        absolue, mesme sur les armes</seg> », qui laisse entendre, de manière
+                        absolue, mesme sur les armes</seg> », qui laisse entendre, de manière
                     emphatique, que le jeune juriste est seul aux commandes. Enfin, le mémorialiste
-                    ajoute « <seg corresp="#f21v08_sorty_campaigne" facs="">sorty en campaigne</seg>
-                    » pour s’auréoler de gloire militaire.</p></note>
-            <note resp="AV" type="critic"><p>É. Frémy donne « mesmes au Sienois » à la fin de la
-                    phrase (éd. des <hi rend="italic">Mémoires</hi>, p. 157) plutôt que « mesme sur
-                    les armes », ne tenant pas compte de la modification.</p></note>
+                    ajoute « <seg corresp="#f21v08_sorty_campaigne" facs="">sorty en
+                    campaigne</seg> » pour s’auréoler de gloire militaire.</p></note>
+            <note resp="AV" type="critic"><p>É. Frémy donne « mesmes au Sienois » à la fin de la
+                    phrase (éd. des <hi rend="italic">Mémoires</hi>, p. 157) plutôt que « mesme sur
+                    les armes », ne tenant pas compte de la modification.</p></note>
         </body>
     </text>
 </TEI>

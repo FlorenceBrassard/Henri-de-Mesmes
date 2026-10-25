@@ -37,6 +37,9 @@
             <zone xml:id="f21v09_i_aussans" points="1826,1756 1779,1839 2192,1808 2170,1721"/>
             <zone xml:id="f21v09_i_et_Montalcino" points="26,869 22,1000 1700,869 1696,786"/>
         </surface>
+        <surface>
+            <graphic url="f21v08.jpg"/>
+        </surface>
     </facsimile>
     <text>
         <body>

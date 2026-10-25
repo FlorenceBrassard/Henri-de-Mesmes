@@ -34,6 +34,9 @@
             <zone xml:id="f21v02_i_fort_casuel" points="771,1034 729,1143 243,1176 243,1072"/>
             <zone xml:id="f21v02_i_bien_vil" points="100,962 110,1072 852,1038 852,957"/>
         </surface>
+        <surface>
+            <graphic url="f21v02.jpg"/>
+        </surface>
     </facsimile>
     <text>
         <body>
@@ -122,28 +125,29 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>erain en tout.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à mettre en valeur son office
-                    en remplaçant la relative qualificative « <seg
-                        corresp="#f21v02_qui_est f21v02_souuerain" facs="">qui est souuerain</seg> »
-                    par la formule « <seg corresp="#f21v02_le_et #f21v02_souuerain #f21v02_iuge"
-                        facs="">le premier et souuerain juge</seg> », qui fait l’objet d’une
+            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à mettre en valeur son office
+                    en remplaçant la relative qualificative « <seg
+                        corresp="#f21v02_qui_est f21v02_souuerain" facs="">qui est souuerain</seg> »
+                    par la formule « <seg corresp="#f21v02_le_et #f21v02_souuerain #f21v02_iuge"
+                        facs="">le premier et souuerain juge</seg> », qui fait l’objet d’une
                     nouvelle phrase, introduite par une tournure présentative.</p>
                 <p>Le mémorialiste entend également faire valoir sa probité et le sacrifice
-                    financier qu’implique le fait de ne plus accaparer les confiscations – lui qui a
+                    financier qu’implique le fait de ne plus accaparer les confiscations – lui qui a
                     rappelé précédemment qu’il n’avait pas les moyens de devenir ambassadeur à Rome.
-                    L’expression « <seg
+                    L’expression « <seg
                         corresp="#f21v02_vil #f21v02_profit #f21v02_mais_gros #f21v02_et_casuel"
-                        facs="">vil profit, mais gros et fort casuel</seg> » est <hi rend="italic">a
-                        priori</hi> d’abord modulée grâce à la substitution de « mais » par « <seg
-                        corresp="#f21v02_toutesfois" facs=""><hi rend="italic">toutefois</hi></seg>
-                    ». Ensuite, « gros toutefois et fort casuel » est remplacé par « <seg
-                        corresp="#f21v02_ores_grand" facs="#f21v02_i_ores_grand"><hi rend="italic"
-                            >ores que bien grand</hi></seg> ». Ce sont finalement les qualificatifs
-                    « <seg corresp="#f21v02_bien_vil" facs="#f21v02_i_bien_vil"><hi rend="italic"
-                            >bien grand et bien vil</hi></seg> » qui viennent supplanter le tout.
-                    L’insistance sur l’opportunité que pouvaient représenter les confiscations est
-                    ainsi atténuée. L’idée portée par l’adjectif casuel, qui renvoie au caractère
-                    variable et aléatoire des biens, est quant à elle supprimée.</p></note>
+                        facs="">vil profit, mais gros et fort casuel</seg> » est <hi rend="italic">a
+                        priori</hi> d’abord modulée grâce à la substitution de « mais » par « <seg
+                        corresp="#f21v02_toutesfois" facs=""><hi rend="italic"
+                    >toutefois</hi></seg> ». Ensuite, « gros toutefois et fort casuel » est remplacé
+                    par « <seg corresp="#f21v02_ores_grand" facs="#f21v02_i_ores_grand"><hi
+                            rend="italic">ores que bien grand</hi></seg> ». Ce sont finalement les
+                    qualificatifs « <seg corresp="#f21v02_bien_vil" facs="#f21v02_i_bien_vil"><hi
+                            rend="italic">bien grand et bien vil</hi></seg> » qui viennent
+                    supplanter le tout. L’insistance sur l’opportunité que pouvaient représenter les
+                    confiscations est ainsi atténuée. L’idée portée par l’adjectif casuel, qui
+                    renvoie au caractère variable et aléatoire des biens, est quant à elle
+                    supprimée.</p></note>
         </body>
     </text>
 </TEI>
