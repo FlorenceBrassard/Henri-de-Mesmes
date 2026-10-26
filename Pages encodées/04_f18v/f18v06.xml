@@ -48,11 +48,12 @@
                             </choice>ec</del>
                         <add>en</add>
                     </subst>
-                    <del xml:id="f18v06_la">la</del> plus <add facs="#f18v06_i_estroite_et">estroite
-                        vie et</add> penible<add facs="#f18v06_i_s1" xml:id="f18v06_s1">s</add>
-                        estude<add facs="#f18v06_i_s2" xml:id="f18v06_s2">s</add>
+                    <del xml:id="f18v06_la">la</del> plus <add facs="#f18v06_i_estroite_et"
+                        xml:id="f18v06_estroite_et"><seg>estroite</seg> vie et</add> penible<add
+                        facs="#f18v06_i_s1" xml:id="f18v06_s1">s</add> estude<add
+                        facs="#f18v06_i_s2" xml:id="f18v06_s2">s</add>
                     <substJoin target="#f18v06_la #f18v06_s1 #f18v06_s2"/> que <subst>
-                        <del facs="#f18v06_i_dautres">d<choice>
+                        <del facs="#f18v06_i_dautres" xml:id="f18v06_dautres">d<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>autres</del>
@@ -62,28 +63,35 @@
                                 <expan>an</expan>
                             </choice>t</add>
                     </subst> ne voudroient <subst>
-                        <del facs="#f18v06_i_fer" seq="1">f<choice>
+                        <del facs="#f18v06_i_fer" seq="1" xml:id="f18v06_fer">f<choice>
                                 <abbr>e<hi rend="superscript">r</hi></abbr>
                                 <expan>aire</expan>
                             </choice>
                         </del>
-                        <del seq="2"><add facs="#f18v06_i_practiquer" seq="1">practiquer</add></del>
-                        <add facs="#f18v06_i_suporter" seq="2">suporter</add>
-                    </subst><del facs="#f18v06_auiourduy" xml:id="f18v06_auiourduy">au<choice>
+                        <del seq="2"><add facs="#f18v06_i_practiquer" seq="1"
+                                xml:id="f18v06_praticquer">practiquer</add></del>
+                        <add facs="#f18v06_i_suporter" seq="2" xml:id="f18v06_suporter"
+                            >suporter</add>
+                    </subst><del facs="#f18v06_i_auiourduy" xml:id="f18v06_auiourduy">au<choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>ourduy</del>.</s>
                 <substJoin target="#f18v06_ceulx_maintenant #f18v06_aujourduy"/></ab>
-            <note resp="AV" type="genetic"><p>L’ajout d’« <seg>estroite</seg> », ainsi que les
-                    substitutions touchant le verbe (« <seg>faire</seg> », «
-                    <seg>practiquer</seg> », « <seg>suporter</seg> ») et les compléments («
-                        <seg>dautres</seg> », « <seg>ceulx de maintenant</seg> », «
-                        <seg>auiourduy</seg> ») visent à insister sur la pénibilité de la formation
-                    à Toulouse et sur l’existence d’un fossé générationnel. Selon Henri de Mesmes,
-                    l’université était plus stricte à son époque, et la jeunesse s’est depuis
-                    ramollie !</p></note>
-            <note resp="AV" type="critic"><p>É. Frémy donne, de manière erronée, « travaux » à la
-                    place d’« estudes » (éd. des <hi rend="italic">Mémoires</hi>,
+            <note resp="AV" type="genetic"><p>L’ajout d’« <seg corresp="#f18v06_estroite_et"
+                        facs="#f18v06_i_estroite_et">estroite</seg> », ainsi que les substitutions
+                    touchant le verbe (« <seg corresp="#f18v06_fer" facs="#f18v06_i_fer"
+                    >faire</seg> », « <seg corresp="#f18v06_praticquer" facs="#f18v06_i_practiquer"
+                        >practiquer</seg> », « <seg corresp="#f18v06_suporter"
+                        facs="#f18v06_i_suporter">suporter</seg> ») et les compléments (« <seg
+                        corresp="#f18v06_dautres" facs="#f18v06_i_dautres">dautres</seg> », « <seg
+                        corresp="#f18v06_ceulx_maintenant" facs="#f18v06_i_ceulx_maintenant">ceulx
+                        de maintenant</seg> », « <seg corresp="#f18v06_auiourduy"
+                        facs="f18v06_i_auiourduy">auiourduy</seg> ») visent à insister sur la
+                    pénibilité de la formation à Toulouse et sur l’existence d’un fossé
+                    générationnel. Selon Henri de Mesmes, l’université était plus stricte à son
+                    époque, et la jeunesse s’est depuis ramollie !</p></note>
+            <note resp="AV" type="critic"><p>É. Frémy donne, de manière erronée, « travaux » à la
+                    place d’« estudes » (éd. des <hi rend="italic">Mémoires</hi>,
                 p. 139).</p></note>
         </body>
     </text>
