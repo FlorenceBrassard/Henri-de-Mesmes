@@ -116,7 +116,7 @@
                <substJoin seq="01"
                   target="#f17r01_en #f17r01_s_02 #s_06 #f17r01_louanges #f17r01_remerque #f17r01_vertueuses_belles"/>
                <substJoin seq="02"
-                  target="#f17r01_t #f17r01_ent #f17r01_s_03 #f17r01_s_05 #f17r01_s_07"/> actions :
+                  target="#f17r01_t #f17r01_ent #f17r01_s_03 #f17r01_s_05 #f17r01_s_07"/> actions :
                et apres eulx, enseignemens pour bien faire<anchor xml:id="f17r01_comment_01"/>.</s>
          </ab>
       </body>
@@ -125,57 +125,57 @@
             <note resp="AV" type="gloss" target="f17r01_gloss_01"><p>Ou celles de ceux.</p></note>
             <note resp="AV" type="gloss" target="f17r01_gloss_02"><p>Mises en valeur.</p></note>
          </div>
-         <note resp="AV" type="comment" target="f17r01_comment_01"><p>Henri de Mesmes établit une
+         <note resp="AV" type="comment" target="f17r01_comment_01"><p>Henri de Mesmes établit une
                équivalence entre récit de soi et biographie, pratiques qui toutes deux s’inscrivent
-               dans le cadre d’une conception de l’histoire comme « maîtresse de vie » (<hi
+               dans le cadre d’une conception de l’histoire comme « maîtresse de vie » (<hi
                   rend="italic">historia magistra vitae</hi>) (Cicéron, <hi rend="italic">De
                   oratore</hi>, II, 9, 36). Héritée de l’Antiquité, cette conception est
-               particulièrement centrale à l’Époque moderne pour conférer une fonction morale à
-               l’histoire et fonder la légitimité sociale de celle-ci (Couzinet, 2007 ; Guion,
-               2008). Le temps révolu évoqué par le mémorialiste paraît renvoyer aux guerres
-               d’Italie, qui font l’objet de récits de vie héroïques, dans lesquels les membres de
-               la noblesse – et avant tout de la noblesse d’épée – forgent leur identité
-               (Kuperty-Tsur, 1991 ; Harari, 2004), à l’instar de Robert de La Marck, maréchal de
-               Florange, ou des Du Bellay (Piettre, 2022).</p></note>
+               <!--               Majuscule nécessaire à « Époque » ? --> particulièrement centrale
+               à l’Époque moderne pour conférer une fonction morale à l’histoire et fonder la
+               légitimité sociale de celle-ci (Couzinet, 2007 ; Guion, 2008). Le temps révolu évoqué
+               par le mémorialiste paraît renvoyer aux guerres d’Italie, qui font l’objet de récits
+               de vie héroïques, dans lesquels les membres de la noblesse – et avant tout de la
+               noblesse d’épée – forgent leur identité (Kuperty-Tsur, 1991 ; Harari, 2004), à
+               l’instar de Robert de La Marck, maréchal de Florange, ou des Du Bellay (Piettre,
+               2022).</p></note>
          <note resp="AV" type="genetic"><p>La première version de ce passage dissocie la rédaction
-               d’une biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi
-                  (« <seg corresp="#f17r01_la_propre">la leur propre</seg> »). La première pratique
-               serait motivée par un lien affectif (« <seg
-                  corresp="#f17r01_ceulx #f17r01_quilz_aimez">ceulx quilz avoient aimez</seg> »)
-               <!--               Préférable de séparer en deux <seg>, ou un seul renvoyant à deux identifiants comme j'ai fait ici ?-->
+               d’une biographie (ou d’une « vie », au sens ancien du terme) et l’écriture de soi
+                  (« <seg corresp="#f17r01_la_propre">la leur propre</seg> »). La première pratique
+               serait motivée par un lien affectif (« <seg
+                  corresp="#f17r01_ceulx #f17r01_quilz_aimez">ceulx quilz avoient aimez</seg> »)
                plutôt que par la seule appartenance familiale. Elle semble à la fois fréquente,
-               aisée et plaisante (« <seg corresp="#f17r01_volontiers" facs="#f17r01_i_volontiers"
-                  >volontiers</seg> »). La seconde paraît plus rare (« <seg
-                  corresp="#f17r01_aucuns_ont" facs="#f17r01_i_aucuns_ont">aucuns ont…</seg> », soit
-               « quelques-uns »). De fait, il est socialement moins bien admis de se célébrer
+               aisée et plaisante (« <seg corresp="#f17r01_volontiers" facs="#f17r01_i_volontiers"
+                  >volontiers</seg> »). La seconde paraît plus rare (« <seg
+                  corresp="#f17r01_aucuns_ont" facs="#f17r01_i_aucuns_ont">aucuns ont…</seg> », soit
+               « quelques-uns »). De fait, il est socialement moins bien admis de se célébrer
                soi-même que de vanter les mérites d’un aïeul admiré, cette dernière pratique étant
                cruciale dans la construction d’une identité nobiliaire. Dans les deux cas toutefois,
-               les scripteurs partagent des qualités morales – ils sont des « <seg
+               les scripteurs partagent des qualités morales – ils sont des « <seg
                   corresp="#f17r01_honnestes_homes" facs="#f17r01_i_honnestes_homes">honestes
-                  homes</seg> » – et une même visée : l’exemplarité.</p><p> La seconde version
-               rapproche ces deux pratiques en une formule (« <seg
+                  homes</seg> » – et une même visée : l’exemplarité.</p><p> La seconde version
+               rapproche ces deux pratiques en une formule (« <seg
                   corresp="#f17r01_leurs #f17r01_vie_de #f17r01_ceulx"
                   facs="#f17r01_i_leurs #f17r01_i_vies_ceulx #f17r01_i_ou">leurs vies ou de
-                  ceulx</seg> … »), placées sous l’égide de l’adverbe « volontiers ». La pratique
+                  ceulx</seg>… »), placées sous l’égide de l’adverbe « volontiers ». La pratique
                d’écriture de soi devient par ailleurs première. Plusieurs modifications de
-               vocabulaire sont opérées : dans la première proposition, « <seg
-                  corresp="#f17r01_honestes" facs="#f17r01_i_honestes">honeste</seg> » est remplacé
-               par « <seg corresp="#f17r01_de_valeur" facs="#f17r01_i_de_valeur">de valeur</seg> » ;
-               dans la proposition centrale (« <seg corresp="#f17r01_cestoit_moins"
-                  facs="#f17r01_i_cestoit_moins">c’estoit au moins… </seg> »), « <seg
-                  corresp="#f17r01_louanges" facs="#f17r01_i_louanges">louanges</seg> » devient
-                  « <seg corresp="#f17r01_remerque" facs="#f17r01_i_remerque">remerque</seg> », «
-                  <seg corresp="#f17r01_vertueuses" facs="#f17r01_i_vertueuses">vertueuses</seg> »
-               devient « <seg corresp="#f17r01_belles" facs="#f17r01_i_belles">belles</seg> ». La
-               première substitution déplace la qualité des scripteurs de l’« honnêteté » vers la
+               vocabulaire sont opérées : dans la première proposition, « <seg
+                  corresp="#f17r01_honestes" facs="#f17r01_i_honestes">honeste</seg> » est remplacé
+               par « <seg corresp="#f17r01_de_valeur" facs="#f17r01_i_de_valeur">de valeur</seg> » ;
+               dans la proposition centrale (« <seg corresp="#f17r01_cestoit_moins"
+                  facs="#f17r01_i_cestoit_moins">c’estoit au moins… </seg> »), « <seg
+                  corresp="#f17r01_louanges" facs="#f17r01_i_louanges">louanges</seg> » devient
+                  « <seg corresp="#f17r01_remerque" facs="#f17r01_i_remerque">remerque</seg> »,
+                  « <seg corresp="#f17r01_vertueuses" facs="#f17r01_i_vertueuses">vertueuses</seg> »
+               devient « <seg corresp="#f17r01_belles" facs="#f17r01_i_belles">belles</seg> ». La
+               première substitution déplace la qualité des scripteurs de l’« honnêteté » vers la
                « valeur » : ce dernier terme, <hi rend="italic">a priori</hi> plus polysémique,
                renvoie, quand il qualifie une personne, au grand mérite et à une condition sociale
                élevée, parfois aussi à la vaillance. La seconde substitution provoque une forme de
                neutralisation axiologique des textes envisagés, dont le contenu paraît passer de
-               l’éloge au constat ; néanmoins, ce qui est « digne de remarques » est implicitement
+               l’éloge au constat ; néanmoins, ce qui est « digne de remarques » est implicitement
                   <hi rend="italic">remarquable</hi>. La troisième substitution, enfin, comme la
                première, efface la prédominance de la qualité morale (honnêteté, vertu) au profit
-               d’une mise en valeur plus abstraite (« belles », au sens de <hi rend="italic"
+               d’une mise en valeur plus abstraite (« belles », au sens de <hi rend="italic"
                   >satisfaisantes</hi>, <hi rend="italic">admirables</hi>).</p></note>
       </back>
    </text>

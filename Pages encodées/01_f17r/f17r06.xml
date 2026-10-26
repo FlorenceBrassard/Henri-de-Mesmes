@@ -57,7 +57,7 @@
             <zone xml:id="f17r06_i_dont_01" points="2281,1563 2269,1538 2425,1519 2413,1563"/>
             <zone xml:id="f17r06_i_ou_02" points="2392,1447 2297,1442 2277,1505 2410,1475"/>
             <zone xml:id="f17r06_i_les_01" points="402,1722 387,1820 514,1804 498,1726"/>
-            <zone xml:id="f17r06_i_metamark_6_4" points="442,1792 435,1847 505,1840 520,1802"/>
+            <zone xml:id="f17r06_i_metamark_06_04" points="442,1792 435,1847 505,1840 520,1802"/>
             <zone xml:id="f17r06_i_et_ville" points="485,1696 469,1775 856,1750 881,1656"/>
             <zone xml:id="f17r06_i_et_03" points="1425,1717 1460,1785 1552,1765 1570,1717"/>
             <zone xml:id="f17r06_i_et_armes" points="1381,1631 1369,1719 1619,1719 1613,1656"/>
@@ -414,7 +414,7 @@
                             facs="#f17r06_i_les_01" xml:id="f17r06_les_add">les</add></del>
                     <substJoin target="#f17r06_ou_02 #f17r06_les_del #f17r06_et_ville"/><metamark
                         facs="#f17r06_i_metamark_06_04" function="insert" target="#f17r06_et_ville"
-                        xml:id="f17r06_metamark_04">^</metamark><add facs="#f17r06_i_et_ville"
+                        xml:id="f17r06_metamark_06_04">^</metamark><add facs="#f17r06_i_et_ville"
                         xml:id="f17r06_et_ville">et de la ville</add> portoit <subst>
                         <del>ancore</del>
                         <add><del>anc<gap quantity="01" unit="char" reason="deleted" agent="author"
@@ -475,63 +475,65 @@
                         <add>cete maison</add>
                     </subst><substJoin target="#f17r06_ce_01 #f17r06_nom_armes"/>. <anchor
                         xml:id="f17r06_maison"/></s></ab>
-            <note resp="AV" type="comment" target="f17r06_comment_01"><p>Jean-Jacques I<hi
-                        rend="superscript">er</hi> de Mesmes (1490-1569), père du mémorialiste, est
+            <note resp="AV" type="comment" target="f17r06_comment_01"><p>Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes (1490-1569), père du mémorialiste, est
                     issu d’une famille béarnaise aux origines obscures, relevant probablement de la
-                    petite bourgeoisie marchande (Le Flem, 1972, p. 130-153). Il étudie le droit
-                    jusqu’au doctorat à l’université de Toulouse, puis y enseigne. À partir de 1516,
+                    petite bourgeoisie marchande (Le Flem, 1972, p. 130-153). Il étudie le droit
+                    jusqu’au doctorat à l’université de Toulouse, puis y enseigne. À partir de 1516,
                     il entre au service de la Navarre et finit par y occuper un office de conseiller
-                    et d’intendant des maisons et des affaires du roi ; il participe notamment,
+                    et d’intendant des maisons et des affaires du roi ; il participe notamment,
                     d’après Sainte-Marthe, à la signature du traité de Noyon (<hi rend="italic"
-                        >Éloges</hi>, 1644, p. 438). Il rejoint ensuite Paris, certainement dans les
-                    années 1528-1529, puis épouse Nicole Hennequin. Au moment du baptême d’Henri de
-                    Mesmes (1532), Jean-Jacques Ier de Mesmes est avocat du Parlement de Paris. En
-                    1537, il fait l’acquisition d’une première partie de la seigneurie de Roissy. Il
-                    devient par la suite lieutenant civil de la prévôté de Paris (1532), puis maître
-                    des requêtes (1544). En 1545, il est envoyé comme ambassadeur extraordinaire
-                    auprès de Charles Quint. En 1548, il aurait assisté au mariage de Jeanne
-                    d’Albret et d’Antoine de Bourbon, qu’il a contribué à négocier. En 1558, il est
-                    l’auteur d’une remontrance en faveur des prétentions territoriales de la Navarre
-                    contre l’Espagne, dans le cadre de la négociation du traité du Cateau-Cambrésis
-                    (Imízcoz, 2011, p. 611-613). En 1559, il devient conseiller d’État ordinaire.
-                    Soucieux de la survivance de ses fonctions et de l’ascension sociale de sa
-                    famille, il prend grand soin de l’éducation de son fils, comme on le verra (voir
-                        <hi rend="italic">infra</hi>, p. #).</p></note>
+                        >Éloges</hi>, 1644, p. 438). Il rejoint ensuite Paris, certainement dans les
+                    années 1528-1529, puis épouse Nicole Hennequin. Au moment du baptême d’Henri
+                    de Mesmes (1532), Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes est
+                    avocat du Parlement de Paris. En 1537, il fait l’acquisition d’une première
+                    partie de la seigneurie de Roissy. Il devient par la suite lieutenant civil de
+                    la prévôté de Paris (1532), puis maître des requêtes (1544). En 1545, il est
+                    envoyé comme ambassadeur extraordinaire auprès de Charles Quint. En 1548, il
+                    aurait assisté au mariage de Jeanne d’Albret et d’Antoine de Bourbon, qu’il a
+                    contribué à négocier. En 1558, il est l’auteur d’une remontrance en faveur des
+                    prétentions territoriales de la Navarre contre l’Espagne, dans le cadre de la
+                    négociation du traité du Cateau-Cambrésis (Imízcoz, 2011, p. 611-613). En 1559,
+                    il devient conseiller d’État ordinaire. Soucieux de la survivance de ses
+                    fonctions et de l’ascension sociale de sa famille, il prend grand soin de
+                    l’éducation de son fils, comme on le verra (voir <hi rend="italic">infra</hi>,
+                    p. #).</p></note>
             <note resp="AV" type="comment" target="f17r06_comment_02"><p>Très certainement
                     Berwick-upon-Tweed, aussi connue sous le nom de Berwick. Située à la frontière
                     entre l’Écosse et l’Angleterre, et de ce fait particulièrement disputée, la
-                    ville passe définitivement aux mains des Anglais en 1482.</p></note>
+                    ville passe définitivement aux mains des Anglais en 1482.</p></note>
             <note resp="AV" type="comment" target="f17r06_comment_03"><p>La mention de ce supposé
-                    ancêtre écossais est au cœur des « prétentions généalogiques » de la famille
-                    Mesmes (Le Flem, 1972, p. 129). Le mémorialiste cherche à anoblir sa lignée par
+                    ancêtre écossais est au cœur des « prétentions généalogiques » de la famille
+                    Mesmes (Le Flem, 1972, p. 129). Le mémorialiste cherche à anoblir sa lignée par
                     ce récit en forme de mythe, selon une tendance partagée à l’Époque moderne
-                    (Solignac, 2016 ; Deguin, 2020). La mise en scène de la découverte des origines,
+                    (Solignac, 2016 ; Deguin, 2020). La mise en scène de la découverte des origines,
                     à laquelle la mention d’une date et d’un document confère de l’autorité, permet
-                    à Henri de Mesmes de se réclamer d’une identité ancienne et chevaleresque
+                    à Henri de Mesmes de se réclamer d’une identité ancienne et chevaleresque
                     (Deruelle, 2015), tant collective qu’individuelle, dans un contexte où
                     l’ensemble de la noblesse se préoccupe de généalogie (Pinet, 2025). Mais la
-                    distance entre le XIII<hi rend="superscript">e</hi> et le XVI<hi
-                        rend="superscript">e</hi> siècle est certainement au moins aussi grande que
-                    celle entre l’histoire et ce récit. Celui-ci paraît très tôt suspect : Jean Le
-                    Laboureur (éd. 1659, t. II, p. 848) estime qu’Amaneus de Mammes serait
-                    originaire non pas d’Écosse mais de Gascogne, comme toute la famille Mesmes. En
-                    1647, François Blanchard fait remonter la lignée à Pierre de Mesmes, qui aurait
-                    vécu au XIIIe siècle (Blanchard, 1647, p. 389). Le duc de Saint-Simon,
-                    particulièrement sensible aux revendications nobiliaires douteuses, estimera
-                    pour sa part que « ces Mesmes sont des paysans de Mont-de-Marsan », dont la
-                    généalogie, qu’ils ont fait « insérer partout », vise à « abuser le monde » (éd.
-                    Coirault, t. IV, p. 377-378, cité par Le Flem, 1972, p. 129).</p></note>
+                    distance entre le XIII<hi rend="superscript">e</hi> et le XVI<hi
+                        rend="superscript">e</hi> siècle est certainement au moins aussi grande que
+                    celle entre l’histoire et ce récit. Celui-ci paraît très tôt suspect : Jean
+                    Le Laboureur (éd. 1659, t. II, p. 848) estime qu’Amaneus de Mammes serait
+                    originaire non pas d’Écosse mais de Gascogne, comme toute la famille Mesmes.
+                    En 1647, François Blanchard fait remonter la lignée à Pierre de Mesmes, qui
+                    aurait vécu au XIII<hi rend="superscript">e</hi> siècle (Blanchard, 1647,
+                    p. 389). Le duc de Saint-Simon, particulièrement sensible aux revendications
+                    nobiliaires douteuses, estimera pour sa part que « ces Mesmes sont des paysans
+                    de Mont-de-Marsan », dont la généalogie, qu’ils ont fait « insérer partout »,
+                    vise à « abuser le monde » (éd. Coirault, t. IV, p. 377-378, cité par Le Flem,
+                    1972, p. 129).</p></note>
             <note resp="AV" type="comment" target="f17r06_comment_04"><p>Le pays de Marsan,
                     territoire des Landes actuelles, dont la capitale était déjà
                 Mont-de-Marsan.</p></note>
             <note resp="AV" type="comment" target="f17r06_comment_05"><p>Édouard Frémy décrit ainsi
-                    les armoiries de la famille du mémorialiste : « Les de Mesmes portaient :
-                    écartelé au 1<hi rend="superscript">er</hi> d’or au croissant de sable, aux 2 et
-                    3 d’or, à deux lions léopardés de gueules, armés et lampassés d’azur, qui est de
-                    Bigorre ; au 4 d’or, à la pointe ondée d’azur surmontée d’une étoile de sable
-                    qui est Lassuis » (éd. Frémy, 1886, p. 129). Les armoiries font partie
+                    les armoiries de la famille du mémorialiste : « Les de Mesmes portaient :
+                    écartelé au 1<hi rend="superscript">er</hi> d’or au croissant de sable, aux 2
+                    et 3 d’or, à deux lions léopardés de gueules, armés et lampassés d’azur, qui est
+                    de Bigorre ; au 4 d’or, à la pointe ondée d’azur surmontée d’une étoile de sable
+                    qui est Lassuis » (éd. Frémy, 1886, p. 129). Les armoiries font partie
                     intégrante du capital social d’une famille et d’un individu au XVI<hi
-                        rend="superscript">e</hi> siècle (Couhault, 2021).</p></note>
+                        rend="superscript">e</hi> siècle (Couhault, 2021).</p></note>
             <note resp="AV" type="genetic"><p>Le récit des origines est un des passages les plus
                     retravaillés et raturés du manuscrit. Les hésitations dont témoigne l’analyse
                     génétique ainsi que le contenu même des passages supprimés paraissent trahir les
@@ -549,7 +551,7 @@
                 <p>On remarque également la suppression de la référence aux « <seg
                         corresp="#f17r06_guerres_Guiene" facs="#f17r06_i_guerres_Guiene">guerres de
                         la Guiene</seg> » (XIII<hi rend="superscript">e</hi> siècle), qui auraient
-                    expliqué l’implantation du supposé chevalier écossais de Mammes au sein d’un
+                    expliqué l’implantation du supposé chevalier écossais de Mammes au sein d’un
                     fief du roi d’Angleterre, alors convoité par la France. Le mémorialiste fait
                     également disparaître la formule par laquelle il attestait disposer d’une <seg
                         corresp="#f17r06_titre_papiers" facs="#f17r06_i_titre_papiers">« copie » du
@@ -559,7 +561,7 @@
                         document</seg> et en ajoutant une <seg corresp="#f17r06_les_armes"
                         facs="#f17r06_i_les_armes">allusion aux armes de sa famille</seg>, présentes
                     dans une chapelle de Mont-de-Marsan. La preuve matérielle des origines se trouve
-                    ainsi à la fois dédoublée (« titre » et « armes ») et affaiblie – document vu
+                    ainsi à la fois dédoublée (« titre » et « armes ») et affaiblie – document vu
                     plutôt que conservé et donc encore consultable ; armoiries en Gascogne, sans
                     possibilité de démontrer un quelconque lien avec l’Écosse.</p>
                 <p>La deuxième partie du récit des origines, allant de <seg
@@ -572,20 +574,20 @@
                     retrouver la trace de sa famille en Écosse, en la personne du gouverneur de
                     « Berwich ». Henri de Mesmes supprime définitivement la <seg
                         corresp="#f17r06_madame_Albanie" facs="#f17r06_i_madame_Albanie">mention
-                        d’une certaine madame de Sainte-Mesmes Albanie</seg>, dont l’intégration à
+                        d’une certaine madame de Sainte-Mesmes Albanie</seg>, dont l’intégration à
                     la syntaxe paraît très hésitante, et ajoute des <seg corresp="#f17r06_a_escosse"
                         facs="#f17r06_i_a_escosse">précisions topographiques</seg> au sujet de
                     « Berwich », dans un passage qui n’est pas entièrement déchiffrable.</p>
                 <p>Pour finir, on fait l’hypothèse que le premier ajout marginal de gauche (« <seg
                         corresp="#f17r06_en_1567_add" facs="#f17r06_i_en_1567">en la recerche que
-                        ien fey en lan 1567 pour</seg> ») est inabouti et rayé, en même temps que
+                        ien fey en lan 1567 pour</seg> ») est inabouti et rayé, en même temps que
                         « <seg corresp="#f17r06_les" facs="#f17r06_i_les_01">les</seg> », comme le
                     suggère le trait continu. Cette suppression est relayée par un aspect du
                     retravail de la phrase principale, à savoir la suppression de « <seg
                         corresp="#f17r06_bone_information" facs="#f17r06_i_bone_information">bone
                         information</seg> » au profit de « <seg corresp="#f17r06_fey_recerche"
                         facs="#f17r06_i_fey_recerche">fey la recerche</seg> ». Un <seg
-                        corresp="f17r06_metamark_04" facs="#f17r06_i_metamark_04">signe
+                        corresp="#f17r06_metamark_04" facs="#f17r06_i_metamark_04">signe
                         d’insertion</seg> paraît avoir été placé au-dessus de « en », mais n’est pas
                     visible du fait de la reliure. Il pourrait être similaire à <seg
                         corresp="#f17r06_metamark_05" facs="#f17r06_i_metamark_05">celui placé
@@ -593,13 +595,13 @@
                     choisi de le faire, que le second ajout marginal de gauche vient se substituer
                     au premier.</p>
             </note>
-            <note resp="AV" type="critic"><p>Les manuscrits Français 18617 et Duschene 57 ne donnent
+            <note resp="AV" type="critic"><p>Les manuscrits Français 18617 et Duschene 57 ne donnent
+                    <!--                    Ne devrait-on pas plutôt lire, ci-dessous, « Amaneus de Mammes », comme ci-haut ?-->
                     pas « Amaneus de Mannes », mais des formules comparables qui n’ont guère de
                     sens : « Vn ancien cheualier Escossois de Beruich ammena de Mammes des lan
                     1200 » pour le premier (f. 3r<hi rend="superscript">o</hi>) ; « vn ancien
                     cheualier Escossois, de Beruich ammena de de [<hi rend="italic">sic</hi>] Mammes
-                    des lan 1200 » pour le second (f. 56v<hi rend="superscript">o</hi>).</p></note>
+                    des lan 1200 » pour le second (f. 56v<hi rend="superscript">o</hi>).</p></note>
         </body>
     </text>
 </TEI>
-<?oxy_options track_changes="on"?>

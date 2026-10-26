@@ -170,26 +170,28 @@
                 <note resp="AV" type="gloss" target="f17r02_gloss_01"><p>Les hommes de robe longue,
                         les juristes.</p></note>
             </div>
-            <note resp="AV" type="comment" target="#f17r02_comment_01">Henri de Mesmes oppose le
-                passé idéalisé des récits exemplaires à un présent doublement insatisfaisant : la
+            <note resp="AV" type="comment" target="#f17r02_comment_01">Henri de Mesmes oppose le
+                passé idéalisé des récits exemplaires à un présent doublement insatisfaisant : la
                 noblesse d’épée, qui aurait de grands faits à raconter, écrirait désormais fort peu,
                 tandis que la noblesse de robe, pour qui l’écriture est une activité centrale,
                 n’aurait rien d’honorable à relater. Les deux catégories sociales sont considérées
                 comme rivales, comme c’est fréquemment le cas (Haddad, 2020), mais sont aussi toutes
-                deux confrontées à leur vanité : les militaires sont renvoyés à leur superficialité
+                deux confrontées à leur vanité : les militaires sont renvoyés à leur superficialité
                 – la plume n’étant plus un instrument d’écriture mais un simple accessoire de mode
                 –, les juristes à une insignifiance que la phrase suivante viendra dramatiser. Dans
-                le récit de sa mission à Sienne, Henri de Mesmes incarnera brièvement l’idéal de
-                conciliation des lettres et de l’épée, cher aux humanistes (Supple, 1974 ; voir <hi
-                    rend="italic">infra</hi>, p. #).</note>
+                le récit de sa mission à Sienne, Henri de Mesmes incarnera brièvement l’idéal de
+                conciliation des lettres et de l’épée, cher aux humanistes (Supple, 1974 ; voir <hi
+                    rend="italic">infra</hi>, p. #).</note>
             <note resp="AV" type="genetic"><p>On fait l’hypothèse que l’ajout « <seg
                         corresp="#f17r02_en_france_add" facs="#f17r02_i_en_france">en france</seg> »
                     a été raturé au moment de l’addition, dans la marge de gauche, de la formule
-                    affirmant que la noblesse de robe écrit peu ses Mémoires (« <seg
-                        corresp="#f17r02_et_guiere_add" facs="#f17r02_i_et_guiere"><hi rend="italic"
-                            >et ceulx qui ont les armes en France, n’escrivent
-                    guiere</hi></seg> »).</p><p>La seconde proposition du premier jet (« <seg
-                        corresp="#f17r02_Aussy_guiere"
+                    affirmant que la noblesse de robe écrit peu ses Mémoires
+                    <!--                   Au regard de la citation entre parenthèses ci-dessous, ne devrait-on pas plutôt lire, 
+                        ci-dessus, que la « noblesse d'épée écrit peu ses Mémoires » -->
+                        (« <seg corresp="#f17r02_et_guiere_add" facs="#f17r02_i_et_guiere"><hi
+                            rend="italic">et ceulx qui ont les armes en France, n’escrivent
+                            guiere</hi></seg> »).</p><p>La seconde proposition du premier jet
+                        (« <seg corresp="#f17r02_Aussy_guiere"
                         facs=" #f17r02_i_Aussy_norrys #f17r02_i_en_puissent #f17r02_i_guiere">Aussy
                         ne vois ie pas…</seg> »), qui en constituait la majeure partie, est presque
                     entièrement supprimée, de même que l’ajout de la marge de gauche. Le tout est
@@ -224,8 +226,8 @@
                         facs="#f17r02_i_et_1 #f17r02_i_je_ne #f17r02_i_voy_come #f17r02_i_les_robe #f17r02_i_longue"
                             ><hi rend="italic">et ie ne voy pas come les gens de robe
                         longue</hi></seg> »).</p>
-                <p>La phrase passe ainsi d’un constat sur les seuls robins – intégralement supprimé
-                    dans sa version initiale – à une mise en regard de la noblesse de robe et de la
+                <p>La phrase passe ainsi d’un constat sur les seuls robins – intégralement supprimé
+                    dans sa version initiale – à une mise en regard de la noblesse de robe et de la
                     noblesse d’épée.</p>
                 <p>Continuent de poser question ce que nous interprétons comme deux signes
                     d’insertion : <seg corresp="#f17r02_metamark01">l’un après « Royaume »,
