@@ -36,6 +36,13 @@
             <zone xml:id="f23r04_i_digne_qui" points="2772,267 2747,345 3330,345 3335,255"/>
             <zone xml:id="f23r04_i_escrire" points="1715,500 1660,630 2005,592 2002,507"/>
             <zone xml:id="f23r04_i_que_executer" points="2037,475 1982,670 3127,637 3127,507"/>
+            <zone xml:id="f23r04_i_lesquelles_tesmoignent" lry="453" lrx="3370" uly="321" ulx="2667"/>
+            <zone xml:id="f23r04_i_quil_d" points="443,580 443,577 1683,507 1680,630 380,700"/>
+        </surface>
+        <surface>
+            <graphic url="f23r04.jpg"/>
+            <zone xml:id="f23r04_i_lesquelles_tesmoignent" lry="453" lrx="3370" uly="321" ulx="2667"/>
+            <zone xml:id="f23r04_i_quil_d" points="443,580 443,577 1683,507 1680,630 380,700"/>
         </surface>
     </facsimile>
     <text>
@@ -150,15 +157,16 @@
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> executer</del>.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes réalise plusieurs substitutions. La
-                    modification la plus marquante est certainement la suppression de la longue
-                    relative décrivant le contenu des lettres de L’Hôpital (« <seg
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes réalise plusieurs substitutions. La modification la plus
+                    marquante est certainement la suppression de la longue relative décrivant le
+                    contenu des lettres de L’Hôpital (« <seg
                         corresp="#f23r04_lesquelles_d #f23r04_escrire #f23r04_que_executer"
-                        facs="#f23r04_i_escrire #f23r04_i_que_executer"> 
-                        <!--                        Ajouter facs pour lesquelles_d--> lesquelles
-                        tesmoignent quil estoit aussy elegant or d’escrire que resolu a
-                        executer</seg> »), qui rendait hommage à son éloquence autant qu’à sa
-                    détermination en politique.</p></note>
+                        facs="#f23r04_i_lesquelles_tesmoignent #f23r04_i_quil_d #f23r04_i_escrire #f23r04_i_que_executer"
+                        >lesquelles tesmoignent quil estoit aussy elegant or d’escrire que resolu a
+                        executer</seg> »), qui rendait hommage à son éloquence autant qu’à sa
+                    détermination en politique.</p>
+            </note>
         </body>
     </text>
 </TEI>

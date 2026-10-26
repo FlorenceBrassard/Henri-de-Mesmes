@@ -62,12 +62,12 @@
                             <reg>v</reg>
                         </choice>is</del><substJoin target="#f23r02_virgule #f23r02_et_auis"
                 />.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime la <seg
+            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime la <seg
                         corresp="#f23r02_et_auis" facs="#f23r02_i_et_nestions #f23r02_i_guiere_auis"
                         >fin de la phrase</seg>, qui soulignait la convergence des vues du
                     chancelier avec les siennes, de même qu’il supprime l’ajout de la marge de
                     gauche, qui insistait sur la valeur d’une telle reconnaissance de son travail
-                    (voir f. 23r<hi rend="superscript">o</hi>, seg. 3).</p></note>
+                    (voir f. 23r<hi rend="superscript">o</hi>, seg. 3).</p></note>
         </body>
     </text>
 </TEI>

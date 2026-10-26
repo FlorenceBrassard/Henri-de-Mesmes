@@ -25,6 +25,11 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/341,4722,3491,958/full/0/default.jpg"/>
             <zone xml:id="f23r12_i_metamark" lry="244" lrx="2675" uly="154" ulx="2600"/>
             <zone xml:id="f23r12_i_durant_fus" lry="892" lrx="507" uly="347" ulx="62"/>
+            <zone xml:id="fr23r12_i_ix" lry="747" lrx="295" uly="630" ulx="152"/>
+        </surface>
+        <surface>
+            <graphic url="f23r12.jpg"/>
+            <zone xml:id="fr23r12_i_ix" lry="747" lrx="295" uly="630" ulx="152"/>
         </surface>
     </facsimile>
     <text>
@@ -69,10 +74,10 @@
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>our <persName ref="Q244380">st Denys</persName>
-                        <choice>
-                            <orig>ix</orig>
-                            <reg>9</reg>
-                        </choice><hi rend="superscript">e</hi>
+                        <seg xml:id="f23r12_ix"><choice>
+                                <orig>ix</orig>
+                                <reg>9</reg>
+                            </choice></seg><hi rend="superscript">e</hi>
                         <choice>
                             <abbr>8<hi rend="superscript">bre</hi></abbr>
                             <expan>octobre</expan>
@@ -113,24 +118,29 @@
                                 <orig>b</orig>
                                 <reg>B</reg>
                             </choice>ouchetel</surname></persName> et moy.</s></ab>
-            <note resp="AV" type="genetic"><p>La naissance de Judith de Mesmes est <seg
-                        corresp="#f23r12_durant_fus" facs="#f23r12_i_durant_fus">mentionnée en
-                        marge</seg>, de manière incidente. Par contraste avec les venues au monde de
-                    Renée et de Jean-Jacques, elle paraît secondaire : les <hi rend="italic"
-                        >Mémoires</hi>, qui se font parfois livre de raison, tiennent ici en retrait
-                    le récit familial. Ce phénomène ne tient <hi rend="italic">a priori</hi> pas à
-                    la densité du récit de carrière : Henri de Mesmes semble également très
-                    sollicité au moment de la naissance de ses deux premiers enfants, et il est même
-                    absent lors de la naissance de son aînée. La moindre importance accordée à
-                    Judith pourrait s’expliquer par le genre de l’enfant et par sa place dans la
-                    fratrie – une fille, une cadette. Elle pourrait également être liée à un moindre
-                    investissement affectif du mémorialiste, comparativement à celui que laissent
-                    transparaître l’évocation de la mort prématurée de Renée et les allusions à la
-                    réussite professionnelle de Jean-Jacques.</p></note>
-            <note resp="AV" type="critic"><p>Les copies manuscrites ne donnent pas le chiffre 9 pour
-                    préciser le jour de naissance de Judith de Mesmes, qui est pourtant bien lisible
-                    dans l’ajout (voir Français 18617, f. 17v<hi rend="superscript">o</hi> et
-                    Duchesne 57, f. 63r<hi rend="superscript">o</hi>).</p></note>
+            <note resp="AV" type="genetic">
+                <p>La naissance de Judith de Mesmes est <seg corresp="#f23r12_durant_fus"
+                        facs="#f23r12_i_durant_fus">mentionnée en marge</seg>, de manière incidente.
+                    Par contraste avec les venues au monde de Renée et de Jean-Jacques, elle paraît
+                    secondaire : les <hi rend="italic">Mémoires</hi>, qui se font parfois livre de
+                    raison, tiennent ici en retrait le récit familial. Ce phénomène ne tient <hi
+                        rend="italic">a priori</hi> pas à la densité du récit de carrière : Henri
+                    de Mesmes semble également très sollicité au moment de la naissance de ses deux
+                    premiers enfants, et il est même absent lors de la naissance de son aînée. La
+                    moindre importance accordée à Judith pourrait s’expliquer par le genre de
+                    l’enfant et par sa place dans la fratrie – une fille, une cadette. Elle pourrait
+                    également être liée à un moindre investissement affectif du mémorialiste,
+                    comparativement à celui que laissent transparaître l’évocation de la mort
+                    prématurée de Renée et les allusions à la réussite professionnelle de
+                    Jean-Jacques.</p>
+            </note>
+            <note resp="AV" type="critic">
+                <p>Les copies manuscrites ne donnent pas <seg corresp="#f23r12_ix"
+                        facs="#fr23r12_i_ix">le chiffre 9</seg> pour préciser le jour de naissance
+                    de Judith de Mesmes, qui est pourtant bien lisible dans l’ajout (voir
+                    Français 18617, f. 17v<hi rend="superscript">o</hi> et Duchesne 57, f. 63r<hi
+                        rend="superscript">o</hi>).</p>
+            </note>
         </body>
     </text>
 </TEI>
