@@ -22,7 +22,7 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/880,473,2652,869/full/0/default.jpg"/>
+                url="https://gallica.bnf. fr/iiif/ark:/12148/btv1b525191290/f44/880,473,2652,869/full/0/default.jpg"/>
             <zone xml:id="f19v01_i_et1" points="2122,332 2118,409 2236,409 2245,305"/>
             <zone xml:id="f19v01_i_et_celebrité" points="2627,164 2627,382 1963,300 1959,232"/>
             <zone xml:id="f19v01_i_et2" points="13,537 4,673 118,673 118,550"/>
@@ -90,36 +90,36 @@
                 <substJoin seq="1" target="#f19v01_et1 #f19v01_de1 #f19v01_de2"/>
                 <substJoin seq="2" target=" #f19v01_et2 #f19v01_et3 #f19v01_maiesté"/>
                 <substJoin seq="3" target="#f19v01_et_celebrité #f19v01_et_frequence"/></ab>
-            <note resp="AV" type="comment" target="f19v01_comment_01"><p>Emilio Ferretti
-                    (v. 1490-1552), humaniste et juriste italien. Au terme d’une carrière de
-                    secrétaire, de professeur et de diplomate, il est conseiller au parlement du
-                    Dauphiné et titulaire d’une chaire de droit à Avignon (De Novellis,
+            <note resp="AV" type="comment" target="f19v01_comment_01"><p>Emilio
+                    Ferretti (v. 1490-1552), humaniste et juriste italien. Au terme d’une carrière
+                    de secrétaire, de professeur et de diplomate, il est conseiller au parlement du
+                    Dauphiné et titulaire d’une chaire de droit à Avignon (De Novellis,
                 1932).</p></note>
             <note resp="AV" type="genetic">
-                <p>Henri de Mesmes cherche à rendre hommage à Ferretti et à signaler le prestige
+                <p>Henri de Mesmes cherche à rendre hommage à Ferretti et à signaler le prestige
                     dont ce dernier bénéficie. Le mémorialiste conforte ainsi indirectement son
                     propre éloge, puisque le juriste italien lui propose, comme les <hi
                         rend="italic">Mémoires</hi> le racontent ensuite, de lire « en sa place » et
-                    rédige une lettre de compliments à l’attention de Jean-Jacques I<hi
-                        rend="superscript">er</hi> de Mesmes.</p>
+                    rédige une lettre de compliments à l’attention de Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes.</p>
                 <p>On peut faire l’hypothèse que la fin de la phrase est retravaillée de la manière
-                    suivante : ajout du « <seg corresp="#f19v01_de2_add" facs="#f19v01_i_de2"
+                    suivante : ajout du « <seg corresp="#f19v01_de2_add" facs="#f19v01_i_de2"
                         >de</seg> » devant « <seg corresp="#f19v01_maiesté" facs="#f19v01_i_maiesté"
                         >maiesté</seg> », ensuite supprimé en même temps que le « <seg
                         corresp="#f19v01_et1 #f19v01_de1" facs="#f19v01_i_et1 #f19v01_i_de1">et
                         de</seg> » devant « <seg corresp="#f19v01_frequence"
                         facs="#f19v01_i_frequence">frequence</seg> », pour garantir un rythme
-                    ternaire (« apparat », « frequence », « maieste ») ; <seg corresp="#f19v01_et2"
+                    ternaire (« apparat », « frequence », « maieste ») ; <seg corresp="#f19v01_et2"
                         facs="#f19v01_i_et2">rétablissement de la coordination</seg> et retour à un
-                    rythme binaire (« apparat » et « frequence ») ; double substitution, de «
-                    frequence » par « <seg corresp="#f19v01_celebrité" facs="#f19v01_i_celebrité"
+                    rythme binaire (« apparat » et « frequence ») ; double substitution, de
+                    « frequence » par « <seg corresp="#f19v01_celebrité" facs="#f19v01_i_celebrité"
                         >celebrité</seg> », puis de « celebrité » par « <seg
                         corresp="#f19v01_reputation" facs="#f19v01_i_reputation">reputation</seg> ».
                     Ce dernier terme paraît condenser l’idée initiale de « majesté » (grandeur, qui
                     vaut la reconnaissance) et de « frequence », si on entend ce dernier terme en
                     son sens étymologique d’affluence, de vaste auditoire (<hi rend="italic"
-                        >frequentia</hi> en latin : <hi rend="italic">foule</hi>). « Frequence »
-                    peut toutefois aussi s’entendre en son sens actuel ; il souligne alors le nombre
+                        >frequentia</hi> en latin : <hi rend="italic">foule</hi>). « Frequence »
+                    peut toutefois aussi s’entendre en son sens actuel ; il souligne alors le nombre
                     et la régularité des leçons. Le terme « <seg corresp="#f19v01_temps01"
                         facs="#f19v01_i_temps01">temps</seg> », quant à lui, est d’abord remplacé
                     par « <seg corresp="#f19v01_siecle" facs="#f19v01_i_siecle">siecle</seg> », pour

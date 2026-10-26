@@ -22,7 +22,7 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/1047,1798,2543,465/full/0/default.jpg"/>
+                url="https://gallica.bnf. fr/iiif/ark:/12148/btv1b525191290/f44/1047,1798,2543,465/full/0/default.jpg"/>
             <zone xml:id="f19v01_metamark_i_01" points="742,272 828,370 674,390"/>
             <zone xml:id="f19v05_i_a_et" points="1062,224 640,290 632,198 1100,178"/>
             <zone xml:id="f19v05_i_auditoire" points="1552,156 1552,221 1896,208 1917,121"/>
@@ -94,16 +94,16 @@
                             reason="illegible" agent="reliure"/>
                         <supplied cert="high">it</supplied></add><substJoin
                         target="#f19v05_a_et_2 #f19v05_car_vaquoit"/>.</s></ab>
-            <note resp="AV" type="genetic"><p>À nouveau, Henri de Mesmes étoffe son propos pour
+            <note resp="AV" type="genetic"><p>À nouveau, Henri de Mesmes étoffe son propos pour
                     souligner l’engouement qu’il suscite sur le chemin du retour vers Paris. Le
                     traitement réservé au bref séjour à Poitiers mérite qu’on s’y attarde. Le
                     mémorialiste <seg corresp="#f19v05_a_et_2" facs="#f19v05_i_a_et">ajoute le nom
                         de la ville, puis le raye</seg>. L’explication fournie à la fin de l’ajout
-                    marginal (« <seg corresp="#f19v05_car_vaquoit" facs="#f19v05_i_car_vaquoit">car
-                        a poitiers nous trouuäsmes que lescole vaquoit</seg> ») n’est compréhensible
+                    marginal (« <seg corresp="#f19v05_car_vaquoit" facs="#f19v05_i_car_vaquoit">car
+                        a poitiers nous trouuäsmes que lescole vaquoit</seg> ») n’est compréhensible
                     que si l’on tient compte de la genèse du propos. La proposition vient en effet
-                    expliquer pourquoi Henri de Mesmes a renoncé à établir un rapprochement entre
-                    Orléans – où l’accueil fut chaleureux – et Poitiers, où il ne se passa rien, non
+                    expliquer pourquoi Henri de Mesmes a renoncé à établir un rapprochement entre
+                    Orléans – où l’accueil fut chaleureux – et Poitiers, où il ne se passa rien, non
                     par manque d’intérêt pour le jeune juriste, mais parce que les cours étaient
                     suspendus.</p></note>
         </body>

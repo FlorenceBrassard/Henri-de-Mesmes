@@ -22,7 +22,7 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/895,969,2506,489/full/0/default.jpg"/>
+                url="https://gallica.bnf. fr/iiif/ark:/12148/btv1b525191290/f44/895,969,2506,489/full/0/default.jpg"/>
             <zone xml:id="f19v02_i_il_voulut" points="548,179 535,314 1005,253 1000,161"/>
             <zone xml:id="f19v02_i_nous_arriuée" points="609,114 618,209 1805,118 1792,44"/>
             <zone xml:id="f19v02_i_et_bon" points="1805,31 1805,105 2444,87 2439,18"/>
@@ -91,21 +91,21 @@
                                     <reg>ç</reg>
                                 </choice>oys</date><anchor xml:id="f19v02_comment_01"/></add>
                     </subst>.</s></ab>
-            <note resp="AV" type="comment" target="f19v02_comment_01"><p>Le 4 octobre
-                1551.</p></note>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute des détails sur les
-                    circonstances de la rencontre avec Ferretti : le propos recomposé met davantage
+            <note resp="AV" type="comment" target="f19v02_comment_01"><p>Le
+                4 octobre 1551.</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute des détails sur les
+                    circonstances de la rencontre avec Ferretti : le propos recomposé met davantage
                     en valeur <seg corresp="#f19v02_i_nous_arriuée #f19v02_et_bon"
                         facs="#f19v02_nous_larriuée #f19v02_i_et_bon">la cordialité des
-                        échanges</seg> et offre une plus grande précision temporelle – <seg
+                        échanges</seg> et offre une plus grande précision temporelle – <seg
                         corresp="#f19v02_matin_françoys" facs="#f19v02_matin_françoys">jour de la
-                        Saint-François</seg>, soit le 4 octobre 1550.</p></note>
-            <note resp="AV" type="critic"><p>Le Français 18617 et le Duchesne 57 donnent « ce que je
-                    fis » (f. 7v<hi rend="superscript">o</hi>) ou « ce que je feis » (f. 58v<hi
+                        Saint-François</seg>, soit le 4 octobre 1550.</p></note>
+            <note resp="AV" type="critic"><p>Le Français 18617 et le Duchesne 57 donnent « ce que je
+                        fis »(f. 7v<hi rend="superscript">o</hi>) ou « ce que je feis »(f. 58v<hi
                         rend="superscript">o</hi>), qui est plus satisfaisant sur le plan syntaxique
-                    mais ne paraît pas correspondre à ce qu’Henri de Mesmes a écrit. É. Frémy suit
-                    les copies et donne « ce que je fey » (éd. des <hi rend="italic">Mémoires</hi>,
-                    p. 145).</p></note>
+                    mais ne paraît pas correspondre à ce qu’Henri de Mesmes a écrit. É. Frémy suit
+                    les copies et donne « ce que je fey »(éd. des <hi rend="italic">Mémoires</hi>,
+                    p. 145).</p></note>
         </body>
     </text>
 </TEI>

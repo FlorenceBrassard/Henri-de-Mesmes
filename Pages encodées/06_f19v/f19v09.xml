@@ -22,7 +22,7 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f44/988,3837,2609,1927/full/0/default.jpg"/>
+                url="https://gallica.bnf. fr/iiif/ark:/12148/btv1b525191290/f44/988,3837,2609,1927/full/0/default.jpg"/>
             <zone xml:id="f19v09_i_metamark_bon" lry="504" lrx="2600" uly="223" ulx="2414"/>
         </surface>
     </facsimile>
@@ -123,27 +123,27 @@
                             <del>, et de</del>
                             <add>.</add>
                         </subst></s></del></ab>
-            <note resp="AV" type="comment" target="f19v09_comment_01"><p>1551 en « ancien style »,
-                    comme l’écrit le mémorialiste, 1552 en « nouveau style ». Le calcul est juste :
-                    Henri de Mesmes a bien un peu plus de vingt ans. </p></note>
-            <note resp="AV" type="comment" target="f19v09_comment_02"><p>Oudart II Hennequin (†
-                    1559), conseiller du roi et maître ordinaire de la Chambre des comptes. Henri de
-                    Mesmes, comme son père avant lui, entend tirer profit de la position et du
+            <note resp="AV" type="comment" target="f19v09_comment_01"><p>1551 en « ancien style »,
+                    comme l’écrit le mémorialiste, 1552 en « nouveau style ». Le calcul est juste :
+                    Henri de Mesmes a bien un peu plus de vingt ans. </p></note>
+            <note resp="AV" type="comment" target="f19v09_comment_02"><p>Oudart II Hennequin
+                    († 1559), conseiller du roi et maître ordinaire de la Chambre des comptes. Henri
+                    de Mesmes, comme son père avant lui, entend tirer profit de la position et du
                     réseau de la puissante famille d’origine troyenne des Hennequin. Ayant bâti sa
-                    fortune dans le commerce de la draperie, celle-ci a vu sa noblesse reconnue en
-                    1356 pour services rendus au cours de la guerre de Cent Ans. Elle est par la
+                    fortune dans le commerce de la draperie, celle-ci a vu sa noblesse reconnue
+                    en 1356 pour services rendus au cours de la guerre de Cent Ans. Elle est par la
                     suite très présente parmi les officiers royaux (Rager, 2021).</p></note>
-            <note resp="AV" type="genetic"><p>L’intégralité du passage débutant avec « La je fus »
+            <note resp="AV" type="genetic"><p>L’intégralité du passage débutant avec « La je fus »
                     et allant jusqu’au bas de la page est biffée d’un large trait de plume. Ce
-                    propos évoquant le mariage d’Henri de Mesmes et de Jeanne Hennequin, qui n’a pas
-                    d’équivalent par la suite, paraît être rétabli par la mention « <seg
+                    propos évoquant le mariage d’Henri de Mesmes et de Jeanne Hennequin, qui n’a pas
+                    d’équivalent par la suite, paraît être rétabli par la mention « <seg
                         corresp="#f19v09_metamark_bon" facs="#f19v09_i_metamark_bon">bon</seg> »,
                     inscrite dans la marge de droite. Le retravail de la dernière proposition, qui
                     vient saluer les qualités d’Oudart Hennequin, demeure inachevé.</p></note>
-            <note resp="AV" type="critic"><p>Le Français 18617 (f. 8v<hi rend="superscript">o</hi>)
-                    et le Duchesne 57 (f. 58v<hi rend="superscript">o</hi>-59r<hi rend="superscript"
+            <note resp="AV" type="critic"><p>Le Français 18617 (f. 8v<hi rend="superscript">o</hi>)
+                    et le Duchesne 57 (f. 58v<hi rend="superscript">o</hi>-59r<hi rend="superscript"
                         >o</hi>) rétablissent toutes deux le passage concerné par la mention
-                    « bon ». É. Frémy fait de même (éd. des <hi rend="italic">Mémoires</hi>,
+                    « bon ». É. Frémy fait de même (éd. des <hi rend="italic">Mémoires</hi>,
                     p. 147-148).</p></note>
         </body>
     </text>
