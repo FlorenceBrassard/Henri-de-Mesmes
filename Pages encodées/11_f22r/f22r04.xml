@@ -46,10 +46,15 @@
             <zone xml:id="f22r04_i_metamark05" points="1956,788 1948,894 2126,870 2126,784"/>
             <zone xml:id="f22r04_i_et" points="2104,846 2106,946 2240,938 2246,844"/>
             <zone xml:id="f22r04_i_Quant" points="2142,768 2098,846 2344,844 2358,766"/>
+            <zone xml:id="f22r04_i_au_public" lry="968" lrx="2879" uly="826" ulx="2242"/>
+        </surface>
+        <surface>
+            <graphic url="f22r04.jpg"/>
+            <zone xml:id="f22r04_i_au_public" lry="968" lrx="2879" uly="826" ulx="2242"/>
         </surface>
         <surface>
             <graphic url=""/>
-            <!--                Ajouter une photo [À PRENDRE] de la marge de gauche c'est-à-dire_soir-->
+            <!--                Ajouter une photo [À PRENDRE] de la marge de gauche c'est-à-dire_soir ; nécessaire notamment pour facs incomplet-->
         </surface>
         <surface>
             <graphic
@@ -156,7 +161,7 @@
                             <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>
-                            </choice>our de juin 1557</date>
+                            </choice>our de juin 1557</date>
                         <choice>
                             <orig>a</orig>
                             <reg>à</reg>
@@ -266,31 +271,37 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>année precedente.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute une allusion à des lettres de
-                    la République de Sienne, qui doivent prouver la qualité de son service. Il
-                    supprime par ailleurs la formule « <seg corresp="#f22r04_pour_particulier"
-                        facs="#f22r04_i_pour_particulier">pour mon ꝑticulier</seg> », faisant
-                    pendant à « <seg corresp="#f22r04_Quant #f22r04_au_public"
-                        facs="#f22r04_i_Quant">quant au public</seg> », qui demeure plus bas : la
-                    <!--                    Ajouter facs “au public”--> séparation entre affaires
-                    publiques et préoccupations familiales paraît ainsi moins nette.</p>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes ajoute une allusion à des lettres de la République de Sienne, qui
+                    doivent prouver la qualité de son service. Il supprime par ailleurs la formule
+                        « <seg corresp="#f22r04_pour_particulier" facs="#f22r04_i_pour_particulier"
+                        >pour mon ꝑticulier</seg> », faisant pendant à « <seg
+                        corresp="#f22r04_Quant #f22r04_au_public"
+                        facs="#f22r04_i_Quant #f22r04_i_au_public">quant au public</seg> », qui
+                    demeure plus bas : la séparation entre affaires publiques et préoccupations
+                    familiales paraît ainsi moins nette.</p>
                 <p>L’évocation de ces affaires est elle-même retravaillée. La référence à la
-                    naissance de Renée de Mesmes est modifiée dans le corps du texte, sans grande
+                    naissance de Renée de Mesmes est modifiée dans le corps du texte, sans grande
                     incidence toutefois sur le sens. Dans la <seg corresp="#f22r04_cest_soir"
-                        facs="">marge</seg>, le mémorialiste fournit des indications très précises
-                    sur la date et l’heure de la venue au monde de sa fille aînée. Les Mémoires se
-                    rapprochent alors du modèle du livre de raison, qui conserve avec soin la
-                    mémoire des événements familiaux importants. Dans la même dynamique, Henri de
-                    Mesmes ajoute un <seg corresp="#f22r04_aussy_1557" facs="#f22r04_i_aussy_1557"
-                        >hommage posthume à sa belle-mère, Jeanne Michon</seg>.</p></note>
-            <note resp="AV" type="critic"><p>Le Français 18617 ne donne pas le complément « d’une
-                    fille » et propose une transcription incertaine du mois de Mars (« Marie » ?)
-                    (f. 13v<hi rend="superscript">o</hi>). Ces deux éléments aliment l’hypothèse
-                    selon laquelle le Duchesne 57 n’a pas été établi à partir du Français 18617,
-                    mais à partir d’une autre copie.</p>
-                <p>É. Frémy donne « II heures » pour l’heure de naissance de Renée de Mesmes (éd.
-                    des <hi rend="italic">Mémoires</hi>, p. 160), ce qui est une transcription peu
-                    convaincante.</p></note>
+                        facs="">marge</seg>,
+                    <!--                    À compléter lorsqu'on aura pris la photo de la marge.-->
+                    le mémorialiste fournit des indications très précises sur la date et l’heure de
+                    la venue au monde de sa fille aînée. Les Mémoires se rapprochent alors du modèle
+                    du livre de raison, qui conserve avec soin la mémoire des événements familiaux
+                    importants. Dans la même dynamique, Henri de Mesmes ajoute un <seg
+                        corresp="#f22r04_aussy_1557" facs="#f22r04_i_aussy_1557">hommage posthume à
+                        sa belle-mère, Jeanne Michon</seg>.</p>
+            </note>
+            <note resp="AV" type="critic">
+                <p>Le Français 18617 ne donne pas le complément « d’une fille » et propose une
+                    transcription incertaine du mois de Mars (« Marie » ?) (f. 13v<hi
+                        rend="superscript">o</hi>). Ces deux éléments aliment l’hypothèse selon
+                    laquelle le Duchesne 57 n’a pas été établi à partir du Français 18617, mais à
+                    partir d’une autre copie.</p>
+                <p>É. Frémy donne « II heures » pour l’heure de naissance de Renée de Mesmes (éd.
+                    des <hi rend="italic">Mémoires</hi>, p. 160), ce qui est une transcription peu
+                    convaincante.</p>
+            </note>
         </body>
     </text>
 </TEI>

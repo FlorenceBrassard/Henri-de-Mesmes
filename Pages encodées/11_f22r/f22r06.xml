@@ -30,6 +30,17 @@
             <zone xml:id="f22r06_i_violance" points="1882,960 1840,1035 2337,1027 2355,952"/>
             <zone xml:id="f22r06_i_metamark2" points="1637,1170 1545,1270 1730,1275"/>
             <zone xml:id="f22r06_i_a_et" points="1510,1070 1437,1160 2112,1140 2112,1057"/>
+            <zone xml:id="f22r06_i_ieter_troubles" points="2210,758 2094,905 3126,911 3116,795"/>
+            <zone xml:id="f22r06_i_naimay_violance" points="826,953 789,1126 2321,1084 2326,958"/>
+            <zone xml:id="f22r06_i_guerre_ciuile" points="1831,895 1816,1005 2421,984 2416,879"/>
+            <zone xml:id="f22r06_i_courtiser" lry="842" lrx="2126" uly="739" ulx="1676"/>
+        </surface>
+        <surface>
+            <graphic url="f22r06a.jpg"/>
+            <zone xml:id="f22r06_i_ieter_troubles" points="2210,758 2094,905 3126,911 3116,795"/>
+            <zone xml:id="f22r06_i_naimay_violance" points="826,953 789,1126 2321,1084 2326,958"/>
+            <zone xml:id="f22r06_i_guerre_ciuile" points="1831,895 1816,1005 2421,984 2416,879"/>
+            <zone xml:id="f22r06_i_courtiser" lry="842" lrx="2126" uly="739" ulx="1676"/>
         </surface>
         <surface>
             <graphic url=""/>
@@ -46,6 +57,15 @@
             <zone xml:id="f22r06_i_mon_pere_del" points="1150,835 1138,950 1618,935 1613,842"/>
             <zone xml:id="f22r06_i_mon_pere_add" points="610,810 615,900 900,882 890,800"/>
             <zone xml:id="f22r06_i_nommé_add" points="1200,785 1200,870 1577,872 1572,750"/>
+            <zone xml:id="f22r06_i_et_estudes" lry="439" lrx="2343" uly="291" ulx="1422"/>
+            <zone xml:id="f22r06_i_vous_filz" lry="791" lrx="1648" uly="629" ulx="979"/>
+            <zone xml:id="f22r06_i_nacquites" lry="776" lrx="2114" uly="612" ulx="1693"/>
+        </surface>
+        <surface>
+            <graphic url=" f22r06b.jpg"/>
+            <zone xml:id="f22r06_i_et_estudes" lry="439" lrx="2343" uly="291" ulx="1422"/>
+            <zone xml:id="f22r06_i_vous_filz" lry="791" lrx="1648" uly="629" ulx="979"/>
+            <zone xml:id="f22r06_i_nacquites" lry="776" lrx="2114" uly="612" ulx="1693"/>
         </surface>
         <surface>
             <graphic
@@ -156,8 +176,8 @@
                     </choice>e ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ois <pb n="f22v"/>ordinairement depuys que <roleName ref="Q107207194">mon
-                        pere</roleName> m<choice>
+                    </choice>ois <pb n="f22v"/>ordinairement depuys que <roleName ref="Q107207194"
+                        >mon pere</roleName> m<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>en eut quité l<choice>
@@ -431,37 +451,40 @@
                                 <orig> </orig>
                                 <reg>-</reg>
                             </choice>Jacques</forename></persName>.</s></ab>
-            <note resp="AV" type="genetic"><p>La substitution du bas du f. 22r<hi rend="superscript"
-                        >o</hi> est particulièrement intéressante. Henri de Mesmes présente d’abord
-                    sa relative prise de distance d’avec les affaires royales comme une manière de
-                    ne pas se <seg corresp="#f22r06_ne_ciuile" facs="">« ieter aux troubles », parce
-                        qu’il « nai[mait] iamais la violance », ou la « guerre ciuile</seg> ». Cette
-                    évocation de
-                    <!-- j'ai enlever [s] des guillemets et revu la conjugaison de naimay, merci beaucoup !-->
-                    la brutalité des troubles encore à venir, brève mais explicite, est finalement
-                    remplacée par un unique verbe, « <seg corresp="#f22r06_courtiser" facs=""
-                        >courtiser</seg> ». La formulation, plus courte, paraît fortement
-                    euphémisante : elle transforme un refus de la violence armée en un refus de la
+            <note resp="AV" type="genetic">
+                <p>La substitution du bas du f. 22r<hi rend="superscript">o</hi> est
+                    particulièrement intéressante. Henri de Mesmes présente d’abord sa relative
+                    prise de distance d’avec les affaires royales comme une manière de ne pas se
+                        <seg corresp="#f22r06_ne_ciuile"
+                        facs="#f22r06_i_ieter_troubles #f22r06_i_naimay_violance #f22r06_i_guerre_ciuile"
+                        >« ieter aux troubles », parce qu’il « nai[mait] iamais la violance », ou la
+                        « guerre ciuile</seg> ». Cette évocation de la brutalité des troubles encore
+                    à venir, brève mais explicite, est finalement remplacée par un unique verbe,
+                        « <seg corresp="#f22r06_courtiser" facs="#f22r06_i_courtiser"
+                        >courtiser</seg> ». La formulation, plus courte, paraît fortement
+                    euphémisante : elle transforme un refus de la violence armée en un refus de la
                     fréquentation de la cour. Le mémorialiste réaménage également la description de
-                    ses nouvelles occupations, en remontant la référence à ses « <seg
-                        corresp="#f22r06_a_et" facs="#f22r06_i_a_et">liuvres</seg> », qui remplace
-                    celle à ses « <seg corresp="#f22r06_et_estudes" facs="">estudes</seg> » et
-                    dessine la perspective heureuse du loisir lettré.</p>
-                <p>En haut du f. 22v<hi rend="superscript">o</hi>, Henri de Mesmes <seg
+                    ses nouvelles occupations, en remontant la référence à ses « <seg
+                        corresp="#f22r06_a_et" facs="#f22r06_i_a_et">liures</seg> », qui remplace
+                    celle à ses « <seg corresp="#f22r06_et_estudes" facs="#f22r06_i_et_estudes"
+                        >estudes</seg> » et dessine la perspective heureuse du loisir lettré.</p>
+                <p>En haut du f. 22v<hi rend="superscript">o</hi>, Henri de Mesmes <seg
                         corresp="#f22r06_enuiron_nacquites" facs="#f22r06_i_enuiron_nacquites"
                         >ajoute un long passage dans la marge de gauche</seg>, qui lui permet de
-                    prolonger l’évocation de sa vie familiale (voir f. 22r°, seg. 4). Cet ajout est
-                    concomitant de la suppression, dans la seconde moitié du même folio, d’un
-                    passage traitant de la mort d’Oudart Hennequin et de sa famille (voir f. 22v<hi
-                        rend="superscript">o</hi>, seg. 8-10), venant à la suite de l’évocation du
-                    décès de Renée de Mesmes (voir f. 22v<hi rend="superscript">o</hi>, seg. 2-7).
-                    Cette opération permet au mémorialiste de présenter la naissance de son
-                    destinataire, désormais intercalé entre deux hommages posthumes, comme un
-                    bienfait qui vient compenser une période de deuil. Les suppressions dans le
-                    corps du texte, notamment celle de l’apostrophe (« <seg
-                        corresp="#f22r06_vous_fils" facs="">vous mon filz</seg> ») et du verbe
-                        (« <seg corresp="#f22r06_nacquites" facs="">nacquites</seg> »), découlent de
-                    ce retravail.</p></note>
+                    prolonger l’évocation de sa vie familiale (voir f. 22r<hi rend="superscript"
+                        >o</hi>, seg. 4). Cet ajout est concomitant de la suppression, dans la
+                    seconde moitié du même folio, d’un passage traitant de la mort d’Oudart
+                    Hennequin et de sa famille (voir f. 22v<hi rend="superscript">o</hi>,
+                    seg. 8-10), venant à la suite de l’évocation du décès de Renée de Mesmes (voir
+                        f. 22v<hi rend="superscript">o</hi>, seg. 2-7). Cette opération permet au
+                    mémorialiste de présenter la naissance de son destinataire, désormais intercalé
+                    entre deux hommages posthumes, comme un bienfait qui vient compenser une période
+                    de deuil. Les suppressions dans le corps du texte, notamment celle de
+                    l’apostrophe (« <seg corresp="#f22r06_vous_fils" facs="#f22r06_i_vous_filz">vous
+                        mon filz</seg> ») et du verbe (« <seg corresp="#f22r06_nacquites"
+                        facs="#f22r06_i_nacquites">nacquites</seg> »), découlent de ce
+                    retravail.</p>
+            </note>
         </body>
     </text>
 </TEI>

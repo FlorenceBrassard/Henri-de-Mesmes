@@ -31,6 +31,17 @@
             <zone xml:id="f23r08_i_enfermé_tempeste" points="421,542 389,663 2321,552 2321,468"/>
             <zone xml:id="f23r08_i_en" points="610,610 594,710 705,705 694,621"/>
             <zone xml:id="f23r08_i_d" points="701,591 691,698 751,696 785,595"/>
+            <zone xml:id="f23r08_i_occupation_aux" lry="379" lrx="2058" uly="268" ulx="1471"/>
+            <zone xml:id="f23r08_i_lres" lry="337" lrx="2268" uly="231" ulx="2063"/>
+            <zone xml:id="f23r08_i_vacation_des" points="2537,150 2537,220 1532,290 1517,215"/>
+            <zone xml:id="f23r08_i_orage_public" lry="705" lrx="1432" uly="565" ulx="902"/>
+        </surface>
+        <surface>
+            <graphic url="f23r08.jpg"/>
+            <zone xml:id="f23r08_i_occupation_aux" lry="379" lrx="2058" uly="268" ulx="1471"/>
+            <zone xml:id="f23r08_i_lres" lry="337" lrx="2268" uly="231" ulx="2063"/>
+            <zone xml:id="f23r08_i_vacation_des" points="2537,150 2537,220 1532,290 1517,215"/>
+            <zone xml:id="f23r08_i_orage_public" lry="705" lrx="1432" uly="565" ulx="902"/>
         </surface>
     </facsimile>
     <text>
@@ -110,24 +121,26 @@
                         <reg>u</reg>
                     </choice>n <seg xml:id="f23r08_orage_public">orage public</seg>.<substJoin
                         target="#f23r08_enfermé_tempeste #f23r08_en_d"/></s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes procède à plusieurs modifications,
-                    dont les plus significatives viennent renforcer le blâme formulé à son encontre
-                    par Catherine de Médicis. La formule « <seg
-                        corresp="#f23r08_occupation_aux #f23r08_letres" facs="">occupation aux
-                        letres</seg> » est remplacée par « <seg
-                        corresp="#f23r08_vacation_des #f23r08_letres" facs=""><hi rend="italic"
-                            >vacation d’afe<hi rend="superscript">r</hi>s po<hi rend="superscript"
-                                >r</hi> lestudes des letres</hi></seg> », qui laisse entendre non
-                    pas une concomitance des activités savantes et des activités politiques, mais
-                    une concurrence et l’abandon des secondes au profit des premières. L’ajout
-                        « <seg corresp="#f23r08_enfermé_tempeste" facs="#f23r08_i_enfermé_tempeste"
-                            ><hi rend="italic">enfermé dens vn iardin et vn estude pendant la
-                            tempeste</hi></seg> » vient, pour sa part, conforter la métaphore de
-                        l’« <seg corresp="#f23r08_orage_public" facs="">orage public</seg> » et dire
-                    l’égoïsme d’Henri de Mesmes. L’expression prêtée à la reine mère tend néanmoins,
-                    dans le même temps, à constituer le juriste en sage savourant sa tranquillité
-                    d’esprit et annonce discrètement l’éloge du retrait de
-                l’après-disgrâce.</p></note>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes procède à plusieurs modifications, dont les plus significatives
+                    viennent renforcer le blâme formulé à son encontre par Catherine de Médicis. La
+                    formule « <seg corresp="#f23r08_occupation_aux #f23r08_letres"
+                        facs="#f23r08_i_occupation_aux #f23r08_i_lres">occupation aux letres</seg> »
+                    est remplacée par « <seg corresp="#f23r08_vacation_des #f23r08_letres"
+                        facs="#f23r08_i_vacation_des #f23r08_i_lres"><hi rend="italic">vacation
+                                d’afe<hi rend="superscript">r</hi>s po<hi rend="superscript">r</hi>
+                            lestudes des letres</hi></seg> », qui laisse entendre non pas une
+                    concomitance des activités savantes et des activités politiques, mais une
+                    concurrence et l’abandon des secondes au profit des premières. L’ajout « <seg
+                        corresp="#f23r08_enfermé_tempeste" facs="#f23r08_i_enfermé_tempeste"><hi
+                            rend="italic">enfermé dens vn iardin et vn estude pendant la
+                            tempeste</hi></seg> » vient, pour sa part, conforter la métaphore de
+                        l’« <seg corresp="#f23r08_orage_public" facs="#f23r08_i_orage_public">orage
+                        public</seg> » et dire l’égoïsme d’Henri de Mesmes. L’expression prêtée à la
+                    reine mère tend néanmoins, dans le même temps, à constituer le juriste en sage
+                    savourant sa tranquillité d’esprit et annonce discrètement l’éloge du retrait de
+                    l’après-disgrâce.</p>
+            </note>
         </body>
     </text>
 </TEI>

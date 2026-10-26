@@ -25,6 +25,17 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1092,4222,2760,392/full/0/default.jpg"/>
             <zone xml:id="f22v12_i_metamark01" points="2077,128 2010,219 2167,214 2162,209"/>
             <zone xml:id="f22v12_i_et_religion" points="2029,33 2005,114 2448,109 2448,28"/>
+            <zone xml:id="f22v12_i_debatoit_et" lry="165" lrx="2742" uly="78" ulx="2332"/>
+            <zone xml:id="f22v12_i_disputoit" lry="380" lrx="370" uly="280" ulx="32"/>
+            <zone xml:id="f22v12_i_parloit" lry="113" lrx="2744" uly="35" ulx="2572"/>
+            <zone xml:id="f22v12_i_ie_mauuais" lry="298" lrx="2180" uly="183" ulx="965"/>
+        </surface>
+        <surface>
+            <graphic url="f22v12.jpg"/>
+            <zone xml:id="f22v12_i_debatoit_et" lry="165" lrx="2742" uly="78" ulx="2332"/>
+            <zone xml:id="f22v12_i_disputoit" lry="380" lrx="370" uly="280" ulx="32"/>
+            <zone xml:id="f22v12_i_parloit" lry="113" lrx="2744" uly="35" ulx="2572"/>
+            <zone xml:id="f22v12_i_ie_mauuais" lry="298" lrx="2180" uly="183" ulx="965"/>
         </surface>
     </facsimile>
     <text>
@@ -58,16 +69,20 @@
                                 <orig/>
                                 <reg>.</reg>
                             </choice></add></del></s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes évoque de manière très allusive les
-                    controverses entourant les prises de position et les décisions de Michel de
-                    L’Hôpital, accusé par ses détracteurs de soutenir le camp protestant. L’ajout de
-                    « <seg corresp="#f22v12_et_religion" facs="#f22v12_i_et_religion">et
-                        religion</seg> » vient rappeler la portée des débats. Le remplacement du
-                    doublon « <seg corresp="#f22v12_debatoit_disputoit" facs="">debatoit et
-                        disputoit</seg> » par « <seg corresp="#f22v12_parloit" facs=""
-                    >parloit</seg> » vise à amoindrir la virulence des critiques. L’ajout de la <seg
-                        corresp="#f22v12_ie_mauuais" facs="">phrase à la première personne</seg>,
-                    qui venait conforter l’action du chancelier, est toutefois supprimé.</p></note>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes évoque de manière très allusive les controverses entourant les
+                    prises de position et les décisions de Michel de L’Hôpital, accusé par ses
+                    détracteurs de soutenir le camp protestant. L’ajout de « <seg
+                        corresp="#f22v12_et_religion" facs="#f22v12_i_et_religion">et
+                    religion</seg> » vient rappeler la portée des débats. Le remplacement du doublon
+                        « <seg corresp="#f22v12_debatoit_disputoit"
+                        facs="#f22v12_i_debatoit_et #f22v12_i_disputoit">debatoit et
+                    disputoit</seg> » par « <seg corresp="#f22v12_parloit" facs="#f22v12_i_parloit"
+                        >parloit</seg> » vise à amoindrir la virulence des critiques. L’ajout de la
+                        <seg corresp="#f22v12_ie_mauuais" facs="#f22v12_i_ie_mauuais">phrase à la
+                        première personne</seg>, qui venait conforter l’action du chancelier, est
+                    toutefois supprimé.</p>
+            </note>
         </body>
     </text>
 </TEI>

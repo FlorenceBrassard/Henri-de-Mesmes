@@ -36,10 +36,20 @@
             <zone xml:id="f21v09_i_aussans_undo" points="2213,1791 2200,1865 1752,1860 1757,1821"/>
             <zone xml:id="f21v09_i_aussans" points="1826,1756 1779,1839 2192,1808 2170,1721"/>
             <zone xml:id="f21v09_i_et_Montalcino" points="26,869 22,1000 1700,869 1696,786"/>
+            <zone xml:id="f21v09_i_et_Mole" points="1592,1969 1579,2047 1944,2026 1926,1921"/>
+            <zone xml:id="f21v09_i_qui_qui" points="1783,2030 1752,2191 2548,2095 2535,1969"/>
+            <zone xml:id="f21v09_i_a_grossetto" points="2105,1939 2105,2026 2465,1991 2457,1900"/>
         </surface>
         <surface>
-            <graphic url="f21v08.jpg"/>
+            <graphic url="f21v09.jpg"/>
+            <zone xml:id="f21v09_i_et_Mole" points="1592,1969 1579,2047 1944,2026 1926,1921"/>
+            <zone xml:id="f21v09_i_qui_qui" points="1783,2030 1752,2191 2548,2095 2535,1969"/>
+            <zone xml:id="f21v09_i_a_grossetto" points="2105,1939 2105,2026 2465,1991 2457,1900"/>
         </surface>
+        <surface>
+            <graphic url=""/>
+        </surface>
+        <!--        Ajouter m21v09 sur Nakala, en ce moment ça charge à l'infini :( -->
     </facsimile>
     <text>
         <body>
@@ -248,27 +258,30 @@
                             <orig>q</orig>
                             <reg>Q</reg>
                         </choice>ui est celuy qui</del></s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute quelques précisions à cette
-                    longue phrase qui célèbre sa prétendue action militaire : emplacement du Palazzo
-                    Altesi, titre de La Serre (« <seg corresp="#f21v09_baron" facs="#f21v09_i_baron"
-                        >baron</seg> ») ou encore nom des seigneurs <seg
-                        corresp="#f21v09_blacons #f21v09_et_Mole" facs="#f21v09_i_blacons">de
-                        <!--                            Ajouter mole dans facs ci-haut--> Blacons et
-                        de La Môle</seg>. La page se termine sur une nouvelle phrase inachevée («
-                        <seg corresp="#f21v09_qui_qui" facs="">qui est celuy qui</seg>
-                »).</p></note>
-            <note resp="AV" type="critic"><p>Les copies comportent des transcriptions <hi
-                        rend="italic">a priori</hi> fautives et par ailleurs incomplètes de la fin
-                    de la phrase principale : le Français 18617 donne « le sieur de la Mole
-                    Agresselle pour … » (f. 12v<hi rend="superscript">o</hi>) et le Duchesne 57 « le
-                    sieur de la Mole Agressette pour … » (f. 60v<hi rend="superscript">o</hi>). Les
-                    mentions de la ville (« <seg corresp="#f21v09_a_grossetto" facs="">a
-                        grossetto</seg> ») et de la région (« <seg corresp="#f21v09_por_Marem"
-                        facs="">por la Marem</seg> ») n’ont pas été comprises. É. Frémy, pour sa
-                    part, donne « … et de La Môle à Grosseto pour le Martine (<hi rend="italic"
-                        >sic</hi>) » (éd. des <hi rend="italic">Mémoires</hi>, p. 158). La mention «
-                        <hi rend="italic">sic</hi> » témoigne bien du fait qu’il n’est pas convaincu
-                    de sa transcription.</p></note>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes ajoute quelques précisions à cette longue phrase qui célèbre sa
+                    prétendue action militaire : emplacement du Palazzo Altesi, titre de La Serre
+                        (« <seg corresp="#f21v09_baron" facs="#f21v09_i_baron">baron</seg> ») ou
+                    encore nom des seigneurs <seg corresp="#f21v09_blacons #f21v09_et_Mole"
+                        facs="#f21v09_i_blacons #f21v09_i_et_Mole">de Blacons et de La Môle</seg>.
+                    La page se termine sur une nouvelle phrase inachevée (« <seg
+                        corresp="#f21v09_qui_qui" facs="#f21v09_i_qui_qui">qui est celuy
+                    qui</seg> »).</p>
+            </note>
+            <note resp="AV" type="critic">
+                <p>Les copies comportent des transcriptions <hi rend="italic">a priori</hi> fautives
+                    et par ailleurs incomplètes de la fin de la phrase principale : le
+                    Français 18617 donne « le sieur de la Mole Agresselle pour … » (f. 12v<hi
+                        rend="superscript">o</hi>) et le Duchesne 57 « le sieur de la Mole
+                    Agressette pour … » (f. 60v<hi rend="superscript">o</hi>). Les mentions de la
+                    ville (« <seg corresp="#f21v09_a_grossetto" facs="#f21v09_i_a_grossetto">a
+                        grossetto</seg> ») et de la région (« <seg corresp="#f21v09_por_Marem"
+                        facs="">por la Marem</seg> ») n’ont pas été comprises. É. Frémy, pour sa
+                    part, donne « … et de La Môle à Grosseto pour le Martine (<hi rend="italic"
+                        >sic</hi>) » (éd. des <hi rend="italic">Mémoires</hi>, p. 158). La mention
+                        « <hi rend="italic">sic</hi> » témoigne bien du fait qu’il n’est pas
+                    convaincu de sa transcription.</p>
+            </note>
         </body>
     </text>
 </TEI>

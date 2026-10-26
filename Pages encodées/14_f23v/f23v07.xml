@@ -25,6 +25,11 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/680,2540,2925,375/full/0/default.jpg"/>
             <zone xml:id="f23v07_i_metamark01" lry="178" lrx="1192" uly="128" ulx="1142"/>
             <zone xml:id="f23v07_i_diuerses" lry="98" lrx="1480" uly="20" ulx="1132"/>
+            <zone xml:id="f23v07_i_faisant_office" points="225,170 2295,120 2290,195 210,265"/>
+        </surface>
+        <surface>
+            <graphic url="f23v07.jpg"/>
+            <zone xml:id="f23v07_i_faisant_office" points="225,170 2295,120 2290,195 210,265"/>
         </surface>
     </facsimile>
     <text>
@@ -74,13 +79,15 @@
                             </choice></del>
                     </subst> ay encore les cofres <add>des seaulx</add> pour merque de cest
                     honeur.</s></ab>
-            <note resp="AV" type="genetic"><p>Le mémorialiste ajoute une <seg
-                        corresp="#f23v07_faisant_office" facs="">formule</seg> qui vient renforcer
+            <note resp="AV" type="genetic">
+                <p>Le mémorialiste ajoute une <seg corresp="#f23v07_faisant_office"
+                        facs="#f23v07_i_faisant_office">formule</seg> qui vient renforcer
                     l’importance du rôle de son père, dont on se souvient qu’il aurait pu être nommé
                     chancelier juste avant sa mort, d’après les <hi rend="italic">Mémoires</hi>
-                    (voir f. 23v<hi rend="superscript">o</hi>, seg. 2). Garde des sceaux,
-                    Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes a joué le rôle de
-                    chancelier sans en avoir le titre.</p></note>
+                    (voir f. 23v<hi rend="superscript">o</hi>, seg. 2). Garde des sceaux,
+                        Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes a joué le rôle de
+                    chancelier sans en avoir le titre.</p>
+            </note>
         </body>
     </text>
 </TEI>

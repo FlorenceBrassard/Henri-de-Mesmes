@@ -32,6 +32,14 @@
          <zone xml:id="f22r05_i_metamark03" points="1422,837 1347,950 1477,947"/>
          <zone xml:id="f22r05_i_et_luy" points="1607,677 1527,820 2787,752 2760,615"/>
       </surface>
+      <surface>
+         <graphic url="f22r05.jpg"/>
+         <zone xml:id="f22r05_i_et_p" points="1337,721 1342,832 1574,795 1584,706"/>
+         <zone xml:id="f22r05_i_resiouissance_pais" points="42,663 1421,616 1405,732 58,848"/>
+         <zone xml:id="f22r05_i_Et_le" points="1589,711 1589,800 1789,774 1779,684"/>
+         <zone xml:id="f22r05_i_bien" points="1789,706 1774,763 1931,763 1926,706"/>
+         <zone xml:id="f22r05_i_repos" points="1970,640 1970,707 1773,710 1770,657"/>
+      </surface>
    </facsimile>
    <text>
       <body>
@@ -106,16 +114,19 @@
                   </choice>ec luy</add> en <date when="1559-07">fin de <choice>
                      <orig>J</orig>
                      <reg>j</reg>
-                  </choice>uillet 1559.</date></s></ab>
-         <note resp="AV" type="genetic"><p>Henri de Mesmes hésite quant au terme le plus opportun
-               pour désigner les conséquences de la mort d’Henri II : la formule inachevée « <seg
-                  corresp="#f22r05_et_p" facs="">et la p</seg> », certainement « et la pais »,
-               aurait maladroitement redoublé « <seg corresp="#f22r05_la_pais" facs="">la
-                  resiouissance de la pais</seg> ». Le mémorialiste lui préfère d’abord « <seg
-                  corresp="#f22r05_Et_le #f22r05_bien" facs="">et le bien</seg> », puis « <seg
-                  corresp="#f22r05_Et_le #f22r05_repos" facs="">et le repos</seg> ». Le propos
-               associe ainsi le décès du souverain à la mort métaphorique de la tranquillité de la
-               France, soit au début de la guerre civile. </p></note>
+                  </choice>uillet 1559.</date></s></ab>
+         <note resp="AV" type="genetic">
+            <p>Henri de Mesmes hésite quant au terme le plus opportun pour désigner les conséquences
+               de la mort d’Henri II : la formule inachevée « <seg corresp="#f22r05_et_p"
+                  facs="#f22r05_i_et_p">et la p</seg> », certainement « et la pais », aurait
+               maladroitement redoublé « <seg corresp="#f22r05_la_pais" facs="">la resiouissance de
+                  la pais</seg> ». Le mémorialiste lui préfère d’abord « <seg
+                  corresp="#f22r05_Et_le #f22r05_bien" facs="#f22r05_i_Et_le #f22r05_i_bien">et le
+                  bien</seg> », puis « <seg corresp="#f22r05_Et_le #f22r05_repos"
+                  facs="#f22r05_i_Et_le #f22r05_i_repos">et le repos</seg> ». Le propos associe
+               ainsi le décès du souverain à la mort métaphorique de la tranquillité de la France,
+               soit au début de la guerre civile. </p>
+         </note>
       </body>
    </text>
 </TEI>

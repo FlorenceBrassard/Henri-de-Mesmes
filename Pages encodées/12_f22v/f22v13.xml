@@ -25,6 +25,12 @@
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1032,4379,2870,417/full/0/default.jpg"/>
             <zone xml:id="f22v13_i_d_souuent" points="32,236 42,402 728,382 740,290"/>
             <zone xml:id="f22v13_i_a_tenir" points="228,214 226,280 606,286 596,206"/>
+            <zone xml:id="f22v13_mobligeoit" lry="110" lrx="2830" uly="10" ulx="2600"/>
+        </surface>
+        <surface>
+            <graphic url="f22v13.jpg"/>
+            <zone xml:id="f22v13_mobligeoit" lry="110" lrx="2830" uly="10" ulx="2600"/>
+            <!--            possiblement une photo à prendre de la marge de droite ? pour avoir « mobligeoit » en entier-->
         </surface>
     </facsimile>
     <text>
@@ -72,10 +78,12 @@
                         <orig/>
                         <reg>.</reg>
                     </choice></s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes reformule la seconde partie de son
-                    propos, peut-être pour insister davantage sur le caractère impérieux de son
-                    devoir à l’aide du verbe « <seg corresp="#f22v13_mobligeoit" facs=""
-                        >obligeoit</seg> ».</p></note>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes reformule la seconde partie de son propos, peut-être pour
+                    insister davantage sur le caractère impérieux de son devoir à l’aide du verbe
+                        « <seg corresp="#f22v13_mobligeoit" facs="#f22v13_mobligeoit"
+                        >obligeoit</seg> ».</p>
+            </note>
         </body>
     </text>
 </TEI>

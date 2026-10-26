@@ -28,9 +28,21 @@
             <zone xml:id="f21v06_i_venue_del" points="455,327 423,431 659,390 659,331"/>
             <zone xml:id="f21v06_i_de_ste" points="682,331 668,413 1096,363 1109,250"/>
             <zone xml:id="f21v06_i_de_france" points="500,381 482,490 896,495 909,377"/>
+            <zone xml:id="f21v06_i_assiegea" lry="486" lrx="1409" uly="345" ulx="959"/>
+            <zone xml:id="f21v06_i_mr_d" lry="227" lrx="2546" uly="100" ulx="2246"/>
+            <zone xml:id="f21v06_i_nre" lry="231" lrx="2618" uly="96" ulx="2554"/>
+            <zone xml:id="f21v06_i_armée" lry="535" lrx="423" uly="400" ulx="136"/>
+            <zone xml:id="f21v06_i_mr_auec" points="2209,31 2609,36 2605,90 2196,122"/>
+            <zone xml:id="f21v06_i_ligue_ste" points="1096,254 1091,404 809,400 809,286"/>
         </surface>
         <surface>
             <graphic url="f21v06.jpg"/>
+            <zone xml:id="f21v06_i_assiegea" lry="486" lrx="1409" uly="345" ulx="959"/>
+            <zone xml:id="f21v06_i_mr_d" lry="227" lrx="2546" uly="100" ulx="2246"/>
+            <zone xml:id="f21v06_i_nre" lry="231" lrx="2618" uly="96" ulx="2554"/>
+            <zone xml:id="f21v06_i_armée" lry="535" lrx="423" uly="400" ulx="136"/>
+            <zone xml:id="f21v06_i_mr_auec" points="2209,31 2609,36 2605,90 2196,122"/>
+            <zone xml:id="f21v06_i_ligue_ste" points="1096,254 1091,404 809,400 809,286"/>
         </surface>
     </facsimile>
     <text>
@@ -78,16 +90,20 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>itella</placeName>.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes semble avoir hésité quant au sujet du
-                    verbe « assiegea » : « <seg corresp="#f21v06_mr_de" facs="">m<hi
-                            rend="superscript">r</hi> d</seg> » pourrait être le début de « m<hi
-                        rend="superscript">r</hi> de Guyse », d’abord rayé au profit de « <seg
-                        corresp="#f21v06_nre_armée" facs=""> n<hi rend="overlined">re</hi>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes semble avoir hésité quant au sujet du verbe « assiegea » : « <seg
+                        corresp="#f21v06_mr_de" facs="#f21v06_i_mr_d">m<hi rend="superscript"
+                        >r</hi> d</seg> » pourrait être le début de « m<hi rend="superscript"
+                    >r</hi> de Guyse », d’abord rayé au profit de « <seg corresp="#f21v06_nre_armée"
+                        facs="#f21v06_i_nre #f21v06_i_armée"> n<hi rend="overlined">re</hi>
                         armée</seg> », avant d’être rétabli sous la forme « <seg
-                        corresp="#f21v06_mr_auec" facs=""> m<hi rend="superscript">r</hi> de Guyse
-                        auec</seg> ». Le mémorialiste choisit également de rappeler que l’armée
-                    française agit dans le cadre de la « <seg corresp="#f21v06_ligue_ste" facs=""
-                        >sainte ligue</seg> » formée avec le pape.</p></note>
+                        corresp="#f21v06_mr_auec" facs="#f21v06_i_mr_auec"> m<hi rend="superscript"
+                            >r</hi> de Guyse auec</seg> ». Le mémorialiste choisit également de
+                    rappeler que l’armée française agit dans le cadre de la
+                    <!--                    Le texte mentionne plutôt « ligue sainte », serait-il préférable d'inverser dans la citation ?-->
+                        « <seg corresp="#f21v06_ligue_ste" facs="#f21v06_i_ligue_ste">sainte
+                        ligue</seg> » formée avec le pape.</p>
+            </note>
         </body>
     </text>
 </TEI>

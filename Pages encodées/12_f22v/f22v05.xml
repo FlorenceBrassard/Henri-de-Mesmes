@@ -33,6 +33,11 @@
             <zone xml:id="f22v05_i_come_innocente" points="44,336 46,406 2316,348 2316,276"/>
             <zone xml:id="f22v05_i_la" points="800,212 774,300 924,298 920,222"/>
             <zone xml:id="f22v05_i_autant_de" points="538,180 538,260 1016,234 1014,150"/>
+            <zone xml:id="f22v05_i_deuotion" lry="287" lrx="1581" uly="200" ulx="1235"/>
+        </surface>
+        <surface>
+            <graphic url="f22v05.jpg"/>
+            <zone xml:id="f22v05_i_deuotion" lry="287" lrx="1581" uly="200" ulx="1235"/>
         </surface>
     </facsimile>
     <text>
@@ -89,15 +94,17 @@
                     <substJoin cert="high" seq="3"
                         target="#f22v05_en_eage #f22v05_a_fin #f22v05_dont_mourir"/><del
                         rend="unmarked">.</del></s></ab>
-            <note resp="AV" type="genetic"><p>Le retravail de cette phrase en forme d’hommage et de
-                    prière vient conforter la valeur exemplaire de la mort de Renée de Mesmes, dont
-                    le modèle doit toutefois être adapté en fonction du genre et de l’âge. Les
-                    termes « <seg corresp="#f22v05_pieté" facs="#f22v05_i_pieté">pieté</seg> » et
-                        « <seg corresp="#f22v05_deuotion" facs="">deuotion</seg> » ont visiblement
-                    été perçus comme redondants. L’ajout entre les lignes inscrit le propos dans la
-                    perspective de la mort du mémorialiste lui-même, en évoquant explicitement sa
-                        « <seg corresp="#f22v05_a_fin" facs="#f22v05_i_a_fin"
-                >fin</seg> ».</p></note>
+            <note resp="AV" type="genetic">
+                <p>Le retravail de cette phrase en forme d’hommage et de prière vient conforter la
+                    valeur exemplaire de la mort de Renée de Mesmes, dont le modèle doit toutefois
+                    être adapté en fonction du genre et de l’âge. Les termes « <seg
+                        corresp="#f22v05_pieté" facs="#f22v05_i_pieté">pieté</seg> » et « <seg
+                        corresp="#f22v05_deuotion" facs="#f22v05_i_deuotion">deuotion</seg> » ont
+                    visiblement été perçus comme redondants. L’ajout entre les lignes inscrit le
+                    propos dans la perspective de la mort du mémorialiste lui-même, en évoquant
+                    explicitement sa « <seg corresp="#f22v05_a_fin" facs="#f22v05_i_a_fin"
+                    >fin</seg> ».</p>
+            </note>
         </body>
     </text>
 </TEI>

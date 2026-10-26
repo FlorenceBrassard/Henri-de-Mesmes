@@ -22,8 +22,14 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/941,2821,2714,1371/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/941,2821,2714,1371/full/0/default.jpg"/>
+            <zone xml:id="f23v08_i_il_leage" points="68,1041 2672,928 2663,1123 36,1205"/>
+            <zone xml:id="f23v08_i_de_ans" points="72,1191 72,1341 782,1323 786,1182"/>
+        </surface>
+        <surface>
+            <graphic url="f23v08.jpg"/>
+            <zone xml:id="f23v08_i_il_leage" points="68,1041 2672,928 2663,1123 36,1205"/>
+            <zone xml:id="f23v08_i_de_ans" points="72,1191 72,1341 782,1323 786,1182"/>
         </surface>
     </facsimile>
     <text>
@@ -151,14 +157,17 @@
                             <orig>iiij xx</orig>
                             <reg>80</reg>
                         </choice> ans<del rend="unmarked">.</del></s></del></ab>
-            <note resp="AV" type="genetic"><p>La <seg corresp="#f23v08_il_ans" facs=""
+            <note resp="AV" type="genetic">
+                <p>La <seg corresp="#f23v08_il_ans" facs="#f23v08_i_il_leage #f23v08_i_de_ans"
                         >suppression</seg> de la dernière phrase est très certainement concomitante
-                    de l’ajout des mêmes informations plus haut, dans la marge (voir f. 23v<hi
-                        rend="superscript">o</hi>, seg. 4).</p></note>
-            <note resp="AV" type="critic"><p>Les copies manuscrites ne donnent pas l’ajout « <hi
-                        rend="italic">a diverses fois</hi> » (Duchesne 57, f. 63v<hi
-                        rend="superscript">o</hi> ; Français 18617, f. 19r<hi rend="superscript"
-                        >o</hi>).</p></note>
+                    de l’ajout des mêmes informations plus haut, dans la marge (voir f. 23v<hi
+                        rend="superscript">o</hi>, seg. 4).</p>
+            </note>
+            <note resp="AV" type="critic">
+                <p>Les copies manuscrites ne donnent pas l’ajout « <hi rend="italic">a diverses
+                        fois</hi> » (Duchesne 57, f. 63v<hi rend="superscript">o</hi> ;
+                    Français 18617, f. 19r<hi rend="superscript">o</hi>).</p>
+            </note>
         </body>
     </text>
 </TEI>

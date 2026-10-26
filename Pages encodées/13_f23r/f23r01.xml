@@ -30,6 +30,17 @@
             <zone xml:id="f23r01_i_destre_iugé" points="2653,117 2077,90 2073,240 2573,243"/>
             <zone xml:id="f23r01_i_metamark" points="2237,316 2153,432 2316,416"/>
             <zone xml:id="f23r01_i_quelque" points="2159,233 2174,337 2542,322 2526,266"/>
+            <zone xml:id="f23r01_i_en" lry="427" lrx="2916" uly="308" ulx="2760"/>
+            <zone xml:id="f23r01_i_son_sang" lry="622" lrx="1753" uly="490" ulx="43"/>
+            <zone xml:id="f23r01_i_quand_il" lry="474" lrx="758" uly="382" ulx="392"/>
+            <zone xml:id="f23r01_i_quil" points="616,450 604,536 782,526 776,428"/>
+        </surface>
+        <surface>
+            <graphic url="f23r01.jpg"/>
+            <zone xml:id="f23r01_i_en" lry="427" lrx="2916" uly="308" ulx="2760"/>
+            <zone xml:id="f23r01_i_son_sang" lry="622" lrx="1753" uly="490" ulx="43"/>
+            <zone xml:id="f23r01_i_quand_il" lry="474" lrx="758" uly="382" ulx="392"/>
+            <zone xml:id="f23r01_i_quil" points="616,450 604,536 782,526 776,428"/>
         </surface>
     </facsimile>
     <text>
@@ -78,16 +89,18 @@
                             <add seq="2" xml:id="f23r01_quand_il">quand il</add>
                         </subst>
                         <seg xml:id="f23r01_ne_sang">ne perdoit plus de sang</seg></del>.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes précise sa pensée – « <seg
-                        corresp="#f23r01_ce" facs="#f23r01_i_ce">ce</seg> » est remplacé par « <seg
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes précise sa pensée – « <seg corresp="#f23r01_ce"
+                        facs="#f23r01_i_ce">ce</seg> » est remplacé par « <seg
                         corresp="f23r01_les_difficultez" facs="#f23r01_i_les_difficultez">les
-                        difficultez</seg> » – tout en atténuant la portée pathétique de la fin de la
-                    phrase : il supprime en effet « <seg
-                        corresp="#f23r01_en_mal #f23r01_et #f23r01_ne_sang" facs="">en son mal et ne
-                        perdoit plus de sang</seg> » et les deux ajouts associés (« <seg
-                        corresp="#f23r01_quil" facs="">quil</seg> », « <seg
-                        corresp="#f23r01_quand_il" facs="">quand il</seg> »).</p></note>
-            <!--            Considérer inverser “quand il” et “quil” pour suivre l'ordre des ajouts : c'est fait, merci ! -->
+                        difficultez</seg> » – tout en atténuant la portée pathétique de la fin de la
+                    phrase : il supprime en effet « <seg
+                        corresp="#f23r01_en_mal #f23r01_et #f23r01_ne_sang"
+                        facs="#f23r01_i_en #f23r01_i_son_sang">en son mal et ne perdoit plus de
+                        sang</seg> » et les deux ajouts associés (« <seg corresp="#f23r01_quil"
+                        facs="#f23r01_i_quil">quil</seg> », « <seg corresp="#f23r01_quand_il"
+                        facs="#f23r01_i_quand_il">quand il</seg> »).</p>
+            </note>
         </body>
     </text>
 </TEI>

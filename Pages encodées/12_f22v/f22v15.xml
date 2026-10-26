@@ -22,8 +22,20 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1083,5025,2781,502/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f50/1083,5025,2781,502/full/0/default.jpg"/>
+            <zone xml:id="f22v15_i_souuent" lry="157" lrx="1667" uly="50" ulx="1209"/>
+            <zone xml:id="f22v15_i_ce_acoustumé" lry="328" lrx="2775" uly="197" ulx="1971"/>
+            <zone xml:id="f22v15_i_seul" lry="228" lrx="1533" uly="128" ulx="1333"/>
+            <zone xml:id="f22v15_i_quand_sang" lry="209" lrx="2795" uly="119" ulx="1919"/>
+            <zone xml:id="f22v15_i_et_seoir" lry="461" lrx="867" uly="333" ulx="40"/>
+        </surface>
+        <surface>
+            <graphic url="f22v15.jpg"/>
+            <zone xml:id="f22v15_i_souuent" lry="157" lrx="1667" uly="50" ulx="1209"/>
+            <zone xml:id="f22v15_i_ce_acoustumé" lry="328" lrx="2775" uly="197" ulx="1971"/>
+            <zone xml:id="f22v15_i_seul" lry="228" lrx="1533" uly="128" ulx="1333"/>
+            <zone xml:id="f22v15_i_quand_sang" lry="209" lrx="2795" uly="119" ulx="1919"/>
+            <zone xml:id="f22v15_i_et_seoir" lry="461" lrx="867" uly="333" ulx="40"/>
         </surface>
     </facsimile>
     <text>
@@ -49,7 +61,7 @@
                         >pour</del> en son lieu dedens sa sale, et seler <add xml:id="f22v15_seul"
                         >seul</add> en plein seau, <subst>
                         <del xml:id="f22v15_ce_acoustumé">ce qui est peu acoustumé</del>
-                        <add xml:id="f22v15_quant_seoir">quand il perdoit son sang et ne pou<choice>
+                        <add xml:id="f22v15_quand_seoir">quand il perdoit son sang et ne pou<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
                             </choice>oit seoir.</add>
@@ -57,16 +69,19 @@
                             <orig/>
                             <reg>'</reg>
                         </choice>estois</del></s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes modifie la place de l’adverbe « <seg
-                        corresp="#f22v15_souuent" facs="">souvent</seg> », qui passe en tête de
-                    phrase. Il supprime la formule « <seg corresp="#f22v15_ce_acoustumé" facs="">ce
-                        qui est peu acoustumé</seg> », qui insistait sur le caractère exceptionnel
-                    de la délégation permise par Michel de L’Hôpital, qui témoignait d’une forme de
-                    confiance particulière. On peut estimer qu’elle est remplacée, plus
-                    discrètement, par l’adjectif « <seg corresp="#f22v15_seul" facs="">seul</seg> ».
-                    Le mémorialiste ajoute une <seg corresp="#f22v15_quant_seoir" facs=""
-                        >description de la maladie du chancelier</seg>, qui vient expliquer cette
-                    configuration inhabituelle.</p></note>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes modifie la place de l’adverbe « <seg corresp="#f22v15_souuent"
+                        facs="#f22v15_i_souuent">souvent</seg> », qui passe en tête de phrase. Il
+                    supprime la formule « <seg corresp="#f22v15_ce_acoustumé"
+                        facs="#f22v15_i_ce_acoustumé">ce qui est peu acoustumé</seg> », qui
+                    insistait sur le caractère exceptionnel de la délégation permise par Michel
+                    de L’Hôpital, qui témoignait d’une forme de confiance particulière. On peut
+                    estimer qu’elle est remplacée, plus discrètement, par l’adjectif « <seg
+                        corresp="#f22v15_seul" facs="#f22v15_i_seul">seul</seg> ». Le mémorialiste
+                    ajoute une <seg corresp="#f22v15_quand_seoir"
+                        facs="#f22v15_i_quand_sang #f22v15_i_et_seoir">description de la maladie du
+                        chancelier</seg>, qui vient expliquer cette configuration inhabituelle.</p>
+            </note>
         </body>
     </text>
 </TEI>

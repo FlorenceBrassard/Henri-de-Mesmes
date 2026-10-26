@@ -26,7 +26,7 @@
          <zone xml:id="f21r02_i_aux" points="1935,340 1935,445 2210,435 2205,325"/>
          <zone xml:id="f21r02_i_afers_et" points="65,605 70,820 905,710 890,600"/>
          <zone xml:id="f21r02_i_au" points="795,545 795,610 900,615 900,535"/>
-         <zone xml:id="f21r02_i_metamark1" points="1595,550 1555,670 1660,670"/>
+         <zone xml:id="f21r02_i_metamark1" points="1605,545 1600,540 1535,645 1665,645"/>
          <zone xml:id="f21r02_i_de_lestat" points="1480,455 1425,545 1830,520 1875,420"/>
          <zone xml:id="f21r02_i_u" points="2165,790 2155,840 2220,840 2235,780"/>
          <zone xml:id="f21r02_i_montalcin" points="2595,780 2595,855 2225,875 2255,765"/>
@@ -34,9 +34,18 @@
          <zone xml:id="f21r02_i_qui_doubtoit" points="1335,825 1325,1015 2055,945 2045,765"/>
          <zone xml:id="f21r02_i_destre" points="80,1125 85,1285 465,1245 445,1100"/>
          <zone xml:id="f21r02_i_denuiron_mois" points="770,1000 770,1110 1640,1030 1625,935"/>
+         <zone xml:id="f21r02_i_afers_destat" points="85,580 715,550 710,765 30,795"/>
+         <zone xml:id="f21r02_i_conseil_estroit" lry="685" lrx="1640" uly="520" ulx="885"/>
+         <zone xml:id="f21r02_i_1556" lry="1110" lrx="390" uly="950" ulx="85"/>
+         <zone xml:id="f21r02_i_grosse" points="430,1090 420,1265 795,1225 780,1060"/>
       </surface>
       <surface>
          <graphic url="f21r02.jpg"/>
+         <zone/>
+         <zone xml:id="f21r02_i_afers_destat" points="85,580 715,550 710,765 30,795"/>
+         <zone xml:id="f21r02_i_conseil_estroit" lry="685" lrx="1640" uly="520" ulx="885"/>
+         <zone xml:id="f21r02_i_1556" lry="1110" lrx="390" uly="950" ulx="85"/>
+         <zone xml:id="f21r02_i_grosse" points="430,1090 420,1265 795,1225 780,1060"/>
       </surface>
    </facsimile>
    <text>
@@ -190,35 +199,41 @@
                      <reg>v</reg>
                   </choice>iron deux mois</add><substJoin
                   target="#f21r02_qui_destre #f21r02_denuiron_mois"/>.</s></ab>
-         <note resp="AV" type="comment" target="f21r02_comment_01"><p>Le Conseil « étroit » désigne
-               le Conseil des affaires, le plus restreint des groupes de conseillers du roi ; Henri
-               de Mesmes l’appelle plus loin le « conseil du matin », parce qu’il se tient plus
-               volontiers à ce moment de la journée. Organisation informelle, sans procédure établie
-               et sans archive, il rassemble « les personnes qui, dans une conjoncture donnée,
-               jouiss[e]nt de la faveur particulière du souverain » (Barbiche, 2012,
-            p. 286).</p></note>
-         <note resp="AV" type="genetic"><p>La première version de ce passage coordonne les « <seg
-                  corresp="#f21r02_afers_destat" facs="">afe<hi rend="superscript">r</hi>s
-                  destat</seg> » et le « <seg corresp="#f21r02_conseil_estroit" facs="">conseil
+         <note resp="AV" type="comment" target="f21r02_comment_01">
+            <p>Le Conseil « étroit » désigne le Conseil des affaires, le plus restreint des groupes
+               de conseillers du roi ; Henri de Mesmes l’appelle plus loin le « conseil du matin »,
+               parce qu’il se tient plus volontiers à ce moment de la journée. Organisation
+               informelle, sans procédure établie et sans archive, il rassemble « les personnes qui,
+               dans une conjoncture donnée, jouiss[e]nt de la faveur particulière du souverain »
+               (Barbiche, 2012, p. 286).</p>
+         </note>
+         <note resp="AV" type="genetic">
+            <p>La première version de ce passage coordonne les « <seg corresp="#f21r02_afers_destat"
+                  facs="#f21r02_i_afers_destat">afe<hi rend="superscript">r</hi>s destat</seg> » et
+               le « <seg corresp="#f21r02_conseil_estroit" facs="#f21r02_i_conseil_estroit">conseil
                   estroit</seg> ». Une telle formule ne paraît pas recouper une distinction entre le
                Grand Conseil et le Conseil des affaires, mais plutôt désigner ce dernier à la
                manière d’un binôme synonymique. Henri de Mesmes retravaille ce passage pour
                conserver une formule plus condensée (« <seg
-                  corresp="#f21r02_conseil_estroit #f21r02_de_lestat" facs="">conseil estroit de
+                  corresp="#f21r02_conseil_estroit #f21r02_de_lestat"
+                  facs="#f21r02_i_conseil_estroit #f21r02_i_de_lestat">conseil estroit de
                   l’estat</seg> »).</p>
             <p>Comme souvent, le mémorialiste hésite sur la date, pour retenir l’année <seg
-                  corresp="#f21r02_1556" facs="">1556</seg>, qui est la bonne. Il modifie également
-               la manière de <seg corresp="#f21r02_montalcin f21r02_sienois"
+                  corresp="#f21r02_1556" facs="#f21r02_i_1556">1556</seg>, qui est la bonne. Il
+               modifie également la manière de <seg corresp="#f21r02_montalcin f21r02_sienois"
                   facs="#f21r02_i_montalcin #f21r02_i_sienois">désigner sa destination au sein de
                   l’ajout marginal</seg> : cette hésitation s’explique par le fait que l’élite de la
                République siennoise s’est exilée à Montalcino à la suite de sa capitulation, en
                avril 1555. La ville se situe à une quarantaine de kilomètres au sud de Sienne.</p>
             <p>On remarquera pour finir la suppression de la modalisation au sujet de la grossesse
                de Jeanne Hennequin : l’allusion à la certitude de l’épouse du mémorialiste (« <seg
-                  corresp="#f21r02_qui_destre #f21r02_grosse" facs="">qui se doubtoit destre
-                  grosse</seg> ») est supprimée au profit d’une formule à la fois plus assertive et
-               plus précise (« <seg corresp="#f21r02_grosse #f21r02_denuiron_mois" facs="">grosse
-                  d’enuiron deux mois</seg> »).</p></note>
+                  corresp="#f21r02_qui_destre #f21r02_grosse"
+                  facs="#f21r02_i_qui_doubtoit #f21r02_i_destre #f21r02_i_grosse">qui se doubtoit
+                  destre grosse</seg> ») est supprimée au profit d’une formule à la fois plus
+               assertive et plus précise (« <seg corresp="#f21r02_grosse #f21r02_denuiron_mois"
+                  facs="#f21r02_i_grosse #f21r02_denuiron_mois">grosse d’enuiron deux
+               mois</seg> »).</p>
+         </note>
       </body>
    </text>
 </TEI>

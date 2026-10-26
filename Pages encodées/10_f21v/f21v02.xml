@@ -33,9 +33,27 @@
             <zone xml:id="f21v02_i_mais_toutesfois" points="2167,805 2167,915 2752,872 2743,696"/>
             <zone xml:id="f21v02_i_fort_casuel" points="771,1034 729,1143 243,1176 243,1072"/>
             <zone xml:id="f21v02_i_bien_vil" points="100,962 110,1072 852,1038 852,957"/>
+            <zone xml:id="f21v02_i_souuerain" lry="362" lrx="1505" uly="230" ulx="992"/>
+            <zone xml:id="f21v02_i_le_et" lry="250" lrx="1302" uly="142" ulx="800"/>
+            <zone xml:id="f21v02_i_Cest" lry="272" lrx="807" uly="182" ulx="635"/>
+            <zone xml:id="f21v02_i_vil" lry="900" lrx="1805" uly="812" ulx="1659"/>
+            <zone xml:id="f21v02_i_profit" lry="900" lrx="2105" uly="803" ulx="1831"/>
+            <zone xml:id="f21v02_i_mais" lry="900" lrx="2400" uly="793" ulx="2155"/>
+            <zone xml:id="f21v02_i_gros" lry="905" lrx="2748" uly="786" ulx="2412"/>
+            <zone xml:id="f21v02_i_mais_et" lry="915" lrx="2748" uly="772" ulx="2141"/>
+            <zone xml:id="f21v02_i_toustefois" lry="791" lrx="2748" uly="702" ulx="2571"/>
         </surface>
         <surface>
             <graphic url="f21v02.jpg"/>
+            <zone xml:id="f21v02_i_souuerain" lry="362" lrx="1505" uly="230" ulx="992"/>
+            <zone xml:id="f21v02_i_le_et" lry="250" lrx="1302" uly="142" ulx="800"/>
+            <zone xml:id="f21v02_i_Cest" lry="272" lrx="807" uly="182" ulx="635"/>
+            <zone xml:id="f21v02_i_vil" lry="900" lrx="1805" uly="812" ulx="1659"/>
+            <zone xml:id="f21v02_i_profit" lry="900" lrx="2105" uly="803" ulx="1831"/>
+            <zone xml:id="f21v02_i_mais" lry="900" lrx="2400" uly="793" ulx="2155"/>
+            <zone xml:id="f21v02_i_gros" lry="905" lrx="2748" uly="786" ulx="2412"/>
+            <zone xml:id="f21v02_i_mais_et" lry="915" lrx="2748" uly="772" ulx="2141"/>
+            <zone xml:id="f21v02_i_toustefois" lry="791" lrx="2748" uly="702" ulx="2571"/>
         </surface>
     </facsimile>
     <text>
@@ -56,10 +74,12 @@
                     </choice>
                     <subst>
                         <del facs="#f21v02_i_qui_est" xml:id="f21v02_qui_est">qui est</del>
-                        <add facs="#f21v02_i_Cest_et" xml:id="f21v02_Cest_et">C<choice>
-                                <orig/>
-                                <reg>'</reg>
-                            </choice>est <seg xml:id="f21v02_le_et">le premier et</seg></add>
+                        <add facs="#f21v02_i_Cest_et" xml:id="f21v02_Cest_et"><seg
+                                xml:id="f21v02_Cest">C<choice>
+                                    <orig/>
+                                    <reg>'</reg>
+                                </choice>est</seg>
+                            <seg xml:id="f21v02_le_et">le premier et</seg></add>
                     </subst>
                     <seg xml:id="f21v02_souuerain">sou<choice>
                             <orig>u</orig>
@@ -112,8 +132,8 @@
                             grand</add></del>
                     <seg xml:id="f21v02_profit">profit</seg>, <subst>
                         <del facs="#f21v02_i_mais_toutesfois #f21v02_i_fort_casuel"
-                            xml:id="f21v02_mais_casuel"><seg xml:id="f21v02_mais_gros">mais
-                                gros</seg>
+                            xml:id="f21v02_mais_casuel"><seg xml:id="f21v02_mais_gros"><seg
+                                    xml:id="f21v02_mais">mais</seg> gros</seg>
                             <add xml:id="f21v02_toutesfois">toutesfois</add>
                             <seg xml:id="f21v02_et_casuel">et fort casuel</seg></del>
                         <add facs="#f21v02_i_bien_vil" xml:id="f21v02_bien_vil">bien grand et bien
@@ -125,29 +145,35 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>erain en tout.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à mettre en valeur son office
-                    en remplaçant la relative qualificative « <seg
-                        corresp="#f21v02_qui_est f21v02_souuerain" facs="">qui est souuerain</seg> »
-                    par la formule « <seg corresp="#f21v02_le_et #f21v02_souuerain #f21v02_iuge"
-                        facs="">le premier et souuerain juge</seg> », qui fait l’objet d’une
-                    nouvelle phrase, introduite par une tournure présentative.</p>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes cherche à mettre en valeur son office en remplaçant la relative
+                    qualificative « <seg corresp="#f21v02_qui_est f21v02_souuerain"
+                        facs="#f21v02_qui_est #f21v02_i_souuerain">qui est souuerain</seg> » par la
+                    formule « <seg corresp="#f21v02_le_et #f21v02_souuerain #f21v02_iuge"
+                        facs="#f21v02_le_et #f21v02_i_souuerain #f21v02_i_iuge">le premier et
+                        souuerain juge</seg> », qui fait l’objet d’une nouvelle phrase, introduite
+                    par une <seg corresp="#f21v02_Cest" facs="#f21v02_i_Cest">tournure
+                        présentative</seg>.</p>
                 <p>Le mémorialiste entend également faire valoir sa probité et le sacrifice
                     financier qu’implique le fait de ne plus accaparer les confiscations – lui qui a
                     rappelé précédemment qu’il n’avait pas les moyens de devenir ambassadeur à Rome.
                     L’expression « <seg
                         corresp="#f21v02_vil #f21v02_profit #f21v02_mais_gros #f21v02_et_casuel"
-                        facs="">vil profit, mais gros et fort casuel</seg> » est <hi rend="italic">a
-                        priori</hi> d’abord modulée grâce à la substitution de « mais » par « <seg
-                        corresp="#f21v02_toutesfois" facs=""><hi rend="italic"
-                    >toutefois</hi></seg> ». Ensuite, « gros toutefois et fort casuel » est remplacé
-                    par « <seg corresp="#f21v02_ores_grand" facs="#f21v02_i_ores_grand"><hi
+                        facs="#f21v02_i_vil #f21v02_i_profit #f21v02_i_mais_et #f21v02_i_fort_casuel"
+                        >vil profit, mais gros et fort casuel</seg> » est <hi rend="italic">a
+                        priori</hi> d’abord modulée grâce à la substitution de « <seg
+                        corresp="#f21v02_mais" facs="#f21v02_i_mais">mais</seg> » par « <seg
+                        corresp="#f21v02_toutesfois" facs="#f21v02_i_toustefois"><hi rend="italic"
+                            >toutefois</hi></seg> ». Ensuite, « gros toutefois et fort casuel » est
+                    remplacé par « <seg corresp="#f21v02_ores_grand" facs="#f21v02_i_ores_grand"><hi
                             rend="italic">ores que bien grand</hi></seg> ». Ce sont finalement les
                     qualificatifs « <seg corresp="#f21v02_bien_vil" facs="#f21v02_i_bien_vil"><hi
                             rend="italic">bien grand et bien vil</hi></seg> » qui viennent
                     supplanter le tout. L’insistance sur l’opportunité que pouvaient représenter les
                     confiscations est ainsi atténuée. L’idée portée par l’adjectif casuel, qui
                     renvoie au caractère variable et aléatoire des biens, est quant à elle
-                    supprimée.</p></note>
+                    supprimée.</p>
+            </note>
         </body>
     </text>
 </TEI>

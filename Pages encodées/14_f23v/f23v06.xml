@@ -27,6 +27,23 @@
             <zone xml:id="f23v06_i_il_gre" points="1012,10 1007,105 1929,95 1927,10"/>
             <zone xml:id="f23v06_i_e_un" lry="342" lrx="567" uly="228" ulx="460"/>
             <zone xml:id="f23v06_i_grand" points="687,157 955,137 950,207 675,277"/>
+            <zone xml:id="f23v06_i_datendre_loffice" lry="281" lrx="2555" uly="190" ulx="1569"/>
+            <zone xml:id="f23v06_i_de_des" lry="277" lrx="2730" uly="165" ulx="2560"/>
+            <zone xml:id="f23v06_i_reqtes" lry="492" lrx="430" uly="337" ulx="65"/>
+            <zone xml:id="f23v06_i_cependant" lry="227" lrx="2010" uly="142" ulx="1655"/>
+            <zone xml:id="f23v06_i_de_celuy" lry="227" lrx="2317" uly="120" ulx="2015"/>
+            <zone xml:id="f23v06_i_plus" points="560,205 525,385 777,315 775,252"/>
+            <zone xml:id="f23v06_i_il_contanté" points="787,217 1572,165 1552,285 780,325"/>
+        </surface>
+        <surface>
+            <graphic url="f23v06.jpg"/>
+            <zone xml:id="f23v06_i_datendre_loffice" lry="281" lrx="2555" uly="190" ulx="1569"/>
+            <zone xml:id="f23v06_i_de_des" lry="277" lrx="2730" uly="165" ulx="2560"/>
+            <zone xml:id="f23v06_i_reqtes" lry="492" lrx="430" uly="337" ulx="65"/>
+            <zone xml:id="f23v06_i_cependant" lry="227" lrx="2010" uly="142" ulx="1655"/>
+            <zone xml:id="f23v06_i_de_celuy" lry="227" lrx="2317" uly="120" ulx="2015"/>
+            <zone xml:id="f23v06_i_plus" points="560,205 525,385 777,315 775,252"/>
+            <zone xml:id="f23v06_i_il_contanté" points="787,217 1572,165 1552,285 780,325"/>
         </surface>
     </facsimile>
     <text>
@@ -57,36 +74,51 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>un</add>
-                    </subst> plus <add facs="#f23v06_i_grand" instant="true" xml:id="f23v06_grand"
-                        >grand</add><substJoin target="#f23v06_e_un #f23v06_grand"/> il s<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>estoit contanté <subst>
-                        <del>d'atendre ainsi l<choice>
+                    </subst>
+                    <seg xml:id="f23v06_plus">plus</seg>
+                    <add facs="#f23v06_i_grand" instant="true" xml:id="f23v06_grand"
+                        >grand</add><substJoin target="#f23v06_e_un #f23v06_grand"/>
+                    <seg xml:id="f23v06_il_contanté">il s<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>estoit contanté</seg>
+                    <subst>
+                        <del xml:id="f23v06_datendre_loffice">d'atendre ainsi l<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>office</del>
-                        <add>cependant de celuy</add>
-                    </subst> de <choice>
-                        <abbr>m<hi rend="superscript">e</hi></abbr>
-                        <expan>maistre</expan>
-                    </choice> des <choice>
-                        <abbr>req<hi rend="superscript">tes</hi></abbr>
-                        <expan>requestes</expan>
-                    </choice>.</s></ab>
-            <note resp="AV" type="genetic"><p> Henri de Mesmes élabore deux versions de cette
-                    épisode important de la carrière de son père. D'après le premier jet,
-                    Jean-Jacques de Mesmes a quitté son office de lieutenant civil dans l'espoir
-                    d'une meilleure position, celle de maître des requêtes, qu'il a dû attendre.
-                    Dans la seconde version, cette nouvelle fonction ne paraît pas correspondre à
-                    celle qui était tant attendue, du fait de l'ajout de « cependant ». L'adverbe
-                    est doté d'une valeur adversative - le père du mémorialiste espérait mieux - et
-                    d'une valeur temporelle - il a continué d'attendre mieux. Henri de Mesmes
-                    suggère ainsi plus nettement l'ampleur des promesses (non tenues) de la
-                    monarchie et la fidélité de celui qui « se contant[e] » d'une position qui
-                    aurait dû être temporaire. Le début de l'hommage posthume et la phrase suivante
-                    permettent d'établir que cet office « plus grand » était celui de chancelier
-                    (voir f. 23v<hi rend="superscript">o</hi>, seg. 2 et seg. 7).</p></note>
+                        <add xml:id="f23v06_cependant_celuy"><seg xml:id="f23v06_cependant"
+                                >cependant</seg> de celuy</add>
+                    </subst>
+                    <seg xml:id="f23v06_de_reqtes">de <choice>
+                            <abbr>m<hi rend="superscript">e</hi></abbr>
+                            <expan>maistre</expan>
+                        </choice> des <choice>
+                            <abbr>req<hi rend="superscript">tes</hi></abbr>
+                            <expan>requestes</expan>
+                        </choice></seg>.</s></ab>
+            <note resp="AV" type="genetic">
+                <p> Henri de Mesmes élabore deux versions de cette épisode important de la carrière
+                    de son père. D'après le <seg
+                        corresp="#f23v06_datendre_loffice #f23v06_de_reqtes"
+                        facs="#f23v06_i_datendre_loffice #f23v06_i_de_des #f23v06_i_reqtes">premier
+                        jet</seg>, Jean-Jacques de Mesmes a quitté son office de lieutenant civil
+                    dans l'espoir d'une meilleure position, celle de maître des requêtes, qu'il a dû
+                    attendre. Dans la <seg corresp="#f23v06_cependant_celuy #f23v06_de_reqtes"
+                        facs="#f23v06_i_cependant #f23v06_i_de_celuy #f23v06_i_de_des #f23v06_i_reqtes"
+                        >seconde version</seg>, cette nouvelle fonction ne paraît pas correspondre à
+                    celle qui était tant attendue, du fait de l'ajout de « <seg
+                        corresp="#f23v06_cependant" facs="#f23v06_i_cependant">cependant</seg> ».
+                    L'adverbe est doté d'une valeur adversative - le père du mémorialiste espérait
+                    mieux - et d'une valeur temporelle - il a continué d'attendre mieux. Henri
+                    de Mesmes suggère ainsi plus nettement l'ampleur des promesses (non tenues) de
+                    la monarchie et la fidélité de celui qui « <seg corresp="#f23v06_il_contanté"
+                        facs="#f23v06_i_il_contanté">se contant[e]</seg> » d'une position qui aurait
+                    dû être temporaire. Le début de l'hommage posthume et la phrase suivante
+                    permettent d'établir que cet office « <seg corresp="#f23v06_plus #f23v06_grand"
+                        facs="#f23v06_i_plus #f23v06_i_grand">plus grand</seg> » était celui de
+                    chancelier (voir f. 23v<hi rend="superscript">o</hi>, seg. 2 et seg. 7).</p>
+            </note>
         </body>
     </text>
 </TEI>

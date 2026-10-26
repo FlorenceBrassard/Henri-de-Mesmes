@@ -27,6 +27,11 @@
             <zone xml:id="f23v02_i_du_Roy" lry="254" lrx="2014" uly="87" ulx="1671"/>
             <zone xml:id="f23v02_i_faict" lry="443" lrx="709" uly="335" ulx="427"/>
             <zone xml:id="f23v02_i_u_ir" lry="491" lrx="862" uly="391" ulx="719"/>
+            <zone xml:id="f23v02_i_a_lansac" points="571,281 547,381 1166,371 1157,271"/>
+        </surface>
+        <surface>
+            <graphic url="f23v02.jpg"/>
+            <zone xml:id="f23v02_i_a_lansac" points="571,281 547,381 1166,371 1157,271"/>
         </surface>
     </facsimile>
     <text>
@@ -84,17 +89,18 @@
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName>.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime la référence à « <seg
-                        corresp="#f23v02_a_lansac" facs="">monsieur de Lansac</seg> », laissant
-                    ainsi un flou quant à la personne grâce à laquelle il a appris la décision prise
-                    par Catherine de Médicis de confier à Jean-Jacques I<hi rend="superscript"
-                        >er</hi> de Mesmes la fonction de chancelier. L’information paraît pourtant
-                    crédible – Louis de Saint-Gelais, seigneur de Lansac, est un proche de la reine
-                    mère – et une telle substitution affaiblit son propos. Peut-être a-t-il jugé
-                    cette précision superflue ? Ou bien a-t-il eu un doute sur l’identité de ce
-                    témoin et n’a-t-il pas voulu prendre de risque ? Lansac meurt en 1589 et était
-                    potentiellement encore vivant au moment de la rédaction de ce
-                passage.</p></note>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes supprime la référence à « <seg corresp="#f23v02_a_lansac"
+                        facs="#f23v02_i_a_lansac">monsieur de Lansac</seg> », laissant ainsi un flou
+                    quant à la personne grâce à laquelle il a appris la décision prise par Catherine
+                    de Médicis de confier à Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes
+                    la fonction de chancelier. L’information paraît pourtant crédible – Louis
+                    de Saint-Gelais, seigneur de Lansac, est un proche de la reine mère – et une
+                    telle substitution affaiblit son propos. Peut-être a-t-il jugé cette précision
+                    superflue ? Ou bien a-t-il eu un doute sur l’identité de ce témoin et n’a-t-il
+                    pas voulu prendre de risque ? Lansac meurt en 1589 et était potentiellement
+                    encore vivant au moment de la rédaction de ce passage.</p>
+            </note>
         </body>
     </text>
 </TEI>

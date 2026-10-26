@@ -30,6 +30,11 @@
             <zone xml:id="f23v10_i_son_officier" lry="234" lrx="1934" uly="140" ulx="1574"/>
             <zone xml:id="f23v10_i_metamark01" points="798,412 720,498 810,510"/>
             <zone xml:id="f23v10_i_luy_viuant" lry="408" lrx="1246" uly="304" ulx="736"/>
+            <zone xml:id="f23v10_i_rudement_seuerement" points="805,9 827,181 1936,159 1923,13"/>
+        </surface>
+        <surface>
+            <graphic url="f23v10.jpg"/>
+            <zone xml:id="f23v10_i_rudement_seuerement" points="805,9 827,181 1936,159 1923,13"/>
         </surface>
     </facsimile>
     <text>
@@ -75,15 +80,17 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant</add> autrement vacquer.</s></ab>
-            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à dramatiser le récit : <seg
-                        corresp="#f23v10_rudement_seuerement" facs="">les deux adverbes sont
-                        intervertis</seg> pour valoriser la sévérité, et surtout coordonnés de
-                    manière plus expressive ; Rusé est par ailleurs requalifié en « <seg
-                        corresp="#f23v10_son_officier" facs="#f23v10_i_son_officier"
-                    >officier</seg> » ; la tournure « <seg corresp="#f23v10_luy_viuant"
-                        facs="#f23v10_i_luy_viuant">luy vivant</seg> », enfin, annonce la formule «
-                    gratter la terre aux dents » (voir f. 23v<hi rend="superscript">o</hi>, seg. 13)
-                    et fait du refus de cette proposition royale un point d’honneur.</p></note>
+            <note resp="AV" type="genetic">
+                <p>Henri de Mesmes cherche à dramatiser le récit : <seg
+                        corresp="#f23v10_rudement_seuerement" facs="#f23v10_i_rudement_seuerement"
+                        >les deux adverbes sont intervertis</seg> pour valoriser la sévérité, et
+                    surtout coordonnés de manière plus expressive ; Rusé est par ailleurs requalifié
+                    en « <seg corresp="#f23v10_son_officier" facs="#f23v10_i_son_officier"
+                        >officier</seg> » ; la tournure « <seg corresp="#f23v10_luy_viuant"
+                        facs="#f23v10_i_luy_viuant">luy viuant</seg> », enfin, annonce la formule
+                    « gratter la terre aux dents » (voir f. 23v<hi rend="superscript">o</hi>,
+                    seg. 13) et fait du refus de cette proposition royale un point d’honneur.</p>
+            </note>
         </body>
     </text>
 </TEI>

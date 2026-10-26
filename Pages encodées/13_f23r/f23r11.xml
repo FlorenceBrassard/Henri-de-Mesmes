@@ -22,8 +22,14 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/724,4373,3084,754/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/724,4373,3084,754/full/0/default.jpg"/>
+            <zone xml:id="f23r11_i_ou_pibrac" points="616,147 606,231 3016,132 3011,79"/>
+            <zone xml:id="f23r11_i_remis_employ" points="2477,137 2482,190 3012,200 3012,147"/>
+            <surface>
+                <graphic url="f23r11.jpg"/>
+                <zone xml:id="f23r11_i_ou_pibrac" points="616,147 606,231 3016,132 3011,79"/>
+                <zone xml:id="f23r11_i_remis_employ" points="2477,137 2482,190 3012,200 3012,147"/>
+            </surface>
         </surface>
     </facsimile>
     <text>
@@ -116,15 +122,17 @@
                             </choice> la <roleName ref="Q131552">Reyne</roleName></del>
                         <add>pour cela</add>
                     </subst>.</s></ab>
-            <note resp="AV" type="genetic"><p>Le mémorialiste ajoute des <seg
-                        corresp="#f23r11_ou_employ" facs="">précisions</seg> concernant la mission
-                    vers l’empereur Maximilien II et les princes d’Allemagne. La mention des noms de
-                    Foix et de Pibrac rappelle que les trois hommes partagent les mêmes
-                    qualifications, tout en mettant en valeur Henri de Mesmes. Conformément à la
-                    rhétorique de l’élection et de la réticence déployée dans les <hi rend="italic"
-                        >Mémoires</hi>, ce dernier précise qu’il est choisi pour effectuer la
-                    mission, mais qu’il la remplit sans enthousiasme et sans effectuer le
-                    voyage.</p></note>
+            <note resp="AV" type="genetic">
+                <p>Le mémorialiste ajoute des <seg corresp="#f23r11_ou_employ"
+                        facs="#f23r11_i_ou_pibrac #f23r11_i_remis_employ">précisions</seg>
+                    concernant la mission vers l’empereur Maximilien II et les princes d’Allemagne.
+                    La mention des noms de Foix et de Pibrac rappelle que les trois hommes partagent
+                    les mêmes qualifications, tout en mettant en valeur Henri de Mesmes.
+                    Conformément à la rhétorique de l’élection et de la réticence déployée dans les
+                        <hi rend="italic">Mémoires</hi>, ce dernier précise qu’il est choisi pour
+                    effectuer la mission, mais qu’il la remplit sans enthousiasme et sans effectuer
+                    le voyage.</p>
+            </note>
         </body>
     </text>
 </TEI>

@@ -22,8 +22,14 @@
     <facsimile>
         <surface>
             <graphic
-                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/955,4677,2683,594/full/0/default.jpg"
-            />
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f52/955,4677,2683,594/full/0/default.jpg"/>
+            <zone xml:id="f23v11_i_autres" points="441,423 773,391 768,482 436,482"/>
+            <zone xml:id="f23v11_i_moindres" points="436,350 436,437 764,409 764,341"/>
+        </surface>
+        <surface>
+            <graphic url="f23v11.jpg"/>
+            <zone xml:id="f23v11_i_autres" points="441,423 773,391 768,482 436,482"/>
+            <zone xml:id="f23v11_i_moindres" points="436,350 436,437 764,409 764,341"/>
         </surface>
     </facsimile>
     <text>
@@ -60,11 +66,13 @@
                             <del xml:id="f23v11_autres">autres</del>
                             <add xml:id="f23v11_moindres">moindres</add>
                         </subst> ?</said></s></ab>
-            <note resp="AV" type="genetic"><p>La substitution d’« <seg corresp="#f23v11_autres"
-                        facs="">autres</seg> » par « <seg corresp="#f23v11_moindres" facs=""
-                        >moindres</seg> » vient renforcer l’indignation de François I<hi
-                        rend="superscript">er</hi> : ce dernier n’est plus seulement ravalé au rang
-                    d’individu lambda, mais au statut de moins que rien.</p></note>
+            <note resp="AV" type="genetic">
+                <p>La substitution d’« <seg corresp="#f23v11_autres" facs="#f23v11_i_autres"
+                        >autres</seg> » par « <seg corresp="#f23v11_moindres"
+                        facs="#f23v11_i_moindres">moindres</seg> » vient renforcer l’indignation de
+                        François I<hi rend="superscript">er</hi> : ce dernier n’est plus seulement
+                    ravalé au rang d’individu lambda, mais au statut de moins que rien.</p>
+            </note>
         </body>
     </text>
 </TEI>
