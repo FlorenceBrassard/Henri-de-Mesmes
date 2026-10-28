@@ -69,11 +69,10 @@
     <text>
         <body>
             <ab><s><del instant="true">En</del>
-                    <del><choice>
+                    <del instant="true"><choice>
                             <orig>l</orig>
                             <reg>L</reg>
                         </choice>or</del>
-                    <!--                    Je pense que le <del> de “lor“ devrait aussi être @instant=true, non ?-->
                     <choice>
                         <orig>e</orig>
                         <reg>E</reg>

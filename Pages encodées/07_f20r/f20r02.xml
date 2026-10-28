@@ -512,19 +512,16 @@
                     verticale, comme le suggère la position du signe d’insertion, dans le corps du
                     texte. Il est maintenu et prolongé pour se substituer à toute la partie
                     supprimée (« <seg corresp="#f20r02_ce_par #f20r02_la_pere"
-                        facs="#f20r02_i_ce_par #f20r02_i_la_mon #f20r02_i_beau_pere">[<hi
-                            rend="italic">ce qui me fut expedié ce iour mesme
-                            <!--                            Il y a une parenthèse carrée errante ; est-ce qu'elle est superflue, ou est-ce qu'il manque sa contrepartie fermante ?-->
-                            par</hi>… la diligente entremise et moiens de mon beau pere</seg> »). Le
-                        <seg corresp="#f20r02_et_cela" facs="#f20r02_i_et_du #f20r02_i_ferrier_cela"
+                        facs="#f20r02_i_ce_par #f20r02_i_la_mon #f20r02_i_beau_pere"><hi
+                            rend="italic">ce qui me fut expedié ce iour mesme par</hi>[…] la
+                        diligente entremise et moiens de mon beau pere</seg> »). Le <seg
+                        corresp="#f20r02_et_cela" facs="#f20r02_i_et_du #f20r02_i_ferrier_cela"
                         >second ajout marginal de droite</seg>, en revanche, n’a plus de sens une
                     fois la rature opérée et doit être considéré comme supprimé lui aussi.</p>
                 <p>Les deux derniers ajouts marginaux, à <seg corresp="f20r02_auec_eage"
                         facs="#f20r02_i_auec_eage">gauche</seg> et à<seg
                         facs="#f20r02_i_apres_rencontres" corresp="f20r02_apres_rencontres"
-                        >droite</seg>,
-                    <!--                    J'ai inversé gauche et droite, pour suivre le sens de la lecture-->
-                    ont été effectués en même temps que l’ajout de « <seg
+                        >droite</seg>, ont été effectués en même temps que l’ajout de « <seg
                         corresp="#f20r02_et_examen" facs="#f20r02_i_et_examen">et sens
                     examen</seg> » dans le corps du texte, comme le suggère la position de leurs
                     marques d’insertion, de part et d’autre du syntagme. Ils sont très probablement

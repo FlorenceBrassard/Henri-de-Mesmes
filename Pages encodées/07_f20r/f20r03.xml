@@ -300,11 +300,10 @@
             </note>
             <note resp="AV" type="critic">
                 <p>Le Français 18617 et le Duchesne 57 donnent tous deux « sa suruiuance » (f. 9r°
-                    et f. 59r<hi rend="superscript">o</hi>). La présence
-                    <!--                    dans la citation entre parenthèses: la suruiuance ou la survivance ?-->
-                    d’un « l » (« <seg corresp="#f20r03_la_suruiuance"
-                        facs="#f20r03_i_la_suruiuance">la survivance</seg> ») ne semble pourtant pas
-                    faire de doute sur l’autographe.</p>
+                    et f. 59r<hi rend="superscript">o</hi>). La présence d’un « l » (« <seg
+                        corresp="#f20r03_la_suruiuance" facs="#f20r03_i_la_suruiuance">la
+                        suruiuance</seg> ») ne semble pourtant pas faire de doute sur
+                    l’autographe.</p>
             </note>
         </body>
     </text>

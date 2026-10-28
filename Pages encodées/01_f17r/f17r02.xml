@@ -185,13 +185,11 @@
             <note resp="AV" type="genetic"><p>On fait l’hypothèse que l’ajout « <seg
                         corresp="#f17r02_en_france_add" facs="#f17r02_i_en_france">en france</seg> »
                     a été raturé au moment de l’addition, dans la marge de gauche, de la formule
-                    affirmant que la noblesse de robe écrit peu ses Mémoires
-                    <!--                   Au regard de la citation entre parenthèses ci-dessous, ne devrait-on pas plutôt lire, 
-                        ci-dessus, que la « noblesse d'épée écrit peu ses Mémoires » -->
-                        (« <seg corresp="#f17r02_et_guiere_add" facs="#f17r02_i_et_guiere"><hi
-                            rend="italic">et ceulx qui ont les armes en France, n’escrivent
-                            guiere</hi></seg> »).</p><p>La seconde proposition du premier jet
-                        (« <seg corresp="#f17r02_Aussy_guiere"
+                    affirmant que la noblesse d'épée écrit peu ses Mémoires (« <seg
+                        corresp="#f17r02_et_guiere_add" facs="#f17r02_i_et_guiere"><hi rend="italic"
+                            >et ceulx qui ont les armes en France, n’escrivent
+                    guiere</hi></seg> »).</p><p>La seconde proposition du premier jet (« <seg
+                        corresp="#f17r02_Aussy_guiere"
                         facs=" #f17r02_i_Aussy_norrys #f17r02_i_en_puissent #f17r02_i_guiere">Aussy
                         ne vois ie pas…</seg> »), qui en constituait la majeure partie, est presque
                     entièrement supprimée, de même que l’ajout de la marge de gauche. Le tout est
