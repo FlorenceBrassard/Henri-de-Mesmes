@@ -36,14 +36,14 @@
                      <abbr>I. I.</abbr>
                      <expan>Jean-Jacques</expan>
                   </choice></forename>
-               <add><surname>de Mesmes</surname></add></persName><anchor xml:id="f18r06_comment_01"/>
+               <add><surname>de Mesmes</surname></add></persName><ptr xml:id="f18r06_comment_01"/>
             <choice>
                <orig>i</orig>
                <reg>j</reg>
             </choice>e fu mis au <orgName ref="Q1109997">college de <choice>
                   <orig>b</orig>
                   <reg>B</reg>
-               </choice>ourgoigne</orgName><anchor xml:id="f18r06_comment_02"/>
+               </choice>ourgoigne</orgName><ptr xml:id="f18r06_comment_02"/>
             <subst>
                <del>en</del>
                <add>dez</add>
@@ -54,7 +54,7 @@
                   <reg>'</reg>
                </choice>an <hi rend="trait_suscrit">1542</hi></date>
             <del>et</del>
-            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe<anchor
+            <add>escolier</add> en la 3<hi rend="superscript">e</hi> classe<ptr
                xml:id="f18r06_comment_03"/>.</ab>
          <note resp="AV" type="comment" target="f18r06_comment_01"><p>Jean-Jacques de Mesmes,
                seigneur des Arches. Il entre au Grand Conseil en avril 1556, devient maître des

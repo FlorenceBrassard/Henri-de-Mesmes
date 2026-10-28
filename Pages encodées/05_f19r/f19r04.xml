@@ -123,22 +123,22 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec nous <persName ref="Q376210"><forename>Hadrianus</forename>
-                        <surname>Turnebus</surname></persName><anchor xml:id="f19r04_comment_01"/><choice>
+                        <surname>Turnebus</surname></persName><ptr xml:id="f19r04_comment_01"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
                     <persName ref="Q1187482"><forename>Dionysius</forename>
-                        <surname>Lambinus</surname></persName><anchor xml:id="f19r04_comment_02"/>, <persName><forename>Honorat<choice>
+                        <surname>Lambinus</surname></persName><ptr xml:id="f19r04_comment_02"/>, <persName><forename>Honorat<choice>
                                 <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
                                 <expan>us</expan>
                             </choice></forename>
                         <surname><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
-                            </choice>astellanus</surname></persName><anchor
+                            </choice>astellanus</surname></persName><ptr
                         xml:id="f19r04_comment_03"/> depuys medecin du Roy et
                             <persName><forename>Simon</forename>
-                        <surname>Tomas</surname></persName><anchor xml:id="f19r04_comment_04"/><choice>
+                        <surname>Tomas</surname></persName><ptr xml:id="f19r04_comment_04"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
@@ -163,7 +163,7 @@
                                 <orig>p</orig>
                                 <reg>P</reg>
                             </choice>etrus</forename>
-                        <surname>Bunellus</surname></persName><anchor xml:id="f19r04_comment_05"/>
+                        <surname>Bunellus</surname></persName><ptr xml:id="f19r04_comment_05"/>
                     et son <persName ref="Q3121749"><forename><choice>
                                 <orig>v</orig>
                                 <reg>V</reg>
@@ -171,7 +171,7 @@
                         <surname><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
-                            </choice>aber</surname></persName><anchor xml:id="f19r04_comment_06"
+                            </choice>aber</surname></persName><ptr xml:id="f19r04_comment_06"
                         />.<anchor xml:id="f19r04_faber"/></s></ab>
             <note resp="AV" type="comment" target="f19r04_comment_01">
                 <p>Adrien Turnèbe (1512-1565), humaniste d’origine normande. Professeur à

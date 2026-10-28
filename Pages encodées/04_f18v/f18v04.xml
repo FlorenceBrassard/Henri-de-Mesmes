@@ -52,7 +52,7 @@
                     <placeName ref="Q7880">
                         <abbr>Thle</abbr>
                         <expan>Tholose</expan>
-                    </placeName> pour estudier en lois<anchor xml:id="f18v04_comment_01"/>, a<choice>
+                    </placeName> pour estudier en lois<ptr xml:id="f18v04_comment_01"/>, a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec <roleName>mon precepteur</roleName> et <roleName>mon
@@ -96,8 +96,8 @@
                         </choice>un des freres puisn<choice>
                             <orig>e</orig>
                             <reg>é</reg>
-                        </choice>s</roleName> de <roleName ref="Q107207194">mon
-                        pere</roleName><anchor xml:id="f18v06_comment_02"/>.</s></ab>
+                        </choice>s</roleName> de <roleName ref="Q107207194">mon pere</roleName><ptr
+                        xml:id="f18v06_comment_02"/>.</s></ab>
             <note resp="AV" type="comment" target="f18v04_comment_01"><p>L’université de Toulouse
                     bénéficie d’une excellente réputation au XVI<hi rend="superscript"
                     >e</hi> siècle. C’est au droit civil, qui n’est pas enseigné à Paris et qui

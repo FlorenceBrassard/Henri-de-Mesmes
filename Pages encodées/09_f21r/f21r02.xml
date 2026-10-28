@@ -99,7 +99,7 @@
                         </choice> d<choice>
                            <orig>e</orig>
                            <reg>'E</reg>
-                        </choice>stat<anchor xml:id="f21r02_comment_01"/></seg> et</del>
+                        </choice>stat<ptr xml:id="f21r02_comment_01"/></seg> et</del>
                   <add facs="#f21r02_i_au" xml:id="f21r02_au">au</add>
                </subst>
                <orgName>

@@ -135,7 +135,7 @@
                             ref="Q3158358"><surname><choice>
                                     <orig>b</orig>
                                     <reg>B</reg>
-                                </choice>ourdin</surname></persName><anchor
+                                </choice>ourdin</surname></persName><ptr
                             xml:id="f20v04_comment_01"/>
                         <del>du <space/></del></seg><choice>
                         <orig/>
@@ -171,7 +171,7 @@
                     </choice><placeName ref="Q38"><choice>
                             <orig>i</orig>
                             <reg>I</reg>
-                        </choice>talie</placeName><anchor xml:id="f20v04_comment_02"/>, <subst>
+                        </choice>talie</placeName><ptr xml:id="f20v04_comment_02"/>, <subst>
                         <del>deliberer <seg xml:id="f20v04_den_essay">d<choice>
                                     <orig/>
                                     <reg>'</reg>
@@ -293,7 +293,7 @@
                     </choice>ée que ceste l<choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice><anchor xml:id="f20v04_comment_03"/>.</s></ab>
+                    </choice><ptr xml:id="f20v04_comment_03"/>.</s></ab>
             <note resp="AV" type="comment" target="f20v04_comment_01">
                 <p>Jacques Bourdin († 1567), secrétaire des finances à partir de 1549.</p>
             </note>

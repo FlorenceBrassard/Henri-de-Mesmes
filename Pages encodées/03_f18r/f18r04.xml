@@ -66,7 +66,7 @@
                         </choice><surname>Mal<subst>
                                 <del rend="unmarked">edent</del>
                                 <add>udan</add>
-                            </subst></surname></persName><anchor xml:id="f18r04_comment_01"/>
+                            </subst></surname></persName><ptr xml:id="f18r04_comment_01"/>
                     <choice>
                         <orig>L</orig>
                         <reg>l</reg>
@@ -79,7 +79,7 @@
                         </choice></del><persName ref="Q714921"><surname><choice>
                                 <orig>d</orig>
                                 <reg>D</reg>
-                            </choice>orat</surname></persName><anchor xml:id="f18r04_comment_02"
+                            </choice>orat</surname></persName><ptr xml:id="f18r04_comment_02"
                         />,<add>home </add><add>sca<choice>
                             <orig>u</orig>
                             <reg>v</reg>

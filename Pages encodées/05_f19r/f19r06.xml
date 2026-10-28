@@ -58,7 +58,7 @@
                </choice>n fin des six ans <del>ap</del> nous teismes <choice>
                   <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                   <expan>con</expan>
-               </choice>clusions publiques<anchor xml:id="f19r06_comment_01"/> par deux fois
+               </choice>clusions publiques<ptr xml:id="f19r06_comment_01"/> par deux fois
                   <supplied>:</supplied> la premiere, <choice>
                   <abbr rend="overlined">etions</abbr>
                   <expan>estions</expan>
@@ -119,30 +119,29 @@
                            agent="margin"><choice>
                               <orig>c</orig>
                               <reg>C</reg>
-                           </choice></unclear>orras</surname></persName><anchor
+                           </choice></unclear>orras</surname></persName><ptr
                      xml:id="f19r06_comment_02"/> et <persName ref="Q691362"><nameLink>du</nameLink>
                      <surname><choice>
                            <orig>f</orig>
                            <reg>F</reg>
-                        </choice>errier</surname></persName><anchor xml:id="f19r06_comment_03"/>,
-                  aussy <persName><surname><choice>
+                        </choice>errier</surname></persName><ptr xml:id="f19r06_comment_03"/>, aussy <persName><surname><choice>
                            <orig>p</orig>
                            <reg>P</reg>
-                        </choice>ereri</surname></persName><anchor xml:id="f19r06_comment_04"/> et <persName><surname><choice>
+                        </choice>ereri</surname></persName><ptr xml:id="f19r06_comment_04"/> et <persName><surname><choice>
                            <orig>f</orig>
                            <reg>F</reg>
-                        </choice>ernandi</surname></persName><anchor xml:id="f19r06_comment_05"/> et
+                        </choice>ernandi</surname></persName><ptr xml:id="f19r06_comment_05"/> et
                   des <choice>
                      <orig>i</orig>
                      <reg>j</reg>
                   </choice>eunes <persName><nameLink>du</nameLink><surname><choice>
                            <orig>b</orig>
                            <reg>B</reg>
-                        </choice>ourg</surname></persName><anchor xml:id="f19r06_comment_06"/> et
+                        </choice>ourg</surname></persName><ptr xml:id="f19r06_comment_06"/> et
                      <persName ref="Q3121749"><surname><choice>
                            <orig>p</orig>
                            <reg>P</reg>
-                        </choice>ibrac</surname></persName><anchor xml:id="f19r06_comment_07"/>.</s>
+                        </choice>ibrac</surname></persName><ptr xml:id="f19r06_comment_07"/>.</s>
                <s><choice>
                      <orig>a</orig>
                      <reg>A</reg>
@@ -154,7 +153,7 @@
                      <surname><choice>
                            <orig>f</orig>
                            <reg>F</reg>
-                        </choice>ois</surname></persName><anchor xml:id="f19r06_comment_08"/> qui m<choice>
+                        </choice>ois</surname></persName><ptr xml:id="f19r06_comment_08"/> qui m<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice>a<choice>
@@ -185,7 +184,7 @@
                   </choice><placeName ref="Q173787"><choice>
                         <orig>a</orig>
                         <reg>A</reg>
-                     </choice>let</placeName><anchor xml:id="f19r06_comment_09"/>, prit mon heure et
+                     </choice>let</placeName><ptr xml:id="f19r06_comment_09"/>, prit mon heure et
                   leut <del>en</del> quel<choice>
                      <abbr><g ref="que-glyph">ꝙ</g></abbr>
                      <expan>que</expan>

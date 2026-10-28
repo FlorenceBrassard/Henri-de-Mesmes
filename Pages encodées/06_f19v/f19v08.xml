@@ -96,7 +96,7 @@
                         <del facs="#f19v08_i_bertrandy"><persName ref="Q3175280"><surname><choice>
                                         <abbr><g ref="#ber-glyph">ƀ</g></abbr>
                                         <expan>Ber</expan>
-                                    </choice>trandy</surname></persName><anchor
+                                    </choice>trandy</surname></persName><ptr
                                 xml:id="f19v08_comment_01"/></del>
                         <add facs="#f19v08_i_et_Bertrandy"><del>et <choice>
                                     <abbr><g ref="#qui-glyph">ꝙ</g></abbr>
@@ -156,7 +156,7 @@
                                         <orig>R</orig>
                                         <reg>r</reg>
                                     </choice>equestes</expan>
-                            </choice><anchor xml:id="f19v08_comment_02"/></add>
+                            </choice><ptr xml:id="f19v08_comment_02"/></add>
                     </subst><subst>
                         <del>, puys</del>
                         <add><choice>
@@ -166,7 +166,7 @@
                     </subst> il me feit prendre un office de conseiller <del>et <choice>
                             <abbr rend="overlined">gral</abbr>
                             <expan>general</expan>
-                        </choice></del> en la <orgName>cour des aides</orgName><anchor
+                        </choice></del> en la <orgName>cour des aides</orgName><ptr
                         xml:id="f19v08_comment_03"/> pource que <choice>
                         <orig>i</orig>
                         <reg>j'</reg>
@@ -179,7 +179,7 @@
                     </choice>on ne m<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>eust pas admis alieurs<anchor xml:id="f19v08_comment_04"/>
+                    </choice>eust pas admis alieurs<ptr xml:id="f19v08_comment_04"/>
                     <del><add>aussy <choice>
                                 <orig>i</orig>
                                 <reg>j</reg>

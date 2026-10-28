@@ -65,7 +65,7 @@
                         ou</del> xv <metamark facs="#f17v03_i_metamark_1" function="insert"
                         target="#f17v03_ou_xx" xml:id="f17v03_metamark_1">^</metamark><add
                         facs="#f17v03_i_ou_xx" xml:id="f17v03_ou_xx">ou xx</add><substJoin
-                        target="#xii_ou #f17v03_metamark_1 #f17v03_ou_xx"/> ans<anchor
+                        target="#xii_ou #f17v03_metamark_1 #f17v03_ou_xx"/> ans<ptr
                         xml:id="f17v03_comment_01"/>, <subst>
                         <del>et</del>
                         <add xml:id="f17v03_collegue_faisoient">collegue <metamark
@@ -75,16 +75,15 @@
                                 xml:id="f17v03_et_compaignon"><metamark>^</metamark>et <seg
                                     xml:id="f17v03_compaignon">compaignon</seg></add> de <persName
                                 ref="Q3745175"><forename>Philippus</forename>
-                                <surname>Decius</surname></persName><anchor
-                                xml:id="f17r06_comment_02"/> et d'<persName ref="Q464471"><forename
-                                    full="abb"><choice>
+                                <surname>Decius</surname></persName><ptr xml:id="f17r06_comment_02"
+                            /> et d'<persName ref="Q464471"><forename full="abb"><choice>
                                         <abbr>Andr.</abbr>
                                         <expan>Andreas</expan>
                                     </choice></forename>
                                 <surname full="abb">Alciat<choice>
                                         <abbr><g ref="#us-glyph" rend="subscript">Ꝯ</g></abbr>
                                         <expan>us</expan>
-                                    </choice></surname></persName><anchor xml:id="f17r06_comment_03"/>
+                                    </choice></surname></persName><ptr xml:id="f17r06_comment_03"/>
                             <choice>
                                 <abbr>desquls</abbr>
                                 <expan>desquels</expan>
@@ -122,7 +121,7 @@
                         ref="Q236896"><roleName>Reyne</roleName>
                         <forename>Caterine</forename>
                         <nameLink>de</nameLink>
-                        <placeName ref="Q111628725">Navarre</placeName></persName><anchor
+                        <placeName ref="Q111628725">Navarre</placeName></persName><ptr
                         xml:id="f17r06_comment_04"/> de venir en <placeName ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
@@ -135,7 +134,7 @@
                     </subst>le <persName ref="Q317506"><roleName>Roy</roleName>
                         <forename>Henry</forename>
                         <nameLink>de</nameLink>
-                        <placeName ref="Q111628725">Navarre</placeName></persName> son filz<anchor
+                        <placeName ref="Q111628725">Navarre</placeName></persName> son filz<ptr
                         xml:id="f17r06_comment_05"/>.<s/>
                     <choice>
                         <orig>q</orig>

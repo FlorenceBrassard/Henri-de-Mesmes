@@ -101,7 +101,7 @@
                             <expan><forename>Jean-Jacques</forename>
                                 <nameLink>de</nameLink>
                                 <surname>Mesmes</surname></expan>
-                        </choice></persName><anchor xml:id="f17r06_comment_01"/>
+                        </choice></persName><ptr xml:id="f17r06_comment_01"/>
                     <metamark facs="#f17r06_i_metamark_01" function="insert"
                         target="#f17r06_issu_descosse" xml:id="f17r06_metamark_01">^</metamark><add
                         facs="#f17r06_i_issu_descosse" xml:id="f17r06_issu_descosse"
@@ -170,13 +170,13 @@
                                     <orig>u</orig>
                                     <reg>v</reg>
                                 </choice>ich</placeName></add>
-                    </subst><anchor xml:id="f17r06_comment_02"/><choice>
+                    </subst><ptr xml:id="f17r06_comment_02"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
                     <persName><forename>Amaneus</forename>
                         <nameLink>de</nameLink>
-                        <surname>Mammes</surname></persName><anchor xml:id="f17r06_comment_03"/>
+                        <surname>Mammes</surname></persName><ptr xml:id="f17r06_comment_03"/>
                     <del facs="#f17r06_i_qui_01" xml:id="f17r06_qui">qui</del> dez <date when="1200">l<choice>
                             <orig/>
                             <reg>'</reg>
@@ -202,7 +202,7 @@
                         <seg xml:id="f17r06_guerres_Guiene">guerres de la <placeName ref="Q849324"
                                 >Guiene</placeName></seg> et</del><del facs="#f17r06_i_y_01"
                         xml:id="f17r06_y">y</del> espousa<add facs="#f17r06_i_en_marsan"
-                        xml:id="f17r06_en_marsan"> en <placeName>Marsan</placeName><anchor
+                        xml:id="f17r06_en_marsan"> en <placeName>Marsan</placeName><ptr
                             xml:id="f17r06_comment_04"/></add>
                     <substJoin
                         target="#f17r06_pendant_Guiene #f17r06_y #f17r06_en_marsan #f17r06_Marsan_Guiene"/>
@@ -245,7 +245,7 @@
                                 </choice>en</add>
                         </subst>
                         <seg xml:id="f17r06_ay_titres">ay veu les titres</seg>, et en sont ancore
-                            <seg xml:id="f17r06_les_armes">les armes</seg><anchor
+                            <seg xml:id="f17r06_les_armes">les armes</seg><ptr
                             xml:id="f17r06_comment_05"/> en <subst facs="#f17r06_i_une_la"
                             xml:id="f17r06_une_la">
                             <del>une</del>
@@ -473,8 +473,8 @@
                                     armes</add>
                             </subst></del>
                         <add>cete maison</add>
-                    </subst><substJoin target="#f17r06_ce_01 #f17r06_nom_armes"/>. <anchor
-                        xml:id="f17r06_maison"/></s></ab>
+                    </subst><ptr xml:id="f17r06_maison"/><substJoin
+                        target="#f17r06_ce_01 #f17r06_nom_armes"/>.</s></ab>
             <note resp="AV" type="comment" target="f17r06_comment_01"><p>Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes (1490-1569), père du mémorialiste, est
                     issu d’une famille béarnaise aux origines obscures, relevant probablement de la

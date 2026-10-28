@@ -73,7 +73,7 @@
                         <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                         <expan>que</expan>
                     </choice><del facs="#f18v05_i_s1" xml:id="f18v05_s1">s</del> bien<del
-                        facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del><anchor
+                        facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del><ptr
                         xml:id="f18v05_comment_01"/>.</s>
                 <substJoin target="#f18v05_s1 #f18v05_s2"/></ab>
             <note resp="AV" type="comment" target="f18v05_comment_01"><p>Hugues Raymond, serviteur

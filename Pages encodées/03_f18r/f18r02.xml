@@ -50,7 +50,7 @@
                </choice>il de <placeName ref="Q90"><choice>
                      <orig>p</orig>
                      <reg>P</reg>
-                  </choice>aris</placeName><anchor xml:id="f18r02_comment_01"/><add
+                  </choice>aris</placeName><ptr xml:id="f18r02_comment_01"/><add
                   facs="#f18r02_i_par_Roy #f18r02_i_francoys_contraint #f18r02_i_daccepter_gré"
                   xml:id="f18r02_par_gré">, par l<choice>
                      <orig/>

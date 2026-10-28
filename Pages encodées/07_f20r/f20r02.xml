@@ -139,7 +139,7 @@
                         </choice>entrer au <orgName>grand <choice>
                                 <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                                 <expan>con</expan>
-                            </choice>seil</orgName><anchor xml:id="f20r02_comment_01"/>
+                            </choice>seil</orgName><ptr xml:id="f20r02_comment_01"/>
                     </add>.</s>
                 <s><delSpan spanTo="#f20r02_par" xml:id="f20r02_et_par"/><choice>
                         <orig>e</orig>

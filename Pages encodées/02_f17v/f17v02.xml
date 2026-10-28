@@ -62,7 +62,7 @@
                         <add facs="#f17v02_i_ux">ux</add>
                         <del facs="#f17v02_i_la">la</del>
                     </subst> guerre<add facs="#f17v02_i_s1" xml:id="f17v02_s1">s</add>
-                    <substJoin target=" #f17v02_a_la_aux #f17v02_s1"/><anchor
+                    <substJoin target=" #f17v02_a_la_aux #f17v02_s1"/><ptr
                         xml:id="f17v02_comment_01"/>.</s></ab>
             <note resp="AV" type="comment" target="f17r06_comment_01"><p>On ne connaît que quatre
                     frères de Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes : un frère

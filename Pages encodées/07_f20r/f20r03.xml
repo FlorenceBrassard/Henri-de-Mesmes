@@ -129,7 +129,7 @@
                     /> receu au <orgName ref="Q1242473"><choice>
                             <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                             <expan>par</expan>
-                        </choice>lement</orgName><anchor xml:id="f20r03_comment_01"/>
+                        </choice>lement</orgName><ptr xml:id="f20r03_comment_01"/>
                     <metamark facs="#f20r03_i_metamark2" function="insert">^</metamark><add
                         facs="#f20r03_i_aussy_examen" xml:id="f20r03_aussy_examen"
                             ><metamark>^</metamark>aussy sens examen</add> le <date
@@ -155,7 +155,7 @@
                         bon <choice>
                             <abbr>m<hi rend="superscript">e</hi></abbr>
                             <expan>maistre</expan>
-                        </choice><anchor xml:id="f20r03_comment_02"/> le voulust <add>ainsy</add> et
+                        </choice><ptr xml:id="f20r03_comment_02"/> le voulust <add>ainsy</add> et
                         dit qu<choice>
                             <orig/>
                             <reg>'</reg>
@@ -220,7 +220,7 @@
                         <add place="superimposed">u</add>
                     </subst>
                     <subst>
-                        <add facs="#f20r03_i_pais" xml:id="f20r03_pais">pais<anchor
+                        <add facs="#f20r03_i_pais" xml:id="f20r03_pais">pais<ptr
                                 xml:id="f20r03_comment_03"/></add>
                         <del facs="#f20r03_i_limosin" xml:id="f20r03_limosin"><placeName ref="Q1190"><choice>
                                     <orig>l</orig>
@@ -262,7 +262,7 @@
                     </choice>oient <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> son trespas<anchor xml:id="f20r03_comment_04"/>.</s></ab>
+                    </choice> son trespas<ptr xml:id="f20r03_comment_04"/>.</s></ab>
             <note resp="AV" type="comment" target="f20r01_comment_01">
                 <p>Voir <hi rend="italic">supra</hi>, note 22.</p>
             </note>

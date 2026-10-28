@@ -97,8 +97,7 @@
                   <orig>u</orig>
                   <reg>v</reg>
                </choice>oit <gap quantity="01" unit="char" reason="illegible" agent="margin"
-                  /><supplied cert="high">q</supplied>ue sept mois<anchor xml:id="f17v01_comment_01"
-               />. <choice>
+                  /><supplied cert="high">q</supplied>ue sept mois<ptr xml:id="f17v01_comment_01"/>. <choice>
                   <orig>e</orig>
                   <reg>E</reg>
                </choice>t pource <gap quantity="01" unit="char" reason="illegible" agent="margin"
@@ -120,8 +119,8 @@
                <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>eunesse.<anchor xml:id="f17v01_ieunesse"/>
-               <substJoin target="f17v01_ainsy_ieunesse 17v01_a_ieunesse"/></s></ab>
+               </choice>eunesse<ptr xml:id="f17v01_ieunesse"/>. <substJoin
+                  target="f17v01_ainsy_ieunesse 17v01_a_ieunesse"/></s></ab>
          <note resp="AV" type="comment" target="f17r06_comment_01">
             <p>Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes serait né en mai 1490 à
                Roquefort (Le Flem, 1972, p. 130).</p>

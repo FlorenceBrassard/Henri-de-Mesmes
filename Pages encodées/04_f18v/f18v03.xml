@@ -97,7 +97,7 @@
                         </choice>l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>autre<anchor xml:id="f18v03_comment_01"/>.</add>
+                        </choice>autre<ptr xml:id="f18v03_comment_01"/>.</add>
                     <substJoin target="#f18v03_point_virgule #f18v03_metamark_1 #f18v03_qui_lres"/>
                     <substJoin target="#f18v03_metamark_3_del #f18v03_metamark_2 #f18v03_et_lautre"
                     /></s>
@@ -171,18 +171,18 @@
                             <add seq="3">chez</add>
                         </subst>
                         <persName ref="Q1640529"><forename>Lazarius</forename>
-                            <surname>Bayfius</surname></persName><anchor xml:id="f18v03_comment_02"
-                        />, <persName ref="Q21543031"><surname>Tussanus</surname>
-                        </persName><anchor xml:id="f18v03_comment_03"/><supplied>,</supplied>
-                        <persName ref="Q3174686"><surname>Strazelius</surname></persName><anchor
+                            <surname>Bayfius</surname></persName><ptr xml:id="f18v03_comment_02"/>,
+                            <persName ref="Q21543031"><surname>Tussanus</surname>
+                        </persName><ptr xml:id="f18v03_comment_03"/><supplied>,</supplied>
+                        <persName ref="Q3174686"><surname>Strazelius</surname></persName><ptr
                             xml:id="f18v03_comment_04"/>
                         <del><unclear cert="low" reason="deleted" agent="author">et</unclear></del>
                         <choice>
                             <orig/>
                             <reg>,</reg>
-                        </choice><persName ref="Q3384831">Castellanus</persName><anchor
+                        </choice><persName ref="Q3384831">Castellanus</persName><ptr
                             xml:id="f18v03_comment_05"/> et <persName ref="Q3384615"
-                                ><surname>Danesius</surname></persName><anchor
+                                ><surname>Danesius</surname></persName><ptr
                             xml:id="f18v03_comment_06"/><choice>
                             <orig>.</orig>
                             <reg>,</reg>

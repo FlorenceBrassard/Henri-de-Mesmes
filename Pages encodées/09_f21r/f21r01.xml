@@ -71,7 +71,7 @@
                     </subst>
                     <substJoin target="#f21r01_conclud-doner #f21r01_aux"/>
                     <add xml:id="f21r01_pape_les"><seg xml:id="f21r01_Pape_contre"><roleName
-                                ref="Q101430">Pape</roleName><anchor xml:id="f21r01_comment_01"/>
+                                ref="Q101430">Pape</roleName><ptr xml:id="f21r01_comment_01"/>
                             contre</seg> les</add>
                     <substJoin target="#f21r01_x #f21r01_pape_les"/><seg xml:id="f21r01_colonois_et"
                             ><persName ref="Q327202"><surname><choice>
@@ -108,7 +108,7 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName ref="Q498854">Tonerre</placeName><anchor xml:id="f21r01_comment_01"/> o<choice>
+                    <placeName ref="Q498854">Tonerre</placeName><ptr xml:id="f21r01_comment_02"/> o<choice>
                         <orig>u</orig>
                         <reg>ù</reg>
                     </choice>

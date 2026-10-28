@@ -63,7 +63,7 @@
                             <orig>a</orig>
                             <reg>A</reg>
                         </choice>ristophanes</persName> ou <persName ref="Q48305"
-                            >Euripide<add>s</add></persName><anchor xml:id="f19r02_comment_01"/> et <subst>
+                            >Euripide<add>s</add></persName><ptr xml:id="f19r02_comment_01"/> et <subst>
                         <del>depuys</del>
                         <add>quelquefois</add>
                     </subst>
@@ -89,7 +89,7 @@
                             </choice></persName> ou <persName ref="Q6197"><choice>
                                 <orig>h</orig>
                                 <reg>H</reg>
-                            </choice>oratius</persName><anchor xml:id="f19r02_comment_02"/></add>
+                            </choice>oratius</persName><ptr xml:id="f19r02_comment_02"/></add>
                     <choice>
                         <orig/>
                         <reg>.</reg>

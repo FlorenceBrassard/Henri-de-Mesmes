@@ -56,7 +56,7 @@
                   <del rend="overwritten">n</del>
                   <add place="superimposed">z</add>
                </subst>
-               <orgName>escoles de decret</orgName><anchor xml:id="f19v07_comment_01"/>
+               <orgName>escoles de decret</orgName><ptr xml:id="f19v07_comment_01"/>
                <metamark facs="#f19v07_i_metamark2" function="insert" target="#f19v07_en_parlement"
                   >+</metamark><add facs="#f19v07_en_parlement" xml:id="f19v07_en_parlement"
                      ><metamark>+</metamark>en grande <subst>

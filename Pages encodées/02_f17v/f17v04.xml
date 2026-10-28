@@ -59,7 +59,7 @@
                     <substJoin target="#f17v04_il #f17v04_aiant #f17v04_é_a"/> feu ma mere <add><del
                             instant="true">d</del> dame</add>
                     <persName><forename>Nicole</forename>
-                        <surname ref="Q21493029">Hennequin</surname></persName><anchor
+                        <surname ref="Q21493029">Hennequin</surname></persName><ptr
                         xml:id="f17v04_comment_01"/><choice>
                         <orig/>
                         <reg>,</reg>
@@ -67,7 +67,7 @@
                                 <orig>c</orig>
                                 <reg>C</reg>
                             </choice>hristofle</forename><surname ref="Q21493029"
-                            >Hennequin</surname></persName><anchor xml:id="f17v04_comment_02"/><choice>
+                            >Hennequin</surname></persName><ptr xml:id="f17v04_comment_02"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
@@ -118,7 +118,7 @@
                     </choice>oit designé premier president de <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
-                        </choice>aris</placeName><anchor xml:id="f17v04_comment_03"/> pour ce qu<choice>
+                        </choice>aris</placeName><ptr xml:id="f17v04_comment_03"/> pour ce qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il s<choice>

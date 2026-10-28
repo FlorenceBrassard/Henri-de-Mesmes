@@ -163,7 +163,7 @@
                     <subst>
                         <del facs="#f17r02_recommendables">recommendables</del>
                         <add facs="#f17r02_i_memorables" xml:id="f17r02_memorables">memorables</add>
-                    </subst>.<anchor xml:id="f17r02_comment_01"/></s></ab>
+                    </subst>.<ptr xml:id="f17r02_comment_01"/></s></ab>
         </body>
         <back>
             <div type="glossary">

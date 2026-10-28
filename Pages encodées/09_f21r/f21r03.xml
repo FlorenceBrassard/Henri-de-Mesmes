@@ -115,7 +115,7 @@
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>ec monsieur <persName ref="Q28495"><nameLink>de</nameLink>
-                     <surname>Guyse</surname></persName><anchor xml:id="f21r03_comment_01"/><choice>
+                     <surname>Guyse</surname></persName><ptr xml:id="f21r03_comment_01"/><choice>
                      <orig/>
                      <reg>,</reg>
                   </choice>
@@ -123,28 +123,28 @@
                               <abbr>mar<hi rend="superscript">al</hi></abbr>
                               <expan>mareschal</expan>
                            </choice></roleName>
-                        <surname>Strozzi</surname></persName><anchor xml:id="f21r03_comment_02"
+                        <surname>Strozzi</surname></persName><ptr xml:id="f21r03_comment_02"
                      /></add><choice>
                      <orig/>
                      <reg>,</reg>
                   </choice> messieurs <persName ref="Q2960638"><nameLink>de</nameLink>
-                     <surname>Viene</surname></persName><anchor xml:id="f21r03_comment_03"/> et
+                     <surname>Viene</surname></persName><ptr xml:id="f21r03_comment_03"/> et
                      <persName ref="Q3349161"><nameLink>de</nameLink>
                      <surname>Sel<choice>
                            <orig>u</orig>
                            <reg>v</reg>
-                        </choice>e</surname></persName><anchor xml:id="f21r03_comment_04"/>, <del>et <choice>
+                        </choice>e</surname></persName><ptr xml:id="f21r03_comment_04"/>, <del>et <choice>
                         <abbr>m<hi rend="superscript">rs</hi></abbr>
                         <expan>messieurs</expan>
                      </choice></del>
-                  <persName><surname>Vialart</surname></persName><anchor xml:id="f21r03_comment_05"
+                  <persName><surname>Vialart</surname></persName><ptr xml:id="f21r03_comment_05"
                   /> et <persName><surname><choice>
                            <orig>l</orig>
                            <reg>L</reg>
                         </choice>a <choice>
                            <orig>m</orig>
                            <reg>M</reg>
-                        </choice>arsiliere</surname></persName><anchor xml:id="f21r03_comment_06"/>
+                        </choice>arsiliere</surname></persName><ptr xml:id="f21r03_comment_06"/>
                   que <choice>
                      <orig>d</orig>
                      <reg>D</reg>

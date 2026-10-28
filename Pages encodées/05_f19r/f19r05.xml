@@ -48,7 +48,7 @@
                </choice><orgName>escole des <choice>
                      <orig>i</orig>
                      <reg>I</reg>
-                  </choice>nstitutes</orgName><anchor xml:id="f19r05_comment_01"/>.</s><s>
+                  </choice>nstitutes</orgName><ptr xml:id="f19r05_comment_01"/>.</s><s>
                <subst>
                   <del facs="#f19r05_i_mais" xml:id="f19r05_mais"><choice>
                         <orig>m</orig>
@@ -69,7 +69,7 @@
                   </choice>uys</add> nous <subst>
                   <del>primes</del>
                   <add>eumes noz</add>
-               </subst> heures pour lire aux <orgName>grandes escoles</orgName><anchor
+               </subst> heures pour lire aux <orgName>grandes escoles</orgName><ptr
                   xml:id="f19r05_comment_02"/>, et leumes les autres trois ans entiers.</s>
             <s><choice>
                   <orig>p</orig>
@@ -77,8 +77,8 @@
                </choice>endant lesquels nous fre<choice>
                   <abbr><g ref="que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
-               </choice>ntions aux festes les disputes publiques<anchor xml:id="f19r05_comment_03"
-               />, et <choice>
+               </choice>ntions aux festes les disputes publiques<ptr xml:id="f19r05_comment_03"/>,
+               et <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e n<choice>
