@@ -135,9 +135,8 @@
                         <surname><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
-                            </choice>astellanus</surname></persName><ptr
-                        xml:id="f19r04_comment_03"/> depuys medecin du Roy et
-                            <persName><forename>Simon</forename>
+                            </choice>astellanus</surname></persName><ptr xml:id="f19r04_comment_03"
+                    /> depuys medecin du Roy et <persName><forename>Simon</forename>
                         <surname>Tomas</surname></persName><ptr xml:id="f19r04_comment_04"/><choice>
                         <orig/>
                         <reg>,</reg>
@@ -163,8 +162,8 @@
                                 <orig>p</orig>
                                 <reg>P</reg>
                             </choice>etrus</forename>
-                        <surname>Bunellus</surname></persName><ptr xml:id="f19r04_comment_05"/>
-                    et son <persName ref="Q3121749"><forename><choice>
+                        <surname>Bunellus</surname></persName><ptr xml:id="f19r04_comment_05"/> et
+                    son <persName ref="Q3121749"><forename><choice>
                                 <orig>v</orig>
                                 <reg>V</reg>
                             </choice>idus</forename>
@@ -188,7 +187,7 @@
             <note resp="AV" type="comment" target="f19r04_comment_02">
                 <p>Denis Lambin (1519-1572), humaniste d’origine normande. Il rejoint l’université
                     de Toulouse à la fin des années 1540 et y suit notamment les cours d’Adrien
-                    Turnèbe. Il est ami avec Maledent et fréquente les frères Mesmes. Le
+                    Turnèbe. Il est ami avec Maledent et fréquente les frères de Mesmes. Le
                     mémorialiste demeure proche de Lambin par la suite, comme en atteste leur
                     correspondance (Quillien, 2020, § 7-8).</p>
             </note>
