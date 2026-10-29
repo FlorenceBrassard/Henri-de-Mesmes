@@ -47,9 +47,10 @@
             <zone xml:id="f21v09_i_a_grossetto" points="2105,1939 2105,2026 2465,1991 2457,1900"/>
         </surface>
         <surface>
-            <graphic url=""/>
+            <graphic
+                url="https://api.nakala.fr/iiif/10.34847/nkl.06f8isr5/07e7823f408c01df48a97c5033c5d3185c9ee60d/116,2567,1494,1104/full/0/default.jpg"/>
+            <zone xml:id="f21v09_i_por_marem" lry="642" lrx="1332" uly="310" ulx="333"/>
         </surface>
-        <!--        Ajouter m21v09 sur Nakala, en ce moment ça charge à l'infini :( -->
     </facsimile>
     <text>
         <body>
@@ -276,10 +277,10 @@
                     Agressette pour … » (f. 60v<hi rend="superscript">o</hi>). Les mentions de la
                     ville (« <seg corresp="#f21v09_a_grossetto" facs="#f21v09_i_a_grossetto">a
                         grossetto</seg> ») et de la région (« <seg corresp="#f21v09_por_Marem"
-                        facs="">por la Marem</seg> ») n’ont pas été comprises. É. Frémy, pour sa
-                    part, donne « … et de La Môle à Grosseto pour le Martine (<hi rend="italic"
-                        >sic</hi>) » (éd. des <hi rend="italic">Mémoires</hi>, p. 158). La mention
-                        « <hi rend="italic">sic</hi> » témoigne bien du fait qu’il n’est pas
+                        facs="#f21v09_i_por_marem">por la Marem</seg> ») n’ont pas été comprises.
+                    É. Frémy, pour sa part, donne « … et de La Môle à Grosseto pour le Martine (<hi
+                        rend="italic">sic</hi>) » (éd. des <hi rend="italic">Mémoires</hi>, p. 158).
+                    La mention « <hi rend="italic">sic</hi> » témoigne bien du fait qu’il n’est pas
                     convaincu de sa transcription.</p>
             </note>
         </body>
