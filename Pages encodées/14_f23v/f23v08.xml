@@ -50,7 +50,7 @@
                     </choice> de trois offices de <choice>
                         <abbr>p<hi rend="superscript">r</hi></abbr>
                         <expan>premier</expan>
-                    </choice> president, <choice>
+                    </choice> president<ptr xml:id="f23v08_comment_01"/>, <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
@@ -108,7 +108,7 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>estoit pas vulgaire lors<choice>
-                        <orig>, m</orig>
+                        <orig><ptr xml:id="f23v08_comment_02"/>, m</orig>
                         <reg>. M</reg>
                     </choice>ais sur ce qu<choice>
                         <orig/>
@@ -157,17 +157,38 @@
                             <orig>iiij xx</orig>
                             <reg>80</reg>
                         </choice> ans<del rend="unmarked">.</del></s></del></ab>
-            <note resp="AV" type="genetic">
-                <p>La <seg corresp="#f23v08_il_ans" facs="#f23v08_i_il_leage #f23v08_i_de_ans"
-                        >suppression</seg> de la dernière phrase est très certainement concomitante
-                    de l’ajout des mêmes informations plus haut, dans la marge (voir f. 23v<hi
-                        rend="superscript">o</hi>, seg. 4).</p>
-            </note>
-            <note resp="AV" type="critic">
-                <p>Les copies manuscrites ne donnent pas l’ajout « <hi rend="italic">a diverses
-                        fois</hi> » (Duchesne 57, f. 63v<hi rend="superscript">o</hi> ;
-                    Français 18617, f. 19r<hi rend="superscript">o</hi>).</p>
-            </note>
         </body>
+        <back>
+            <note resp="AV" type="comment" target="f23v08_comment_01"><p>Le premier président est à
+                    la tête de la cour souveraine d’un parlement ; à l’échelle d’une province, ce
+                    dernier remplit des fonctions judiciaires et administratives déterminantes. Les
+                    trois villes mentionnées par Henri de Mesmes – Toulouse, Bordeaux et Rouen –
+                    abritent de grands parlements à l’échelle du royaume. Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes aurait renoncé à être premier président
+                    du Parlement de Normandie à la demande d’Henri II, qui souhaitait le conserver
+                    au sein de son conseil (Moreri <hi>et al</hi>., 1759, t. VII,
+                p. 494).</p></note>
+            <note resp="AV" type="comment" target="f23v08_comment_02"><p>Le Conseil privé, dit aussi
+                    Conseil des parties, est une cour suprême de justice (Barbiche, 2012, p. 289).
+                    Comme le rappelle B. Barbiche, « au temps de François I<hi rend="superscript"
+                        >er</hi> et de Henri II, le Conseil privé ne se distinguait pas nettement du
+                    Conseil d’État : la première partie des séances était consacrée aux affaires
+                    d’État, après quoi les maîtres des requêtes de l’hôtel venaient siéger pour
+                    l’examen des affaires des particuliers. Puis, peu à peu, les séances consacrées
+                    à l’examen des procès civils se différencièrent des autres sessions du Conseil »
+                        (<hi rend="italic">ibid</hi>., p. 290). On peut estimer qu’Henri de Mesmes
+                    déplore ce processus, ou bien qu’il fait allusion à l’élargissement de organes
+                    de conseil du roi lors des guerres de religion, qu’il évoque plus explicitement
+                    ensuite (voir <hi rend="italic">infra</hi>, note 157).</p></note>
+            <note resp="AV" type="genetic"><p>La <seg corresp="#f23v08_il_ans"
+                        facs="#f23v08_i_il_leage #f23v08_i_de_ans">suppression</seg> de la dernière
+                    phrase est très certainement concomitante de l’ajout des mêmes informations plus
+                    haut, dans la marge (voir f. 23v<hi rend="superscript">o</hi>,
+                seg. 4).</p></note>
+            <note resp="AV" type="critic"><p>Les copies manuscrites ne donnent pas l’ajout « <hi
+                        rend="italic">a diverses fois</hi> » (Duchesne 57, f. 63v<hi
+                        rend="superscript">o</hi> ; Français 18617, f. 19r<hi rend="superscript"
+                        >o</hi>).</p></note>
+        </back>
     </text>
 </TEI>

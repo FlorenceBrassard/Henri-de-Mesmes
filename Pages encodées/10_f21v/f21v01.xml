@@ -41,7 +41,8 @@
                             <reg>P</reg>
                         </choice>asques <metamark facs="#f21v01_i_metamark01" function="insert"
                             target="#f21v01_1557">^</metamark><add facs="#f21v01_i_1557"
-                            xml:id="f21v01_1557"><metamark>^</metamark>1557</add></date>
+                            xml:id="f21v01_1557"><metamark>^</metamark>1557</add></date><ptr
+                        xml:id="f21v01_comment_01"/>
                     <choice>
                         <orig>i</orig>
                         <reg>j</reg>
@@ -66,5 +67,11 @@
                             <reg>s</reg>
                         </choice>ienoise</orgName>.</s></ab>
         </body>
+        <back>
+            <note resp="AV" type="comment" target="f21v03_comment_01"><p>Henri de Mesmes entre en
+                    fonction le 10 mai 1557 (Archives d’État de Sienne, Délibération de Montalcino,
+                    vol. 5, f. 99v<hi rend="superscript">o</hi>, cité par Courteault, 1907, p. 335,
+                    note 1).</p></note>
+        </back>
     </text>
 </TEI>

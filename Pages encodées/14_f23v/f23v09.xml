@@ -51,8 +51,8 @@
                             </choice>oys</forename><genName><choice>
                                 <abbr>p<hi rend="superscript">r</hi></abbr>
                                 <expan>premier</expan>
-                            </choice></genName></persName> lassé de feu
-                            <persName><surname>Rusé</surname></persName>
+                            </choice></genName></persName><ptr xml:id="f23v09_comment_01"/> lassé de
+                    feu <persName><surname>Rusé</surname></persName>
                     <metamark facs="#f23v09_i_metamark01" target="#f23v09_son">^</metamark><add
                         facs="#f23v09_i_son" xml:id="f23v09_son">son</add> ad<choice>
                         <orig>u</orig>
@@ -65,7 +65,7 @@
                         </choice>lement de <placeName ref="Q90"><choice>
                                 <orig>p</orig>
                                 <reg>P</reg>
-                            </choice>aris</placeName></orgName><choice>
+                            </choice>aris</placeName></orgName><ptr xml:id="f23v09_comment_02"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> il manda <roleName ref="Q107207194">mon pere</roleName>
@@ -83,6 +83,15 @@
                     </subst>
                     <del instant="true"><unclear cert="high" reason="deleted" agent="author"
                             >l</unclear></del> office.</s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23v09_comment_01"><p>François I<hi
+                        rend="superscript">er</hi> (1494-1547) monte sur le trône en 1515. Si
+                    Jean-Jacques Ier de Mesmes a bien rejoint Paris dans les années 1528-1529 et
+                    étant donné la période d’exercice de Jean II Ruzé, cet échange a lieu entre 1528
+                    et 1530.</p></note>
+            <note resp="AV" type="comment" target="f23v09_comment_02"><p>Jean II Ruzé, secrétaire du
+                    roi en 1509, puis avocat du roi entre 1521 et 1530.</p></note>
             <note resp="AV" type="genetic"><p>La substitution du complément « <seg
                         corresp="#f23v09_du_Roy" facs="#f23v09_i_du_Roy">du Roy</seg> » par le
                     possessif « <seg corresp="#f23v09_son" facs="#f23v09_i_son">son</seg> » permet
@@ -92,6 +101,6 @@
                     souverain, Rusé est « son aduocat », qu’il peut révoquer comme il l’entend ;
                     d’après le père du mémorialiste, il est celui « du Roy », au service de la
                     monarchie.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

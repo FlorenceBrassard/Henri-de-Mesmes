@@ -78,12 +78,12 @@
                         <orig/>
                         <reg>.</reg>
                     </choice></s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes reformule la seconde partie de son propos, peut-être pour
-                    insister davantage sur le caractère impérieux de son devoir à l’aide du verbe
-                        « <seg corresp="#f22v13_mobligeoit" facs="#f22v13_mobligeoit"
-                        >obligeoit</seg> ».</p>
-            </note>
         </body>
+        <back>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes reformule la seconde partie de son
+                    propos, peut-être pour insister davantage sur le caractère impérieux de son
+                    devoir à l’aide du verbe « <seg corresp="#f22v13_mobligeoit"
+                        facs="#f22v13_mobligeoit">obligeoit</seg> ».</p></note>
+        </back>
     </text>
 </TEI>

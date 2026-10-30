@@ -144,6 +144,8 @@
                                 xml:id="f19r02_pres_de">pres de</add> sept</del>
                         <add facs="#f19r02_i_apres_six">apres six.</add>
                     </subst><del rend="unmarked">.</del></s></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="f19r06_comment_01"><p>Sophocle, Euripide et
                     Aristophane, dont les œuvres tragiques se prêtent à la mise en voix, voire à la
                     mise en scène. Les collèges humanistes sont un lieu privilégié d’activités
@@ -156,7 +158,7 @@
                         corresp="#f19r02_virgilius_horatius" facs="#f19r02_i_Virgilius_horatius"
                         >mention de Virgile et d’Horace</seg>. La liste des lectures, d’abord
                     centrée sur l’éloquence politique et la philosophie, s’ouvre ainsi à la
-                poésie.</p></note>
-        </body>
+                    poésie.</p></note>
+        </back>
     </text>
 </TEI>

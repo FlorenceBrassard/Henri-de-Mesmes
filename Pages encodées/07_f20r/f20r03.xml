@@ -263,48 +263,42 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> son trespas<ptr xml:id="f20r03_comment_04"/>.</s></ab>
-            <note resp="AV" type="comment" target="f20r01_comment_01">
-                <p>Voir <hi rend="italic">supra</hi>, note 22.</p>
-            </note>
-            <note resp="AV" type="comment" target="f20r01_comment_02">
-                <p>Henri II (1519-1559), roi de France à partir de 1547. Par la formule « mon bon
-                    maistre », le mémorialiste prépare le caractère tragique du décès du souverain
-                    et le portrait moins favorable d’Henri III.</p>
-            </note>
-            <note resp="AV" type="comment" target="f20r01_comment_03">
-                <p>Il s’agit probablement du procès intenté contre François de Pontbriant, sénéchal
-                    du Limousin (Frémy, 1881, p. 16), suspecté de malversations financières. Une
-                    commission en date du 1<hi rend="superscript">er</hi> février 1553 (1554 en
-                    « nouveau style ») est signée par le « vicomte de Roissy » (Archives nationales,
-                    1554-02-01/1).</p>
-            </note>
-            <note resp="AV" type="comment" target="f20r01_comment_04">
-                <p>Parmi ces onze enfants, on connaît Jean-Jacques de Mesmes, seigneur d’Arches et
-                    de Langle, avec qui le mémorialiste a été éduqué ; Jean-Gabriel de Mesmes,
-                    conseiller au Parlement de Paris ; Antoinette de Mesmes, épouse de François
-                    d’Elbène, seigneur de L’Épine ; Adrienne de Mesmes (Moreri <hi rend="italic">et
-                        al.</hi>, 1759 t. VII, p. 495), épouse de Philippe Le Sueur, seigneur
-                    d’Osny ; Marguerite de Mesmes, épouse de François Barquin, puis de Pierre
-                    de Masparault.</p>
-            </note>
-            <note resp="AV" type="genetic">
-                <p>La <seg corresp="#f20r03_XVI_1552" facs="#f20r03_i_XVI_Januier #f20r03_i_1552"
-                        >date de l’entrée d’Henri de Mesmes au Grand Conseil</seg> est supprimée
-                    avec le reste du passage (voir f. 20r<hi rend="superscript">o</hi>, seg. 2).
-                    Dans la marge, le mémorialiste ajoute une <seg corresp="#f20r03_naiant_ans"
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f20r01_comment_01"><p>Voir <hi rend="italic"
+                        >supra</hi>, note 22.</p></note>
+            <note resp="AV" type="comment" target="f20r01_comment_02"><p>Henri II (1519-1559), roi
+                    de France à partir de 1547. Par la formule « mon bon maistre », le mémorialiste
+                    prépare le caractère tragique du décès du souverain et le portrait moins
+                    favorable d’Henri III.</p></note>
+            <note resp="AV" type="comment" target="f20r01_comment_03"><p>Il s’agit probablement du
+                    procès intenté contre François de Pontbriant, sénéchal du Limousin (Frémy, 1881,
+                    p. 16), suspecté de malversations financières. Une commission en date du 1<hi
+                        rend="superscript">er</hi> février 1553 (1554 en « nouveau style ») est
+                    signée par le « vicomte de Roissy » (Archives nationales,
+                1554-02-01/1).</p></note>
+            <note resp="AV" type="comment" target="f20r01_comment_04"><p>Parmi ces onze enfants, on
+                    connaît Jean-Jacques de Mesmes, seigneur d’Arches et de Langle, avec qui le
+                    mémorialiste a été éduqué ; Jean-Gabriel de Mesmes, conseiller au Parlement de
+                    Paris ; Antoinette de Mesmes, épouse de François d’Elbène, seigneur de L’Épine ;
+                    Adrienne de Mesmes (Moreri <hi rend="italic">et al.</hi>, 1759 t. VII, p. 495),
+                    épouse de Philippe Le Sueur, seigneur d’Osny ; Marguerite de Mesmes, épouse de
+                    François Barquin, puis de Pierre de Masparault.</p></note>
+            <note resp="AV" type="genetic"><p>La <seg corresp="#f20r03_XVI_1552"
+                        facs="#f20r03_i_XVI_Januier #f20r03_i_1552">date de l’entrée d’Henri
+                        de Mesmes au Grand Conseil</seg> est supprimée avec le reste du passage
+                    (voir f. 20r<hi rend="superscript">o</hi>, seg. 2). Dans la marge, le
+                    mémorialiste ajoute une <seg corresp="#f20r03_naiant_ans"
                         facs="#f20r03_i_naiant_ans">précision sur l’âge</seg> auquel il est reçu au
                     Parlement de Paris pour souligner de nouveau sa précocité et surtout pour
                     insister sur la <seg corresp="#f20r03_mais_estudes"
                         facs="#f20r03_i_mais_estudes">reconnaissance dont il bénéficie de la part
-                        d’Henri II</seg>.</p>
-            </note>
-            <note resp="AV" type="critic">
-                <p>Le Français 18617 et le Duchesne 57 donnent tous deux « sa suruiuance » (f. 9r°
-                    et f. 59r<hi rend="superscript">o</hi>). La présence d’un « l » (« <seg
-                        corresp="#f20r03_la_suruiuance" facs="#f20r03_i_la_suruiuance">la
-                        suruiuance</seg> ») ne semble pourtant pas faire de doute sur
-                    l’autographe.</p>
-            </note>
-        </body>
+                        d’Henri II</seg>.</p></note>
+            <note resp="AV" type="critic"><p>Le Français 18617 et le Duchesne 57 donnent tous deux
+                    « sa suruiuance » (f. 9r° et f. 59r<hi rend="superscript">o</hi>). La présence
+                    d’un « l » (« <seg corresp="#f20r03_la_suruiuance"
+                        facs="#f20r03_i_la_suruiuance">la suruiuance</seg> ») ne semble pourtant pas
+                    faire de doute sur l’autographe.</p></note>
+        </back>
     </text>
 </TEI>

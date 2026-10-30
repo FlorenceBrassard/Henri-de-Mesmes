@@ -56,7 +56,7 @@
                                 <orig>j</orig>
                                 <reg>J</reg>
                             </choice>acques</forename></persName> en <placeName ref="Q3908"
-                        >Galice</placeName>
+                        >Galice</placeName><ptr xml:id="f22v01_comment_01"/>
                     <add>et laissant <add facs="#f22r01_i_grosse_add" xml:id="f22v01_grosse_add"
                             >grosse</add>
                         <roleName xml:id="f22v01_sa_femme">sa femme</roleName>
@@ -66,7 +66,7 @@
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>eune, nomée <persName ref="Q105701217"><nameLink>de</nameLink>
-                            <surname>Cauna</surname></persName><choice>
+                            <surname>Cauna</surname></persName><ptr xml:id="f22v01_comment_02"/><choice>
                             <orig/>
                             <reg>,</reg>
                         </choice>
@@ -112,7 +112,8 @@
                             <reg>,</reg>
                         </choice> fors que moy pource que <roleName ref="Q132545">mon parr<supplied
                                 cert="high" reason="margin">ein</supplied></roleName> estoit
-                            <roleName ref="Q132545">Roy</roleName> et son nom ne se de<choice>
+                            <roleName ref="Q132545">Roy</roleName><ptr xml:id="f22v01_comment_03"/>
+                        et son nom ne se de<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>oit acompaigné de celuy d'un autre moindre<choice>
@@ -120,8 +121,23 @@
                             <reg>.</reg>
                         </choice>
                     </add></s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes ajoute <seg corresp="#f22v01_sa_femme #f22v01_qui_Guiene"
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f22v01_comment_01"><p>Georges de Mesmes, seigneur
+                    de Caixchen, de Lusson et de Brocas, se serait voué à saint Jacques, célébré par
+                    le pèlerinage vers Saint-Jacques-de-Compostelle, en Galice. Pour J. Le Flem, le
+                    nom même des grands-parents d’Henri de Mesmes demeure contestable (1972,
+                    p. 130).</p></note>
+            <note resp="AV" type="comment" target="f22v01_comment_02"><p>Marguerite de Cauna, fille
+                    de Bernard de Cauna, capitaine du château de Pau. Elle épouse Georges de Mesmes
+                    en juin 1480 (Moreri <hi rend="italic">et al.</hi>, 1749, t. V, p. 494). La
+                    famille Cauna constitue, ainsi que le souligne Henri de Mesmes, une prestigieuse
+                    lignée gasconne (Cauna, 2005).</p></note>
+            <note resp="AV" type="comment" target="f22v01_comment_03"><p>Henri de Mesmes a pour
+                    parrain Henri d’Albret, roi de Navarre (Frémy, éd. des <hi rend="italic"
+                        >Mémoires</hi>, p. 164).</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute <seg
+                        corresp="#f22v01_sa_femme #f22v01_qui_Guiene"
                         facs="#f22v01_i_sa_femme #f22v01_i_qui_Guiene">des informations au sujet de
                         sa grand-mère paternelle</seg>, absente de la première version. On se
                     rappelle qu’il avait déjà mentionné Georges de Mesmes et Marguerite de Cauna
@@ -129,20 +145,17 @@
                     de supprimer leur mention. Le mémorialiste évoque également une coutume
                     familiale instaurée par son grand-père en hommage à saint Jacques, tout en
                     expliquant que son cas fait exception, du fait du caractère prestigieux de son
-                    parrain, Henri d’Albret.</p>
-            </note>
-            <note resp="AV" type="critic">
-                <p>Les copies manuscrites donnent bien toutes deux « de Cauna » (Français 18617,
-                        f. 15v<hi rend="superscript">o</hi> et Duchesne 57, f. 61v<hi
-                        rend="superscript">o</hi>), tandis qu’É. Frémy donne « de Canna » (éd. des
-                        <hi rend="italic">Mémoires</hi>, p. 164). Elles donnent par ailleurs les
-                    graphies « d’Alcy » (f. 14v<hi rend="superscript">o</hi>) et « d’Alcey »
-                        (f. 61v<hi rend="superscript">o</hi>) pour « dacy », qu’É. Frémy rétablit en
-                    « d’Acy » (éd. des <hi rend="italic">Mémoires</hi>, p. 162). Par ailleurs, ce
-                    dernier répète, certainement par inadvertance, « vostre aïeul, nommé de son
-                    nom », formulation déjà présente dans la phrase précédente (<hi rend="italic"
-                        >ibid</hi>., p. 163).</p>
-            </note>
-        </body>
+                    parrain, Henri d’Albret.</p></note>
+            <note resp="AV" type="critic"><p>Les copies manuscrites donnent bien toutes deux
+                    « de Cauna » (Français 18617, f. 15v<hi rend="superscript">o</hi> et
+                    Duchesne 57, f. 61v<hi rend="superscript">o</hi>), tandis qu’É. Frémy donne
+                    « de Canna » (éd. des <hi rend="italic">Mémoires</hi>, p. 164). Elles donnent
+                    par ailleurs les graphies « d’Alcy » (f. 14v<hi rend="superscript">o</hi>) et
+                    « d’Alcey » (f. 61v<hi rend="superscript">o</hi>) pour « dacy », qu’É. Frémy
+                    rétablit en « d’Acy » (éd. des <hi rend="italic">Mémoires</hi>, p. 162). Par
+                    ailleurs, ce dernier répète, certainement par inadvertance, « vostre aïeul,
+                    nommé de son nom », formulation déjà présente dans la phrase précédente (<hi
+                        rend="italic">ibid</hi>., p. 163).</p></note>
+        </back>
     </text>
 </TEI>

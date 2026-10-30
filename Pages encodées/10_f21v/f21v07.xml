@@ -37,7 +37,15 @@
                </choice>entrée du <placeName ref="Q173065"><choice>
                      <abbr>R<hi rend="superscript">me</hi></abbr>
                      <expan>royaume</expan>
-                  </choice> de Naples</placeName>.</s></ab>
+                  </choice> de Naples</placeName><ptr xml:id="f21v07_comment_01"/>.</s></ab>
       </body>
+      <back>
+         <note resp="AV" type="comment" target="f21v07_comment_01"><p>François de Guise quitte Rome
+               le 5 avril 1557 et assiège Civitella del Tronto, dans les Abruzzes, entre avril et
+               mai (Durot, 2024, p. 366). La ville résiste et l’armée française doit finalement
+               lever le camp, avant de se déliter peu à peu. En août, le duc est appelé en
+               catastrophe par Henri II à la suite de la défaite de Saint-Quentin. Par contraste,
+               Henri de Mesmes tient à signaler ses prétendus succès.</p></note>
+      </back>
    </text>
 </TEI>

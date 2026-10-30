@@ -98,6 +98,8 @@
                             <reg>é</reg>
                         </choice>s</roleName> de <roleName ref="Q107207194">mon pere</roleName><ptr
                         xml:id="f18v06_comment_02"/>.</s></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="f18v04_comment_01"><p>L’université de Toulouse
                     bénéficie d’une excellente réputation au XVI<hi rend="superscript"
                     >e</hi> siècle. C’est au droit civil, qui n’est pas enseigné à Paris et qui
@@ -106,6 +108,6 @@
             <note resp="AV" type="comment" target="f18v04_comment_02"><p>Georges de Guesdes, frère
                     de Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes (voir <hi
                         rend="italic">supra</hi>, note 12).</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

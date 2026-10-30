@@ -55,7 +55,12 @@
                     </choice> que d'honeur et de pou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oir.</s></ab>
+                    </choice>oir<ptr xml:id="f22r02_comment_01"/>.</s></ab>
         </body>
+        <back>
+            <note resp="AV" type="comment" target="f22r02_comment_01"><p>Allusion très probable au
+                    conflit avec Monluc (voir <hi rend="italic">supra</hi>, notes 86 et 99, et <hi
+                        rend="italic">infra</hi>, note 105).</p></note>
+        </back>
     </text>
 </TEI>

@@ -84,6 +84,8 @@
                   <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                   <expan>per</expan>
                </choice>intendance sur <del>toutes</del> les finances.</s></ab>
+      </body>
+      <back>
          <note resp="AV" type="genetic">
             <p>De nouveau, les modifications garantissent une mise en valeur du rôle joué par
                Henri : l’ajout du complément « <seg corresp="#f21v05_de_lestat"
@@ -99,6 +101,6 @@
                   corresp="#f21v05_et_seul" facs="#f21v05_i_et_seul">et seul</seg> », en
                hyperbate.</p>
          </note>
-      </body>
+      </back>
    </text>
 </TEI>

@@ -108,6 +108,8 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>é<ptr xml:id="f17r04_comment_01"/>.</s></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="#f17r04_comment_01"><p>Henri de Mesmes présente
                     d’abord ses Mémoires comme une œuvre écrite pour lui-même, dans le but de rendre
                     grâce à Dieu. Une seconde motivation est évoquée juste après : léguer à son fils
@@ -144,6 +146,6 @@
                         corresp="#f17r04_me_represente" facs="#f17r04_i_me_represente"><hi
                             rend="italic">me represente</hi></seg> ». Le mémorialiste entend d’abord
                     présenter son projet comme lui étant destiné.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

@@ -129,26 +129,26 @@
                         <expan>present</expan>
                      </choice></hi><ptr xml:id="f18r01_comment_01"/>.</add></s><substJoin
                target="#f18r01_a_mode #f18r01_au_compte #f18r01_e_la #f18r01_lle"/></ab>
-         <note resp="AV" type="comment" target="f18r01_comment_01">
-            <p>Calendrier grégorien (ou « nouveau style »), adopté sur ordre du pape pour compenser
-               le décalage du système humain de mesure du temps par rapports aux cours des astres.
-               Toutes les doubles mentions de dates sous la plume d’Henri de Mesmes découlent des
-               modifications calendaires opérés au cours du XVI<hi rend="superscript"
-               >e</hi> siècle : uniformisation du début de l’année – au 1<hi rend="superscript"
-                  >er</hi> janvier et non en mars ou en avril – par l’édit de Roussillon en 1564 ;
-               passage du calendrier julien au calendrier grégorien en 1582. En France, du fait de
-               cette seconde réforme, le 9 décembre 1582 est immédiatement suivi du 20 décembre.</p>
-         </note>
-         <note resp="AV" type="genetic">
-            <p>Le premier jet entame de nouveau le récit de la naissance et reprend ce qui a été
-               supprimé au bas du f. 17v<hi rend="superscript">o</hi>. Henri de Mesmes modifie le
-               jour de sa venue au monde (29 sur le f. 17v<hi rend="superscript">o</hi>, <seg
-                  corresp="#f18r01_30">30</seg> ici) et se met surtout à hésiter sur <seg
-                  corresp="#f18r01_153121" facs="#f18r01_i_153121">l’année</seg> (1531 sur le
-                  f. 17v<hi rend="superscript">o</hi>). Étant né en janvier, son année de naissance
-               est, de fait, modifiée par l’édit de Roussillon de 1564 (voir f. 17v<hi
-                  rend="superscript">o</hi>, seg. 5) : de 1531 en « ancien style », elle
-               devient 1532 en « nouveau style ».</p>
+      </body>
+      <back>
+         <note resp="AV" type="comment" target="f18r01_comment_01"><p>Calendrier grégorien (ou
+               « nouveau style »), adopté sur ordre du pape pour compenser le décalage du système
+               humain de mesure du temps par rapports aux cours des astres. Toutes les doubles
+               mentions de dates sous la plume d’Henri de Mesmes découlent des modifications
+               calendaires opérés au cours du XVI<hi rend="superscript">e</hi> siècle :
+               uniformisation du début de l’année – au 1<hi rend="superscript">er</hi> janvier et
+               non en mars ou en avril – par l’édit de Roussillon en 1564 ; passage du calendrier
+               julien au calendrier grégorien en 1582. En France, du fait de cette seconde réforme,
+               le 9 décembre 1582 est immédiatement suivi du 20 décembre.</p></note>
+         <note resp="AV" type="genetic"><p>Le premier jet entame de nouveau le récit de la naissance
+               et reprend ce qui a été supprimé au bas du f. 17v<hi rend="superscript">o</hi>. Henri
+               de Mesmes modifie le jour de sa venue au monde (29 sur le f. 17v<hi
+                  rend="superscript">o</hi>, <seg corresp="#f18r01_30">30</seg> ici) et se met
+               surtout à hésiter sur <seg corresp="#f18r01_153121" facs="#f18r01_i_153121"
+                  >l’année</seg> (1531 sur le f. 17v<hi rend="superscript">o</hi>). Étant né en
+               janvier, son année de naissance est, de fait, modifiée par l’édit de Roussillon
+               de 1564 (voir f. 17v<hi rend="superscript">o</hi>, seg. 5) : de 1531 en « ancien
+               style », elle devient 1532 en « nouveau style ».</p>
             <p>Certainement le mémorialiste a-t-il d’abord écrit « 1532 », date en « nouveau
                style » ; puis il a estimé après coup que 1532 était en fait la date en « ancien
                style », et a précisé, dans un ajout qu’elle équivalait à <seg
@@ -157,8 +157,7 @@
                erreur : il a, de ce fait, supprimé l’ajout comportant « 1533 » et a corrigé « 1532 »
                en « 1531 ». Dans <seg corresp="#f18r01_qui_prst" facs="#f18r01_i_qui_prst">l’ajout
                   marginal</seg>, il a finalement précisé que 1532 est bien la date en « nouveau
-               style ».</p>
-         </note>
-      </body>
+               style ».</p></note>
+      </back>
    </text>
 </TEI>

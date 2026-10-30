@@ -96,10 +96,17 @@
                         </choice> des <choice>
                             <abbr>req<hi rend="superscript">tes</hi></abbr>
                             <expan>requestes</expan>
-                        </choice></seg>.</s></ab>
-            <note resp="AV" type="genetic">
-                <p> Henri de Mesmes élabore deux versions de cette épisode important de la carrière
-                    de son père. D'après le <seg
+                        </choice></seg><ptr xml:id="f23v06_comment_01"/>.</s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23v06_comment_01"><p>Voir <hi rend="italic"
+                        >supra</hi>, notes 23 et 61. Jean-Jacques I<hi rend="superscript">er</hi> de
+                    Mesmes aurait accepté la fonction de maître des requêtes à la demande de
+                        François I<hi rend="superscript">er</hi> , qui aurait souhaité « l’approcher
+                    de sa personne » (Moreri <hi rend="italic">et al</hi>., 1759, t. VII,
+                    p. 494).</p></note>
+            <note resp="AV" type="genetic"><p> Henri de Mesmes élabore deux versions de cette
+                    épisode important de la carrière de son père. D'après le <seg
                         corresp="#f23v06_datendre_loffice #f23v06_de_reqtes"
                         facs="#f23v06_i_datendre_loffice #f23v06_i_de_des #f23v06_i_reqtes">premier
                         jet</seg>, Jean-Jacques de Mesmes a quitté son office de lieutenant civil
@@ -117,8 +124,8 @@
                     dû être temporaire. Le début de l'hommage posthume et la phrase suivante
                     permettent d'établir que cet office « <seg corresp="#f23v06_plus #f23v06_grand"
                         facs="#f23v06_i_plus #f23v06_i_grand">plus grand</seg> » était celui de
-                    chancelier (voir f. 23v<hi rend="superscript">o</hi>, seg. 2 et seg. 7).</p>
-            </note>
-        </body>
+                    chancelier (voir f. 23v<hi rend="superscript">o</hi>, seg. 2 et
+                seg. 7).</p></note>
+        </back>
     </text>
 </TEI>

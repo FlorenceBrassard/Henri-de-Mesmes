@@ -51,6 +51,8 @@
                 <del facs="#f17r05_i_e_laborem" xml:id="f17r05_e_laborem"><s>
                         <quote rend="unmarked" source="Q47154" xml:lang="la">E terra magnum alterius
                             spectare laborem.</quote></s></del></ab>
+        </body>
+        <back>
             <note resp="AV" type="genetic" target="#f17r05_comment_01"><p>Le mémorialiste s’adresse
                     à son fils aîné Jean-Jacques II de Mesmes (1560-1642), seigneur de Roissy et
                     comte d’Avaux, premier destinataire de l’œuvre, qui sera régulièrement
@@ -98,6 +100,6 @@
                     temps de guerre civile (Lestringant, 2010 ; Ballestra-Puech, 2017). Il définit
                     une posture de distance d’inspiration néo-stoïcienne qu’Henri de Mesmes n’a pu
                     embrasser qu’après sa disgrâce.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

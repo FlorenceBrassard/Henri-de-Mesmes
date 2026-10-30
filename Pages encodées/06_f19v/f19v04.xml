@@ -99,19 +99,19 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit pas pris desplaisir.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>Outre le retravail du verbe – suppression de la modalisation induite par « <seg
-                        corresp="#f19v04_il_y" facs="#f19v04_i_voulut">vouloir</seg> » et « <seg
-                        corresp="#f19v04_daigna" facs="#f19v04_i_daigna">daigner</seg> », au profit
-                    du seul « <seg corresp="#f19v04_assista" facs="#f19v04_i_assista"
-                    >assister</seg> » –, on notera l’ajout des formules « <seg
-                        corresp="#f19v04_auec_escole" facs="#f19v04_i_auec_escole">auec toute
+        </body>
+        <back>
+            <note resp="AV" type="genetic"><p>Outre le retravail du verbe – suppression de la
+                    modalisation induite par « <seg corresp="#f19v04_il_y" facs="#f19v04_i_voulut"
+                        >vouloir</seg> » et « <seg corresp="#f19v04_daigna" facs="#f19v04_i_daigna"
+                        >daigner</seg> », au profit du seul « <seg corresp="#f19v04_assista"
+                        facs="#f19v04_i_assista">assister</seg> » –, on notera l’ajout des formules
+                        « <seg corresp="#f19v04_auec_escole" facs="#f19v04_i_auec_escole">auec toute
                         lescole</seg> », qui signale l’importance accordée à la leçon du jeune
                     Henri, ainsi que « <seg corresp="#f19v04_de_main" facs="#f19v04_i_de_main">de sa
                         main</seg> », qui précise que la missive envoyée à Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes est autographe, ce qui en accroit la
-                    valeur.</p>
-            </note>
-        </body>
+                    valeur.</p></note>
+        </back>
     </text>
 </TEI>

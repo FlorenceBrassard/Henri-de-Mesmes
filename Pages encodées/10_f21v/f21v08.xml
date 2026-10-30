@@ -68,8 +68,9 @@
                         <abbr>m<hi rend="superscript">r</hi></abbr>
                         <expan>monsieur</expan>
                     </choice>
-                    <persName ref="Q28495"><nameLink>de</nameLink> Guise</persName><metamark
-                        facs="#f21v08_i_metamark01" function="insert" target="#f21v08_et"
+                    <persName ref="Q28495"><nameLink>de</nameLink> Guise</persName><ptr
+                        xml:id="f21v03_comment_01"/>
+                    <metamark facs="#f21v08_i_metamark01" function="insert" target="#f21v08_et"
                         >^</metamark><add facs="#f21v08_i_et" xml:id="f21v08_et">et</add>
                     <choice>
                         <orig>i</orig>
@@ -143,6 +144,19 @@
                             <reg>E</reg>
                         </choice>spaignols</del><substJoin
                         target="#f21v08_que_auoient #f21v08_par_espaignols"/>.</s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f21v08_comment_01"><p>Monluc, en fonction à
+                    Montalcino depuis août 1556 (Antoine, 1982, p. 784), est certainement absent le
+                    10 mai 1557, à l’arrivée d’Henri de Mesmes, mais bien présent à la fin avril et
+                    jusqu’à début mai, puis en juin (Courteault, 1907, p. 335). La rivalité entre
+                    les deux hommes, palpable dans les Mémoires, fait l’objet d’un traitement plus
+                    circonstancié dans les <hi rend="italic">Commentaires</hi> : Monluc évoque «
+                    l’inimitié » que de Mesmes lui aurait durablement vouée, ainsi que les « menées
+                    » de ce dernier pour le faire évincer (voir <hi rend="italic">Commentaires</hi>,
+                    éd. citée, p. 399 ; <hi rend="italic">infra</hi>, note 99). P. Courteault estime
+                    que Monluc a d’emblée été agacé par ce jeune robin ambitieux, aux méthodes bien
+                    différentes des siennes (Courteault, 1907, p. 331).</p></note>
             <note resp="AV" type="genetic">
                 <p>La rivalité d’Henri de Mesmes avec Monluc et le désir de s’attribuer les mérites
                     des actions entreprises par ce dernier paraissent guider le retravail de ce
@@ -173,6 +187,6 @@
                         rend="italic">Mémoires</hi>, p. 157) plutôt que « mesme sur les armes », ne
                     tenant pas compte de la modification.</p>
             </note>
-        </body>
+        </back>
     </text>
 </TEI>

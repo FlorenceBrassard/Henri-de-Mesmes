@@ -85,7 +85,7 @@
                     </choice>ec tant de sagesse et de eloquence <persName ref="Q193267"><choice>
                             <orig>N</orig>
                             <reg>n</reg>
-                        </choice>estoriene</persName> (car <choice>
+                        </choice>estoriene</persName><ptr xml:id="f23r03_comment_01"/> (car <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e l<choice>
@@ -118,7 +118,21 @@
                     </choice>aie esté de mes <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>ours.</s></ab>
+                    </choice>ours<ptr xml:id="f23r03_comment_02"/>.</s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23r03_comment_01"><p>Henri de Mesmes fait
+                    référence à l’éloquence prêtée au personnage mythologique de Nestor, roi de
+                    Pylos, dans <hi rend="italic">L’Iliade</hi> (I, 245-253) et par Cicéron (<hi
+                        rend="italic">Brutus</hi>, 10). Celle-ci se caractérise par la suavitas, la
+                    douceur. L’Hôpital est également associé à Aristote par ses amis et Henri de
+                    Mesmes lui offre, en 1564, une médaille à l’effigie du philosophe grec (Lorris,
+                    p. 543-545).</p></note>
+            <note resp="AV" type="comment" target="f23r03_comment_02"><p>Dans le manuscrit
+                    autographe, Henri de Mesmes a supprimé la phrase suivante : « <add>me</add>
+                    monstroit tant d’amour et de respect en mon éage bien jeune au prix du sien, que
+                    c’estoit un des plus grands contantemens que j’eusse lors en mon estat » (voir
+                    éd. numérique, f. 22v<hi rend="superscript">o</hi> , seg. #).</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes supprime l’ajout marginal suivant :
                         « <seg corresp="#f23r03_Certes_censeur" facs="#f23r03_i_Certes_censeur"><hi
                             rend="italic">Certes i’estimois beaucoup cest honeur qui venoit de
@@ -139,6 +153,6 @@
                         rend="superscript">er</hi> de Mesmes demeure l’éducateur de référence. La
                     phrase ne confère pas moins au chancelier la fonction de figure paternelle et de
                     modèle.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

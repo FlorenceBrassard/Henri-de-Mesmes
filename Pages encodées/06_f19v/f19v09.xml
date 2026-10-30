@@ -123,6 +123,8 @@
                             <del>, et de</del>
                             <add>.</add>
                         </subst></s></del></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="f19v09_comment_01"><p>1551 en « ancien style »,
                     comme l’écrit le mémorialiste, 1552 en « nouveau style ». Le calcul est juste :
                     Henri de Mesmes a bien un peu plus de vingt ans. </p></note>
@@ -145,6 +147,6 @@
                         >o</hi>) rétablissent toutes deux le passage concerné par la mention
                     « bon ». É. Frémy fait de même (éd. des <hi rend="italic">Mémoires</hi>,
                     p. 147-148).</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

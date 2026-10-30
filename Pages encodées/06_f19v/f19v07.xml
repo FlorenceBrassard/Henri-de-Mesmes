@@ -86,17 +86,19 @@
                   <orig>u</orig>
                   <reg>v</reg>
                </choice>iron.</s></ab>
+      </body>
+      <back>
          <note resp="AV" type="comment" target="f19v07_comment_01"><p>Les écoles relevant de la
                faculté de droit canonique de l’université de Paris. Le <hi rend="italic">Décret</hi>
                désigne l’œuvre de Gratien (XII<hi rend="superscript">e</hi> siècle), fondement du
                droit canonique, abondamment commenté au cours de la formation des étudiants. La
                principale école de la faculté de droit de Paris se trouve alors rue
-               Saint-Jean-de-Beauvais (Frémy, éd. des <hi rend="italic">Mémoires</hi>, p. 146,
+               Saint-Jean-de-Beauvais (Frémy, éd. des <hi rend="italic">Mémoires</hi>, p. 146,
                note 1).</p></note>
          <note resp="AV" type="genetic"><p>Henri de Mesmes, dans la continuité des ajouts des
                phrases précédentes, souligne <seg corresp="#f19v07_en_parlement"
                   facs="#f19v07_en_parlement">dans la marge</seg> l’ampleur de son public pour
                conforter l’importance de son entrée dans le monde de la robe parisienne.</p></note>
-      </body>
+      </back>
    </text>
 </TEI>

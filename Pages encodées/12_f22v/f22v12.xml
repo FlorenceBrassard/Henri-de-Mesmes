@@ -69,20 +69,20 @@
                                 <orig/>
                                 <reg>.</reg>
                             </choice></add></del></s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes évoque de manière très allusive les controverses entourant les
-                    prises de position et les décisions de Michel de L’Hôpital, accusé par ses
-                    détracteurs de soutenir le camp protestant. L’ajout de « <seg
-                        corresp="#f22v12_et_religion" facs="#f22v12_i_et_religion">et
-                    religion</seg> » vient rappeler la portée des débats. Le remplacement du doublon
-                        « <seg corresp="#f22v12_debatoit_disputoit"
+        </body>
+        <back>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes évoque de manière très allusive les
+                    controverses entourant les prises de position et les décisions de Michel
+                    de L’Hôpital, accusé par ses détracteurs de soutenir le camp protestant. L’ajout
+                    de « <seg corresp="#f22v12_et_religion" facs="#f22v12_i_et_religion">et
+                        religion</seg> » vient rappeler la portée des débats. Le remplacement du
+                    doublon « <seg corresp="#f22v12_debatoit_disputoit"
                         facs="#f22v12_i_debatoit_et #f22v12_i_disputoit">debatoit et
                     disputoit</seg> » par « <seg corresp="#f22v12_parloit" facs="#f22v12_i_parloit"
                         >parloit</seg> » vise à amoindrir la virulence des critiques. L’ajout de la
                         <seg corresp="#f22v12_ie_mauuais" facs="#f22v12_i_ie_mauuais">phrase à la
                         première personne</seg>, qui venait conforter l’action du chancelier, est
-                    toutefois supprimé.</p>
-            </note>
-        </body>
+                    toutefois supprimé.</p></note>
+        </back>
     </text>
 </TEI>

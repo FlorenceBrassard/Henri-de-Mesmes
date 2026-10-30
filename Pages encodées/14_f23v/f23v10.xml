@@ -80,8 +80,9 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ant</add> autrement vacquer.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes cherche à dramatiser le récit : <seg
+        </body>
+        <back>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à dramatiser le récit : <seg
                         corresp="#f23v10_rudement_seuerement" facs="#f23v10_i_rudement_seuerement"
                         >les deux adverbes sont intervertis</seg> pour valoriser la sévérité, et
                     surtout coordonnés de manière plus expressive ; Rusé est par ailleurs requalifié
@@ -89,8 +90,8 @@
                         >officier</seg> » ; la tournure « <seg corresp="#f23v10_luy_viuant"
                         facs="#f23v10_i_luy_viuant">luy viuant</seg> », enfin, annonce la formule
                     « gratter la terre aux dents » (voir f. 23v<hi rend="superscript">o</hi>,
-                    seg. 13) et fait du refus de cette proposition royale un point d’honneur.</p>
-            </note>
-        </body>
+                    seg. 13) et fait du refus de cette proposition royale un point
+                d’honneur.</p></note>
+        </back>
     </text>
 </TEI>

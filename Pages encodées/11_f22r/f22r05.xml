@@ -75,7 +75,7 @@
                   </choice>mi<subst>
                      <del rend="overwritten">e</del>
                      <add place="superimposed">a</add>
-                  </subst>ns</placeName> et <add>ne</add>
+                  </subst>ns</placeName><ptr xml:id="f22r05_comment_01"/> et <add>ne</add>
                <metamark facs="#f22r05_i_metamark01" function="insert" target="#f22r05_le"
                   >^</metamark><add facs="#f22r05_i_le" xml:id="f22r05_le"><metamark>^</metamark> le
                </add> laissay guiere durant la guerre ny en <seg xml:id="f22r05_la_pais">la res<choice>
@@ -114,19 +114,31 @@
                   </choice>ec luy</add> en <date when="1559-07">fin de <choice>
                      <orig>J</orig>
                      <reg>j</reg>
-                  </choice>uillet 1559.</date></s></ab>
-         <note resp="AV" type="genetic">
-            <p>Henri de Mesmes hésite quant au terme le plus opportun pour désigner les conséquences
-               de la mort d’Henri II : la formule inachevée « <seg corresp="#f22r05_et_p"
-                  facs="#f22r05_i_et_p">et la p</seg> », certainement « et la pais », aurait
-               maladroitement redoublé « <seg corresp="#f22r05_la_pais" facs="">la resiouissance de
-                  la pais</seg> ». Le mémorialiste lui préfère d’abord « <seg
+                  </choice>uillet 1559<ptr xml:id="f22r05_comment_02"/>.</date></s></ab>
+      </body>
+      <back>
+         <note resp="AV" type="comment" target="f22r05_comment_01"><p>Aux termes de nouvelles
+               hostilités dans le nord de la France, Henri II et son armée s’acheminent, en août
+               1558, vers Amiens pour négocier la paix avec l’Espagne (voir Monluc, <hi
+                  rend="italic">Commentaires</hi>, éd. citée, p. 460-461).</p></note>
+         <note resp="AV" type="comment" target="f22r05_comment_02"><p>La paix du Cateau-Cambrésis,
+               qui met un terme aux guerres d’Italie, est signée le 3 avril 1559 (Haan, 2010). Pour
+               sceller la paix, deux mariages royaux sont organisés : Élisabeth de France épouse
+               Philippe II, tandis que Marguerite de France épouse le duc de Savoie
+               Emmanuel-Philibert. Au cours d’un tournoi organisée dans le cadre des festivités,
+               Henri II est mortellement blessé. Il décède le 10 juillet 1559. Comme le souligne
+               É. Frémy, « Henri de Mesmes fut donc témoin oculaire du régicide involontaire »
+               (éd. des <hi rend="italic">Mémoires</hi>, p. 161, note 1).</p></note>
+         <note resp="AV" type="genetic"><p>Henri de Mesmes hésite quant au terme le plus opportun
+               pour désigner les conséquences de la mort d’Henri II : la formule inachevée « <seg
+                  corresp="#f22r05_et_p" facs="#f22r05_i_et_p">et la p</seg> », certainement « et la
+               pais », aurait maladroitement redoublé « <seg corresp="#f22r05_la_pais" facs="">la
+                  resiouissance de la pais</seg> ». Le mémorialiste lui préfère d’abord « <seg
                   corresp="#f22r05_Et_le #f22r05_bien" facs="#f22r05_i_Et_le #f22r05_i_bien">et le
                   bien</seg> », puis « <seg corresp="#f22r05_Et_le #f22r05_repos"
                   facs="#f22r05_i_Et_le #f22r05_i_repos">et le repos</seg> ». Le propos associe
                ainsi le décès du souverain à la mort métaphorique de la tranquillité de la France,
-               soit au début de la guerre civile. </p>
-         </note>
-      </body>
+               soit au début de la guerre civile. </p></note>
+      </back>
    </text>
 </TEI>

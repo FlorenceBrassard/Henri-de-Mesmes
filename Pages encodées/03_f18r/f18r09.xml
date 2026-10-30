@@ -76,6 +76,8 @@
                      <orig/>
                      <reg>'</reg>
                   </choice></del>eau courante.</s></ab>
+      </body>
+      <back>
          <note resp="FB" type="genetic"><p>La suppression de « seuerité » n’est pas clairement
                marquée, même si le soulignement peut être considéré une rature maladroite. Elle
                semble toutefois nécessaire en vertu des nombreux quasi-synonymes qui ont été ajoutés
@@ -85,6 +87,6 @@
                phrase.</p></note>
          <note resp="AV" type="critic"><p>É. Frémy ne donne pas « en partie » (éd. des <hi
                   rend="italic">Mémoires</hi>, p. 136).</p></note>
-      </body>
+      </back>
    </text>
 </TEI>

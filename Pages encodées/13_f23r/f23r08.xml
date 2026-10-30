@@ -121,10 +121,12 @@
                         <reg>u</reg>
                     </choice>n <seg xml:id="f23r08_orage_public">orage public</seg>.<substJoin
                         target="#f23r08_enfermé_tempeste #f23r08_en_d"/></s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes procède à plusieurs modifications, dont les plus significatives
-                    viennent renforcer le blâme formulé à son encontre par Catherine de Médicis. La
-                    formule « <seg corresp="#f23r08_occupation_aux #f23r08_letres"
+        </body>
+        <back>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes procède à plusieurs modifications,
+                    dont les plus significatives viennent renforcer le blâme formulé à son encontre
+                    par Catherine de Médicis. La formule « <seg
+                        corresp="#f23r08_occupation_aux #f23r08_letres"
                         facs="#f23r08_i_occupation_aux #f23r08_i_lres">occupation aux letres</seg> »
                     est remplacée par « <seg corresp="#f23r08_vacation_des #f23r08_letres"
                         facs="#f23r08_i_vacation_des #f23r08_i_lres"><hi rend="italic">vacation
@@ -139,8 +141,7 @@
                         public</seg> » et dire l’égoïsme d’Henri de Mesmes. L’expression prêtée à la
                     reine mère tend néanmoins, dans le même temps, à constituer le juriste en sage
                     savourant sa tranquillité d’esprit et annonce discrètement l’éloge du retrait de
-                    l’après-disgrâce.</p>
-            </note>
-        </body>
+                    l’après-disgrâce.</p></note>
+        </back>
     </text>
 </TEI>

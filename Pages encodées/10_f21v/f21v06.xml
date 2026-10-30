@@ -90,6 +90,8 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>itella</placeName>.</s></ab>
+        </body>
+        <back>
             <note resp="AV" type="genetic">
                 <p>Henri de Mesmes semble avoir hésité quant au sujet du verbe « assiegea » : « <seg
                         corresp="#f21v06_mr_de" facs="#f21v06_i_mr_d">m<hi rend="superscript"
@@ -103,6 +105,6 @@
                         corresp="#f21v06_ligue_ste" facs="#f21v06_i_ligue_ste">ligue sainte</seg> »
                     formée avec le pape.</p>
             </note>
-        </body>
+        </back>
     </text>
 </TEI>

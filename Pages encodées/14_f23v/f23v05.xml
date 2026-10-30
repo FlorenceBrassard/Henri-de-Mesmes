@@ -47,7 +47,16 @@
                     </choice>amais <add facs="#f23v05_i_acheté_ny" xml:id="f23v05_acheté_ny">acheté
                         ny</add> demandé <del facs="#f23v05_i_ny_ac" instant="true"
                         xml:id="f23v05_ny_ac">ny ac</del><substJoin
-                        target="#f23v05_ny_ac #f23v05_acheté_ny"/> office.</s></ab>
+                        target="#f23v05_ny_ac #f23v05_acheté_ny"/> office<ptr
+                        xml:id="f23v05_comment_01"/>.</s></ab>
         </body>
+        <back>
+            <note resp="AV" type="comment" target="f23v05_comment_01"><p>En théorie, « l’office est
+                    un don gratuit du roi » ; il ne saurait donc être réclamé ni acheté par un
+                    serviteur intègre et désintéressé. La vénalité devient néanmoins générale dans
+                    le premier tiers du XVI<hi rend="superscript">e</hi> siècle et l’office devient
+                    « un objet de commerce et de transaction » (Barbiche, 2012,
+                p. 78-79).</p></note>
+        </back>
     </text>
 </TEI>

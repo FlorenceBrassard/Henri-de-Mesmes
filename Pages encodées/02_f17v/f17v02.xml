@@ -64,6 +64,8 @@
                     </subst> guerre<add facs="#f17v02_i_s1" xml:id="f17v02_s1">s</add>
                     <substJoin target=" #f17v02_a_la_aux #f17v02_s1"/><ptr
                         xml:id="f17v02_comment_01"/>.</s></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="f17r06_comment_01"><p>On ne connaît que quatre
                     frères de Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes : un frère
                     aîné, Jean, seigneur de Truya, supposément marchand à Roquefort, converti au
@@ -75,6 +77,6 @@
                     dont l’hésitation apparaît sur le manuscrit – huit ou dix frères ? – semble
                     avoir voulu conforter la trajectoire exceptionnelle de son père par une
                     hyperbole.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

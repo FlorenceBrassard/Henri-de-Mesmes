@@ -56,13 +56,14 @@
                     </choice><roleName ref="Q150862">em<choice>
                             <abbr><g ref="par-glyph">ꝑ</g></abbr>
                             <expan>per</expan>
-                        </choice>eur</roleName> et les princes d<choice>
+                        </choice>eur</roleName><ptr xml:id="f23r11_comment_01"/> et les princes d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice><placeName ref="Q183"><choice>
                             <orig>a</orig>
                             <reg>A</reg>
-                        </choice>lemaigne</placeName>, <add xml:id="f23r11_ou_employ">o<choice>
+                        </choice>lemaigne</placeName><ptr xml:id="f23r011comment_02"/>, <add
+                        xml:id="f23r11_ou_employ">o<choice>
                             <orig>u</orig>
                             <reg>ù</reg>
                         </choice> il faloit <choice>
@@ -83,7 +84,8 @@
                                 </choice>ois</surname></persName> et <persName ref="Q3121749"><surname><choice>
                                     <orig>p</orig>
                                     <reg>P</reg>
-                                </choice>ibrac</surname></persName> remis <choice>
+                                </choice>ibrac</surname></persName><ptr xml:id="f23r011comment_03"/>
+                        remis <choice>
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> autre employ.</add></s>
@@ -122,8 +124,24 @@
                             </choice> la <roleName ref="Q131552">Reyne</roleName></del>
                         <add>pour cela</add>
                     </subst>.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>Le mémorialiste ajoute des <seg corresp="#f23r11_ou_employ"
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23r11_comment_01"><p>Maximilien II (1527-1576),
+                    empereur du Saint-Empire à partir de 1564.</p></note>
+            <note resp="AV" type="comment" target="f23r11_comment_02"><p>Henri de Mesmes donne peu
+                    de détails sur cette mission pour laquelle, comme il le précise ensuite, il
+                    n’effectue pas lui-même le voyage. Une mauvaise santé aurait pu motiver ce refus
+                    (Moreri <hi rend="italic">et al.</hi>, 1759, t. VII, p. 495). Les relations
+                    diplomatiques entre la monarchie et le Saint-Empire sont intenses au cours de la
+                    deuxième guerre de religion, et incluent les princes protestants (Chichkine et
+                    Gellard, 2017). Dans ses <hi rend="italic">Mémoires</hi>, Michel de Castelnau
+                    raconte notamment sa délicate mission auprès du duc Jean-Guillaume de
+                    Saxe-Weimar en février-mars 1568 (éd. 1621, p. 390-394).</p></note>
+            <note resp="AV" type="comment" target="f23r11_comment_03"><p>Paul de Foix (voir <hi
+                        rend="italic">supra</hi>, note 55) et Guy du Faur Pibrac (voir <hi
+                        rend="italic">supra</hi>, note 44). </p></note>
+            <note resp="AV" type="genetic"><p>Le mémorialiste ajoute des <seg
+                        corresp="#f23r11_ou_employ"
                         facs="#f23r11_i_ou_pibrac #f23r11_i_remis_employ">précisions</seg>
                     concernant la mission vers l’empereur Maximilien II et les princes d’Allemagne.
                     La mention des noms de Foix et de Pibrac rappelle que les trois hommes partagent
@@ -131,8 +149,7 @@
                     Conformément à la rhétorique de l’élection et de la réticence déployée dans les
                         <hi rend="italic">Mémoires</hi>, ce dernier précise qu’il est choisi pour
                     effectuer la mission, mais qu’il la remplit sans enthousiasme et sans effectuer
-                    le voyage.</p>
-            </note>
-        </body>
+                    le voyage.</p></note>
+        </back>
     </text>
 </TEI>

@@ -180,9 +180,9 @@
                         <del seq="2" facs="#f22r04_i_faict_nomer" xml:id="f22r04_faict_nomer"><add
                                 seq="1">faict nomer</add></del>
                         <add seq="2" facs="#f22r04_i_nom" xml:id="f22r04_nom">nom</add>
-                    </subst><substJoin target="#f22r04_l #f22r04_faict_nomer #f22r04_nom"/> Renée,
-                    mon premier enfant <subst facs="#f22r04_i_virgule_point" rend="unmarked"
-                        xml:id="f22r04_virgule_point">
+                    </subst><substJoin target="#f22r04_l #f22r04_faict_nomer #f22r04_nom"/>
+                        Renée<ptr xml:id="f22r04_comment_01"/>, mon premier enfant <subst
+                        facs="#f22r04_i_virgule_point" rend="unmarked" xml:id="f22r04_virgule_point">
                         <del>,</del>
                         <add>.</add>
                     </subst></s>
@@ -207,7 +207,7 @@
                         <reg>y</reg>
                     </choice>age, qui se nommoit damoyselle <persName><forename full="init"
                             >I.</forename>
-                        <surname>Michon</surname></persName><choice>
+                        <surname>Michon</surname></persName><ptr xml:id="f22r04_comment_02"/><choice>
                         <orig>.</orig>
                         <reg>,</reg>
                     </choice> femme certes toute de <choice>
@@ -270,13 +270,25 @@
                         </choice> Quentin</placeName> en l<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>année precedente.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes ajoute une allusion à des lettres de la République de Sienne, qui
-                    doivent prouver la qualité de son service. Il supprime par ailleurs la formule
-                        « <seg corresp="#f22r04_pour_particulier" facs="#f22r04_i_pour_particulier"
-                        >pour mon ꝑticulier</seg> », faisant pendant à « <seg
-                        corresp="#f22r04_Quant #f22r04_au_public"
+                    </choice>année precedente<ptr xml:id="f22r04_comment_03"/>.</s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f22r04_comment_01"><p>Renée de Mesmes
+                    (1557-1562). Son décès accidentel précoce fait l’objet d’une évocation émue dans
+                    la suite des <hi rend="italic">Mémoires</hi> (voir <hi rend="italic">infra</hi>,
+                    p. #).</p></note>
+            <note resp="AV" type="comment" target="f22r04_comment_02"><p>Jeanne Michon
+                    (v. 1525-1557), fille de Charles Michon, conseiller auprès du trésor royal, et
+                    de Marguerite Chambellan. Elle décède à l’âge de 33 ans.</p></note>
+            <note resp="AV" type="comment" target="f22r04_comment_03"><p>Le 10 août 1557, jour de la
+                    Saint-Laurent, l’armée française est écrasée par les troupes savoyardes et
+                    espagnoles près de Saint-Quentin. Cette défaite contraint la France à abandonner
+                    sa politique d’ingérence en Italie.</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute une allusion à des lettres de
+                    la République de Sienne, qui doivent prouver la qualité de son service. Il
+                    supprime par ailleurs la formule « <seg corresp="#f22r04_pour_particulier"
+                        facs="#f22r04_i_pour_particulier">pour mon ꝑticulier</seg> », faisant
+                    pendant à « <seg corresp="#f22r04_Quant #f22r04_au_public"
                         facs="#f22r04_i_Quant #f22r04_i_au_public">quant au public</seg> », qui
                     demeure plus bas : la séparation entre affaires publiques et préoccupations
                     familiales paraît ainsi moins nette.</p>
@@ -290,18 +302,15 @@
                     du livre de raison, qui conserve avec soin la mémoire des événements familiaux
                     importants. Dans la même dynamique, Henri de Mesmes ajoute un <seg
                         corresp="#f22r04_aussy_1557" facs="#f22r04_i_aussy_1557">hommage posthume à
-                        sa belle-mère, Jeanne Michon</seg>.</p>
-            </note>
-            <note resp="AV" type="critic">
-                <p>Le Français 18617 ne donne pas le complément « d’une fille » et propose une
-                    transcription incertaine du mois de Mars (« Marie » ?) (f. 13v<hi
-                        rend="superscript">o</hi>). Ces deux éléments aliment l’hypothèse selon
-                    laquelle le Duchesne 57 n’a pas été établi à partir du Français 18617, mais à
-                    partir d’une autre copie.</p>
+                        sa belle-mère, Jeanne Michon</seg>.</p></note>
+            <note resp="AV" type="critic"><p>Le Français 18617 ne donne pas le complément « d’une
+                    fille » et propose une transcription incertaine du mois de Mars (« Marie » ?)
+                        (f. 13v<hi rend="superscript">o</hi>). Ces deux éléments aliment l’hypothèse
+                    selon laquelle le Duchesne 57 n’a pas été établi à partir du Français 18617,
+                    mais à partir d’une autre copie.</p>
                 <p>É. Frémy donne « II heures » pour l’heure de naissance de Renée de Mesmes (éd.
                     des <hi rend="italic">Mémoires</hi>, p. 160), ce qui est une transcription peu
-                    convaincante.</p>
-            </note>
-        </body>
+                    convaincante.</p></note>
+        </back>
     </text>
 </TEI>

@@ -80,12 +80,13 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>regler mes heures.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>La version finale de la phrase présente une liste des compétences acquises au
-                    collège. Le mémorialiste souligne ses progrès oratoires (réciter, débattre,
-                    prononcer un discours) et plus encore ses progrès éthiques : le jeune Henri
-                    acquiert ce que nous appellerions aujourd’hui un « réseau » et une « routine »
-                    favorable à sa réussite.</p>
+        </body>
+        <back>
+            <note resp="AV" type="genetic"><p>La version finale de la phrase présente une liste des
+                    compétences acquises au collège. Le mémorialiste souligne ses progrès oratoires
+                    (réciter, débattre, prononcer un discours) et plus encore ses progrès éthiques :
+                    le jeune Henri acquiert ce que nous appellerions aujourd’hui un « réseau » et
+                    une « routine » favorable à sa réussite.</p>
                 <p><seg corresp="#f18v02_ne_tressoi" facs="#f18v02_i_ne_tressoi">L’ajout marginal,
                         finalement supprimé</seg>, venait tempérer cette présentation optimiste. Le
                     mémorialiste suggère en effet que ses « mœurs » auraient pu être « gasté[es] »
@@ -104,8 +105,7 @@
                     Terence, et puis Plaute, et des comedies Italiennes, lurré tousjours par la
                     douceur du subject. S’il eut esté si fol de rompre ce train, j’estime que je
                     n’eusse raporté du college que la haine des livres, comme fait quasi toute
-                    nostre noblesse. (<hi rend="italic">ibid</hi>., p. 176)</p>
-            </note>
-        </body>
+                    nostre noblesse. (<hi rend="italic">ibid</hi>., p. 176)</p></note>
+        </back>
     </text>
 </TEI>

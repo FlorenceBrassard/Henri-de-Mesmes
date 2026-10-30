@@ -220,69 +220,60 @@
                         <orig/>
                         <reg>.</reg>
                      </choice></add></s></add></ab>
-         <note resp="AV" type="comment" target="f19r06_comment_01">
-            <p>Les conclusions publiques correspondent à une soutenance : elles viennent marquer le
-               terme de la formation et permettent l’obtention du diplôme. Elles peuvent durer
-               plusieurs jours. Henri de Mesmes et son frère achèvent leur cursus en 1550, si l’on
-               se fie à la date de leur retour à Paris fournie plus loin, soit cinq plutôt que six
-               ans après leur arrivée à Toulouse.</p>
-         </note>
-         <note resp="AV" type="comment" target="f19r06_comment_02">
-            <p>Jean de Coras (1512-1572), humaniste d’origine toulousaine, juriste et poète.
-               Étudiant puis professeur dans plusieurs universités en France et en Italie, il
-               revient à Toulouse vers 1537 et occupe la chaire de droit civil à partir de 1540. Il
-               part enseigner à Valence en 1545, puis à Ferrare en 1550, avant de revenir
-               définitivement à Toulouse en 1553, alors qu’il est reçu conseiller au Parlement
-               (Gilles, 1992, p. 258-262 ; Poumarède, dans Arabeyre, Halpérin <hi rend="italic">et
-                  al.</hi>, 2015, p. 264-266).</p>
-         </note>
-         <note resp="AV" type="comment" target="f19r06_comment_03">
-            <p>Arnaud du Ferrier (1506-1585), juriste et diplomate d’origine toulousaine. Formé à
-               Padoue, où il enseigne quelque temps, il devient professeur de droit civil à Toulouse
-               en 1537 jusqu’à son entrée au Parlement en 1544. Il est ensuite nommé au Parlement de
-               Paris en 1552, puis au Parlement de Bretagne en 1554, avant de devenir président de
-               la chambre des enquêtes du Parlement de Paris en 1554 (Gilles, 1992, p. 271-272 ;
-               Gilles, dans Arabeyre, Halpérin et al., 2015, p. 356-357).</p>
-         </note>
-         <note resp="AV" type="comment" target="f19r06_comment_04">
-            <p>Géraud Périer († 1582), successeur de Jean de Coras à sa chaire de droit civil de
-               l’université de Toulouse en 1545 (Gilles, 1992, p. 262-264).</p>
-         </note>
-         <note resp="AV" type="comment" target="f19r06_comment_05">
-            <p>Bérenger Fernand († 1567), juriste originaire du Tarn-et-Garonne. Il obtient en 1547
-               une chaire de droit civil à l’université de Toulouse, alors qu’il a déjà une longue
-               carrière derrière lui (Gilles, 1992, p. 273-275).</p>
-         </note>
-         <note resp="AV" type="comment" target="f19r06_comment_06">
-            <p>Peut-être Anne du Bourg (1521-1559), magistrat français, élève de Du Ferrier à
-               Toulouse selon A. Bettoni (Bettoni, 2021, p. 78 ; Gilles, 1992, p. 272). Les deux
-               hommes pourraient toutefois s’être liés à Padoue. La présence d’Anne Du Bourg à
-               Toulouse est d’autant plus incertaine qu’il enseigne le droit à l’université
-               d’Orléans à partir de 1547 (Jouanna, Hamon, 2001, p. 771). Il pourrait plutôt s’agir
-               d’un, voire de deux de ses plus jeunes frères, Amable et Gabriel. Ces derniers
-               s’installent à Toulouse et y mènent des carrières juridiques. Gabriel est nommé
-               conseiller puis président aux enquêtes au Parlement de Toulouse en 1559 ; Amable
-               exerce en tant qu’avocat (La Roque, 1863, p. 97).</p>
-         </note>
-         <note resp="AV" type="comment" target="f19r06_comment_07">
-            <p>Voir <hi rend="italic">supra</hi>, note #.</p>
-         </note>
-         <note resp="AV" type="comment" target="f19r06_comment_08">
-            <p>Paul de Foix (1528-1584), ecclésiastique et diplomate. Il débute sa formation à
-               Paris, puis rejoint Toulouse pour apprendre le droit et y donne, comme l’indique
-               Marc-Antoine Muret dans son oraison funèbre, de brillantes leçons (1584, p. 11). Il
-               prend ainsi la suite d’Henri de Mesmes. Il devient plus tard conseiller-clerc au
-               Parlement de Paris et membre du Conseil privé du roi, et demeure reconnu pour ses
-               positions modérées (Jouanna, Hamon, 2001, p. 826). </p>
-         </note>
-         <note resp="AV" type="comment" target="f19r06_comment_09">
-            <p>Guillaume de Joyeuse (1520-1592), père d’Anne de Joyeuse, favori d’Henri III dont il
-               sera question plus loin (voir <hi rend="italic">infra</hi>, p. # et note #). Futur
-               maréchal de France, il est alors évêque d’Alet depuis 1541.</p>
-         </note>
-         <note resp="AV" type="genetic">
-            <p>Le mémorialiste retravaille quelque peu la phrase pour éviter <seg
-                  corresp="#f19r06_catedran #f19r06_sens_catedran"
+      </body>
+      <back>
+         <note resp="AV" type="comment" target="f19r06_comment_01"><p>Les conclusions publiques
+               correspondent à une soutenance : elles viennent marquer le terme de la formation et
+               permettent l’obtention du diplôme. Elles peuvent durer plusieurs jours. Henri
+               de Mesmes et son frère achèvent leur cursus en 1550, si l’on se fie à la date de leur
+               retour à Paris fournie plus loin, soit cinq plutôt que six ans après leur arrivée à
+               Toulouse.</p></note>
+         <note resp="AV" type="comment" target="f19r06_comment_02"><p>Jean de Coras (1512-1572),
+               humaniste d’origine toulousaine, juriste et poète. Étudiant puis professeur dans
+               plusieurs universités en France et en Italie, il revient à Toulouse vers 1537 et
+               occupe la chaire de droit civil à partir de 1540. Il part enseigner à Valence
+               en 1545, puis à Ferrare en 1550, avant de revenir définitivement à Toulouse en 1553,
+               alors qu’il est reçu conseiller au Parlement (Gilles, 1992, p. 258-262 ; Poumarède,
+               dans Arabeyre, Halpérin <hi rend="italic">et al.</hi>, 2015, p. 264-266).</p></note>
+         <note resp="AV" type="comment" target="f19r06_comment_03"><p>Arnaud du Ferrier (1506-1585),
+               juriste et diplomate d’origine toulousaine. Formé à Padoue, où il enseigne quelque
+               temps, il devient professeur de droit civil à Toulouse en 1537 jusqu’à son entrée au
+               Parlement en 1544. Il est ensuite nommé au Parlement de Paris en 1552, puis au
+               Parlement de Bretagne en 1554, avant de devenir président de la chambre des enquêtes
+               du Parlement de Paris en 1554 (Gilles, 1992, p. 271-272 ; Gilles, dans Arabeyre,
+               Halpérin et al., 2015, p. 356-357).</p></note>
+         <note resp="AV" type="comment" target="f19r06_comment_04"><p>Géraud Périer († 1582),
+               successeur de Jean de Coras à sa chaire de droit civil de l’université de Toulouse
+               en 1545 (Gilles, 1992, p. 262-264).</p></note>
+         <note resp="AV" type="comment" target="f19r06_comment_05"><p>Bérenger Fernand († 1567),
+               juriste originaire du Tarn-et-Garonne. Il obtient en 1547 une chaire de droit civil à
+               l’université de Toulouse, alors qu’il a déjà une longue carrière derrière lui
+               (Gilles, 1992, p. 273-275).</p></note>
+         <note resp="AV" type="comment" target="f19r06_comment_06"><p>Peut-être Anne
+               du Bourg (1521-1559), magistrat français, élève de Du Ferrier à Toulouse selon A.
+               Bettoni (Bettoni, 2021, p. 78 ; Gilles, 1992, p. 272). Les deux hommes pourraient
+               toutefois s’être liés à Padoue. La présence d’Anne Du Bourg à Toulouse est d’autant
+               plus incertaine qu’il enseigne le droit à l’université d’Orléans à partir de 1547
+               (Jouanna, Hamon, 2001, p. 771). Il pourrait plutôt s’agir d’un, voire de deux de ses
+               plus jeunes frères, Amable et Gabriel. Ces derniers s’installent à Toulouse et y
+               mènent des carrières juridiques. Gabriel est nommé conseiller puis président aux
+               enquêtes au Parlement de Toulouse en 1559 ; Amable exerce en tant qu’avocat
+               (La Roque, 1863, p. 97).</p></note>
+         <note resp="AV" type="comment" target="f19r06_comment_07"><p>Voir <hi rend="italic"
+                  >supra</hi>, note #.</p></note>
+         <note resp="AV" type="comment" target="f19r06_comment_08"><p>Paul de Foix (1528-1584),
+               ecclésiastique et diplomate. Il débute sa formation à Paris, puis rejoint Toulouse
+               pour apprendre le droit et y donne, comme l’indique Marc-Antoine Muret dans son
+               oraison funèbre, de brillantes leçons (1584, p. 11). Il prend ainsi la suite d’Henri
+               de Mesmes. Il devient plus tard conseiller-clerc au Parlement de Paris et membre du
+               Conseil privé du roi, et demeure reconnu pour ses positions modérées (Jouanna, Hamon,
+               2001, p. 826). </p></note>
+         <note resp="AV" type="comment" target="f19r06_comment_09"><p>Guillaume de Joyeuse
+               (1520-1592), père d’Anne de Joyeuse, favori d’Henri III dont il sera question plus
+               loin (voir <hi rend="italic">infra</hi>, p. # et note #). Futur maréchal de France,
+               il est alors évêque d’Alet depuis 1541.</p></note>
+         <note resp="AV" type="genetic"><p>Le mémorialiste retravaille quelque peu la phrase pour
+               éviter <seg corresp="#f19r06_catedran #f19r06_sens_catedran"
                   facs="#f19r06_i_catedran #f19r06_i_sens_catedran">la répétition de
                   « catedran »</seg> et pour améliorer la formulation de la dernière expression
                   (« <seg corresp="#f19r06_suffisance" facs="#f19r06_i_suffisance"
@@ -291,20 +282,18 @@
                ajoute surtout, comme il l’a déjà fait précédemment, une évocation des hommes en
                compagnie desquels il évolue à Toulouse, et souligne son amitié avec Guy du Faur
                Pibrac et Paul de Foix. Henri de Mesmes continue ainsi de mettre en valeur son
-               réseau.</p>
-         </note>
-         <note resp="AV" type="critic">
-            <p>Le Français 18617 (f. 7r<hi rend="superscript">o</hi>) et le Duchesne 57 (f. 58r<hi
-                  rend="superscript">o</hi>) n’ont <hi rend="italic">a priori</hi> pas identifié
-               Jean de Corras, dont le nom est orthographié dans les deux cas « Carras ».</p>
+               réseau.</p></note>
+         <note resp="AV" type="critic"><p>Le Français 18617 (f. 7r<hi rend="superscript">o</hi>) et
+               le Duchesne 57 (f. 58r<hi rend="superscript">o</hi>) n’ont <hi rend="italic">a
+                  priori</hi> pas identifié Jean de Corras, dont le nom est orthographié dans les
+               deux cas « Carras ».</p>
             <p>É. Frémy ponctue différemment l’énumération des noms des collègues juristes d’Henri
                de Mesmes, ce qui en infléchit le sens : « … aussy Perrery et Fernandy et, des
                jeunes, du Bourg et Pibrac, après, moy. » (éd. des <hi rend="italic">Mémoires</hi>,
                p. 143-144). Sur le manuscrit autographe, pourtant, aucune virgule ne se trouve <seg
                   facs="#f19r06_i_entre_ieunes_du">entre « ieunes » et « du bourg</seg> » et un <seg
                   facs="#f19r06_i_point_entre_pibrac_apres">point</seg> est bien lisible entre
-               « pibrac » et « apres moy ». </p>
-         </note>
-      </body>
+               « pibrac » et « apres moy ». </p></note>
+      </back>
    </text>
 </TEI>

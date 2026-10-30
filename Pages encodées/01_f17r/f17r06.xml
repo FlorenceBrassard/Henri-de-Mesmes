@@ -475,6 +475,8 @@
                         <add>cete maison</add>
                     </subst><ptr xml:id="f17r06_maison"/><substJoin
                         target="#f17r06_ce_01 #f17r06_nom_armes"/>.</s></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="f17r06_comment_01"><p>Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes (1490-1569), père du mémorialiste, est
                     issu d’une famille béarnaise aux origines obscures, relevant probablement de la
@@ -593,14 +595,13 @@
                         corresp="#f17r06_metamark_05" facs="#f17r06_i_metamark_05">celui placé
                         devant « a present »</seg>, si l’on accepte l’hypothèse, comme nous avons
                     choisi de le faire, que le second ajout marginal de gauche vient se substituer
-                    au premier.</p>
-            </note>
+                    au premier.</p></note>
             <note resp="AV" type="critic"><p>Les manuscrits Français 18617 et Duschene 57 ne donnent
                     pas « Amaneus de Mammes », mais des formules comparables qui n’ont guère de
                     sens : « Vn ancien cheualier Escossois de Beruich ammena de Mammes des lan
                     1200 » pour le premier (f. 3r<hi rend="superscript">o</hi>) ; « vn ancien
                     cheualier Escossois, de Beruich ammena de de [<hi rend="italic">sic</hi>] Mammes
                     des lan 1200 » pour le second (f. 56v<hi rend="superscript">o</hi>).</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

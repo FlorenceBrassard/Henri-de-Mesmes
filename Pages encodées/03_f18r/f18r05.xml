@@ -41,10 +41,12 @@
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>'entray en office<ptr xml:id="f18r05_comment_01"/>.</s></ab>
+      </body>
+      <back>
          <note resp="AV" type="comment" target="f18r05_comment_01"><p>Soit en 1552, comme le
                mémorialiste le racontera plus tard (voir <hi rend="italic">infra</hi>, p. #). Cette
                précision signale la fidélité du précepteur, relai de l’autorité paternelle pendant
                plus de dix ans.</p></note>
-      </body>
+      </back>
    </text>
 </TEI>

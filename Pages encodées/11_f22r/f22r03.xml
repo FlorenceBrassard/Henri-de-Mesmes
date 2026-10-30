@@ -64,8 +64,9 @@
                                     <orig>e</orig>
                                     <reg>E</reg>
                                 </choice>sté</surname>
-                        </persName> pour viceroy <metamark facs="#f22r03_i_metamark02"
-                            function="insert" target="#f22r03_et_iustice">#</metamark></add><addSpan
+                        </persName><ptr xml:id="f22r02_comment_01"/> pour viceroy <metamark
+                            facs="#f22r03_i_metamark02" function="insert"
+                            target="#f22r03_et_iustice">#</metamark></add><addSpan
                         facs="#f22r03_i_et_iustice" spanTo="#f22r03_iustice"
                         xml:id="f22r03_et_iustice"/><metamark>#</metamark> et me mainteint a<choice>
                         <orig>u</orig>
@@ -140,7 +141,7 @@
                                     <abbr><g ref="#dict-glyph">ɠ</g></abbr>
                                     <expan>dicts</expan>
                                 </choice> statuts</add></del>
-                        <add>selon la forme de leurs statuts</add>
+                        <add>selon la forme de leurs statuts<ptr xml:id="f22r03_comment_02"/></add>
                     </subst>, et depuys tesmoignage de bien ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
@@ -175,6 +176,28 @@
                             <orig/>
                             <reg>'</reg>
                         </choice>il</del> ny luy en son election.</s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f22r03_comment_01"><p>Francesco d’Este
+                    (1516-1578), fils du duc de Modène Alfonso I<hi rend="superscript">er</hi>
+                    d’Este. D’abord au service de Charles Quint, il est nommé lieutenant général en
+                    Toscane par Henri II à la place de Monluc en janvier 1558 (Sénier, 2021). Ce
+                    dernier explique son départ de Montalcino par la nécessité de rejoindre la
+                    France après la défaite de Saint-Quentin, en août 1557 (<hi rend="italic"
+                        >ibid</hi>., p. 412-413). Frustré par sa position, il demandait en fait son
+                    congé de Montalcino depuis la fin du mois de mai 1557 (<hi rend="italic"
+                        >ibid</hi>., p. 1141, note 3). Henri de Mesmes a néanmoins fort possiblement
+                    dénoncé les excès du capitaine auprès du duc de Guise (Courteault, 1907, p. 332)
+                    et favorisé ainsi son éviction.</p></note>
+            <note resp="AV" type="comment" target="f22r03_comment_02"><p>Sur cette procédure
+                    officielle de contrôle, voir <hi rend="italic">supra</hi>, note 72. Henri de
+                    Mesmes a conservé une « <hi rend="italic">Descrizzione e verificazione di tutte
+                        l’intrate e vendita cosi de la republica senese</hi> » (Paris, Bibliothèque
+                    nationale de France, Manuscrits, Italien 277, ancien Fonds de Mesmes 444),
+                    signée notamment de sa main en 1558 (citée par Paris, 1841, p. 287 ; Frémy,
+                    éd. des <hi rend="italic">Mémoires</hi>, p. 160, note 1). Cette « Description et
+                    vérification de tous les revenus et ventes de la République de Sienne » pourrait
+                    avoir fait partie des documents soumis.</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes procède à un <seg
                         corresp="#f22r03_le_viceroy #f22r03_et_iustice"
                         facs="#f22r03_i_le_viceroy #f22r03_i_et_iustice">ajout</seg> visant à
@@ -187,6 +210,6 @@
                     désigné comme « Francisco Dest » (voir Français 18617, f. 12v<hi
                         rend="superscript">o</hi> et Duchesne 57, f. 60v<hi rend="superscript"
                         >o</hi>).</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

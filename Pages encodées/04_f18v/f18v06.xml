@@ -77,6 +77,8 @@
                             <reg>j</reg>
                         </choice>ourduy</del>.</s>
                 <substJoin target="#f18v06_ceulx_maintenant #f18v06_aujourduy"/></ab>
+        </body>
+        <back>
             <note resp="AV" type="genetic"><p>L’ajout d’« <seg corresp="#f18v06_estroite_et"
                         facs="#f18v06_i_estroite_et">estroite</seg> », ainsi que les substitutions
                     touchant le verbe (« <seg corresp="#f18v06_fer" facs="#f18v06_i_fer"
@@ -93,6 +95,6 @@
             <note resp="AV" type="critic"><p>É. Frémy donne, de manière erronée, « travaux » à la
                     place d’« estudes » (éd. des <hi rend="italic">Mémoires</hi>,
                 p. 139).</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

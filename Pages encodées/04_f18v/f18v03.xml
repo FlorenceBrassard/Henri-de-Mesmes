@@ -201,46 +201,39 @@
                     </add>
                     <substJoin target=" #f18v03_de_ce #f18v03_du #f18v03_la_ou  #f18v03_la_et"
                 /></s></ab>
-            <note resp="AV" type="comment" target="f18v03_comment_01">
-                <p>Comme le précise A. Lefranc, « on peut croire qu’il s’agit plutôt de pages
-                    choisies à travers les deux poèmes homériques » (Lefranc, [1938] 2023, p. 235)
-                    plutôt que de l’intégralité de l’œuvre : la prouesse serait proprement
-                    gargantuesque !</p>
-            </note>
-            <note resp="AV" type="comment" target="f18v03_comment_01">
-                <p>Lazare de Baïf (1496-1547), humaniste et diplomate français, père du poète
-                    Jean-Antoine de Baïf. Dorat, ami de Maledent et précepteur de Jean-Antoine, a
-                    peut-être permis cette rencontre. Latiniste et helléniste, Lazare de Baïf est
-                    notamment traducteur de Sophocle et d’Euripide (Jouanna, Hamon, 2001,
-                    p. 619-620).</p>
-            </note>
-            <note resp="AV" type="comment" target="f18v03_comment_01">
-                <p>Jacques Thouzat ou Toussaint (1499 ?-1547), humaniste français, disciple de
-                    Guillaume Budé et détenteur, à partir de 1532, d’une chaire de grec au Collège
-                    royal, ancêtre de l’actuel Collège de France.</p>
-            </note>
-            <note resp="AV" type="comment" target="f18v03_comment_01">
-                <p>Jean Strazeele ou Strazel (v. 1500-1559 ?), humaniste originaire des Pays-Bas,
-                    détenteur d’une chaire de grec au Collège royal de 1535 à 1559.</p>
-            </note>
-            <note resp="AV" type="comment" target="f18v03_comment_01">
-                <p>Pierre Duchâtel ou Du Chastel (v. 1480-1552), évêque français, aumônier et
-                    lecteur ordinaire de François I<hi rend="superscript">er</hi> à partir de 1537.
-                    Il est chargé de la direction de la corporation des lecteurs du Collège royal
-                    vers 1538 et maître de la Librairie du roi à partir de 1540 (Lefranc, 1893,
-                    p. 348).</p>
-            </note>
-            <note resp="AV" type="comment" target="f18v03_comment_06">
-                <p>Pierre Danès (1497-1577), humaniste et ecclésiaste français, détenteur d’une
-                    chaire de grec au Collège royal entre 1530 et 1535. Après un séjour en Italie,
-                    il revient en France en  1540 ; s’il ne reprend pas sa chaire, « sa réputation
-                    de savoir et d’éloquence est alors à son comble » (Jouanna, Hamon, 2001,
-                    p. 745). Le jeune Henri de Mesmes fréquente donc les grands hellénistes
-                    parisiens des années 1540.</p>
-            </note>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes prolonge la description de son œuvre enfantine dans un <seg
-                        corresp="#f18v03_et_lautre f18v03_qui_lres"
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f18v03_comment_01"><p>Comme le précise
+                    A. Lefranc, « on peut croire qu’il s’agit plutôt de pages choisies à travers les
+                    deux poèmes homériques » (Lefranc, [1938] 2023, p. 235) plutôt que de
+                    l’intégralité de l’œuvre : la prouesse serait proprement
+                gargantuesque !</p></note>
+            <note resp="AV" type="comment" target="f18v03_comment_01"><p>Lazare de Baïf (1496-1547),
+                    humaniste et diplomate français, père du poète Jean-Antoine de Baïf. Dorat, ami
+                    de Maledent et précepteur de Jean-Antoine, a peut-être permis cette rencontre.
+                    Latiniste et helléniste, Lazare de Baïf est notamment traducteur de Sophocle et
+                    d’Euripide (Jouanna, Hamon, 2001, p. 619-620).</p></note>
+            <note resp="AV" type="comment" target="f18v03_comment_01"><p>Jacques Thouzat ou
+                    Toussaint (1499 ?-1547), humaniste français, disciple de Guillaume Budé et
+                    détenteur, à partir de 1532, d’une chaire de grec au Collège royal, ancêtre de
+                    l’actuel Collège de France.</p></note>
+            <note resp="AV" type="comment" target="f18v03_comment_01"><p>Jean Strazeele ou
+                    Strazel (v. 1500-1559 ?), humaniste originaire des Pays-Bas, détenteur d’une
+                    chaire de grec au Collège royal de 1535 à 1559.</p></note>
+            <note resp="AV" type="comment" target="f18v03_comment_01"><p>Pierre Duchâtel ou
+                    Du Chastel (v. 1480-1552), évêque français, aumônier et lecteur ordinaire de
+                        François I<hi rend="superscript">er</hi> à partir de 1537. Il est chargé de
+                    la direction de la corporation des lecteurs du Collège royal vers 1538 et maître
+                    de la Librairie du roi à partir de 1540 (Lefranc, 1893, p. 348).</p></note>
+            <note resp="AV" type="comment" target="f18v03_comment_06"><p>Pierre Danès (1497-1577),
+                    humaniste et ecclésiaste français, détenteur d’une chaire de grec au Collège
+                    royal entre 1530 et 1535. Après un séjour en Italie, il revient en France en
+                     1540 ; s’il ne reprend pas sa chaire, « sa réputation de savoir et d’éloquence
+                    est alors à son comble » (Jouanna, Hamon, 2001, p. 745). Le jeune Henri de
+                    Mesmes fréquente donc les grands hellénistes parisiens des
+                années 1540.</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes prolonge la description de son œuvre
+                    enfantine dans un <seg corresp="#f18v03_et_lautre f18v03_qui_lres"
                         facs="#f18v03_i_et_lautre #f18v03_i_qui_lres">long ajout marginal</seg>. Il
                     tient à signaler que la récitation de l’œuvre d’Homère lui ouvre les portes des
                     grands hellénistes parisiens, dont il fournit les noms. Le mémorialiste supprime
@@ -248,8 +241,7 @@
                         facs="#f18v03_i_ie_fort #f18v03_i_priué_des #f18v03_i_souuant_et #f18v03_i_acces_ami #f18v03_i_tié_se"
                         >l’allusion à l’existence de relations amicales entre lui et ces humanistes
                         chevronnés</seg>, plus âgés que lui d’environ trente ans, certainement parce
-                    qu’elle lui a parue excessive.</p>
-            </note>
-        </body>
+                    qu’elle lui a parue excessive.</p></note>
+        </back>
     </text>
 </TEI>

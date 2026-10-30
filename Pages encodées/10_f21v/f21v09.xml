@@ -66,7 +66,8 @@
                         </choice>li <choice>
                             <orig>a</orig>
                             <reg>A</reg>
-                        </choice>ltezzi</placeName> qui nous incommodoit grandement <choice>
+                        </choice>ltezzi</placeName><ptr xml:id="f21v09_comment_01"/> qui nous
+                    incommodoit grandement <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
@@ -94,7 +95,8 @@
                         <placeName><choice>
                                 <orig>e</orig>
                                 <reg>E</reg>
-                            </choice>spaigne</placeName></roleName> tenoit lors<choice>
+                            </choice>spaigne</placeName></roleName><ptr xml:id="f21v09_comment_02"/>
+                    tenoit lors<choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
@@ -127,7 +129,7 @@
                         xml:id="f21v09_baron"><metamark>^</metamark>baron</add><substJoin
                         target="#f21v09_sr #f21v09_baron"/>
                     <persName><nameLink>de</nameLink>
-                        <surname>Serres</surname></persName>
+                        <surname>Serres</surname></persName><ptr xml:id="f21v09_comment_03"/>
                     <choice>
                         <abbr>po<hi rend="superscript">r</hi></abbr>
                         <expan>pour</expan>
@@ -138,7 +140,9 @@
                         <orig/>
                         <reg>,</reg>
                     </choice>
-                    <persName><surname>Bassompierre </surname></persName><subst>
+                    <persName><surname>Bassompierre </surname></persName><ptr
+                        xml:id="f21v09_comment_04"/>
+                    <subst>
                         <del><choice>
                                 <abbr>po<hi rend="superscript">r</hi></abbr>
                                 <expan>pour</expan>
@@ -164,9 +168,10 @@
                     <persName><surname><choice>
                                 <orig>c</orig>
                                 <reg>C</reg>
-                            </choice>hiaramonte</surname></persName>
+                            </choice>hiaramonte</surname></persName><ptr xml:id="f21v09_comment_05"/>
                     <add>et</add>
-                    <persName><surname>Moretto Calabrese</surname></persName>
+                    <persName><surname>Moretto Calabrese</surname></persName><ptr
+                        xml:id="f21v09_comment_06"/>
                     <del>et autres</del> a<choice>
                         <orig>u</orig>
                         <reg>e</reg>
@@ -196,7 +201,7 @@
                     />, les capitaines <persName><surname><choice>
                                 <orig>l</orig>
                                 <reg>L</reg>
-                            </choice>ussan</surname></persName><choice>
+                            </choice>ussan</surname></persName><ptr xml:id="f21v09_comment_07"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice><metamark facs="#f21v09_i_metamark03" function="insert"
@@ -204,22 +209,23 @@
                         xml:id="f21v09_blacons"><metamark>^</metamark><persName><surname><choice>
                                     <orig>b</orig>
                                     <reg>B</reg>
-                                </choice>lacons</surname></persName><choice>
+                                </choice>lacons</surname></persName><ptr xml:id="f21v09_comment_08"/><choice>
                             <orig/>
                             <reg>,</reg>
                         </choice></add>
                     <persName><surname><choice>
                                 <orig>au</orig>
                                 <reg>Av</reg>
-                            </choice>anson</surname></persName>,<persName><surname><choice>
+                            </choice>anson</surname></persName><ptr xml:id="f21v09_comment_09"/>,<persName><surname><choice>
                                 <orig>a</orig>
                                 <reg>A</reg>
-                            </choice>ntrecasteaus</surname></persName>, <persName><surname><add
-                                facs="#f21v09_i_C" xml:id="f21v09_C">C</add><undo
-                                facs="#f21v09_i_aussans_undo" rend="underlined"
-                                target="#f21v09_aussans" xml:id="f21rop9_aussans_undo"/><del
-                                facs="#f21v09_i_aussans" xml:id="f21v09_aussans"
-                            >aussans</del></surname></persName><substJoin
+                            </choice>ntrecasteaus</surname></persName><ptr
+                        xml:id="f21v03_comment_10"/>, <persName><surname><add facs="#f21v09_i_C"
+                                xml:id="f21v09_C">C</add><undo facs="#f21v09_i_aussans_undo"
+                                rend="underlined" target="#f21v09_aussans"
+                                xml:id="f21rop9_aussans_undo"/><del facs="#f21v09_i_aussans"
+                                xml:id="f21v09_aussans">aussans</del></surname></persName><ptr
+                        xml:id="f21v03_comment_11"/><substJoin
                         target="#f21v09_C #f21v09_ussans_undo"/>, et autres<choice>
                         <orig/>
                         <reg>,</reg>
@@ -227,7 +233,8 @@
                         <abbr>Cap<hi rend="superscript">nes</hi></abbr>
                         <expan>capitaine</expan>
                     </choice>
-                    <persName><surname>Charry</surname></persName> dens la ville pour le garde d<choice>
+                    <persName><surname>Charry</surname></persName><ptr xml:id="f21v03_comment_12"/>
+                    dens la ville pour le garde d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>icelle come gou<choice>
@@ -254,35 +261,93 @@
                         <seg xml:id="f21v09_por_Marem"><choice>
                                 <abbr>po<hi rend="superscript">r</hi></abbr>
                                 <expan>pour</expan>
-                            </choice> la <placeName ref="Q1233184">Marem</placeName></seg>
+                            </choice> la <placeName ref="Q1233184">Marem</placeName><ptr
+                                xml:id="f21v03_comment_13"/></seg>
                     </add>.<del instant="true" xml:id="f21v09_qui_qui"><choice>
                             <orig>q</orig>
                             <reg>Q</reg>
                         </choice>ui est celuy qui</del></s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes ajoute quelques précisions à cette longue phrase qui célèbre sa
-                    prétendue action militaire : emplacement du Palazzo Altesi, titre de La Serre
-                        (« <seg corresp="#f21v09_baron" facs="#f21v09_i_baron">baron</seg> ») ou
-                    encore nom des seigneurs <seg corresp="#f21v09_blacons #f21v09_et_Mole"
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f21v09_comment_01"><p>Le Palazzo Altesi, près de
+                    Montalcino (Courteault, 1907, p. 335). Il est attaqué par les troupes françaises
+                    entre le 29 avril et le 3 mai 1557 (<hi rend="italic">ibid</hi>., p. 335).
+                    Monluc raconte la périlleuse prise de cette « forteresse », ainsi que celles de
+                    « trois ou quatre » châteaux alentours, qu’il a lui-même conduites (<hi
+                        rend="italic">Commentaires</hi>, éd. citée, p. 406-409). À aucun moment, il
+                    n'évoque l'implication d'Henri de Mesmes dans ces entreprises militaires. Comme
+                    l’écrit élégamment P. Courteault, « il semble […] que le jeune capitaine de
+                    justice […] a voulu rehausser son court séjour au-delà des monts d’un brin de
+                    laurier usurpé » (1907, p. 335).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_02"><p>Philippe II (1527-1598),
+                    fils aîné de Charles Quint, qui hérite progressivement des différents titres de
+                    ce dernier. Il est notamment fait roi de Naples et de Sicile à partir d’octobre
+                    1554, puis roi d’Espagne à partir de janvier 1556.</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_03"><p>Certainement Bertrand de
+                    Montesquiou († 1593), seigneur de La Serre. Il est le lieutenant de la compagnie
+                    de chevaux-légers de Monluc (<hi rend="italic">Commentaires</hi>, éd. Courtault,
+                    p. 391 ; p. 1126, note 5).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_04"><p>Charles de Bassompierre,
+                    commissaire de l’artillerie (Monluc, <hi rend="italic">Commentaires</hi>,
+                    éd. citée, p. 388).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_05"><p>Francesco Chiaramonti,
+                    capitaine italien de gens de pied, gouverneur de Grosseto (Monluc, <hi
+                        rend="italic">Commentaires</hi>, éd. citée, 1964, p. 387).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_06"><p>Battista Moretto Calabrese,
+                    ou de Cantarollo, nommé Moret Calabrèse par Monluc, capitaine italien,
+                    gouverneur de Montepescali (Monluc, <hi rend="italic">Commentaires</hi>, éd.
+                    citée, p. 405).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_07"><p>Bertrand d’Esparbès,
+                    seigneur de Lussan, capitaine français. Il meurt en juin 1557 près de Pianza
+                    (Monluc, <hi rend="italic">Commentaires</hi>, éd. citée, p. 396).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_08"><p>Pierre de Forest, seigneur
+                    de Blacons, capitaine français (Monluc, <hi rend="italic">Commentaires</hi>,
+                    éd. citée, p. 395).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_09"><p>Laurent de Saint-Marcel
+                    († 1566), seigneur d’Avanson, capitaine français, souvent cité dans les
+                    délibérations de la République de Montalcino (Monluc, <hi rend="italic"
+                        >Commentaires</hi>, éd. citée, p. 396 ; p. 1131, note 2).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_10"><p>Louis de Castellane, baron
+                    d’Entrecasteaux, comte de Grignan, capitaine français. Comme l’écrit ensuite
+                    Henri de Mesmes, il est bien le neveu du cardinal de Tournon et il est fait
+                    chevalier de l’ordre du Saint-Esprit en 1584 (Sainte-Foix, 1760,
+                p. 47).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_11"><p>Jean de Monlezun, seigneur
+                    de Caussens, maître de camp des compagnies de gens de pied gascons († 1573)
+                    (Monluc, <hi rend="italic">Commentaires</hi>, éd. citée, p. 411).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_12"><p>Jacques Prévost († 1563),
+                    seigneur de Charry, capitaine français et homme de confiance de Monluc. Ce
+                    dernier le célèbre fréquemment pour sa bravoure. Il lui confie la ville de
+                    Montalcino durant l’attaque de Pienza (Monluc, <hi rend="italic"
+                        >Commentaires</hi>, éd. citée, p. 396 ; p. 221, note 1).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_13"><p>Joseph de Boniface
+                    (v. 1547-1574), seigneur de La Môle. Il est nommé gouverneur de Grosseto, située
+                    à un peu plus de 50 km au nord-ouest de Montalcino, au cœur de la région de la
+                    Maremme. Henri de Mesmes serait intervenu auprès du duc de Guise pour que La
+                    Môle obtienne la place de Monluc, en vain (Monluc, <hi rend="italic"
+                        >Commentaires</hi>, éd. citée, p. 399).</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute quelques précisions à cette
+                    longue phrase qui célèbre sa prétendue action militaire : emplacement du Palazzo
+                    Altesi, titre de La Serre (« <seg corresp="#f21v09_baron" facs="#f21v09_i_baron"
+                        >baron</seg> ») ou encore nom des seigneurs <seg
+                        corresp="#f21v09_blacons #f21v09_et_Mole"
                         facs="#f21v09_i_blacons #f21v09_i_et_Mole">de Blacons et de La Môle</seg>.
                     La page se termine sur une nouvelle phrase inachevée (« <seg
                         corresp="#f21v09_qui_qui" facs="#f21v09_i_qui_qui">qui est celuy
-                    qui</seg> »).</p>
-            </note>
-            <note resp="AV" type="critic">
-                <p>Les copies comportent des transcriptions <hi rend="italic">a priori</hi> fautives
-                    et par ailleurs incomplètes de la fin de la phrase principale : le
-                    Français 18617 donne « le sieur de la Mole Agresselle pour … » (f. 12v<hi
-                        rend="superscript">o</hi>) et le Duchesne 57 « le sieur de la Mole
-                    Agressette pour … » (f. 60v<hi rend="superscript">o</hi>). Les mentions de la
-                    ville (« <seg corresp="#f21v09_a_grossetto" facs="#f21v09_i_a_grossetto">a
-                        grossetto</seg> ») et de la région (« <seg corresp="#f21v09_por_Marem"
-                        facs="#f21v09_i_por_marem">por la Marem</seg> ») n’ont pas été comprises.
-                    É. Frémy, pour sa part, donne « … et de La Môle à Grosseto pour le Martine (<hi
-                        rend="italic">sic</hi>) » (éd. des <hi rend="italic">Mémoires</hi>, p. 158).
-                    La mention « <hi rend="italic">sic</hi> » témoigne bien du fait qu’il n’est pas
-                    convaincu de sa transcription.</p>
-            </note>
-        </body>
+                    qui</seg> »).</p></note>
+            <note resp="AV" type="critic"><p>Les copies comportent des transcriptions <hi
+                        rend="italic">a priori</hi> fautives et par ailleurs incomplètes de la fin
+                    de la phrase principale : le Français 18617 donne « le sieur de la Mole
+                    Agresselle pour … » (f. 12v<hi rend="superscript">o</hi>) et le Duchesne 57 « le
+                    sieur de la Mole Agressette pour … » (f. 60v<hi rend="superscript">o</hi>). Les
+                    mentions de la ville (« <seg corresp="#f21v09_a_grossetto"
+                        facs="#f21v09_i_a_grossetto">a grossetto</seg> ») et de la région (« <seg
+                        corresp="#f21v09_por_Marem" facs="#f21v09_i_por_marem">por la Marem</seg> »)
+                    n’ont pas été comprises. É. Frémy, pour sa part, donne « … et de La Môle à
+                    Grosseto pour le Martine (<hi rend="italic">sic</hi>) » (éd. des <hi
+                        rend="italic">Mémoires</hi>, p. 158). La mention « <hi rend="italic"
+                        >sic</hi> » témoigne bien du fait qu’il n’est pas convaincu de sa
+                    transcription.</p></note>
+        </back>
     </text>
 </TEI>

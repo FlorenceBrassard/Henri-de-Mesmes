@@ -91,6 +91,8 @@
                      <del>estudes</del>
                      <add>debiles forces</add>
                   </subst></add>.</s></ab>
+      </body>
+      <back>
          <note resp="AV" type="comment" target="f19r05_comment_01"><p>L’école des <hi rend="italic"
                   >Institutes</hi>, du nom du manuel de droit romain rédigé à la demande de
                   Justinien I<hi rend="superscript">er</hi> (VI<hi rend="superscript"
@@ -107,6 +109,6 @@
                – qui accordent d’abord la parole à une personne –, les disputes ont pour vocation
                d’opposer des voix et des arguments contradictoires. Elles sont formatrices tant sur
                le fond que sur la forme (Périgot, 2005).</p></note>
-      </body>
+      </back>
    </text>
 </TEI>

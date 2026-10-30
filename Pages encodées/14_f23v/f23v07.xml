@@ -64,7 +64,7 @@
                         </choice>ision de l<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>office.</add></s>
+                        </choice>office<ptr xml:id="f23v07_comment_01"/>.</add></s>
                 <s><subst>
                         <add><choice>
                                 <orig>e</orig>
@@ -78,16 +78,21 @@
                                 <reg>j'</reg>
                             </choice></del>
                     </subst> ay encore les cofres <add>des seaulx</add> pour merque de cest
-                    honeur.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>Le mémorialiste ajoute une <seg corresp="#f23v07_faisant_office"
-                        facs="#f23v07_i_faisant_office">formule</seg> qui vient renforcer
-                    l’importance du rôle de son père, dont on se souvient qu’il aurait pu être nommé
-                    chancelier juste avant sa mort, d’après les <hi rend="italic">Mémoires</hi>
-                    (voir f. 23v<hi rend="superscript">o</hi>, seg. 2). Garde des sceaux,
-                        Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes a joué le rôle de
-                    chancelier sans en avoir le titre.</p>
-            </note>
+                        honeur<ptr xml:id="f23v07_comment_02"/>.</s></ab>
         </body>
+        <back>
+            <note resp="AV" type="comment" target="f23v07_comment_01"><p>Voir <hi rend="italic"
+                        >supra</hi>, note 60.</p></note>
+            <note resp="AV" type="comment" target="f23v07_comment_02"><p>Les sceaux sont conservés
+                    dans un coffret spécifique (Barbiche, 2012, p. 154), qui est en soi un objet de
+                    prestige et ici le souvenir d’une haute fonction.</p></note>
+            <note resp="AV" type="genetic"><p>Le mémorialiste ajoute une <seg
+                        corresp="#f23v07_faisant_office" facs="#f23v07_i_faisant_office"
+                        >formule</seg> qui vient renforcer l’importance du rôle de son père, dont on
+                    se souvient qu’il aurait pu être nommé chancelier juste avant sa mort, d’après
+                    les <hi rend="italic">Mémoires</hi> (voir f. 23v<hi rend="superscript">o</hi>,
+                    seg. 2). Garde des sceaux, Jean-Jacques I<hi rend="superscript">er</hi>
+                    de Mesmes a joué le rôle de chancelier sans en avoir le titre.</p></note>
+        </back>
     </text>
 </TEI>

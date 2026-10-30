@@ -172,46 +172,41 @@
                                 <reg>F</reg>
                             </choice>aber</surname></persName><ptr xml:id="f19r04_comment_06"
                         />.<anchor xml:id="f19r04_faber"/></s></ab>
-            <note resp="AV" type="comment" target="f19r04_comment_01">
-                <p>Adrien Turnèbe (1512-1565), humaniste d’origine normande. Professeur à
-                    l’université de Toulouse, il détient la chaire de grec au collège royal à partir
-                    de 1547, à la suite de Jacques Toussaint (voir éd. numérique, f. 18v<hi
-                        rend="superscript">o</hi>, seg. 3). Henri de Mesmes a joué auprès de lui un
-                    rôle d’ami et de protecteur au moment de sa querelle avec les jésuites (Lewis,
-                    1998, p. 41 et p. 96). Dans le volume d’élégies que Passerat rédige à la mort de
-                    Turnèbe, le mémorialiste fait partie du cercle de ses proches, aux côtés de
-                    L’Hôpital et de Lambin (<hi rend="italic">In Adriani Turnebi obitum Ioannis
-                        Passeratii elegia</hi>, Lyon, 1565, éd. Demerson, 1975, p. 114) (Petris,
-                    2002, p. 540).</p>
-            </note>
-            <note resp="AV" type="comment" target="f19r04_comment_02">
-                <p>Denis Lambin (1519-1572), humaniste d’origine normande. Il rejoint l’université
-                    de Toulouse à la fin des années 1540 et y suit notamment les cours d’Adrien
-                    Turnèbe. Il est ami avec Maledent et fréquente les frères de Mesmes. Le
-                    mémorialiste demeure proche de Lambin par la suite, comme en atteste leur
-                    correspondance (Quillien, 2020, § 7-8).</p>
-            </note>
-            <note resp="AV" type="comment" target="f19r04_comment_03">
-                <p>Honoré Castellan († 1569 ?). Il obtient son baccalauréat en 1544 à la faculté de
-                    Montpellier. Il y enseigne ensuite à partir de 1556, avant d’être recruté comme
-                    premier médecin de Catherine de Médicis en 1558 (Pineau, 2012, p. 173). Il a
-                    manifestement vécu entre temps à Toulouse.</p>
-            </note>
-            <note resp="AV" type="comment" target="f19r04_comment_04">
-                <p>Simon Thomas, médecin d’origine souabe qui exerce à Toulouse vers 1530, puis
-                    poursuit sa formation à Padoue, avant de revenir à Toulouse. Il fait l’objet
-                    d’une brève anecdote dans <hi rend="italic">Les Essais</hi> de Montaigne
-                    (éd. Magnien, Balsamo, Magnien-Simonin, 2007, I, 20, p. 99 ; note 1, p. 1367).
-                </p>
-            </note>
-            <note resp="AV" type="comment" target="f19r04_comment_05">
-                <p>Pierre Bunel (1500-1547), humaniste toulousain réputé pour sa correspondance.
-                    en 1541, il est nommé précepteur des enfants de Pierre du Faur, en particulier
-                    de Guy (Magnien, 2006, p. 263).</p>
-            </note>
-            <note resp="AV" type="comment" target="f19r04_comment_06">
-                <p>Guy du Faur de Pibrac (1528-1584), humaniste, juriste et poète toulousain, alors
-                    encore en formation auprès de Pierre Bunel. Il est ensuite étudiant en droit à
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f19r04_comment_01"><p>Adrien Turnèbe (1512-1565),
+                    humaniste d’origine normande. Professeur à l’université de Toulouse, il détient
+                    la chaire de grec au collège royal à partir de 1547, à la suite de Jacques
+                    Toussaint (voir éd. numérique, f. 18v<hi rend="superscript">o</hi>, seg. 3).
+                    Henri de Mesmes a joué auprès de lui un rôle d’ami et de protecteur au moment de
+                    sa querelle avec les jésuites (Lewis, 1998, p. 41 et p. 96). Dans le volume
+                    d’élégies que Passerat rédige à la mort de Turnèbe, le mémorialiste fait partie
+                    du cercle de ses proches, aux côtés de L’Hôpital et de Lambin (<hi rend="italic"
+                        >In Adriani Turnebi obitum Ioannis Passeratii elegia</hi>, Lyon, 1565,
+                    éd. Demerson, 1975, p. 114) (Petris, 2002, p. 540).</p></note>
+            <note resp="AV" type="comment" target="f19r04_comment_02"><p>Denis Lambin (1519-1572),
+                    humaniste d’origine normande. Il rejoint l’université de Toulouse à la fin des
+                    années 1540 et y suit notamment les cours d’Adrien Turnèbe. Il est ami avec
+                    Maledent et fréquente les frères de Mesmes. Le mémorialiste demeure proche de
+                    Lambin par la suite, comme en atteste leur correspondance (Quillien, 2020,
+                    § 7-8).</p></note>
+            <note resp="AV" type="comment" target="f19r04_comment_03"><p>Honoré Castellan (†
+                    1569 ?). Il obtient son baccalauréat en 1544 à la faculté de Montpellier. Il y
+                    enseigne ensuite à partir de 1556, avant d’être recruté comme premier médecin de
+                    Catherine de Médicis en 1558 (Pineau, 2012, p. 173). Il a manifestement vécu
+                    entre temps à Toulouse.</p></note>
+            <note resp="AV" type="comment" target="f19r04_comment_04"><p>Simon Thomas, médecin
+                    d’origine souabe qui exerce à Toulouse vers 1530, puis poursuit sa formation à
+                    Padoue, avant de revenir à Toulouse. Il fait l’objet d’une brève anecdote dans
+                        <hi rend="italic">Les Essais</hi> de Montaigne (éd. Magnien, Balsamo,
+                    Magnien-Simonin, 2007, I, 20, p. 99 ; note 1, p. 1367).</p></note>
+            <note resp="AV" type="comment" target="f19r04_comment_05"><p>Pierre Bunel (1500-1547),
+                    humaniste toulousain réputé pour sa correspondance. en 1541, il est nommé
+                    précepteur des enfants de Pierre du Faur, en particulier de Guy (Magnien, 2006,
+                    p. 263).</p></note>
+            <note resp="AV" type="comment" target="f19r04_comment_06"><p>Guy du Faur
+                    de Pibrac (1528-1584), humaniste, juriste et poète toulousain, alors encore en
+                    formation auprès de Pierre Bunel. Il est ensuite étudiant en droit à
                     l’université de Toulouse. Henri de Mesmes, qui le mentionnera à plusieurs
                     reprises dans ses <hi rend="italic">Mémoires</hi>, noue avec lui une amitié
                     durable. Les deux hommes partagent notamment une proximité avec Michel
@@ -221,28 +216,23 @@
                     Pologne (Renoux-Zagamé, dans Arabeyre, Halpérin et al., 2015, p. 355). Il est
                     l’auteur de traités et de discours, dont, en 1573, une apologie des décisions de
                     la monarchie lors de la Saint-Barthélemy. Il publie également en 1574 un recueil
-                    de poésie, les <hi rend="italic">Quatrains</hi>.</p>
-            </note>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes supprime <seg corresp="#f19r04_nous_lut"
-                        facs="#f19r04_i_nous_lut">l’allusion à l’apprentissage du luth</seg> pour la
-                    remplacer par la mention plus vague d’« <seg corresp="#f19r04_vn_musique"
-                        facs="#f19r04_i_vn_musique">un peu de musique</seg> ». Il semble que « <seg
-                        corresp="#f19r04_a_iour" facs="#f19r04_i_a_iour">a la grand messe et vespres
-                        au reste du iour</seg> » devait d’abord compléter « <seg
-                        corresp="#f19r04_nous_lut" facs="#f19r04_i_nous_lut">nous aprenions du
-                        lut</seg> », comme tend à l’indiquer la marque d’insertion. Le mémorialiste
-                    prolonge surtout l’évocation de ses relations privilégiées avec les « amis » de
-                    son père par <seg corresp="#f19r04_le_faber" facs="#f19r04_i_le_faber">l’ajout
-                        marginal</seg>, dans lequel il fournit les noms latinisés de ces
-                    derniers.</p>
-            </note>
-            <note resp="AV" type="critic">
-                <p>Le Français 18617 (f. 6v<hi rend="superscript">o</hi>) et le Duchesne 57
-                        (f. 58r<hi rend="superscript">o</hi>) modifient légèrement la graphie des
-                    noms propres, comme ce sera fréquemment le cas par la suite. Les humanistes
-                    cités paraissent toutefois avoir été bien identifiés.</p>
-            </note>
-        </body>
+                    de poésie, les <hi rend="italic">Quatrains</hi>.</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes supprime <seg
+                        corresp="#f19r04_nous_lut" facs="#f19r04_i_nous_lut">l’allusion à
+                        l’apprentissage du luth</seg> pour la remplacer par la mention plus vague
+                        d’« <seg corresp="#f19r04_vn_musique" facs="#f19r04_i_vn_musique">un peu de
+                        musique</seg> ». Il semble que « <seg corresp="#f19r04_a_iour"
+                        facs="#f19r04_i_a_iour">a la grand messe et vespres au reste du iour</seg> »
+                    devait d’abord compléter « <seg corresp="#f19r04_nous_lut"
+                        facs="#f19r04_i_nous_lut">nous aprenions du lut</seg> », comme tend à
+                    l’indiquer la marque d’insertion. Le mémorialiste prolonge surtout l’évocation
+                    de ses relations privilégiées avec les « amis » de son père par <seg
+                        corresp="#f19r04_le_faber" facs="#f19r04_i_le_faber">l’ajout marginal</seg>,
+                    dans lequel il fournit les noms latinisés de ces derniers.</p></note>
+            <note resp="AV" type="critic"><p>Le Français 18617 (f. 6v<hi rend="superscript">o</hi>)
+                    et le Duchesne 57 (f. 58r<hi rend="superscript">o</hi>) modifient légèrement la
+                    graphie des noms propres, comme ce sera fréquemment le cas par la suite. Les
+                    humanistes cités paraissent toutefois avoir été bien identifiés.</p></note>
+        </back>
     </text>
 </TEI>

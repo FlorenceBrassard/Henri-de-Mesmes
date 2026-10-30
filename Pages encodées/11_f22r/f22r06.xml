@@ -189,8 +189,8 @@
                     </choice> mon retour d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice><placeName ref="Q38">Italie</placeName>, <metamark
-                        facs="#f22r06_i_metamark3" function="insert"
+                    </choice><placeName ref="Q38">Italie</placeName><ptr xml:id="f22r06_comment_01"
+                    />, <metamark facs="#f22r06_i_metamark3" function="insert"
                         target="#f22r06_enuiron_nacquites">+</metamark><del
                         xml:id="f22r06_et_estudes">et a mes estudes</del>.</s>
                 <s><addSpan facs="#f22r06_i_enuiron_nacquites" spanTo="#f22r06_nacquites"
@@ -282,7 +282,7 @@
                     </choice><persName ref="Q131534845"><surname><choice>
                                 <orig>d</orig>
                                 <reg>D</reg>
-                            </choice>acy</surname></persName>
+                            </choice>acy</surname></persName><ptr xml:id="f22r06_comment_02"/>
                     <choice>
                         <abbr>p<hi rend="superscript">r</hi> p<hi rend="superscript">t</hi></abbr>
                         <expan>premier president</expan>
@@ -300,7 +300,7 @@
                             </choice>oul<choice>
                                 <orig><hi rend="overlined">a</hi></orig>
                                 <reg>an</reg>
-                            </choice>court</surname></persName><choice>
+                            </choice>court</surname></persName><ptr xml:id="f22r06_comment_03"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> touts deux <subst>
@@ -325,7 +325,7 @@
                         <abbr>m<hi rend="superscript">r</hi></abbr>
                         <expan>monsieur</expan>
                     </choice><persName><nameLink>de</nameLink>
-                        <surname>Cury</surname></persName><choice>
+                        <surname>Cury</surname></persName><ptr xml:id="f22r06_comment_04"/><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> president aux <choice>
@@ -433,7 +433,7 @@
                     <placeName ref="Q525891"><choice>
                             <abbr>S<hi rend="superscript">t</hi></abbr>
                             <expan>ainct</expan>
-                        </choice> Merry</placeName>
+                        </choice> Merry</placeName><ptr xml:id="f22r06_comment_05"/>
                     <subst>
                         <del facs="#f22r06_i_et_del" rend="unmarked" xml:id="f22r06_et_del">et </del>
                         <del facs="#f22r06_i_nommé_del" xml:id="f22r06_nommé_del">nommé</del>
@@ -451,11 +451,38 @@
                                 <orig> </orig>
                                 <reg>-</reg>
                             </choice>Jacques</forename></persName>.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>La substitution du bas du f. 22r<hi rend="superscript">o</hi> est
-                    particulièrement intéressante. Henri de Mesmes présente d’abord sa relative
-                    prise de distance d’avec les affaires royales comme une manière de ne pas se
-                        <seg corresp="#f22r06_ne_ciuile"
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f22r06_comment_01"><p>Soit l’office de maître des
+                    requêtes (voir <hi rend="italic">supra</hi>, note 61, p. #). Dans le manuscrit
+                    autographe, Henri de Mesmes a d’abord donné un motif explicitement en lien avec
+                    les troubles : « ne me pas jeter aux troubles pource que je n’ai[may] jamais <subst>
+                        <del>la violance</del>
+                        <add>guerre ciuile</add>
+                    </subst> » (voir éd. numérique, f. 22r<hi rend="superscript">o</hi>,
+                    seg. #).</p></note>
+            <!--- Potentiel problème de rendu dans l'édition papier du fait des balises génétiques ? -->
+            <note resp="AV" type="comment" target="f22r06_comment_02"><p>Dreux Hennequin, seigneur
+                    d’Assy, frère cadet du beau-père d’Henri de Mesmes, président de la Chambre des
+                    comptes, décédé en 1550 (Moreri <hi rend="italic">et al</hi>., 1749, t. V,
+                    p. 579) ou bien en 1551 (Fisquet, 1863, p. 81).</p></note>
+            <note resp="AV" type="comment" target="f22r06_comment_03"><p>Anne Hennequin († 1551),
+                    épouse de Jean Luillier, seigneur de Boulancourt, également président de la
+                    Chambre des comptes.</p></note>
+            <note resp="AV" type="comment" target="f22r06_comment_04"><p>Nicolas Hennequin († 1569),
+                    seigneur de Cury, prieur de Saint-Phal et président aux enquêtes du Parlement de
+                    Paris. Henri de Mesmes laisse entendre qu’il souffrait de cécité (Frémy, éd. des
+                        <hi rend="italic">Mémoires</hi>, p. 163, note 1).</p></note>
+            <note resp="AV" type="comment" target="f22r06_comment_05"><p>L’église Saint-Merry (ou
+                    Marri), située sur l’actuelle rue Saint Martin, dans le 4<hi rend="superscript"
+                        >e</hi> arrondissement de Paris. L’édifice encore aujourd’hui visible est
+                    achevé en 1565. L’hôtel des De Mesmes est situé rue de Jouy, comme le
+                    mémorialiste l’évoque plus tard (voir <hi rend="italic">infra</hi>,
+                p. #).</p></note>
+            <note resp="AV" type="genetic"><p>La substitution du bas du f. 22r<hi rend="superscript"
+                        >o</hi> est particulièrement intéressante. Henri de Mesmes présente d’abord
+                    sa relative prise de distance d’avec les affaires royales comme une manière de
+                    ne pas se <seg corresp="#f22r06_ne_ciuile"
                         facs="#f22r06_i_ieter_troubles #f22r06_i_naimay_violance #f22r06_i_guerre_ciuile"
                         >« ieter aux troubles », parce qu’il « nai[mait] iamais la violance », ou la
                         « guerre ciuile</seg> ». Cette évocation de la brutalité des troubles encore
@@ -483,8 +510,7 @@
                     l’apostrophe (« <seg corresp="#f22r06_vous_fils" facs="#f22r06_i_vous_filz">vous
                         mon filz</seg> ») et du verbe (« <seg corresp="#f22r06_nacquites"
                         facs="#f22r06_i_nacquites">nacquites</seg> »), découlent de ce
-                    retravail.</p>
-            </note>
-        </body>
+                    retravail.</p></note>
+        </back>
     </text>
 </TEI>

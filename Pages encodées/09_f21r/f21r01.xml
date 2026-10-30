@@ -145,16 +145,18 @@
                         <orig/>
                         <reg>.</reg>
                     </choice></s></ab>
-            <note resp="AV" type="comment" target="f21r01_comment_01">
-                <p>Gian Pietro Carafa (1476-1559), archevêque de Naples, élu pape en mai 1555 sous
-                    le nom de Paul IV. Il est, « dès son entrée en fonction, […] prêt à organiser
-                    une vaste alliance entre les princes chrétiens pour lancer une sorte de croisade
-                    contre l’empereur » (D’Amico et Danet, 2022, p. 562). En août 1555, la France
-                    saisit les galères de Carlo Sforza di Santa Fiora pour les mettre à disposition
-                    du pape. Les Sforza obtiennent alors l’appui des Colonna, pro-espagnols et
-                    rivaux de longue date des Carafa ; en représailles, l’armée papale attaque
-                    Paliano, fief des Colonna. Pendant ce temps, se négocie un traité secret, signé
-                    en décembre 1555, selon lequel le royaume de Naples et le duché de Milan doivent
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f21r01_comment_01"><p>Gian Pietro
+                    Carafa (1476-1559), archevêque de Naples, élu pape en mai 1555 sous le nom de
+                    Paul IV. Il est, « dès son entrée en fonction, […] prêt à organiser une vaste
+                    alliance entre les princes chrétiens pour lancer une sorte de croisade contre
+                    l’empereur » (D’Amico et Danet, 2022, p. 562). En août 1555, la France saisit
+                    les galères de Carlo Sforza di Santa Fiora pour les mettre à disposition du
+                    pape. Les Sforza obtiennent alors l’appui des Colonna, pro-espagnols et rivaux
+                    de longue date des Carafa ; en représailles, l’armée papale attaque Paliano,
+                    fief des Colonna. Pendant ce temps, se négocie un traité secret, signé en
+                    décembre 1555, selon lequel le royaume de Naples et le duché de Milan doivent
                     revenir à la France. Le projet de reconquête, retardé par la trêve de Vaucelles
                     de février 1556, est réactivé par la bulle excommuniant Ascanio et Marcantonio
                     Colonna, fulminée en mai, puis par la venue de Carlo Carafa à Fontainebleau, en
@@ -162,17 +164,13 @@
                     pontificaux ; en novembre 1556, François de Guise quitte la France avec une
                     armée de secours. Tonnerre est victime d’un immense incendie le 8 juillet 1556,
                     qui l’a presque entièrement détruite (voir Tonnerre, Bibliothèque municipale,
-                    ms. 19 ; Chaussin, 2020-2021). </p>
-            </note>
-            <note resp="AV" type="comment" target="f21r01_comment_02">
-                <p>Tonnerre est victime d’un immense incendie le 8 juillet 1556, qui l’a presque
-                    entièrement détruite (voir Tonnerre, Bibliothèque municipale, ms. 19 ; Chaussin,
-                    2020-2021).</p>
-            </note>
-            <note resp="AV" type="genetic">
-                <p><hi rend="italic">Nota bene : Le début du f. 21r<hi rend="superscript">o</hi> a
-                        été transcrit et encodé avec la fin du f. 20v<hi rend="superscript">o</hi>,
-                        dont il dépend.</hi></p>
+                    ms. 19 ; Chaussin, 2020-2021).</p></note>
+            <note resp="AV" type="comment" target="f21r01_comment_02"><p>Tonnerre est victime d’un
+                    immense incendie le 8 juillet 1556, qui l’a presque entièrement détruite (voir
+                    Tonnerre, Bibliothèque municipale, ms. 19 ; Chaussin, 2020-2021).</p></note>
+            <note resp="AV" type="genetic"><p><hi rend="italic">Nota bene : Le début du f. 21r<hi
+                            rend="superscript">o</hi> a été transcrit et encodé avec la fin du
+                            f. 20v<hi rend="superscript">o</hi>, dont il dépend.</hi></p>
                 <p>La portée du commentaire raturé « <seg corresp="#f21r01_mais_vain"
                         facs="#f21r01_i_mais_vain">mais ce fut en vain</seg> » n’est pas tout à fait
                     claire : c’est moins l’entreprise du mémorialiste qui semble réduite à néant
@@ -191,8 +189,7 @@
                      » devant « colonois ». Une substitution permet finalement d’établir que le
                     secours est bien accordé « <seg corresp="#f21r01_au f21r01_Pape_contre"
                         facs="#f21r01_i_au_contre">au » pape et « contre</seg> » la famille
-                    pro-espagnole.</p>
-            </note>
-        </body>
+                    pro-espagnole.</p></note>
+        </back>
     </text>
 </TEI>

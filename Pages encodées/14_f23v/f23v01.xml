@@ -78,7 +78,8 @@
                         </choice>lessis lez <choice>
                             <orig>t</orig>
                             <reg>T</reg>
-                        </choice>ours</placeName><choice>
+                        </choice>ours</placeName><ptr xml:id="f23v01_comment_01"/>
+                    <choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
@@ -135,13 +136,23 @@
                                     <orig>R</orig>
                                     <reg>r</reg>
                                 </choice>oyaume</expan>
-                        </choice></placeName>.</s></ab>
+                        </choice></placeName><ptr xml:id="f23v03_comment_02"/> .</s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23v01_comment_01"><p>Château de
+                    Plessis-lès-Tours, siège du pouvoir sous Charles VIII et Louis XII.</p></note>
+            <note resp="AV" type="comment" target="f23v01_comment_01"><p>François d’Alençon
+                    (1555-1584) est le plus jeune fils de Catherine de Médicis. En janvier 1569, âgé
+                    alors de 14 ans, il est nommé gouverneur de Paris en l’absence de Charles IX
+                    (Esquer, 1903, p. 67-68). Il est avant tout chargé de ravitailler l’armée
+                    royale, qui se trouve dans l’ouest ; la bataille de Jarnac a lieu en
+                mars.</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute en marge un <seg
                         corresp="#f23v01_come_douleurs" facs="#f23v01_i_come_douleurs"
                         >commentaire</seg> en forme de méditation chrétienne sur le cours des
                     existences humaines. En l’occurrence, il s’agit pour le mémorialiste de
                     souligner la concomitance de la naissance de sa fille Judith et de son
                     intégration au « conseil du matin » avec la mort de son père.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

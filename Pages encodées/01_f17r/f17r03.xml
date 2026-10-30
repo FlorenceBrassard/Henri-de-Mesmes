@@ -106,6 +106,8 @@
                             <orig/>
                             <reg>.</reg>
                         </choice></add></s></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="#f17r03_comment_01">Henri de Mesmes présente les
                 activités de la noblesse de robe, et plus spécifiquement le service rendu à la
                 monarchie, comme un état de servitude délétère. Ces activités privent en effet
@@ -146,6 +148,6 @@
                         corresp="#f17r03_certes_soymesmes" facs="#f17r03_i_certes_soymesmes">ultime
                         ajout</seg> offre un modèle compensatoire – celui de la maîtrise de soi –,
                     qui paraît alors encore inaccessible.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

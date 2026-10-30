@@ -123,10 +123,12 @@
                         <orig>a</orig>
                         <reg>à</reg>
                      </choice> trois heures du matin</date>.</del></s></ab>
-         <note resp="AV" type="genetic">
-            <p>Le récit de la naissance est repoussé au feuillet suivant : <seg
-                  corresp="#f17v05_Je_matin" facs="#f17v05_i_Je_matin">la phrase initialement
-                  rédigée est supprimée</seg> et remplacée par un <seg corresp="#f17v05_Mais_1531"
+      </body>
+      <back>
+         <note resp="AV" type="genetic"><p>Le récit de la naissance est repoussé au feuillet
+               suivant : <seg corresp="#f17v05_Je_matin" facs="#f17v05_i_Je_matin">la phrase
+                  initialement rédigée est supprimée</seg> et remplacée par un <seg
+                  corresp="#f17v05_Mais_1531"
                   facs="#f17v05_i_mais_ce #f17v05_i_jugement_fus #f17v05_i_conceu_1531">ajout</seg>
                qui permet de placer Henri de Mesmes dans la lignée de son grand-père maternel, en
                plus de celle de son père. Comme ce sera le cas à de très nombreuses reprises, le
@@ -139,8 +141,7 @@
                calendaire, au 1<hi rend="superscript">er</hi> janvier et non en mars (Annonciation)
                ou en avril (Pâques), par l’édit de Roussillon en 1564 ; passage du calendrier julien
                au calendrier grégorien en 1582 (en France, le 9 décembre 1582 est immédiatement
-               suivi du 20 décembre).</p>
-         </note>
-      </body>
+               suivi du 20 décembre).</p></note>
+      </back>
    </text>
 </TEI>

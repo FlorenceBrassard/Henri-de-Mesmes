@@ -76,6 +76,8 @@
                         facs="#f18v05_i_s2" xml:id="f18v05_s2">s</del><ptr
                         xml:id="f18v05_comment_01"/>.</s>
                 <substJoin target="#f18v05_s1 #f18v05_s2"/></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="f18v05_comment_01"><p>Hugues Raymond, serviteur
                     originaire de Bourgogne, n’a pas laissé d’autres traces dans les archives. Ce
                     bref portrait croisé du serviteur exemplaire et du maître reconnaissant
@@ -96,6 +98,6 @@
                     probablement que l’allusion à un simple serviteur est peu éclairante dans le
                     cadre de sa biographie d’Henri de Mesmes et peu pertinente pour documenter la
                     période (<hi rend="italic">Mémoires</hi>, 1659, t. II, p. 838). </p></note>
-        </body>
+        </back>
     </text>
 </TEI>

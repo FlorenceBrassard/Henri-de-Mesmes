@@ -114,7 +114,8 @@
                                 <orig>i</orig>
                                 <reg>y</reg>
                             </choice>oit</add>
-                    </subst><subst>
+                    </subst><ptr xml:id="f23r04_comment_01"/>
+                    <subst>
                         <del xml:id="f23r04_lesquelles_d">, lesquelles tesmoignent qu<choice>
                                 <orig/>
                                 <reg>'</reg>
@@ -157,16 +158,28 @@
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice> executer</del>.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes réalise plusieurs substitutions. La modification la plus
-                    marquante est certainement la suppression de la longue relative décrivant le
-                    contenu des lettres de L’Hôpital (« <seg
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23r04_comment_01"><p>Quelques lettres latines
+                    échangées entre Henri de Mesmes et Michel de L’Hôpital, datées de 1570-1571,
+                    sont conservées à la Bibliothèque nationale de France dans le manuscrit
+                    Baluze 209 (f. 250r<hi rend="superscript">o</hi> -252v<hi rend="superscript"
+                        >o</hi> ) (Petris, 2002, p. 496-499 ; 2013, p. 245-247 et 254-255). Elles
+                    attestent de l’amitié entre les deux hommes. La lettre de L’Hôpital du 4 janvier
+                    1571, nimbée de néostoïcisme, donne à lire la satisfaction d’un homme en retrait
+                    et prélude aux propos d’Henri de Mesmes sur sa propre retraite : « je me sens
+                    aujourd’hui plus heureux qu’au temps où l’on me croyait au faîte de la
+                    prospérité et du pouvoir » (« <hi rend="italic">beatiorem nunc me sentio quam
+                        tum cum maxime florere regnareque existimabar</hi> », éd. et trad. Petris,
+                    2002, p. 485-488).</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes réalise plusieurs substitutions. La
+                    modification la plus marquante est certainement la suppression de la longue
+                    relative décrivant le contenu des lettres de L’Hôpital (« <seg
                         corresp="#f23r04_lesquelles_d #f23r04_escrire #f23r04_que_executer"
                         facs="#f23r04_i_lesquelles_tesmoignent #f23r04_i_quil_d #f23r04_i_escrire #f23r04_i_que_executer"
                         >lesquelles tesmoignent quil estoit aussy elegant or d’escrire que resolu a
                         executer</seg> »), qui rendait hommage à son éloquence autant qu’à sa
-                    détermination en politique.</p>
-            </note>
-        </body>
+                    détermination en politique.</p></note>
+        </back>
     </text>
 </TEI>

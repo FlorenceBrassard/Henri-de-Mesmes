@@ -36,7 +36,8 @@
                     </choice>t ont <persName ref="Q3085482"><surname>Oli<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>ier</surname></persName> et luy, <subst>
+                            </choice>ier</surname></persName><ptr xml:id="f23r06_comment_01"/> et
+                    luy, <subst>
                         <del facs="#f23r06_i_qui_estoient" xml:id="f23r06_qui_estoient">qui
                             estoient</del>
                         <add facs="#f23r06_i_touts_deux" xml:id="f23r06_touts_deux">touts deux</add>
@@ -58,7 +59,37 @@
                     </choice> place <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> d'autres qui ne leur ont pas succedé en tout.</s></ab>
+                    </choice> d'autres qui ne leur ont pas succedé en tout<ptr
+                        xml:id="f23r06_comment_02"/>.</s></ab>
         </body>
+        <back>
+            <note resp="AV" type="comment" target="f23r06_comment_01"><p>François Olivier
+                    (1497-1560) est issu d’une famille de magistrats et d’officiers du roi. Après
+                    une éducation humaniste soignée, il devient chancelier du duché d’Alençon. Il
+                    occupe ensuite la fonction de maître des requêtes, puis de président du
+                    Parlement de Paris en 1543. En 1544, il reçoit les sceaux et devient chancelier
+                    l’année suivante. Il est ensuite maintenu dans ses fonctions par Henri II alors
+                    même que sa santé ne lui permet plus d’exercer son office. En janvier 1551, les
+                    sceaux lui sont finalement retirés au profit de Jean Bertrand. Il reste
+                    toutefois proche du pouvoir en tant que conseiller du roi. Il reçoit de nouveau
+                    les sceaux à la mort d’Henri II, quelques mois avant sa propre mort en 1560. Il
+                    laisse une réputation de magistrat particulièrement intègre (Jouanna, Hamon,
+                    2001, p. 980-981).</p></note>
+            <note resp="AV" type="comment" target="f23r06_comment_01"><p>Succèdent à François
+                    Olivier, en tant que gardes des sceaux, Jean Bertrand (voir <hi rend="italic"
+                        >supra</hi>, note #), entre 1551 et 1559, puis Jean de Morvillier en 1560
+                    pour quelques mois (voir <hi rend="italic">infra</hi>, note #). Ce dernier est
+                    de nouveau garde des sceaux de 1568 à 1571 ; en faveur d’une résolution
+                    pacifique des troubles (Puchesse, 1869, p. 325), comme L’Hôpital, il semble
+                    avoir peu suscité la controverse. René de Birague prend la relève, d’abord avec
+                    ce même statut puis en tant que chancelier à partir de mars 1573 et jusqu’en
+                    novembre 1583. Il est l’un des proches conseillers d’origine italienne de
+                    Catherine de Médicis. Vient enfin, selon le même principe, Philippe Hurault de
+                    Cheverny, garde des sceaux dès septembre 1578, chancelier de 1583 à 1599
+                    (Barbiche, 1993, p. 383). D’abord influent conseiller d’Henri III, il est
+                    disgracié et déchu de sa fonction du fait de sa proximité avec la Ligue.
+                    Certainement Henri de Mesmes blâme-t-il à demi-mot ces deux figures politiques
+                    controversées.</p></note>
+        </back>
     </text>
 </TEI>

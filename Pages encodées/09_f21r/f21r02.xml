@@ -199,18 +199,19 @@
                      <reg>v</reg>
                   </choice>iron deux mois</add><substJoin
                   target="#f21r02_qui_destre #f21r02_denuiron_mois"/>.</s></ab>
-         <note resp="AV" type="comment" target="f21r02_comment_01">
-            <p>Le Conseil « étroit » désigne le Conseil des affaires, le plus restreint des groupes
-               de conseillers du roi ; Henri de Mesmes l’appelle plus loin le « conseil du matin »,
-               parce qu’il se tient plus volontiers à ce moment de la journée. Organisation
-               informelle, sans procédure établie et sans archive, il rassemble « les personnes qui,
-               dans une conjoncture donnée, jouiss[e]nt de la faveur particulière du souverain »
-               (Barbiche, 2012, p. 286).</p>
-         </note>
-         <note resp="AV" type="genetic">
-            <p>La première version de ce passage coordonne les « <seg corresp="#f21r02_afers_destat"
-                  facs="#f21r02_i_afers_destat">afe<hi rend="superscript">r</hi>s destat</seg> » et
-               le « <seg corresp="#f21r02_conseil_estroit" facs="#f21r02_i_conseil_estroit">conseil
+      </body>
+      <back>
+         <note resp="AV" type="comment" target="f21r02_comment_01"><p>Le Conseil « étroit » désigne
+               le Conseil des affaires, le plus restreint des groupes de conseillers du roi ; Henri
+               de Mesmes l’appelle plus loin le « conseil du matin », parce qu’il se tient plus
+               volontiers à ce moment de la journée. Organisation informelle, sans procédure établie
+               et sans archive, il rassemble « les personnes qui, dans une conjoncture donnée,
+               jouiss[e]nt de la faveur particulière du souverain » (Barbiche, 2012,
+            p. 286).</p></note>
+         <note resp="AV" type="genetic"><p>La première version de ce passage coordonne les « <seg
+                  corresp="#f21r02_afers_destat" facs="#f21r02_i_afers_destat">afe<hi
+                     rend="superscript">r</hi>s destat</seg> » et le « <seg
+                  corresp="#f21r02_conseil_estroit" facs="#f21r02_i_conseil_estroit">conseil
                   estroit</seg> ». Une telle formule ne paraît pas recouper une distinction entre le
                Grand Conseil et le Conseil des affaires, mais plutôt désigner ce dernier à la
                manière d’un binôme synonymique. Henri de Mesmes retravaille ce passage pour
@@ -232,8 +233,7 @@
                   destre grosse</seg> ») est supprimée au profit d’une formule à la fois plus
                assertive et plus précise (« <seg corresp="#f21r02_grosse #f21r02_denuiron_mois"
                   facs="#f21r02_i_grosse #f21r02_denuiron_mois">grosse d’enuiron deux
-               mois</seg> »).</p>
-         </note>
-      </body>
+               mois</seg> »).</p></note>
+      </back>
    </text>
 </TEI>

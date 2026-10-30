@@ -45,11 +45,13 @@
                                     <orig>Lviij</orig>
                                     <reg>58</reg>
                                 </choice></add>
-                        </subst></date> apres la reprise des armes et renou<choice>
+                        </subst></date><ptr xml:id="f23r07_comment_01"/> apres la reprise des armes
+                    et renou<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ellement des troubles, la <roleName ref="Q131552">Reyne</roleName> mere
-                    du <roleName ref="Q53448">Roy</roleName> prit la poine de me venir <subst>
+                    </choice>ellement des troubles<ptr xml:id="f23r07_comment_02"/>, la <roleName
+                        ref="Q131552">Reyne</roleName> mere du <roleName ref="Q53448"
+                        >Roy</roleName><ptr xml:id="f23r07_comment_03"/> prit la poine de me venir <subst>
                         <del>prendre</del>
                         <add>voir</add>
                     </subst> en ma maison <choice>
@@ -60,8 +62,8 @@
                             <orig>p</orig>
                             <reg>P</reg>
                         </choice>aris</placeName>
-                    <placeName ref="Q3450774">rue de Jouy</placeName>, accompaignée du <persName
-                        ref="Q712264"><roleName><choice>
+                    <placeName ref="Q3450774">rue de Jouy</placeName><ptr xml:id="f23r07_comment_04"
+                    />, accompaignée du <persName ref="Q712264"><roleName><choice>
                                 <abbr>Card<hi rend="superscript">al</hi></abbr>
                                 <expan><choice>
                                         <orig>C</orig>
@@ -73,10 +75,10 @@
                                         <orig>l</orig>
                                         <reg>L</reg>
                                     </choice>orraine</expan>
-                            </choice></surname></persName> et m'emmena <metamark
-                        facs="#f23r07_i_metamark01" function="insert" target="#f23r07_auec_elle"
-                        >^</metamark><add facs="#f23r07_i_auec_elle" xml:id="f23r07_auec_elle"
-                            ><metamark>^</metamark> a<choice>
+                            </choice></surname></persName><ptr xml:id="f23r07_comment_05"/> et
+                    m'emmena <metamark facs="#f23r07_i_metamark01" function="insert"
+                        target="#f23r07_auec_elle">^</metamark><add facs="#f23r07_i_auec_elle"
+                        xml:id="f23r07_auec_elle"><metamark>^</metamark> a<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ec elle</add>
@@ -84,7 +86,32 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName ref="Q193313">sainct Mor</placeName>.</s></ab>
+                    <placeName ref="Q193313">sainct Mor</placeName><ptr xml:id="f23r07_comment_06"
+                    />.</s></ab>
         </body>
+        <back>
+            <note resp="AV" type="comment" target="f23r06_comment_01"><p>Henri de Mesmes, en voulant
+                    corriger l’année, se trompe de décennie : après correction, il donne 1558,
+                    plutôt que 1569.</p></note>
+            <note resp="AV" type="comment" target="f23r06_comment_02"><p>La deuxième guerre de
+                    religion débute en septembre 1567 et se poursuit jusqu’en mars 1568.</p></note>
+            <note resp="AV" type="comment" target="f23r06_comment_03"><p>Catherine de Médicis
+                    (1519-1589), mère de Charles IX. Régente de 1560 à 1563, pendant la minorité de
+                    ce dernier, elle conserve par la suite un rôle politique majeur.</p></note>
+            <note resp="AV" type="comment" target="f23r06_comment_04"><p>Rue située dans l’actuel
+                        4<hi rend="superscript">e</hi> arrondissement, dans le quartier du
+                    Marais.</p></note>
+            <note resp="AV" type="comment" target="f23r06_comment_05"><p>Charles de Lorraine
+                    (1524-1574), cardinal depuis 1547. Son influence politique, déjà forte sous le
+                    règne de François II, se renforce à la mort de son frère aîné, François de Guise
+                    (voir <hi rend="italic">supra</hi>, note #), en février 1563. Défenseur
+                    intransigeant du catholicisme , il entre régulièrement en opposition avec
+                    l’autorité de Catherine de Médicis. Néanmoins, en 1568, dans le contexte de la
+                    reprise des hostilités et du retrait de Michel de L’Hôpital (note #), la reine
+                    mère se rapproche du cardinal (Constant, 1984, p. 63-64).</p></note>
+            <note resp="AV" type="comment" target="f23r06_comment_06"><p>Le château de
+                    Saint-Maur-des-Fossés. Construit pour le cardinal Jean du Bellay, il est repris
+                    en 1563 par Catherine de Médicis.</p></note>
+        </back>
     </text>
 </TEI>

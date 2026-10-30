@@ -128,6 +128,8 @@
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>oit bien faire et bien dire.</s></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="f17r06_comment_01"><p>Nicole Hennequin épouse
                         Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes en 1530. Elle meurt
                     en janvier 1554 (Moreri <hi rend="italic">et al.</hi>, 1759, t. VII, p. 495 ;
@@ -142,6 +144,6 @@
             <note resp="AV" type="comment" target="f17r06_comment_03"><p>François I<hi
                         rend="superscript">er</hi> (1494-1547), roi de France à partir
                 de 1515.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

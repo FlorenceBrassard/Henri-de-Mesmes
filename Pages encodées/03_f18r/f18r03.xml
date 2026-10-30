@@ -53,23 +53,21 @@
                   <add facs="#f18r03_i_de_temps" seq="2" xml:id="f18r03_de_temps">de son
                      temps.</add>
                </subst></s></ab>
-         <note resp="AV" type="comment" target="f18r03_comment_01">
-            <p>Henri de Mesmes semble suggérer qu’il n’a pas été placé en nourrice, pratique
-               pourtant très courante au XVI<hi rend="superscript">e</hi> siècle (Minvielle, 2010,
-               p. 119-120).</p>
-         </note>
-         <note resp="AV" type="genetic">
-            <p>Henri de Mesmes <seg corresp="#f18r03_dame_Hennequin" facs="#f18r03_dame_Hennequin"
-                  >supprime le nom de sa mère</seg>, certainement parce qu’il s’est souvenu qu’il
-               l’a déjà donné peu avant. Le superlatif passe de « <seg corresp="#f18r03_meres_monde"
-                  facs="#f18r03_i_meres_monde">meilleures » femmes et mère « du monde</seg> » –
-               évaluation selon un empan géographique – à « <seg
+      </body>
+      <back>
+         <note resp="AV" type="comment" target="f18r03_comment_01"><p>Henri de Mesmes semble
+               suggérer qu’il n’a pas été placé en nourrice, pratique pourtant très courante au
+                  XVI<hi rend="superscript">e</hi> siècle (Minvielle, 2010, p. 119-120).</p></note>
+         <note resp="AV" type="genetic"><p>Henri de Mesmes <seg corresp="#f18r03_dame_Hennequin"
+                  facs="#f18r03_dame_Hennequin">supprime le nom de sa mère</seg>, certainement parce
+               qu’il s’est souvenu qu’il l’a déjà donné peu avant. Le superlatif passe de « <seg
+                  corresp="#f18r03_meres_monde" facs="#f18r03_i_meres_monde">meilleures » femmes et
+                  mère « du monde</seg> » – évaluation selon un empan géographique – à « <seg
                   corresp="#f18r03_meres #f18r03_de_temps" facs="#f18r03_i_meres #f18r03_i_de_temps"
                   >meilleures de son temps</seg> » – évaluation selon un empan temporel. Peut-être
                faut-il y voir l’atténuation d’une formule moins crédible ? Dans les deux cas, le
                mémorialiste entend célébrer les vertus de celle qui a veillé avec soin sur ses
-               jeunes années.</p>
-         </note>
-      </body>
+               jeunes années.</p></note>
+      </back>
    </text>
 </TEI>

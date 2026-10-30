@@ -79,8 +79,9 @@
                         <reg>'</reg>
                     </choice>il sentoit <metamark facs="#f23r01_i_metamark" function="insert"
                         target="#f23r01_quelque">^</metamark>
-                    <add xml:id="f23r01_quelque">quelque</add> allegement <del><seg
-                            xml:id="f23r01_en_mal">en son mal</seg>
+                    <add xml:id="f23r01_quelque">quelque</add> allegement<ptr
+                        xml:id="f23r01_comment_01"/>
+                    <del><seg xml:id="f23r01_en_mal">en son mal</seg>
                         <subst>
                             <del><seg xml:id="f23r01_et">et</seg><add seq="1" xml:id="f23r01_quil">qu<choice>
                                         <orig/>
@@ -89,9 +90,14 @@
                             <add seq="2" xml:id="f23r01_quand_il">quand il</add>
                         </subst>
                         <seg xml:id="f23r01_ne_sang">ne perdoit plus de sang</seg></del>.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes précise sa pensée – « <seg corresp="#f23r01_ce"
-                        facs="#f23r01_i_ce">ce</seg> » est remplacé par « <seg
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23r01_comment_01"><p>La délégation de fonctions
+                    dont bénéficie Henri de Mesmes paraît inusitée même si, depuis l’édit d’Amboise
+                    de 1493, les maîtres des requêtes ont vu leurs prérogatives élargies (Petris,
+                    2002, note 9, p. 526).</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes précise sa pensée – « <seg
+                        corresp="#f23r01_ce" facs="#f23r01_i_ce">ce</seg> » est remplacé par « <seg
                         corresp="f23r01_les_difficultez" facs="#f23r01_i_les_difficultez">les
                         difficultez</seg> » – tout en atténuant la portée pathétique de la fin de la
                     phrase : il supprime en effet « <seg
@@ -99,8 +105,7 @@
                         facs="#f23r01_i_en #f23r01_i_son_sang">en son mal et ne perdoit plus de
                         sang</seg> » et les deux ajouts associés (« <seg corresp="#f23r01_quil"
                         facs="#f23r01_i_quil">quil</seg> », « <seg corresp="#f23r01_quand_il"
-                        facs="#f23r01_i_quand_il">quand il</seg> »).</p>
-            </note>
-        </body>
+                        facs="#f23r01_i_quand_il">quand il</seg> »).</p></note>
+        </back>
     </text>
 </TEI>

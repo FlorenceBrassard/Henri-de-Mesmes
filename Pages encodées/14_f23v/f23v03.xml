@@ -121,9 +121,19 @@
                                 <expan>pour</expan>
                             </choice> la luy lire</del>
                         <add>de touts les siens</add>
-                    </subst>.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes ajoute la formule euphémisante « <seg
+                    </subst><ptr xml:id="f23v03_comment_01"/>.</s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23v03_comment_01"><p>Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes a déjà rédigé deux testaments : l’un le
+                    9 juin 1549, l’autre le 2 juin 1560 (Moreri <hi rend="italic">et al</hi>., 1759,
+                    t. VII, p. 494 ; cité par Frémy, éd. des <hi rend="italic">Mémoires</hi>,
+                    p. 171-172, note 1). Dans ce dernier, il précise que ses enfants devront être
+                    privés de succession s’ils sont devenus protestants. Dans le manuscrit
+                    autographe, Henri de Mesmes a supprimé un passage dans lequel il dit avoir mis
+                    par écrit les dernières volontés de son père (voir éd. numérique, f. 23v<hi
+                        rend="superscript">o</hi>, seg. 3).</p></note>
+            <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute la formule euphémisante « <seg
                         corresp="#f23v03_luy_voiage" facs="#f23v03_i_luy_voiage"><hi rend="italic"
                             >luy faloit fe<hi rend="superscript">r</hi> autre voiage</hi></seg> »,
                     qui redouble « <seg corresp="#f23v03_il_alieurs" facs="#f23v03_i_il_alieurs">il
@@ -132,8 +142,7 @@
                         facs="#f23v03_i_laquelle_suyuie #f23v03_i_ores_lapportay #f23v03_i_la_lire"
                         >détails au sujet de la rédaction des dernières volontés de son père</seg>,
                     qu’Henri de Mesmes a recueillies par écrit <hi rend="italic">in extremis</hi>.
-                    Ces éléments ont peut-être semblé trop anecdotiques, ou trop intimes.</p>
-            </note>
-        </body>
+                    Ces éléments ont peut-être semblé trop anecdotiques, ou trop intimes.</p></note>
+        </back>
     </text>
 </TEI>

@@ -57,8 +57,8 @@
                         <surname><choice>
                                 <orig>f</orig>
                                 <reg>F</reg>
-                            </choice>erretus</surname></persName><ptr xml:id="f19v01_comment_01"
-                    /> qui lors lisoit a<choice>
+                            </choice>erretus</surname></persName><ptr xml:id="f19v01_comment_01"/>
+                    qui lors lisoit a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec plus d<subst instant="true">
@@ -90,17 +90,18 @@
                 <substJoin seq="1" target="#f19v01_et1 #f19v01_de1 #f19v01_de2"/>
                 <substJoin seq="2" target=" #f19v01_et2 #f19v01_et3 #f19v01_maiesté"/>
                 <substJoin seq="3" target="#f19v01_et_celebrité #f19v01_et_frequence"/></ab>
+        </body>
+        <back>
             <note resp="AV" type="comment" target="f19v01_comment_01"><p>Emilio
                     Ferretti (v. 1490-1552), humaniste et juriste italien. Au terme d’une carrière
                     de secrétaire, de professeur et de diplomate, il est conseiller au parlement du
                     Dauphiné et titulaire d’une chaire de droit à Avignon (De Novellis,
                 1932).</p></note>
-            <note resp="AV" type="genetic">
-                <p>Henri de Mesmes cherche à rendre hommage à Ferretti et à signaler le prestige
-                    dont ce dernier bénéficie. Le mémorialiste conforte ainsi indirectement son
-                    propre éloge, puisque le juriste italien lui propose, comme les <hi
-                        rend="italic">Mémoires</hi> le racontent ensuite, de lire « en sa place » et
-                    rédige une lettre de compliments à l’attention de Jean-Jacques I<hi
+            <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à rendre hommage à Ferretti et
+                    à signaler le prestige dont ce dernier bénéficie. Le mémorialiste conforte ainsi
+                    indirectement son propre éloge, puisque le juriste italien lui propose, comme
+                    les <hi rend="italic">Mémoires</hi> le racontent ensuite, de lire « en sa
+                    place » et rédige une lettre de compliments à l’attention de Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes.</p>
                 <p>On peut faire l’hypothèse que la fin de la phrase est retravaillée de la manière
                     suivante : ajout du « <seg corresp="#f19v01_de2_add" facs="#f19v01_i_de2"
@@ -124,8 +125,7 @@
                         facs="#f19v01_i_temps01">temps</seg> », quant à lui, est d’abord remplacé
                     par « <seg corresp="#f19v01_siecle" facs="#f19v01_i_siecle">siecle</seg> », pour
                     être finalement <seg corresp="#f19v01_temps02" facs="#f19v01_i_temps02"
-                        >rétabli</seg>.</p>
-            </note>
-        </body>
+                        >rétabli</seg>.</p></note>
+        </back>
     </text>
 </TEI>

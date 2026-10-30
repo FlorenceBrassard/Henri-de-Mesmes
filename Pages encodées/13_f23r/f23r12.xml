@@ -54,7 +54,7 @@
                     </choice>oit grosse armée en <placeName ref="Q1190"><choice>
                             <orig>l</orig>
                             <reg>L</reg>
-                        </choice>imosin</placeName>
+                        </choice>imosin</placeName><ptr xml:id="f23r12_comment_01"/>
                     <choice>
                         <orig>,</orig>
                         <reg>.</reg>
@@ -81,7 +81,7 @@
                         <choice>
                             <abbr>8<hi rend="superscript">bre</hi></abbr>
                             <expan>octobre</expan>
-                        </choice> 1568</date>.</s>
+                        </choice> 1568</date><ptr xml:id="f23r12_comment_02"/>.</s>
                 <s>Je fus<anchor xml:id="f23r12_fus"/><subst>
                         <del>puys</del>
                         <add><del>et</del> quelques mois apres</add>
@@ -91,7 +91,8 @@
                     </choice>ne diete im<choice>
                         <abbr><g ref="par-glyph">ꝑ</g></abbr>
                         <expan>per</expan>
-                    </choice>iale, et finalement retenu au <orgName>conseil du matin</orgName> o<choice>
+                    </choice>iale<ptr xml:id="f23r12_comment_03"/>, et finalement retenu au
+                    <orgName>conseil du matin</orgName><ptr xml:id="f23r12_comment_04"/> o<choice>
                         <orig>u i</orig>
                         <reg>ù j'</reg>
                     </choice>entrois quand on traictoit des <choice>
@@ -103,12 +104,13 @@
                                 <orig>v</orig>
                                 <reg>u</reg>
                             </choice>n temps</add>
-                    </subst> debout messieurs <persName ref="Q3340885"><nameLink>de</nameLink>
+                    </subst> debout<ptr xml:id="f23r12_comment_05"/> messieurs <persName
+                        ref="Q3340885"><nameLink>de</nameLink>
                         <surname>Rambouillet</surname>
                         <roleName>l<choice>
                                 <orig/>
                                 <reg>'</reg>
-                            </choice>aisné,</roleName>l<choice>
+                            </choice>aisné<ptr xml:id="f23r12_comment_06"/>,</roleName>l<choice>
                             <orig/>
                             <reg>'</reg>
                         </choice></persName>
@@ -117,30 +119,63 @@
                         <surname><choice>
                                 <orig>b</orig>
                                 <reg>B</reg>
-                            </choice>ouchetel</surname></persName> et moy.</s></ab>
-            <note resp="AV" type="genetic">
-                <p>La naissance de Judith de Mesmes est <seg corresp="#f23r12_durant_fus"
-                        facs="#f23r12_i_durant_fus">mentionnée en marge</seg>, de manière incidente.
-                    Par contraste avec les venues au monde de Renée et de Jean-Jacques, elle paraît
-                    secondaire : les <hi rend="italic">Mémoires</hi>, qui se font parfois livre de
-                    raison, tiennent ici en retrait le récit familial. Ce phénomène ne tient <hi
-                        rend="italic">a priori</hi> pas à la densité du récit de carrière : Henri
-                    de Mesmes semble également très sollicité au moment de la naissance de ses deux
-                    premiers enfants, et il est même absent lors de la naissance de son aînée. La
-                    moindre importance accordée à Judith pourrait s’expliquer par le genre de
-                    l’enfant et par sa place dans la fratrie – une fille, une cadette. Elle pourrait
-                    également être liée à un moindre investissement affectif du mémorialiste,
-                    comparativement à celui que laissent transparaître l’évocation de la mort
-                    prématurée de Renée et les allusions à la réussite professionnelle de
-                    Jean-Jacques.</p>
-            </note>
-            <note resp="AV" type="critic">
-                <p>Les copies manuscrites ne donnent pas <seg corresp="#f23r12_ix"
-                        facs="#fr23r12_i_ix">le chiffre 9</seg> pour préciser le jour de naissance
-                    de Judith de Mesmes, qui est pourtant bien lisible dans l’ajout (voir
-                    Français 18617, f. 17v<hi rend="superscript">o</hi> et Duchesne 57, f. 63r<hi
-                        rend="superscript">o</hi>).</p>
-            </note>
+                            </choice>ouchetel</surname></persName><ptr xml:id="f23r12_comment_07"/>
+                    et moy.</s></ab>
         </body>
+        <back>
+            <note resp="AV" type="comment" target="f23r12_comment_01"><p>Louis I<hi
+                        rend="superscript">er</hi> de Bourbon (1530-1569), prince de Condé, figure
+                    de proue du parti protestant. Après l’infructueux siège de Chartres et la
+                    signature de la paix de Longjumeau, il se replie à La Rochelle en septembre
+                    1568, où il rejoint, entre autres, Gaspard de Coligny. Catherine de Médicis
+                    cherche alors à préserver la paix et à rassurer les deux chefs protestants, la
+                    rumeur voulant que la monarchie ait cherché à les éliminer (Gellard, 2017,
+                    § 10-13). </p></note>
+            <note resp="AV" type="comment" target="f23r12_comment_02"><p>Judith de Mesmes. Elle
+                    épousera Jacques Barillon, seigneur de Mancy, conseiller au Parlement de Paris
+                    (Frémy, éd. des <hi rend="italic">Mémoires</hi>, p. 127-128, note 1 ; Trani,
+                    1991, p. 186).</p></note>
+            <note resp="AV" type="comment" target="f23r12_comment_03"><p>Aucune diète impériale ne
+                    se tient en 1568, ni en 1569. Henri de Mesmes pourrait ainsi faire allusion à la
+                    préparation de la diète de 1570, qui s’est tenue de mai à décembre à Spire
+                    (Allemagne actuelle).</p></note>
+            <note resp="AV" type="comment" target="f23r12_comment_04"><p>Voir <hi rend="italic"
+                        >supra</hi>, note 76.</p></note>
+            <note resp="AV" type="comment" target="f23r12_comment_05"><p>La position debout signale
+                    une moindre importance dans l’ordre hiérarchique. </p></note>
+            <note resp="AV" type="comment" target="f23r12_comment_06"><p>Jacques II, aîné des fils
+                    de Jacques I<hi rend="superscript">er</hi> d’Angennes, seigneur de Rambouillet,
+                    meurt en août 1568. Il s’agit donc très probablement de Nicolas d’Angennes
+                    (1533-1611), capitaine des gardes du roi, conseiller de Charles IX puis proche
+                    d’Henri III (Le Roux, 2000). Henri de Mesmes cherche certainement à le
+                    distinguer de François d’Angennes, seigneur de Rambouillet, dit « Rambouillet le
+                    jeune », échanson de Charles IX entre 1560 et 1574 (<hi rend="italice">Cour de
+                        France</hi> [En ligne], « Les membres de la cour de France »).</p></note>
+            <note resp="AV" type="comment" target="f23r12_comment_07"><p>Bernardin Bochetel
+                    († 1570), secrétaire du roi. Il est nommé évêque de Rennes entre 1561 et 1565
+                    mais n’est pas sacré, et joue avant tout un rôle de diplomate. Au cours des
+                    années 1560, il est en mission dans l’Empire et auprès de l’Empereur. En 1568,
+                    il est envoyé en Angleterre avant de revenir en France en 1569 (Jouanna, Hamon
+                        <hi rend="italic">et al.</hi>, 2001, p. 640).</p></note>
+            <note resp="AV" type="genetic"><p>La naissance de Judith de Mesmes est <seg
+                        corresp="#f23r12_durant_fus" facs="#f23r12_i_durant_fus">mentionnée en
+                        marge</seg>, de manière incidente. Par contraste avec les venues au monde de
+                    Renée et de Jean-Jacques, elle paraît secondaire : les <hi rend="italic"
+                        >Mémoires</hi>, qui se font parfois livre de raison, tiennent ici en retrait
+                    le récit familial. Ce phénomène ne tient <hi rend="italic">a priori</hi> pas à
+                    la densité du récit de carrière : Henri de Mesmes semble également très
+                    sollicité au moment de la naissance de ses deux premiers enfants, et il est même
+                    absent lors de la naissance de son aînée. La moindre importance accordée à
+                    Judith pourrait s’expliquer par le genre de l’enfant et par sa place dans la
+                    fratrie – une fille, une cadette. Elle pourrait également être liée à un moindre
+                    investissement affectif du mémorialiste, comparativement à celui que laissent
+                    transparaître l’évocation de la mort prématurée de Renée et les allusions à la
+                    réussite professionnelle de Jean-Jacques.</p></note>
+            <note resp="AV" type="critic"><p>Les copies manuscrites ne donnent pas <seg
+                        corresp="#f23r12_ix" facs="#fr23r12_i_ix">le chiffre 9</seg> pour préciser
+                    le jour de naissance de Judith de Mesmes, qui est pourtant bien lisible dans
+                    l’ajout (voir Français 18617, f. 17v<hi rend="superscript">o</hi> et
+                    Duchesne 57, f. 63r<hi rend="superscript">o</hi>).</p></note>
+        </back>
     </text>
 </TEI>

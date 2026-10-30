@@ -53,7 +53,7 @@
                     </choice>ec tesmoignage public de <subst>
                         <del>sa</del>
                         <add>tres</add>
-                    </subst> bone renomée.</s>
+                    </subst> bone renomée<ptr xml:id="f23v04_comment_01"/>.</s>
                 <s><metamark facs="#f23v04_i_metamark01" function="insert" target="#f23v04_il_ans"
                         >+</metamark><add facs="#f23v04_i_il_ans" xml:id="f23v04_il_ans"
                             ><metamark>+</metamark>
@@ -67,6 +67,18 @@
                             <orig/>
                             <reg>'</reg>
                         </choice>eage de 80 ans.</add></s></ab>
+        </body>
+        <back>
+            <note resp="AV" type="comment" target="f23v03_comment_01"><p>Le poète Jean Passerat,
+                    proche d’Henri de Mesmes, rend hommage au défunt père de ce dernier par le biais
+                    de plusieurs épitaphes latines (Kalendae Januariae, Paris, Claude Morel, [1597]
+                    1606, p. 106-107). La première, la plus longue, célèbre sa carrière et ses
+                    vertus.</p></note>
+            <note resp="AV" type="comment" target="f23v03_comment_01"><p>La date est fausse et
+                    l’erreur du mémorialiste difficile à expliquer, mais le calcul est juste :
+                        Jean-Jacques I<hi rend="superscript">er</hi> de Mesmes est né en 1490 et non
+                    en 1410 (voir <hi rend="italic">supra</hi>, note 7) ; à sa mort, il a donc bien
+                    presque 80 ans.</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute, en marge, des <seg
                         corresp="#f23v04_il_ans" facs="#f23v04_i_il_ans">précisions</seg> qui
                     s’avèrent en partie erronées : Jean-Jacques I<hi rend="superscript">er</hi>
@@ -83,6 +95,6 @@
                     majeure conforte l’hypothèse selon laquelle les copistes n’ont pas eu accès,
                     dans les deux cas, au manuscrit autographe et qu’ils ont travaillé à partir de
                     différentes versions, mais ayant un ancêtre commun.</p></note>
-        </body>
+        </back>
     </text>
 </TEI>

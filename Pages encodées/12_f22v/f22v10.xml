@@ -40,10 +40,12 @@
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>esquit, et <death>est mort</death> apres luy.</del></s></ab>
+        </body>
+        <back>
             <note resp="AV" type="genetic"><p>Henri de Mesmes supprime cette phrase et les deux
                     précédentes par deux traits de plume. Le propos est repris dans le long ajout
                     marginal du haut de la page (voir f. 22r<hi rend="superscript">o</hi>,
                     seg. 6).</p></note>
-        </body>
+        </back>
     </text>
 </TEI>
