@@ -23,12 +23,12 @@
         <surface>
             <graphic
                 url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f49/710,3837,3146,1392/full/0/default.jpg"/>
-            <zone xml:id="f22r06_i_metamark1" points="1440,857 1337,947 1517,955"/>
+            <zone xml:id="f22r06_i_metamark1" points="1440,857 1337,947 1517,955"/>
             <zone xml:id="f22r06_i_et_courtiser" points="1440,712 1340,825 2075,817 2102,742"/>
-            <zone xml:id="f22r06_i_et" points="1453,689 1398,782 1555,772 1638,729"/>
+            <zone xml:id="f22r06_i_et" points="1453,689 1398,782 1555,772 1638,729"/>
             <zone xml:id="f22r06_i_et_ciuile" points="1495,832 5,1082 2190,1072 3142,810"/>
             <zone xml:id="f22r06_i_violance" points="1882,960 1840,1035 2337,1027 2355,952"/>
-            <zone xml:id="f22r06_i_metamark2" points="1637,1170 1545,1270 1730,1275"/>
+            <zone xml:id="f22r06_i_metamark2" points="1637,1170 1545,1270 1730,1275"/>
             <zone xml:id="f22r06_i_a_et" points="1510,1070 1437,1160 2112,1140 2112,1057"/>
             <zone xml:id="f22r06_i_ieter_troubles" points="2210,758 2094,905 3126,911 3116,795"/>
             <zone xml:id="f22r06_i_naimay_violance" points="826,953 789,1126 2321,1084 2326,958"/>
@@ -52,11 +52,11 @@
             <zone xml:id="f22r06_i_metamark3" points="1343,252 1352,367 1462,357 1452,252"/>
             <zone xml:id="f22r06_i_vous_naquites" points="977,677 977,832 2100,752 2117,615"/>
             <zone xml:id="f22r06_i_et_del" points="100,925 57,925 40,920 42,987 122,985"/>
-            <zone xml:id="f22r06_i_nommé_del" points="140,895 152,992 482,967 495,897"/>
+            <zone xml:id="f22r06_i_nommé_del" points="140,895 152,992 482,967 495,897"/>
             <zone xml:id="f22r06_i_et_add" points="387,827 390,915 535,907 527,817"/>
             <zone xml:id="f22r06_i_mon_pere_del" points="1150,835 1138,950 1618,935 1613,842"/>
             <zone xml:id="f22r06_i_mon_pere_add" points="610,810 615,900 900,882 890,800"/>
-            <zone xml:id="f22r06_i_nommé_add" points="1200,785 1200,870 1577,872 1572,750"/>
+            <zone xml:id="f22r06_i_nommé_add" points="1200,785 1200,870 1577,872 1572,750"/>
             <zone xml:id="f22r06_i_et_estudes" lry="439" lrx="2343" uly="291" ulx="1422"/>
             <zone xml:id="f22r06_i_vous_filz" lry="791" lrx="1648" uly="629" ulx="979"/>
             <zone xml:id="f22r06_i_nacquites" lry="776" lrx="2114" uly="612" ulx="1693"/>
@@ -78,7 +78,7 @@
             <zone xml:id="f22r06_i_leurs" points="162,2031 122,2100 301,2103 308,2034"/>
             <zone xml:id="f22r06_i_s1" points="385,2073 357,2157 424,2150 428,2074"/>
             <zone xml:id="f22r06_i_z" points="611,2039 660,2133 768,2106 736,2019"/>
-            <zone xml:id="f22r06_i_s_de" points="176,2930 157,3096 279,2988 563,2938"/>
+            <zone xml:id="f22r06_i_s_de" points="176,2930 157,3096 279,2988 563,2938"/>
             <zone xml:id="f22r06_i_s_yeulx" points="327,3068 289,3160 644,3136 647,3057"/>
             <zone xml:id="f22r06_i_ceulx" points="422,3025 417,3087 597,3076 622,3025"/>
             <zone xml:id="f22r06_i_filz" points="589,4233 558,4298 712,4276 714,4198"/>
@@ -455,7 +455,7 @@
         <back>
             <note resp="AV" type="comment" target="f22r06_comment_01"><p>Soit l’office de maître des
                     requêtes (voir <hi rend="italic">supra</hi>, note 61, p. #). Dans le manuscrit
-                    autographe, Henri de Mesmes a d’abord donné un motif explicitement en lien avec
+                    autographe, Henri de Mesmes a d’abord donné un motif explicitement en lien avec
                     les troubles : « ne me pas jeter aux troubles pource que je n’ai[may] jamais <subst>
                         <del>la violance</del>
                         <add>guerre ciuile</add>
@@ -463,20 +463,20 @@
                     seg. #).</p></note>
             <!--- Potentiel problème de rendu dans l'édition papier du fait des balises génétiques ? -->
             <note resp="AV" type="comment" target="f22r06_comment_02"><p>Dreux Hennequin, seigneur
-                    d’Assy, frère cadet du beau-père d’Henri de Mesmes, président de la Chambre des
-                    comptes, décédé en 1550 (Moreri <hi rend="italic">et al</hi>., 1749, t. V,
-                    p. 579) ou bien en 1551 (Fisquet, 1863, p. 81).</p></note>
-            <note resp="AV" type="comment" target="f22r06_comment_03"><p>Anne Hennequin († 1551),
-                    épouse de Jean Luillier, seigneur de Boulancourt, également président de la
+                    d’Assy, frère cadet du beau-père d’Henri de Mesmes, président de la Chambre des
+                    comptes, décédé en 1550 (Moreri <hi rend="italic">et al</hi>., 1749, t. V,
+                    p. 579) ou bien en 1551 (Fisquet, 1863, p. 81).</p></note>
+            <note resp="AV" type="comment" target="f22r06_comment_03"><p>Anne Hennequin († 1551),
+                    épouse de Jean Luillier, seigneur de Boulancourt, également président de la
                     Chambre des comptes.</p></note>
-            <note resp="AV" type="comment" target="f22r06_comment_04"><p>Nicolas Hennequin († 1569),
+            <note resp="AV" type="comment" target="f22r06_comment_04"><p>Nicolas Hennequin († 1569),
                     seigneur de Cury, prieur de Saint-Phal et président aux enquêtes du Parlement de
-                    Paris. Henri de Mesmes laisse entendre qu’il souffrait de cécité (Frémy, éd. des
+                    Paris. Henri de Mesmes laisse entendre qu’il souffrait de cécité (Frémy, éd. des
                         <hi rend="italic">Mémoires</hi>, p. 163, note 1).</p></note>
             <note resp="AV" type="comment" target="f22r06_comment_05"><p>L’église Saint-Merry (ou
                     Marri), située sur l’actuelle rue Saint Martin, dans le 4<hi rend="superscript"
-                        >e</hi> arrondissement de Paris. L’édifice encore aujourd’hui visible est
-                    achevé en 1565. L’hôtel des De Mesmes est situé rue de Jouy, comme le
+                        >e</hi> arrondissement de Paris. L’édifice encore aujourd’hui visible est
+                    achevé en 1565. L’hôtel des de Mesmes est situé rue de Jouy, comme le
                     mémorialiste l’évoque plus tard (voir <hi rend="italic">infra</hi>,
                 p. #).</p></note>
             <note resp="AV" type="genetic"><p>La substitution du bas du f. 22r<hi rend="superscript"

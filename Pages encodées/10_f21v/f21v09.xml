@@ -26,7 +26,7 @@
             <zone xml:id="f21v09_i_et" points="1100,665 1074,756 1218,721 1218,652"/>
             <zone xml:id="f21v09_i_sr" points="1352,1052 1265,1143 1300,1152 1405,1060"/>
             <zone xml:id="f21v09_i_metamark01" points="1396,1043 1335,1130 1426,1130"/>
-            <zone xml:id="f21v09_i_baron" points="1257,986 1257,1060 1548,1039 1526,947"/>
+            <zone xml:id="f21v09_i_baron" points="1257,986 1257,1060 1548,1039 1526,947"/>
             <zone xml:id="f21v09_i_vieilles_add" points="505,1600 500,1695 761,1678 787,1586"/>
             <zone xml:id="f21v09_i_vieilles_del" points="1648,1573 1652,1713 2105,1700 2131,1569"/>
             <zone xml:id="f21v09_i_metamark02" points="474,1691 431,1804 540,1808"/>
@@ -36,13 +36,13 @@
             <zone xml:id="f21v09_i_aussans_undo" points="2213,1791 2200,1865 1752,1860 1757,1821"/>
             <zone xml:id="f21v09_i_aussans" points="1826,1756 1779,1839 2192,1808 2170,1721"/>
             <zone xml:id="f21v09_i_et_Montalcino" points="26,869 22,1000 1700,869 1696,786"/>
-            <zone xml:id="f21v09_i_et_Mole" points="1592,1969 1579,2047 1944,2026 1926,1921"/>
+            <zone xml:id="f21v09_i_et_Mole" points="1592,1969 1579,2047 1944,2026 1926,1921"/>
             <zone xml:id="f21v09_i_qui_qui" points="1783,2030 1752,2191 2548,2095 2535,1969"/>
             <zone xml:id="f21v09_i_a_grossetto" points="2105,1939 2105,2026 2465,1991 2457,1900"/>
         </surface>
         <surface>
             <graphic url="f21v09.jpg"/>
-            <zone xml:id="f21v09_i_et_Mole" points="1592,1969 1579,2047 1944,2026 1926,1921"/>
+            <zone xml:id="f21v09_i_et_Mole" points="1592,1969 1579,2047 1944,2026 1926,1921"/>
             <zone xml:id="f21v09_i_qui_qui" points="1783,2030 1752,2191 2548,2095 2535,1969"/>
             <zone xml:id="f21v09_i_a_grossetto" points="2105,1939 2105,2026 2465,1991 2457,1900"/>
         </surface>
@@ -271,23 +271,23 @@
         <back>
             <note resp="AV" type="comment" target="f21v09_comment_01"><p>Le Palazzo Altesi, près de
                     Montalcino (Courteault, 1907, p. 335). Il est attaqué par les troupes françaises
-                    entre le 29 avril et le 3 mai 1557 (<hi rend="italic">ibid</hi>., p. 335).
+                    entre le 29 avril et le 3 mai 1557 (<hi rend="italic">ibid</hi>., p. 335).
                     Monluc raconte la périlleuse prise de cette « forteresse », ainsi que celles de
                     « trois ou quatre » châteaux alentours, qu’il a lui-même conduites (<hi
-                        rend="italic">Commentaires</hi>, éd. citée, p. 406-409). À aucun moment, il
-                    n'évoque l'implication d'Henri de Mesmes dans ces entreprises militaires. Comme
-                    l’écrit élégamment P. Courteault, « il semble […] que le jeune capitaine de
+                        rend="italic">Commentaires</hi>, éd. citée, p. 406-409). À aucun moment, il
+                    n'évoque l'implication d'Henri de Mesmes dans ces entreprises militaires. Comme
+                    l’écrit élégamment P. Courteault, « il semble […] que le jeune capitaine de
                     justice […] a voulu rehausser son court séjour au-delà des monts d’un brin de
                     laurier usurpé » (1907, p. 335).</p></note>
-            <note resp="AV" type="comment" target="f21v09_comment_02"><p>Philippe II (1527-1598),
+            <note resp="AV" type="comment" target="f21v09_comment_02"><p>Philippe II (1527-1598),
                     fils aîné de Charles Quint, qui hérite progressivement des différents titres de
-                    ce dernier. Il est notamment fait roi de Naples et de Sicile à partir d’octobre
-                    1554, puis roi d’Espagne à partir de janvier 1556.</p></note>
-            <note resp="AV" type="comment" target="f21v09_comment_03"><p>Certainement Bertrand de
-                    Montesquiou († 1593), seigneur de La Serre. Il est le lieutenant de la compagnie
-                    de chevaux-légers de Monluc (<hi rend="italic">Commentaires</hi>, éd. Courtault,
-                    p. 391 ; p. 1126, note 5).</p></note>
-            <note resp="AV" type="comment" target="f21v09_comment_04"><p>Charles de Bassompierre,
+                    ce dernier. Il est notamment fait roi de Naples et de Sicile à partir
+                    d’octobre 1554, puis roi d’Espagne à partir de janvier 1556.</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_03"><p>Certainement Bertrand
+                    de Montesquiou († 1593), seigneur de La Serre. Il est le lieutenant de la
+                    compagnie de chevaux-légers de Monluc (<hi rend="italic">Commentaires</hi>,
+                    éd. Courtault, p. 391 ; p. 1126, note 5).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_04"><p>Charles de Bassompierre,
                     commissaire de l’artillerie (Monluc, <hi rend="italic">Commentaires</hi>,
                     éd. citée, p. 388).</p></note>
             <note resp="AV" type="comment" target="f21v09_comment_05"><p>Francesco Chiaramonti,
@@ -298,33 +298,33 @@
                     gouverneur de Montepescali (Monluc, <hi rend="italic">Commentaires</hi>, éd.
                     citée, p. 405).</p></note>
             <note resp="AV" type="comment" target="f21v09_comment_07"><p>Bertrand d’Esparbès,
-                    seigneur de Lussan, capitaine français. Il meurt en juin 1557 près de Pianza
+                    seigneur de Lussan, capitaine français. Il meurt en juin 1557 près de Pianza
                     (Monluc, <hi rend="italic">Commentaires</hi>, éd. citée, p. 396).</p></note>
-            <note resp="AV" type="comment" target="f21v09_comment_08"><p>Pierre de Forest, seigneur
-                    de Blacons, capitaine français (Monluc, <hi rend="italic">Commentaires</hi>,
+            <note resp="AV" type="comment" target="f21v09_comment_08"><p>Pierre de Forest, seigneur
+                    de Blacons, capitaine français (Monluc, <hi rend="italic">Commentaires</hi>,
                     éd. citée, p. 395).</p></note>
-            <note resp="AV" type="comment" target="f21v09_comment_09"><p>Laurent de Saint-Marcel
-                    († 1566), seigneur d’Avanson, capitaine français, souvent cité dans les
-                    délibérations de la République de Montalcino (Monluc, <hi rend="italic"
+            <note resp="AV" type="comment" target="f21v09_comment_09"><p>Laurent
+                    de Saint-Marcel († 1566), seigneur d’Avanson, capitaine français, souvent cité
+                    dans les délibérations de la République de Montalcino (Monluc, <hi rend="italic"
                         >Commentaires</hi>, éd. citée, p. 396 ; p. 1131, note 2).</p></note>
-            <note resp="AV" type="comment" target="f21v09_comment_10"><p>Louis de Castellane, baron
-                    d’Entrecasteaux, comte de Grignan, capitaine français. Comme l’écrit ensuite
-                    Henri de Mesmes, il est bien le neveu du cardinal de Tournon et il est fait
-                    chevalier de l’ordre du Saint-Esprit en 1584 (Sainte-Foix, 1760,
+            <note resp="AV" type="comment" target="f21v09_comment_10"><p>Louis de Castellane, baron
+                    d’Entrecasteaux, comte de Grignan, capitaine français. Comme l’écrit ensuite
+                    Henri de Mesmes, il est bien le neveu du cardinal de Tournon et il est fait
+                    chevalier de l’ordre du Saint-Esprit en 1584 (Sainte-Foix, 1760,
                 p. 47).</p></note>
-            <note resp="AV" type="comment" target="f21v09_comment_11"><p>Jean de Monlezun, seigneur
-                    de Caussens, maître de camp des compagnies de gens de pied gascons († 1573)
+            <note resp="AV" type="comment" target="f21v09_comment_11"><p>Jean de Monlezun, seigneur
+                    de Caussens, maître de camp des compagnies de gens de pied gascons († 1573)
                     (Monluc, <hi rend="italic">Commentaires</hi>, éd. citée, p. 411).</p></note>
             <note resp="AV" type="comment" target="f21v09_comment_12"><p>Jacques Prévost († 1563),
-                    seigneur de Charry, capitaine français et homme de confiance de Monluc. Ce
+                    seigneur de Charry, capitaine français et homme de confiance de Monluc. Ce
                     dernier le célèbre fréquemment pour sa bravoure. Il lui confie la ville de
                     Montalcino durant l’attaque de Pienza (Monluc, <hi rend="italic"
-                        >Commentaires</hi>, éd. citée, p. 396 ; p. 221, note 1).</p></note>
-            <note resp="AV" type="comment" target="f21v09_comment_13"><p>Joseph de Boniface
-                    (v. 1547-1574), seigneur de La Môle. Il est nommé gouverneur de Grosseto, située
-                    à un peu plus de 50 km au nord-ouest de Montalcino, au cœur de la région de la
-                    Maremme. Henri de Mesmes serait intervenu auprès du duc de Guise pour que La
-                    Môle obtienne la place de Monluc, en vain (Monluc, <hi rend="italic"
+                        >Commentaires</hi>, éd. citée, p. 396 ; p. 221, note 1).</p></note>
+            <note resp="AV" type="comment" target="f21v09_comment_13"><p>Joseph
+                    de Boniface (v. 1547-1574), seigneur de La Môle. Il est nommé gouverneur de
+                    Grosseto, située à un peu plus de 50 km au nord-ouest de Montalcino, au cœur de
+                    la région de la Maremme. Henri de Mesmes serait intervenu auprès du duc de Guise
+                    pour que La Môle obtienne la place de Monluc, en vain (Monluc, <hi rend="italic"
                         >Commentaires</hi>, éd. citée, p. 399).</p></note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes ajoute quelques précisions à cette
                     longue phrase qui célèbre sa prétendue action militaire : emplacement du Palazzo

@@ -59,7 +59,7 @@
         <surface>
             <graphic
                 url="https://api.nakala.fr/iiif/10.34847/nkl.78dchd97/9cc1504f71b0200443f9176256c7dc295e1a58cb/828,754,1587,3122/full/0/default.jpg"/>
-            <zone xml:id="f22r04_i_aussy_1557" points="142,142 42,3058 1559,2900 1584,-8"/>
+            <zone xml:id="f22r04_i_aussy_1557" points="142,142 42,3058 1559,2900 1584,-8"/>
         </surface>
     </facsimile>
     <text>
@@ -96,7 +96,7 @@
                     <placeName ref="Q90"><choice>
                             <orig>p</orig>
                             <reg>P</reg>
-                        </choice>aris</placeName> le <date when="1558-07-18">18 juillet 155<subst>
+                        </choice>aris</placeName> le <date when="1558-07-18">18 juillet 155<subst>
                             <del rend="overwritten">7</del>
                             <add>8</add>
                         </subst></date>
@@ -233,7 +233,7 @@
                         <choice>
                             <orig>M</orig>
                             <reg>m</reg>
-                        </choice>ars 1557.</date><anchor xml:id="f22r04_1557"/></s>
+                        </choice>ars 1557.</date><anchor xml:id="f22r04_1557"/></s>
                 <s><subst>
                         <del facs="#f22r04_i_et" xml:id="f22r04_et"><choice>
                                 <orig>e</orig>
@@ -273,14 +273,14 @@
                     </choice>année precedente<ptr xml:id="f22r04_comment_03"/>.</s></ab>
         </body>
         <back>
-            <note resp="AV" type="comment" target="f22r04_comment_01"><p>Renée de Mesmes
-                    (1557-1562). Son décès accidentel précoce fait l’objet d’une évocation émue dans
-                    la suite des <hi rend="italic">Mémoires</hi> (voir <hi rend="italic">infra</hi>,
-                    p. #).</p></note>
+            <note resp="AV" type="comment" target="f22r04_comment_01"><p>Renée
+                    de Mesmes (1557-1562). Son décès accidentel précoce fait l’objet d’une évocation
+                    émue dans la suite des <hi rend="italic">Mémoires</hi> (voir <hi rend="italic"
+                        >infra</hi>, p. #).</p></note>
             <note resp="AV" type="comment" target="f22r04_comment_02"><p>Jeanne Michon
                     (v. 1525-1557), fille de Charles Michon, conseiller auprès du trésor royal, et
                     de Marguerite Chambellan. Elle décède à l’âge de 33 ans.</p></note>
-            <note resp="AV" type="comment" target="f22r04_comment_03"><p>Le 10 août 1557, jour de la
+            <note resp="AV" type="comment" target="f22r04_comment_03"><p>Le 10 août 1557, jour de la
                     Saint-Laurent, l’armée française est écrasée par les troupes savoyardes et
                     espagnoles près de Saint-Quentin. Cette défaite contraint la France à abandonner
                     sa politique d’ingérence en Italie.</p></note>
