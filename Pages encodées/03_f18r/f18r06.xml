@@ -31,7 +31,7 @@
          <ab>A<choice>
                <orig>u</orig>
                <reg>v</reg>
-            </choice>ec luy et <roleName>mon frere puisné</roleName>
+            </choice>ec luy et mon frere puisné<ptr xml:id="f18r06_gloss_01"/>
             <persName><forename full="init"><choice>
                      <abbr>I. I.</abbr>
                      <expan>Jean-Jacques</expan>
@@ -58,6 +58,9 @@
                xml:id="f18r06_comment_03"/>.</ab>
       </body>
       <back>
+         <div type="glossary">
+            <note resp="AV" type="gloss" target="f18r06_gloss_01"><p>Cadet.</p></note>
+         </div>
          <note resp="AV" type="comment" target="f18r06_comment_01"><p>Jean-Jacques de Mesmes,
                seigneur des Arches. Il entre au Grand Conseil en avril 1556, devient maître des
                requêtes en novembre 1565 – charge qu’il résigne en 1575 –, puis président au Grand

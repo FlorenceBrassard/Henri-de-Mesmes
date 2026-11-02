@@ -55,7 +55,7 @@
                     </subst> premiers ans fort celebre <subst>
                         <del>pour ses</del>
                         <add>ez</add>
-                    </subst>lectures <subst>
+                    </subst><ptr xml:id="f17v03_gloss_01"/> lectures <subst>
                         <del>en</del>
                         <add>du</add>
                     </subst> droict ci<choice>
@@ -135,7 +135,8 @@
                         <forename>Henry</forename>
                         <nameLink>de</nameLink>
                         <placeName ref="Q111628725">Navarre</placeName></persName> son filz<ptr
-                        xml:id="f17r06_comment_05"/>.<s/>
+                        xml:id="f17r06_comment_05"/>.</s>
+                    <s>
                     <choice>
                         <orig>q</orig>
                         <reg>Q</reg>
@@ -149,6 +150,9 @@
                     </choice>une autre forme de vie.</s></ab>
         </body>
         <back>
+            <div type="glossary">
+                <note resp="AV" type="gloss" target="f17v03_gloss_01"><p>En ses, par ses.</p></note>
+            </div>
             <note resp="AV" type="comment" target="f17v03_comment_01"><p>Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes enseigne à l’université de Toulouse (Le
                     Flem, 1972, p. 130).</p></note>

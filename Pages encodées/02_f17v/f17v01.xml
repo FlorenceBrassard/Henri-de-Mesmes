@@ -115,14 +115,18 @@
                </subst> aux <choice>
                   <abbr rend="overlined">lres</abbr>
                   <expan>letres</expan>
-               </choice> estant fort delié en <del>sa</del>
+               </choice> estant fort delié<ptr xml:id="f17v01_gloss_01"/> en <del>sa</del>
                <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>eunesse<ptr xml:id="f17v01_ieunesse"/>. <substJoin
+               </choice>eunesse<anchor xml:id="f17v01_ieunesse"/>. <substJoin
                   target="f17v01_ainsy_ieunesse 17v01_a_ieunesse"/></s></ab>
       </body>
       <back>
+         <div type="glossary">
+            <note resp="AV" type="gloss" target="f17v01_gloss_01"><p>Frêle, mais aussi fin,
+                  intelligent.</p></note>
+         </div>
          <note resp="AV" type="comment" target="f17r06_comment_01"><p>Jean-Jacques I<hi
                   rend="superscript">er</hi> de Mesmes serait né en mai 1490 à Roquefort (Le Flem,
                1972, p. 130).</p></note>

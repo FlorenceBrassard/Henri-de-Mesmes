@@ -60,7 +60,7 @@
                   target="#f18r09_au_regle2 #f18r09_de_vie #f18r09_a_discipline"/> scolasti<choice>
                   <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
-               </choice> pour nous f<choice>
+               </choice><ptr xml:id="f18r09_gloss_01"/> pour nous f<choice>
                   <abbr>e<hi rend="superscript">r</hi></abbr>
                   <expan>aire</expan>
                </choice> en <choice>
@@ -78,6 +78,9 @@
                   </choice></del>eau courante.</s></ab>
       </body>
       <back>
+         <div type="glossary">
+            <note resp="AV" type="gloss" target="f18r09_gloss_01"><p>De l'école.</p></note>
+         </div>
          <note resp="FB" type="genetic"><p>La suppression de « seuerité » n’est pas clairement
                marquée, même si le soulignement peut être considéré une rature maladroite. Elle
                semble toutefois nécessaire en vertu des nombreux quasi-synonymes qui ont été ajoutés
@@ -85,7 +88,7 @@
                en un seul mot, celui de « discipline ». Il semble que la recherche d'allitérations
                (« mignardises »/« maison ») ait guidé le choix du vocabulaire à la fin de la
                phrase.</p></note>
-         <note resp="AV" type="critic"><p>É. Frémy ne donne pas « en partie » (éd. des <hi
+         <note resp="AV" type="critic"><p>É. Frémy ne donne pas « en partie » (éd. des <hi
                   rend="italic">Mémoires</hi>, p. 136).</p></note>
       </back>
    </text>

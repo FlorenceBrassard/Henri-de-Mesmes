@@ -133,7 +133,8 @@
                                     de</del>
                                 <add facs="#f17r02_i_les01" xml:id="f17r02_les01">les</add>
                             </subst> robe<add facs="#f17r02_i_s1" xml:id="f17r02_s_01">s</add>
-                                longue<add facs="#f17r02_i_s2" xml:id="f17r02_s_02">s</add>n<choice>
+                                longue<add facs="#f17r02_i_s2" xml:id="f17r02_s_02">s</add><ptr
+                                xml:id="f17r02_gloss_01"/> n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>ont pas mo<choice>
