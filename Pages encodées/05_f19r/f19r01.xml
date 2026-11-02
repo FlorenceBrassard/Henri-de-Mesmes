@@ -36,10 +36,12 @@
          <ab><s><choice>
                   <orig>p</orig>
                   <reg>P</reg>
-               </choice>uys <del>nous</del> venions <pb n="f19r"/>disner apres a<choice>
+               </choice>uys <del>nous</del> venions <pb n="f19r"/>disner<ptr
+                  xml:id="f19v01_gloss_01"/> apres a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>oir en haste conferé demie heure ce qu<choice>
+                  </choice>oir en haste conferé<pb n="f19r"/>disner<ptr
+                     xml:id="f19v01_gloss_02"/> demie heure ce qu<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>a<choice>
@@ -48,6 +50,10 @@
                </choice>ions escrit des lectures.</s></ab>
       </body>
       <back>
+         <div type="glossary">
+            <note resp="AV" type="gloss" target="f19v01_gloss_01"><p>Le repas du midi.</p></note>
+            <note resp="AV" type="gloss" target="f19v01_gloss_02"><p>Discuté, débattu.</p></note>
+         </div>
          <note resp="AV" type="genetic"><p><hi rend="italic"><hi rend="italic">Nota bene</hi> : La
                   fin du f. 18v<hi rend="superscript">o</hi> est ici transcrite et encodée avec le
                   début du f. 19r<hi rend="superscript">o</hi>, dont elle dépend.</hi></p></note>
