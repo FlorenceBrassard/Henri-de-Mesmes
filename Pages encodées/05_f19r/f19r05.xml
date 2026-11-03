@@ -70,15 +70,16 @@
                   <del>primes</del>
                   <add>eumes noz</add>
                </subst> heures pour lire aux <orgName>grandes escoles</orgName><ptr
-                  xml:id="f19r05_comment_02"/>, et leumes les autres trois ans entiers.</s>
+                  xml:id="f19r05_comment_02"/>, et leumes<ptr xml:id="f19r05_comment_01"/> les
+               autres trois ans entiers.</s>
             <s><choice>
                   <orig>p</orig>
                   <reg>P</reg>
                </choice>endant lesquels nous fre<choice>
                   <abbr><g ref="que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
-               </choice>ntions aux festes les disputes publiques<ptr xml:id="f19r05_comment_03"/>,
-               et <choice>
+               </choice>ntions aux festes<ptr xml:id="f19r05_gloss_02"/> les disputes publiques<ptr
+                  xml:id="f19r05_comment_03"/>, et <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e n<choice>
@@ -89,10 +90,16 @@
                   <add>guiere</add>
                </subst> passer sens quelque essai <add>de mes <subst>
                      <del>estudes</del>
-                     <add>debiles forces</add>
+                     <add>debiles<ptr xml:id="f19r05_gloss_03"/> forces</add>
                   </subst></add>.</s></ab>
       </body>
       <back>
+         <div type="glossary">
+            <note resp="AV" type="gloss" target="f19r04_gloss_01"><p>Lûmes (<hi rend="italic"
+                     >lire</hi>).</p></note>
+            <note resp="AV" type="gloss" target="f19r04_gloss_02"><p>Fêtes.</p></note>
+            <note resp="AV" type="gloss" target="f19r04_gloss_03"><p>Fragiles.</p></note>
+         </div>
          <note resp="AV" type="comment" target="f19r05_comment_01"><p>L’école des <hi rend="italic"
                   >Institutes</hi>, du nom du manuel de droit romain rédigé à la demande de
                   Justinien I<hi rend="superscript">er</hi> (VI<hi rend="superscript"

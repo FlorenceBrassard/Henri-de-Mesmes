@@ -123,8 +123,8 @@
                         </choice>res</add> les lieus allegu<choice>
                         <orig>e</orig>
                         <reg>é</reg>
-                    </choice>s <del facs="#f19r02_i_dens_les_liures" xml:id="f19r02_dens_les_livres"
-                        >dens les li<choice>
+                    </choice>s<ptr xml:id="f19r02_gloss_01"/>
+                    <del facs="#f19r02_i_dens_les_liures" xml:id="f19r02_dens_les_livres">dens les li<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>res</del>
@@ -146,6 +146,12 @@
                     </subst><del rend="unmarked">.</del></s></ab>
         </body>
         <back>
+            <div type="glossary">
+                <note resp="AV" type="gloss" target="f19r02_gloss_01"><p>Les passages
+                    cités.</p></note>
+                <note resp="AV" type="gloss" target="f19r02_gloss_01"><p>Six heures du
+                    soir.</p></note>
+            </div>
             <note resp="AV" type="comment" target="f19r06_comment_01"><p>Sophocle, Euripide et
                     Aristophane, dont les œuvres tragiques se prêtent à la mise en voix, voire à la
                     mise en scène. Les collèges humanistes sont un lieu privilégié d’activités
