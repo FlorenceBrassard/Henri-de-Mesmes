@@ -136,7 +136,7 @@
                         <nameLink>de</nameLink>
                         <placeName ref="Q111628725">Navarre</placeName></persName> son filz<ptr
                         xml:id="f17r06_comment_05"/>.</s>
-                    <s>
+                <s>
                     <choice>
                         <orig>q</orig>
                         <reg>Q</reg>
@@ -151,11 +151,16 @@
         </body>
         <back>
             <div type="glossary">
-                <note resp="AV" type="gloss" target="f17v03_gloss_01"><p>En ses, par ses.</p></note>
+                <note resp="AV" type="gloss" target="f17v03_gloss_01"><p>En ses, grâce à ses.</p></note>
             </div>
-            <note resp="AV" type="comment" target="f17v03_comment_01"><p>Jean-Jacques I<hi
-                        rend="superscript">er</hi> de Mesmes enseigne à l’université de Toulouse (Le
-                    Flem, 1972, p. 130).</p></note>
+            <note resp="AV" type="comment" target="f17v03_comment_01"><p>Jean-Jacques I<hi
+                        rend="superscript">er</hi> de Mesmes enseigne quelque temps à l’université
+                    de Toulouse dans la foulée de sa formation, mais entre au service de la Navarre
+                    dès 1516 (voir <hi rend="italic">supra</hi>, note 7), à l’âge de 26 ans. Ces
+                    « quinze ou vingt ans » de lecture du droit civil sont donc hyperboliques ;
+                    elles pourraient plus justement décrire la durée du « compagnonnage » avec Dèce
+                    et Alciat.</p></note>
+            <!-- correction majeure -->
             <note resp="AV" type="comment" target="f17v03_comment_02"><p>Filippo Decio, dit Philippe
                     Dèce (1454-1535), éminent juriste italien. Il enseigne à l’université de Valence
                     entre 1513 et 1515.</p></note>

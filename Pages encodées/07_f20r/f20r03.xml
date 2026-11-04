@@ -234,14 +234,15 @@
                     <choice>
                         <orig>d</orig>
                         <reg>D</reg>
-                    </choice>ieu le <date when="1553-01-14">dymanche <choice>
+                    </choice>ieu le <date when="1554-01-14">dymanche <choice>
                             <orig>xiiij<hi rend="superscript">e</hi> J</orig>
                             <reg>14 j</reg>
                         </choice>an<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>ier <del>155</del>
-                        <hi rend="overlined">1553</hi></date> aiant esté 23 ans et 2 mois en mariage du<choice>
+                        <hi rend="overlined">1553</hi></date><ptr xml:id="f20r03_comment_04"/> aiant
+                    esté 23 ans et 2 mois en mariage du<choice>
                         <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                         <expan>que</expan>
                     </choice>l elle a<choice>
@@ -262,7 +263,7 @@
                     </choice>oient <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> son trespas<ptr xml:id="f20r03_comment_04"/>.</s></ab>
+                    </choice> son trespas<ptr xml:id="f20r03_comment_05"/>.</s></ab>
         </body>
         <back>
             <note resp="AV" type="comment" target="f20r01_comment_01"><p>Voir <hi rend="italic"
@@ -277,7 +278,9 @@
                         rend="superscript">er</hi> février 1553 (1554 en « nouveau style ») est
                     signée par le « vicomte de Roissy » (Archives nationales,
                 1554-02-01/1).</p></note>
-            <note resp="AV" type="comment" target="f20r01_comment_04"><p>Parmi ces onze enfants, on
+            <note resp="AV" type="comment" target="f20r01_comment_04"><p>Soit 1554 en nouveau
+                    style.</p></note>
+            <note resp="AV" type="comment" target="f20r01_comment_05"><p>Parmi ces onze enfants, on
                     connaît Jean-Jacques de Mesmes, seigneur d’Arches et de Langle, avec qui le
                     mémorialiste a été éduqué ; Jean-Gabriel de Mesmes, conseiller au Parlement de
                     Paris ; Antoinette de Mesmes, épouse de François d’Elbène, seigneur de L’Épine ;
