@@ -55,7 +55,9 @@
          <ab><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
-               </choice>n fin des six ans <del>ap</del> nous teismes <choice>
+               </choice>n fin des six ans <del>ap</del> nous teismes<note resp="AV" type="gloss"
+                  >Tînmes (<hi rend="italic">tenir</hi>).</note>
+               <choice>
                   <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                   <expan>con</expan>
                </choice>clusions publiques<ptr xml:id="f19r06_comment_01"/> par deux fois
@@ -65,7 +67,9 @@
                </choice> une apres disnée a<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>ec <seg xml:id="f19r06_catedran">catedran</seg><supplied>,</supplied> la <choice>
+               </choice>ec <seg xml:id="f19r06_catedran">catedran</seg><note resp="AV" type="gloss"
+                  >En présence d’une autorité (de cathèdre, siège de l’évêque ou du
+                  professeur).</note><supplied>,</supplied> la <choice>
                   <orig>ii</orig>
                   <reg>2</reg>
                </choice><hi rend="superscript">e</hi>
@@ -91,10 +95,12 @@
                   <add>aporter</add>
                </subst> autant de <subst>
                   <del facs="#f19r06_i_force" xml:id="f19r06_force">force</del>
-                  <add facs="#f19r06_i_suffisance" xml:id="f19r06_suffisance">suffisance</add>
+                  <add facs="#f19r06_i_suffisance" xml:id="f19r06_suffisance">suffisance<note
+                        resp="AV" type="gloss">Compétence.</note></add>
                </subst> que de <subst>
                   <del facs="#f19r06_i_cueur" xml:id="f19r06_cueur">cueur</del>
-                  <add facs="#f19r06_i_confidance" xml:id="f19r06_confidance">confidance</add>
+                  <add facs="#f19r06_i_confidance" xml:id="f19r06_confidance">confidance<note
+                        resp="AV" type="gloss">Confiance.</note></add>
                </subst><substJoin
                   target=" #f19r06_force #f19r06_suffisance #f19r06_cueur #f19r06_confidance"/>.</s>
             <metamark facs="#f19r06_i_metamark" function="insert" target="#f19r06_en_france"
@@ -159,7 +165,7 @@
                   </choice>a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
-                  </choice>oit ouy a<choice>
+                  </choice>oit ouy<note resp="AV" type="gloss">Ouï, entendu.</note> a<choice>
                      <orig>u</orig>
                      <reg>v</reg>
                   </choice>ec le <persName ref="Q1348795"><roleName><choice>
@@ -222,11 +228,6 @@
                      </choice></add></s></add></ab>
       </body>
       <back>
-         <div type="glossary">
-            <note resp="AV" type="gloss" target="f19r06_gloss_01"><p>.</p></note>
-            <note resp="AV" type="gloss" target="f19r06_gloss_02"><p>.</p></note>
-            <note resp="AV" type="gloss" target="f19r06_gloss_03"><p>.</p></note>
-         </div>
          <note resp="AV" type="comment" target="f19r06_comment_01"><p>Les conclusions publiques
                correspondent à une soutenance : elles viennent marquer le terme de la formation et
                permettent l’obtention du diplôme. Elles peuvent durer plusieurs jours. Henri

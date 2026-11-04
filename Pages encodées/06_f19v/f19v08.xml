@@ -92,7 +92,8 @@
                     </choice> la cour a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec le garde des seaus <subst>
+                    </choice>ec le garde des seaus<note resp="AV" type="gloss">Sceaux.</note>
+                    <subst>
                         <del facs="#f19v08_i_bertrandy"><persName ref="Q3175280"><surname><choice>
                                         <abbr><g ref="#ber-glyph">ƀ</g></abbr>
                                         <expan>Ber</expan>

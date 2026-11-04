@@ -33,7 +33,8 @@
          <ab><s><choice>
                   <orig>e</orig>
                   <reg>E</reg>
-               </choice>t que <choice>
+               </choice>t que<note resp="AV" type="gloss">Ce que.</note>
+               <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e fey <del facs="#f19v03_i_et" xml:id="f19v03_et">et</del><add

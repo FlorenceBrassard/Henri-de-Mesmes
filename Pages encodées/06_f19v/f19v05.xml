@@ -92,8 +92,10 @@
                             agent="reliure"/>
                         <supplied cert="high">ole</supplied> vaquo<gap quantity="02" unit="char"
                             reason="illegible" agent="reliure"/>
-                        <supplied cert="high">it</supplied></add><substJoin
-                        target="#f19v05_a_et_2 #f19v05_car_vaquoit"/>.</s></ab>
+                        <supplied cert="high">it</supplied></add><note resp="AV" type="gloss">La
+                        même chose eut lieu à Orléans, mais pas à Poitiers, où l’école était
+                        vide.</note>
+                    <substJoin target="#f19v05_a_et_2 #f19v05_car_vaquoit"/>.</s></ab>
         </body>
         <back>
             <note resp="AV" type="genetic"><p>À nouveau, Henri de Mesmes étoffe son propos pour

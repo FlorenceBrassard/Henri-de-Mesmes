@@ -82,7 +82,8 @@
                     <del seq="2" facs="#f19v01_i_maiesté" xml:id="f19v01_maiesté">ma<choice>
                             <orig>i</orig>
                             <reg>j</reg>
-                        </choice>esté</del> que lecteur de son <subst>
+                        </choice>esté</del> que lecteur<note resp="AV" type="gloss">Que n’importe
+                        quel lecteur.</note> de son <subst>
                         <del seq="1" xml:id="f19v01_temps01">temps</del>
                         <del seq="2"><add seq="1" xml:id="f19v01_siecle">siecle</add></del>
                         <add seq="2" xml:id="f19v01_temps02">temps</add>
