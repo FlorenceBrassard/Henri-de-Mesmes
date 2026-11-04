@@ -45,8 +45,9 @@
                         <orig/>
                         <reg>'</reg>
                     </choice>ay donc pas intention de <seg xml:id="f17r04_croniquer"
-                        >croniquer</seg><ptr xml:id="f17r04_gloss_01"/> mes gestes<ptr
-                        xml:id="f17r04_gloss_02"/>, <subst>
+                        >croniquer</seg><note resp="AV" type="gloss">Relater, faire le récit
+                        historique.</note> mes gestes<note resp="AV" type="gloss">Les actions que
+                        j’ai accomplies (<hi rend="italic">res gestae</hi>).</note>, <subst>
                         <del facs="#f17r04_i_ma_mem"><add>ma profession n<choice>
                                     <orig/>
                                     <reg>'</reg>
@@ -66,8 +67,9 @@
                                 <del>soufferts</del>
                                 <add>produits</add>
                             </subst>
-                            <seg xml:id="f17r04_dignes_histoire">dignes de grande histoire</seg><ptr
-                                xml:id="f17r04_gloss_03"/><choice>
+                            <seg xml:id="f17r04_dignes_histoire">dignes de grande
+                                histoire</seg><note resp="AV" type="gloss">Ma profession ne les a
+                                pas produits dignes de la grande histoire.</note><choice>
                                 <orig/>
                                 <reg>,</reg>
                             </choice></add>
@@ -78,7 +80,7 @@
                         memoires</seg>, afin qu'en <del xml:id="f17r04_me">me</del> ramente<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ant<ptr xml:id="f17r04_gloss_04"/> le passé <choice>
+                    </choice>ant<note resp="AV" type="gloss">Remémorant.</note> le passé <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e <subst>
@@ -112,20 +114,11 @@
                     </choice>é<ptr xml:id="f17r04_comment_01"/>.</s></ab>
         </body>
         <back>
-            <div type="glossary">
-                <note resp="AV" type="gloss" target="f17r04_gloss_01"><p>Relater, faire le récit
-                        historique.</p></note>
-                <note resp="AV" type="gloss" target="f17r04_gloss_02"><p>Les actions que j’ai
-                        accomplies (<hi rend="italic">res gestae</hi>).</p></note>
-                <note resp="AV" type="gloss" target="f17r04_gloss_03"><p>Ma profession ne les a pas
-                        produits dignes de la grande histoire.</p></note>
-                <note resp="AV" type="gloss" target="f17r04_gloss_04"><p>Remémorant.</p></note>
-            </div>
             <note resp="AV" type="comment" target="#f17r04_comment_01"><p>Henri de Mesmes présente
                     d’abord ses Mémoires comme une œuvre écrite pour lui-même, dans le but de rendre
                     grâce à Dieu. Une seconde motivation est évoquée juste après : léguer à son fils
-                    et héritier, Jean-Jacques, un patrimoine moral et mémoriel. Une troisième demeure
-                    tacite : celle de rétablir une réputation entachée. La formule « petits
+                    et héritier, Jean-Jacques, un patrimoine moral et mémoriel. Une troisième
+                    demeure tacite : celle de rétablir une réputation entachée. La formule « petits
                     memoires » limite la longueur et l’ambition du propos, ainsi que l’ampleur de sa
                     réception (Virastau, 2022). Elle relève d’un <hi rend="italic">topos</hi> de
                     modestie autant qu’elle signale, par comparaison avec d’autres Mémoires

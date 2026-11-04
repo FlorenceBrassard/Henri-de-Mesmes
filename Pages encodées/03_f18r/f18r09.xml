@@ -60,7 +60,7 @@
                   target="#f18r09_au_regle2 #f18r09_de_vie #f18r09_a_discipline"/> scolasti<choice>
                   <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
-               </choice><ptr xml:id="f18r09_gloss_01"/> pour nous f<choice>
+               </choice><note resp="AV" type="gloss">De l'école.</note> pour nous f<choice>
                   <abbr>e<hi rend="superscript">r</hi></abbr>
                   <expan>aire</expan>
                </choice> en <choice>
@@ -78,9 +78,6 @@
                   </choice></del>eau courante.</s></ab>
       </body>
       <back>
-         <div type="glossary">
-            <note resp="AV" type="gloss" target="f18r09_gloss_01"><p>De l'école.</p></note>
-         </div>
          <note resp="FB" type="genetic"><p>La suppression de « seuerité » n’est pas clairement
                marquée, même si le soulignement peut être considéré une rature maladroite. Elle
                semble toutefois nécessaire en vertu des nombreux quasi-synonymes qui ont été ajoutés

@@ -55,7 +55,7 @@
                     </subst> premiers ans fort celebre <subst>
                         <del>pour ses</del>
                         <add>ez</add>
-                    </subst><ptr xml:id="f17v03_gloss_01"/> lectures <subst>
+                    </subst><note resp="AV" type="gloss">En ses, grâce à ses.</note> lectures <subst>
                         <del>en</del>
                         <add>du</add>
                     </subst> droict ci<choice>
@@ -151,7 +151,8 @@
         </body>
         <back>
             <div type="glossary">
-                <note resp="AV" type="gloss" target="f17v03_gloss_01"><p>En ses, grâce à ses.</p></note>
+                <note resp="AV" type="gloss" target="f17v03_gloss_01"><p>En ses, grâce à
+                    ses.</p></note>
             </div>
             <note resp="AV" type="comment" target="f17v03_comment_01"><p>Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes enseigne quelque temps à l’université

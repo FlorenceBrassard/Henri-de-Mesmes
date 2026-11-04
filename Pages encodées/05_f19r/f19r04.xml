@@ -69,8 +69,8 @@
                         <add facs="#f19r04_i_vn_promenoir"><seg xml:id="f19r04_vn_musique"><choice>
                                     <orig>v</orig>
                                     <reg>u</reg>
-                                </choice>n peu de musique</seg> et de promenoir<ptr
-                                xml:id="f19r04_gloss_01"/></add>
+                                </choice>n peu de musique</seg> et de promenoir<note resp="AV"
+                                type="gloss">Promenade.</note></add>
                     </subst><del seq="1"> et</del> quelquefois <add facs="#f19r04_i_nous"
                         xml:id="f19r04_nous">nous</add><substJoin
                         target="#f19r04_nous_lres #f19r04_nous"/> alions disner chez <subst seq="2">
@@ -123,7 +123,8 @@
                     </choice>ions ordinaires a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ec nous<ptr xml:id="f19r04_gloss_02"/>
+                    </choice>ec nous<note resp="AV" type="gloss">Comme membres de notre entourage
+                        quotidien.</note>
                     <persName ref="Q376210"><forename>Hadrianus</forename>
                         <surname>Turnebus</surname></persName><ptr xml:id="f19r04_comment_01"/><choice>
                         <orig/>
@@ -146,7 +147,8 @@
                     <add>lors tresca<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ant<ptr xml:id="f19r04_gloss_03"/> medecin</add>.</s>
+                        </choice>ant<note resp="AV" type="gloss">Très savant.</note>
+                    medecin</add>.</s>
                 <s>
                     <choice>
                         <orig>a</orig>
@@ -173,12 +175,6 @@
                         />.<anchor xml:id="f19r04_faber"/></s></ab>
         </body>
         <back>
-            <div type="glossary">
-                <note resp="AV" type="gloss" target="f19r04_gloss_01"><p>Promenade.</p></note>
-                <note resp="AV" type="gloss" target="f19r02_gloss_01"><p>Comme membres de notre
-                        entourage quotidien.</p></note>
-                <note resp="AV" type="gloss" target="f19r02_gloss_01"><p>Très savant.</p></note>
-            </div>
             <note resp="AV" type="comment" target="f19r04_comment_01"><p>Adrien Turnèbe (1512-1565),
                     humaniste d’origine normande. Professeur à l’université de Toulouse, il détient
                     la chaire de grec au collège royal à partir de 1547, à la suite de Jacques

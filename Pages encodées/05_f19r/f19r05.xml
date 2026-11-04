@@ -37,8 +37,9 @@
          <ab><s><choice>
                   <orig>a</orig>
                   <reg>A</reg>
-               </choice>u bout des deux ans et demy nous leumes en public <add
-                  facs="#f19r05_demy_an" xml:id="f19r05_demy_an">demy an</add>
+               </choice>u bout des deux ans et demy nous leumes<note resp="AV">Lûmes (<hi
+                     rend="italic">lire</hi>).</note> en public <add facs="#f19r05_demy_an"
+                  xml:id="f19r05_demy_an">demy an</add>
                <choice>
                   <orig>a</orig>
                   <reg>à</reg>
@@ -78,8 +79,8 @@
                </choice>endant lesquels nous fre<choice>
                   <abbr><g ref="que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
-               </choice>ntions aux festes<ptr xml:id="f19r05_gloss_02"/> les disputes publiques<ptr
-                  xml:id="f19r05_comment_03"/>, et <choice>
+               </choice>ntions aux festes<note resp="AV" type="gloss">Fêtes.</note> les disputes
+                  publiques<ptr xml:id="f19r05_comment_03"/>, et <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>e n<choice>
@@ -90,16 +91,10 @@
                   <add>guiere</add>
                </subst> passer sens quelque essai <add>de mes <subst>
                      <del>estudes</del>
-                     <add>debiles<ptr xml:id="f19r05_gloss_03"/> forces</add>
+                     <add>debiles<note resp="AV" type="gloss">Faibles.</note> forces</add>
                   </subst></add>.</s></ab>
       </body>
       <back>
-         <div type="glossary">
-            <note resp="AV" type="gloss" target="f19r04_gloss_01"><p>Lûmes (<hi rend="italic"
-                     >lire</hi>).</p></note>
-            <note resp="AV" type="gloss" target="f19r04_gloss_02"><p>Fêtes.</p></note>
-            <note resp="AV" type="gloss" target="f19r04_gloss_03"><p>Fragiles.</p></note>
-         </div>
          <note resp="AV" type="comment" target="f19r05_comment_01"><p>L’école des <hi rend="italic"
                   >Institutes</hi>, du nom du manuel de droit romain rédigé à la demande de
                   Justinien I<hi rend="superscript">er</hi> (VI<hi rend="superscript"

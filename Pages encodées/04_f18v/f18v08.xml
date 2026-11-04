@@ -34,7 +34,7 @@
                </choice>ous o<choice>
                   <orig>i</orig>
                   <reg>y</reg>
-               </choice>ons<ptr xml:id="f18v08_gloss_01"/> toutes les lectures <choice>
+               </choice>ons<note resp="AV" type="gloss">Écoutions.</note> toutes les lectures <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>us<choice>
@@ -50,9 +50,6 @@
                </choice> heures <add>sonées sens intermission</add>.</s></ab>
       </body>
       <back>
-         <div type="glossary">
-            <note resp="AV" type="gloss" target="f18v08_gloss_01"><p>Écoutions.</p></note>
-         </div>
          <note resp="AV" type="genetic"><p><hi rend="italic"><hi rend="italic">Nota bene</hi> : La
                   fin du f. 18v<hi rend="superscript">o</hi> a été transcrite et encodée avec le
                   début du f. 19r<hi rend="superscript">o</hi>, dont elle dépend.</hi></p></note>

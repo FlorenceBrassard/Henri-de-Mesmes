@@ -133,8 +133,9 @@
                                     de</del>
                                 <add facs="#f17r02_i_les01" xml:id="f17r02_les01">les</add>
                             </subst> robe<add facs="#f17r02_i_s1" xml:id="f17r02_s_01">s</add>
-                                longue<add facs="#f17r02_i_s2" xml:id="f17r02_s_02">s</add><ptr
-                                xml:id="f17r02_gloss_01"/> n<choice>
+                                longue<add facs="#f17r02_i_s2" xml:id="f17r02_s_02">s</add><note
+                                resp="AV" type="gloss">Les hommes de robe longue, les
+                                juristes.</note> n<choice>
                                 <orig/>
                                 <reg>'</reg>
                             </choice>ont pas mo<choice>
@@ -167,10 +168,6 @@
                     </subst>.<ptr xml:id="f17r02_comment_01"/></s></ab>
         </body>
         <back>
-            <div type="glossary">
-                <note resp="AV" type="gloss" target="f17r02_gloss_01"><p>Les hommes de robe longue,
-                        les juristes.</p></note>
-            </div>
             <note resp="AV" type="comment" target="#f17r02_comment_01">Henri de Mesmes oppose le
                 passé idéalisé des récits exemplaires à un présent doublement insatisfaisant : la
                 noblesse d’épée, qui aurait de grands faits à raconter, écrirait désormais fort peu,

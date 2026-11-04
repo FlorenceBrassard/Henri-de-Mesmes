@@ -52,8 +52,9 @@
                     <placeName ref="Q7880">
                         <abbr>Thle</abbr>
                         <expan>Tholose</expan>
-                    </placeName><ptr xml:id="f18v04_gloss_01"/> pour estudier en lois<ptr
-                        xml:id="f18v04_gloss_02"/><ptr xml:id="f18v04_comment_01"/>, a<choice>
+                    </placeName><note resp="AV" type="gloss">Toulouse.</note> pour estudier en
+                        lois<note resp="AV" type="gloss">En droit.</note><ptr
+                        xml:id="f18v04_comment_01"/>, a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ec <roleName>mon precepteur</roleName> et <roleName>mon
@@ -101,10 +102,6 @@
                         xml:id="f18v06_comment_02"/>.</s></ab>
         </body>
         <back>
-            <div type="glossary">
-                <note resp="AV" type="gloss" target="f18v02_gloss_01"><p>Toulouse.</p></note>
-                <note resp="AV" type="gloss" target="f18v02_gloss_01"><p>En droit.</p></note>
-            </div>
             <note resp="AV" type="comment" target="f18v04_comment_01"><p>L’université de Toulouse
                     bénéficie d’une excellente réputation au XVI<hi rend="superscript"
                     >e</hi> siècle. C’est au droit civil, qui n’est pas enseigné à Paris et qui

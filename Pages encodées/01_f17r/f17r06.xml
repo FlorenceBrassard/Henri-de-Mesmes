@@ -235,7 +235,8 @@
                             <add>y planta <choice>
                                     <abbr rend="overlined">nre</abbr>
                                     <expan>notre</expan>
-                                </choice> race<ptr xml:id="f17r06_gloss_02"/></add>
+                                </choice> race<note resp="AV" type="gloss">Implanta notre
+                                    lignée.</note></add>
                         </subst>, <subst>
                             <del>dont <choice>
                                     <orig>i</orig>
@@ -479,11 +480,6 @@
                         target="#f17r06_ce_01 #f17r06_nom_armes"/>.</s></ab>
         </body>
         <back>
-            <div type="glossary">
-                <note resp="AV" type="gloss" target="f17r06_gloss_01"><p>.</p></note>
-                <note resp="AV" type="gloss" target="f17r06_gloss_02"><p>Implanta notre
-                    lignée.</p></note>
-            </div>
             <note resp="AV" type="comment" target="f17r06_comment_01"><p>Jean-Jacques I<hi
                         rend="superscript">er</hi> de Mesmes (1490-1569), père du mémorialiste, est
                     issu d’une famille du Marsan aux origines obscures, relevant probablement de la
