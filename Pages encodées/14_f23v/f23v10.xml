@@ -83,8 +83,11 @@
                         vacant, disponible</note><ptr xml:id="f23v10_comment_01"/>.</s></ab>
         </body>
         <back>
-            <note resp="AV" type="comment" target="#f23v10_comment_01">Un office ne peut être
-                théoriquement retiré qu. </note>
+            <note resp="AV" type="comment" target="#f23v10_comment_01">Le titulaire d’un office
+                royal est, en règle générale, inamovible : « une déclaration de 1467 porte qu’un
+                office ne peut revenir au roi que par mort, résignation ou forfaiture » (Barbiche,
+                2012, p. 78).</note>
+            <!-- modification majeure-->
             <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à dramatiser le récit : <seg
                         corresp="#f23v10_rudement_seuerement" facs="#f23v10_i_rudement_seuerement"
                         >les deux adverbes sont intervertis</seg> pour valoriser la sévérité, et
