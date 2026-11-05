@@ -79,9 +79,12 @@
                             ><metamark>^</metamark> luy vi<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ant</add> autrement vacquer.</s></ab>
+                        </choice>ant</add> autrement vacquer<note resp="AV" type="gloss">Devenir
+                        vacant, disponible</note><ptr xml:id="f23v10_comment_01"/>.</s></ab>
         </body>
         <back>
+            <note resp="AV" type="comment" target="#f23v10_comment_01">Un office ne peut être
+                théoriquement retiré qu. </note>
             <note resp="AV" type="genetic"><p>Henri de Mesmes cherche à dramatiser le récit : <seg
                         corresp="#f23v10_rudement_seuerement" facs="#f23v10_i_rudement_seuerement"
                         >les deux adverbes sont intervertis</seg> pour valoriser la sévérité, et

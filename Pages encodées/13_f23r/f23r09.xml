@@ -21,7 +21,9 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/775,3688,3020,475/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f51/775,3688,3020,475/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
@@ -32,7 +34,7 @@
                     </choice>e me deffendy come <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e peu au despour<choice>
+                    </choice>e peu<note resp="AV" type="gloss">Pus.</note> au despour<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>eu et sens a<choice>

@@ -21,7 +21,9 @@
    </teiHeader>
    <facsimile>
       <surface>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1089,1530,2491,601/full/0/default.jpg"/>
+         <graphic
+            url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f48/1089,1530,2491,601/full/0/default.jpg"
+         />
       </surface>
    </facsimile>
    <text>
@@ -53,7 +55,7 @@
                </choice>ugeois les appell<choice>
                   <abbr><hi rend="overlined">ons</hi></abbr>
                   <expan>ations</expan>
-               </choice>, aussy en sou<choice>
+               </choice><note resp="AV" type="gloss">Appels (d’un jugement).</note>, aussy en sou<choice>
                   <orig>u</orig>
                   <reg>v</reg>
                </choice>eraineté.</s></ab>

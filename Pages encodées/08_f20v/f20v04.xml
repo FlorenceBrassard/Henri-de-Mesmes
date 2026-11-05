@@ -116,7 +116,8 @@
                     </choice>e le ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>isse <add>pres sa persone</add> en l<choice>
+                    </choice>isse <add>pres<note resp="AV" type="gloss">Auprès de.</note> sa
+                        persone</add> en l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>estat de <choice>
@@ -155,10 +156,12 @@
                     </choice>uges des pro<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>inces anuaulx et les <choice>
+                    </choice>inces anuaulx<note resp="AV" type="gloss">Annuels, élus chaque
+                        année.</note> et les <choice>
                         <abbr>f<hi rend="superscript">er</hi></abbr>
                         <expan>faire</expan>
-                    </choice> sindiquer apres l<choice>
+                    </choice> sindiquer<note resp="AV" type="gloss">Leur faire rendre des
+                        comptes.</note> apres l<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>an <choice>

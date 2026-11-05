@@ -82,8 +82,9 @@
                     <subst>
                         <del>et</del>
                         <add>de</add>
-                    </subst> munitions et d'homes estant <add>ce chateau sis</add> entre nous et la
-                    ville de <placeName ref="Q2751">Siene</placeName><choice>
+                    </subst> munitions et d'homes estant <add>ce chateau sis<note resp="AV"
+                            type="gloss">Situé.</note></add> entre nous et la ville de <placeName
+                        ref="Q2751">Siene</placeName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice>
@@ -175,7 +176,8 @@
                     <del>et autres</del> a<choice>
                         <orig>u</orig>
                         <reg>e</reg>
-                    </choice>c leurs regimens, et de <choice>
+                    </choice>c leurs regimens, et de<note resp="AV" type="gloss">Et des.</note>
+                    <choice>
                         <orig>f</orig>
                         <reg>F</reg>
                     </choice>ran<choice>

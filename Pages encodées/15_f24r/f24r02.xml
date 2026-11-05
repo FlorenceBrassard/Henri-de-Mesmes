@@ -59,7 +59,8 @@
                         </choice>d<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>eux feit <subst>
+                        </choice>eux feit<note resp="AV" type="gloss">Fit.</note>
+                        <subst>
                             <del>ce <choice>
                                     <abbr><g ref="#que-glyph">ꝗ </g></abbr>
                                     <expan>qu'</expan>
@@ -70,7 +71,8 @@
                             <add>nays<choice>
                                     <orig>u</orig>
                                     <reg>v</reg>
-                                </choice>ement en home de bien</add>
+                                </choice>ement<note resp="AV" type="gloss">Naïvement,
+                                    spontanément.</note> en home de bien</add>
                         </subst><choice>
                             <orig/>
                             <reg>.</reg>
@@ -95,5 +97,16 @@
                                     </choice></add>
                             </subst> touts.</add></add></s></ab>
         </body>
+        <back>
+            <note resp="AV" type="comment"><p>Cette anecdote constitue le père en modèle de bon
+                    conseiller, capable d’aller à l’encontre de la volonté de son maître quand
+                    celle-ci va à l’encontre de l’intérêt du royaume, et brosse un portrait de
+                    François Ier en roi attentif, à défaut d’être toujours modéré. Elle donne à voir
+                    une séparation de la personne du prince et de la monarchie (la « Couronne »)
+                    (Jouanna, 1989, p. 292-293) qui prépare la dénonciation de la cour d’Henri III,
+                    où paraît régner le seul bon vouloir du souverain (Viaud, 2021, chap. 15,
+                    p. 525-562).</p></note>
+            <!-- intégration de cette note pour clôre l'épisode :)-->
+        </back>
     </text>
 </TEI>

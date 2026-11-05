@@ -75,7 +75,10 @@
                     </choice>es <choice>
                         <abbr rend="overlined">lres</abbr>
                         <expan>letres</expan>
-                    </choice> sont ceans qui valent bien d<choice>
+                    </choice> sont ceans<note resp="AV" type="gloss">Ici.</note><choice>
+                        <orig/>
+                        <reg>,</reg>
+                    </choice> qui valent bien d<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>estre gardées pour la dignité d<choice>
@@ -139,7 +142,8 @@
                         <birth>estoit acouchée</birth> moy absent</add> sept mois apres mon <choice>
                         <abbr><g ref="#par-glyph">ꝑ</g></abbr>
                         <expan>par</expan>
-                    </choice>tement de <placeName ref="Q142"><choice>
+                    </choice>tement<note resp="AV" type="gloss">Départ.</note> de <placeName
+                        ref="Q142"><choice>
                             <orig>f</orig>
                             <reg>F</reg>
                         </choice>rance</placeName><choice>
@@ -246,14 +250,17 @@
                         >Roy</roleName> a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>oit remis sus de grosses forces et sembloit <subst>
+                    </choice>oit remis sus de grosses forces<note resp="AV" type="gloss">Levé
+                        d'importantes troupes.</note> et sembloit <subst>
                         <del>un peu</del>
                         <add>presque</add>
                     </subst> rele<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>é de la <del>g<gap quantity="03" unit="char" reason="illegible"
-                            agent="author"/></del> perte faiste <choice>
+                            agent="author"/></del> perte faiste<note resp="AV" type="gloss"
+                        >Faite.</note>
+                    <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> la <date when="1557-08-10"><choice>

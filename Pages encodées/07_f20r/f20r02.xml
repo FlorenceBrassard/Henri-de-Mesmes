@@ -133,7 +133,8 @@
                             </choice>our</add> puys que mon eage estoit cou<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ert d<choice>
+                        </choice>ert<note resp="AV" type="gloss">Ne pouvait plus m'être
+                            objecté.</note> d<choice>
                             <orig> </orig>
                             <reg>'</reg>
                         </choice>entrer au <orgName>grand <choice>
@@ -371,7 +372,7 @@
                                     <orig>e</orig>
                                     <reg>é</reg>
                                 </choice></add>
-                        </subst> ce <choice>
+                        </subst><note resp="AV" type="gloss">Accordé.</note> ce <choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>our mesme par</add>
@@ -453,8 +454,8 @@
                     <add seq="2"><metamark facs="#f20r02_i_metamark07" function="insert"
                             target="#f20r02_apres_rencontres">⊸</metamark></add>
                     <add seq="2" facs="#f20r02_i_apres_rencontres" xml:id="f20r02_apres_rencontres"
-                            ><metamark>⊸</metamark> apres qu'aucuns du <orgName>conseil</orgName>
-                        eurent tesmoign<choice>
+                            ><metamark>⊸</metamark> apres qu'aucuns<note resp="AV" type="gloss"
+                            >Certains membres.</note> du <orgName>conseil</orgName> eurent tesmoign<choice>
                             <orig>e</orig>
                             <reg>é</reg>
                         </choice> de mes disputes et lectures <add><choice>

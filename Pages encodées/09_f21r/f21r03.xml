@@ -64,9 +64,10 @@
                </choice>eu charge d<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>aller visiter aucuns princes <metamark facs="#f21r03_i_metamark1"
-                  function="insert" target="#f21r03_ditalie">^</metamark><add
-                  facs="#f21r03_i_ditalie" xml:id="f21r03_ditalie"><metamark>^</metamark>d<choice>
+               </choice>aller visiter aucuns<note resp="AV" type="gloss">Certains.</note> princes
+                  <metamark facs="#f21r03_i_metamark1" function="insert" target="#f21r03_ditalie"
+                  >^</metamark><add facs="#f21r03_i_ditalie" xml:id="f21r03_ditalie"
+                     ><metamark>^</metamark>d<choice>
                      <orig/>
                      <reg>'</reg>
                   </choice><placeName ref="Q38"><choice>
@@ -99,7 +100,7 @@
                         <expan>part</expan>
                      </choice> du</del>
                   <add>par le</add>
-               </subst>
+               </subst><note resp="AV" type="gloss">De la part du.</note>
                <roleName ref="Q132545">Roy</roleName>.</s>
             <s><add xml:id="f23r03_et_depuys"><choice>
                      <orig>e</orig>

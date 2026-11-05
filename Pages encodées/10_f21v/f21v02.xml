@@ -89,8 +89,8 @@
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>uge</add><substJoin
-                        target="#f21v02_virgule #f21v02_qui_et #f21v02_iuge"/> ez matieres
-                    criminelles.</s>
+                        target="#f21v02_virgule #f21v02_qui_et #f21v02_iuge"/> ez<note resp="AV"
+                        type="gloss">En les, pour les.</note> matieres criminelles.</s>
                 <s><choice>
                         <orig>m</orig>
                         <reg>M</reg>
@@ -107,7 +107,7 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> cest <gap quantity="03" unit="char" reason="deleted" agent="author"/>
-                    office les poines et <choice>
+                    office les poines<note resp="AV" type="gloss">Peines, amendes.</note> et <choice>
                         <abbr><g ref="#con-glyph">Ꝯ</g>fisc<hi rend="overlined">ons</hi></abbr>
                         <expan>confiscations</expan>
                     </choice> qu<choice>
@@ -119,8 +119,8 @@
                     </choice>ugeoit, <subst>
                         <del>tellement</del>
                         <add>de maniere</add>
-                    </subst> que pour ce regard on appelloit de luy, ores que le criminel fust sens
-                    appel, <choice>
+                    </subst> que pour ce regard on appelloit de luy, ores que le criminel fust<note
+                        resp="AV" type="gloss">En les, pour les.</note> sens appel, <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e feis en quitant ce<del instant="true">st</del>
@@ -128,8 +128,8 @@
                             xml:id="f21v02_vil">vil</seg>
                         <metamark facs="#f21v02_i_metamark01" function="insert"
                             target="#f21v02_ores_grand">^</metamark>
-                        <add facs="#f21v02_i_ores_grand" xml:id="f21v02_ores_grand">ores que bien
-                            grand</add></del>
+                        <add facs="#f21v02_i_ores_grand" xml:id="f21v02_ores_grand">Même si le
+                            criminel était.</add></del>
                     <seg xml:id="f21v02_profit">profit</seg>, <subst>
                         <del facs="#f21v02_i_mais_toutesfois #f21v02_i_fort_casuel"
                             xml:id="f21v02_mais_casuel"><seg xml:id="f21v02_mais_gros"><seg

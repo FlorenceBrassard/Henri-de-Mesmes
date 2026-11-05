@@ -34,13 +34,15 @@
                </choice>ais <choice>
                   <orig>i</orig>
                   <reg>j'</reg>
-               </choice>estois filz de famille et ne fus <choice>
+               </choice>estois filz de famille<note resp="AV" type="gloss">Enfant qui dépend encore
+                  de l’autorité et des finances paternelles.</note> et ne fus <choice>
                   <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                   <expan>con</expan>
                </choice>seillé me charger de <choice>
                   <abbr>leg<hi rend="overlined">on</hi></abbr>
                   <expan>legation</expan>
-               </choice> de sy grosse despense.</s></ab>
+               </choice><note resp="AV" type="gloss">Missions d’ambassade.</note> de sy grosse
+               despense.</s></ab>
       </body>
    </text>
 </TEI>

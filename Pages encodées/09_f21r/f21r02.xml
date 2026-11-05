@@ -134,7 +134,8 @@
                </choice> me rendre incontin<choice>
                   <abbr>ã</abbr>
                   <expan>an</expan>
-               </choice>t a <add facs="#f21r02_i_u" xml:id="f21r02_u">u</add>
+               </choice>t<note resp="AV" type="gloss">Immédiatement.</note> a <add
+                  facs="#f21r02_i_u" xml:id="f21r02_u">u</add>
                <subst>
                   <del facs="#f21r02_i_montalcin" xml:id="f21r02_montalcin"><placeName ref="Q91208"><choice>
                            <orig>m</orig>
@@ -193,7 +194,7 @@
                      <orig/>
                      <reg>'</reg>
                   </choice>estre</del>
-               <seg xml:id="f21r02_grosse">grosse</seg>
+               <seg xml:id="f21r02_grosse">grosse</seg><note resp="AV" type="gloss">Enceinte.</note> 
                <add facs="#f21r02_i_denuiron_mois" xml:id="f21r02_denuiron_mois">d'en<choice>
                      <orig>u</orig>
                      <reg>v</reg>

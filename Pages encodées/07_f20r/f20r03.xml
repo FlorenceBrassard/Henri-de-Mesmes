@@ -114,7 +114,8 @@
                         </choice>i<choice>
                             <orig>u</orig>
                             <reg>v</reg>
-                        </choice>ance</seg>
+                        </choice>ance</seg><note resp="AV" type="gloss">Autorisation royale de
+                        succéder à l’office.</note>
                     <pb n="f20v"/><metamark facs="#f20r03_i_metamark1" function="insert"
                         target="#f20r03_de_reqtes">^</metamark>
                     <add facs="#f20r03_i_de_reqtes" xml:id="f20r03_de_reqtes">
@@ -186,7 +187,8 @@
                     </subst><subst>
                         <del facs="#f20r03_i_sien" xml:id="f20r03_sien">sien</del>
                         <add facs="#f20r03_i_son_estat" xml:id="f20r03_son_estat">son estat</add>
-                    </subst><substJoin target="#f20r03_u_e #f20r03_sien #f20r03_son_estat"/> et come <choice>
+                    </subst><note resp="AV" type="gloss">Continua d’exercer son office.</note>
+                    <substJoin target="#f20r03_u_e #f20r03_sien #f20r03_son_estat"/> et come <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e fu bien tost emploié en plusieurs charges, la mesme année <date

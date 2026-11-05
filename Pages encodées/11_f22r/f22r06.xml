@@ -103,8 +103,9 @@
                     </choice>a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ois faict grand fondement de mes services en ce bon <roleName
-                        ref="Q132545">Roy</roleName> et que le changement du <choice>
+                    </choice>ois faict grand fondement<note resp="AV" type="gloss">Fondé de grands
+                        espoirs.</note> de mes services en ce bon <roleName ref="Q132545"
+                        >Roy</roleName> et que le changement du <choice>
                         <orig>R</orig>
                         <reg>r</reg>
                     </choice>egne ne me <choice>
@@ -130,7 +131,8 @@
                         target="#f22r06_et_courtiser">^</metamark><add facs="#f22r06_i_et_courtiser"
                         xml:id="f22r06_et_courtiser"><metamark>^</metamark><add facs="#f22r06_i_et"
                             xml:id="f22r06_et">et</add> moins <seg xml:id="f22r06_courtiser"
-                            >courtiser</seg></add>
+                                >courtiser<note resp="AV" type="gloss">Me rendre à la
+                            cour.</note></seg></add>
                     <del facs="#f22r06_i_et_ciuile" xml:id="f22r06_et_ciuile">et <seg
                             xml:id="f22r06_ne_ciuile">ne me pas <choice>
                                 <orig>i</orig>
@@ -289,7 +291,8 @@
                     </choice> en la <orgName ref="Q2948401">chambre des <choice>
                             <abbr><g ref="#con-glyph">Ꝯ</g></abbr>
                             <expan>com</expan>
-                        </choice>ptes</orgName> et sa seur la <choice>
+                        </choice>ptes</orgName> et sa seur<note resp="AV" type="gloss">Sœur.</note>
+                    la <choice>
                         <abbr>presi.<hi rend="superscript">te</hi></abbr>
                         <expan>presidente</expan>
                     </choice>
@@ -426,7 +429,8 @@
                             xml:id="f22r06_vous_filz">vous <roleName ref="Q94908007">mon
                                 filz</roleName></seg>, <seg xml:id="f22r06_nacquites"
                             >nacquites</seg></del><substJoin
-                        target="#f22r06_vous_nacquites #f22r06_enuiron_nacquites"/> futes baptisé <choice>
+                        target="#f22r06_vous_nacquites #f22r06_enuiron_nacquites"/> futes<note
+                        resp="AV" type="gloss">Vous fûtes.</note> baptisé <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>

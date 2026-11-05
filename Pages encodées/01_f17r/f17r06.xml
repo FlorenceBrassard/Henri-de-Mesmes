@@ -183,10 +183,8 @@
                         </choice>an 1200</date> veint prendre terre <del>ferme</del> en <subst>
                         <del facs="#f17r06_i_Marsan" xml:id="f17r06_Marsan"><placeName
                                 ref="Q3373488">Marsan</placeName></del>
-                        <add facs="#f17r06_i_Guiene" xml:id="f17r06_Guiene"><placeName ref="Q849324">Gu<choice>
-                                    <orig>i</orig>
-                                    <reg>y</reg>
-                                </choice>ene</placeName></add>
+                        <add facs="#f17r06_i_Guiene" xml:id="f17r06_Guiene"><placeName ref="Q849324"
+                                >Guiene</placeName><note resp="AV" type="gloss">Guyenne</note></add>
                     </subst><choice>
                         <orig/>
                         <reg>,</reg>

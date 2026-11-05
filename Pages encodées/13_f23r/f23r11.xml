@@ -69,7 +69,9 @@
                         </choice> il faloit <choice>
                             <abbr><g ref="par-glyph">ꝑ</g></abbr>
                             <expan>par</expan>
-                        </choice>ler latin et de trois nommez <choice>
+                        </choice>ler latin et de trois nommez<note resp="AV" type="gloss">Parmi les
+                            trois hommes nommés.</note>
+                        <choice>
                             <orig>i</orig>
                             <reg>j'</reg>
                         </choice>a<choice>

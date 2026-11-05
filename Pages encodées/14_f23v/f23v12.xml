@@ -29,36 +29,37 @@
     <text>
         <body>
             <ab><s><said direct="true"><choice>
-                        <orig/>
-                        <reg><lb/>— </reg>
-                    </choice>C<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>est<choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> dict il<choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> l<choice>
-                        <orig/>
-                        <reg>'</reg>
-                    </choice>ad<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>ocat du Roy et de la corone<choice>
-                        <orig/>
-                        <reg>,</reg>
-                    </choice> non subiect <choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice> voz passions mais <choice>
-                        <orig>a</orig>
-                        <reg>à</reg>
-                    </choice> son de<choice>
-                        <orig>u</orig>
-                        <reg>v</reg>
-                    </choice>oir.</said></s></ab>
+                            <orig/>
+                            <reg><lb/>— </reg>
+                        </choice>C<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>est<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> dict il<choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> l<choice>
+                            <orig/>
+                            <reg>'</reg>
+                        </choice>ad<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>ocat du Roy et de la corone<note resp="AV" type="gloss"
+                            >Couronne.</note><choice>
+                            <orig/>
+                            <reg>,</reg>
+                        </choice> non subiect <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> voz passions mais <choice>
+                            <orig>a</orig>
+                            <reg>à</reg>
+                        </choice> son de<choice>
+                            <orig>u</orig>
+                            <reg>v</reg>
+                        </choice>oir.</said></s></ab>
         </body>
     </text>
 </TEI>

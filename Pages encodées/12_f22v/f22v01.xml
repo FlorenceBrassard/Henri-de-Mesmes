@@ -79,7 +79,8 @@
                             </choice>uiene</placeName></add><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> il <subst>
+                    </choice> il<note resp="AV" type="gloss">Le grand-père d’Henri de Mesmes.</note>
+                    <subst>
                         <del>a <choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
@@ -110,10 +111,11 @@
                         </choice> noms<choice>
                             <orig/>
                             <reg>,</reg>
-                        </choice> fors que moy pource que <roleName ref="Q132545">mon parr<supplied
-                                cert="high" reason="margin">ein</supplied></roleName> estoit
-                            <roleName ref="Q132545">Roy</roleName><ptr xml:id="f22v01_comment_03"/>
-                        et son nom ne se de<choice>
+                        </choice> fors que moy<note resp="AV" type="gloss">Excepté moi.</note>
+                        pource que <roleName ref="Q132545">mon parr<supplied cert="high"
+                                reason="margin">ein</supplied></roleName> estoit <roleName
+                            ref="Q132545">Roy</roleName><ptr xml:id="f22v01_comment_03"/> et son nom
+                        ne se de<choice>
                             <orig>u</orig>
                             <reg>v</reg>
                         </choice>oit acompaigné de celuy d'un autre moindre<choice>

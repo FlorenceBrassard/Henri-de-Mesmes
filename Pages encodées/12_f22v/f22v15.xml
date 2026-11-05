@@ -58,13 +58,15 @@
                             <ptr target="#f22v15_il_faisoit"/>
                         </transpose>
                     </listTranspose> tenir la <orgName>chancellerie</orgName>, <del instant="true"
-                        >pour</del> en son lieu dedens sa sale, et seler <add xml:id="f22v15_seul"
-                        >seul</add> en plein seau, <subst>
+                        >pour</del> en son lieu dedens sa sale<note resp="AV" type="gloss"
+                        >Salle.</note>, et seler <add xml:id="f22v15_seul">seul</add> en plein
+                        seau<note resp="AV" type="gloss">Marquer du sceau de la justice pour
+                        authentifier.</note>, <subst>
                         <del xml:id="f22v15_ce_acoustumé">ce qui est peu acoustumé</del>
                         <add xml:id="f22v15_quand_seoir">quand il perdoit son sang et ne pou<choice>
                                 <orig>u</orig>
                                 <reg>v</reg>
-                            </choice>oit seoir.</add>
+                            </choice>oit seoir<note resp="AV" type="gloss">Siéger.</note>.</add>
                     </subst></s><s><del>J<choice>
                             <orig/>
                             <reg>'</reg>

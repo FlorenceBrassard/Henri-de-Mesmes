@@ -102,8 +102,8 @@
                     </choice> mois de ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>ice au <orgName>sindicat</orgName> acoustumé selon les statuts de
-                        <placeName ref="Q2751">
+                    </choice>ice au sindicat<note resp="AV" type="gloss">À la procédure de
+                        contrôle.</note> acoustumé selon les statuts de <placeName ref="Q2751">
                         <choice>
                             <orig>s</orig>
                             <reg>S</reg>
@@ -125,7 +125,8 @@
                     </choice>absolu<choice>
                         <abbr><hi rend="overlined">on</hi></abbr>
                         <reg>tion</reg>
-                    </choice>
+                    </choice><note resp="AV" type="gloss">Reconnaissance du bon accomplissement de
+                        la mission.</note>
                     <subst>
                         <del>par <gap quantity="02" unit="char" reason="deleted" agent="author"/>
                             les vois de</del>
@@ -145,7 +146,8 @@
                     </subst>, et depuys tesmoignage de bien ser<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>y par toute la <orgName ref="Q736727">Republique</orgName><choice>
+                    </choice>y<note resp="AV" type="gloss">D'avoir bien servi.</note> par toute la
+                        <orgName ref="Q736727">Republique</orgName><choice>
                         <orig/>
                         <reg>,</reg>
                     </choice> dont <del><choice>
@@ -175,7 +177,8 @@
                     </choice>ois pas failly en ma charge <del instant="true">et qu<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>il</del> ny luy en son election.</s></ab>
+                        </choice>il</del> ny luy en son election<note resp="AV" type="gloss">En son
+                        choix (de ma personne).</note>.</s></ab>
         </body>
         <back>
             <note resp="AV" type="comment" target="f22r03_comment_01"><p>Francesco
