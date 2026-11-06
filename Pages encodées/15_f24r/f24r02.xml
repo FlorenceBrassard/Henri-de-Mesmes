@@ -100,13 +100,16 @@
         <back>
             <note resp="AV" type="comment"><p>Cette anecdote constitue le père en modèle de bon
                     conseiller, capable d’aller à l’encontre de la volonté de son maître quand
-                    celle-ci va à l’encontre de l’intérêt du royaume, et brosse un portrait de
-                    François Ier en roi attentif, à défaut d’être toujours modéré. Elle donne à voir
+                    celle-ci va à l’encontre
+                    <!--                    Pour éviter la répétition de l'expression « aller à l'encontre de », 
+                        peut-être considérer une reformulation comme celle-ci: « capable de s'opposer à la volonté 
+                        de son maître quand celle-ci va à l'encontre » ?--> de
+                    l’intérêt du royaume, et brosse un portrait de François I<hi rend="superscript"
+                        >er</hi> en roi attentif, à défaut d’être toujours modéré. Elle donne à voir
                     une séparation de la personne du prince et de la monarchie (la « Couronne »)
                     (Jouanna, 1989, p. 292-293) qui prépare la dénonciation de la cour d’Henri III,
                     où paraît régner le seul bon vouloir du souverain (Viaud, 2021, chap. 15,
                     p. 525-562).</p></note>
-            <!-- intégration de cette note pour clôre l'épisode :)-->
         </back>
     </text>
 </TEI>
