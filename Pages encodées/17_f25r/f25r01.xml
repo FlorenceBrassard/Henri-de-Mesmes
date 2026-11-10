@@ -224,7 +224,8 @@
                         </choice>oir</seg> plus <seg facs="#f25r01_i_dentremise">d<choice>
                             <orig/>
                             <reg>'</reg>
-                        </choice>entremise</seg>.</s><s> Depuys <seg facs="#f25r01_i_ie02"><choice>
+                        </choice>entremise<note resp="AV" type="gloss">Avait l’habitude d’avoir plus
+                            d’influence.</note></seg>.</s><s> Depuys <seg facs="#f25r01_i_ie02"><choice>
                             <orig>i</orig>
                             <reg>j</reg>
                         </choice>e</seg>

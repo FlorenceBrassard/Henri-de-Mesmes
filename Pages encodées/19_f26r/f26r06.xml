@@ -230,7 +230,7 @@
                             >r</unclear></orig>
                         <reg>R</reg>
                     </choice>ien pour cela, <unclear cert="high" reason="illegible" agent="margin"
-                        >a</unclear>ins seulement <choice>
+                        >a</unclear>ins<note resp="AV" type="gloss">Mais.</note> seulement <choice>
                         <orig><unclear cert="high" reason="illegible" agent="margin"
                             >i</unclear></orig>
                         <reg>j</reg>
@@ -283,7 +283,8 @@
                     </choice>ec tant de modestie <choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> de retien et de <del>resolut</del> mots comptez que facile estoit <choice>
+                    </choice> de retien<note resp="AV" type="gloss">Retenue.</note> et de
+                        <del>resolut</del> mots comptez que facile estoit <choice>
                         <orig>a i</orig>
                         <reg>à j</reg>
                     </choice>uger que ceste action estoit <choice>
@@ -296,7 +297,8 @@
                     <choice>
                         <abbr><g ref="#pro-glyph">ꝑ</g></abbr>
                         <expan>pro</expan>
-                    </choice>mise et stipulée.</s>
+                    </choice>mise et stipulée<note resp="AV" type="gloss">Promise de manière
+                        solennelle. La formule est redondante.</note>.</s>
                 <anchor xml:id="f26r06_stipulée"/><substJoin
                     target="#f26r06_ie_moy #f26r06_lors_stipulée #f26r06_et_le #f26r06_ce"/><s><subst>
                         <del

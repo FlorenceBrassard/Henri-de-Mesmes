@@ -21,24 +21,26 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/801,4930,2921,411/full/0/default.jpg"/>
+            <graphic
+                url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525191290/f53/801,4930,2921,411/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
     <text>
         <body>
             <ab><s><choice>
-                <orig>a</orig>
-                <reg>A</reg>
-            </choice>insy ad<choice>
-                <orig>u</orig>
-                <reg>v</reg>
-            </choice>ient il ez guerres ci<choice>
-                <orig>u</orig>
-                <reg>v</reg>
-            </choice>iles, mesme <choice>
-                <abbr>po<hi rend="superscript">r</hi></abbr>
-                <expan>pour</expan>
-            </choice> religion.</s></ab>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                    </choice>insy ad<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>ient il ez<note resp="AV" type="gloss">En les.</note> guerres ci<choice>
+                        <orig>u</orig>
+                        <reg>v</reg>
+                    </choice>iles, mesme <choice>
+                        <abbr>po<hi rend="superscript">r</hi></abbr>
+                        <expan>pour</expan>
+                    </choice> religion.</s></ab>
         </body>
     </text>
 </TEI>

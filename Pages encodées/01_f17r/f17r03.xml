@@ -60,7 +60,7 @@
                             <add xml:id="f17r03_qu_poine">qu'<choice>
                                     <orig>a</orig>
                                     <reg>à</reg>
-                                </choice> poine</add>
+                                </choice> poine<note resp="AV" type="gloss">Peine.</note></add>
                         </subst>
                         <add><del xml:id="f17r03_ceans">ceans</del></add>
                         <seg xml:id="f17r03_en_famille">en sa <del>petite</del> famille</seg></add>

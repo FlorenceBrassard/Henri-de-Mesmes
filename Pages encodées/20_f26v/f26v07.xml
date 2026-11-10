@@ -31,7 +31,8 @@
          <ab><s>Ja ne me tiens <choice>
                   <orig>i</orig>
                   <reg>j</reg>
-               </choice>e pour tel que mes plaies soient pour saigner <choice>
+               </choice>e pour tel<note resp="AV" type="gloss">Je ne m’estime pas d’une telle
+                  importance.</note> que mes plaies soient pour saigner <choice>
                   <orig>i</orig>
                   <reg>j</reg>
                </choice>us<choice>
@@ -49,7 +50,7 @@
                </choice>açoit qu<choice>
                   <orig/>
                   <reg>'</reg>
-               </choice>on ait quel<choice>
+               </choice>on<note resp="AV" type="gloss">Bien qu'on.</note> ait quel<choice>
                   <abbr><g ref="#que-glyph">ꝙ</g></abbr>
                   <expan>que</expan>
                </choice>fois veu ramener aux homes dens semblables termes les effets de la main de <choice>

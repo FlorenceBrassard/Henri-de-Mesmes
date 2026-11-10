@@ -34,7 +34,8 @@
                </choice>t bien que le ren<choice>
                   <orig>u</orig>
                   <reg>v</reg>
-               </choice>y sur mon mal ne soit que rengregement d<choice>
+               </choice>y<note resp="AV" type="gloss">Redoublement.</note> sur mon mal ne soit que
+                  rengregement<note resp="AV" type="gloss">Qu’une nouvelle aggravation.</note> d<choice>
                   <orig/>
                   <reg>'</reg>
                </choice>amertume sy m<choice>
@@ -72,7 +73,7 @@
                   <orig/>
                   <reg>'</reg>
                </choice>une longue et publique ruine les masures entrouvertes de ma petite
-               cohuete.</s></ab>
+                  cohuete<note resp="AV" type="gloss">Cahute.</note>.</s></ab>
       </body>
    </text>
 </TEI>
