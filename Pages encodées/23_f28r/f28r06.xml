@@ -51,7 +51,8 @@
                     </choice>ns aucun suspe<choice>
                         <orig>c</orig>
                         <reg>ç</reg>
-                    </choice>on <choice>
+                    </choice>on<note resp="AV" type="gloss">Soupçon.</note>
+                    <choice>
                         <abbr><g ref="#con-glyph">ꝯ</g></abbr>
                         <expan>con</expan>
                     </choice>tre moy de negligence ou d<choice>

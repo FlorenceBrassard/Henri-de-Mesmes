@@ -32,7 +32,8 @@
                                 <orig/>
                                 <reg>'</reg>
                             </choice>imprudance</del>
-                        <add>trop de reprehension</add>
+                        <add>trop de reprehension<note resp="AV" type="gloss">Il serait
+                                particulièrement critiquable de ma part.</note></add>
                     </subst> de ne <subst>
                         <del>cognoistre</del>
                         <add>sca<choice>
@@ -51,7 +52,8 @@
                     </choice> ne les cognoistre que d<choice>
                         <orig/>
                         <reg>'</reg>
-                    </choice>impudance <choice>
+                    </choice>impudance<note resp="AV" type="gloss">Imprévoyance, insolence.</note>
+                    <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> ne les sca<choice>

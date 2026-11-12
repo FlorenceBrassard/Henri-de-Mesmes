@@ -52,7 +52,8 @@
                     </choice>isa ou fut ad<choice>
                         <orig>u</orig>
                         <reg>v</reg>
-                    </choice>isée de luy dire que se plaignant <choice>
+                    </choice>isée<note resp="AV" type="gloss">Décida ou fut conseillée.</note> de
+                    luy dire que se plaignant <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice> moy de cela, <choice>
@@ -64,7 +65,8 @@
                     </choice>estois ingeré de luy prometre que <choice>
                         <orig>i</orig>
                         <reg>j</reg>
-                    </choice>e les remetrois bien ensemble.</s></ab>
+                    </choice>e les remetrois bien ensemble<note resp="AV" type="gloss">Que je les
+                        réconcilierai.</note>.</s></ab>
         </body>
     </text>
 </TEI>

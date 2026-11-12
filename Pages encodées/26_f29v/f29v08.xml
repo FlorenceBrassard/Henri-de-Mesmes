@@ -38,7 +38,7 @@
                         <add><choice>
                                 <orig>a</orig>
                                 <reg>à</reg>
-                            </choice> val</add>
+                            </choice> val<note resp="AV" type="gloss">À terre.</note></add>
                     </subst>, ains a soustenu <choice>
                         <abbr rend="overlined">nre</abbr>
                         <expan>nostre</expan>

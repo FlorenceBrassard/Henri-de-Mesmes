@@ -39,12 +39,12 @@
                         </subst></date><choice>
                         <orig>. v</orig>
                         <reg>, u</reg>
-                    </choice>n catharre <metamark function="insert" target="#f27vop3_sur_yeulx"
-                        >^</metamark><add xml:id="f27vop3_sur_yeulx"><metamark>^</metamark> sur les
-                        yeulx</add><choice>
+                    </choice>n catharre<note resp="AV" type="gloss">Une inflammation.</note>
+                    <metamark function="insert" target="#f27vop3_sur_yeulx">^</metamark><add
+                        xml:id="f27vop3_sur_yeulx"><metamark>^</metamark> sur les yeulx</add><choice>
                         <orig/>
                         <reg>,</reg>
-                    </choice> sy malin qu<choice>
+                    </choice> sy malin<note resp="AV" type="gloss">Mauvais.</note> qu<choice>
                         <orig/>
                         <reg>'</reg>
                     </choice>il m<choice>
@@ -62,7 +62,8 @@
                     </choice>elles eussent osté <choice>
                         <orig>a</orig>
                         <reg>à</reg>
-                    </choice> quelque autre non la paciance seule mais ancore la vie, <choice>
+                    </choice> quelque autre non la paciance<note resp="AV" type="gloss"
+                        >Patience.</note> seule mais ancore la vie, <choice>
                         <orig>i</orig>
                         <reg>j</reg>
                     </choice>e me mainteins neantmoins en <subst>
@@ -102,7 +103,8 @@
                         <reg>,</reg>
                     </choice>
                     <del seq="3" xml:id="f27vop3_aucun">aucun</del><substJoin
-                        target="#f27vop3_aucun #f27vop3_vn_seul"/> non pour me bander sy a<choice>
+                        target="#f27vop3_aucun #f27vop3_vn_seul"/> non pour me bander<note resp="AV"
+                        type="gloss">Raidir.</note> sy a<choice>
                         <orig>u</orig>
                         <reg>v</reg>
                     </choice>ant que celuy qui disoit<choice>
